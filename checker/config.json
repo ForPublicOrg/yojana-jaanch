@@ -1,0 +1,36 @@
+{
+  "schemes": {
+    "jsjb": {
+      "name": "Jal Sanchay Jan Bhagidari (JSJB)",
+      "portal_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx"
+    }
+  },
+  "photo_reuse": {
+    "upload_minutes": 30
+  },
+  "same_gps": {
+    "min_records": 5
+  },
+  "same_day": {
+    "min_records": 5,
+    "ignore_structure_types": []
+  },
+  "upload_burst": {
+    "window_minutes": 10,
+    "min_records": 10
+  },
+  "vision": {
+    "limit": 50,
+    "timeout_seconds": 60,
+    "max_retries": 4,
+    "retry_base_seconds": 5,
+    "max_consecutive_failures": 3
+  },
+  "severity_weight": {
+    "photo_reuse": 3,
+    "same_gps": 2,
+    "same_day": 1,
+    "upload_burst": 1,
+    "vision_mismatch": 1
+  }
+}

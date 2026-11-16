@@ -1,0 +1,749 @@
+{
+ "scheme": "jsjb",
+ "since_days": 30,
+ "about": "Order: (1) Punjab rural then urban; (2) the district holding each state or union territory capital, urban then rural; (3) every other district, state by state. District names are the portal's own. See docs/QUEUE.md.",
+ "units": [
+  {
+   "phase": "punjab",
+   "state": "PUNJAB",
+   "area": "Rural",
+   "note": "all of rural Punjab"
+  },
+  {
+   "phase": "punjab",
+   "state": "PUNJAB",
+   "area": "Urban",
+   "note": "all of urban Punjab"
+  },
+  {
+   "phase": "capitals",
+   "state": "CHANDIGARH",
+   "district": "Chandigarh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Punjab: Chandigarh; a union territory"
+  },
+  {
+   "phase": "capitals",
+   "state": "ANDAMAN AND NICOBAR ISLANDS",
+   "district": "South Andamans",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Andaman And Nicobar Islands: Sri Vijaya Puram (Port Blair)"
+  },
+  {
+   "phase": "capitals",
+   "state": "ANDHRA PRADESH",
+   "district": "Guntur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Andhra Pradesh: Amaravati; Amaravati capital region lies in Guntur district"
+  },
+  {
+   "phase": "capitals",
+   "state": "ARUNACHAL PRADESH",
+   "district": "Papum Pare",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Arunachal Pradesh: Itanagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "ASSAM",
+   "district": "Kamrup Metro",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Assam: Dispur (Guwahati); portal name for Kamrup Metropolitan"
+  },
+  {
+   "phase": "capitals",
+   "state": "BIHAR",
+   "district": "Patna",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Bihar: Patna"
+  },
+  {
+   "phase": "capitals",
+   "state": "CHANDIGARH",
+   "district": "Chandigarh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Chandigarh: Chandigarh; union territory, one district"
+  },
+  {
+   "phase": "capitals",
+   "state": "CHHATTISGARH",
+   "district": "Raipur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Chhattisgarh: Raipur (Nava Raipur)"
+  },
+  {
+   "phase": "capitals",
+   "state": "DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "district": "Daman",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Dadra And Nagar Haveli And Daman And Diu: Daman"
+  },
+  {
+   "phase": "capitals",
+   "state": "DELHI",
+   "district": "New Delhi",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Delhi: New Delhi; all of Delhi is the capital territory; New Delhi district holds the seat of government"
+  },
+  {
+   "phase": "capitals",
+   "state": "GOA",
+   "district": "North Goa",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Goa: Panaji"
+  },
+  {
+   "phase": "capitals",
+   "state": "GUJARAT",
+   "district": "Gandhinagar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Gujarat: Gandhinagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "CHANDIGARH",
+   "district": "Chandigarh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Haryana: Chandigarh; a union territory; same area as the Punjab line, runs once"
+  },
+  {
+   "phase": "capitals",
+   "state": "HIMACHAL PRADESH",
+   "district": "Shimla",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Himachal Pradesh: Shimla; Dharamshala (Kangra) is the winter capital; not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "JAMMU AND KASHMIR",
+   "district": "Srinagar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Jammu And Kashmir: Srinagar (summer)"
+  },
+  {
+   "phase": "capitals",
+   "state": "JAMMU AND KASHMIR",
+   "district": "Jammu",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Jammu And Kashmir: Jammu (winter)"
+  },
+  {
+   "phase": "capitals",
+   "state": "JHARKHAND",
+   "district": "Ranchi",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Jharkhand: Ranchi"
+  },
+  {
+   "phase": "capitals",
+   "state": "KARNATAKA",
+   "district": "Bengaluru Urban",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Karnataka: Bengaluru"
+  },
+  {
+   "phase": "capitals",
+   "state": "KERALA",
+   "district": "Thiruvananthapuram",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Kerala: Thiruvananthapuram"
+  },
+  {
+   "phase": "capitals",
+   "state": "LADAKH",
+   "district": "Leh Ladakh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Ladakh: Leh; Kargil also hosts some offices; not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "LAKSHADWEEP",
+   "district": "Lakshadweep District",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Lakshadweep: Kavaratti; one district"
+  },
+  {
+   "phase": "capitals",
+   "state": "MADHYA PRADESH",
+   "district": "Bhopal",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Madhya Pradesh: Bhopal"
+  },
+  {
+   "phase": "capitals",
+   "state": "MAHARASHTRA",
+   "district": "Mumbai",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Maharashtra: Mumbai; Mumbai Suburban and Nagpur (winter session) not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "MANIPUR",
+   "district": "Imphal West",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Manipur: Imphal; Imphal city also spans Imphal East; not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "MEGHALAYA",
+   "district": "East Khasi Hills",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Meghalaya: Shillong"
+  },
+  {
+   "phase": "capitals",
+   "state": "MIZORAM",
+   "district": "Aizawl",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Mizoram: Aizawl"
+  },
+  {
+   "phase": "capitals",
+   "state": "NAGALAND",
+   "district": "Kohima",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Nagaland: Kohima"
+  },
+  {
+   "phase": "capitals",
+   "state": "ODISHA",
+   "district": "Khordha",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Odisha: Bhubaneswar"
+  },
+  {
+   "phase": "capitals",
+   "state": "PUDUCHERRY",
+   "district": "Puducherry",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Puducherry: Puducherry"
+  },
+  {
+   "phase": "capitals",
+   "state": "RAJASTHAN",
+   "district": "Jaipur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Rajasthan: Jaipur"
+  },
+  {
+   "phase": "capitals",
+   "state": "SIKKIM",
+   "district": "Gangtok",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Sikkim: Gangtok"
+  },
+  {
+   "phase": "capitals",
+   "state": "TAMIL NADU",
+   "district": "Chennai",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Tamil Nadu: Chennai"
+  },
+  {
+   "phase": "capitals",
+   "state": "TELANGANA",
+   "district": "Hyderabad",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Telangana: Hyderabad; the city also spans Ranga Reddy and Medchal Malkajgiri; not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "TRIPURA",
+   "district": "West Tripura",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Tripura: Agartala"
+  },
+  {
+   "phase": "capitals",
+   "state": "UTTAR PRADESH",
+   "district": "Lucknow",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Uttar Pradesh: Lucknow"
+  },
+  {
+   "phase": "capitals",
+   "state": "UTTARAKHAND",
+   "district": "Dehradun",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of Uttarakhand: Dehradun; Gairsain (Chamoli) is the summer capital; not added"
+  },
+  {
+   "phase": "capitals",
+   "state": "WEST BENGAL",
+   "district": "Kolkata",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "capital of West Bengal: Kolkata"
+  },
+  {
+   "phase": "rest",
+   "state": "ANDAMAN AND NICOBAR ISLANDS",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "ANDHRA PRADESH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "ARUNACHAL PRADESH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "ASSAM",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "BIHAR",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "CHANDIGARH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "CHHATTISGARH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "DELHI",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "GOA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "GUJARAT",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "HARYANA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "HIMACHAL PRADESH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "JAMMU AND KASHMIR",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "JHARKHAND",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "KARNATAKA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "KERALA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "LADAKH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "LAKSHADWEEP",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "MADHYA PRADESH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "MAHARASHTRA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "MANIPUR",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "MEGHALAYA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "MIZORAM",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "NAGALAND",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "ODISHA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "PUDUCHERRY",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "PUNJAB",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "RAJASTHAN",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "SIKKIM",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "TAMIL NADU",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "TELANGANA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "TRIPURA",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "UTTAR PRADESH",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "UTTARAKHAND",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  },
+  {
+   "phase": "rest",
+   "state": "WEST BENGAL",
+   "district": "remaining",
+   "area": [
+    "Rural",
+    "Urban"
+   ],
+   "note": "every district of the state not queued above, in portal order"
+  }
+ ]
+}

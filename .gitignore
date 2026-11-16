@@ -1,0 +1,25 @@
+# Private or generated content. The public repository holds code only.
+data/
+site/data/
+site/photos/
+publish/
+*.log
+
+# Local environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Fetched on first publish from the OpenCV model zoo (see publisher/models/SOURCE.md)
+publisher/models/*.onnx
+publisher/models/*.part
+
+# Temporary files written before an atomic rename
+*.tmp
+*.part
+
+# Local app settings
+.claude/

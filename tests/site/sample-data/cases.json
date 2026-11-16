@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-17T00:00:00",
+  "schemes": [
+    { "id": "jsjb", "name": "Jal Sanchay Jan Bhagidari (JSJB)", "portal_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx" }
+  ],
+  "coverage": [
+    { "scheme": "jsjb", "state": "Punjab", "district": "Sangrur", "block": "Sangrur", "villages_checked": 1, "records_checked": 23, "photos_checked": null }
+  ],
+  "cases": [
+    {
+      "id": "jsjb-photo_reuse-punjab-sangrur-duggan-7438259",
+      "scheme": "jsjb",
+      "kind": "photo_reuse",
+      "headline": "One photo, 23 different works",
+      "state": "Punjab",
+      "district": "Sangrur",
+      "block": "Sangrur",
+      "villages": ["Duggan"],
+      "record_count": 23,
+      "reasons": [
+        "The same photo file is attached as evidence to 23 separate work records.",
+        "The records were entered by two different offices: BDPO SANGRUR and BDPO SUNAM II.",
+        "Record 7438259 gives GPS 30.251337, 75.735085 and a start and end date of 2026-04-29."
+      ],
+      "photo": null,
+      "offices": ["BDPO SANGRUR", "BDPO SUNAM II"],
+      "records": [
+        { "record_id": "7438259", "village": "Duggan", "structure_type": "Contour trench", "created_by": "BDPO SANGRUR", "start_date": "2026-04-29", "end_date": "2026-04-29", "lat": 30.251337, "lon": 75.735085 },
+        { "record_id": "10325558", "village": "Duggan", "structure_type": null, "created_by": null, "start_date": null, "end_date": null, "lat": null, "lon": null },
+        { "record_id": "10326599", "village": "Duggan", "structure_type": null, "created_by": null, "start_date": null, "end_date": null, "lat": null, "lon": null },
+        { "record_id": "10327039", "village": "Duggan", "structure_type": null, "created_by": null, "start_date": null, "end_date": null, "lat": null, "lon": null }
+      ],
+      "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+      "severity": 23,
+      "needs_human_review": false
+    }
+  ]
+}
