@@ -25,8 +25,11 @@ nor reset the count, so the rate never climbs past what the photos actually use)
 latency of the last WINDOW ok photos is at most RAMP_LATENCY times the baseline (the median of
 the first BASELINE_OKS ok photos this throttle saw), and when at least COOLDOWN ok photos came
 since the last back off. It halves on any trouble outcome, and drops by 1 when that median is
-over SLOW_LATENCY times the baseline. A rate that caused two back offs becomes off limits: the
-ceiling drops to one below it. The rate, the baseline and that ceiling last as long as the
+over SLOW_LATENCY times the baseline. Latency is the time to the response headers, so a large
+file or this computer's own busy connection does not read as a busy portal. A rate that caused two
+back offs for trouble becomes off limits: the ceiling drops to one below it. A slow median only
+steps the rate down; it does not lower the ceiling, since a portal busy with other users for a
+while says little about the rate. The rate, the baseline and that ceiling last as long as the
 throttle does: under the queue, the whole queue process (see new_run).
 
 More than MISSING_RUN missing answers in a row with no ok are no longer believed: a firewall or
@@ -284,7 +287,7 @@ class PhotoThrottle:
         median = statistics.median(self._recent)
         if median > SLOW_LATENCY * self.baseline and self.rate > 1:
             self._back_off(self.rate - 1, f"median {median:.2f} s of the last {WINDOW} photos is over "
-                                          f"{SLOW_LATENCY:g} times the first {self.baseline:.2f} s")
+                                          f"{SLOW_LATENCY:g} times the first {self.baseline:.2f} s", learn=False)
             return
         if self._clean >= RAMP_AFTER and self.rate < self.ceiling and median <= RAMP_LATENCY * self.baseline \
                 and (self._since_backoff is None or self._since_backoff >= COOLDOWN):
@@ -308,11 +311,12 @@ class PhotoThrottle:
         if len(self._window) == RATIO_WINDOW and len(trouble) >= RATIO_TROUBLE:
             self._trip(trouble, f"of the last {RATIO_WINDOW}")
 
-    def _back_off(self, new, reason):
+    def _back_off(self, new, reason, learn=True):
         old = self.rate
         self._since_backoff = 0
-        self._backoffs_at[old] += 1
-        if old > 1 and self._backoffs_at[old] >= 2 and self.ceiling > old - 1:
+        if learn:
+            self._backoffs_at[old] += 1
+        if learn and old > 1 and self._backoffs_at[old] >= 2 and self.ceiling > old - 1:
             self.ceiling = old - 1
             log.info("photos to %s: at most %d a second from now on (%d a second backed off twice)",
                      self.host, self.ceiling, old)

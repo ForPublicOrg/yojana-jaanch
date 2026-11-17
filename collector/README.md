@@ -132,7 +132,10 @@ How the rate moves (`collector/throttle.py`, one rate per host, every try of eve
   answered 429 or 503, or failing, halves it too. A Retry-After header, on a photo or a page,
   holds every request to that host for that long (at most 15 minutes).
 - Down by 1 when the median time of the last 20 photos is over twice the median of the first 20.
-- A rate that had to step down twice is not used again: the top becomes one below it.
+  The time is until the portal's response headers arrive, not the whole download, so a large photo
+  or this computer's own busy connection does not count as a slow portal.
+- A rate that had to step down twice for trouble is not used again: the top becomes one below it.
+  A slow median only steps the rate down; it does not lower the top.
 - Neutral: 404, 410, a redirect to a not-found page (JSJB sends missing photos to
   PageNotFound.aspx), the PMGSY image host's error page. After 20 of these in a row with no good
   photo they are no longer believed (a firewall or an overloaded host can answer that way): each

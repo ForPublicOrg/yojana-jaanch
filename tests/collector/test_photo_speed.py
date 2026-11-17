@@ -173,6 +173,20 @@ class Throttle(WithLogs):
         self.assertEqual(t.rate, 3)
         self.assertTrue(any("over 2 times the first 0.40 s" in m for m in self.messages()))
 
+    def test_slow_answers_do_not_lower_the_ceiling(self):
+        t = self.make(4, 4)
+        for _ in range(20):
+            one(t, "ok", 0.4)
+        # Slow twice at 4 a second: each time it steps down, and the ceiling stays 4.
+        for _ in range(2):
+            while t.rate == 4:
+                one(t, "ok", 1.0)
+            self.assertEqual(t.rate, 3)
+            while t.rate < 4:
+                one(t, "ok", 0.4)
+        self.assertEqual((t.rate, t.ceiling), (4, 4))
+        self.assertFalse(any("from now on" in m for m in self.messages()))
+
     def test_no_ramp_up_for_120_photos_after_a_back_off(self):
         t = self.make(4, 8)
         for _ in range(20):

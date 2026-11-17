@@ -287,10 +287,13 @@ class Client:
                 self._last[host] = time.monotonic()
             self.requests += 1
             outcome, retry_after, started = "error", None, throttle.clock() if token else 0.0
-            result, final = None, False
+            result, final, answered = None, False, None
             try:
                 with self.opener.open(urllib.request.Request(url, data=body, headers=headers),
                                       timeout=conf["timeout"]) as r:
+                    # Time to the response headers: how busy the portal is. The body time also
+                    # depends on the file size and on this computer's own bandwidth.
+                    answered = throttle.clock() if token else None
                     content = self._read(r, max_bytes, image, conf["timeout"])
                     hdrs = getattr(r, "headers", None)
                     ctype = hdrs.get_content_type() if hdrs is not None and hdrs.get("Content-Type") else None
@@ -334,7 +337,8 @@ class Client:
                 raise
             finally:
                 if token:
-                    counted = throttle.release(token, outcome, latency=throttle.clock() - started,
+                    counted = throttle.release(token, outcome,
+                                               latency=(answered if answered is not None else throttle.clock()) - started,
                                                retry_after=retry_after, detail=last)
                     suspect = counted == SUSPECT
             if suspect:
