@@ -1,0 +1,270 @@
+{
+ "scheme": "egramswaraj",
+ "since_days": 30,
+ "about": "Order: (1) all of Punjab; (2) the district holding each state or union territory capital; (3) every other district, state by state. Names are the portal's own (geoTaggingZpReport.do, read November 2026). Capitals left out because their district has no gram panchayat with geotagged works on the portal in plan years 2023-2024 to 2026-2027: Chandigarh (also capital of Punjab and Haryana), Delhi, Mumbai, Kolkata, Chennai, Hyderabad, Imphal West, and the capitals of Jammu And Kashmir, Ladakh, Lakshadweep, Andaman And Nicobar Islands, The Dadra And Nagar Haveli And Daman And Diu, Meghalaya, Nagaland and Puducherry. Those last ten states and union territories showed a count of 0 in all four plan years and are not in the plan; add them back if the state report shows activities. Each unit runs every plan year the report page offers. See collector/schemes/egramswaraj.py.",
+ "units": [
+  {
+   "phase": "punjab",
+   "state": "Punjab",
+   "note": "all of Punjab, every plan year the portal offers"
+  },
+  {
+   "phase": "capitals",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "note": "capital of Andhra Pradesh: Amaravati capital region lies in Guntur district"
+  },
+  {
+   "phase": "capitals",
+   "state": "Arunachal Pradesh",
+   "district": "Papum Pare",
+   "note": "capital of Arunachal Pradesh: Itanagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Assam",
+   "district": "Kamrup Metro",
+   "note": "capital of Assam: Dispur (Guwahati)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Bihar",
+   "district": "Patna",
+   "note": "capital of Bihar: Patna"
+  },
+  {
+   "phase": "capitals",
+   "state": "Chhattisgarh",
+   "district": "Raipur",
+   "note": "capital of Chhattisgarh: Raipur (Nava Raipur)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Goa",
+   "district": "North Goa",
+   "note": "capital of Goa: Panaji"
+  },
+  {
+   "phase": "capitals",
+   "state": "Gujarat",
+   "district": "Gandhinagar",
+   "note": "capital of Gujarat: Gandhinagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Himachal Pradesh",
+   "district": "Shimla",
+   "note": "capital of Himachal Pradesh: Shimla"
+  },
+  {
+   "phase": "capitals",
+   "state": "Jharkhand",
+   "district": "Ranchi",
+   "note": "capital of Jharkhand: Ranchi"
+  },
+  {
+   "phase": "capitals",
+   "state": "Karnataka",
+   "district": "Bengaluru Urban",
+   "note": "capital of Karnataka: Bengaluru"
+  },
+  {
+   "phase": "capitals",
+   "state": "Kerala",
+   "district": "Thiruvananthapuram",
+   "note": "capital of Kerala: Thiruvananthapuram"
+  },
+  {
+   "phase": "capitals",
+   "state": "Madhya Pradesh",
+   "district": "Bhopal",
+   "note": "capital of Madhya Pradesh: Bhopal"
+  },
+  {
+   "phase": "capitals",
+   "state": "Odisha",
+   "district": "Khordha",
+   "note": "capital of Odisha: Bhubaneswar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Rajasthan",
+   "district": "Jaipur",
+   "note": "capital of Rajasthan: Jaipur"
+  },
+  {
+   "phase": "capitals",
+   "state": "Sikkim",
+   "district": "Gangtok District",
+   "note": "capital of Sikkim: Gangtok"
+  },
+  {
+   "phase": "capitals",
+   "state": "Tripura",
+   "district": "West Tripura",
+   "note": "capital of Tripura: Agartala"
+  },
+  {
+   "phase": "capitals",
+   "state": "Uttar Pradesh",
+   "district": "Lucknow",
+   "note": "capital of Uttar Pradesh: Lucknow"
+  },
+  {
+   "phase": "capitals",
+   "state": "Uttarakhand",
+   "district": "Dehradun",
+   "note": "capital of Uttarakhand: Dehradun"
+  },
+  {
+   "phase": "rest",
+   "state": "Andhra Pradesh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Arunachal Pradesh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Assam",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Bihar",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Chhattisgarh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Goa",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Gujarat",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Haryana",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Himachal Pradesh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Jharkhand",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Karnataka",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Kerala",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Madhya Pradesh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Maharashtra",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Manipur",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Mizoram",
+   "district": "remaining",
+   "note": "the portal lists Mizoram's GPs with no district level, so the whole state is one unit (district name Mizoram); Aizawl cannot be run alone"
+  },
+  {
+   "phase": "rest",
+   "state": "Odisha",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Rajasthan",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Sikkim",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Tamil Nadu",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Telangana",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Tripura",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Uttar Pradesh",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "Uttarakhand",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  },
+  {
+   "phase": "rest",
+   "state": "West Bengal",
+   "district": "remaining",
+   "note": "every district not run above, by the portal's names in any plan year"
+  }
+ ]
+}

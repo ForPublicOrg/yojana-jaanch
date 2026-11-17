@@ -12,8 +12,9 @@ Start it from the project folder, in your own terminal:
     python run.py queue --plan plans/jsjb-india.json
 
 It runs until the plan is done. Ctrl+C stops it; the same command goes on from where it stopped.
-Only one collector or queue can write to `data/` at a time. A second one refuses to start (exit 7),
-so stop any `run.py refresh` or `run.py collect` that is still running first.
+Only one collector or queue per scheme can write to `data/` at a time. A second JSJB one refuses to
+start (exit 7), so stop any JSJB `run.py refresh` or `run.py collect` that is still running first.
+A queue of another scheme can run at the same time (see "Other schemes" below).
 
 To keep a log as well as seeing it on screen (PowerShell):
 
@@ -99,6 +100,14 @@ them:
 
 Resolved with the district lists read that day, the plan is 1506 areas: 2 for Punjab, 70 for
 capitals and 1434 for the remaining districts.
+
+## Other schemes
+
+A plan with `"scheme": "<id>"` runs that scheme's adapter. Its units set some of the adapter's
+`plan_levels` (default: its filters) besides `phase` and `note`; a level given as a list runs once
+per value, in order. Progress goes to `data/state/queue.<plan file name>.json`, so it never mixes
+with `queue.json`. `"list_only": true` in the plan, or `--list-only`, saves records without photos
+for adapters that support it. A login, CAPTCHA or 401/403 page stops the queue with exit 8.
 
 ## Plan file
 

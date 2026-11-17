@@ -7,7 +7,9 @@ Downloads public records and photos from scheme portals. Python 3.12 standard li
 Names match the portal dropdowns, ignoring case. A level you leave out means all of it.
 Bounds: `--max-villages N`, `--max-minutes M`, `--since-days D` (skip villages collected in the last D days).
 Other flags: `--delay` (seconds between requests, default 1), `--data-dir` (default `data`),
-`--photo-workers N` (see Speed below).
+`--photo-workers N` (see Speed below), `--log FILE` (default `<data-dir>/logs/<scheme>.log`, `--log ""`
+for none), `--list-only` and `--photos` (see "List first, photos later" below). The filter options
+come from the adapter: JSJB has state, district, area, block and village; another scheme may have others.
 
 To collect many areas in order over days, use the queue: `python run.py queue --plan
 plans/jsjb-india.json` (see `docs/QUEUE.md`).
@@ -15,11 +17,52 @@ plans/jsjb-india.json` (see `docs/QUEUE.md`).
 Refresh: run the same command again. Every village is re-read, new records are added, `last_seen`
 is updated, and only photo URLs missing from `data/state/<scheme>.photo_index.json` are downloaded.
 Progress is saved every 10 villages and on Ctrl+C, so a stopped run can be restarted.
-Only one collector or queue writes to a data folder at a time (`data/state/collector.lock`); a
-second one exits with code 7. The operating system releases the lock when the process ends.
+Only one collector or queue per scheme writes to a data folder at a time
+(`data/state/collector.<scheme>.lock`); a second one of the same scheme exits with code 7. JSJB
+also takes the older `data/state/collector.lock`, so a JSJB run started with older code still
+blocks a new one. The operating system releases the locks when the process ends.
 
 Outputs: `data/records/<scheme>.jsonl`, `data/records/<scheme>.coverage.json`,
 `data/photos/<sha256[:2]>/<sha256>.<ext>` (stored once per unique image).
+
+## Several schemes at once
+
+Each scheme runs in its own process, so each portal gets its own stream of requests at its own
+delay. Every file a run writes belongs to its scheme: records, coverage, journals and photo index
+(`<scheme>.*`), the run summary (`last_run.json` for jsjb, `last_run.<scheme>.json` for others),
+the queue progress (`queue.json` for jsjb, `queue.<plan file name>.json` for others), the salt
+(`<scheme>.salt`) and the log (`logs/<scheme>.log`). The only shared folder is `data/photos/`: a photo
+is written to a temporary file of its own and renamed into place, so two processes storing the
+same photo both end with one whole file.
+
+    python run.py queue --plan plans/jsjb-india.json          # terminal 1
+    python run.py queue --plan plans/<id>-<scope>.json        # terminal 2, another scheme
+
+Two queues each run the checker after an area; the checker takes `data/state/checker.lock`, so the
+second waits for the first to finish (up to 30 minutes, `--lock-wait`).
+
+## List first, photos later
+
+For a scheme whose adapter sets `supports_list_only = True`:
+
+    python run.py collect --scheme <id> --list-only [filters]   # records only, photos_state "not_fetched"
+    python run.py collect --scheme <id> --photos [--max-records N] [--max-minutes M]
+
+The list-only run saves every record with `photos_state: "not_fetched"` and its area's coverage line
+with `photos_state: "not_fetched"`; it never calls `list_photos`. A record already saved with its
+photos keeps them when its `photo_source` has not changed. The photos pass reads no area or record
+list: it calls `list_photos` on each saved record that is still `not_fetched`, marks it `fetched`
+(or `none_on_portal`), and marks the area `fetched` once all its records are. A record with a photo
+that failed stays `not_fetched` for the next pass. The checker leaves `not_fetched` records out of
+photo checks. A normal run treats a listed-only area as due under `--since-days`. JSJB does not
+support list-only (see Speed).
+
+## Trial runs
+
+Point `--data-dir` at a scratch folder; nothing then touches `data/` or `site/data`:
+
+    python run.py collect --scheme <id> --data-dir data/_trial/<id> --max-minutes 10 [filters]
+    python run.py check --data-dir data/_trial/<id>       # cases in data/_trial/<id>/preview/
 
 A village is identified in the coverage file by state, area type and code, not by code alone:
 urban ward codes use the same number range as rural village codes (Leh has wards 10856 to 10864,
@@ -61,7 +104,7 @@ delay after the last photo. In a test of 12
 photos it took 6.6 s, against about 1 s per photo one at a time. Every photo is checked exactly as
 before (the same bytes are stored, tested on a live village). Default 1. A HEAD request was not
 adopted: a known photo URL is never downloaded again anyway, and a matching size does not prove a
-matching photo. A later photo pass was not adopted: it makes the same number of requests and would
+matching photo. A later photo pass was not adopted for JSJB: there it makes the same number of requests and would
 show villages as checked before their photos are.
 
 ## One bad item does not stop the run
@@ -99,33 +142,77 @@ show villages as checked before their photos are.
 - At the end it always prints a summary (villages saved, villages and lists skipped with reasons,
   photos failed) and writes it to `data/state/last_run.json`.
 
+- A page answered with 401 or 403, or an adapter raising `AccessDenied` (a login form, a CAPTCHA,
+  a bot check), stops the run at once with exit code 8, and no more requests go to that host. A
+  photo answered with 401 or 403 is only that photo failing.
+
 Exit codes: 0 nothing skipped, 5 finished but something was skipped (rerun to retry it),
 2 layout changed everywhere, 3 a filter name was not found, 4 portal unreachable,
-6 local disk problem (disk full, no permission), 7 another collector is using the data folder,
+6 local disk problem (disk full, no permission), 7 another collector of this scheme is using the
+data folder, 8 the portal asks for a login, CAPTCHA or bot check, or refused access (401, 403),
 130 stopped by Ctrl+C, 1 unexpected error.
 Work saved before an early stop is kept.
 
 ## Adding a scheme
 
-Create `collector/schemes/<id>.py` with a subclass of `collector.base.SchemeAdapter`, then add it
-to `SCHEMES` in `collector/schemes/__init__.py`. Set `id`, `name`, `portal_url` and implement:
+Add one file, `collector/schemes/<id>.py`. Every file there with a `SchemeAdapter` subclass that
+has an `id` is registered when the collector starts; nothing else needs editing. A file that fails
+to import is left out with a warning and the other schemes still run. Files starting with `_` are
+not scanned. `tests/collector/demo_scheme.py` is a small working example.
 
-- `list_areas(filters)`: yield `Area` objects (one per village or ward), and a
-  `SkippedUnit` for each list that could not be read. `filters` has keys
-  state, district, area, block, village; `None` means all. Put whatever you need for the
-  next request in `Area.context`. Raise `FilterNotFound` if a name matches nothing.
-- `list_records(area)`: return record dicts with the fields of data contract 1, except
-  `photos`, `first_seen` and `last_seen`, which the runner fills in. Handle paging here.
-- `list_photos(record)`: return `[{"url": ..., "uploaded_at": ISO or None}]`.
+Class attributes:
 
-Use `self.client.fetch(url, data=None)` for every request; it applies robots.txt, the delay and
-retries. Raise `LayoutChanged` when an expected table or field is missing, or when what was read
-does not add up; the runner then skips that village. Raise `PortalChanged` only when the whole
-portal looks different. Never return a partial list, because the runner replaces stored records
-with it.
+- `id` (lower case, also the file prefix in `data/`), `name`, `portal_url`.
+- `filters`: filter names `list_areas` understands; each becomes a `--<name>` option and a key a
+  plan unit may set. Default: state, district, area, block, village.
+- `hosts`: `{"host": seconds}` or `{"host": {"delay": s, "timeout": s, "retries": n}}`. Unlisted
+  hosts use `--delay` (default 1 s), 60 s timeout, 4 tries. A delay below `--delay` is raised to it.
+- `supports_list_only`: `True` when each record carries what `list_photos` needs (put it under
+  `photo_source`), so `--list-only` and `--photos` work. Default `False`.
+- `plan_levels`: the filters that name a queue unit, in order (default: `filters`). `area_types`:
+  only for a JSJB-style Rural/Urban split.
+
+Methods:
+
+- `list_areas(filters)`: yield `Area` objects and a `SkippedUnit` for each list that could not be
+  read. `filters` has one key per name in `filters`; `None` means all. Raise `FilterNotFound` if a
+  name matches nothing. Name an area by its level path:
+  `Area(levels=[{"level": "state", "code": "26", "name": "Haryana"}, ...], code_system="NREGA", context=...)`.
+  Levels named state, district, block and village fill those fields; the last level fills
+  `village` and `village_code`. The coverage key is `<id>|<code_system>|<code>/<code>/...`. JSJB
+  names its areas by the old fields and keeps its old keys.
+- `list_records(area)`: return record dicts (below). Handle paging here. Never return a partial list.
+- `list_photos(record)`: return photo entries: `{"url": ..., "uploaded_at": ISO or None}` or
+  `{"data": bytes}`, each optionally with `lat`, `lon` (numbers), `taken_at`, `stage`, `label`
+  (text). Request only photo paths the portal prints. With `supports_list_only`, this gets the
+  record as saved, so it may fetch a detail page from `photo_source`.
+- `list_districts(state)`: only if plans use `"district": "remaining"`.
+
+Record fields: `scheme`, `record_id` (required), then any of state, district, block, village,
+village_code, lat, lon, start_date, end_date, structure_type, status, created_by, source_url, and
+the optional fields `parent_id` (work or road code), `stage`, `amount` (number) and `amount_kind`
+(approved, spent, instalment), `group_key` and `group_kind` (the "office" the checks group by),
+`beneficiary_ref`, `photos_state` (set `"none_on_portal"` when the portal has no photos for the
+record; the runner sets the rest), `photo_source`, and `extra` (a dict the checker ignores). The
+runner fills `photos`, `first_seen`, `last_seen` and `area_key`. Keys starting with `_` are working
+data and are never saved. Never store names, father's or husband's names, job card or registration
+numbers; if a check needs to match a number, store `self.ref(number)` as `beneficiary_ref`, a
+salted hash (salt in `data/state/<id>.salt`).
+
+Use `self.client.fetch(url, data=None)` for every page request (the runner downloads the photo
+URLs you return); the client applies robots.txt, the per-host delay and retries. Raise `LayoutChanged`
+when an expected table or field is missing or what was read does not add up (the runner skips
+that area), `PortalChanged` only when the whole portal looks different, and `AccessDenied` on any
+login form, CAPTCHA or bot check page (the run stops).
+
+Checker settings go in `checker/schemes/<id>.json` (see `checker/README.md`); the scheme stays a
+preview scheme, out of `site/data`, until that file says `"public": true`. Queue plans go in
+`plans/<id>-<scope>.json`: `{"scheme": "<id>", "since_days": 30, "units": [{"phase": "...", "<level>": "..."}]}`,
+where a level given as a list runs once per value.
 
 Tests: `python tests/collector/test_jsjb_offline.py` (saved pages),
 `python tests/collector/test_resilience.py` (fake portal with injected faults),
 `python tests/collector/test_saving.py` (appends, journals, photo workers),
-`python tests/collector/test_queue.py` (the queue) and `python tests/collector/test_attacks.py`.
-No network.
+`python tests/collector/test_queue.py` (the queue), `python tests/collector/test_attacks.py` and
+`python tests/collector/test_multi_scheme.py` (locks, shared photos, levels, hosts, registry,
+list-only and photos pass, queues of other schemes). No network.

@@ -1,0 +1,22 @@
+{
+  "name": "PMGSY road quality inspections (OMMAS)",
+  "portal_url": "https://pmgsy.dord.gov.in/",
+  "public": false,
+  "credit": "Source: the OMMAS portal of the National Rural Infrastructure Development Agency, Ministry of Rural Development. State the date each record was taken (first_seen).",
+  "group_key_means": "group_key is the quality monitor's name as printed on the inspection page (group_kind quality_monitor); extra.monitor_type says NQM (national) or SQM (state). A monitor's inspection is an official act.",
+  "checks": {
+    "photo_reuse": true,
+    "same_gps": false,
+    "same_day": false,
+    "upload_burst": false
+  },
+  "why_checks": {
+    "photo_reuse": "On. The same photo file under two inspections, of one road on different days or of different roads, is the main lead.",
+    "same_gps": "Off. A record is one inspection along a road, with no single point; the adapter leaves lat and lon empty and puts GPS on each photo.",
+    "same_day": "Off. start_date is the inspection date and there is no end date; an inspection always takes one day.",
+    "upload_burst": "Off. Photos carry taken_at (time in the file name, which matched the inspection time on the two inspections compared) but no upload time, and the time in the file name was not confirmed to be an upload time."
+  },
+  "photo_reuse": {
+    "upload_minutes": 30
+  }
+}

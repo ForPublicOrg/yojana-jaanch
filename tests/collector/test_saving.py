@@ -191,14 +191,15 @@ class PhotoWorkers(unittest.TestCase):
 
     def test_photo_requests_spread_after_the_page_request_and_before_the_next(self):
         c = Client(delay=1.0)
-        c._last = 1000.0  # the search page went out at t=1000
+        h = "jsjb.mowr.gov.in"
+        c._last[h] = 1000.0  # the search page went out at t=1000
         workers = c.photo_clients(2)
         # Earliest next request of each worker: half a delay apart, none at the same moment as the page.
-        self.assertEqual([w._last + w.delay for w in workers], [1000.5, 1001.0])
-        workers[0]._last, workers[1]._last = 1003.5, 1004.0
+        self.assertEqual([w._last[h] + w.delay for w in workers], [1000.5, 1001.0])
+        workers[0]._last[h], workers[1]._last[h] = 1003.5, 1004.0
         workers[0].requests, workers[1].requests = 4, 4
         c.photos_done(workers)
-        self.assertEqual((c._last, c.requests), (1004.0, 8))
+        self.assertEqual((c._last[h], c.requests), (1004.0, 8))
 
 
 class SameCodeTwoPlaces(unittest.TestCase):

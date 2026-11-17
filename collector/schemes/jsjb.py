@@ -92,6 +92,9 @@ class JsjbAdapter(SchemeAdapter):
     id = "jsjb"
     name = "Jal Sanchay Jan Bhagidari (JSJB)"
     portal_url = URL
+    # Plan units: state, district, and area expanded to Rural then Urban when left out.
+    area_types = ("Rural", "Urban")
+    plan_levels = ("state", "district", "area")
     session_retries = 2
     max_pages = 500
 

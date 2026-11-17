@@ -176,7 +176,61 @@ the innocent reading next to the flag and links every record so anyone can check
 | Swachh Bharat | Village code, CSC name, GPS, upload date, hashes | Private names in location text; any household toilet photo if ever found | No terms page (link points to "#") |
 | CTR | As JSJB | As JSJB | Privacy page not read (unverified) |
 | JJM | Source coordinates, scheme cost | Beneficiary names and father's or husband's name shown on the page | None found |
+| Atal Jal | Structure id, type, storage capacity, GP code, coordinates, dates, approval status, image name, hashes | The `email` field (uploader email, filled on all 6 sample rows): never store. Person names in `sitename` and `locationde` (seen "Gopal", "Kumar"): drop or hash | Terms of Use page is a disclaimer only; no reproduction or automation clause seen |
+| SPMRM (Rurban) | Work code, component, GP, status, photo coordinates and times, uploading office, hashes | People who appear in photos | Terms page shows only a linked-site copyright clause; reuse terms unverified |
+| PMKSY Per Drop More Crop | sno, location, crop, system type, area, approved date, approved cost, expenditure, photo hashes | Observer name, mobile number and email; beneficiary name and father's name (all on the detail page); the farmer if shown in a photo | Bhuvan terms (below) very likely apply; not read on this portal's own link (unverified) |
+| 15th FC panchayat works | As eGramSwaraj | As eGramSwaraj | As eGramSwaraj |
+| PMKSY Watershed (WDC 2.0) | Collection no, project, activity, stage, server and validation times, hashes | Survey numbers in "Land Identification" (was "-" in the sample), faces in photos | Bhuvan terms: no access by other means, no bulk download, no redistribution without written NRSC authorization. Ask NRSC first |
+| PMAY-Urban BLC | Salted hash of beneficiary ID, city or project totals, match counts | Beneficiary name, father's name, full address (all printed in the public table), every house photo showing the person | Bhuvan terms as above. MoHUA material calls moderated geotag images public domain (unverified on the live site) |
+| RKVY | Project code, sub sector, quantity, years, cost, expenditure, hashes | BeneficiaryName when it is a person (an agency on the sample; farmers likely elsewhere, unverified) | Bhuvan terms as above |
+| CAMPA (e-Green Watch) | Work id, division, estimates, species, photo dates, hashes | Faces of officials in "Work with Senior officers" photos | No terms or copyright page found; footer names MoEF and NIC only |
 
 General rules for every scheme: keep originals on this computer only, publish blurred copies through
 `run.py publish` after a person's review, never put names or registration numbers in URLs or public
 files, and do not collect beneficiary fields the checks do not use.
+
+## 7. More schemes scouted
+
+A second round of scouts in November 2026 looked at 25 more schemes. Same rules as above: every
+number is the scout's own measurement, and anything not seen working is marked unverified.
+
+| Rank | Scheme and portal | Feasibility | Effort | What it would expose | What blocks it |
+|---|---|---|---|---|---|
+| 1 | Atal Bhujal Yojana recharge and water conservation structures (ataljal-mis.mowr.gov.in public map, ArcGIS layer on ataljal-arcgis.mowr.gov.in) | high | small | Many structures at one point across GPs: in Baijupada block (Dausa, Rajasthan) 253 structures sat on 106 distinct points, 44 on one point. Two records from different GPs, same day, 14 minutes apart, at that point, both show a moire pattern (photos of a screen). Also photo reuse, storage claims vs type, approval vs reject remarks, overlap with JSJB, Amrit Sarovar or MGNREGA by GPS | Nothing on the public path. No robots.txt. No paging on the layer (resultRecordCount returns 400), so query one block at a time. image2 links on the mobile API host returned 404 |
+| 2 | Shyama Prasad Mukherji Rurban Mission geotagged works (rurban.gov.in) | high | small to medium | Before and after photos from one visit (one Tamil Nadu work: "Ongoing" and "Completed" photos within 40 s and about 5 m apart), same photo on several works, many works at one point, completion photos uploaded long after completion. Photo filename holds the upload epoch, so date checks run on the list alone | Slow pages (5.6 s to 8.8 s each), needs a long timeout. Gallery menu links return 404 and 500. Reuse terms unverified. Coverage of all 34 cluster links unverified |
+| 3 | 15th Finance Commission panchayat works (egramswaraj.gov.in, map view on grammanchitra.gov.in) | high | none extra | As eGramSwaraj (section 1, rank 1): these are the geotagged works there | Nothing new. Gram Manchitra asset layers unverified. No separate 15th FC photo portal found |
+| 4 | PMKSY Per Drop More Crop micro-irrigation (bhuvan-app1.nrsc.gov.in/pdmc citizen view) | high | medium | Same photo for several beneficiaries or years, EXIF time or GPS far from the tagged point or before the approved date (the one photo fetched had EXIF with phone model, GPS and time), bursts by one observer, expenditure equal to approved cost everywhere, one farm under PDMC and PM-KUSUM or MGNREGA | On Bhuvan, so the Bhuvan terms below very likely apply (this portal's own terms link not read). Highest privacy care: observer and beneficiary details on every detail page |
+| 5 | CAMPA compensatory afforestation (egreenwatch.nic.in) | medium | medium | Sanctioned estimates with no photos (work 51814: 8 estimates, no photos on the 2 checked), photo dates bunched, plantation-board photos reused across works or years | Viewstate postbacks. Many other public pages carry a CAPTCHA: stay on the no-CAPTCHA path. No bulk listing found (10 works per state query). Photo coordinates were 0,0 on all 6 sampled, so GPS checks would not work there |
+| 6 | PMKSY Watershed Development Component 2.0 (bhuvan-app1.nrsc.gov.in/wdc2.0) | medium | medium | Same photo on several geotags, device-day bursts (device id in the filename), capture vs server vs validation time, stage photos out of order, many structures at one point. Portal shows 656073 geotags | Bhuvan terms: no access by means other than the portal, no bulk download of coordinates or imagery, no redistribution, without written NRSC authorization. Needs permission first |
+| 7 | RKVY assets (bhuvan-app1.nrsc.gov.in/rkvy citizen view) | medium | medium | Photos taken years after recorded completion (sample: completed 2014, photo filename dated 2018), photo reuse, bursts, assets at one point, expenditure vs asset | Bhuvan terms as above. Only one sector sampled |
+| 8 | PMAY-Urban BLC houses (Bhuvan HFA public photo gallery) | medium | medium | One house photo for several beneficiaries, stage photos taken in one visit, device bursts, stage photo far from the earlier stage's point | Bhuvan terms as above. The state filter did not seem to apply (unverified). Public table prints beneficiary names and addresses: highest privacy risk of this round |
+| 9 | MPLADS works (mplads.mospi.gov.in eSAKSHI dashboard) | low | large | Only if photos sit inside the attachment PDFs (unverified). Otherwise money and date checks | Obfuscated client code. All 6 sampled attachments were certificate PDFs, no photo files |
+| 10 | PM-KUSUM solar pumps (pmkusum.mnre.gov.in) | low | large | Without photos, only counts by vendor, village and year | Public beneficiary list has no photo or coordinate column. Photos appear to be in logged-in views only (unverified). API not called |
+| 11 | Namami Gange field data (bhuvan-app1.nrsc.gov.in/mowr_ganga) | low | large | Unknown; field data looks like pollution or plantation reports, not per-work evidence (unverified) | No feature or photo request triggered in tests. Bhuvan terms. nmcg.nic.in failed TLS |
+
+Bhuvan terms, read by the scouts at bhuvan.nrsc.gov.in/terms.php, bar access "through any technology
+or means other than those provided by the Bhuvan portal" and bulk downloads, without prior written
+authorization from DOS, ISRO or NRSC. They cover ranks 4, 6, 7, 8 and 11, and very likely GeoMGNREGA
+(section 1, rank 3), whose row in section 6 still says the terms were not read. Settle this with NRSC
+before building any Bhuvan adapter.
+
+Cheapest next scheme of this round: Atal Jal. Plain GETs, JSON from an ArcGIS layer (99662 structures
+by its own count), one query per block, one GET per photo, no viewstate or encryption. The clustered
+points in one sampled block already show the same_gps pattern before any photo is downloaded.
+
+Ruled out, and why:
+
+- AMRUT: project lists and PDFs only, no per-project photos or geotags seen.
+- Smart Cities Mission: host did not connect from the scouting network.
+- Swachh Bharat Urban toilets: host did not connect; photo pages described in a state manual are behind logins.
+- Green India Mission: no public site-level portal found.
+- PM SVANidhi: loans to street vendors, nothing to photograph; TLS certificate reported as revoked.
+- Mission Antyodaya: GP survey answers, no evidence photos; raw CSV needs an email address.
+- MGNREGA NMMS attendance photos: links go to the Play Store app; the MIS report index has a math CAPTCHA.
+- Samagra Shiksha and UDISE+: school points only in public; civil-works photos are behind the PRABANDH login.
+- PM POSHAN kitchen sheds: event galleries only, no per-school photos.
+- Anganwadi buildings (Poshan Tracker): robots.txt disallows the map and dashboards; the rest is beneficiary login.
+- Ayushman Arogya Mandir: TLS certificate chain not trusted; not bypassed.
+- SVAMITVA: host timed out; outputs are drone maps and property cards, not evidence photos.
+- State rural works portals (MP and others): hosts unreachable or bad TLS; other states not scouted.
+- Catch the Rain (retry): host still not serving. JSJB may now hold that data (press reports, unverified).

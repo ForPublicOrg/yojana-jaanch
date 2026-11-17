@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .common import keep, make_case, plural, village_key
+from .common import keep, make_case, office, plural, village_key
 
 MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp", ".gif": "image/gif"}
 PROMPT = ("This photo was uploaded as evidence of a water conservation work of type: \"{t}\". "
@@ -40,7 +40,7 @@ def load_cache(path):
 
 def save_cache(path, cache):
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(".tmp")
+    tmp = path.with_name(f"{path.name}.{os.getpid()}.tmp")
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=1, sort_keys=True)
     os.replace(tmp, path)
@@ -85,14 +85,14 @@ def ask(s, image_path, structure_type, vcfg):
     raise RateLimited(f"gave up after {vcfg['max_retries'] + 1} attempts")
 
 
-def find(scheme, records, cfg, root, limit=None, log=print):
+def find(scheme, records, cfg, root, limit=None, log=print, data_dir=None):
     s = settings()
     if not s["base"] or not s["model"]:
         log("vision: VISION_API_BASE and VISION_MODEL must be set; skipping vision check")
         return []
     vcfg = cfg["vision"]
     limit = vcfg["limit"] if limit is None else limit
-    cache_path = Path(root) / "data" / "state" / "vision_cache.json"
+    cache_path = (Path(data_dir) if data_dir else Path(root) / "data") / "state" / "vision_cache.json"
     cache = load_cache(cache_path)
 
     photo_recs = defaultdict(list)
@@ -140,10 +140,10 @@ def find(scheme, records, cfg, root, limit=None, log=print):
             continue
         for r in photo_recs[sha]:
             if r["structure_type"] == v.get("structure_type"):
-                groups[(village_key(r), r.get("created_by"))][str(r["record_id"])] = (r, sha, v)
+                groups[(village_key(r), office(r))][str(r["record_id"])] = (r, sha, v)
 
     cases = []
-    for (vkey, office), hits in sorted(groups.items(), key=lambda kv: str(kv[0])):
+    for (vkey, by_office), hits in sorted(groups.items(), key=lambda kv: str(kv[0])):
         items = list(hits.values())
         shas = sorted({sha for _, sha, _ in items})
         village = items[0][0].get("village") or "one village"
@@ -153,7 +153,7 @@ def find(scheme, records, cfg, root, limit=None, log=print):
             v = verdicts[sha]
             if v.get("seen"):
                 reasons.append(f"Photo {sha[:12]} is claimed to show \"{v['structure_type']}\"; the model described it as: {v['seen']}.")
-        cases.append(make_case(scheme, "vision_mismatch", [vkey, office, s["model"]],
+        cases.append(make_case(scheme, "vision_mismatch", [vkey, by_office, s["model"]],
                                f"{plural(len(items), 'work')} whose photo may not show the claimed work",
                                [r for r, _, _ in items], reasons, cfg, photo=photo_file[shas[0]], needs_review=True,
                                min_records=1))

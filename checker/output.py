@@ -1,13 +1,15 @@
 import json
 import os
 import shutil
+import time
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 def coverage_rows(scheme, records, coverage):
-    blocks = defaultdict(lambda: {"villages": set(), "records": set(), "photos": set(), "names": None})
+    blocks = defaultdict(lambda: {"villages": set(), "records": set(), "photos": set(), "names": None,
+                                  "listed_only": set()})
 
     # The portal spells the same place in different cases (PUNJAB, Punjab); merge them.
     def block(row):
@@ -22,11 +24,21 @@ def coverage_rows(scheme, records, coverage):
         b["records"].add(str(r["record_id"]))
         b["photos"].update(p["sha256"] for p in r.get("photos") or [] if p.get("sha256"))
     for c in coverage:
-        block(c)["villages"].add(c.get("village_code") or c.get("village"))
-    return [{"scheme": scheme, "state": v["names"][0], "district": v["names"][1], "block": v["names"][2],
-             "villages_checked": len(v["villages"] - {None}), "records_checked": len(v["records"]),
-             "photos_checked": len(v["photos"])}
-            for _, v in sorted(blocks.items())]
+        b = block(c)
+        b["villages"].add(c.get("village_code") or c.get("village"))
+        if c.get("photos_state") == "not_fetched":
+            b["listed_only"].add(c.get("village_code") or c.get("village"))
+    rows = []
+    for _, v in sorted(blocks.items()):
+        row = {"scheme": scheme, "state": v["names"][0], "district": v["names"][1], "block": v["names"][2],
+               "villages_checked": len(v["villages"] - {None}), "records_checked": len(v["records"]),
+               "photos_checked": len(v["photos"])}
+        listed = len(v["listed_only"] - {None})
+        if listed:
+            # Areas saved by a list-only run: their records are in, their photos not checked yet.
+            row["villages_photos_not_checked"] = listed
+        rows.append(row)
+    return rows
 
 
 def areas(cases):
@@ -44,6 +56,27 @@ def areas(cases):
     return {"states": states}
 
 
+def _tmp(path):
+    # Each process writes its own temporary file, so two checkers never write into one.
+    return path.with_name(f"{path.name}.{os.getpid()}.part")
+
+
+def _replace(tmp, path, tries=5, wait=0.5):
+    """On Windows a reader (the site server, an antivirus) can hold the target open for a moment."""
+    for attempt in range(tries):
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == tries - 1:
+                try:
+                    os.remove(tmp)
+                except OSError:
+                    pass
+                raise
+            time.sleep(wait)
+
+
 def copy_photo(root, site, src):
     if not src or not src.get("file") or not src.get("sha256"):
         return None
@@ -55,19 +88,29 @@ def copy_photo(root, site, src):
     if not dest.exists():
         try:
             dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(path, dest.with_suffix(".part"))
-            os.replace(dest.with_suffix(".part"), dest)
+            tmp = _tmp(dest)
+            shutil.copyfile(path, tmp)
+            _replace(tmp, dest)
         except OSError:
             return None
     return rel
 
 
 def write_json(path, data):
+    """Whole file or nothing: written to a temporary file of this process, then renamed into place."""
+    path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(".tmp")
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
-    os.replace(tmp, path)
+    tmp = _tmp(path)
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=1)
+    except OSError:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
+    _replace(tmp, path)
 
 
 def write(root, cases, schemes, coverage, checks_run=None):
@@ -79,3 +122,18 @@ def write(root, cases, schemes, coverage, checks_run=None):
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "checks_run": checks_run or [], "schemes": schemes, "coverage": coverage, "cases": cases})
     write_json(site / "data" / "areas.json", areas(cases))
+
+
+def write_preview(preview_dir, scheme, cases, scheme_info, coverage, checks_run):
+    """Cases of a scheme that is not public yet, for a person to review. Never under site/: the
+    photo of each case is the original's path under data/, not a public copy."""
+    for c in cases:
+        src = c.pop("_photo_src", None)
+        c["photo"] = src.get("file") if src and src.get("sha256") else None
+    cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
+    path = Path(preview_dir) / f"cases.{scheme}.json"
+    write_json(path, {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "preview": True, "checks_run": checks_run, "schemes": [scheme_info], "coverage": coverage,
+        "cases": cases, "areas": areas(cases)})
+    return path

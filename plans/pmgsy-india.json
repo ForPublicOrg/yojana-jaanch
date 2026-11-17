@@ -1,0 +1,445 @@
+{
+ "scheme": "pmgsy",
+ "since_days": 30,
+ "about": "Order: (1) every district of Punjab; (2) the district holding each state or union territory capital; (3) every other district, state by state in OMMAS order. State and district names are OMMAS's own, read on 17 November 2026. Each unit reads the default month window (the current month and the 11 before it). Districts already run earlier are not run again.",
+ "units": [
+  {
+   "phase": "punjab",
+   "state": "Punjab",
+   "district": "remaining",
+   "note": "every district of Punjab, in portal order"
+  },
+  {
+   "phase": "capitals",
+   "state": "Chandigarh (UT)",
+   "district": "Chandigarh",
+   "note": "capital of Punjab and Haryana: Chandigarh; a union territory"
+  },
+  {
+   "phase": "capitals",
+   "state": "Andaman And Nicobar (UT)",
+   "district": "South Andaman",
+   "note": "capital: Sri Vijaya Puram (Port Blair)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "note": "capital: Amaravati, in Guntur district"
+  },
+  {
+   "phase": "capitals",
+   "state": "Arunachal Pradesh",
+   "district": "Papum Pare",
+   "note": "capital: Itanagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Assam",
+   "district": "Kamrup Metro",
+   "note": "capital: Dispur (Guwahati)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Bihar",
+   "district": "Patna",
+   "note": "capital: Patna"
+  },
+  {
+   "phase": "capitals",
+   "state": "Chhattisgarh",
+   "district": "Raipur",
+   "note": "capital: Raipur (Nava Raipur)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Dadra And Nagar Haveli (UT)",
+   "district": "Daman",
+   "note": "capital of Dadra And Nagar Haveli And Daman And Diu: Daman; OMMAS lists Daman under this state"
+  },
+  {
+   "phase": "capitals",
+   "state": "Daman And Diu (UT)",
+   "district": "Daman And Diu",
+   "note": "OMMAS still lists Daman And Diu as its own territory"
+  },
+  {
+   "phase": "capitals",
+   "state": "Delhi (UT)",
+   "district": "Delhi",
+   "note": "OMMAS has no New Delhi district; its district named Delhi is used (unverified which district holds the seat)"
+  },
+  {
+   "phase": "capitals",
+   "state": "Goa",
+   "district": "North Goa",
+   "note": "capital: Panaji"
+  },
+  {
+   "phase": "capitals",
+   "state": "Gujarat",
+   "district": "Gandhinagar",
+   "note": "capital: Gandhinagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Himachal Pradesh",
+   "district": "Shimla",
+   "note": "capital: Shimla"
+  },
+  {
+   "phase": "capitals",
+   "state": "Jammu And Kashmir",
+   "district": "Srinagar",
+   "note": "summer capital: Srinagar"
+  },
+  {
+   "phase": "capitals",
+   "state": "Jammu And Kashmir",
+   "district": "Jammu",
+   "note": "winter capital: Jammu"
+  },
+  {
+   "phase": "capitals",
+   "state": "Jharkhand",
+   "district": "Ranchi",
+   "note": "capital: Ranchi"
+  },
+  {
+   "phase": "capitals",
+   "state": "Karnataka",
+   "district": "Bangalore U",
+   "note": "capital: Bengaluru; OMMAS name Bangalore U"
+  },
+  {
+   "phase": "capitals",
+   "state": "Keralam",
+   "district": "Thiruvananthapuram",
+   "note": "capital: Thiruvananthapuram; OMMAS names the state Keralam"
+  },
+  {
+   "phase": "capitals",
+   "state": "Ladakh (UT)",
+   "district": "Leh",
+   "note": "capital: Leh"
+  },
+  {
+   "phase": "capitals",
+   "state": "Lakshadweep (UT)",
+   "district": "Lakshadweep",
+   "note": "capital: Kavaratti; one district"
+  },
+  {
+   "phase": "capitals",
+   "state": "Madhya Pradesh",
+   "district": "Bhopal",
+   "note": "capital: Bhopal"
+  },
+  {
+   "phase": "capitals",
+   "state": "Maharashtra",
+   "district": "Mumbai",
+   "note": "capital: Mumbai"
+  },
+  {
+   "phase": "capitals",
+   "state": "Manipur",
+   "district": "Imphal West",
+   "note": "capital: Imphal"
+  },
+  {
+   "phase": "capitals",
+   "state": "Meghalaya",
+   "district": "East Khasi Hills",
+   "note": "capital: Shillong"
+  },
+  {
+   "phase": "capitals",
+   "state": "Mizoram",
+   "district": "Aizawl",
+   "note": "capital: Aizawl"
+  },
+  {
+   "phase": "capitals",
+   "state": "Nagaland",
+   "district": "Kohima",
+   "note": "capital: Kohima"
+  },
+  {
+   "phase": "capitals",
+   "state": "Odisha",
+   "district": "Khurda",
+   "note": "capital: Bhubaneswar; OMMAS name Khurda"
+  },
+  {
+   "phase": "capitals",
+   "state": "Puducherry (UT)",
+   "district": "Puducherry",
+   "note": "capital: Puducherry"
+  },
+  {
+   "phase": "capitals",
+   "state": "Rajasthan",
+   "district": "Jaipur",
+   "note": "capital: Jaipur"
+  },
+  {
+   "phase": "capitals",
+   "state": "Sikkim",
+   "district": "East",
+   "note": "capital: Gangtok, in the district OMMAS names East"
+  },
+  {
+   "phase": "capitals",
+   "state": "Tamil Nadu",
+   "district": "Chennai",
+   "note": "capital: Chennai"
+  },
+  {
+   "phase": "capitals",
+   "state": "Telangana",
+   "district": "Hyderabad",
+   "note": "capital: Hyderabad"
+  },
+  {
+   "phase": "capitals",
+   "state": "Tripura",
+   "district": "West Tripura",
+   "note": "capital: Agartala"
+  },
+  {
+   "phase": "capitals",
+   "state": "Uttar Pradesh",
+   "district": "Lucknow",
+   "note": "capital: Lucknow"
+  },
+  {
+   "phase": "capitals",
+   "state": "Uttarakhand",
+   "district": "Dehradun",
+   "note": "capital: Dehradun"
+  },
+  {
+   "phase": "capitals",
+   "state": "West Bengal",
+   "district": "Kolkata",
+   "note": "capital: Kolkata"
+  },
+  {
+   "phase": "rest",
+   "state": "Andaman And Nicobar (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Andhra Pradesh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Arunachal Pradesh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Assam",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Bihar",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Chandigarh (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Chhattisgarh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Dadra And Nagar Haveli (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Daman And Diu (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Delhi (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Goa",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Gujarat",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Haryana",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Himachal Pradesh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Jammu And Kashmir",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Jharkhand",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Karnataka",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Keralam",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Ladakh (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Lakshadweep (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Madhya Pradesh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Maharashtra",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Manipur",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Meghalaya",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Mizoram",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Nagaland",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Odisha",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Puducherry (UT)",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Rajasthan",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Sikkim",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Tamil Nadu",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Telangana",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Tripura",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Uttar Pradesh",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "Uttarakhand",
+   "district": "remaining",
+   "note": ""
+  },
+  {
+   "phase": "rest",
+   "state": "West Bengal",
+   "district": "remaining",
+   "note": ""
+  }
+ ]
+}

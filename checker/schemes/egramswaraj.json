@@ -1,0 +1,20 @@
+{
+  "name": "eGramSwaraj geotagged panchayat works",
+  "portal_url": "https://egramswaraj.gov.in/geoTaggingReport.do",
+  "public": false,
+  "group_key_meaning": "group_key is the gram panchayat code (group_kind \"gp\"): the GP that uploaded the work's stage photos. upload_burst and stage_order group by it; same_gps groups by the GP as the village.",
+  "checks": {
+    "photo_reuse": true,
+    "same_gps": true,
+    "same_day": false,
+    "upload_burst": true
+  },
+  "checks_notes": {
+    "photo_reuse": "On. The same photo file on two works or two assets is a lead. Each record is one asset of one activity in one plan year.",
+    "same_gps": "On. Records carry the point of their earliest stage photo. Many works of one GP at one point is the 'photographed at one spot' pattern.",
+    "same_day": "Off. The portal prints no start or end date for a work; upload dates are not work dates.",
+    "upload_burst": "On. Office is the GP; upload times are printed to the microsecond.",
+    "stage_order": "Scheme check in checker/egramswaraj_stages.py: stage photos uploaded out of building order, and plinth or roof photos uploaded after the completion photo. Needs checker/extra/egramswaraj_stages.py (one import line) to be loaded; until then the checker reports it as left out."
+  },
+  "extra_checks": ["egramswaraj_stages"]
+}

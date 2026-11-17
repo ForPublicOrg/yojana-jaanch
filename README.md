@@ -59,11 +59,34 @@ cron (Linux or macOS):
 
 ## Add a new scheme
 
-1. Write `collector/schemes/<id>.py`, a subclass of `collector.base.SchemeAdapter`, and add it to
-   `SCHEMES` in `collector/schemes/__init__.py`. `collector/README.md` lists the three methods.
-2. Add the scheme's name and portal URL under `schemes` in `checker/config.json`.
-3. Run `python run.py refresh --scheme <id> ...`. The checks and the site work on any scheme that
-   writes `data/records/<id>.jsonl` in the same format.
+1. Write `collector/schemes/<id>.py`, a subclass of `collector.base.SchemeAdapter`. It is found
+   by its file; no other file needs editing. `collector/README.md` lists the attributes, methods
+   and record fields; `tests/collector/demo_scheme.py` is a small example.
+2. Write `checker/schemes/<id>.json` with the scheme's `name` and `portal_url`. Its cases go to
+   `data/preview/cases.<id>.json`, not to the site, until that file also says `"public": true`.
+3. Try it in a scratch folder first:
+   `python run.py collect --scheme <id> --data-dir data/_trial/<id> --max-minutes 10 ...`, then
+   `python run.py check --data-dir data/_trial/<id>`.
+4. Write a plan `plans/<id>-<scope>.json` and run `python run.py queue --plan plans/<id>-<scope>.json`.
+
+## Run a second scheme next to JSJB
+
+Each scheme has its own lock and its own files in `data/`, so queues of different schemes run at
+the same time, each in its own terminal, each at its own portal's pace:
+
+    python run.py queue --plan plans/jsjb-india.json
+    python run.py queue --plan plans/<id>-<scope>.json
+
+A second run of the same scheme is refused (exit 7). Each queue also writes its log to
+`data/logs/<id>.log`. When both queues rebuild the site data at once, the second checker waits for
+the first.
+
+For portals that list records in bulk, save the records first and fetch photos later:
+
+    python run.py collect --scheme <id> --list-only ...
+    python run.py collect --scheme <id> --photos
+
+Records waiting for photos are left out of the photo checks until the photos pass has fetched them.
 
 ## Publishing photos
 
@@ -202,7 +225,7 @@ adding new photos.
 
 ## Tests
 
-    python tests/collector/test_jsjb_offline.py
+    python tests/collector/test_jsjb_offline.py      (and the other tests/collector/test_*.py files)
     python -m unittest discover -s tests/checker
     python -I tests/site/test_site.py
     .venv-publish\Scripts\python -m unittest discover -s tests/publisher

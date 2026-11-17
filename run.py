@@ -3,7 +3,9 @@
     python run.py refresh --scheme jsjb --state Punjab --district Sangrur --block Sangrur
     python run.py collect --scheme jsjb --state Punjab --village Duggan
     python run.py queue --plan plans/jsjb-india.json [--dry-run]   # areas in order, for days
-    python run.py check [--vision]
+    python run.py queue --plan plans/<id>-<scope>.json             # another scheme, side by side
+    python run.py collect --scheme <id> --list-only ...   then   python run.py collect --scheme <id> --photos
+    python run.py check [--vision] [--data-dir data/_trial/<id>]
     python run.py serve [--port 8000]
     python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish)
     python run.py drive-links --folder-id <id> --local-folder <Drive sync folder>   # or set GOOGLE_API_KEY
@@ -96,6 +98,12 @@ def main():
         return run("checker", rest + (["--scheme", opts.scheme] if opts.scheme else []))
 
     collect_args, check_args = split_check_flags(rest)
+    # The checker reads the folder the collector wrote to.
+    for i, arg in enumerate(collect_args):
+        if arg == "--data-dir" and i + 1 < len(collect_args):
+            check_args += collect_args[i:i + 2]
+        elif arg.startswith("--data-dir="):
+            check_args.append(arg)
     code = run("collector", [opts.scheme or "jsjb"] + collect_args)
     if opts.command == "collect":
         return code

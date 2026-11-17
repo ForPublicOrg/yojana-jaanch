@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from .common import counted, keep, make_case, parse_time, plural, span_text
+from .common import counted, keep, make_case, office, parse_time, plural, span_text
 
 
 def find(scheme, records, cfg):
@@ -51,7 +51,7 @@ def find(scheme, records, cfg):
                 reasons.append(f"The photo was uploaded {len(times)} times within {span_text(span)}"
                                f" ({times[0].isoformat(sep=' ')} to {times[-1].isoformat(sep=' ')}).")
                 extra += 1
-        offices = sorted({r.get("created_by") for r in recs if r.get("created_by")})
+        offices = sorted({office(r) for r in recs if office(r)})
         if len(offices) > 1:
             reasons.append(f"The entries were made by {len(offices)} different offices: {', '.join(offices)}.")
             extra += 1

@@ -19,8 +19,11 @@ def load_config(path=CONFIG_PATH):
 TEXT_FIELDS = ("scheme", "state", "state_code", "district", "district_code", "area_type", "block", "block_code",
                "village", "village_code", "location_text", "nature_of_work", "structure_type", "status",
                "start_date", "end_date", "community_participation", "created_by", "source_url",
-               "first_seen", "last_seen")
-PHOTO_FIELDS = ("url", "sha256", "file", "uploaded_at")
+               "first_seen", "last_seen",
+               # Optional fields for schemes other than JSJB (docs/SCHEMES.md section 3).
+               "parent_id", "stage", "amount_kind", "group_key", "group_kind", "beneficiary_ref")
+PHOTO_FIELDS = ("url", "sha256", "file", "uploaded_at", "taken_at", "stage", "label")
+PHOTOS_STATES = ("fetched", "not_fetched", "none_on_portal")
 
 
 class Skipped:
@@ -50,10 +53,12 @@ def clean_record(r):
             r[k] = str(v)
         elif v is not None and not isinstance(v, str):
             raise ValueError(f"{k} has unexpected type {type(v).__name__}")
-    for k in ("lat", "lon"):
+    for k in ("lat", "lon", "amount"):
         v = r.get(k)
         if v is not None and (isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v)):
             raise ValueError(f"{k} is not a number")
+    if r.get("photos_state") is not None and r["photos_state"] not in PHOTOS_STATES:
+        raise ValueError(f"photos_state is not one of {', '.join(PHOTOS_STATES)}")
     photos = r.get("photos")
     if photos is None:
         photos = []
@@ -65,17 +70,36 @@ def clean_record(r):
         for k in PHOTO_FIELDS:
             if p.get(k) is not None and not isinstance(p[k], str):
                 raise ValueError(f"photo {k} has unexpected type {type(p[k]).__name__}")
+        for k in ("lat", "lon"):
+            v = p.get(k)
+            if v is not None and (isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v)):
+                raise ValueError(f"photo {k} is not a number")
     r["photos"] = photos
     return r
 
 
-def load_records(root, scheme=None, skipped=None):
+def office(r):
+    """The "office" a record is grouped by: group_key when the scheme sets it (device id, GP,
+    monitor), else created_by (JSJB)."""
+    return r.get("group_key") or r.get("created_by")
+
+
+def photos_fetched(r):
+    """False for a record saved by a list-only run whose photos have not been fetched yet."""
+    return r.get("photos_state") != "not_fetched"
+
+
+def data_path(root, data_dir=None):
+    return Path(data_dir) if data_dir else Path(root) / "data"
+
+
+def load_records(root, scheme=None, skipped=None, data_dir=None):
     """Return {scheme: [records]}, one record per record_id (latest last_seen wins).
 
     Lines that are not valid JSON or not usable records are left out and counted in skipped."""
     skipped = skipped if skipped is not None else Skipped()
     out = {}
-    rec_dir = Path(root) / "data" / "records"
+    rec_dir = data_path(root, data_dir) / "records"
     for path in sorted(rec_dir.glob("*.jsonl")):
         name = path.stem
         if scheme and name != scheme:
@@ -103,8 +127,8 @@ def load_records(root, scheme=None, skipped=None):
     return out
 
 
-def load_coverage(root, scheme, skipped=None):
-    path = Path(root) / "data" / "records" / f"{scheme}.coverage.json"
+def load_coverage(root, scheme, skipped=None, data_dir=None):
+    path = data_path(root, data_dir) / "records" / f"{scheme}.coverage.json"
     if not path.exists():
         return []
     try:
@@ -198,14 +222,24 @@ def make_case(scheme, kind, key_parts, headline, records, reasons, cfg, photo=No
         "record_count": len(records),
         "reasons": reasons + spread,
         "photo": None,
-        "offices": sorted({r.get("created_by") for r in records if r.get("created_by")}),
-        "records": [{k: r.get(k) for k in ("record_id", "village", "structure_type", "created_by",
-                                             "start_date", "end_date", "lat", "lon")} for r in records],
+        "offices": sorted({office(r) for r in records if office(r)}),
+        "records": [case_record(r) for r in records],
         "source_url": next((r.get("source_url") for r in records if r.get("source_url")), None),
         "severity": weight * len(records) + extra_severity,
         "needs_human_review": needs_review,
         "_photo_src": photo,
     }
+
+
+CASE_RECORD_FIELDS = ("record_id", "village", "structure_type", "created_by", "start_date", "end_date", "lat", "lon")
+# Shown only when a scheme fills them, so JSJB cases keep the shape they always had.
+CASE_RECORD_OPTIONAL = ("parent_id", "stage", "amount", "amount_kind", "group_key", "group_kind")
+
+
+def case_record(r):
+    out = {k: r.get(k) for k in CASE_RECORD_FIELDS}
+    out.update({k: r[k] for k in CASE_RECORD_OPTIONAL if r.get(k) is not None})
+    return out
 
 
 def keep(cases):

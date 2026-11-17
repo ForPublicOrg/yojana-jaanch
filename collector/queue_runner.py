@@ -2,7 +2,10 @@
 
     python -m collector.queue_runner --plan plans/jsjb-india.json [--dry-run] [--only-phase capitals]
 
-See docs/QUEUE.md."""
+Any registered scheme can be queued: the plan's "scheme" names the adapter, and each unit sets
+some of that adapter's filters (plan_levels). Progress goes to data/state/queue.json for jsjb and
+to data/state/queue.<plan file name>.json for other schemes, so queues of different schemes run
+side by side in one data folder. See docs/QUEUE.md."""
 import argparse
 import json
 import logging
@@ -13,10 +16,10 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
-from .__main__ import EXIT, _on_signal, collect, exit_code, summary_lines
+from .__main__ import EXIT, LogFile, _on_signal, collect, default_log, exit_code, lazy_salt, make_adapter, summary_lines
 from .base import FilterNotFound
-from .http import Client, FetchError
-from .schemes import SCHEMES
+from .http import FetchError
+from .schemes import BROKEN, SCHEMES
 from .store import DataInUse, DataLock, Store, StoreError, _finish_in_place, _parse_time, _write_atomic, now_iso
 
 log = logging.getLogger("collector.queue")
@@ -24,6 +27,7 @@ log = logging.getLogger("collector.queue")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AREAS = ("Rural", "Urban")
 DISTRICT_LIST_DAYS = 7
+JSJB_LEVELS = ("state", "district", "area")
 
 
 class PlanError(Exception):
@@ -38,17 +42,34 @@ def unit_key(state, district, area):
     return f"{_cf(state)}|{_cf(district) or '*'}|{_cf(area) or '*'}"
 
 
-def _areas(value):
+def _areas(value, area_types=AREAS):
+    if not area_types:
+        # A scheme without area types: a list means each value in turn, anything else is one filter value.
+        if value is None or value == "":
+            return [None]
+        return list(value) if isinstance(value, list) else [value]
     if value in (None, "", "both"):
-        return list(AREAS)
+        return list(area_types)
     values = [value] if isinstance(value, str) else list(value)
     for v in values:
-        if v not in AREAS:
-            raise PlanError(f"area must be Rural, Urban, both or a list of those, not {v!r}")
+        if v not in area_types:
+            raise PlanError(f"area must be {', '.join(area_types)}, both or a list of those, not {v!r}")
     return values
 
 
-def load_plan(path):
+def plan_levels(adapter_cls):
+    """Filters that name a plan unit, in order. JSJB: state, district, area."""
+    if adapter_cls is None:
+        return JSJB_LEVELS
+    return tuple(getattr(adapter_cls, "plan_levels", None) or getattr(adapter_cls, "filters", None) or JSJB_LEVELS)
+
+
+def _jsjb_shaped(adapter_cls):
+    return plan_levels(adapter_cls) == JSJB_LEVELS and tuple(getattr(adapter_cls, "area_types", AREAS) or ()) == AREAS
+
+
+def load_plan(path, adapter_cls=None):
+    """adapter_cls None: the plan's own "scheme" (default jsjb) is looked up among the registered adapters."""
     try:
         with open(path, encoding="utf-8") as f:
             plan = json.load(f)
@@ -56,19 +77,44 @@ def load_plan(path):
         raise PlanError(f"could not read the plan {path}: {e}") from None
     if not isinstance(plan, dict) or not isinstance(plan.get("units"), list) or not plan["units"]:
         raise PlanError(f"{path}: expected an object with a non-empty \"units\" list")
+    if adapter_cls is None:
+        adapter_cls = SCHEMES.get(plan.get("scheme", "jsjb"))
+    levels = plan_levels(adapter_cls)
+    area_types = tuple(getattr(adapter_cls, "area_types", AREAS) or ()) if adapter_cls else AREAS
     for i, u in enumerate(plan["units"], 1):
-        if not isinstance(u, dict) or not u.get("state") or not u.get("phase"):
-            raise PlanError(f"{path}: unit {i} needs at least \"phase\" and \"state\"")
-        _areas(u.get("area"))
+        if _jsjb_shaped(adapter_cls):
+            if not isinstance(u, dict) or not u.get("state") or not u.get("phase"):
+                raise PlanError(f"{path}: unit {i} needs at least \"phase\" and \"state\"")
+        elif not isinstance(u, dict) or not u.get("phase"):
+            raise PlanError(f"{path}: unit {i} needs at least \"phase\"")
+        else:
+            unknown = sorted(k for k in u if k not in levels and k not in ("phase", "note"))
+            if unknown:
+                raise PlanError(f"{path}: unit {i} has {', '.join(unknown)}; this scheme's plan units take "
+                                f"phase, note and {', '.join(levels)}")
+        if "area" in levels:
+            _areas(u.get("area"), area_types)
     return plan
 
 
-def resolve(plan, districts_of, only_phases=None):
+def _label(u, levels):
+    if levels == JSJB_LEVELS:
+        return f"{u['state']} > {u['district'] or 'all districts'} > {u['area']}"
+    parts = [str(u[k]) for k in levels if u.get(k)]
+    return " > ".join(parts) or "everything"
+
+
+def resolve(plan, districts_of, only_phases=None, adapter_cls=None):
     """Plan units -> ordered list of runnable units, one per (state, district or whole state, area).
 
     A unit with "district": "remaining" stands for every district of that state, in portal order, that
     no earlier unit covers; districts_of(state) returns the portal's names or raises. Units repeated
-    (Chandigarh is the capital of two states and a territory) run once, at their first place."""
+    (Chandigarh is the capital of two states and a territory) run once, at their first place.
+
+    For an adapter whose plan_levels are not JSJB's state, district and area, each unit sets some of
+    those levels; a level given as a list runs once per value, in that order."""
+    if adapter_cls is not None and not _jsjb_shaped(adapter_cls):
+        return _resolve_general(plan, districts_of, only_phases, adapter_cls)
     out, seen, covered, problems = [], set(), set(), []
     for u in plan["units"]:
         state, district, phase = u["state"], u.get("district"), u["phase"]
@@ -102,15 +148,73 @@ def resolve(plan, districts_of, only_phases=None):
     return out, problems
 
 
+def _resolve_general(plan, districts_of, only_phases, adapter_cls):
+    levels = plan_levels(adapter_cls)
+    area_types = tuple(getattr(adapter_cls, "area_types", ()) or ())
+    out, seen, problems = [], set(), []
+
+    def expand(u):
+        combos = [{}]
+        for k in levels:
+            v = u.get(k)
+            if k == "area":
+                values = _areas(v, area_types)
+            elif k == "district" and v == "remaining":
+                try:
+                    values = districts_of(u.get("state"))
+                except Exception as e:
+                    problems.append({"phase": u["phase"], "state": u.get("state"), "error": str(e)})
+                    return []
+            else:
+                values = v if isinstance(v, list) else [v]
+            combos = [dict(c, **{k: x}) for c in combos for x in values]
+        return combos
+
+    for u in plan["units"]:
+        for combo in expand(u):
+            key = "|".join(_cf(combo.get(k)) or "*" for k in levels)
+            if key in seen:
+                continue
+            seen.add(key)
+            unit = {"key": key, "phase": u["phase"], "note": u.get("note", ""), "levels": list(levels)}
+            unit.update({k: combo.get(k) for k in levels})
+            unit["label"] = _label(unit, levels)
+            out.append(unit)
+    if only_phases:
+        wanted = {_cf(p) for p in only_phases}
+        out = [u for u in out if _cf(u["phase"]) in wanted]
+        problems = [p for p in problems if _cf(p["phase"]) in wanted]
+    return out, problems
+
+
 def describe(u):
+    if u.get("label"):
+        return u["label"]
     return f"{u['state']} > {u['district'] or 'all districts'} > {u['area']}"
 
 
-class QueueState:
-    """data/state/queue.json: what each unit did last, and cached district lists."""
+def unit_filters(u, adapter):
+    """Collector filters for one unit: the unit's levels, None for every other filter of the adapter."""
+    names = tuple(getattr(adapter, "filters", None) or ("state", "district", "area", "block", "village"))
+    levels = u.get("levels") or JSJB_LEVELS
+    out = {k: None for k in names}
+    out.update({k: u.get(k) for k in levels})
+    return out
 
-    def __init__(self, data_dir, read_only=False):
-        self.path = os.path.join(data_dir, "state", "queue.json")
+
+def queue_file(scheme, plan_path):
+    """jsjb keeps data/state/queue.json; another scheme's plan gets queue.<plan file name>.json."""
+    if scheme == "jsjb":
+        return "queue.json"
+    stem = os.path.splitext(os.path.basename(plan_path))[0]
+    return f"queue.{stem}.json"
+
+
+class QueueState:
+    """data/state/queue.json (or queue.<plan>.json): what each unit did last, and cached district lists."""
+
+    def __init__(self, data_dir, read_only=False, name="queue.json"):
+        self.path = os.path.join(data_dir, "state", name)
         self.data = {"units": {}, "districts": {}}
         src = self.path
         if read_only:
@@ -189,11 +293,14 @@ def district_lister(adapter, state, refresh=True, now=None):
 
 
 def run_checker(data_dir):
-    """Rebuild site/data from the records. Only for the project's own data folder."""
+    """Rebuild the cases from the records. For a folder named data, the project's own: site/data for
+    public schemes and data/preview/ for the others. For any other folder (a trial run under
+    data/_trial/<id>) only <folder>/preview/ is written, never site/data."""
     data_dir = os.path.abspath(data_dir)
     if os.path.basename(data_dir) != "data":
-        log.info("checker not run: the data folder is not named data")
-        return None
+        cmd = [sys.executable, "-m", "checker", "--root", ROOT, "--data-dir", data_dir]
+        log.info("updating the preview cases of this data folder: %s", " ".join(cmd))
+        return subprocess.call(cmd, cwd=ROOT)
     root = os.path.dirname(data_dir)
     cmd = [sys.executable, "-m", "checker", "--root", root]
     log.info("updating the website data: %s", " ".join(cmd))
@@ -202,12 +309,14 @@ def run_checker(data_dir):
 
 def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, only_phases=None, dry_run=False,
               photo_workers=1, check=run_checker, out=print, sleep=time.sleep, collect_fn=collect,
-              outage_wait=1800, max_layout_stops=2, max_empty_in_a_row=10, clock=time.monotonic):
+              outage_wait=1800, max_layout_stops=2, max_empty_in_a_row=10, clock=time.monotonic,
+              state_name="queue.json", list_only=False):
     """Returns an exit code: 0 all done (or time budget used), 5 some units failed (rerun to retry them),
-    2 the layout looks changed everywhere, 6 disk trouble, 130 stopped."""
+    2 the layout looks changed everywhere, 6 disk trouble, 8 the portal refused access, 130 stopped."""
     started = clock()
-    state = QueueState(data_dir, read_only=dry_run)
-    units, problems = resolve(plan, district_lister(adapter, state), only_phases)
+    state = QueueState(data_dir, read_only=dry_run, name=state_name)
+    adapter_cls = type(adapter) if adapter is not None else None
+    units, problems = resolve(plan, district_lister(adapter, state), only_phases, adapter_cls)
     if not dry_run:
         state.save()
     order = order_units(units, state)
@@ -244,14 +353,15 @@ def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, o
 
     def run_unit(u, last_try):
         nonlocal layout_stops, network_stops
-        rec = state.data["units"].setdefault(u["key"], {"state": u["state"], "district": u["district"],
-                                                         "area": u["area"], "phase": u["phase"], "attempts": 0})
+        first = {k: u.get(k) for k in (u.get("levels") or JSJB_LEVELS)}
+        rec = state.data["units"].setdefault(u["key"], dict(first, phase=u["phase"], attempts=0))
         rec.update(status="running", started_at=now_iso(), attempts=rec.get("attempts", 0) + 1)
         state.save()
         out(f"\n=== [{u['phase']}] {describe(u)} (attempt {rec['attempts']})")
-        filters = {"state": u["state"], "district": u["district"], "area": u["area"], "block": None, "village": None}
+        filters = unit_filters(u, adapter)
+        kw = {"list_only": True} if list_only else {}
         stats = collect_fn(adapter, store, filters, max_minutes=minutes_left(), since_days=since_days,
-                           photo_workers=photo_workers)
+                           photo_workers=photo_workers, **kw)
         c = exit_code(stats)
         for k, t in (("villages", "villages"), ("records", "records"), ("new_records", "new_records"),
                      ("photos_downloaded", "photos")):
@@ -335,6 +445,11 @@ def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, o
                 if kind == "disk":
                     code = EXIT["disk"]
                     break
+                if kind == "access":
+                    out("\nThe portal asks for a login, a CAPTCHA or a bot check, or refused access (401 or 403). "
+                        "Stopping the queue; nothing was tried to get past it. Check the portal by hand.")
+                    code = EXIT["access"]
+                    break
                 if empty_streak[0] >= max_empty_in_a_row:
                     out(f"\n{empty_streak[0]} areas in a row listed no towns or villages at all; the portal has "
                         "probably changed how it fills its lists. Stopping the queue.")
@@ -360,7 +475,7 @@ def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, o
             if not last_try and problems:
                 # District lists that could not be read at the start: try once more before the retry pass.
                 known = {u["key"] for u in units}
-                units2, problems = resolve(plan, district_lister(adapter, state), only_phases)
+                units2, problems = resolve(plan, district_lister(adapter, state), only_phases, adapter_cls)
                 extra = [u for u in units2 if u["key"] not in known]
                 units += extra
                 retry[:0] = [u for u in extra if not state.done_recently(u["key"], since_days)]
@@ -405,6 +520,11 @@ def main(argv=None):
     ap.add_argument("--photo-workers", type=int, default=1, choices=range(1, 5), metavar="N",
                     help="photos downloaded at a time, 1 to 4 (default 1)")
     ap.add_argument("--no-check", action="store_true", help="do not run the checker after each area")
+    ap.add_argument("--list-only", action="store_true",
+                    help="save records without photos (the adapter must support it); "
+                         "fetch them later with python run.py collect --scheme <id> --photos")
+    ap.add_argument("--log", help="also write the log to this file (default: <data-dir>/logs/<scheme>.log; "
+                                  "empty to turn off; never written by --dry-run)")
     ap.add_argument("--data-dir", default="data")
     a = ap.parse_args(argv)
     for stream in (sys.stdout, sys.stderr):
@@ -418,7 +538,17 @@ def main(argv=None):
             except (ValueError, OSError):
                 pass
     try:
-        plan = load_plan(a.plan)
+        with open(a.plan, encoding="utf-8") as f:
+            scheme = json.load(f).get("scheme", "jsjb")
+    except (OSError, ValueError, AttributeError):
+        scheme = "jsjb"
+    if scheme not in SCHEMES:
+        why = f" (collector/schemes/{scheme}.py does not import: {BROKEN[scheme]})" if scheme in BROKEN else ""
+        log.error("the plan names scheme %r, which is not a registered adapter%s; registered: %s",
+                  scheme, why, ", ".join(sorted(SCHEMES)))
+        return 3
+    try:
+        plan = load_plan(a.plan, SCHEMES[scheme])
         phases = {_cf(u["phase"]) for u in plan["units"]}
         unknown = [p for p in a.only_phase or [] if _cf(p) not in phases]
         if unknown:
@@ -427,28 +557,40 @@ def main(argv=None):
     except PlanError as e:
         log.error("%s", e)
         return 3
-    scheme = plan.get("scheme", "jsjb")
     since = a.since_days if a.since_days is not None else float(plan.get("since_days", 30))
-    adapter = SCHEMES[scheme](Client(delay=a.delay))
+    list_only = a.list_only or bool(plan.get("list_only"))
+    if list_only and not getattr(SCHEMES[scheme], "supports_list_only", False):
+        log.error("%s does not support list-only runs", scheme)
+        return 3
+    adapter = make_adapter(scheme, None, a.delay)
+    state_name = queue_file(scheme, a.plan)
     out = lambda s: print(s, flush=True)
     if a.dry_run:
-        return run_queue(plan, adapter, None, a.data_dir, since, only_phases=a.only_phase, dry_run=True, out=out)
+        return run_queue(plan, adapter, None, a.data_dir, since, only_phases=a.only_phase, dry_run=True, out=out,
+                         state_name=state_name)
     try:
-        lock = DataLock(a.data_dir)
+        lock = DataLock(a.data_dir, scheme)
     except StoreError as e:
         log.error("%s", e)
         return EXIT["busy" if isinstance(e, DataInUse) else "disk"]
+    logfile = LogFile(default_log(a.data_dir, scheme) if a.log is None else a.log)
     try:
+        def out(s):
+            print(s, flush=True)
+            logfile.write(s)
         try:
             store = Store(a.data_dir, scheme)
         except StoreError as e:
             log.error("%s", e)
             return EXIT["disk"]
+        lazy_salt(adapter, store)
         return run_queue(plan, adapter, store, a.data_dir, since, a.max_minutes, a.only_phase,
-                         photo_workers=a.photo_workers, check=None if a.no_check else run_checker, out=out)
+                         photo_workers=a.photo_workers, check=None if a.no_check else run_checker, out=out,
+                         state_name=state_name, list_only=list_only)
     except KeyboardInterrupt:
         return EXIT["interrupted"]
     finally:
+        logfile.close()
         lock.release()
 
 

@@ -9,7 +9,25 @@ python -m checker                      # all schemes found in data/records
 python -m checker --scheme jsjb        # one scheme (cases.json then holds only that scheme)
 python -m checker --vision --vision-limit 20
 python -m checker --root path/to/project
+python -m checker --data-dir data/_trial/<id>   # cases in data/_trial/<id>/preview/, site/ untouched
 ```
+
+Public schemes (`"public": true` in `checker/schemes/<id>.json`; jsjb is public) go to `site/data`.
+Every other scheme is a preview scheme: its cases go to `data/preview/cases.<id>.json`, with each
+case photo given as the original's path under `data/`, and never to `site/`. `--scheme <id>` for a
+preview scheme leaves `site/data` alone.
+
+Only one checker runs at a time per data folder (`data/state/checker.lock`); another waits up to
+`--lock-wait` minutes (default 30), then exits with code 7. Output files are written to a
+temporary file and renamed into place.
+
+Each entry of `schemes` in `cases.json` lists `checks_run` for that scheme, and `checks_off` with
+the reason a check did not run. A check is off for a scheme when its settings turn it off, or when
+no record of the scheme has a field the check needs: `photo_reuse` needs photo sha256,
+`same_gps` lat and lon, `same_day` start_date, end_date and structure_type, `upload_burst` an
+office (`group_key`, else `created_by`) and photo upload times. Records with `photos_state`
+`"not_fetched"` are left out of the photo checks. The top level `checks_run` lists the checks run
+for at least one public scheme.
 
 A line that is not valid JSON, a record without `record_id`, or a field of an unexpected type
 (for example `photos` that is not a list, or `lat` that is text) is left out and counted; the count
@@ -38,11 +56,20 @@ that ran this time, so the site can tell "not run" apart from "found nothing".
 Severity is `severity_weight[kind] x record_count`, plus 1 for each supporting reason on a
 photo_reuse case. Cases are sorted by severity, highest first.
 
+## checker/schemes/<id>.json
+
+One file per scheme, laid over `config.json`'s `schemes.<id>`. Keys, all optional: `name`,
+`portal_url`, `public` (true to publish), `checks` (for example `{"same_day": false}`),
+`extra_checks` (module names in `checker/extra/`, see `checker/extra/__init__.py`), and any of
+`photo_reuse`, `same_gps`, `same_day`, `upload_burst`, `vision`, `severity_weight` to replace
+`config.json` values for this scheme only, key by key. A file that cannot be read is reported and
+ignored.
+
 ## config.json
 
 JSON has no comments, so every key is described here.
 
-- `schemes.<id>.name`, `schemes.<id>.portal_url`: display name and portal link for the site. A scheme missing here uses its id as the name and the first record's `source_url`.
+- `schemes.<id>.name`, `schemes.<id>.portal_url`, `schemes.<id>.public`: display name, portal link and publish flag for the site. New schemes put these in `checker/schemes/<id>.json` instead. A scheme missing from both uses its id as the name and the first record's `source_url`.
 - `photo_reuse.upload_minutes`: if every upload of a reused photo falls within this many minutes, the case says so. Default 30.
 - `same_gps.min_records`: smallest group of works sharing one GPS point in a village. Default 5.
 - `same_day.min_records`: smallest group of same-day works per village and office. Default 5.

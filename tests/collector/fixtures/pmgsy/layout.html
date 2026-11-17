@@ -1,0 +1,230 @@
+<link href="/Content/css/views/report-form.css?v=1" rel="stylesheet" />
+
+
+<script src="/Areas/QualityMonitoringArea/Scripts/QMMonWorksDetailReport.js?v=3"></script>
+<div class="pmgsy-page">
+
+
+
+<nav aria-label="Breadcrumb">
+    <ol class="pmgsy-breadcrumb">
+        <li><a href="#" onclick="loadHomePage(); return false;">Home</a></li>
+            <li>Quality Monitoring</li>
+        <li aria-current="page">Works-wise Grading Abstract</li>
+    </ol>
+</nav>
+
+<header class="pmgsy-page-header">
+    <div class="pmgsy-page-titles">
+        <h1 class="pmgsy-page-title">Works-wise Grading Abstract</h1>
+    </div>
+</header>
+
+<div id="loadFilters">
+    <form id="frmQMMonWrkDtls">
+        <input name="__RequestVerificationToken" type="hidden" value="TEST-TOKEN" />
+        
+
+        <input data-val="true" data-val-number="The field Mast_State_Code must be a number." data-val-required="The Mast_State_Code field is required." id="Mast_State_Code" name="Mast_State_Code" type="hidden" value="0" />
+        <input data-val="true" data-val-number="The field Mast_District_Code must be a number." data-val-required="The Mast_District_Code field is required." id="Mast_District_Code" name="Mast_District_Code" type="hidden" value="0" />
+        <input data-val="true" data-val-number="The field Mast_Block_Code must be a number." data-val-required="The Mast_Block_Code field is required." id="Mast_Block_Code" name="Mast_Block_Code" type="hidden" value="0" />
+        <input id="StateName" name="StateName" type="hidden" value="0" />
+        <input id="DistName" name="DistName" type="hidden" value="0" />
+        <input id="BlockName" name="BlockName" type="hidden" value="0" />
+        <input data-val="true" data-val-number="The field LevelCode must be a number." data-val-required="The LevelCode field is required." id="LevelCode" name="LevelCode" type="hidden" value="1" />
+        <input data-val="true" data-val-regex="Invalid Localized Value" data-val-regex-pattern="^(\b(en|hi)\b+)$" data-val-required="Localized value required" id="localizedValue" name="localizedValue" type="hidden" value="en" />
+
+        <input id="FromMonthName" name="FromMonthName" type="hidden" value="" />
+        <input id="FromYearName" name="FromYearName" type="hidden" value="" />
+        <input id="ToMonthName" name="ToMonthName" type="hidden" value="" />
+        <input id="ToYearName" name="ToYearName" type="hidden" value="" />
+
+        <table style="width: 100%">
+            
+            <tr>
+                <td style="width: 1%; vertical-align: top;"></td>
+                <td style="text-align: left; width: 3%; vertical-align: top;">
+                    <label for="StateCode">State</label>
+                </td>
+
+                <td style="width: 12%; vertical-align: top;">
+<select data-val="true" data-val-number="The field State must be a number." data-val-range="Please select  State." data-val-range-max="2147483647" data-val-range-min="0" data-val-required="Please select State. " id="StateList_CompletedRoadDetails" name="StateCode" style="width:120px" tabindex="1" title="State"><option selected="selected" value="-1">Select State</option>
+<option value="1">Andaman And Nicobar (UT) </option>
+<option value="2">Andhra Pradesh</option>
+<option value="3">Arunachal Pradesh</option>
+<option value="4">Assam</option>
+<option value="5">Bihar</option>
+<option value="6">Chandigarh (UT) </option>
+<option value="7">Chhattisgarh</option>
+<option value="8">Dadra And Nagar Haveli (UT) </option>
+<option value="9">Daman And Diu (UT) </option>
+<option value="10">Delhi (UT) </option>
+<option value="11">Goa</option>
+<option value="12">Gujarat</option>
+<option value="13">Haryana</option>
+<option value="14">Himachal Pradesh</option>
+<option value="15">Jammu And Kashmir</option>
+<option value="16">Jharkhand</option>
+<option value="17">Karnataka</option>
+<option value="18">Keralam</option>
+<option value="37">Ladakh (UT) </option>
+<option value="19">Lakshadweep (UT) </option>
+<option value="20">Madhya Pradesh</option>
+<option value="21">Maharashtra</option>
+<option value="22">Manipur</option>
+<option value="23">Meghalaya</option>
+<option value="24">Mizoram</option>
+<option value="25">Nagaland</option>
+<option value="26">Odisha</option>
+<option value="27">Puducherry (UT) </option>
+<option value="28">Punjab</option>
+<option value="29">Rajasthan</option>
+<option value="30">Sikkim</option>
+<option value="31">Tamil Nadu</option>
+<option value="36">Telangana</option>
+<option value="32">Tripura</option>
+<option value="33">Uttar Pradesh</option>
+<option value="34">Uttarakhand</option>
+<option value="35">West Bengal</option>
+</select>                        <br />
+<span class="field-validation-valid" data-valmsg-for="StateCode" data-valmsg-replace="true"></span>                </td>
+                <td style="text-align: left; width: 4%; vertical-align: top;">
+                    <label for="DistrictCode">District</label>
+                </td>
+                <td style="width: 12%; vertical-align: top;">
+<select data-val="true" data-val-number="The field District must be a number." data-val-range="Please select District." data-val-range-max="2147483647" data-val-range-min="0" data-val-required="Please select District." id="DistrictList_CompletedRoadDetails" name="DistrictCode" style="width:120px" tabindex="2" title="District"><option selected="selected" value="0">All Districts</option>
+</select>                        <br />
+<span class="field-validation-valid" data-valmsg-for="DistrictCode" data-valmsg-replace="true"></span>                </td>
+                <td style="width: 6%; vertical-align: top;">
+                    <input id="localizedValue" name="localizedValue" type="hidden" value="en" />
+                    <label for="FrmMonth">From Month</label>
+                </td>
+                <td style="width: 10%; vertical-align: top;">
+                    <select data-val="true" data-val-number="The field From Month must be a number." data-val-range="Invalid From Month" data-val-range-max="12" data-val-range-min="1" data-val-required="From Month required" id="ddlFrmMonthQMMonWorksDetail" name="FrmMonth" tabindex="3" title="From Month"><option value="0">Select Month</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option selected="selected" value="11">November</option>
+<option value="12">December</option>
+</select>
+                    <br />
+                    <span class="field-validation-valid" data-valmsg-for="FrmMonth" data-valmsg-replace="true"></span>
+                </td>
+
+                <td style="width: 5%; vertical-align: top;">
+                    <label for="FrmYear">From Year</label>
+                </td>
+                <td style="width: 10%; vertical-align: top;">
+                    <select data-val="true" data-val-number="The field From Year must be a number." data-val-range="Invalid From Year" data-val-range-max="2147483647" data-val-range-min="1" data-val-required="From Year required" id="ddlFrmYearQMMonWorksDetail" name="FrmYear" tabindex="4" title="From Year"><option value="0">Select Year</option>
+<option selected="selected" value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+</select>
+                    <br />
+                    <span class="field-validation-valid" data-valmsg-for="FrmYear" data-valmsg-replace="true"></span>
+                </td>
+
+                <td style="width: 5%; vertical-align: top;">
+                    <label for="ToMonth">To Month</label>
+                </td>
+                <td style="width: 10%; vertical-align: top;">
+                    <select data-val="true" data-val-number="The field To Month must be a number." data-val-range="Invalid To Month" data-val-range-max="12" data-val-range-min="1" data-val-required="To Month required" id="ddlToMonthQMMonWorksDetail" name="ToMonth" tabindex="5" title="To Month"><option value="0">Select Month</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option selected="selected" value="11">November</option>
+<option value="12">December</option>
+</select>
+                    <br />
+                    <span class="field-validation-valid" data-valmsg-for="ToMonth" data-valmsg-replace="true"></span>
+                </td>
+
+                <td style="width: 4%; vertical-align: top;">
+                    <label for="ToYear">To Year</label>
+                </td>
+                <td style="width: 10%; vertical-align: top;">
+                    <select data-val="true" data-val-datecomparefieldvalidator="To Year must be greater than or equal to From Year." data-val-datecomparefieldvalidator-date="FrmMonth" data-val-number="The field To Year must be a number." data-val-range="Invalid To Year" data-val-range-max="2147483647" data-val-range-min="1" data-val-required="To Year required" id="ddlToYearQMMonWorksDetail" name="ToYear" tabindex="6" title="To Month"><option value="0">Select Year</option>
+<option selected="selected" value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+</select>
+                    <br />
+                    <span class="field-validation-valid" data-valmsg-for="ToYear" data-valmsg-replace="true"></span>
+                </td>
+
+                <td style="width: 5%; text-align: center; vertical-align: top;">
+                    <input type="button" class="button" value="View" id="btnViewQMMonWorksDetailReport" title="View Details" tabindex="7" />
+                </td>
+                <td style="width: 1%;"></td>
+            </tr>
+        </table>
+    </form>
+    <div id="divCompRoads" class="modal" style="margin-top: 12px; float: right; margin-left: 870px;">
+        <span id="spnCompRoads" class="close">X</span>
+        <span>Click on State/District/Block to view details</span>
+    </div>
+</div>
+<div id="loadReport" class="divLoadReport"></div>
+</div>
