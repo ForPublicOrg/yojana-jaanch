@@ -7,17 +7,25 @@ import signal
 import sys
 import threading
 import time
-from collections import defaultdict
+from collections import defaultdict, deque
 from datetime import datetime, timedelta, timezone
 
 from .base import AccessDenied, FilterNotFound, LayoutChanged, NothingListed, PortalChanged, SkippedUnit
 from .http import Client, FetchError
 from .schemes import BROKEN, SCHEMES
 from .store import DataInUse, DataLock, Store, StoreError, image_type, now_iso
+from .throttle import HARD_CAP
 
 log = logging.getLogger("collector")
 
 MAX_PHOTO_BYTES = 25 * 1024 * 1024
+# --photo-workers auto starts at AUTO_START photos a second and may rise to --photo-max.
+AUTO_START = 4
+DEFAULT_PHOTO_MAX = 12
+# Villages (or records, in a photos pass) listed but not yet saved while their photos download.
+MAX_PENDING = 3
+# Seconds between the photo rate lines in the log.
+SUMMARY_EVERY = 300
 EXIT = {"layout": 2, "filter": 3, "network": 4, "disk": 6, "busy": 7, "access": 8, "error": 1, "interrupted": 130}
 # Optional fields a photo entry from list_photos may carry; they are saved with the photo.
 PHOTO_EXTRAS = ("lat", "lon", "taken_at", "stage", "label")
@@ -36,46 +44,129 @@ def _download(client, url, max_bytes):
     return client.fetch(url), None
 
 
-def download_many(client, urls, workers, max_bytes):
-    """Download photos with up to `workers` at a time; each worker keeps the client delay between its
-    own requests. Returns {url: (content, ctype) or the exception}. The bytes are checked by the caller."""
-    clients = client.photo_clients(workers) if hasattr(client, "photo_clients") else [client] * workers
-    todo, out, lock, stop = list(urls), {}, threading.Lock(), threading.Event()
+def photo_settings(photo_workers, photo_max=DEFAULT_PHOTO_MAX):
+    """(threads, start, ceiling) for --photo-workers N or "auto". N: start at N, never above N.
+    auto: start at AUTO_START (or photo_max when lower), never above photo_max."""
+    if photo_workers == "auto":
+        top = max(1, min(int(photo_max), HARD_CAP))
+        return top, min(AUTO_START, top), top
+    n = max(1, min(int(photo_workers), HARD_CAP))
+    return n, n, n
 
-    def work(c):
-        while not stop.is_set():
-            with lock:
-                if not todo:
+
+class PhotoPool:
+    """Downloads photo bytes in worker threads, oldest URL first, each URL once while it is in the
+    pool. Workers only download; the caller checks, hashes and stores the bytes in its own thread.
+    The rate per host is up to the client's photo throttle."""
+
+    def __init__(self, client, threads, max_bytes):
+        self.client = client
+        self.max_bytes = max_bytes
+        self.cancel = threading.Event()
+        if hasattr(client, "photo_clients"):
+            self.clients = client.photo_clients(threads)
+            for c in self.clients:
+                if hasattr(c, "cancel"):
+                    c.cancel = self.cancel
+        else:
+            self.clients = [client] * threads
+        self._cond = threading.Condition()
+        self._queue = deque()
+        self._queued = set()
+        self._running = set()
+        self._results = {}
+        self._closed = False
+        self._threads = [threading.Thread(target=self._work, args=(c,), daemon=True) for c in self.clients]
+        for t in self._threads:
+            t.start()
+
+    def submit(self, url):
+        with self._cond:
+            if url in self._queued or url in self._running or url in self._results:
+                return
+            self._queue.append(url)
+            self._queued.add(url)
+            self._cond.notify_all()
+
+    def busy(self, urls):
+        """True while any of these URLs is waiting or downloading."""
+        with self._cond:
+            return any(u in self._queued or u in self._running for u in urls)
+
+    def pop(self, url, default=None):
+        """The download result, (content, ctype) or the exception, handed over once."""
+        with self._cond:
+            return self._results.pop(url, default)
+
+    def wait(self, timeout=0.2):
+        # Short waits so Ctrl+C reaches the main thread on Windows too.
+        with self._cond:
+            self._cond.wait(timeout)
+
+    def _work(self, c):
+        while True:
+            with self._cond:
+                while not self._queue and not self._closed:
+                    self._cond.wait()
+                if not self._queue:
                     return
-                url = todo.pop(0)
+                url = self._queue.popleft()
+                self._queued.discard(url)
+                self._running.add(url)
             try:
-                out[url] = _download(c, url, max_bytes)
+                result = _download(c, url, self.max_bytes)
             except BaseException as e:
-                out[url] = e
+                result = e
+            with self._cond:
+                self._running.discard(url)
+                self._results[url] = result
+                self._cond.notify_all()
 
-    threads = [threading.Thread(target=work, args=(c,), daemon=True) for c in clients[:max(1, min(workers, len(urls)))]]
-    for t in threads:
-        t.start()
-    try:
-        # Short joins so Ctrl+C reaches the main thread on Windows too.
-        while any(t.is_alive() for t in threads):
-            for t in threads:
-                t.join(0.2)
-    except BaseException:
-        stop.set()
-        raise
-    finally:
-        if clients[0] is not client and hasattr(client, "photos_done"):
-            client.photos_done(clients)
-    for url, v in out.items():
-        if isinstance(v, KeyboardInterrupt):
-            raise v
-    return out
+    def close(self, cancel=False):
+        """cancel=True (Ctrl+C): drop what is waiting and stop the workers without waiting for them."""
+        with self._cond:
+            self._closed = True
+            if cancel:
+                self.cancel.set()
+                self._queue.clear()
+                self._queued.clear()
+            self._cond.notify_all()
+        if not cancel:
+            for t in self._threads:
+                while t.is_alive():
+                    t.join(0.2)
+        if self.clients and self.clients[0] is not self.client and hasattr(self.client, "photos_done"):
+            self.client.photos_done(self.clients)
+
+
+def _new_urls(store, failed_urls, photo_lists):
+    """Photo URLs of these list_photos results that are neither stored nor failed in this run."""
+    return list(dict.fromkeys(p["url"] for ps in photo_lists for p in ps or []
+                              if isinstance(p, dict) and isinstance(p.get("url"), str) and p["url"]
+                              and p["url"] not in failed_urls and store.known_photo(p["url"]) is None))
+
+
+def _throttles(adapter):
+    throttles = getattr(getattr(adapter, "client", None), "throttles", None)
+    return list(throttles.values()) if isinstance(throttles, dict) else []
+
+
+def _guard_stop(adapter):
+    """(kind, message) when the ban guard stopped a host, else None."""
+    for t in _throttles(adapter):
+        if getattr(t, "stopped", None):
+            return t.stopped
+    return None
+
+
+def _photo_report(adapter):
+    for t in _throttles(adapter):
+        log.info("%s", t.summary())
 
 
 def fetch_photo(client, store, url, max_bytes=MAX_PHOTO_BYTES, fetched=None):
     """Returns (index entry, outcome) where outcome is "ok", "missing" (404, not retried) or "failed".
-    fetched is what download_many returned for this url, when it was downloaded ahead."""
+    fetched is what the photo pool returned for this url, when it was downloaded ahead."""
     missing = {"sha256": None, "bytes": None, "file": None}
     try:
         if fetched is None:
@@ -188,13 +279,19 @@ def _strip_private(rec):
 
 def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_days=None, flush_every=10,
             max_layout_failures=10, max_network_failures=10, outage_pause=300, max_outage_pauses=12,
-            max_photo_bytes=MAX_PHOTO_BYTES, photo_workers=1, sleep=time.sleep, list_only=False):
+            max_photo_bytes=MAX_PHOTO_BYTES, photo_workers=1, sleep=time.sleep, list_only=False,
+            photo_max=DEFAULT_PHOTO_MAX, max_pending=MAX_PENDING):
     """Collect every matching village. Never raises for one bad village, list or photo.
 
     The run stops early only for: max_layout_failures layout problems in a row, the dropdowns
     missing from the start page, the network down through max_outage_pauses pauses, local disk
-    trouble, a login, CAPTCHA or 401/403 page (AccessDenied), or Ctrl+C. stats["stop"] then holds
-    (kind, message).
+    trouble, a login, CAPTCHA or 401/403 page (AccessDenied), the photo ban guard, or Ctrl+C.
+    stats["stop"] then holds (kind, message).
+
+    photo_workers 1 downloads each village's photos in this thread, one at a time, before the next
+    village is read. A higher number or "auto" (see photo_settings) downloads them in a PhotoPool
+    while the next villages are read; villages are still saved one by one in the order they were
+    listed, each once all its photos are done, with at most max_pending listed and not yet saved.
 
     list_only=True saves the records without calling list_photos: each gets photos_state
     "not_fetched" (unless the adapter set "none_on_portal") and a later photos_pass fetches them.
@@ -207,11 +304,27 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
     failed_urls = {}
     streak = {"layout": 0, "network": 0}
     pauses = 0
-    pending = 0
+    unsaved = 0
+    threads, rate, ceiling = photo_settings(photo_workers, photo_max)
+    if hasattr(adapter.client, "set_photo_rate"):
+        adapter.client.set_photo_rate(rate, ceiling)
+    pool = None
+    if threads > 1 and not list_only:
+        pool = PhotoPool(adapter.client, threads, max_photo_bytes)
+        log.info("photos: %d workers, starting at %d a second, at most %d", threads, rate, ceiling)
+    # Villages listed whose photos are still downloading, in list order.
+    pending = deque()
+    last_report = [time.monotonic()]
+
+    def guard_check():
+        stop = _guard_stop(adapter)
+        if stop:
+            raise StopRun(*stop)
 
     def failure(kind, entry, bucket):
         nonlocal pauses
         stats[bucket].append(entry)
+        guard_check()
         why = _denied(adapter)
         if why:
             raise StopRun("access", why)
@@ -229,13 +342,43 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
             log.warning("%d network failures in a row; pausing %ds before going on (pause %d of %d)",
                         streak["network"], outage_pause, pauses, max_outage_pauses)
             streak["network"] = 0
-            sleep(outage_pause)
+            # The photo workers pause as well.
+            held = _throttles(adapter)
+            for t in held:
+                t.hold(outage_pause)
+            try:
+                sleep(outage_pause)
+            finally:
+                for t in held:
+                    t.unhold()
 
-    def do_village(area):
+    def step(area, fn):
+        """Run one village step with the usual error handling. True when it worked."""
+        try:
+            fn()
+        except (PortalChanged, StoreError, AccessDenied):
+            raise
+        except FetchError as e:
+            guard_check()
+            if e.denied:
+                raise StopRun("access", _denied(adapter) or str(e)) from None
+            kind, err = "network", e
+        except LayoutChanged as e:
+            kind, err = "layout", e
+        except Exception as e:
+            log.exception("unexpected error in %s", _name(area))
+            kind, err = "error", e
+        else:
+            return True
+        log.error("village skipped, not marked as checked: %s: %s", _name(area), err)
+        failure(kind, {"name": _name(area), "village_code": area.village_code, "reason": kind,
+                       "error": str(err)}, "skipped_villages")
+        return False
+
+    def list_village(area):
         records = adapter.list_records(area)
         seen_at = now_iso()
-        downloaded = failed = 0
-        ahead = {}
+        failed = 0
         listed = {}
         if not list_only:
             for i, rec in enumerate(records):
@@ -255,12 +398,12 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
                     listed[i] = None
                     failed += 1
                     stats["photos_failed"] += 1
-        if photo_workers > 1:
-            new = list(dict.fromkeys(p["url"] for ps in listed.values() for p in ps or []
-                                     if isinstance(p, dict) and isinstance(p.get("url"), str) and p["url"]
-                                     and p["url"] not in failed_urls and store.known_photo(p["url"]) is None))
-            if len(new) > 1:
-                ahead = download_many(adapter.client, new, photo_workers, max_photo_bytes)
+        return {"area": area, "records": records, "seen_at": seen_at, "listed": listed, "failed": failed,
+                "urls": []}
+
+    def save_village(v, ahead):
+        area, records, listed = v["area"], v["records"], v["listed"]
+        downloaded, failed = 0, v["failed"]
         not_fetched = 0
         for i, rec in enumerate(records):
             _strip_private(rec)
@@ -290,20 +433,57 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
         else:
             # JSJB coverage lines keep the shape they always had.
             state = "fetched" if getattr(area, "levels", None) else None
-        new = store.commit(area, records, seen_at, photos_failed=failed, photos_state=state)
+        new = store.commit(area, records, v["seen_at"], photos_failed=failed, photos_state=state)
         stats["villages"] += 1
         stats["records"] += len(records)
         stats["new_records"] += new
         stats["photos_downloaded"] += downloaded
         log.info("%s: %d records (%d new), %d photos downloaded", _name(area), len(records), new, downloaded)
 
+    def saved_one():
+        nonlocal unsaved
+        unsaved += 1
+        if unsaved >= flush_every:
+            store.flush(final=False)
+            unsaved = 0
+
+    def save_ready():
+        """Save the villages at the head of the line whose photos are all done."""
+        while pending and not pool.busy(pending[0]["urls"]):
+            v = pending.popleft()
+            if step(v["area"], lambda: save_village(v, pool)):
+                saved_one()
+                streak["layout"] = 0
+        if time.monotonic() - last_report[0] >= SUMMARY_EVERY:
+            last_report[0] = time.monotonic()
+            _photo_report(adapter)
+
+    def make_room():
+        save_ready()
+        while len(pending) >= max(1, max_pending):
+            pool.wait()
+            save_ready()
+
+    def drain():
+        """Save every pending village. A stop raised while saving one is kept; the rest are saved."""
+        while pending:
+            try:
+                save_ready()
+                if pending:
+                    pool.wait()
+            except StopRun as e:
+                if not stats["stop"]:
+                    stats["stop"] = (e.kind, str(e))
+
+    settle = True
     try:
         for area in adapter.list_areas(filters):
+            guard_check()
             if isinstance(area, SkippedUnit):
                 failure(area.kind, {"level": area.level, "name": area.name, "reason": area.kind,
                                     "error": area.error}, "skipped_units")
                 continue
-            if max_villages is not None and stats["villages"] >= max_villages:
+            if max_villages is not None and stats["villages"] + len(pending) >= max_villages:
                 stats["stopped"] = f"--max-villages {max_villages} reached"
                 break
             if max_minutes is not None and time.monotonic() - started > max_minutes * 60:
@@ -318,35 +498,31 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
                         and datetime.now(timezone.utc) - last < timedelta(days=since_days):
                     stats["not_due"] += 1
                     continue
-            try:
-                do_village(area)
-            except (PortalChanged, StoreError, AccessDenied):
-                raise
-            except FetchError as e:
-                if e.denied:
-                    raise StopRun("access", _denied(adapter) or str(e)) from None
-                kind, err = "network", e
-            except LayoutChanged as e:
-                kind, err = "layout", e
-            except Exception as e:
-                log.exception("unexpected error in %s", _name(area))
-                kind, err = "error", e
+            if pool is None:
+                if step(area, lambda: save_village(list_village(area), {})):
+                    saved_one()
+                    streak["layout"] = streak["network"] = pauses = 0
             else:
-                streak["layout"] = streak["network"] = pauses = 0
-                pending += 1
-                if pending >= flush_every:
-                    store.flush(final=False)
-                    pending = 0
-                continue
-            log.error("village skipped, not marked as checked: %s: %s", _name(area), err)
-            failure(kind, {"name": _name(area), "village_code": area.village_code, "reason": kind,
-                           "error": str(err)}, "skipped_villages")
+                make_room()
+                got = []
+                if step(area, lambda: got.append(list_village(area))):
+                    # Listed, so the portal answers; the layout streak ends only once a village is saved.
+                    streak["network"] = pauses = 0
+                    v = got[0]
+                    v["urls"] = _new_urls(store, failed_urls, v["listed"].values())
+                    for url in v["urls"]:
+                        pool.submit(url)
+                    pending.append(v)
+                    save_ready()
     except KeyboardInterrupt:
+        settle = False
         stats["stopped"] = "interrupted"
         stats["stop"] = ("interrupted", "stopped by Ctrl+C or a stop signal")
     except StopRun as e:
         stats["stop"] = (e.kind, str(e))
     except AccessDenied as e:
+        # No more photo requests to a portal that shows a login or a bot check.
+        settle = False
         stats["stop"] = ("access", f"the portal asks for a login, CAPTCHA or bot check: {e}. Stopped; "
                                    "nothing was tried to get past it")
     except PortalChanged as e:
@@ -362,11 +538,17 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
         stats["stop"] = ("layout", str(e))
         stats["nothing_listed"] = isinstance(e, NothingListed)
     except StoreError as e:
+        settle = False
         stats["stop"] = ("disk", str(e))
     except Exception as e:
         log.exception("unexpected error")
         stats["stop"] = ("error", f"unexpected error: {e!r}")
     finally:
+        _finish_pool(pool, pending, settle, drain, stats)
+        # The guard may have stopped a host while the last photos downloaded.
+        if not stats["stop"] and _guard_stop(adapter):
+            stats["stop"] = _guard_stop(adapter)
+        _photo_report(adapter)
         try:
             store.flush(final=True)
         except StoreError as e:
@@ -376,14 +558,40 @@ def collect(adapter, store, filters, max_villages=None, max_minutes=None, since_
     return stats
 
 
+def _finish_pool(pool, pending, settle, drain, stats):
+    """Save the pending villages or records (settle) and stop the pool. After Ctrl+C, a disk problem
+    or a login page nothing more is saved: those villages stay due for the next run."""
+    if pool is None:
+        return
+    try:
+        if settle and pending:
+            drain()
+    except KeyboardInterrupt:
+        # Overrides an earlier stop: the queue must see the interrupt and end.
+        stats["stopped"] = "interrupted"
+        earlier = f" while saving after an earlier stop ({stats['stop'][1]})" if stats["stop"] else ""
+        stats["stop"] = ("interrupted", "stopped by Ctrl+C or a stop signal" + earlier)
+    except StoreError as e:
+        stats["stop"] = ("disk", str(e))
+    except Exception as e:
+        log.exception("unexpected error while saving the last villages")
+        if not stats["stop"]:
+            stats["stop"] = ("error", f"unexpected error: {e!r}")
+    finally:
+        pool.close(cancel=bool(pending))
+
+
 def photos_pass(adapter, store, filters=None, max_records=None, max_minutes=None, flush_every=50,
-                max_failures=10, max_photo_bytes=MAX_PHOTO_BYTES, photo_workers=1):
+                max_failures=10, max_photo_bytes=MAX_PHOTO_BYTES, photo_workers=1, photo_max=DEFAULT_PHOTO_MAX,
+                max_pending=MAX_PENDING):
     """Fetch the photos of saved records whose photos_state is "not_fetched" (from a --list-only
     run). No area or record list is read again. A record whose photos all came is marked
     "fetched" (or "none_on_portal" when the portal lists none); one with a failed photo stays
     "not_fetched" and is tried again by the next pass. When every record of an area is done, the
     area's coverage line says "fetched". Never raises for one bad record or photo; stops after
-    max_failures records in a row could not be read, at a 401/403 or login, or for disk trouble."""
+    max_failures records in a row could not be read, at a 401/403 or login, the photo ban guard,
+    or for disk trouble. photo_workers as in collect: above 1, photos download in a PhotoPool while
+    the next records' photo lists are read, and records are saved in order."""
     started = time.monotonic()
     stats = {"started_at": now_iso(), "mode": "photos", "villages": 0, "not_due": 0, "records": 0,
              "new_records": 0, "photos_downloaded": 0, "photos_failed": 0, "photos_missing": 0,
@@ -400,7 +608,22 @@ def photos_pass(adapter, store, filters=None, max_records=None, max_minutes=None
     for r in store.records.values():
         if r.get("area_key"):
             members[r["area_key"]].add(str(r["record_id"]))
-    failed_urls, streak, pending, touched = {}, 0, 0, set()
+    failed_urls, streak, unsaved, touched = {}, 0, 0, set()
+    threads, rate, ceiling = photo_settings(photo_workers, photo_max)
+    if hasattr(adapter.client, "set_photo_rate"):
+        adapter.client.set_photo_rate(rate, ceiling)
+    pool = None
+    if threads > 1:
+        pool = PhotoPool(adapter.client, threads, max_photo_bytes)
+        log.info("photos: %d workers, starting at %d a second, at most %d", threads, rate, ceiling)
+    # Records whose photo lists were read and whose photos are still downloading, in order.
+    pending = deque()
+    last_report = [time.monotonic()]
+
+    def guard_check():
+        stop = _guard_stop(adapter)
+        if stop:
+            raise StopRun(*stop)
 
     def finish_areas():
         for key in list(touched):
@@ -410,69 +633,129 @@ def photos_pass(adapter, store, filters=None, max_records=None, max_minutes=None
                 stats["villages"] += 1
             touched.discard(key)
 
+    def skipped(rec, e):
+        if not isinstance(e, (FetchError, LayoutChanged)):
+            log.exception("unexpected error in the photos of record %s", rec.get("record_id"))
+        log.error("photos of record %s not fetched, tried again next pass: %s", rec.get("record_id"), e)
+        stats["skipped_records"].append({"record_id": str(rec["record_id"]), "error": str(e)})
+
+    def save(rec, listed, ahead):
+        """None when the record was saved, else the exception that stopped it."""
+        nonlocal unsaved
+        try:
+            photos, downloaded, failed = save_record_photos(adapter, store, rec, listed, failed_urls, stats, ahead,
+                                                            max_photo_bytes)
+            _strip_private(rec)
+            rec["photos"] = photos
+            rec["photos_state"] = "not_fetched" if failed else ("fetched" if photos else "none_on_portal")
+            store.write_record(rec)
+        except (AccessDenied, StoreError):
+            raise
+        except Exception as e:
+            skipped(rec, e)
+            return e
+        stats["records"] += 1
+        stats["photos_downloaded"] += downloaded
+        if rec.get("area_key"):
+            touched.add(rec["area_key"])
+        unsaved += 1
+        if unsaved >= flush_every:
+            finish_areas()
+            store.flush(final=False)
+            unsaved = 0
+        return None
+
+    def counted(err):
+        """Keep the count of records in a row that could not be read or saved; stop at max_failures."""
+        nonlocal streak
+        if err is None:
+            streak = 0
+            return
+        streak += 1
+        if streak >= max_failures:
+            raise StopRun("network" if isinstance(err, FetchError) else "layout",
+                          f"the photos of {streak} records in a row could not be read")
+
+    def save_ready():
+        while pending and not pool.busy(pending[0][2]):
+            rec, listed, _ = pending.popleft()
+            counted(save(rec, listed, pool))
+        if time.monotonic() - last_report[0] >= SUMMARY_EVERY:
+            last_report[0] = time.monotonic()
+            _photo_report(adapter)
+
+    def drain():
+        """Save every pending record. A stop raised while saving one is kept; the rest are saved."""
+        while pending:
+            try:
+                save_ready()
+                if pending:
+                    pool.wait()
+            except StopRun as e:
+                if not stats["stop"]:
+                    stats["stop"] = (e.kind, str(e))
+
+    settle = True
     try:
         for n, old in enumerate(todo):
-            if max_records is not None and stats["records"] >= max_records:
+            guard_check()
+            if max_records is not None and stats["records"] + len(pending) >= max_records:
                 stats["stopped"] = f"--max-records {max_records} reached"
                 break
             if max_minutes is not None and time.monotonic() - started > max_minutes * 60:
                 stats["stopped"] = f"--max-minutes {max_minutes} reached"
                 break
             rec = dict(old)
+            if pool is not None:
+                save_ready()
+                while len(pending) >= max(1, max_pending):
+                    pool.wait()
+                    save_ready()
             try:
                 listed = adapter.list_photos(rec)
-                ahead = {}
-                if photo_workers > 1:
-                    new = list(dict.fromkeys(p["url"] for p in listed or [] if isinstance(p, dict)
-                                             and isinstance(p.get("url"), str) and p["url"]
-                                             and p["url"] not in failed_urls and store.known_photo(p["url"]) is None))
-                    if len(new) > 1:
-                        ahead = download_many(adapter.client, new, photo_workers, max_photo_bytes)
-                photos, downloaded, failed = save_record_photos(adapter, store, rec, listed or [], failed_urls,
-                                                                stats, ahead, max_photo_bytes)
+                if pool is None:
+                    err = save(rec, listed or [], {})
+                else:
+                    urls = _new_urls(store, failed_urls, [listed or []])
+                    for url in urls:
+                        pool.submit(url)
+                    pending.append((rec, listed or [], urls))
+                    err = None
             except (AccessDenied, StoreError):
                 raise
             except Exception as e:
+                guard_check()
                 if isinstance(e, FetchError) and e.denied:
                     raise StopRun("access", _denied(adapter) or str(e)) from None
-                if not isinstance(e, (FetchError, LayoutChanged)):
-                    log.exception("unexpected error in the photos of record %s", rec.get("record_id"))
-                log.error("photos of record %s not fetched, tried again next pass: %s", rec.get("record_id"), e)
-                stats["skipped_records"].append({"record_id": str(rec["record_id"]), "error": str(e)})
-                streak += 1
-                if streak >= max_failures:
-                    raise StopRun("network" if isinstance(e, FetchError) else "layout",
-                                  f"the photos of {streak} records in a row could not be read") from None
-                continue
-            streak = 0
-            _strip_private(rec)
-            rec["photos"] = photos
-            rec["photos_state"] = "not_fetched" if failed else ("fetched" if photos else "none_on_portal")
-            store.write_record(rec)
-            stats["records"] += 1
-            stats["photos_downloaded"] += downloaded
-            if rec.get("area_key"):
-                touched.add(rec["area_key"])
-            pending += 1
-            if pending >= flush_every:
-                finish_areas()
-                store.flush(final=False)
-                pending = 0
-        finish_areas()
+                skipped(rec, e)
+                err = e
+            if err is not None or pool is None:
+                # With the pool, a listed record counts once it is saved, in save_ready.
+                counted(err)
+            if err is None and pool is not None:
+                save_ready()
     except KeyboardInterrupt:
+        settle = False
         stats["stopped"] = "interrupted"
         stats["stop"] = ("interrupted", "stopped by Ctrl+C or a stop signal")
     except StopRun as e:
         stats["stop"] = (e.kind, str(e))
     except AccessDenied as e:
+        settle = False
         stats["stop"] = ("access", f"the portal asks for a login, CAPTCHA or bot check: {e}. Stopped; "
                                    "nothing was tried to get past it")
     except StoreError as e:
+        settle = False
         stats["stop"] = ("disk", str(e))
     except Exception as e:
         log.exception("unexpected error")
         stats["stop"] = ("error", f"unexpected error: {e!r}")
     finally:
+        _finish_pool(pool, pending, settle, drain, stats)
+        # The guard may have stopped a host while the last photos downloaded.
+        if not stats["stop"] and _guard_stop(adapter):
+            stats["stop"] = _guard_stop(adapter)
+        _photo_report(adapter)
         try:
             finish_areas()
             store.flush(final=True)
@@ -575,6 +858,40 @@ def _on_signal(signum, frame):
     raise KeyboardInterrupt
 
 
+def photo_workers_arg(value):
+    if str(value).strip().casefold() == "auto":
+        return "auto"
+    try:
+        n = int(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"expected a number from 1 to {HARD_CAP} or auto, not {value!r}") from None
+    if not 1 <= n <= HARD_CAP:
+        raise argparse.ArgumentTypeError(f"expected a number from 1 to {HARD_CAP} or auto, not {n}")
+    return n
+
+
+def photo_max_arg(value):
+    try:
+        n = int(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"expected a number from 1 to {HARD_CAP}, not {value!r}") from None
+    if not 1 <= n <= HARD_CAP:
+        raise argparse.ArgumentTypeError(f"expected a number from 1 to {HARD_CAP}, not {n}")
+    return n
+
+
+def add_photo_options(ap):
+    """--photo-workers and --photo-max, shared by the collector and the queue."""
+    ap.add_argument("--photo-workers", type=photo_workers_arg, default=1, metavar="N|auto",
+                    help=f"1 (default): photos one at a time, each after --delay. N from 2 to {HARD_CAP}: N photos "
+                         "a second at most, downloaded while the next villages are read, slower when the portal "
+                         f"has trouble. auto: start at {AUTO_START} a second and go up to --photo-max while the "
+                         "portal keeps up. See collector/README.md, Speed")
+    ap.add_argument("--photo-max", type=photo_max_arg, default=DEFAULT_PHOTO_MAX, metavar="N",
+                    help=f"with --photo-workers auto: the highest photo rate, 1 to {HARD_CAP} "
+                         f"(default {DEFAULT_PHOTO_MAX})")
+
+
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     chosen = scheme_choice(argv)
@@ -603,8 +920,7 @@ def main(argv=None):
                     help="stop after this many layout failures in a row (default 10)")
     ap.add_argument("--max-photo-mb", type=float, default=MAX_PHOTO_BYTES / 2 ** 20,
                     help="largest photo to download, in MB (default 25)")
-    ap.add_argument("--photo-workers", type=int, default=1, choices=range(1, 5), metavar="N",
-                    help="photos downloaded at a time, 1 to 4 (default 1); each keeps --delay between its requests")
+    add_photo_options(ap)
     ap.add_argument("--data-dir", default="data")
     a = ap.parse_args(argv)
     for stream in (sys.stdout, sys.stderr):
@@ -674,13 +990,13 @@ def _collect(a, filters, store, logfile):
     if a.photos:
         log.info("fetching photos of %s records saved without them", a.scheme)
         stats = photos_pass(adapter, store, filters, a.max_records, a.max_minutes, max_photo_bytes=max_bytes,
-                            photo_workers=a.photo_workers)
+                            photo_workers=a.photo_workers, photo_max=a.photo_max)
     else:
         log.info("collecting %s%s with filters %s", a.scheme, " (list only)" if a.list_only else "",
                  {k: v for k, v in filters.items() if v} or "none")
         stats = collect(adapter, store, filters, a.max_villages, a.max_minutes, a.since_days,
                         max_layout_failures=a.max_layout_failures, max_photo_bytes=max_bytes,
-                        photo_workers=a.photo_workers, list_only=a.list_only)
+                        photo_workers=a.photo_workers, photo_max=a.photo_max, list_only=a.list_only)
     code = exit_code(stats)
     if stats["stop"]:
         log.error("%s", stats["stop"][1])

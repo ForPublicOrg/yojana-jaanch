@@ -230,11 +230,16 @@ class PerHost(unittest.TestCase):
         # The second fast request waits 1 s, not 5; the slow host then waits only what is left of its 5 s.
         self.assertEqual(slept, [1.0, 4.0])
 
-    def test_photo_workers_spread_over_a_new_host(self):
+    def test_photo_workers_share_one_throttle_per_host(self):
         c = Client(delay=2.0)
+        c.set_photo_rate(4, 8)
         workers = c.photo_clients(2)
-        self.assertEqual([w._first_offset for w in workers], [0.5, 1.0])
+        self.assertTrue(all(w.photo_worker for w in workers))
         self.assertIs(workers[0].denied, c.denied)
+        # Spacing photos to a new host is the throttle's job, shared by every worker and the page client.
+        self.assertIs(workers[0].throttle("new.example"), workers[1].throttle("new.example"))
+        self.assertIs(workers[0].throttle("new.example"), c.throttle("new.example"))
+        self.assertEqual((c.throttle("new.example").rate, c.throttle("new.example").ceiling), (4, 8))
 
 
 class Handler(http.server.BaseHTTPRequestHandler):

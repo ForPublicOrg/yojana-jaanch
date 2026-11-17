@@ -495,7 +495,8 @@ class PmgsyAdapter(SchemeAdapter):
     filters = ("state", "district", "from_month", "to_month")
     plan_levels = ("state", "district")
     hosts = {"pmgsy.dord.gov.in": {"delay": 1.0, "timeout": 120, "retries": 3},
-             IMAGE_HOST: {"delay": 1.0, "timeout": 90, "retries": 3}}
+             # missing_page: the photo throttle counts the error page as a missing file, not as trouble.
+             IMAGE_HOST: {"delay": 1.0, "timeout": 90, "retries": 3, "missing_page": is_error_page}}
     supports_list_only = True
 
     def __init__(self, client):

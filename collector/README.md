@@ -7,7 +7,7 @@ Downloads public records and photos from scheme portals. Python 3.12 standard li
 Names match the portal dropdowns, ignoring case. A level you leave out means all of it.
 Bounds: `--max-villages N`, `--max-minutes M`, `--since-days D` (skip villages collected in the last D days).
 Other flags: `--delay` (seconds between requests, default 1), `--data-dir` (default `data`),
-`--photo-workers N` (see Speed below), `--log FILE` (default `<data-dir>/logs/<scheme>.log`, `--log ""`
+`--photo-workers N|auto` and `--photo-max N` (see Speed below), `--log FILE` (default `<data-dir>/logs/<scheme>.log`, `--log ""`
 for none), `--list-only` and `--photos` (see "List first, photos later" below). The filter options
 come from the adapter: JSJB has state, district, area, block and village; another scheme may have others.
 
@@ -93,19 +93,79 @@ HTTP 500. So there is one search per village, and no block-wide shortcut. The nu
 after a village name is not a record count (Andheri (22) has 1 record, Bhagwanpura (34) has 0), so
 villages with no records cannot be skipped in advance.
 
-Photos are most of the requests (about 1.3 per record on Punjab data so far). Each photo request
-waits for the 1 second delay; the download itself took about 0.5 s. `--photo-workers 2` downloads
-a village's new photos two at a time, each worker keeping the delay between its own requests, so
-photos reach about 2 requests a second while page requests stay at one at a time. The photos are
-on the same host as the pages, so this is above one request a second while photos download; it is
-opt-in for that reason. The workers' requests are spaced evenly (half a delay apart with 2), the
-first comes at least that long after the last page request, and the next page request waits a full
-delay after the last photo. In a test of 12
-photos it took 6.6 s, against about 1 s per photo one at a time. Every photo is checked exactly as
-before (the same bytes are stored, tested on a live village). Default 1. A HEAD request was not
-adopted: a known photo URL is never downloaded again anyway, and a matching size does not prove a
-matching photo. A later photo pass was not adopted for JSJB: there it makes the same number of requests and would
-show villages as checked before their photos are.
+Photos are most of the requests. Measured on the live JSJB portal: a village costs one search
+postback plus 7.7 photos on average, photos are about 90% of the requests, and pages answer in
+0.3 to 0.5 s. The photos are plain files on the same host as the pages.
+
+`--photo-workers` sets how photos are downloaded:
+
+- `1` (default): one at a time in the main thread, each after the `--delay` gap, before the next
+  village is read. This is how the collector has always worked.
+- `N` from 2 to 16: photos download in background threads while the main thread reads the next
+  villages. At most N photo requests start per second, evenly spaced, with at most N in flight.
+  The rate drops when the portal has trouble (below) and climbs back, never above N.
+- `auto`: as N, starting at 4 a second and rising by 1 while the portal keeps up, up to
+  `--photo-max` (default 12, at most 16).
+
+Page requests stay one at a time with the 1 s delay between them, in the main thread. Once a host
+has served a photo, each page request to it also takes one of its photo slots, ahead of waiting
+photos, so pages and photos together start at most the photo rate per second (on JSJB, where
+both come from one host, the rate is the total). Villages are still saved one by one in the order
+they were listed, each as soon as all its photos are done, with the same log line. At most 3
+villages are listed and not yet saved; then the main thread waits. A photo URL that two of those
+villages share is downloaded once. At the end of a run, at `--max-villages` or `--max-minutes`,
+and at a layout, network, 401/403 page or ban guard stop, the listed villages are saved first.
+After Ctrl+C, a login or CAPTCHA page, or a disk problem they are not saved and stay due.
+The bytes are checked, hashed and stored in the main thread exactly as with 1, so the records and
+photo files are the same (tested against a run with 1). `--photos` passes work the same way, per
+record. The queue (`python run.py queue`) takes the same two options.
+
+How the rate moves (`collector/throttle.py`, one rate per host, every try of every photo counts):
+
+- Up by 1 after 40 photos at the current rate that had to wait for their slot, with no trouble in
+  between, when the median time of the last 20 photos is at most 1.5 times the median of the
+  first 20 photos to that host, and at least 120 photos after the last step down. Photos that found a free slot do not count (nor do
+  they reset the count): the rate climbs only while photos actually queue for it, so it does not
+  rise past what the portal has been sent.
+- Halved (never below 1) on trouble: HTTP 429 or 503, a timeout, a reset or refused connection,
+  another 5xx, a cut-off file, a 401 or 403, or an HTML page instead of an image. A page request
+  answered 429 or 503, or failing, halves it too. A Retry-After header, on a photo or a page,
+  holds every request to that host for that long (at most 15 minutes).
+- Down by 1 when the median time of the last 20 photos is over twice the median of the first 20.
+- A rate that had to step down twice is not used again: the top becomes one below it.
+- Neutral: 404, 410, a redirect to a not-found page (JSJB sends missing photos to
+  PageNotFound.aspx), the PMGSY image host's error page. After 20 of these in a row with no good
+  photo they are no longer believed (a firewall or an overloaded host can answer that way): each
+  further one counts as trouble and the photo as failed, not missing, so the next run asks again.
+- Under the queue (`python run.py queue`), the rate, the first-20 median and a lowered top carry
+  over from area to area for as long as the queue process runs. Only a ban guard stop and the
+  pause count are cleared for each area.
+
+Ban guard, on with every setting including 1. Five troubled photo requests in a row (a neutral
+answer neither breaks nor adds to the streak, a good photo ends it), or 6 troubled among the last
+20 photo answers that were good or troubled, stop all requests to that host, pages included, for
+10 minutes, and the rate restarts at 1. If the first 3 photo requests after a pause are all
+trouble, it pauses again. Trouble after the third pause in a row stops the run as a network stop
+(exit 4; the queue waits 30 minutes or more before the next area, which starts again at 1 a
+second). When most of the trouble that tripped the guard is 401 or 403, the run stops at once as
+a refusal (exit 8; the queue stops). Photos the guard stopped count as failed, never as missing,
+so the next run asks for them again. During the collector's own outage pause (10 page failures in
+a row) the photo workers wait as well.
+
+What the log shows:
+
+    photos to jsjb.mowr.gov.in: 5 a second (40 photos waited for a slot without trouble, median 0.42 s)
+    photos to jsjb.mowr.gov.in: 2 a second (HTTP 429)
+    photos to jsjb.mowr.gov.in: 5 failed in a row (error 5); no requests to jsjb.mowr.gov.in for 10 minutes, then 1 a second (pause 1 of 3)
+
+At the end of each run (and every 5 minutes with a number above 1 or `auto`) a line gives the current rate, its top, and the counts
+of ok, missing, throttled, error, refused and not image answers since the process started.
+
+To force a fixed rate, give a number: `--photo-workers 6` never goes above 6 a second (it still
+steps down on trouble). `--photo-workers 1` keeps the old pace. A HEAD request was not adopted: a
+known photo URL is never downloaded again anyway, and a matching size does not prove a matching
+photo. A later photo pass was not adopted for JSJB: there it makes the same number of requests and
+would show villages as checked before their photos are.
 
 ## One bad item does not stop the run
 
@@ -131,7 +191,7 @@ show villages as checked before their photos are.
   end marker, redirect loops and timeouts are left out of the photo index and tried on the next
   run. A URL that failed is not tried twice in one run. Photo URLs that return 404 are recorded
   with `sha256: null` and not retried. A photo whose file was deleted keeps its sha256 and is not
-  downloaded again: the checker deletes the files of photos that are in no case (`checker/prune.py`).
+  downloaded again: the checker keeps only the files of case evidence photos (`checker/prune.py`).
   A village with a failed photo stays due under `--since-days`, so a rerun retries the photo.
 - Files are written to a temporary file and swapped in, records first and coverage last, so a
   crash, Ctrl+C or kill leaves the previous or the new version. When another program (such as
@@ -145,7 +205,8 @@ show villages as checked before their photos are.
 
 - A page answered with 401 or 403, or an adapter raising `AccessDenied` (a login form, a CAPTCHA,
   a bot check), stops the run at once with exit code 8, and no more requests go to that host. A
-  photo answered with 401 or 403 is only that photo failing.
+  photo answered with 401 or 403 is only that photo failing; a streak of them stops the run (see
+  the ban guard under Speed).
 
 Exit codes: 0 nothing skipped, 5 finished but something was skipped (rerun to retry it),
 2 layout changed everywhere, 3 a filter name was not found, 4 portal unreachable,
@@ -214,6 +275,7 @@ where a level given as a list runs once per value.
 Tests: `python tests/collector/test_jsjb_offline.py` (saved pages),
 `python tests/collector/test_resilience.py` (fake portal with injected faults),
 `python tests/collector/test_saving.py` (appends, journals, photo workers),
+`python tests/collector/test_photo_speed.py` (photo rate, ban guard, photo pool),
 `python tests/collector/test_queue.py` (the queue), `python tests/collector/test_attacks.py` and
 `python tests/collector/test_multi_scheme.py` (locks, shared photos, levels, hosts, registry,
 list-only and photos pass, queues of other schemes). No network.

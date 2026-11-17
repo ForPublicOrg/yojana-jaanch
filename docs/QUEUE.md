@@ -32,7 +32,8 @@ To keep a log as well as seeing it on screen (PowerShell):
 - `--since-days D` (default: the plan's `since_days`, 30): an area finished within D days is skipped,
   and inside an area every village collected within D days is skipped without a request. An area
   finished more than D days ago is due for a refresh, but refreshes come last: see "Order" below.
-- `--photo-workers N` (default 1): see "Speed" in `collector/README.md`.
+- `--photo-workers N|auto` (default 1, N up to 16) and `--photo-max N` (default 12): see "Speed"
+  in `collector/README.md`.
 - `--no-check`: do not rebuild the website data after each area.
 - `--delay`, `--data-dir`: as for the collector.
 

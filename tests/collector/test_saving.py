@@ -155,23 +155,39 @@ class PhotoWorkers(unittest.TestCase):
 
     def saved(self, d):
         with open(os.path.join(d, "records", "jsjb.jsonl"), encoding="utf-8") as f:
-            recs = {r["record_id"]: [(p["url"], p["sha256"]) for p in r["photos"]] for r in map(json.loads, f)}
+            # Whole records, without the times of this run and with photo paths relative to the data folder.
+            recs = {}
+            for r in map(json.loads, f):
+                r = {k: v for k, v in r.items() if k not in ("first_seen", "last_seen")}
+                r["photos"] = [dict(p, file=p["file"] and os.path.relpath(p["file"], d)) for p in r["photos"]]
+                recs[r["record_id"]] = r
         with open(os.path.join(d, "state", "jsjb.photo_index.json"), encoding="utf-8") as f:
             return recs, {u: e["sha256"] for u, e in json.load(f).items()}
 
-    def test_two_workers_store_exactly_what_one_worker_stores(self):
+    def files(self, d):
+        """{path under photos/: bytes} of every stored photo file."""
+        root = os.path.join(d, "photos")
+        out = {}
+        for dp, _, fs in os.walk(root):
+            for name in fs:
+                with open(os.path.join(dp, name), "rb") as f:
+                    out[os.path.relpath(os.path.join(dp, name), root)] = f.read()
+        return out
+
+    def test_parallel_workers_store_exactly_what_one_worker_stores(self):
         faults = lambda: {("photo", f"{PHOTO}1112_1_Image1.jpg"): b"<html>error</html>",
                           ("photo", f"{PHOTO}2111_2_Image1.jpg"): b""}
         out = []
-        for workers in (1, 2):
+        for workers in (1, 2, 8, 16, "auto"):
             d = os.path.join(self.d, str(workers))
             portal = FakePortal(faults())
             stats = collect(JsjbAdapter(portal), Store(d, "jsjb"), ALL, sleep=lambda s: None, photo_workers=workers)
             self.assertEqual((exit_code(stats), stats["photos_downloaded"], stats["photos_failed"]), (5, 10, 2))
             self.assertEqual(len(portal.photo_calls), 12)
-            out.append(self.saved(d))
-        self.assertEqual(out[0], out[1])
-        recs, index = out[1]
+            out.append(self.saved(d) + (self.files(d),))
+        for other in out[1:]:
+            self.assertEqual(out[0], other)
+        recs, index, _ = out[1]
         self.assertNotIn(f"{PHOTO}1112_1_Image1.jpg", index)
 
     def test_ctrl_c_during_side_by_side_downloads(self):
@@ -189,17 +205,16 @@ class PhotoWorkers(unittest.TestCase):
         self.assertTrue(all(w._robots is c._robots and w is not c for w in workers))
         self.assertIsNot(workers[0].cookies, workers[1].cookies)
 
-    def test_photo_requests_spread_after_the_page_request_and_before_the_next(self):
+    def test_photo_requests_do_not_move_the_page_delay(self):
         c = Client(delay=1.0)
         h = "jsjb.mowr.gov.in"
         c._last[h] = 1000.0  # the search page went out at t=1000
         workers = c.photo_clients(2)
-        # Earliest next request of each worker: half a delay apart, none at the same moment as the page.
-        self.assertEqual([w._last[h] + w.delay for w in workers], [1000.5, 1001.0])
         workers[0]._last[h], workers[1]._last[h] = 1003.5, 1004.0
         workers[0].requests, workers[1].requests = 4, 4
         c.photos_done(workers)
-        self.assertEqual((c._last[h], c.requests), (1004.0, 8))
+        # The next page waits for the last page only; the requests are still counted.
+        self.assertEqual((c._last[h], c.requests), (1000.0, 8))
 
 
 class SameCodeTwoPlaces(unittest.TestCase):

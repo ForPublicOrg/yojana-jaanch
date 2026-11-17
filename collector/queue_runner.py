@@ -16,7 +16,8 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
-from .__main__ import EXIT, LogFile, _on_signal, collect, default_log, exit_code, lazy_salt, make_adapter, summary_lines
+from .__main__ import (DEFAULT_PHOTO_MAX, EXIT, LogFile, _on_signal, add_photo_options, collect, default_log, exit_code,
+                       lazy_salt, make_adapter, summary_lines)
 from .base import FilterNotFound
 from .http import FetchError
 from .schemes import BROKEN, SCHEMES
@@ -310,7 +311,7 @@ def run_checker(data_dir):
 def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, only_phases=None, dry_run=False,
               photo_workers=1, check=run_checker, out=print, sleep=time.sleep, collect_fn=collect,
               outage_wait=1800, max_layout_stops=2, max_empty_in_a_row=10, clock=time.monotonic,
-              state_name="queue.json", list_only=False):
+              state_name="queue.json", list_only=False, photo_max=DEFAULT_PHOTO_MAX):
     """Returns an exit code: 0 all done (or time budget used), 5 some units failed (rerun to retry them),
     2 the layout looks changed everywhere, 6 disk trouble, 8 the portal refused access, 130 stopped."""
     started = clock()
@@ -360,6 +361,8 @@ def run_queue(plan, adapter, store, data_dir, since_days=30, max_minutes=None, o
         out(f"\n=== [{u['phase']}] {describe(u)} (attempt {rec['attempts']})")
         filters = unit_filters(u, adapter)
         kw = {"list_only": True} if list_only else {}
+        if photo_workers == "auto":
+            kw["photo_max"] = photo_max
         stats = collect_fn(adapter, store, filters, max_minutes=minutes_left(), since_days=since_days,
                            photo_workers=photo_workers, **kw)
         c = exit_code(stats)
@@ -517,8 +520,7 @@ def main(argv=None):
     ap.add_argument("--only-phase", action="append", help="run only this phase (repeatable), e.g. capitals")
     ap.add_argument("--dry-run", action="store_true", help="print the order and what is done; collect nothing")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between page requests (default 1)")
-    ap.add_argument("--photo-workers", type=int, default=1, choices=range(1, 5), metavar="N",
-                    help="photos downloaded at a time, 1 to 4 (default 1)")
+    add_photo_options(ap)
     ap.add_argument("--no-check", action="store_true", help="do not run the checker after each area")
     ap.add_argument("--list-only", action="store_true",
                     help="save records without photos (the adapter must support it); "
@@ -586,7 +588,7 @@ def main(argv=None):
         lazy_salt(adapter, store)
         return run_queue(plan, adapter, store, a.data_dir, since, a.max_minutes, a.only_phase,
                          photo_workers=a.photo_workers, check=None if a.no_check else run_checker, out=out,
-                         state_name=state_name, list_only=list_only)
+                         state_name=state_name, list_only=list_only, photo_max=a.photo_max)
     except KeyboardInterrupt:
         return EXIT["interrupted"]
     finally:
