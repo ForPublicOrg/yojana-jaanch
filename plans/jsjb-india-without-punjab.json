@@ -1,8 +1,718 @@
 {
  "scheme": "jsjb",
  "since_days": 30,
- "about": "Order: (1) Punjab rural then urban; (2) the district holding each state or union territory capital, urban then rural; (3) every other district, state by state. District names are the portal's own. See docs/QUEUE.md. This copy leaves out Punjab (rural, urban and its remaining districts); run plans/jsjb-india.json to finish Punjab.",
+ "about": "Order: (1) Punjab rural then urban; (2) the district holding each state or union territory capital, urban then rural; (3) every other district, state by state. District names are the portal's own. See docs/QUEUE.md. This copy leaves out Punjab (rural, urban and its remaining districts); run plans/jsjb-india.json to finish Punjab. Award phase: every district (or the district of a municipal corporation or urban body) given a Jal Sanchay Jan Bhagidari (JSJB 1.0) award on 18 Nov 2025, from the PIB release of 11 Nov 2025 (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2188706) and the Department of Water Resources awardee list (https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/33c8968f7421c53f2e85fc72b3ed95de.pdf). Ordered by award size: Category 1, municipal corporations and the urban body, then Category 2, then Category 3. Names are matched to this portal's own spelling.",
  "units": [
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Mirzapur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Northern Zone, Category 1, Rank 1 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Varanasi",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Northern Zone, Category 1, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Northern Zone, Category 1, Rank 3 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Balod",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 1, Rank 1 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Rajnandgaon",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 1, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Raipur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 1, Rank 3 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Adilabad",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 1, Rank 1 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Nalgonda",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 1, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Mancherial",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 1, Rank 3 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Khandwa (East Nimar)",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 1, Rank 1 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Bhilwara",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 1, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Barmer",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 1, Rank 3 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "TRIPURA",
+   "district": "North Tripura",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, North-Eastern Zone and Hilly States, Category 1, Rank 1 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "JAMMU AND KASHMIR",
+   "district": "Rajouri",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, North-Eastern Zone and Hilly States, Category 1, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Hyderabad",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Hyderabad Metropolitan Water Supply and Sewerage Board (Hyderabad Municipal Corporation area)): JSJB 1.0 Top 10 Municipal Corporations, Rank 2 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Gorakhpur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Gorakhpur Municipal Corporation): Top 10 Municipal Corporations, Rank 3 (Rs 2 crore, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Guna",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Guna ULB (GUNA_23_406)): JSJB 1.0 Top 50 ULBs (other than Municipal Corporations), Rank 1 (Rs 40 lakh, conferred by President)"
+  },
+  {
+   "phase": "awards",
+   "state": "ANDHRA PRADESH",
+   "district": "East Godavari",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Rajahmundry (Rajamahendravaram) Municipal Corporation): JSJB 1.0 Top 10 Municipal Corporations, Rank 4 (Rs 2 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Ghaziabad",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Ghaziabad Municipal Corporation): Top 10 Municipal Corporations, Rank 5 (Rs 2 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "GUJARAT",
+   "district": "Surat",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Surat Municipal Corporation): Top 10 Municipal Corporations, Rank 6 (Rs 2 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "UTTAR PRADESH",
+   "district": "Chitrakoot",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Northern Zone, Category 2, Rank 1 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Mahasamund",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 2, Rank 1 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Balodabazar-Bhatapara",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Baloda Bazar): District, Eastern Zone, Category 2, Rank 2 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Gariyaband",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 2, Rank 3 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Warangal",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 2, Rank 1 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Nirmal",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 2, Rank 2 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Jangoan",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (Jangaon (spelled JANGOAN in source)): JSJB 1.0 District, Southern Zone, Category 2, Rank 3 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Jaipur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 2, Rank 2 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Udaipur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 2, Rank 3 (Rs 1 crore)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Bilaspur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 1 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Raigarh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 2 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "BIHAR",
+   "district": "Nalanda",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 3 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ODISHA",
+   "district": "Ganjam",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 4 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "BIHAR",
+   "district": "Kaimur (Bhabua)",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 5 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Balrampur-Ramanujganj",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 6 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ODISHA",
+   "district": "Mayurbhanj",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 7 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Dhamtari",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 8 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "BIHAR",
+   "district": "Rohtas",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 9 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ODISHA",
+   "district": "Kalahandi",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 10 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ODISHA",
+   "district": "Rayagada",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 11 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Surajpur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 12 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "BIHAR",
+   "district": "Purbi Champaran",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 13 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "BIHAR",
+   "district": "Katihar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 14 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ODISHA",
+   "district": "Cuttack",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 15 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "CHHATTISGARH",
+   "district": "Durg",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Eastern Zone, Category 3, Rank 16 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Bhadradri Kothagudem",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 1 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "TAMIL NADU",
+   "district": "Coimbatore",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 2 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "TELANGANA",
+   "district": "Mahabubnagar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 3 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Gadag",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 4 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Kolar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 5 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Bidar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 6 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Tumakuru",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 7 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Vijayapura",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 8 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Mandya",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 9 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "TAMIL NADU",
+   "district": "Namakkal",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 10 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "KARNATAKA",
+   "district": "Chitradurga",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 11 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "ANDHRA PRADESH",
+   "district": "Sri Potti Sriramulu Nellore",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award (SPSR Nellore): District, Southern Zone, Category 3, Rank 12 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "TAMIL NADU",
+   "district": "Ramanathapuram",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Southern Zone, Category 3, Rank 13 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Alwar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 1 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Betul",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 3 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "GUJARAT",
+   "district": "Rajkot",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 4 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Dhar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 5 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Dungarpur",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 6 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "GUJARAT",
+   "district": "Navsari",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 7 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Baran",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 8 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Dewas",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 9 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Seoni",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 10 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Chittorgarh",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 11 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "RAJASTHAN",
+   "district": "Sikar",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 12 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "MADHYA PRADESH",
+   "district": "Khargone (West Nimar)",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 13 (Rs 25 lakh)"
+  },
+  {
+   "phase": "awards",
+   "state": "GUJARAT",
+   "district": "Kheda",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "JSJB 1.0 award: District, Western Zone, Category 3, Rank 14 (Rs 25 lakh)"
+  },
   {
    "phase": "capitals",
    "state": "CHANDIGARH",
