@@ -1,4 +1,4 @@
-"""One entry point: collect, check, refresh (collect then check), queue, serve, publish and drive-links.
+"""One entry point: collect, check, refresh (collect then check), queue, serve, publish, drive-copy and drive-links.
 
     python run.py refresh --scheme jsjb --state Punjab --district Sangrur --block Sangrur
     python run.py collect --scheme jsjb --state Punjab --village Duggan
@@ -10,6 +10,7 @@
     python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish)
     python run.py phash [--data-dir D] # picture fingerprints for the near-duplicate match (needs .venv-publish)
     python run.py collect --scheme jsjb --refetch-unhashed   # download again photos deleted before phash saw them
+    python run.py drive-copy --local-folder <Drive sync folder>   # approved copies into subfolders 0 to f
     python run.py drive-links --folder-id <id> --local-folder <Drive sync folder>   # or set GOOGLE_API_KEY
 
 Unknown options are passed through to the collector or checker.
@@ -87,7 +88,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter,
                                 add_help=not step_help)
     p.add_argument("command", choices=["refresh", "collect", "queue", "check", "serve", "publish", "phash",
-                                       "drive-links"])
+                                       "drive-copy", "drive-links"])
     p.add_argument("--scheme", help="scheme id (collect default: jsjb; check default: all)")
     p.add_argument("--port", type=int, default=8000)
     opts, rest = p.parse_known_args()
@@ -106,8 +107,8 @@ def main():
     if opts.command == "queue":
         return run("collector.queue_runner", rest)
 
-    if opts.command == "drive-links":
-        return run("publisher", ["drive-links"] + rest)
+    if opts.command in ("drive-copy", "drive-links"):
+        return run("publisher", [opts.command] + rest)
 
     if opts.command == "check":
         return run("checker", rest + (["--scheme", opts.scheme] if opts.scheme else []))

@@ -5,6 +5,10 @@ Read only: it never uploads, shares or changes anything in Drive or in the local
 With GOOGLE_API_KEY set it lists the folder through the Drive API and checks the checksums Drive reports.
 Without a key it reads the folder's public page, which has no checksums, so --local-folder (the Drive
 sync folder on this computer) is required and each file is checked against the local file of that name.
+
+The folder may hold the photos directly or in subfolders named 0 to f, the first character of each
+photo's name (python run.py drive-copy files them that way). Drive's public page shows at most
+PAGE_LIMIT files of one folder, so a folder that large is split into those subfolders.
 """
 import argparse
 import json
@@ -28,6 +32,14 @@ FILE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{10,200}$")
 NAME_RE = re.compile(r"^([0-9a-f]{64})\.jpg$")
 IGNORED = {"desktop.ini"}
 MAX_PAGE = 50 << 20
+SUBFOLDER_RE = re.compile(r"^[0-9a-f]$")
+FOLDER_MIME = "application/vnd.google-apps.folder"
+# Measured 18 Nov 2026: the public page of a folder holding 5571 files listed the first 5500 by name.
+PAGE_LIMIT = 5500
+
+
+def subfolder_for(sha):
+    return sha[0].lower()
 
 
 class DriveError(Exception):
@@ -62,6 +74,17 @@ def list_folder(folder_id, api_key, api_base=API_BASE, timeout=60):
             return files
 
 
+def list_tree(folder_id, api_key, api_base=API_BASE, timeout=60):
+    """The folder's files plus the files of its subfolders named 0 to f; other subfolders stay as entries."""
+    out = []
+    for f in list_folder(folder_id, api_key, api_base, timeout):
+        if f.get("mimeType") == FOLDER_MIME and SUBFOLDER_RE.match(f.get("name", "").lower()) and f.get("id"):
+            out += [dict(g, folder_name=f["name"].lower()) for g in list_folder(f["id"], api_key, api_base, timeout)]
+        else:
+            out.append(f)
+    return out
+
+
 def content_problem(f, sha, expected, originals):
     got = {"sha256": (f.get("sha256Checksum") or "").lower(), "md5": (f.get("md5Checksum") or "").lower()}
     if got["sha256"] == sha or (got["md5"] and got["md5"] == originals.get(sha)):
@@ -86,7 +109,12 @@ def build_links(files, allowed, expected=None, originals=None, hidden=()):
     links, dupes, problems = {}, [], []
     for f in sorted(files, key=lambda f: f.get("id", "")):
         name = f.get("name", "")
-        m = NAME_RE.match(name.lower())
+        if f.get("folder_name"):
+            name = f"{f['folder_name']}/{name}"
+        m = NAME_RE.match(f.get("name", "").lower())
+        if f.get("mimeType") == FOLDER_MIME:
+            problems.append((name, "a subfolder; its contents were not checked"))
+            continue
         if not m or not f.get("id"):
             problems.append((name, "not a published photo"))
             continue
@@ -150,7 +178,7 @@ def run(paths, folder_id, api_key, api_base=API_BASE, out=None, log=print):
         log(f"{paths.manifest} is empty or missing. Run python run.py publish first.")
         return 1
     try:
-        files = list_folder(folder_id, api_key, api_base)
+        files = list_tree(folder_id, api_key, api_base)
     except DriveError as e:
         log(str(e))
         return 1
@@ -284,27 +312,49 @@ def run_public(paths, folder_id, local_folder, page_base=PAGE_BASE, out=None, lo
     if not manifest:
         log(f"{paths.manifest} is empty or missing. Run python run.py publish first.")
         return 1
-    local = {p.name.lower(): p for p in local_folder.iterdir() if p.name.lower() not in IGNORED}
+    def listing(folder):
+        return {p.name.lower(): p for p in folder.iterdir() if p.name.lower() not in IGNORED}
+
+    def page_of(fid):
+        return [e for e in parse_folder_page(fetch_folder_page(fid, page_base)) if e["name"].lower() not in IGNORED]
+
+    # Folder "" is the shared folder itself; "0" to "f" are its subfolders of those names.
+    local = {"": listing(local_folder)}
     try:
-        entries = [e for e in parse_folder_page(fetch_folder_page(folder_id, page_base))
-                   if e["name"].lower() not in IGNORED]
+        pages = {"": page_of(folder_id)}
+        names = [e["name"].lower() for e in pages[""]]
+        for e in pages[""]:
+            sub = e["name"].lower()
+            if e["folder"] and SUBFOLDER_RE.match(sub) and names.count(sub) == 1:
+                pages[sub] = page_of(e["id"])
+                path = local[""].get(sub)
+                local[sub] = listing(path) if path is not None and path.is_dir() else {}
     except DriveError as e:
         log(str(e))
         return 1
-    if len(entries) != len(local):
-        log(f"The Drive page lists {len(entries)} files but {local_folder} holds {len(local)}. The page may be "
-            f"truncated, or Drive may still be syncing. Wait for the sync to finish and run this again, or use "
-            f"the API-key mode (GOOGLE_API_KEY). Nothing was written.")
-        return 1
+    for sub, entries in pages.items():
+        where = local_folder / sub if sub else local_folder
+        if len(entries) >= PAGE_LIMIT:
+            log(f"The Drive page of {where} lists {len(entries)} files, and Drive shows at most {PAGE_LIMIT} files "
+                f"of one folder, so some are missing. Run python run.py drive-copy --local-folder \"{local_folder}\" "
+                f"to sort the photos into subfolders, wait for Drive to sync, and run this again. Nothing was written.")
+            return 1
+        if len(entries) != len(local[sub]):
+            log(f"The Drive page lists {len(entries)} files but {where} holds {len(local[sub])}. The page may be "
+                f"truncated, or Drive may still be syncing. Wait for the sync to finish and run this again, or use "
+                f"the API-key mode (GOOGLE_API_KEY). Nothing was written.")
+            return 1
+    every = [(sub, e) for sub, entries in pages.items() for e in entries if not (sub == "" and e["name"].lower() in pages)]
     counts = {}
-    for e in entries:
+    for _, e in every:
         counts[e["name"].lower()] = counts.get(e["name"].lower(), 0) + 1
     links, problems, seen = {}, [], set()
-    for e in sorted(entries, key=lambda e: e["id"]):
-        name, key = e["name"], e["name"].lower()
-        seen.add(key)
+    for sub, e in sorted(every, key=lambda x: x[1]["id"]):
+        key = e["name"].lower()
+        name = f"{sub}/{e['name']}" if sub else e["name"]
+        seen.add((sub, key))
         m = NAME_RE.match(key)
-        path = local.get(key)
+        path = local[sub].get(key)
         if e["folder"]:
             reason = "a subfolder; its contents were not checked"
         elif not m:
@@ -320,12 +370,14 @@ def run_public(paths, folder_id, local_folder, page_base=PAGE_BASE, out=None, lo
             continue
         fid = urllib.parse.quote(e["id"], safe="-_")
         links[m.group(1)] = {"full": THUMB.format(id=fid, size=1600), "thumb": THUMB.format(id=fid, size=480)}
-    for key, path in sorted(local.items()):
-        if key not in seen:
-            problems.append((path.name, "in the local folder but not on the Drive page"))
+    for sub, files in sorted(local.items()):
+        for key, path in sorted(files.items()):
+            if (sub, key) not in seen and not (sub == "" and key in pages):
+                problems.append((f"{sub}/{path.name}" if sub else path.name,
+                                 "in the local folder but not on the Drive page"))
     out = Path(out) if out else paths.links
     common.write_json(out, links)
-    return report(log, out, len(entries), links, allowed, problems)
+    return report(log, out, len(every), links, allowed, problems)
 
 
 def main(argv=None):

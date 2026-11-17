@@ -32,6 +32,7 @@ def drive_file(fid, sha, data=None):
 
 class FakeDrive(BaseHTTPRequestHandler):
     pages = []
+    subfolders = {}
     requests = []
     status = 200
 
@@ -41,6 +42,10 @@ class FakeDrive(BaseHTTPRequestHandler):
         FakeDrive.requests.append((self.command, url.path, q))
         if FakeDrive.status != 200:
             self._send(FakeDrive.status, {"error": {"message": "API key not valid."}})
+            return
+        parent = q["q"][0].split("'")[1]
+        if parent in FakeDrive.subfolders:
+            self._send(200, {"files": FakeDrive.subfolders[parent]})
             return
         page = int(q.get("pageToken", ["0"])[0])
         body = {"files": FakeDrive.pages[page]}
@@ -80,6 +85,7 @@ class DriveLinksTests(unittest.TestCase):
     def setUp(self):
         FakeDrive.requests = []
         FakeDrive.status = 200
+        FakeDrive.subfolders = {}
         FakeDrive.pages = [
             [drive_file("id1", SHA[0]), drive_file("id2", SHA[1]), {"id": "junk", "name": "notes.txt"}],
             [drive_file("id3", SHA[2]), drive_file("id4", SHA[3]), drive_file("id5", SHA[4])],
@@ -101,6 +107,21 @@ class DriveLinksTests(unittest.TestCase):
 
     def tearDown(self):
         self.tmp.cleanup()
+
+    def test_subfolders_0_to_f_are_listed_too(self):
+        folder = {"mimeType": drive.FOLDER_MIME}
+        FakeDrive.pages = [[dict(folder, id="sub1", name="1"), dict(folder, id="old", name="old photos"),
+                            drive_file("id3", SHA[2])]]
+        FakeDrive.subfolders = {"sub1": [drive_file("id1", SHA[0])]}
+        logs = []
+        code = drive.run(self.paths, FOLDER, KEY, self.base, log=logs.append)
+        text = " | ".join(logs)
+        self.assertEqual(code, 4, text)
+        links = json.loads(self.out.read_text(encoding="utf-8"))
+        self.assertEqual(set(links), {SHA[0], SHA[2]})
+        self.assertIn("id=id1&", links[SHA[0]]["full"])
+        self.assertIn("old photos: a subfolder; its contents were not checked", text)
+        self.assertEqual([q["q"][0].split("'")[1] for _, _, q in FakeDrive.requests], [FOLDER, "sub1"])
 
     def test_pages_and_filters(self):
         logs = []

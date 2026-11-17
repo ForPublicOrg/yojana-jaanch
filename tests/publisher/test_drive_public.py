@@ -39,16 +39,31 @@ def page(keep=None, extra=""):
     return "".join(lines)
 
 
+def built(entries):
+    """A folder page from scratch: entries are (id, name) for files and (id, name, True) for folders."""
+    head, rest = FIXTURE.split('<div class="flip-entries">\n', 1)
+    template = rest.splitlines(keepends=True)[0]
+    rows = []
+    for fid, name, *folder in entries:
+        row = template.replace("FileId_0001", fid).replace(f"{SHA[0]}.jpg", name)
+        if folder:
+            row = row.replace(f"https://drive.google.com/file/d/{fid}/view?usp=drive_web",
+                              f"https://drive.google.com/drive/folders/{fid}")
+        rows.append(row)
+    return head + '<div class="flip-entries">\n' + "".join(rows) + "</div></div></body></html>\n"
+
+
 class FakePage(BaseHTTPRequestHandler):
     body = ""
+    bodies = {}
     status = 200
     requests = []
 
     def do_GET(self):
         url = urllib.parse.urlparse(self.path)
-        FakePage.requests.append((self.command, url.path, urllib.parse.parse_qs(url.query),
-                                  self.headers.get("User-Agent")))
-        data = FakePage.body.encode("utf-8")
+        q = urllib.parse.parse_qs(url.query)
+        FakePage.requests.append((self.command, url.path, q, self.headers.get("User-Agent")))
+        data = FakePage.bodies.get(q.get("id", [""])[0], FakePage.body).encode("utf-8")
         self.send_response(FakePage.status)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Content-Length", str(len(data)))
@@ -80,6 +95,7 @@ class DrivePublicTests(unittest.TestCase):
     def setUp(self):
         FakePage.requests = []
         FakePage.status = 200
+        FakePage.bodies = {}
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)
         self.paths = common.Paths(self.root)
@@ -204,6 +220,62 @@ class DrivePublicTests(unittest.TestCase):
         code, links, text = self.go(page().replace('id="entry-FileId_0001"', 'id="x"'))
         self.assertEqual((code, links), (1, None))
         self.assertIn("not recognised", text)
+
+    def in_subfolders(self, shas):
+        for s in shas:
+            (self.sync / s[0]).mkdir(exist_ok=True)
+            (self.sync / s[0] / f"{s}.jpg").write_bytes(COPY[s])
+
+    def test_photos_in_subfolders_0_to_f(self):
+        self.in_subfolders(SHA[:2])
+        self.sync_files(SHA[2:3])
+        FakePage.bodies = {"SubFolder_1": built([("FileId_0001", f"{SHA[0]}.jpg")]),
+                           "SubFolder_2": built([("FileId_0002", f"{SHA[1]}.jpg")])}
+        code, links, text = self.go(built([("SubFolder_1", "1", True), ("SubFolder_2", "2", True),
+                                           ("FileId_0003", f"{SHA[2]}.jpg")]))
+        self.assertEqual(code, 0, text)
+        self.assertEqual(set(links), set(SHA[:3]))
+        self.assertIn("id=FileId_0002&", links[SHA[1]]["full"])
+        self.assertIn("3 files in the folder, 3 linked", text)
+        self.assertEqual(sorted(q["id"][0] for _, _, q, _ in FakePage.requests), [FOLDER, "SubFolder_1", "SubFolder_2"])
+
+    def test_problems_inside_a_subfolder_name_it(self):
+        self.in_subfolders(SHA[:1])
+        (self.sync / "1" / "nested").mkdir()
+        FakePage.bodies = {"SubFolder_1": built([("FileId_0001", f"{SHA[0]}.jpg"), ("NestFolder_1", "nested", True)])}
+        code, links, text = self.go(built([("SubFolder_1", "1", True)]))
+        self.assertEqual((code, set(links)), (4, {SHA[0]}), text)
+        self.assertIn("1/nested: a subfolder; its contents were not checked", text)
+
+    def test_same_photo_at_the_top_and_in_a_subfolder_is_not_linked(self):
+        self.in_subfolders(SHA[:1])
+        self.sync_files(SHA[:1], desktop_ini=False)
+        FakePage.bodies = {"SubFolder_1": built([("FileId_0001", f"{SHA[0]}.jpg")])}
+        code, links, text = self.go(built([("SubFolder_1", "1", True), ("FileId_0009", f"{SHA[0]}.jpg")]))
+        self.assertEqual((code, links), (4, {}), text)
+        self.assertIn("appears more than once", text)
+
+    def test_subfolder_still_syncing_stops_without_writing(self):
+        self.in_subfolders(SHA[:2])
+        (self.sync / "1" / f"{SHA[0]}.jpg").rename(self.sync / "1" / "late.jpg")
+        self.in_subfolders(SHA[:1])
+        FakePage.bodies = {"SubFolder_1": built([("FileId_0001", f"{SHA[0]}.jpg")]),
+                           "SubFolder_2": built([("FileId_0002", f"{SHA[1]}.jpg")])}
+        code, links, text = self.go(built([("SubFolder_1", "1", True), ("SubFolder_2", "2", True)]))
+        self.assertEqual((code, links), (1, None), text)
+        self.assertIn("lists 1 files but", text)
+        self.assertIn("syncing", text)
+
+    def test_a_full_page_stops_and_points_to_drive_copy(self):
+        self.sync_files(SHA[:3])
+        limit, drive.PAGE_LIMIT = drive.PAGE_LIMIT, 3
+        try:
+            code, links, text = self.go(page({f"{s}.jpg" for s in SHA[:3]}))
+        finally:
+            drive.PAGE_LIMIT = limit
+        self.assertEqual((code, links), (1, None), text)
+        self.assertIn("at most 3 files", text)
+        self.assertIn("drive-copy", text)
 
     def test_needs_local_folder(self):
         logs = []
