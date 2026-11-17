@@ -6,6 +6,19 @@ Downloads the public work records and evidence photos from Indian government sch
 flags records whose evidence looks reused or copied, and shows the flags on a static map site.
 The first scheme is JSJB (Jal Sanchay Jan Bhagidari, https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx).
 
+[![How it works: one evidence photo goes from the portal through the collector, checker, publisher and site](docs/media/how-it-works.gif)](docs/media/how-it-works.mp4)
+
+How it works, in 28 seconds: one real case followed through each part of the pipeline. One photo file
+is attached to 215 different works in Khassa village, Amritsar. Click the preview for the
+[MP4](docs/media/how-it-works.mp4). A [10 second vertical cut](docs/media/how-it-works-reel.mp4) is
+there for phones and reels.
+
+The photos in the video are drawings, not the real evidence photos, because those show private citizens.
+The work ID, the fingerprint, the count of 215 and the map shading come from `site/data/`. The video
+sources are in `docs/explainer/` (landscape) and `docs/explainer-reel/` (vertical). They are
+[HyperFrames](https://hyperframes.heygen.com) projects: run `npx hyperframes render` in either folder
+to render it again.
+
 Python 3.12, standard library only. No AI is used unless you pass `--vision`. The optional
 publish step (below) is the one part that needs extra packages, kept in their own virtual environment.
 

@@ -1,0 +1,1005 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      /* Palette and type follow site/DESIGN.md. Red marks only what was flagged. */
+      @font-face {
+        font-family: "YJ Sans";
+        src: local("Segoe UI");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "YJ Sans";
+        src: local("Segoe UI Semibold");
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: "YJ Sans";
+        src: local("Segoe UI Bold");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "YJ Deva";
+        src: local("Nirmala UI Bold"), local("Nirmala UI");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "YJ Mono";
+        src: local("Cascadia Mono"), local("Consolas");
+      }
+      :root {
+        --ground: #f2f1ed;
+        --surface: #ffffff;
+        --rule: #dcdad3;
+        --ink: #16181d;
+        --ink-2: #555860;
+        --flag: #b3261e;
+        --flag-tint: #fbe9e6;
+        --sans: "YJ Sans", sans-serif;
+        --mono: "YJ Mono", monospace;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        font-family: var(--sans);
+        color: var(--ink);
+      }
+      #ground {
+        position: absolute;
+        inset: 0;
+        background: var(--ground);
+      }
+      .abs {
+        position: absolute;
+      }
+      #lines,
+      #stage,
+      #strip {
+        position: absolute;
+        inset: 0;
+      }
+
+      /* The narration lines, top left. */
+      .line {
+        position: absolute;
+        left: 120px;
+        top: 62px;
+        width: 1680px;
+        font-size: 66px;
+        line-height: 1.14;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+      }
+      .line-in {
+        display: block;
+      }
+      .red {
+        color: var(--flag);
+      }
+      #name {
+        position: absolute;
+        left: 120px;
+        top: 150px;
+        font-size: 40px;
+        font-weight: 600;
+        color: var(--ink-2);
+      }
+      #name .hi {
+        font-family: "YJ Deva", var(--sans);
+        font-weight: 700;
+      }
+
+      /* Portal record card. */
+      #card {
+        left: 120px;
+        top: 270px;
+        width: 1280px;
+        height: 540px;
+        background: var(--surface);
+        border: 2px solid var(--rule);
+        border-radius: 10px;
+      }
+      #card-head {
+        left: 44px;
+        top: 30px;
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--ink-2);
+      }
+      #card-rule {
+        left: 44px;
+        top: 90px;
+        width: 520px;
+        height: 2px;
+        background: var(--rule);
+      }
+      .field {
+        left: 44px;
+      }
+      .field .k {
+        display: block;
+        font-size: 28px;
+        color: var(--ink-2);
+      }
+      .field .v {
+        display: block;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 1.15;
+      }
+      #photo-ring {
+        left: 748px;
+        top: 303px;
+        width: 624px;
+        height: 474px;
+        border: 5px solid var(--ink);
+        border-radius: 12px;
+      }
+
+      /* The photo that travels through every step. */
+      #photo {
+        left: 0;
+        top: 0;
+        width: 720px;
+        height: 540px;
+        border-radius: 8px;
+        overflow: hidden;
+        z-index: 6;
+      }
+      #photo svg,
+      .tile svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .tile {
+        left: 0;
+        top: 0;
+        width: 196px;
+        height: 147px;
+        z-index: 5;
+      }
+      .tile-in {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      /* Collector: what gets saved. */
+      .store {
+        background: var(--surface);
+        border: 2px solid var(--rule);
+        border-radius: 10px;
+      }
+      #store-rec {
+        left: 760px;
+        top: 330px;
+        width: 470px;
+        height: 420px;
+      }
+      #store-pho {
+        left: 1270px;
+        top: 330px;
+        width: 530px;
+        height: 420px;
+      }
+      .store-name {
+        left: 32px;
+        top: 24px;
+        font-family: var(--mono);
+        font-size: 32px;
+        color: var(--ink-2);
+      }
+      .row {
+        left: 32px;
+        width: 400px;
+        font-size: 30px;
+        color: var(--ink-2);
+      }
+      .row b {
+        font-family: var(--mono);
+        font-weight: 400;
+        font-size: 32px;
+        color: var(--ink);
+        margin-right: 26px;
+      }
+      #flow {
+        left: 668px;
+        top: 538px;
+        width: 82px;
+        height: 4px;
+        background: var(--ink);
+      }
+      .dot {
+        left: 664px;
+        top: 531px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--ink);
+      }
+      #pace {
+        left: 120px;
+        top: 676px;
+        font-size: 32px;
+        color: var(--ink-2);
+      }
+
+      /* Checker: fingerprints, then the works that share one. */
+      .fp {
+        font-family: var(--mono);
+        white-space: nowrap;
+      }
+      #fp-main {
+        left: 120px;
+        top: 646px;
+        font-size: 50px;
+      }
+      #fp-main-k {
+        left: 120px;
+        top: 716px;
+        font-size: 32px;
+        color: var(--ink-2);
+      }
+      .fp-s {
+        top: 462px;
+        font-size: 28px;
+        color: var(--ink-2);
+      }
+      #scan {
+        left: 120px;
+        top: 270px;
+        width: 5px;
+        height: 360px;
+        background: var(--ink);
+        z-index: 7;
+      }
+      #link {
+        left: 600px;
+        top: 448px;
+        width: 112px;
+        height: 4px;
+        background: var(--flag);
+      }
+      #grid-head {
+        left: 720px;
+        top: 274px;
+        display: flex;
+        align-items: baseline;
+        gap: 22px;
+        font-size: 38px;
+        color: var(--ink-2);
+        white-space: nowrap;
+      }
+      #count {
+        font-size: 62px;
+        font-weight: 700;
+        color: var(--flag);
+        font-variant-numeric: tabular-nums;
+      }
+      #grid {
+        left: 720px;
+        top: 362px;
+        width: 1080px;
+        height: 440px;
+      }
+      .work {
+        position: absolute;
+        width: 52px;
+        height: 29px;
+        background: var(--flag-tint);
+        border: 2px solid var(--flag);
+        border-radius: 3px;
+      }
+
+      /* Publisher: blur, then a person's tick. */
+      #lead-blur {
+        left: 716px;
+        top: 448px;
+        width: 186px;
+        height: 4px;
+        background: var(--ink);
+      }
+      .big {
+        font-size: 46px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .sub {
+        font-size: 32px;
+        color: var(--ink-2);
+        white-space: nowrap;
+      }
+      #box {
+        left: 920px;
+        top: 628px;
+        width: 60px;
+        height: 60px;
+        background: var(--surface);
+        border: 4px solid var(--ink);
+        border-radius: 6px;
+      }
+      #box svg {
+        position: absolute;
+        left: -4px;
+        top: -4px;
+      }
+
+      /* Site: the map and the case. */
+      .map {
+        left: 150px;
+        top: 270px;
+        width: 502px;
+        height: 540px;
+      }
+      .leader {
+        height: 3px;
+        background: var(--ink);
+      }
+      .pin {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--surface);
+        border: 4px solid var(--ink);
+      }
+      .place {
+        font-size: 46px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .place span {
+        display: block;
+        font-size: 38px;
+        font-weight: 600;
+        color: var(--flag);
+      }
+      #case {
+        left: 1360px;
+        top: 270px;
+        width: 440px;
+        height: 540px;
+        background: var(--surface);
+        border: 2px solid var(--rule);
+        border-radius: 10px;
+        z-index: 4;
+      }
+      #case-kind {
+        left: 24px;
+        top: 346px;
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--flag);
+      }
+      #case-title {
+        left: 24px;
+        top: 388px;
+        width: 392px;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1.16;
+      }
+      #case-place {
+        left: 24px;
+        top: 486px;
+        font-size: 28px;
+        color: var(--ink-2);
+      }
+
+      /* The pipeline, one part added per step. */
+      .node {
+        top: 880px;
+        width: 260px;
+        height: 84px;
+        border: 3px solid var(--ink);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .node-fill {
+        position: absolute;
+        inset: 0;
+        background: var(--ink);
+      }
+      .node-name {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 33px;
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .arrow {
+        top: 880px;
+        width: 95px;
+        height: 84px;
+      }
+      #runner {
+        left: 241px;
+        top: 986px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--ink);
+      }
+
+      /* The whole pipeline at the end. */
+      .picto {
+        top: 372px;
+        width: 320px;
+        height: 250px;
+      }
+      .cap {
+        top: 650px;
+        width: 320px;
+        text-align: center;
+        font-size: 31px;
+        line-height: 1.25;
+        color: var(--ink-2);
+      }
+      .mini-card {
+        left: 20px;
+        top: 34px;
+        width: 280px;
+        height: 182px;
+        background: var(--surface);
+        border: 2px solid var(--rule);
+        border-radius: 8px;
+      }
+      .cmd {
+        top: 1006px;
+        font-family: var(--mono);
+        font-size: 31px;
+        text-align: center;
+        white-space: nowrap;
+      }
+      .brace {
+        top: 976px;
+        height: 18px;
+        border: 4px solid var(--ink);
+        border-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Drawn stand-ins for evidence photos. The real ones show private citizens and stay out of the repository. -->
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <g id="stamp">
+          <rect x="0" y="246" width="400" height="54" fill="#16181d" opacity="0.74" />
+          <rect x="8" y="252" width="42" height="42" fill="#dfe6d8" />
+          <path d="M8 276 L28 262 L50 280" stroke="#9aa893" stroke-width="3" fill="none" />
+          <circle cx="29" cy="272" r="5" fill="#16181d" />
+        </g>
+        <symbol id="ph-main" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#c2a56e" />
+          <rect width="400" height="132" fill="#cfdfe8" />
+          <path
+            d="M0 120 Q20 100 45 112 Q70 96 100 110 Q130 98 160 112 Q200 100 230 112 Q270 96 300 110 Q340 100 370 112 L400 106 L400 142 L0 142Z"
+            fill="#5f7b52"
+          />
+          <polygon points="0,170 400,150 400,178 0,204" fill="#cdb27c" />
+          <polygon points="60,206 232,190 262,240 44,262" fill="#6f5630" />
+          <polygon points="82,214 222,202 242,234 72,250" fill="#523e1e" />
+          <ellipse cx="318" cy="232" rx="58" ry="17" fill="#a98954" />
+          <rect x="301" y="166" width="9" height="50" fill="#3f4b5c" />
+          <rect x="313" y="166" width="9" height="50" fill="#3f4b5c" />
+          <rect x="296" y="116" width="31" height="56" rx="7" fill="#ece7da" />
+          <rect x="289" y="120" width="8" height="42" rx="4" fill="#ece7da" />
+          <rect x="326" y="120" width="8" height="42" rx="4" fill="#ece7da" />
+          <circle cx="311" cy="103" r="11" fill="#a97550" />
+          <ellipse cx="311" cy="95" rx="13" ry="8" fill="#d9a441" />
+          <use href="#stamp" />
+          <text x="60" y="270" font-family="YJ Sans, sans-serif" font-size="14" font-weight="600" fill="#ffffff">
+            Khassa, Punjab, India
+          </text>
+          <text x="60" y="288" font-family="YJ Sans, sans-serif" font-size="12" fill="#e9e9e6">
+            Lat 31.62° Long 74.77°
+          </text>
+        </symbol>
+        <symbol id="ph-pond" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#98a868" />
+          <rect width="400" height="120" fill="#d5e2e6" />
+          <path d="M0 112 Q60 86 130 108 Q210 84 280 106 Q340 90 400 104 L400 132 L0 132Z" fill="#6c8558" />
+          <ellipse cx="200" cy="200" rx="160" ry="50" fill="#8a7a52" />
+          <ellipse cx="200" cy="200" rx="142" ry="40" fill="#6f93a8" />
+          <use href="#stamp" />
+        </symbol>
+        <symbol id="ph-saplings" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#b58e5c" />
+          <rect width="400" height="110" fill="#e6dfcf" />
+          <g fill="#4f7a43" stroke="#5c4526" stroke-width="5">
+            <path d="M70 230 V180" /><circle cx="70" cy="168" r="20" stroke="none" />
+            <path d="M150 220 V172" /><circle cx="150" cy="160" r="20" stroke="none" />
+            <path d="M230 232 V182" /><circle cx="230" cy="170" r="20" stroke="none" />
+            <path d="M310 222 V174" /><circle cx="310" cy="162" r="20" stroke="none" />
+          </g>
+          <use href="#stamp" />
+        </symbol>
+        <symbol id="ph-well" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#a9a18c" />
+          <rect width="400" height="126" fill="#c9d7e3" />
+          <rect x="110" y="150" width="180" height="62" fill="#b9b5aa" />
+          <ellipse cx="200" cy="212" rx="90" ry="26" fill="#b9b5aa" />
+          <ellipse cx="200" cy="150" rx="90" ry="26" fill="#d6d3ca" />
+          <ellipse cx="200" cy="150" rx="68" ry="18" fill="#34322e" />
+          <use href="#stamp" />
+        </symbol>
+        <symbol id="ph-trench" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#8fa05f" />
+          <rect width="400" height="104" fill="#dfe5d6" />
+          <polygon points="30,300 130,300 330,128 296,128" fill="#7a5c34" />
+          <polygon points="62,300 108,300 318,128 306,128" fill="#553f20" />
+          <use href="#stamp" />
+        </symbol>
+        <symbol id="ph-tank" viewBox="0 0 400 300">
+          <rect width="400" height="300" fill="#9c9484" />
+          <rect width="400" height="150" fill="#cfdfe8" />
+          <rect x="60" y="120" width="280" height="130" fill="#d9c7a8" />
+          <rect x="50" y="108" width="300" height="16" fill="#b8a482" />
+          <rect x="230" y="40" width="74" height="68" rx="8" fill="#2e3238" />
+          <rect x="120" y="160" width="46" height="90" fill="#8d6b45" />
+          <rect x="262" y="108" width="8" height="142" fill="#5d6068" />
+          <use href="#stamp" />
+        </symbol>
+        <clipPath id="head-clip">
+          <ellipse cx="311" cy="99" rx="19" ry="23" />
+        </clipPath>
+        <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+          <feGaussianBlur stdDeviation="1.6" />
+        </filter>
+        <g id="blur-art" clip-path="url(#head-clip)">
+          <g filter="url(#soften)">
+            <rect x="286" y="72" width="50" height="54" fill="#cfdfe8" />
+            <rect x="294" y="78" width="12" height="12" fill="#d3b867" />
+            <rect x="306" y="78" width="12" height="12" fill="#d9a441" />
+            <rect x="318" y="78" width="12" height="12" fill="#cdbb84" />
+            <rect x="294" y="90" width="12" height="12" fill="#b98a58" />
+            <rect x="306" y="90" width="12" height="12" fill="#a97550" />
+            <rect x="318" y="90" width="12" height="12" fill="#b7906a" />
+            <rect x="294" y="102" width="12" height="12" fill="#b9a085" />
+            <rect x="306" y="102" width="12" height="12" fill="#b28763" />
+            <rect x="318" y="102" width="12" height="12" fill="#c4b29c" />
+            <rect x="294" y="114" width="12" height="12" fill="#e0dccf" />
+            <rect x="306" y="114" width="12" height="12" fill="#ece7da" />
+            <rect x="318" y="114" width="12" height="12" fill="#e2ded2" />
+          </g>
+        </g>
+      </defs>
+    </svg>
+
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="28"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div id="ground"></div>
+
+      <div id="stage">
+        <!-- 1. Portal -->
+        <div id="card" class="abs">
+          <div id="card-body" class="abs" style="inset: 0">
+          <div id="card-head" class="abs">JSJB portal, work record</div>
+          <div id="card-rule" class="abs"></div>
+          <div class="field abs" style="top: 112px"><span class="k">Work ID</span><span class="v">5410072</span></div>
+          <div class="field abs" style="top: 216px">
+            <span class="k">Village</span><span class="v">Khassa, Amritsar</span>
+          </div>
+          <div class="field abs" style="top: 320px"><span class="k">Work type</span><span class="v">Other</span></div>
+          <div class="field abs" style="top: 424px">
+            <span class="k">Dates</span><span class="v">1 Oct to 31 Dec 2025</span>
+          </div>
+          </div>
+        </div>
+        <div id="portal-k" class="big abs" style="left: 152px; top: 470px">JSJB portal</div>
+        <div id="portal-s" class="sub abs" style="left: 152px; top: 532px">public work records</div>
+        <div id="photo-ring" class="abs"></div>
+
+        <!-- 2. Collector -->
+        <div id="flow" class="abs"></div>
+        <div id="dot-1" class="dot abs"></div>
+        <div id="dot-2" class="dot abs"></div>
+        <div id="dot-3" class="dot abs"></div>
+        <div id="dot-4" class="dot abs"></div>
+        <div id="dot-5" class="dot abs"></div>
+        <div id="dot-6" class="dot abs"></div>
+        <div id="pace" class="abs">One request a second</div>
+        <div id="store-rec" class="store abs">
+          <div class="store-name abs">data/records</div>
+          <div id="row-1" class="row abs" style="top: 92px"><b>5410072</b>Khassa</div>
+          <div id="row-2" class="row abs" style="top: 144px"><b>5411967</b>Khassa</div>
+          <div id="row-3" class="row abs" style="top: 196px"><b>5412548</b>Khassa</div>
+          <div id="row-4" class="row abs" style="top: 248px"><b>5413012</b>Khassa</div>
+          <div id="row-5" class="row abs" style="top: 300px"><b>5414098</b>Khassa</div>
+          <div id="row-6" class="row abs" style="top: 352px"><b>5414631</b>Khassa</div>
+        </div>
+        <div id="store-pho" class="store abs">
+          <div class="store-name abs">data/photos</div>
+        </div>
+        <div id="tile-1" class="tile abs"><div class="tile-in"><svg viewBox="0 0 400 300"><use href="#ph-pond" /></svg></div></div>
+        <div id="tile-2" class="tile abs"><div class="tile-in"><svg viewBox="0 0 400 300"><use href="#ph-saplings" /></svg></div></div>
+        <div id="tile-3" class="tile abs"><div class="tile-in"><svg viewBox="0 0 400 300"><use href="#ph-well" /></svg></div></div>
+        <div id="tile-4" class="tile abs"><div class="tile-in"><svg viewBox="0 0 400 300"><use href="#ph-trench" /></svg></div></div>
+        <div id="tile-5" class="tile abs"><div class="tile-in"><svg viewBox="0 0 400 300"><use href="#ph-tank" /></svg></div></div>
+
+        <!-- 3. Checker -->
+        <div id="scan" class="abs"></div>
+        <div id="fp-main" class="fp abs">0b719c63cad7</div>
+        <div id="fp-main-k" class="abs">fingerprint of the file (SHA-256)</div>
+        <div id="fp-1" class="fp fp-s abs" style="left: 720px">e5ebf2b988b6</div>
+        <div id="fp-2" class="fp fp-s abs" style="left: 936px">3ae9ff2a4c3a</div>
+        <div id="fp-3" class="fp fp-s abs" style="left: 1152px">d7d280e38058</div>
+        <div id="fp-4" class="fp fp-s abs" style="left: 1368px">b8773c7aca79</div>
+        <div id="fp-5" class="fp fp-s abs" style="left: 1584px">e315175f9138</div>
+        <div id="link" class="abs"></div>
+        <div id="grid-head" class="abs">Works on the portal with this exact file <span id="count">0</span></div>
+        <div id="grid" class="abs"></div>
+
+        <!-- 4. Publisher -->
+        <div id="lead-blur" class="abs"></div>
+        <div id="blur-k" class="big abs" style="left: 920px; top: 416px">Face blurred</div>
+        <div id="blur-s" class="sub abs" style="left: 920px; top: 478px">The rest of the photo stays sharp</div>
+        <div id="box" class="abs">
+          <svg width="60" height="60" viewBox="0 0 60 60">
+            <path id="tick" d="M13 31 L26 44 L48 17" fill="none" stroke="#16181d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div id="ok-k" class="big abs" style="left: 1004px; top: 626px">No recognisable face</div>
+        <div id="ok-s" class="sub abs" style="left: 1004px; top: 690px">Ticked by hand</div>
+
+        <!-- 5. Site -->
+        <img id="map-base" class="map abs" src="assets/punjab-base.svg" alt="" />
+        <img id="map-flag" class="map abs" src="assets/punjab-flagged.svg" alt="" />
+        <div id="lead-a" class="leader abs" style="left: 318px; top: 425px; width: 384px"></div>
+        <div id="pin-a" class="pin abs" style="left: 309px; top: 418px"></div>
+        <div id="place-a" class="place abs" style="left: 722px; top: 392px">Amritsar<span>98 cases</span></div>
+        <div id="lead-s" class="leader abs" style="left: 475px; top: 688px; width: 227px"></div>
+        <div id="pin-s" class="pin abs" style="left: 466px; top: 681px"></div>
+        <div id="place-s" class="place abs" style="left: 722px; top: 655px">Sangrur<span>302 cases</span></div>
+        <div id="case" class="abs">
+          <div id="case-kind" class="abs">Photo reuse</div>
+          <div id="case-title" class="abs">One photo, 215 different works</div>
+          <div id="case-place" class="abs">Khassa, Amritsar</div>
+        </div>
+
+        <!-- The photo carried through every step -->
+        <div id="photo" class="abs">
+          <svg viewBox="0 0 400 300">
+            <use href="#ph-main" />
+            <use id="blur" href="#blur-art" />
+            <ellipse id="ring" cx="311" cy="99" rx="19" ry="23" fill="none" stroke="#16181d" stroke-width="2.4" stroke-dasharray="133" />
+          </svg>
+        </div>
+
+        <!-- 6. The whole pipeline -->
+        <div id="picto-1" class="picto abs" style="left: 90px">
+          <div class="mini-card abs">
+            <div class="abs" style="left: 20px; top: 24px; font-size: 34px; font-weight: 600">5410072</div>
+            <svg class="abs" style="left: 150px; top: 82px" width="112" height="84" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+          </div>
+        </div>
+        <div id="cap-1" class="cap abs" style="left: 90px">publishes each work with a photo</div>
+        <div id="picto-2" class="picto abs" style="left: 445px">
+          <svg class="abs" style="left: 34px; top: 30px" width="176" height="132" viewBox="0 0 400 300"><use href="#ph-pond" /></svg>
+          <svg class="abs" style="left: 72px; top: 60px" width="176" height="132" viewBox="0 0 400 300"><use href="#ph-well" /></svg>
+          <svg class="abs" style="left: 110px; top: 90px" width="176" height="132" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+        </div>
+        <div id="cap-2" class="cap abs" style="left: 445px">saves the records and photos</div>
+        <div id="picto-3" class="picto abs" style="left: 800px">
+          <svg class="abs" style="left: 14px; top: 76px" width="132" height="99" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+          <svg class="abs" style="left: 146px; top: 62px" width="170" height="130" viewBox="0 0 170 130">
+            <path d="M0 64 H22" stroke="#b3261e" stroke-width="4" />
+            <g fill="#fbe9e6" stroke="#b3261e" stroke-width="2">
+              <rect x="24" y="4" width="42" height="24" rx="3" /><rect x="74" y="4" width="42" height="24" rx="3" /><rect x="124" y="4" width="42" height="24" rx="3" />
+              <rect x="24" y="36" width="42" height="24" rx="3" /><rect x="74" y="36" width="42" height="24" rx="3" /><rect x="124" y="36" width="42" height="24" rx="3" />
+              <rect x="24" y="68" width="42" height="24" rx="3" /><rect x="74" y="68" width="42" height="24" rx="3" /><rect x="124" y="68" width="42" height="24" rx="3" />
+              <rect x="24" y="100" width="42" height="24" rx="3" /><rect x="74" y="100" width="42" height="24" rx="3" /><rect x="124" y="100" width="42" height="24" rx="3" />
+            </g>
+          </svg>
+        </div>
+        <div id="cap-3" class="cap abs" style="left: 800px">flags evidence that is reused</div>
+        <div id="picto-4" class="picto abs" style="left: 1155px">
+          <svg class="abs" style="left: 36px; top: 30px" width="248" height="186" viewBox="0 0 400 300">
+            <use href="#ph-main" /><use href="#blur-art" />
+          </svg>
+          <svg class="abs" style="left: 236px; top: 168px" width="64" height="64" viewBox="0 0 60 60">
+            <rect x="2" y="2" width="56" height="56" rx="6" fill="#ffffff" stroke="#16181d" stroke-width="4" />
+            <path d="M13 31 L26 44 L48 17" fill="none" stroke="#16181d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div id="cap-4" class="cap abs" style="left: 1155px">blurs faces, then a person approves</div>
+        <div id="picto-5" class="picto abs" style="left: 1510px">
+          <img class="abs" style="left: 48px; top: 4px; width: 225px; height: 242px" src="assets/punjab-base.svg" alt="" />
+          <img class="abs" style="left: 48px; top: 4px; width: 225px; height: 242px" src="assets/punjab-flagged.svg" alt="" />
+        </div>
+        <div id="cap-5" class="cap abs" style="left: 1510px">maps each flag for people to check</div>
+      </div>
+
+      <div id="strip">
+        <div id="node-1" class="node abs" style="left: 120px">
+          <div id="fill-1" class="node-fill"></div>
+          <div id="nm-1" class="node-name">Scheme portal</div>
+        </div>
+        <svg id="arrow-1" class="arrow abs" style="left: 380px" viewBox="0 0 95 84"><path d="M14 42 H70" stroke="#16181d" stroke-width="4" /><path d="M62 30 L80 42 L62 54Z" fill="#16181d" /></svg>
+        <div id="node-2" class="node abs" style="left: 475px">
+          <div id="fill-2" class="node-fill"></div>
+          <div id="nm-2" class="node-name">Collector</div>
+        </div>
+        <svg id="arrow-2" class="arrow abs" style="left: 735px" viewBox="0 0 95 84"><path d="M14 42 H70" stroke="#16181d" stroke-width="4" /><path d="M62 30 L80 42 L62 54Z" fill="#16181d" /></svg>
+        <div id="node-3" class="node abs" style="left: 830px">
+          <div id="fill-3" class="node-fill"></div>
+          <div id="nm-3" class="node-name">Checker</div>
+        </div>
+        <svg id="arrow-3" class="arrow abs" style="left: 1090px" viewBox="0 0 95 84"><path d="M14 42 H70" stroke="#16181d" stroke-width="4" /><path d="M62 30 L80 42 L62 54Z" fill="#16181d" /></svg>
+        <div id="node-4" class="node abs" style="left: 1185px">
+          <div id="fill-4" class="node-fill"></div>
+          <div id="nm-4" class="node-name">Publisher</div>
+        </div>
+        <svg id="arrow-4" class="arrow abs" style="left: 1445px" viewBox="0 0 95 84"><path d="M14 42 H70" stroke="#16181d" stroke-width="4" /><path d="M62 30 L80 42 L62 54Z" fill="#16181d" /></svg>
+        <div id="node-5" class="node abs" style="left: 1540px">
+          <div id="fill-5" class="node-fill"></div>
+          <div id="nm-5" class="node-name">Site</div>
+        </div>
+        <div id="runner" class="abs"></div>
+        <div id="brace-1" class="brace abs" style="left: 475px; width: 615px"></div>
+        <div id="cmd-1" class="cmd abs" style="left: 475px; width: 615px">python run.py refresh</div>
+        <div id="brace-2" class="brace abs" style="left: 1185px; width: 260px"></div>
+        <div id="cmd-2" class="cmd abs" style="left: 1165px; width: 300px">run.py publish</div>
+        <div id="brace-3" class="brace abs" style="left: 1540px; width: 260px"></div>
+        <div id="cmd-3" class="cmd abs" style="left: 1520px; width: 300px">run.py serve</div>
+      </div>
+
+      <div id="lines">
+        <h2 id="line-1" class="clip line" data-start="0" data-duration="4" data-track-index="2">
+          <span id="line-1-in" class="line-in">Each work on the portal carries a photo as proof.</span>
+        </h2>
+        <h2 id="line-2" class="clip line" data-start="4.1" data-duration="3.5" data-track-index="2">
+          <span id="line-2-in" class="line-in">The collector saves every public record and photo.</span>
+        </h2>
+        <h2 id="line-3" class="clip line" data-start="7.7" data-duration="2.7" data-track-index="2">
+          <span id="line-3-in" class="line-in">The checker fingerprints each photo file.</span>
+        </h2>
+        <h2 id="line-4" class="clip line" data-start="10.5" data-duration="3.7" data-track-index="2">
+          <span id="line-4-in" class="line-in">The same file is attached to <span class="red">215</span> different works.</span>
+        </h2>
+        <h2 id="line-5" class="clip line" data-start="14.3" data-duration="4.1" data-track-index="2">
+          <span id="line-5-in" class="line-in">The publisher blurs faces. A person checks each copy.</span>
+        </h2>
+        <h2 id="line-6" class="clip line" data-start="18.5" data-duration="3.9" data-track-index="2">
+          <span id="line-6-in" class="line-in">The site puts each flag on a public map.</span>
+        </h2>
+        <h2 id="line-7" class="clip line" data-start="22.7" data-duration="5.3" data-track-index="2">
+          <span id="line-7-in" class="line-in">A flag is a lead to check, not proof of fraud.</span>
+        </h2>
+        <p id="name" class="clip" data-start="23.1" data-duration="4.9" data-track-index="3">
+          <span id="name-in" class="line-in">Yojana Jaanch <span class="hi" lang="hi">योजना जाँच</span></span>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // 215 small tiles, one per work that carries the photo (record_count of the case in site/data/cases.json).
+      const WORKS = 215;
+      const grid = document.getElementById("grid");
+      for (let i = 0; i < WORKS; i++) {
+        const w = document.createElement("div");
+        w.className = "work";
+        w.style.left = (i % 18) * 60 + "px";
+        w.style.top = Math.floor(i / 18) * 37 + "px";
+        grid.appendChild(w);
+      }
+
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const HIDE = { opacity: 0, filter: "blur(8px)" };
+      const SHOW = { opacity: 1, filter: "blur(0px)" };
+
+      // Blur in, blur out: the one way things arrive on and leave the stage when nothing carries them.
+      const blurIn = (sel, t, d = 0.3) => tl.fromTo(sel, HIDE, { ...SHOW, duration: d, ease: "power2.out" }, t);
+      const blurOut = (sel, t, d = 0.22) => tl.to(sel, { ...HIDE, duration: d, ease: "power2.in" }, t);
+      // Left to right, like a row being written.
+      const wipeIn = (sel, t, d = 0.45, ease = "power3.out") =>
+        tl.fromTo(
+          sel,
+          { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+          { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: d, ease },
+          t,
+        );
+      const line = (n, start, end) => {
+        blurIn(`#line-${n}-in`, start + 0.05, 0.2);
+        blurOut(`#line-${n}-in`, end - 0.2, 0.17);
+      };
+      const nodeOn = (n, t) => {
+        tl.fromTo(`#fill-${n}`, { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power2.inOut" }, t);
+        tl.fromTo(`#nm-${n}`, { color: "#16181d" }, { color: "#ffffff", duration: 0.3, ease: "power2.inOut" }, t);
+      };
+      const nodeOff = (n, t) => {
+        tl.to(`#fill-${n}`, { opacity: 0, duration: 0.3, ease: "power2.inOut" }, t);
+        tl.to(`#nm-${n}`, { color: "#16181d", duration: 0.3, ease: "power2.inOut" }, t);
+      };
+      const nodeIn = (n, t) => {
+        if (n > 1) wipeIn(`#arrow-${n - 1}`, t, 0.3);
+        tl.fromTo(
+          `#node-${n}`,
+          { opacity: 0, scale: 0.86 },
+          { opacity: 1, scale: 1, duration: 0.5, ease: "expo.out" },
+          t + (n > 1 ? 0.15 : 0),
+        );
+        nodeOn(n, t + (n > 1 ? 0.15 : 0));
+        if (n > 1) nodeOff(n - 1, t + 0.15);
+      };
+
+      // Start states for things that move rather than appear.
+      gsap.set("#photo", { x: 760, y: 315, scale: 0.8333, transformOrigin: "0 0" });
+      gsap.set("#card", { transformOrigin: "0 0" });
+      gsap.set("#blur", { opacity: 0 });
+      gsap.set("#ring", { strokeDashoffset: 133 });
+      gsap.set("#tick", { strokeDasharray: 60, strokeDashoffset: 60 });
+      const cells = [
+        [1473, 422],
+        [1644, 422],
+        [1302, 554],
+        [1473, 554],
+        [1644, 554],
+      ];
+      cells.forEach(([x, y], i) => gsap.set(`#tile-${i + 1}`, { x, y, scale: 0.796, transformOrigin: "0 0" }));
+
+      // 1. Portal (0 to 4): the record is on screen from the first frame.
+      line(1, 0, 4);
+      nodeIn(1, 0.35);
+      tl.fromTo("#photo-ring", { opacity: 0, scale: 1.06 }, { opacity: 1, scale: 1, duration: 0.5, ease: "expo.out" }, 1.3);
+      blurOut("#photo-ring", 3.75);
+
+      // 2. Collector (4 to 7.6): the record and its photo are saved, one request at a time.
+      line(2, 4.1, 7.6);
+      nodeIn(2, 4.05);
+      blurOut("#card-body", 3.95, 0.25);
+      tl.to("#card", { x: 0, y: 157, scale: 0.42, duration: 0.75, ease: "power2.inOut" }, 4.0);
+      blurIn("#portal-k", 4.6, 0.22);
+      blurIn("#portal-s", 4.75, 0.22);
+      tl.to("#photo", { x: 1302, y: 422, scale: 0.2167, duration: 0.8, ease: "power2.inOut" }, 4.0);
+      wipeIn("#store-rec", 4.25);
+      wipeIn("#store-pho", 4.35);
+      wipeIn("#flow", 4.6, 0.25);
+      blurIn("#pace", 4.9, 0.25);
+      for (let i = 1; i <= 6; i++) {
+        const t = 4.75 + (i - 1) * 0.3;
+        tl.fromTo(`#dot-${i}`, { opacity: 0, x: 0 }, { opacity: 1, x: 80, duration: 0.24, ease: "none" }, t);
+        tl.to(`#dot-${i}`, { opacity: 0, duration: 0.05 }, t + 0.24);
+        wipeIn(`#row-${i}`, t + 0.22, 0.25);
+        if (i > 1) {
+          tl.fromTo(
+            `#tile-${i - 1} .tile-in`,
+            { opacity: 0, scale: 0.6 },
+            { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(1.4)" },
+            t + 0.26,
+          );
+        }
+      }
+      for (let i = 1; i <= 6; i++) gsap.set(`#dot-${i}`, { opacity: 0 });
+      for (let i = 1; i <= 5; i++) gsap.set(`#tile-${i} .tile-in`, { opacity: 0 });
+
+      // 3. Checker (7.6 to 14.2): every file gets a fingerprint, and one fingerprint keeps coming back.
+      line(3, 7.7, 10.4);
+      nodeIn(3, 7.65);
+      blurOut(["#card", "#portal-k", "#portal-s", "#flow", "#pace", "#store-rec", "#store-pho"], 7.55, 0.25);
+      tl.to("#photo", { x: 120, y: 270, scale: 0.6667, duration: 0.75, ease: "power2.inOut" }, 7.6);
+      for (let i = 1; i <= 5; i++) {
+        tl.to(
+          `#tile-${i}`,
+          { x: 720 + (i - 1) * 216, y: 300, scale: 1, duration: 0.7, ease: "power2.inOut" },
+          7.62 + i * 0.04,
+        );
+        wipeIn(`#fp-${i}`, 8.75 + (i - 1) * 0.14, 0.32, "steps(12)");
+      }
+      tl.fromTo("#scan", { opacity: 0, x: 0 }, { opacity: 1, x: 475, duration: 0.5, ease: "power1.inOut" }, 8.35);
+      tl.to("#scan", { opacity: 0, duration: 0.08 }, 8.85);
+      gsap.set("#scan", { opacity: 0 });
+      wipeIn("#fp-main", 8.6, 0.4, "steps(12)");
+      blurIn("#fp-main-k", 8.95, 0.25);
+
+      line(4, 10.5, 14.2);
+      for (let i = 1; i <= 5; i++) blurOut([`#tile-${i}`, `#fp-${i}`], 10.3 + i * 0.03, 0.22);
+      blurIn("#grid-head", 10.6, 0.25);
+      tl.fromTo("#link", { opacity: 0, scaleX: 0, transformOrigin: "0 50%" }, { opacity: 1, scaleX: 1, duration: 0.25, ease: "power2.out" }, 10.75);
+      tl.fromTo(
+        ".work",
+        { opacity: 0, scale: 0.4 },
+        { opacity: 1, scale: 1, duration: 0.18, ease: "power3.out", stagger: 0.0075 },
+        10.95,
+      );
+      const counter = { n: 0 };
+      const countEl = document.getElementById("count");
+      tl.to(
+        counter,
+        {
+          n: WORKS,
+          duration: 0.0075 * (WORKS - 1) + 0.1,
+          ease: "none",
+          onUpdate: () => (countEl.textContent = String(Math.round(counter.n))),
+        },
+        10.95,
+      );
+      tl.to("#fp-main", { color: "#b3261e", duration: 0.3, ease: "power2.inOut" }, 12.7);
+
+      // 4. Publisher (14.2 to 18.4): the face is blurred, then a person ticks the copy.
+      line(5, 14.3, 18.4);
+      nodeIn(4, 14.25);
+      blurOut(["#grid", "#grid-head", "#link", "#fp-main", "#fp-main-k"], 14.1, 0.25);
+      tl.to("#photo", { x: 120, y: 270, scale: 1, duration: 0.75, ease: "power2.inOut" }, 14.2);
+      tl.to("#ring", { strokeDashoffset: 0, duration: 0.4, ease: "power2.inOut" }, 15.0);
+      tl.to("#blur", { opacity: 1, duration: 0.3, ease: "power2.out" }, 15.3);
+      tl.fromTo("#lead-blur", { opacity: 0, scaleX: 0, transformOrigin: "0 50%" }, { opacity: 1, scaleX: 1, duration: 0.3, ease: "power2.out" }, 15.35);
+      blurIn("#blur-k", 15.5, 0.22);
+      blurIn("#blur-s", 15.65, 0.22);
+      tl.fromTo("#box", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.45, ease: "expo.out" }, 16.2);
+      blurIn("#ok-k", 16.3, 0.22);
+      tl.to("#tick", { strokeDashoffset: 0, duration: 0.32, ease: "power2.out" }, 16.75);
+      blurIn("#ok-s", 16.8, 0.22);
+
+      // 5. Site (18.4 to 22.4): the blurred copy becomes a case, and the case lands on the map.
+      line(6, 18.5, 22.4);
+      nodeIn(5, 18.45);
+      blurOut(["#lead-blur", "#blur-k", "#blur-s", "#box", "#ok-k", "#ok-s"], 18.3, 0.25);
+      tl.to("#ring", { opacity: 0, duration: 0.25 }, 18.3);
+      tl.to("#photo", { x: 1360, y: 270, scale: 0.6111, duration: 0.75, ease: "power2.inOut" }, 18.4);
+      blurIn("#case", 18.9, 0.3);
+      blurIn("#map-base", 18.8, 0.4);
+      tl.fromTo("#map-flag", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 19.5);
+      [
+        ["a", 19.9],
+        ["s", 20.4],
+      ].forEach(([k, t]) => {
+        tl.fromTo(`#pin-${k}`, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(1.4)" }, t);
+        tl.fromTo(`#lead-${k}`, { opacity: 0, scaleX: 0, transformOrigin: "0 50%" }, { opacity: 1, scaleX: 1, duration: 0.3, ease: "power2.out" }, t + 0.1);
+        blurIn(`#place-${k}`, t + 0.3, 0.22);
+      });
+
+      // 6. The whole pipeline (22.4 to 28).
+      line(7, 22.7, 28.2);
+      blurIn("#name-in", 23.15, 0.25);
+      blurOut(["#photo", "#case", "#map-base", "#map-flag", "#lead-a", "#pin-a", "#place-a", "#lead-s", "#pin-s", "#place-s"], 22.25, 0.28);
+      nodeOff(5, 22.5);
+      tl.to("#strip", { y: -80, duration: 0.7, ease: "power2.inOut" }, 22.45);
+      tl.fromTo("#runner", { opacity: 0, x: 0 }, { opacity: 1, x: 1420, duration: 1.7, ease: "none" }, 23.2);
+      tl.to("#runner", { opacity: 0, duration: 0.12 }, 24.9);
+      gsap.set("#runner", { opacity: 0 });
+      for (let i = 1; i <= 5; i++) {
+        const t = 23.2 + (i - 1) * 0.425;
+        tl.fromTo(`#picto-${i}`, { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1, duration: 0.55, ease: "expo.out" }, t);
+        blurIn(`#cap-${i}`, t + 0.15, 0.22);
+      }
+      for (let i = 1; i <= 3; i++) {
+        const t = 25.15 + (i - 1) * 0.18;
+        tl.fromTo(`#brace-${i}`, { opacity: 0, scaleX: 0.2 }, { opacity: 1, scaleX: 1, duration: 0.3, ease: "power2.out" }, t);
+        wipeIn(`#cmd-${i}`, t + 0.1, 0.35);
+      }
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

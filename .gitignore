@@ -24,5 +24,8 @@ publisher/models/*.part
 *.tmp
 *.part
 
+# HyperFrames check reports, snapshots and render caches for the explainer videos
+.hyperframes/
+
 # Local app settings
 .claude/
