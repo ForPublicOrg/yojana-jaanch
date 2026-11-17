@@ -124,8 +124,11 @@ def ensure_hand_files(paths):
 
 DEFAULT_SETTINGS = {
     "auto_approve_no_person": False,
+    # The owner's standing choice to approve every blurred copy without looking at each one.
+    "auto_approve_all": False,
 }
 AUTO_NOTE = "# auto: no person found by any engine"
+ALL_NOTE = "# auto: approved in bulk by the owner (auto_approve_all), not checked one by one"
 
 
 def read_settings(path):
@@ -140,17 +143,25 @@ def read_settings(path):
     return out
 
 
-def auto_approve(path, manifest, approved, hidden, enabled):
-    """With the setting on, add approval lines for copies where no engine saw any face or person.
+def auto_approve(path, manifest, approved, hidden, enabled, approve_all=False):
+    """With enabled (auto_approve_no_person) on, add approval lines for copies where no engine saw any
+    face or person. With approve_all (auto_approve_all) on, add them for every blurred copy, marked
+    ALL_NOTE: the owner chose to approve in bulk without a check.
 
-    Earlier automatic lines are dropped when the setting is off or the copy has changed. Returns how many
+    Earlier automatic lines are dropped when their setting is off or the copy has changed. Returns how many
     lines were added.
     """
     path = Path(path)
     lines = path.read_text(encoding="utf-8").splitlines() if path.exists() else []
     keep = []
     for line in lines:
-        if line.endswith(AUTO_NOTE):
+        if line.endswith(ALL_NOTE):
+            sha = line.split()[0].lower()
+            e = manifest.get(sha)
+            if not approve_all or not e or sha in hidden or approved.get(sha) != e.get("copy_sha256", "")[:16]:
+                approved.pop(sha, None)
+                continue
+        elif line.endswith(AUTO_NOTE):
             sha = line.split()[0].lower()
             e = manifest.get(sha)
             if (not enabled or not e or sha in hidden or e.get("people_signal", 1) or e.get("extra_boxes")
@@ -166,6 +177,12 @@ def auto_approve(path, manifest, approved, hidden, enabled):
             keep.append(f"{approval_line(sha, e['copy_sha256'])}  {AUTO_NOTE}")
             approved[sha] = e["copy_sha256"][:16]
             added += 1
+    for sha, e in sorted(manifest.items()) if approve_all else ():
+        if sha in hidden or sha in approved or not e.get("copy_sha256"):
+            continue
+        keep.append(f"{approval_line(sha, e['copy_sha256'])}  {ALL_NOTE}")
+        approved[sha] = e["copy_sha256"][:16]
+        added += 1
     if keep != lines:
         path.write_text("\n".join(keep) + "\n", encoding="utf-8")
     return added

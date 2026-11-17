@@ -124,7 +124,7 @@ def write(paths, manifest, approved=None, settings=None):
     auto_lines = set()
     if paths.approved.exists():
         auto_lines = {line.split()[0].lower() for line in paths.approved.read_text(encoding="utf-8").splitlines()
-                      if line.endswith(common.AUTO_NOTE)}
+                      if line.endswith((common.AUTO_NOTE, common.ALL_NOTE))}
     items = sorted(manifest.items(), key=lambda kv: (kv[1].get("faces", 0) > 0, kv[0]))
     done = {sha for sha, e in items if common.is_approved(approved, sha, e)}
     waiting = [kv for kv in items if kv[0] not in done]
@@ -137,7 +137,11 @@ def write(paths, manifest, approved=None, settings=None):
         sections += (f"<h2>Approved ({len(checked)})</h2><div class=\"grid\">"
                      + "".join(figure(*kv, ok=True, auto=kv[0] in auto_lines) for kv in checked) + "</div>")
     auto = ""
-    if settings.get("auto_approve_no_person"):
+    if settings.get("auto_approve_all"):
+        auto = ('<p class="warn">auto_approve_all is on in publish/settings.json: every blurred copy is approved '
+                f'in bulk without a check ({len(auto_lines)} so far). The engines can still miss a face; a photo '
+                'found showing one goes in hide.txt and is deleted from the Drive folder.</p>')
+    elif settings.get("auto_approve_no_person"):
         auto = ('<p class="warn">auto_approve_no_person is on in publish/settings.json: copies in which no engine '
                 f'found any face or person ({len(auto_lines)}) were approved without a check.</p>')
     paths.review.write_text(PAGE.format(total=len(items), approved=len(checked), waiting=len(waiting),

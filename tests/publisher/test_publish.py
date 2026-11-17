@@ -236,7 +236,7 @@ class PublishTests(unittest.TestCase):
     def test_auto_approval_is_off_by_default(self):
         self.publish(FakeDetector(people=False))
         self.assertEqual(json.loads(self.paths.settings.read_text(encoding="utf-8")),
-                         {"auto_approve_no_person": False})
+                         {"auto_approve_no_person": False, "auto_approve_all": False})
         self.assertEqual(list(self.paths.upload.iterdir()), [])
 
     def test_auto_approval_only_for_photos_without_people(self):
@@ -256,6 +256,23 @@ class PublishTests(unittest.TestCase):
         self.publish(nobody)
         self.assertEqual(list(self.paths.upload.iterdir()), [])
         self.assertNotIn(common.AUTO_NOTE, self.paths.approved.read_text(encoding="utf-8"))
+
+    def test_auto_approve_all_approves_every_copy_and_follows_the_setting(self):
+        self.paths.publish.mkdir(parents=True, exist_ok=True)
+        self.paths.settings.write_text('{"auto_approve_all": true}', encoding="utf-8")
+        self.publish(FakeDetector(people=True))
+        self.assertEqual(len(list(self.paths.upload.iterdir())), 3)
+        self.assertEqual(self.paths.approved.read_text(encoding="utf-8").count(common.ALL_NOTE), 3)
+        self.assertIn("auto_approve_all is on", self.paths.review.read_text(encoding="utf-8"))
+        # A hidden photo stays out.
+        self.paths.hide.write_text(self.shas[0] + "\n", encoding="utf-8")
+        self.publish(FakeDetector(people=True))
+        self.assertEqual(len(list(self.paths.upload.iterdir())), 2)
+        # Turning it off drops its lines and empties the upload folder.
+        self.paths.settings.write_text('{"auto_approve_all": false}', encoding="utf-8")
+        self.publish(FakeDetector(people=True))
+        self.assertEqual(list(self.paths.upload.iterdir()), [])
+        self.assertNotIn(common.ALL_NOTE, self.paths.approved.read_text(encoding="utf-8"))
 
     def test_mismatched_original_is_skipped(self):
         p = next((self.root / "site" / "photos").glob(self.shas[0] + ".*"))

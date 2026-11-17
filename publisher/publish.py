@@ -108,14 +108,17 @@ def run(paths, allow_download=True, detector=None, log=print):
             e["copy_sha256"] = common.file_hashes(paths.out_photos / f"{sha}.jpg")[0]
     common.write_manifest(paths.manifest, manifest)
     approved = common.read_approved(paths.approved)
-    auto = common.auto_approve(paths.approved, manifest, approved, hidden, settings["auto_approve_no_person"])
+    auto = common.auto_approve(paths.approved, manifest, approved, hidden, settings["auto_approve_no_person"],
+                               settings["auto_approve_all"])
     ready = common.sync_upload(paths, manifest, approved, hidden)
     review.write(paths, manifest, approved, settings)
 
     with_faces = sum(1 for e in manifest.values() if e["faces"])
     log(f"Blurred copies: {len(manifest)} ({with_faces} with at least one face or head blurred, "
         f"{len(manifest) - with_faces} with none). Missing originals: {missing}. Skipped: {bad}.")
-    if settings["auto_approve_no_person"]:
+    if settings["auto_approve_all"]:
+        log(f"auto_approve_all is on: {auto} new copies were approved in bulk without a check.")
+    elif settings["auto_approve_no_person"]:
         log(f"auto_approve_no_person is on: {auto} copies with no person found were approved without a check.")
     log(f"Approved and copied to {paths.upload}: {len(ready)}. Waiting for a check: {len(manifest) - len(ready)}.")
     log(f"The engines can still miss a face. Look at every photo in {paths.review} and upload only {paths.upload}.")
