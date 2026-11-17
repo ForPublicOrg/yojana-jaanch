@@ -570,7 +570,7 @@
       return '<tr><td class="num id">' + esc(r.record_id) + '</td><td>' + esc(r.village) + '</td><td>' + esc(r.structure_type) + '</td><td>' + esc(r.created_by) +
         '</td><td class="num">' + esc(r.start_date) + '</td><td class="num">' + esc(r.end_date) + '</td><td class="num">' + esc(gps) + '</td></tr>';
     }).join('');
-    var intro = '<p class="muted">' + (recs.length < c.record_count ? esc('This case covers ' + fmt(c.record_count) + ' records. The data file lists ' + fmt(recs.length) + ' of them.') : esc(plural(c.record_count, 'record', 'records')) + ' in this case.') +
+    var intro = '<p class="muted">' + (recs.length < c.record_count ? esc('This case covers ' + fmt(c.record_count) + ' records. ' + (c.recordsLoaded === 'failed' ? 'The full list could not be loaded, so only the first ' + fmt(recs.length) + ' are shown. Reload the page to try again.' : 'The data file lists ' + fmt(recs.length) + ' of them.')) : esc(plural(c.record_count, 'record', 'records')) + ' in this case.') +
       ' Sorted by village, then record ID. A blank cell means no value is recorded in this data.</p>';
     var filters = selectField({ key: 'village', label: 'Village', all: 'All villages' }, query, villages) +
       selectField({ key: 'office', label: 'Entered by', all: 'All offices' }, query, offices);
@@ -583,6 +583,98 @@
       (filters ? '<form class="filters" aria-label="Narrow the records" onsubmit="return false">' + filters + '</form>' : '') +
       (narrowed ? '<p class="active-filters"><a href="#' + path + '">Show all records</a></p>' : '') +
       resultsLine(pg, 'record', 'records') + table + '</section>';
+  }
+
+  // The JSJB portal has no link to a single record, only five dropdowns and a Search button. This
+  // panel lists the values to choose for each village of the case, links to the portal with those
+  // values in the address, and offers a bookmark (site/jsjb-fill.js) that fills them in there.
+  var PATH_FIELDS = [
+    { key: 'state', label: 'State' }, { key: 'district', label: 'District' }, { key: 'area_type', label: 'Area type' },
+    { key: 'block', label: 'Block or town' }, { key: 'village', label: 'Village or ward' }];
+  var PORTAL_ROWS_SHOWN = 8;
+
+  function portalGroups(c) {
+    var groups = {}, order = [];
+    (c.records || []).forEach(function (r) {
+      var p = { state: r.state || c.state, district: r.district || c.district, area_type: r.area_type || '', block: r.block || c.block, village: r.village };
+      var k = PATH_FIELDS.map(function (f) { return p[f.key] || ''; }).join('|');
+      if (!groups[k]) { groups[k] = { path: p, ids: [] }; order.push(k); }
+      groups[k].ids.push(r.record_id);
+    });
+    return order.map(function (k) { return groups[k]; }).sort(function (a, b) { return b.ids.length - a.ids.length || String(a.path.village).localeCompare(String(b.path.village)); });
+  }
+
+  function fillBookmark() {
+    var f = window.YJ_JSJB_FILL;
+    return f ? 'javascript:' + encodeURIComponent('(' + f.toString() + ')()') : null;
+  }
+
+  function portalFinder(c, portal) {
+    if (c.scheme !== 'jsjb' || !portal) return '';
+    var groups = portalGroups(c);
+    if (!groups.length) return '';
+    var shared = PATH_FIELDS.filter(function (f) {
+      var v = groups[0].path[f.key];
+      return f.key !== 'village' && v && groups.every(function (g) { return g.path[f.key] === v; });
+    });
+    var cols = PATH_FIELDS.filter(function (f) { return shared.indexOf(f) < 0 && groups.some(function (g) { return g.path[f.key]; }); });
+    var noArea = groups.some(function (g) { return !g.path.area_type; });
+    var base = portal.split('#')[0];
+    var row = function (g) {
+      var t = { s: g.path.state, d: g.path.district, a: g.path.area_type || '', b: g.path.block, v: g.path.village, ids: g.ids };
+      return '<tr>' + cols.map(function (f) { return '<td>' + esc(g.path[f.key] || '') + '</td>'; }).join('') +
+        '<td class="num r">' + fmt(g.ids.length) + '</td>' +
+        '<td><a href="' + esc(base + '#yj=' + encodeURIComponent(JSON.stringify(t))) + '" target="_blank" rel="noopener">Open portal<span class="visually-hidden"> for ' + esc(g.path.village) + ' (opens in a new tab)</span></a></td></tr>';
+    };
+    var head = '<thead><tr>' + cols.map(function (f) { return '<th scope="col">' + f.label + '</th>'; }).join('') +
+      '<th scope="col" class="num">Records</th><th scope="col"><span class="visually-hidden">Link to the portal</span></th></tr></thead>';
+    var table = function (list, label) {
+      return '<div class="table-wrap" tabindex="0" role="region" aria-label="' + label + '"><table>' + head + '<tbody>' + list.map(row).join('') + '</tbody></table></div>';
+    };
+    var first = groups.slice(0, PORTAL_ROWS_SHOWN), rest = groups.slice(PORTAL_ROWS_SHOWN);
+    var bm = fillBookmark();
+    return '<section class="portal-find" aria-labelledby="pf-h"><h2 id="pf-h">Find these records on the portal</h2>' +
+      '<p>The portal has no link to a single record. On its page, choose these values in the filters, press Search, and look for the record IDs in the first column, written as <span class="nowrap">"1 (5410072)"</span>.</p>' +
+      (shared.length ? '<dl class="path">' + shared.map(function (f) { return '<div><dt>' + f.label + '</dt><dd>' + esc(groups[0].path[f.key]) + '</dd></div>'; }).join('') + '</dl>' : '') +
+      (noArea ? '<p class="muted small">This data does not say whether a place is rural or urban. Try Rural first; towns and wards are under Urban.</p>' : '') +
+      table(first, 'Where to find the records') +
+      (rest.length ? '<details class="more-places"><summary>Show the other ' + plural(rest.length, 'place', 'places') + '</summary>' + table(rest, 'More places with records of this case') + '</details>' : '') +
+      (bm ? '<div class="fill-help"><h3>Let your browser fill the filters</h3>' +
+        '<p>Drag this button to your browser\'s bookmarks bar once:</p>' +
+        '<p><a class="btn" id="fill-bm" href="' + esc(bm) + '">Fill JSJB filters</a> <span class="copied" id="fill-msg" role="status"></span></p>' +
+        '<ol class="steps"><li>Open a place from the table above. The portal opens in a new tab.</li>' +
+        '<li>Click the bookmark. It chooses the five filters and runs the search.</li>' +
+        '<li>Click it again on the results page to mark this case\'s records in blue. The portal shows 100 results per page, so click it again on each page you open.</li></ol>' +
+        '<p class="muted small">On a phone, choose the values by hand.</p></div>' : '') +
+      '</section>';
+  }
+
+  function bindFillBookmark() {
+    var a = document.getElementById('fill-bm');
+    if (!a) return;
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('fill-msg').textContent = 'This button works from the bookmarks bar on the portal page. Drag it there first.';
+    });
+  }
+
+  // cases.json carries only the first records of each case; the case page loads the rest.
+  function loadCase(id, query) {
+    var c = (S.data.cases || []).filter(function (x) { return x.id === id; })[0];
+    if (!c || !c.records_file || c.recordsLoaded === true) { renderCase(id, query); settle(); return; }
+    var token = S.token;
+    view.innerHTML = '<p class="status loading">Loading the records of this case...</p>';
+    getJSON(c.records_file).then(function (d) {
+      if (!d || !Array.isArray(d.records)) throw new Error('no records');
+      c.records = d.records;
+      c.recordsLoaded = true;
+    }).catch(function () {
+      c.recordsLoaded = 'failed';
+    }).then(function () {
+      if (token !== S.token) return;
+      renderCase(id, query);
+      settle();
+    });
   }
 
   function renderCase(id, query) {
@@ -621,12 +713,14 @@
           '<div class="actions"><button type="button" class="btn btn-primary" id="rti-btn" aria-expanded="false" aria-controls="rti-box">Write RTI request draft</button>' +
           (portal ? '<a class="btn" href="' + esc(portal) + '" target="_blank" rel="noopener">Open the official portal<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</div>' +
           '<p class="muted small">A request under the Right to Information Act can get the official file for each work. The draft is built from this case; fill in the parts in square brackets before sending.' +
-          (portal ? ' The portal has no link to single records: choose the state, district, block and village there, then look for the record IDs below.' : '') + '</p>' +
+          (portal && c.scheme === 'jsjb' ? ' To reach the records there, use the filter values under "Find these records on the portal" below.' : portal ? ' The portal has no link to single records: choose the state, district, block and village there, then look for the record IDs below.' : '') + '</p>' +
           '<div id="rti-box" hidden><label for="rti-text" class="visually-hidden">RTI request draft</label><textarea id="rti-text" spellcheck="false"></textarea>' +
           '<div class="actions"><button type="button" class="btn" id="rti-copy">Copy text</button><span class="copied" id="rti-msg" role="status"></span></div></div></div>' +
       '</div>' +
+      portalFinder(c, portal) +
       recordsSection(c, query);
     bindFilters(caseHref(c.id).slice(1), query);
+    bindFillBookmark();
     var btn = document.getElementById('rti-btn'), box = document.getElementById('rti-box'), ta = document.getElementById('rti-text');
     btn.addEventListener('click', function () {
       var open = box.hidden;
@@ -723,8 +817,8 @@
     S.lastPath = pathKey;
     markNav(r.name);
     if (r.name === 'state' || r.name === 'district') { renderArea(r.state, r.district || null, p.query); return; }
-    if (r.name === 'case') renderCase(r.id, p.query);
-    else if (r.name === 'method') renderMethod(p.query);
+    if (r.name === 'case') { loadCase(r.id, p.query); return; }
+    if (r.name === 'method') renderMethod(p.query);
     else if (r.name === 'cases') renderAllCases(p.query);
     else if (r.name === 'home') renderHome();
     else renderNotFound();

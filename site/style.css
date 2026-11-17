@@ -281,8 +281,24 @@ figcaption, .figcap { font-size: .85rem; color: var(--muted); margin-top: 8px; }
 .offices { margin-top: 12px; font-size: .95rem; }
 .offices span { font-weight: 650; margin-right: 6px; }
 .offices span::after { content: ":"; }
+.portal-find { margin-top: 40px; max-width: 1000px; }
+.portal-find h2 { font-size: 1.15rem; margin: 0 0 8px; }
+.portal-find h3 { font-size: 1rem; margin: 0 0 6px; }
+.path { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.path div { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r-sm); padding: 6px 12px; }
+.path dt { font-size: .8rem; color: var(--muted); }
+.path dd { margin: 0; font-weight: 700; }
+.more-places { margin: -8px 0 20px; }
+.more-places summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+.fill-help { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 14px 18px; }
+.fill-help p { margin: 0 0 8px; }
+.fill-help p:last-child { margin-bottom: 0; }
+#fill-bm { cursor: grab; }
+.fill-help .steps { margin: 0 0 8px; padding-left: 1.4em; }
+.fill-help .steps li { margin-bottom: 4px; }
+.nowrap { white-space: nowrap; }
 .records { margin-top: 40px; }
-.table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--r); background: var(--surface); }
+.table-wrap { position: relative; overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--r); background: var(--surface); }
 table { border-collapse: collapse; width: 100%; font-size: .9rem; }
 th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule-soft); white-space: nowrap; }
 tbody tr:last-child td { border-bottom: 0; }

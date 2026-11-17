@@ -234,11 +234,15 @@ def make_case(scheme, kind, key_parts, headline, records, reasons, cfg, photo=No
 CASE_RECORD_FIELDS = ("record_id", "village", "structure_type", "created_by", "start_date", "end_date", "lat", "lon")
 # Shown only when a scheme fills them, so JSJB cases keep the shape they always had.
 CASE_RECORD_OPTIONAL = ("parent_id", "stage", "amount", "amount_kind", "group_key", "group_kind")
+# The portal's own filter values, so the site can tell a reader what to choose on the portal to
+# reach the record (JSJB has no link to a single record).
+CASE_RECORD_PORTAL_PATH = ("state", "district", "area_type", "block")
 
 
 def case_record(r):
     out = {k: r.get(k) for k in CASE_RECORD_FIELDS}
     out.update({k: r[k] for k in CASE_RECORD_OPTIONAL if r.get(k) is not None})
+    out.update({k: r[k] for k in CASE_RECORD_PORTAL_PATH if r.get(k)})
     return out
 
 

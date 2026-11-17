@@ -65,7 +65,17 @@ class CheckerTest(unittest.TestCase):
         self.tmp.cleanup()
 
     def load(self, name):
-        return json.loads((self.root / "site" / "data" / name).read_text(encoding="utf-8"))
+        """cases.json comes back with each case's full record list read from its own file."""
+        data_dir = self.root / "site" / "data"
+        out = json.loads((data_dir / name).read_text(encoding="utf-8"))
+        if name == "cases.json":
+            for c in out["cases"]:
+                self.assertLessEqual(len(c["records"]), 3)
+                full = json.loads((self.root / "site" / c["records_file"]).read_text(encoding="utf-8"))
+                self.assertEqual(full["id"], c["id"])
+                self.assertEqual([{"record_id": r["record_id"]} for r in full["records"][:3]], c["records"])
+                c["records"] = full["records"]
+        return out
 
     def test_cases_without_vision(self):
         run(self.root, log=quiet)

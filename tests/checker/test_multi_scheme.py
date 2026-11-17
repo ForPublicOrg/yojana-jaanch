@@ -209,7 +209,12 @@ class Concurrency(unittest.TestCase):
         out = self.root / "site" / "data"
         self.assertEqual(len(json.loads((out / "cases.json").read_text(encoding="utf-8"))["cases"]), 5)
         json.loads((out / "areas.json").read_text(encoding="utf-8"))
-        self.assertEqual(sorted(os.listdir(out)), ["areas.json", "cases.json"])
+        self.assertEqual(sorted(os.listdir(out)), ["areas.json", "cases", "cases.json"])
+        case_files = sorted(os.listdir(out / "cases"))
+        self.assertEqual(len(case_files), 5)
+        for f in case_files:
+            self.assertTrue(f.endswith(".json"), f)
+            json.loads((out / "cases" / f).read_text(encoding="utf-8"))
         self.assertFalse([f for f in os.listdir(self.root / "site" / "photos") if not f.endswith(".jpg")])
 
     def test_failed_write_keeps_the_old_file(self):
@@ -228,3 +233,16 @@ class Concurrency(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CaseFiles(unittest.TestCase):
+    def test_case_files_follow_the_cases(self):
+        from checker import output
+        with tempfile.TemporaryDirectory() as tmp:
+            site = Path(tmp)
+            output.write_case_files(site, [{"id": "a/1", "records": [{"record_id": "1"}]}, {"id": "b", "records": []}])
+            folder = site / "data" / "cases"
+            self.assertEqual(sorted(os.listdir(folder)), ["a_1.json", "b.json"])
+            output.write_case_files(site, [{"id": "b", "records": [{"record_id": "2"}]}])
+            self.assertEqual(os.listdir(folder), ["b.json"])
+            self.assertEqual(json.loads((folder / "b.json").read_text(encoding="utf-8"))["records"], [{"record_id": "2"}])

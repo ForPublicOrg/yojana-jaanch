@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import shutil
 import time
 from collections import defaultdict
@@ -113,11 +114,46 @@ def write_json(path, data):
     _replace(tmp, path)
 
 
+# cases.json is loaded by every page of the site, so it holds only the first few record IDs of each
+# case; all records of a case are in site/data/cases/<id>.json, loaded by that case's page.
+INDEX_RECORDS = 3
+
+
+def case_file_name(case_id):
+    return re.sub(r"[^A-Za-z0-9_.-]", "_", str(case_id)) + ".json"
+
+
+def write_case_files(site, cases):
+    folder = site / "data" / "cases"
+    keep = set()
+    for c in cases:
+        name = case_file_name(c["id"])
+        keep.add(name)
+        path = folder / name
+        body = {"id": c["id"], "records": c["records"]}
+        try:
+            if json.loads(path.read_text(encoding="utf-8")) == body:
+                continue
+        except (OSError, ValueError):
+            pass
+        write_json(path, body)
+    if folder.is_dir():
+        for p in folder.glob("*.json"):
+            if p.name not in keep:
+                try:
+                    p.unlink()
+                except OSError:
+                    pass
+
+
 def write(root, cases, schemes, coverage, checks_run=None):
     site = Path(root) / "site"
     for c in cases:
         c["photo"] = copy_photo(root, site, c.pop("_photo_src", None))
     cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
+    write_case_files(site, cases)
+    cases = [dict(c, records=[{"record_id": r.get("record_id")} for r in c["records"][:INDEX_RECORDS]],
+                  records_file="data/cases/" + case_file_name(c["id"])) for c in cases]
     write_json(site / "data" / "cases.json", {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "checks_run": checks_run or [], "schemes": schemes, "coverage": coverage, "cases": cases})
