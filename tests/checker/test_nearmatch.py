@@ -116,6 +116,20 @@ class Unit(unittest.TestCase):
         self.assertEqual(without[0]["headline"], "One photo, 2 different works")
         self.assertNotIn("photo_files", without[0])
 
+    def test_place_count_uses_the_smallest_place_every_work_names(self):
+        def text(records):
+            return photo_reuse.find("jsjb", records, self.cfg)[0]["reasons"][0]
+        self.assertIn("2 different works in 1 village.", text([rec(1, A), rec(2, A)]))
+        # PMGSY roads name a block but no village.
+        roads = [rec(1, A, village=None), rec(2, A, village=None)]
+        self.assertIn("2 different works in 1 block.", text(roads))
+        self.assertNotIn("0 village", text(roads))
+        # One work without a village: count blocks rather than undercount villages.
+        self.assertIn("in 1 block.", text([rec(1, A), rec(2, A, village=None)]))
+        for r in roads:
+            r["block"] = r["district"] = None
+        self.assertIn("2 different works. A photo", text(roads))
+
     def test_threshold_zero_or_no_phash_is_the_old_check(self):
         px = texture(1)
         lines = [line(A, BASE, px), line(B, BASE, px)]

@@ -85,19 +85,27 @@ def find(scheme, records, cfg, near=None):
     return keep(cases)
 
 
+def _where(recs):
+    # Some schemes (PMGSY) record a block but no village: count the smallest place every record names.
+    for field, word in (("village", "village"), ("block", "block"), ("district", "district")):
+        if all(r.get(field) for r in recs):
+            return f" in {plural(len({r[field] for r in recs}), word)}"
+    return ""
+
+
 def _case(scheme, members, recs, groups, photo_of, uploads, info, limits, cfg, placeholder=None):
     sha = members[0]
     n = len(recs)
     one_file = len(members) == 1
-    villages = {r.get("village") for r in recs if r.get("village")}
+    where = _where(recs)
     if one_file:
         reasons = [f"The same photo file (fingerprint {sha[:12]}) is attached to {n} different works"
-                   f" in {plural(len(villages), 'village')}. A photo of one site cannot be evidence for {n} separate works."]
+                   f"{where}. A photo of one site cannot be evidence for {n} separate works."]
     else:
         k = len(members)
         reasons = [
             f"The same picture was saved as {k} different files and attached to {n} different works"
-            f" in {plural(len(villages), 'village')}. A photo of one site cannot be evidence for {n} separate works.",
+            f"{where}. A photo of one site cannot be evidence for {n} separate works.",
             f"The {k} files hold one picture saved more than once (for example re-compressed, resized, cut by a"
             f" few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files"
             f" differ in at most {max(d for d, _, _ in info)} of 256 bits of a picture fingerprint (the limit is"
