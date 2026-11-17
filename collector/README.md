@@ -171,9 +171,11 @@ How the rate moves (`collector/throttle.py`, one rate per host, every try of eve
 - A rate that had to step down twice for trouble is not used again: the top becomes one below it.
   A slow median only steps the rate down; it does not lower the top.
 - Neutral: 404, 410, a redirect to a not-found page (JSJB sends missing photos to
-  PageNotFound.aspx), the PMGSY image host's error page. After 20 of these in a row with no good
-  photo they are no longer believed (a firewall or an overloaded host can answer that way): each
-  further one counts as trouble and the photo as failed, not missing, so the next run asks again.
+  PageNotFound.aspx), the PMGSY image host's error page. After 60 of these in a row with no good
+  photo or normally answered search page in between they are no longer believed (a firewall or an
+  overloaded host can answer that way): each further one counts as trouble and the photo as
+  failed, not missing, so the next run asks again. A village whose photos were never uploaded
+  gives a long run; the next search page that loads normally resets the count.
 - Under the queue (`python run.py queue`), the rate, the first-20 median and a lowered top carry
   over from area to area for as long as the queue process runs. Only a ban guard stop and the
   pause count are cleared for each area.

@@ -226,6 +226,17 @@ class Throttle(WithLogs):
             one(t, "ok")
         self.assertEqual(t.rate, 3)
 
+    def test_a_page_answered_normally_resets_the_missing_run(self):
+        t = self.make(4, 4)
+        for _ in range(MISSING_RUN):
+            one(t, "missing")
+        tok = t.acquire_page()
+        t.release(tok, "ok", latency=0.2)
+        for _ in range(MISSING_RUN):
+            self.assertEqual(t.release(t.acquire(), "missing"), "missing")
+        self.assertEqual(t.pauses_in_a_row, 0)
+        self.assertEqual(t.release(t.acquire(), "missing"), SUSPECT)
+
     def test_missing_is_neutral(self):
         t = self.make(1, 4)
         for _ in range(40):

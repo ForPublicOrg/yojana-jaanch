@@ -32,8 +32,9 @@ steps the rate down; it does not lower the ceiling, since a portal busy with oth
 while says little about the rate. The rate, the baseline and that ceiling last as long as the
 throttle does: under the queue, the whole queue process (see new_run).
 
-More than MISSING_RUN missing answers in a row with no ok are no longer believed: a firewall or
-an overloaded host can answer that way. Each further one counts as trouble, and release()
+More than MISSING_RUN missing answers in a row, with no ok photo and no page answered normally in
+between, are no longer believed: a firewall or an overloaded host can answer that way. A village
+whose photos were never uploaded gives such a run, and the next search page resets it. Each further one counts as trouble, and release()
 returns SUSPECT so the caller records the photo as failed, to be asked for again.
 
 The ban guard is always on. GUARD_STREAK trouble outcomes in a row (an ok ends the streak, a
@@ -64,7 +65,7 @@ GUARD_STREAK = 5
 GUARD_PAUSE = 10 * 60
 PROBATION = 3
 MAX_PAUSES = 3
-MISSING_RUN = 20
+MISSING_RUN = 60
 RATIO_WINDOW = 20
 RATIO_TROUBLE = 6
 
@@ -232,6 +233,10 @@ class PhotoThrottle:
             if outcome == "throttled" and retry_after:
                 self._hold(retry_after, "pages" if token.page else "photos")
             if token.page:
+                if outcome == "ok" and token.generation == self._generation:
+                    # A page answered normally: the host is not refusing us, so a run of missing
+                    # photos before it is believed (a village whose photos were never uploaded).
+                    self._missing_run = 0
                 if outcome in ("throttled", "error") and not self.stopped and token.generation == self._generation:
                     self._back_off(max(1, self.rate // 2), f"a page request: {detail or outcome}")
                 return outcome
