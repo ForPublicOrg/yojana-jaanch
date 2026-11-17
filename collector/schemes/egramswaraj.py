@@ -38,7 +38,8 @@ Field mapping (portal field -> common field):
 | Asset Stage of the latest uploaded photo | stage (portal label, unchanged) |
 | latitude, Longitude of the earliest uploaded photo with a point | lat, lon |
 | state, district, block names and codes from the count JSON | state, district, block, state_code, district_code, block_code |
-| GP name and code | village, village_code |
+| GP name and code | village, village_code (and the GP name again as gp) |
+| plan year | year ("2025-2026"), so the photos pass can be limited by --year and --gp |
 | GP code | group_key, group_kind "gp" |
 | GP page URL | source_url |
 | every photo row (photo URL, Date Of Upload, Asset Stage, latitude, Longitude, file name) | photo_source (a list), and the saved photos: url, uploaded_at, stage, lat, lon, label (file name) |
@@ -49,6 +50,14 @@ Field mapping (portal field -> common field):
 | text of a cost, date or point that could not be read | extra.unreadable |
 | (none on the portal) | start_date, end_date, status, created_by: left empty |
 
+Counts: the count JSON can be lower than the GP page. In the two trial areas (November 2026),
+3 of 15 GPs (Malerkotla HQ block, 2025-2026) and 4 of 17 GPs (South Goa, 2025-2026) showed more
+activities on the page than in the JSON. In Ambaulim (South Goa) the extra work's photo was
+uploaded a week before the trial, so the JSON probably lags; that reason is not verified. A GP
+that is not in the JSON yet, or shows 0, is not requested, so its works wait for a later refresh.
+Telangana's Medchal Malkajgiri district comes with level null; the page script does not show
+it, and neither does this adapter.
+
 The portal prints no names of people on these pages; asset and activity names are work
 descriptions. Nothing here stores a beneficiary name or number.
 """
@@ -57,6 +66,7 @@ import html
 import json
 import logging
 import re
+import time
 import urllib.parse
 from datetime import datetime
 from html.parser import HTMLParser
@@ -141,6 +151,8 @@ class GpPage(HTMLParser):
         self.header = []
         self.rows = []
         self.tables = 0
+        # True once the report table's closing tag was read: a page cut off in transfer has none.
+        self.closed = False
         self._depth = 0
         self._in_thead = self._in_tbody = False
         self._row = None
@@ -180,6 +192,8 @@ class GpPage(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "table" and self._depth:
             self._depth -= 1
+            if self._depth == 0:
+                self.closed = True
             return
         if self._depth != 1:
             return
@@ -207,14 +221,20 @@ class GpPage(HTMLParser):
 
 def parse_gp_page(text, page_url):
     """Photo rows of one GP page, as dicts. Raises LayoutChanged when the page does not add up;
-    a row with no readable activity code is left out and logged."""
-    if looks_blocked(text):
-        raise AccessDenied(f"{page_url} shows a login, CAPTCHA or bot check")
-    if "does not exist" in text or "Bad Request Error" in text:
-        raise LayoutChanged(f"{page_url}: the portal answered with its error page")
+    a row with no readable activity code is left out and logged.
+
+    The login and error tests run only on a page without the report table. Asset and activity
+    names are typed by panchayat staff, so a word such as "captcha" inside a real report must not
+    stop a run of days."""
     page = GpPage(text)
     if not page.heading or page.tables == 0:
+        if looks_blocked(text):
+            raise AccessDenied(f"{page_url} shows a login, CAPTCHA or bot check")
+        if "does not exist" in text or "Bad Request Error" in text:
+            raise LayoutChanged(f"{page_url}: the portal answered with its error page")
         raise LayoutChanged(f"{page_url}: no 'Geo Tagged Asset Report' table")
+    if not page.closed:
+        raise LayoutChanged(f"{page_url}: the report table does not end; the page was cut off")
     if not page.header or tuple(norm(c) for c in page.header[-1]) != COLUMNS:
         raise LayoutChanged(f"{page_url}: table columns changed: {page.header[-1] if page.header else None}")
     rows = []
@@ -275,27 +295,45 @@ class EGramSwarajAdapter(SchemeAdapter):
     hosts = {HOST: {"delay": 1.0, "timeout": 60, "retries": 4}}
     supports_list_only = True
 
+    # The report page, state lists and district lists are kept for this many seconds, so one queue
+    # unit and the "remaining" district listing do not read them twice, and a queue that runs for
+    # weeks still sees new counts. Block and GP lists are read once per unit and are not kept, so
+    # the memory used does not grow with the number of units run.
+    CACHE_SECONDS = 6 * 3600
+    CACHED_LISTS = ("geoTaggingStateReport.do", "geoTaggingZpReport.do")
+
     def __init__(self, client):
         super().__init__(client)
         self._json_cache = {}
+        self._years_cache = None
+        self.clock = time.monotonic
+
+    def _cached(self, key):
+        hit = self._json_cache.get(key)
+        if hit and self.clock() - hit[0] < self.CACHE_SECONDS:
+            return hit[1]
+        self._json_cache.pop(key, None)
+        return None
 
     # ---- pages -------------------------------------------------------------------------------
 
     def _get_text(self, url):
+        """The page as text. The caller decides whether it is the expected page; a page that is not
+        is tested for a login, CAPTCHA or bot check there."""
         raw = self.client.fetch(url)
-        text = raw.decode("utf-8", errors="replace")
-        if looks_blocked(text):
-            raise AccessDenied(f"{url} shows a login, CAPTCHA or bot check")
-        return text
+        return raw.decode("utf-8", errors="replace")
 
     def _get_list(self, path, **params):
         url = BASE + path + "?" + urllib.parse.urlencode(params)
-        if url in self._json_cache:
-            return self._json_cache[url]
+        hit = self._cached(url)
+        if hit is not None:
+            return hit
         text = self._get_text(url)
         try:
             data = json.loads(text)
         except ValueError:
+            if looks_blocked(text):
+                raise AccessDenied(f"{url} shows a login, CAPTCHA or bot check") from None
             raise LayoutChanged(f"{url} is not JSON") from None
         if not isinstance(data, list):
             raise LayoutChanged(f"{url} is not a JSON list")
@@ -310,14 +348,19 @@ class EGramSwarajAdapter(SchemeAdapter):
                 raise LayoutChanged(f"{url}: entry {e.get('name')!r} has no usable count")
             out.append({"code": str(e["code"]), "name": " ".join(e["name"].split()), "level": e.get("level"),
                         "count": count})
-        self._json_cache[url] = out
+        if path in self.CACHED_LISTS:
+            self._json_cache[url] = (self.clock(), out)
         return out
 
     def plan_years(self):
         """Plan years offered by the report page's dropdown, newest first, as '2025-2026'."""
+        if self._years_cache and self.clock() - self._years_cache[0] < self.CACHE_SECONDS:
+            return list(self._years_cache[1])
         text = self._get_text(REPORT_URL)
         m = re.search(r'<select[^>]*id="planYear"[^>]*>(.*?)</select>', text, re.S | re.I)
         if not m:
+            if looks_blocked(text):
+                raise AccessDenied(f"{REPORT_URL} shows a login, CAPTCHA or bot check")
             raise PortalChanged("the report page has no plan year dropdown")
         years = []
         for v in re.findall(r'<option[^>]*value="([^"]*)"', m.group(1)):
@@ -326,7 +369,8 @@ class EGramSwarajAdapter(SchemeAdapter):
                 years.append(v)
         if not years:
             raise PortalChanged("the plan year dropdown has no years")
-        return years
+        self._years_cache = (self.clock(), years)
+        return list(years)
 
     # ---- areas -------------------------------------------------------------------------------
 
@@ -525,6 +569,8 @@ class EGramSwarajAdapter(SchemeAdapter):
                 "district": area.district, "district_code": codes.get("district", {}).get("code"),
                 "block": area.block, "block_code": codes.get("block", {}).get("code"),
                 "village": area.village, "village_code": area.village_code,
+                # Named like the collector filters, so "--photos --year ... --gp ..." finds them.
+                "year": area.context["year"], "gp": area.village,
                 "lat": lat, "lon": lon,
                 "structure_type": first["activity_name"],
                 "stage": timed[-1]["stage"] if timed else first["stage"],

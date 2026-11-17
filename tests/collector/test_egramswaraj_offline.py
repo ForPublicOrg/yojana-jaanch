@@ -4,12 +4,14 @@ No network. Run: python tests/collector/test_egramswaraj_offline.py
 Fixtures (tests/collector/fixtures/egramswaraj/) are pages saved from egramswaraj.gov.in in
 November 2026. gp_broken_cells.html is the saved GP page with one cell removed from row 5, and
 photo_blank.png is a blank 8x8 image standing in for a portal photo (no real photo is kept)."""
+import http.client
 import json
 import os
 import sys
 import tempfile
 import unittest
 import urllib.parse
+import urllib.robotparser
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, ROOT)
@@ -18,7 +20,7 @@ import collector.__main__ as runner  # noqa: E402
 from checker import egramswaraj_stages as stages  # noqa: E402
 from checker.common import clean_record, load_config  # noqa: E402
 from collector.base import AccessDenied, Area, FilterNotFound, LayoutChanged, SkippedUnit  # noqa: E402
-from collector.http import FetchError  # noqa: E402
+from collector.http import Client, FetchError  # noqa: E402
 from collector.schemes import SCHEMES  # noqa: E402
 from collector.schemes.egramswaraj import EGramSwarajAdapter, parse_gp_page, points, upload_time  # noqa: E402
 from collector.store import Store, path_key  # noqa: E402
@@ -282,6 +284,142 @@ class EndToEnd(unittest.TestCase):
         portal = FakePortal({GP_URL: FetchError("HTTP 403", 403, denied=True)})
         stats = runner.collect(adapter(portal), Store(self.d, "egramswaraj"), self.filters())
         self.assertEqual(runner.exit_code(stats), 8)
+
+
+class Resilience(unittest.TestCase):
+    """Damaged pages, an empty area, a timeout, bad photos and long runs."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.d = os.path.join(self.tmp.name, "data")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def gp_urls(self):
+        gps = json.loads(fixture("gp_922_2025-2026.json"))
+        return [f"{BASE}geotaggedDetailsforgpdp.do?year=2025&gpcode={g['code']}" for g in gps if g["count"]]
+
+    def test_timeout_on_one_gp_page_skips_that_gp_only(self):
+        portal = FakePortal({GP_URL: FetchError("could not fetch: timed out")})
+        stats = runner.collect(adapter(portal), Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ))
+        self.assertEqual(runner.exit_code(stats), 5)
+        self.assertEqual([v["reason"] for v in stats["skipped_villages"]], ["network"])
+        self.assertEqual(stats["villages"], 14)
+        # Not marked as collected, so the next run with --since-days tries it again.
+        self.assertNotIn("egramswaraj|LGD-PRI|2025/3/302426/922/236204", Store(self.d, "egramswaraj").coverage)
+
+    def test_truncated_and_html_photos_are_not_stored(self):
+        """Photos go through the real HTTP client (no network: its opener is replaced). The photo
+        endpoint sends no Content-Type; here it also sends no Content-Length, as a dropped
+        connection would look."""
+        png = fixture("photo_blank.png", "rb")
+        cut, html_url = PHOTO + "Image_19062026092617029.png", PHOTO + "Image_19062026092813797.png"
+        bodies = {cut: png[: len(png) // 2], html_url: fixture("error_400.html").encode()}
+
+        class Response:
+            chunked = False
+
+            def __init__(self, body):
+                self.parts = [body, b""]
+                self.headers = http.client.HTTPMessage()
+
+            def read(self, n=-1):
+                return self.parts.pop(0) if self.parts else b""
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+        class Opener:
+            def __init__(self):
+                self.urls = []
+
+            def open(self, req, timeout=None):
+                self.urls.append(req.full_url)
+                return Response(bodies.get(req.full_url, png))
+
+        def client():
+            c = Client(delay=0, retries=1)
+            c.opener = Opener()
+            rp = urllib.robotparser.RobotFileParser()
+            rp.parse([])
+            c._robots["https://egramswaraj.gov.in"] = rp
+            return c
+
+        portal = FakePortal()
+        a = adapter(portal)
+        a.client.fetch_image = client().fetch_image
+        stats = runner.collect(a, Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ, gp="Pharwali"))
+        self.assertEqual(runner.exit_code(stats), 5)
+        self.assertEqual((stats["photos_failed"], stats["photos_downloaded"]), (2, 7))
+        store = Store(self.d, "egramswaraj")
+        self.assertIsNone(store.known_photo(cut))
+        self.assertIsNone(store.known_photo(html_url))
+        self.assertEqual(len([p for r in store.records.values() for p in r["photos"] if p.get("sha256")]), 7)
+        # The next run asks only for the two photos that failed.
+        c2 = client()
+        a2 = adapter(FakePortal())
+        a2.client.fetch_image = c2.fetch_image
+        runner.collect(a2, Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ, gp="Pharwali"))
+        self.assertEqual(sorted(c2.opener.urls), sorted(bodies))
+
+    def test_empty_area_makes_no_gp_page_request(self):
+        gps = json.loads(fixture("gp_922_2025-2026.json"))
+        for g in gps:
+            g["count"] = 0
+        portal = FakePortal({f"{BASE}geoTaggingGpReport.do?stateId=3&code=922&year=2025-2026": json.dumps(gps)})
+        stats = runner.collect(adapter(portal), Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ))
+        self.assertEqual(runner.exit_code(stats), 0)
+        self.assertEqual(stats["villages"], 0)
+        self.assertFalse([u for u in portal.requests if "geotaggedDetailsforgpdp.do" in u])
+        portal = FakePortal({f"{BASE}geoTaggingGpReport.do?stateId=3&code=922&year=2025-2026": "[]"})
+        self.assertEqual(list(adapter(portal).list_areas(MALERKOTLA_HQ)), [])
+
+    def test_truncated_gp_page_is_skipped(self):
+        page = fixture("gp_236204_2025.html")
+        cut = page[: page.index("Image_19062026094535570")]
+        with self.assertRaises(LayoutChanged):
+            parse_gp_page(cut, GP_URL)
+
+    def test_free_text_saying_captcha_does_not_stop_the_run(self):
+        page = fixture("gp_236204_2025.html").replace("Construction of roads1", "Road near captcha access denied", 1)
+        self.assertIn("captcha", page)
+        self.assertEqual(len(parse_gp_page(page, GP_URL)), 9)
+
+    def test_login_page_instead_of_gp_page_stops(self):
+        login = '<html><body><form><input type="password" name="pwd"></form></body></html>'
+        with self.assertRaises(AccessDenied):
+            parse_gp_page(login, GP_URL)
+        portal = FakePortal({GP_URL: login})
+        stats = runner.collect(adapter(portal), Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ, gp="Pharwali"))
+        self.assertEqual(runner.exit_code(stats), 8)
+
+    def test_lists_kept_for_a_while_block_and_gp_lists_not_kept(self):
+        portal = FakePortal()
+        a = adapter(portal)
+        now = [1000.0]
+        a.clock = lambda: now[0]
+        list(a.list_areas(MALERKOTLA_HQ))
+        list(a.list_areas(MALERKOTLA_HQ))
+        count = lambda part: sum(1 for u in portal.requests if part in u)
+        self.assertEqual((count("geoTaggingReport.do"), count("StateReport"), count("ZpReport")), (1, 1, 1))
+        self.assertEqual((count("BpReport"), count("GpReport")), (2, 2))
+        now[0] += a.CACHE_SECONDS + 1
+        list(a.list_areas(MALERKOTLA_HQ))
+        self.assertEqual((count("geoTaggingReport.do"), count("StateReport"), count("ZpReport")), (2, 2, 2))
+        self.assertTrue(all(k.split("?")[0].endswith(a.CACHED_LISTS) for k in a._json_cache))
+
+    def test_photos_pass_can_be_limited_to_one_gp_and_year(self):
+        portal = FakePortal()
+        runner.collect(adapter(portal), Store(self.d, "egramswaraj"), dict(MALERKOTLA_HQ), list_only=True)
+        store = Store(self.d, "egramswaraj")
+        self.assertEqual({r["year"] for r in store.records.values()}, {"2025-2026"})
+        stats = runner.photos_pass(adapter(portal), store, {"year": "2025-2026", "gp": "pharwali"})
+        self.assertEqual(stats["records"], 3)
+        self.assertEqual(len(portal.photo_requests), 9)
 
 
 def stage_record(rid, gp, rows):
