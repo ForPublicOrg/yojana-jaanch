@@ -414,8 +414,7 @@ class Store:
         idx = {}
         for r in self.records.values():
             for p in r.get("photos") or []:
-                if isinstance(p, dict) and p.get("url") and p.get("sha256") and p.get("file") \
-                        and self.exists(p["file"]):
+                if isinstance(p, dict) and p.get("url") and p.get("sha256") and p.get("file"):
                     idx[p["url"]] = {"sha256": p["sha256"], "bytes": p.get("bytes"), "file": p["file"]}
         self.problems.append(f"photo index rebuilt from records: {len(idx)} photos; the rest will be downloaded again")
         return idx
@@ -466,13 +465,10 @@ class Store:
         return os.path.exists(file) or os.path.exists(os.path.join(root, file))
 
     def known_photo(self, url):
-        """Index entry to reuse, or None when the photo should be downloaded (new, or its file is gone)."""
-        e = self.photo_index.get(url)
-        if e is None:
-            return None
-        if e["sha256"] and not self.exists(e["file"]):
-            return None
-        return e
+        """Index entry to reuse, or None when the photo is new and should be downloaded.
+        The checker deletes the files of photos that are in no case and keeps only their sha256
+        (checker/prune.py), so an entry whose file is gone is still known: it is not downloaded again."""
+        return self.photo_index.get(url)
 
     def save_photo(self, url, content, ext=None):
         """Store the bytes once per sha256 and, when the photo has a URL, remember it in the index.

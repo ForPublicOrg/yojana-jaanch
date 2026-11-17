@@ -100,6 +100,19 @@ claimed structure type. Answers are stored in `data/state/vision_cache.json` und
 `<model>|<sha256>`, so a rerun only calls the model for new photos. Without the env vars,
 `--vision` prints a notice and the other checks run as normal.
 
+## Photo files kept
+
+After a check of every scheme, the checker deletes the files under `data/photos/` of every photo
+that is not a case's evidence photo, public or preview (`checker/prune.py`). For a reused photo
+that is the photo itself; for the other checks it is the photo shown with the case. Their sha256 stays in the
+records and the photo index, which is all `photo_reuse` needs, and the collector does not download
+them again. Files younger than 12 hours are left for the next check, since their records may not be
+saved yet. If a later record reuses a deleted photo, that record's copy is downloaded under its own
+URL, so the new case has a file.
+
+The cost: the vision check, and any later check that needs the image itself, sees only the kept
+photos. To keep every file, run the checker with `--keep-all-photos`.
+
 ## Tests
 
 ```

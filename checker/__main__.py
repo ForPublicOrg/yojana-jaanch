@@ -3,7 +3,7 @@ import importlib
 import sys
 from pathlib import Path
 
-from . import output, photo_reuse, same_day, same_gps, upload_burst, vision
+from . import output, photo_reuse, prune, same_day, same_gps, upload_burst, vision
 from . import settings as scheme_settings
 from .common import Skipped, data_path, load_config, load_coverage, load_records, office, photos_fetched
 from .lock import Busy, CheckerLock
@@ -102,17 +102,18 @@ def check_scheme(name, records, settings, cfg, root, data_dir, use_vision, visio
     return found, ran, off
 
 
-def run(root=".", scheme=None, use_vision=False, vision_limit=None, log=print, data_dir=None, lock_wait=1800):
+def run(root=".", scheme=None, use_vision=False, vision_limit=None, log=print, data_dir=None, lock_wait=1800,
+        prune_photos=True):
     """Check every scheme found in <data>/records. Public schemes (checker/schemes/<id>.json says
     "public": true) go to site/data; the others to <data>/preview/cases.<id>.json. With a data
     folder other than <root>/data, every scheme goes to <data>/preview/ and site/ is not touched."""
     data = data_path(root, data_dir)
     main_data = data_dir is None or Path(data_dir).resolve() == (Path(root) / "data").resolve()
     with CheckerLock(data / "state" / "checker.lock", wait_seconds=lock_wait):
-        return _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data)
+        return _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data, prune_photos)
 
 
-def _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data):
+def _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data, prune_photos=True):
     cfg = load_config()
     skipped = Skipped()
     found_data = load_records(root, scheme, skipped, data_dir)
@@ -150,6 +151,12 @@ def _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data)
     log(f"skipped {skipped.count} malformed record(s) or file(s)" + ("; first ones:" if skipped.count else ""))
     for e in skipped.examples:
         log(f"  {e}")
+    # Photo files are kept only for each case's evidence photo; the rest keep their sha256 (checker/prune.py).
+    # Only after a check of every scheme, so no scheme's case photos are missed.
+    if prune_photos and scheme is None and found_data:
+        keep = prune.keep_hashes(found_data, all_cases)
+        n, freed, kept = prune.prune(data / "photos", keep)
+        log(f"photo files: kept {kept}, deleted {n} that are in no case ({freed / 1e6:.0f} MB); their hashes stay")
     # One scheme asked for by name that is a preview scheme leaves site/data alone.
     preview_only = scheme is not None and not public["schemes"] and scheme in {p[0] for p in previews}
     if main_data and not preview_only:
@@ -170,13 +177,16 @@ def main(argv=None):
     ap.add_argument("--root", default=".", help="project folder holding data/ and site/ (default: current folder)")
     ap.add_argument("--data-dir", help="data folder to read (default: <root>/data). Any other folder, such as "
                                        "data/_trial/<id>, gets its cases in <data-dir>/preview/ and site/ is not touched")
+    ap.add_argument("--keep-all-photos", action="store_true",
+                    help="do not delete photo files that are in no case (by default only their sha256 is kept)")
     ap.add_argument("--lock-wait", type=float, default=30, help="minutes to wait for another checker to finish (default 30)")
     a = ap.parse_args(argv)
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(errors="replace")
     try:
-        run(a.root, a.scheme, a.vision, a.vision_limit, data_dir=a.data_dir, lock_wait=a.lock_wait * 60)
+        run(a.root, a.scheme, a.vision, a.vision_limit, data_dir=a.data_dir, lock_wait=a.lock_wait * 60,
+            prune_photos=not a.keep_all_photos)
     except Busy as e:
         print(f"{e}; not run", file=sys.stderr)
         return 7

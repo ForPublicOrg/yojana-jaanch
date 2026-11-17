@@ -130,7 +130,8 @@ show villages as checked before their photos are.
   and under the size cap. Empty bodies, HTML error pages, other files, images cut off before their
   end marker, redirect loops and timeouts are left out of the photo index and tried on the next
   run. A URL that failed is not tried twice in one run. Photo URLs that return 404 are recorded
-  with `sha256: null` and not retried. A photo whose file was deleted is downloaded again.
+  with `sha256: null` and not retried. A photo whose file was deleted keeps its sha256 and is not
+  downloaded again: the checker deletes the files of photos that are in no case (`checker/prune.py`).
   A village with a failed photo stays due under `--since-days`, so a rerun retries the photo.
 - Files are written to a temporary file and swapped in, records first and coverage last, so a
   crash, Ctrl+C or kill leaves the previous or the new version. When another program (such as

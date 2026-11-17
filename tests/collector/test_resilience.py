@@ -373,13 +373,16 @@ class Photos(Base):
         entry = self.index()[odd]
         self.assertTrue(entry["file"].endswith(entry["sha256"] + ".jpg"))
 
-    def test_missing_photo_file_is_downloaded_again(self):
+    def test_pruned_photo_file_is_not_downloaded_again(self):
+        """The checker deletes files of photos in no case; their sha256 is enough from then on."""
         self.run_once(FakePortal())
         entry = next(iter(self.index().values()))
         os.remove(entry["file"])
         portal = FakePortal()
-        self.run_once(portal)
-        self.assertEqual(len(portal.photo_calls), 1)
+        self.run_once(portal, since_days=0)
+        self.assertTrue(any(k[0] == "search" for k in portal.calls if isinstance(k, tuple)), portal.calls)
+        self.assertEqual(portal.photo_calls, [])
+        self.assertEqual(next(iter(self.index().values()))["sha256"], entry["sha256"])
 
 
 class LocalFiles(Base):

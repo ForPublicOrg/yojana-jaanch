@@ -5,6 +5,7 @@ import re
 import sys
 import tempfile
 import threading
+import time
 import unittest
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -238,3 +239,45 @@ class CheckerTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PrunePhotos(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        fixture.build(self.root)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def photo_files(self):
+        return {p.name.split(".")[0] for p in (self.root / "data" / "photos").rglob("*") if p.is_file()}
+
+    def test_only_case_photos_keep_their_files(self):
+        from checker import prune
+        before = self.photo_files()
+        cases = run(self.root, log=quiet, prune_photos=False)
+        site_cases = json.loads((self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8"))["cases"]
+        keep = {Path(c["photo"]).stem for c in site_cases if c.get("photo")}
+        self.assertTrue(keep and keep < before, (len(keep), len(before)))
+        # Fresh files are left alone during the grace period.
+        self.assertEqual(prune.prune(self.root / "data" / "photos", keep)[0], 0)
+        deleted, _, kept = prune.prune(self.root / "data" / "photos", keep, now=time.time() + 13 * 3600)
+        self.assertEqual(deleted, len(before - keep))
+        self.assertEqual(self.photo_files(), keep)
+        # The hashes are still in the records, and a second check finds the same cases with their photos.
+        again = run(self.root, log=quiet)
+        self.assertEqual(sorted(c["id"] for c in again), sorted(c["id"] for c in cases))
+        self.assertTrue(all(c.get("photo") for c in again if c["kind"] == "photo_reuse"))
+
+    def test_checker_keeps_each_case_photo(self):
+        from checker import prune
+        seen = {}
+        real = prune.prune
+        prune.prune = lambda d, keep, **kw: seen.setdefault("keep", set(keep)) and (0, 0, 0) or (0, 0, 0)
+        try:
+            run(self.root, log=quiet)
+        finally:
+            prune.prune = real
+        site_cases = json.loads((self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8"))["cases"]
+        self.assertEqual(seen["keep"], {Path(c["photo"]).stem for c in site_cases if c.get("photo")})
