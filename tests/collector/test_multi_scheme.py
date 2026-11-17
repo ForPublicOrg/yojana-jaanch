@@ -483,7 +483,9 @@ class QueueAnyScheme(Temp):
         units, _ = qr.resolve(plan, lambda s: ["X"], adapter_cls=JsjbAdapter)
         old, _ = qr.resolve(plan, lambda s: ["X"])
         self.assertEqual(units, old)
-        self.assertEqual(units[0]["key"], "punjab|*|rural")
+        # The owner's requested districts run first, then Punjab as before.
+        first = next(u for u in units if u["phase"] != "requested")
+        self.assertEqual(first["key"], "punjab|*|rural")
 
     def test_queue_main_for_a_new_scheme_and_dry_run(self):
         SCHEMES["demo"] = DemoAdapter

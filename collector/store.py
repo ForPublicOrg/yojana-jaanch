@@ -18,6 +18,7 @@ import json
 import logging
 import os
 import secrets
+import shutil
 import time
 from datetime import datetime, timezone
 
@@ -26,6 +27,18 @@ log = logging.getLogger("collector.store")
 # Below this size the records file and photo index are rewritten in full at the end of a run.
 SMALL_FILE = 32 * 1024 * 1024
 MIN_JOURNAL = 1000
+# Every scheme's run stops (exit 6, as for a full disk) before a new photo would leave less than this
+# free on the data folder's disk, so a long queue cannot fill a disk that holds the owner's other files.
+# Measured 18 Nov 2026: the photo store had grown to 46 GB between two prunes with 13 GB left free.
+MIN_FREE_BYTES = 10 * 2 ** 30
+FREE_CHECK_EVERY = 50
+
+
+def free_bytes(path):
+    path = os.path.abspath(path)
+    while not os.path.exists(path) and os.path.dirname(path) != path:
+        path = os.path.dirname(path)
+    return shutil.disk_usage(path).free
 
 
 class _Tracked(dict):
@@ -479,6 +492,7 @@ class Store:
         if existing and self.exists(existing):
             file = existing
         else:
+            self._check_free()
             full = os.path.join(self.data_dir, "photos", sha[:2], sha + ext)
             store_shared(full, content)
             file = self.rel(full)
@@ -487,6 +501,19 @@ class Store:
         if url:
             self.photo_index[url] = entry
         return entry
+
+    def _check_free(self):
+        self._new_photos = getattr(self, "_new_photos", 0) + 1
+        if self._new_photos % FREE_CHECK_EVERY != 1:
+            return
+        try:
+            free = free_bytes(self.data_dir)
+        except OSError:
+            return
+        if free < MIN_FREE_BYTES:
+            raise StoreError(f"only {free / 2 ** 30:.1f} GB free on the disk of {os.path.abspath(self.data_dir)}; "
+                             f"runs stop below {MIN_FREE_BYTES / 2 ** 30:.0f} GB. python run.py check deletes "
+                             f"photos that are in no case; then run again")
 
     def commit(self, area, records, seen_at, photos_failed=0, photos_state=None):
         """Save one whole village: its records and its coverage line together. Returns new record count.

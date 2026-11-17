@@ -496,9 +496,11 @@ class Runner(unittest.TestCase):
         self.assertEqual(plan["scheme"], "pmgsy")
         names = {"Punjab": ["Amritsar", "Bathinda"]}
         units, problems = qr.resolve(plan, lambda s: names.get(s, ["X"]), adapter_cls=PmgsyAdapter)
-        self.assertEqual([u["district"] for u in units[:2]], ["Amritsar", "Bathinda"])
-        self.assertEqual(units[0]["phase"], "punjab")
-        self.assertEqual(units[2]["phase"], "capitals")
+        later = [u for u in units if u["phase"] != "requested"]
+        self.assertEqual([u["district"] for u in later[:2]], ["Amritsar", "Bathinda"])
+        self.assertEqual(units[0]["phase"], "requested")
+        self.assertEqual(later[0]["phase"], "punjab")
+        self.assertEqual(later[2]["phase"], "capitals")
         keys = [u["key"] for u in units]
         self.assertEqual(len(keys), len(set(keys)))
         self.assertFalse(problems)

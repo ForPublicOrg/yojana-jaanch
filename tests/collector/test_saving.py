@@ -145,6 +145,43 @@ class Saving(unittest.TestCase):
         self.assertEqual(self.lines("state", "jsjb.photo_index.journal.jsonl"), [])
 
 
+JPEG = bytes([0xFF, 0xD8, 0xFF, 0xE0]) + b"x" * 64 + bytes([0xFF, 0xD9])
+
+
+class DiskRoom(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.d = os.path.join(self.tmp.name, "data")
+        self.free = st.free_bytes
+
+    def tearDown(self):
+        st.free_bytes = self.free
+        self.tmp.cleanup()
+
+    def test_run_stops_with_a_disk_error_before_the_disk_is_nearly_full(self):
+        st.free_bytes = lambda path: st.MIN_FREE_BYTES - 1
+        stats = collect(JsjbAdapter(FakePortal()), Store(self.d, "jsjb"), ALL, sleep=lambda s: None)
+        self.assertEqual(stats["stop"][0], "disk")
+        self.assertIn("GB free", stats["stop"][1])
+        self.assertEqual(exit_code(stats), 6)
+        photos = os.path.join(self.d, "photos")
+        self.assertEqual(sum(len(f) for _, _, f in os.walk(photos)) if os.path.isdir(photos) else 0, 0)
+
+    def test_photos_already_stored_need_no_room(self):
+        store = Store(self.d, "jsjb")
+        store.save_photo("https://example.invalid/a.jpg", JPEG)
+        st.free_bytes = lambda path: 0
+        self.assertTrue(store.save_photo("https://example.invalid/b.jpg", JPEG)["file"])
+
+    def test_room_is_checked_once_every_few_photos(self):
+        calls = []
+        st.free_bytes = lambda path: calls.append(path) or st.MIN_FREE_BYTES * 2
+        store = Store(self.d, "jsjb")
+        for i in range(st.FREE_CHECK_EVERY + 1):
+            store.save_photo(None, JPEG + bytes([i % 256, i // 256]))
+        self.assertEqual(len(calls), 2)
+
+
 class PhotoWorkers(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
