@@ -139,27 +139,39 @@
       }
       .picto {
         left: 108px;
-        width: 260px;
-        height: 200px;
+        width: 236px;
+        height: 160px;
       }
       .step {
-        left: 420px;
-        width: 560px;
-        font-size: 68px;
-        line-height: 1.12;
-        font-weight: 600;
+        left: 384px;
+        width: 600px;
+        font-size: 58px;
+        line-height: 1.1;
+        font-weight: 700;
       }
       .step .line-in {
-        padding-bottom: 14px;
+        padding-bottom: 12px;
+      }
+      .step b {
+        display: block;
+        font-weight: 700;
+      }
+      .step .what {
+        display: block;
+        margin-top: 6px;
+        font-size: 40px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: var(--ink-2);
       }
       .down {
-        left: 218px;
+        left: 206px;
         width: 40px;
         height: 40px;
       }
       #end {
         left: 108px;
-        top: 1400px;
+        top: 1480px;
         width: 864px;
         font-size: 76px;
         line-height: 1.14;
@@ -300,25 +312,36 @@
         <div id="grid" class="abs"></div>
       </div>
 
-      <!-- Then how it is found, in plain words -->
+      <!-- Then how it is found: each part by name, with what it does -->
       <div id="steps">
         <h2 id="name" class="clip abs" data-start="2.7" data-duration="7.3" data-track-index="1">
           <span id="name-in" class="line-in">Yojana Jaanch <span class="hi" lang="hi">योजना जाँच</span></span>
         </h2>
 
-        <div id="picto-1" class="picto abs" style="top: 400px">
-          <svg class="abs" style="left: 0; top: 0" width="158" height="118" viewBox="0 0 400 300"><use href="#ph-pond" /></svg>
-          <svg class="abs" style="left: 44px; top: 36px" width="158" height="118" viewBox="0 0 400 300"><use href="#ph-well" /></svg>
-          <svg class="abs" style="left: 88px; top: 72px" width="158" height="118" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+        <div id="picto-1" class="picto abs" style="top: 372px">
+          <div class="abs" style="left: 0; top: 14px; width: 236px; height: 140px; background: #ffffff; border: 2px solid #dcdad3; border-radius: 8px">
+            <div class="abs" style="left: 16px; top: 12px; font-size: 30px; font-weight: 600">5410072</div>
+            <svg class="abs" style="left: 112px; top: 58px" width="104" height="78" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+          </div>
         </div>
-        <h3 id="step-1" class="clip step abs" style="top: 424px" data-start="3.0" data-duration="7" data-track-index="2">
-          <span id="step-1-in" class="line-in">saves public<br />records</span>
+        <h3 id="step-1" class="clip step abs" style="top: 372px" data-start="3.0" data-duration="7" data-track-index="2">
+          <span id="step-1-in" class="line-in"><b>Scheme portal</b><span class="what">lists each work with a photo</span></span>
         </h3>
 
-        <svg id="down-1" class="down abs" style="top: 600px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
-        <div id="picto-2" class="picto abs" style="top: 645px">
-          <svg class="abs" style="left: 0; top: 50px" width="124" height="93" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
-          <svg class="abs" style="left: 124px; top: 34px" width="136" height="126" viewBox="0 0 136 126">
+        <svg id="down-1" class="down abs" style="top: 548px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
+        <div id="picto-2" class="picto abs" style="top: 586px">
+          <svg class="abs" style="left: 0; top: 0" width="148" height="111" viewBox="0 0 400 300"><use href="#ph-pond" /></svg>
+          <svg class="abs" style="left: 40px; top: 24px" width="148" height="111" viewBox="0 0 400 300"><use href="#ph-well" /></svg>
+          <svg class="abs" style="left: 80px; top: 48px" width="148" height="111" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+        </div>
+        <h3 id="step-2" class="clip step abs" style="top: 586px" data-start="3.7" data-duration="6.3" data-track-index="3">
+          <span id="step-2-in" class="line-in"><b>Collector</b><span class="what">saves the records and photos</span></span>
+        </h3>
+
+        <svg id="down-2" class="down abs" style="top: 762px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
+        <div id="picto-3" class="picto abs" style="top: 800px">
+          <svg class="abs" style="left: 0; top: 34px" width="112" height="84" viewBox="0 0 400 300"><use href="#ph-main" /></svg>
+          <svg class="abs" style="left: 108px; top: 14px" width="128" height="126" viewBox="0 0 136 126">
             <path d="M0 62 H16" stroke="#b3261e" stroke-width="4" />
             <g fill="#fbe9e6" stroke="#b3261e" stroke-width="2">
               <rect x="18" y="2" width="34" height="24" rx="3" /><rect x="59" y="2" width="34" height="24" rx="3" /><rect x="100" y="2" width="34" height="24" rx="3" />
@@ -328,32 +351,32 @@
             </g>
           </svg>
         </div>
-        <h3 id="step-2" class="clip step abs" style="top: 669px" data-start="3.9" data-duration="6.1" data-track-index="3">
-          <span id="step-2-in" class="line-in">spots reused<br />photos</span>
+        <h3 id="step-3" class="clip step abs" style="top: 800px" data-start="4.4" data-duration="5.6" data-track-index="4">
+          <span id="step-3-in" class="line-in"><b>Checker</b><span class="what">finds reused photos</span></span>
         </h3>
 
-        <svg id="down-2" class="down abs" style="top: 845px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
-        <div id="picto-3" class="picto abs" style="top: 890px">
-          <svg class="abs" style="left: 0; top: 8px" width="236" height="177" viewBox="0 0 400 300"><use href="#ph-main" /><use href="#blur-art" /></svg>
-          <svg class="abs" style="left: 196px; top: 136px" width="64" height="64" viewBox="0 0 60 60">
+        <svg id="down-3" class="down abs" style="top: 976px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
+        <div id="picto-4" class="picto abs" style="top: 1014px">
+          <svg class="abs" style="left: 0; top: 4px" width="200" height="150" viewBox="0 0 400 300"><use href="#ph-main" /><use href="#blur-art" /></svg>
+          <svg class="abs" style="left: 176px; top: 106px" width="56" height="56" viewBox="0 0 60 60">
             <rect x="2" y="2" width="56" height="56" rx="6" fill="#ffffff" stroke="#16181d" stroke-width="4" />
             <path d="M13 31 L26 44 L48 17" fill="none" stroke="#16181d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </div>
-        <h3 id="step-3" class="clip step abs" style="top: 914px" data-start="4.8" data-duration="5.2" data-track-index="4">
-          <span id="step-3-in" class="line-in">blurs<br />faces</span>
+        <h3 id="step-4" class="clip step abs" style="top: 1014px" data-start="5.1" data-duration="4.9" data-track-index="5">
+          <span id="step-4-in" class="line-in"><b>Publisher</b><span class="what">blurs faces, a person approves</span></span>
         </h3>
 
-        <svg id="down-3" class="down abs" style="top: 1090px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
-        <div id="picto-4" class="picto abs" style="top: 1135px">
-          <img class="abs" style="left: 36px; top: 0; width: 186px; height: 200px" src="assets/punjab-base.svg" alt="" />
-          <img class="abs" style="left: 36px; top: 0; width: 186px; height: 200px" src="assets/punjab-flagged.svg" alt="" />
+        <svg id="down-4" class="down abs" style="top: 1190px" viewBox="0 0 40 40"><path d="M20 2 V24" stroke="#16181d" stroke-width="5" /><path d="M8 20 L20 38 L32 20Z" fill="#16181d" /></svg>
+        <div id="picto-5" class="picto abs" style="top: 1228px">
+          <img class="abs" style="left: 44px; top: 0; width: 149px; height: 160px" src="assets/punjab-base.svg" alt="" />
+          <img class="abs" style="left: 44px; top: 0; width: 149px; height: 160px" src="assets/punjab-flagged.svg" alt="" />
         </div>
-        <h3 id="step-4" class="clip step abs" style="top: 1159px" data-start="5.7" data-duration="4.3" data-track-index="5">
-          <span id="step-4-in" class="line-in">maps each<br />flag</span>
+        <h3 id="step-5" class="clip step abs" style="top: 1228px" data-start="5.8" data-duration="4.2" data-track-index="6">
+          <span id="step-5-in" class="line-in"><b>Site</b><span class="what">puts each flag on a map</span></span>
         </h3>
 
-        <h2 id="end" class="clip abs" data-start="6.85" data-duration="3.15" data-track-index="6">
+        <h2 id="end" class="clip abs" data-start="6.85" data-duration="3.15" data-track-index="7">
           <span id="end-in" class="line-in">A flag is a lead,<br />not proof of fraud.</span>
         </h2>
       </div>
@@ -408,10 +431,10 @@
       blurIn("#where", 1.0);
       blurOut(["#hook-1-in", "#hook-2-in", "#num", "#photo", "#where", "#grid"], 2.5);
 
-      // How it is found (2.7 to 10): one step under the last.
+      // How it is found (2.7 to 10): each part by name, one under the last.
       blurIn("#name-in", 2.75);
-      for (let i = 1; i <= 4; i++) {
-        const t = 3.0 + (i - 1) * 0.9;
+      for (let i = 1; i <= 5; i++) {
+        const t = 3.0 + (i - 1) * 0.7;
         if (i > 1) wipeIn(`#down-${i - 1}`, t - 0.2, 0.2);
         tl.fromTo(`#picto-${i}`, { opacity: 0, scale: 0.84 }, { opacity: 1, scale: 1, duration: 0.5, ease: "expo.out" }, t);
         wipeIn(`#step-${i}-in`, t + 0.08);
