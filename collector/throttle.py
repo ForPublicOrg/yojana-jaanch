@@ -24,10 +24,12 @@ slot because of the rate (with no trouble in between; photos that found a free s
 nor reset the count, so the rate never climbs past what the photos actually use), when the median
 latency of the last WINDOW ok photos is at most RAMP_LATENCY times the baseline (the median of
 the first BASELINE_OKS ok photos this throttle saw), and when at least COOLDOWN ok photos came
-since the last back off. It halves on any trouble outcome, and drops by 1 when that median is
+since the last back off. It halves on any trouble outcome (a lone failed request after
+ISOLATED_AFTER good photos only steps it down by 1), and drops by 1 when that median is
 over SLOW_LATENCY times the baseline. Latency is the time to the response headers, so a large
 file or this computer's own busy connection does not read as a busy portal. A rate that caused two
-back offs for trouble becomes off limits: the ceiling drops to one below it. A slow median only
+back offs for trouble within LEARN_WINDOW good photos is off limits for a while: the ceiling drops
+to one below it, and rises by 1 again after RECOVER_AFTER good photos in a row. A slow median only
 steps the rate down; it does not lower the ceiling, since a portal busy with other users for a
 while says little about the rate. The rate, the baseline and that ceiling last as long as the
 throttle does: under the queue, the whole queue process (see new_run).
@@ -68,6 +70,15 @@ MAX_PAUSES = 3
 MISSING_RUN = 60
 RATIO_WINDOW = 20
 RATIO_TROUBLE = 6
+# A lone failed request (timeout, reset, cut-off body) after at least ISOLATED_AFTER good photos
+# steps the rate down by 1 instead of halving it, and does not count towards a lowered ceiling:
+# on JSJB, about 1 in 2,000 large photos arrived cut off with no other sign of trouble.
+ISOLATED_AFTER = 50
+# A ceiling is lowered only when one rate backs off twice within LEARN_WINDOW good photos, and it
+# comes back up by 1 after RECOVER_AFTER good photos in a row without trouble, never above the
+# ceiling the caller gave.
+LEARN_WINDOW = 2000
+RECOVER_AFTER = 3000
 
 OUTCOMES = ("ok", "missing", "throttled", "error", "refused", "not_image")
 TROUBLE = ("throttled", "error", "refused", "not_image")
@@ -112,7 +123,11 @@ class PhotoThrottle:
         self.clock = clock
         self.sleep = sleep
         self.ceiling = _clamp(ceiling, 1, HARD_CAP)
+        self.top = self.ceiling
         self.rate = _clamp(start, 1, self.ceiling)
+        # Good photos so far, and since the last trouble outcome.
+        self._oks = 0
+        self._oks_since_trouble = 0
         self._cond = threading.Condition(threading.Lock())
         self.in_flight = 0
         self._next_start = float("-inf")
@@ -133,7 +148,8 @@ class PhotoThrottle:
         self._recent = deque(maxlen=WINDOW)
         self._clean = 0
         self._since_backoff = None
-        self._backoffs_at = Counter()
+        # Rate -> good-photo count at its last counted back off.
+        self._backoffs_at = {}
         self._streak = []
         self._probation = False
         self.pauses_in_a_row = 0
@@ -283,6 +299,13 @@ class PhotoThrottle:
                 self.baseline = statistics.median(self._first_oks)
                 self._first_oks = []
         self._recent.append(latency)
+        self._oks += 1
+        self._oks_since_trouble += 1
+        if self.ceiling < self.top and self._oks_since_trouble >= RECOVER_AFTER:
+            self.ceiling += 1
+            self._oks_since_trouble = 0
+            log.info("photos to %s: at most %d a second again (%d photos without trouble)",
+                     self.host, self.ceiling, RECOVER_AFTER)
         if limited:
             self._clean += 1
         if self._since_backoff is not None:
@@ -306,7 +329,13 @@ class PhotoThrottle:
         self._window.append(outcome)
         what = detail or {"throttled": "HTTP 429 or 503", "refused": "HTTP 401 or 403",
                           "not_image": "not an image"}.get(outcome, "a failed request")
-        self._back_off(max(1, self.rate // 2), what)
+        isolated = outcome == "error" and self._oks_since_trouble >= ISOLATED_AFTER
+        self._oks_since_trouble = 0
+        if isolated:
+            self._back_off(self.rate - 1, f"{what}; one failure after {ISOLATED_AFTER} or more good photos",
+                           learn=False)
+        else:
+            self._back_off(max(1, self.rate // 2), what)
         limit = PROBATION if self._probation else GUARD_STREAK
         if len(self._streak) >= limit:
             self._trip(list(self._streak), "in a row")
@@ -320,11 +349,12 @@ class PhotoThrottle:
         old = self.rate
         self._since_backoff = 0
         if learn:
-            self._backoffs_at[old] += 1
-        if learn and old > 1 and self._backoffs_at[old] >= 2 and self.ceiling > old - 1:
-            self.ceiling = old - 1
-            log.info("photos to %s: at most %d a second from now on (%d a second backed off twice)",
-                     self.host, self.ceiling, old)
+            last = self._backoffs_at.get(old)
+            self._backoffs_at[old] = self._oks
+            if last is not None and self._oks - last <= LEARN_WINDOW and old > 1 and self.ceiling > old - 1:
+                self.ceiling = old - 1
+                log.info("photos to %s: at most %d a second for now (%d a second backed off twice within "
+                         "%d photos)", self.host, self.ceiling, old, LEARN_WINDOW)
         self._set_rate(min(new, self.ceiling), reason)
 
     def _set_rate(self, new, reason):

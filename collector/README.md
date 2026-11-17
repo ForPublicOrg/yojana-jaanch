@@ -164,12 +164,16 @@ How the rate moves (`collector/throttle.py`, one rate per host, every try of eve
 - Halved (never below 1) on trouble: HTTP 429 or 503, a timeout, a reset or refused connection,
   another 5xx, a cut-off file, a 401 or 403, or an HTML page instead of an image. A page request
   answered 429 or 503, or failing, halves it too. A Retry-After header, on a photo or a page,
-  holds every request to that host for that long (at most 15 minutes).
+  holds every request to that host for that long (at most 15 minutes). One exception: a lone
+  failed request (timeout, reset, cut-off file) after 50 or more good photos only steps the rate
+  down by 1. On JSJB about 1 in 2,000 large photos arrived cut off with no other sign of trouble,
+  and halving for each one, with the rule below, had walked the top down from 8 to 2 in two hours.
 - Down by 1 when the median time of the last 20 photos is over twice the median of the first 20.
   The time is until the portal's response headers arrive, not the whole download, so a large photo
   or this computer's own busy connection does not count as a slow portal.
-- A rate that had to step down twice for trouble is not used again: the top becomes one below it.
-  A slow median only steps the rate down; it does not lower the top.
+- A rate that had to step down for trouble twice within 2,000 good photos is not used for a while:
+  the top becomes one below it, and rises by 1 again after 3,000 good photos in a row, never above
+  the top you gave. A lone failure and a slow median do not lower the top.
 - Neutral: 404, 410, a redirect to a not-found page (JSJB sends missing photos to
   PageNotFound.aspx), the PMGSY image host's error page. After 60 of these in a row with no good
   photo or normally answered search page in between they are no longer believed (a firewall or an

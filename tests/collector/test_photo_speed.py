@@ -203,16 +203,56 @@ class Throttle(WithLogs):
         t = self.make(4, 6)
         for _ in range(20):
             one(t, "ok")
-        one(t, "error")
+        one(t, "throttled")
         while t.rate < 4:
             one(t, "ok")
-        one(t, "error")
+        one(t, "throttled")
         self.assertEqual((t.rate, t.ceiling), (2, 3))
+        self.assertIn("photos to jsjb.mowr.gov.in: at most 3 a second for now (4 a second backed off twice "
+                      f"within {throttle_module.LEARN_WINDOW} photos)", self.messages())
         for _ in range(2000):
             one(t, "ok")
         self.assertEqual(t.rate, 3)
-        self.assertIn("photos to jsjb.mowr.gov.in: at most 3 a second from now on "
-                      "(4 a second backed off twice)", self.messages())
+        # After a long clean stretch the ceiling comes back, one step at a time, never above 6.
+        for _ in range(throttle_module.RECOVER_AFTER * 4):
+            one(t, "ok")
+        self.assertEqual(t.ceiling, 6)
+        self.assertIn(f"photos to jsjb.mowr.gov.in: at most 4 a second again ({throttle_module.RECOVER_AFTER} "
+                      "photos without trouble)", self.messages())
+
+    def test_back_offs_far_apart_do_not_lower_the_ceiling(self):
+        t = self.make(4, 4)
+        for _ in range(20):
+            one(t, "ok")
+        one(t, "throttled")
+        for _ in range(throttle_module.LEARN_WINDOW + 10):
+            one(t, "ok")
+        self.assertEqual(t.rate, 4)
+        one(t, "throttled")
+        self.assertEqual((t.rate, t.ceiling), (2, 4))
+
+    def test_a_lone_failure_after_good_photos_steps_down_by_one(self):
+        t = self.make(8, 8)
+        for _ in range(throttle_module.ISOLATED_AFTER):
+            one(t, "ok")
+        one(t, "error", detail="IncompleteRead")
+        self.assertEqual(t.rate, 7)
+        # A second failure soon after is not lone: it halves.
+        one(t, "ok")
+        one(t, "error")
+        self.assertEqual(t.rate, 3)
+        # Lone failures never lower the ceiling, however many there are.
+        for _ in range(5):
+            for _ in range(throttle_module.ISOLATED_AFTER):
+                one(t, "ok")
+            one(t, "error")
+        self.assertEqual(t.ceiling, 8)
+        # Throttling still halves at once, lone or not.
+        for _ in range(throttle_module.ISOLATED_AFTER):
+            one(t, "ok")
+        before = t.rate
+        one(t, "throttled")
+        self.assertEqual(t.rate, max(1, before // 2))
 
     def test_no_ramp_up_when_photos_never_wait(self):
         # Photos that always find a free slot do not show the portal takes a higher rate.
