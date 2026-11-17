@@ -2,8 +2,62 @@
  "scheme": "egramswaraj",
  "since_days": 30,
  "list_only": true,
- "about": "Order: (1) all of Punjab; (2) the district holding each state or union territory capital; (3) every other district, state by state. Names are the portal's own (geoTaggingZpReport.do, read November 2026). Capitals left out because their district has no gram panchayat with geotagged works on the portal in plan years 2023-2024 to 2026-2027: Chandigarh (also capital of Punjab and Haryana), Delhi, Mumbai, Kolkata, Chennai, Hyderabad, Imphal West, and the capitals of Jammu And Kashmir, Ladakh, Lakshadweep, Andaman And Nicobar Islands, The Dadra And Nagar Haveli And Daman And Diu, Meghalaya, Nagaland and Puducherry. Those last ten states and union territories showed a count of 0 in all four plan years and are not in the plan; add them back if the state report shows activities. Each unit runs every plan year the report page offers. See collector/schemes/egramswaraj.py. list_only is true: the queue saves each work with its photo rows (stage, upload time, point, file name) and downloads no photos, because the metadata checks need no photos and photos for all of India do not fit on this computer (measured: 461 KB per photo on average, about 3.4 photo rows per work in South Goa). Fetch photos afterwards for chosen areas: python run.py collect --scheme egramswaraj --photos --state <state> --district <district> [--gp <GP>] [--year <plan year>]. Award phase: every district (or the district of a municipal corporation or urban body) given a Jal Sanchay Jan Bhagidari (JSJB 1.0) award on 18 Nov 2025, from the PIB release of 11 Nov 2025 (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2188706) and the Department of Water Resources awardee list (https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/33c8968f7421c53f2e85fc72b3ed95de.pdf). Ordered by award size: Category 1, municipal corporations and the urban body, then Category 2, then Category 3. Names are matched to this portal's own spelling.",
+ "about": "Order: (1) all of Punjab; (2) the district holding each state or union territory capital; (3) every other district, state by state. Names are the portal's own (geoTaggingZpReport.do, read November 2026). Capitals left out because their district has no gram panchayat with geotagged works on the portal in plan years 2023-2024 to 2026-2027: Chandigarh (also capital of Punjab and Haryana), Delhi, Mumbai, Kolkata, Chennai, Hyderabad, Imphal West, and the capitals of Jammu And Kashmir, Ladakh, Lakshadweep, Andaman And Nicobar Islands, The Dadra And Nagar Haveli And Daman And Diu, Meghalaya, Nagaland and Puducherry. Those last ten states and union territories showed a count of 0 in all four plan years and are not in the plan; add them back if the state report shows activities. Each unit runs every plan year the report page offers. See collector/schemes/egramswaraj.py. list_only is true: the queue saves each work with its photo rows (stage, upload time, point, file name) and downloads no photos, because the metadata checks need no photos and photos for all of India do not fit on this computer (measured: 461 KB per photo on average, about 3.4 photo rows per work in South Goa). Fetch photos afterwards for chosen areas: python run.py collect --scheme egramswaraj --photos --state <state> --district <district> [--gp <GP>] [--year <plan year>]. Award phase: every district (or the district of a municipal corporation or urban body) given a Jal Sanchay Jan Bhagidari (JSJB 1.0) award on 18 Nov 2025, from the PIB release of 11 Nov 2025 (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2188706) and the Department of Water Resources awardee list (https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/33c8968f7421c53f2e85fc72b3ed95de.pdf). Ordered by award size: Category 1, municipal corporations and the urban body, then Category 2, then Category 3. Names are matched to this portal's own spelling. Requested phase (first): Tonk, Sitamarhi, Bhind, Salem, Deoria, Namakkal, Chikkaballapura, Jhunjhunu and Jaisalmer, added on the owner's request on 17 November 2026, in that order; a district also in a later phase runs once, here.",
  "units": [
+  {
+   "phase": "requested",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Karnataka",
+   "district": "Chikballapur",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "note": "added on request, 17 November 2026"
+  },
   {
    "phase": "punjab",
    "state": "Punjab",

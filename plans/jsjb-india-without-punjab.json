@@ -1,8 +1,98 @@
 {
  "scheme": "jsjb",
  "since_days": 30,
- "about": "Order: (1) Punjab rural then urban; (2) the district holding each state or union territory capital, urban then rural; (3) every other district, state by state. District names are the portal's own. See docs/QUEUE.md. This copy leaves out Punjab (rural, urban and its remaining districts); run plans/jsjb-india.json to finish Punjab. Award phase: every district (or the district of a municipal corporation or urban body) given a Jal Sanchay Jan Bhagidari (JSJB 1.0) award on 18 Nov 2025, from the PIB release of 11 Nov 2025 (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2188706) and the Department of Water Resources awardee list (https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/33c8968f7421c53f2e85fc72b3ed95de.pdf). Ordered by award size: Category 1, municipal corporations and the urban body, then Category 2, then Category 3. Names are matched to this portal's own spelling.",
+ "about": "Order: (1) Punjab rural then urban; (2) the district holding each state or union territory capital, urban then rural; (3) every other district, state by state. District names are the portal's own. See docs/QUEUE.md. This copy leaves out Punjab (rural, urban and its remaining districts); run plans/jsjb-india.json to finish Punjab. Award phase: every district (or the district of a municipal corporation or urban body) given a Jal Sanchay Jan Bhagidari (JSJB 1.0) award on 18 Nov 2025, from the PIB release of 11 Nov 2025 (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2188706) and the Department of Water Resources awardee list (https://www.jalshakti-dowr.gov.in/static/uploads/2025/11/33c8968f7421c53f2e85fc72b3ed95de.pdf). Ordered by award size: Category 1, municipal corporations and the urban body, then Category 2, then Category 3. Names are matched to this portal's own spelling. Requested phase (first): Tonk, Sitamarhi, Bhind, Salem, Deoria, Namakkal, Chikkaballapura, Jhunjhunu and Jaisalmer, added on the owner's request on 17 November 2026, in that order; a district also in a later phase runs once, here.",
  "units": [
+  {
+   "phase": "requested",
+   "state": "RAJASTHAN",
+   "district": "Tonk",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "BIHAR",
+   "district": "Sitamarhi",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "MADHYA PRADESH",
+   "district": "Bhind",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "TAMIL NADU",
+   "district": "Namakkal",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "KARNATAKA",
+   "district": "Chikkaballapura",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
+  {
+   "phase": "requested",
+   "state": "RAJASTHAN",
+   "district": "Jaisalmer",
+   "area": [
+    "Urban",
+    "Rural"
+   ],
+   "note": "added on request, 17 November 2026"
+  },
   {
    "phase": "awards",
    "state": "UTTAR PRADESH",
