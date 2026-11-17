@@ -1,9 +1,17 @@
-"""Keep photo files only for the photo each case flags; every other photo keeps just its sha256.
+"""Keep photo files only for the photos each case flags; every other photo keeps just its sha256.
 
-The collector must download a photo to hash it, and photo_reuse needs only the hash. So after a
-check of every scheme, the files under <data>/photos/ that are not the evidence photo of a case
-(public or preview) are deleted. The hash stays in the records and the photo index, and the
-collector does not download a photo again once its hash is known (collector/store.py known_photo).
+The collector must download a photo to hash it, and the exact-file part of photo_reuse needs only
+the hash. So after a check of every scheme, the files under <data>/photos/ that are not the
+evidence photo of a case (public or preview) are deleted. The hash stays in the records and the
+photo index, and the collector does not download a photo again once its hash is known
+(collector/store.py known_photo).
+
+The near-duplicate part of photo_reuse needs each file decoded once by the phash step
+(python run.py phash), which writes <data>/state/phash.jsonl. Once that file exists, a file whose
+sha256 has no line in it is never deleted, so the phash step always sees a file before it goes.
+Every file of a picture saved as several files is kept, not only the one shown, so a person can
+compare them in data/preview/near_matches.html. Without phash.jsonl files are deleted as before,
+and the checker says that near-duplicate matching needs the phash step.
 
 If a later record reuses a deleted photo, that record's copy is downloaded under its own URL, so
 the new case still has a file. Files younger than grace_hours are left alone, because their
@@ -18,15 +26,19 @@ GRACE_HOURS = 12
 
 
 def keep_hashes(found_data, cases):
-    """sha256 of each case's evidence photo: the reused photo of a photo_reuse case, the photo shown
-    for a case from the other checks. found_data is accepted so callers need not change if a check
-    later needs more photos kept."""
-    return {c["_photo_src"]["sha256"] for c in cases
-            if isinstance(c.get("_photo_src"), dict) and c["_photo_src"].get("sha256")}
+    """sha256 of each case's evidence photo (the reused photo of a photo_reuse case, the photo shown
+    for a case from the other checks) and of every file of a picture saved as several files.
+    found_data is accepted so callers need not change if a check later needs more photos kept."""
+    out = {c["_photo_src"]["sha256"] for c in cases
+           if isinstance(c.get("_photo_src"), dict) and c["_photo_src"].get("sha256")}
+    for c in cases:
+        out.update(c.get("_member_shas") or [])
+    return out
 
 
-def prune(photos_dir, keep, grace_hours=GRACE_HOURS, now=None):
-    """Delete <photos_dir>/<xx>/<sha256>.<ext> files whose sha256 is not in keep.
+def prune(photos_dir, keep, grace_hours=GRACE_HOURS, now=None, hashed=None):
+    """Delete <photos_dir>/<xx>/<sha256>.<ext> files whose sha256 is not in keep. With hashed (the
+    sha256 values in phash.jsonl), a file whose sha256 is not in it is kept as well.
     Returns (files deleted, bytes freed, files kept)."""
     photos_dir = Path(photos_dir)
     if not photos_dir.is_dir():
@@ -40,7 +52,7 @@ def prune(photos_dir, keep, grace_hours=GRACE_HOURS, now=None):
             sha = f.name.split(".", 1)[0]
             if not f.is_file() or len(sha) != 64 or ".tmp" in f.name:
                 continue
-            if sha in keep:
+            if sha in keep or (hashed is not None and sha not in hashed):
                 kept += 1
                 continue
             try:

@@ -78,11 +78,26 @@ def _replace(tmp, path, tries=5, wait=0.5):
             time.sleep(wait)
 
 
+def find_photo(root, file, sha):
+    """The stored file of a photo: the path the record names, or the same sha256 under another
+    extension in that folder (a file downloaded again may be .jpg where the record says .jpeg)."""
+    if not file or not sha:
+        return None
+    path = Path(root) / file
+    if path.is_file():
+        return path
+    try:
+        return next((p for p in sorted(path.parent.glob(sha + ".*"))
+                     if p.is_file() and ".tmp" not in p.name and p.name.count(".") == 1), None)
+    except OSError:
+        return None
+
+
 def copy_photo(root, site, src):
     if not src or not src.get("file") or not src.get("sha256"):
         return None
-    path = Path(root) / src["file"]
-    if not path.is_file():
+    path = find_photo(root, src["file"], src["sha256"])
+    if path is None:
         return None
     rel = f"photos/{src['sha256']}{path.suffix.lower() or '.jpg'}"
     dest = site / rel
@@ -105,6 +120,23 @@ def write_json(path, data):
     try:
         with open(tmp, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
+    except OSError:
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
+        raise
+    _replace(tmp, path)
+
+
+def write_text(path, text):
+    """Whole file or nothing, like write_json."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = _tmp(path)
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(text)
     except OSError:
         try:
             os.remove(tmp)
@@ -146,10 +178,20 @@ def write_case_files(site, cases):
                     pass
 
 
+def _private(c):
+    """Take the keys starting with "_" off a case: (evidence photo, other photos of the same picture)."""
+    src, alts = c.pop("_photo_src", None), c.pop("_photo_alts", None) or []
+    for k in [k for k in c if k.startswith("_")]:
+        del c[k]
+    return src, alts
+
+
 def write(root, cases, schemes, coverage, checks_run=None):
     site = Path(root) / "site"
     for c in cases:
-        c["photo"] = copy_photo(root, site, c.pop("_photo_src", None))
+        src, alts = _private(c)
+        # A picture saved as several files: when the main file is gone, show another copy of it.
+        c["photo"] = next((rel for rel in (copy_photo(root, site, s) for s in [src] + alts) if rel), None)
     cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
     write_case_files(site, cases)
     cases = [dict(c, records=[{"record_id": r.get("record_id")} for r in c["records"][:INDEX_RECORDS]],
@@ -160,12 +202,15 @@ def write(root, cases, schemes, coverage, checks_run=None):
     write_json(site / "data" / "areas.json", areas(cases))
 
 
-def write_preview(preview_dir, scheme, cases, scheme_info, coverage, checks_run):
+def write_preview(preview_dir, scheme, cases, scheme_info, coverage, checks_run, root=None):
     """Cases of a scheme that is not public yet, for a person to review. Never under site/: the
     photo of each case is the original's path under data/, not a public copy."""
     for c in cases:
-        src = c.pop("_photo_src", None)
+        src, alts = _private(c)
         c["photo"] = src.get("file") if src and src.get("sha256") else None
+        if root is not None and alts and not (c["photo"] and (Path(root) / c["photo"]).is_file()):
+            c["photo"] = next((s["file"] for s in alts if s.get("file") and (Path(root) / s["file"]).is_file()),
+                              c["photo"])
     cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
     path = Path(preview_dir) / f"cases.{scheme}.json"
     write_json(path, {

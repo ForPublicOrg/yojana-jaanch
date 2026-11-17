@@ -7,7 +7,10 @@
     }
   },
   "photo_reuse": {
-    "upload_minutes": 30
+    "upload_minutes": 30,
+    "near_max_distance": 8,
+    "near_max_mad": 0.03,
+    "near_max_aspect_gap": 0.01
   },
   "same_gps": {
     "min_records": 5

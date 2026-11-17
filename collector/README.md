@@ -57,6 +57,40 @@ that failed stays `not_fetched` for the next pass. The checker leaves `not_fetch
 photo checks. A normal run treats a listed-only area as due under `--since-days`. JSJB does not
 support list-only (see Speed).
 
+## Download again photos deleted before the phash step
+
+    python run.py collect --scheme jsjb --refetch-unhashed [--max-records N] [--max-minutes M] [--photo-workers 3]
+
+The checker deletes photo files that are in no case (`checker/prune.py`). Photos deleted before the
+first `python run.py phash` run were never decoded, so the near-duplicate match cannot compare
+them. This mode (`collector/refetch.py`) reads the saved records, read only, and for every photo
+whose sha256 has neither a file under `data/photos/` nor a line in `data/state/phash.jsonl`,
+downloads it again from a URL it was saved under. Bytes that hash to the stored sha256 are stored
+as `data/photos/<sha256[:2]>/<sha256>.<ext>`, with the extension the records give that file (some
+say `.jpeg`), so the file is back exactly where the records point; only when no record names a
+file is the extension taken from the bytes. A line in `phash.jsonl` counts as hashed when the
+checker reads it (`checker/nearmatch.py` `parse_line`), so lines of an older version do not stop a
+download. A URL that now serves another file is logged and
+counted, nothing is stored, and the next URL saved for that sha256 is tried (at most 3 per run). A
+404 is counted as missing. `--max-records N` stops after N photos, the photo on the most works
+first. Nothing else is written: no record, coverage line, photo index entry or run summary. The
+log goes to `data/logs/<scheme>.refetch.log`.
+
+It refuses to start when `data/state/phash.jsonl` does not exist, because the checker would delete
+the files again. Order: `python run.py phash`, then this, then `python run.py phash` and
+`python run.py check`.
+
+It can run while the normal queue of the same scheme runs. It does not take
+`data/state/collector.<scheme>.lock` (or `collector.lock` for jsjb), since it writes none of the
+files those locks protect; photo files go through the same shared write as every collector (see
+"Several schemes at once"). It takes `data/state/refetch.<scheme>.lock`, so two refetch runs do
+not overlap. Both processes then ask the same host for photos, each with its own throttle and ban
+guard, so their load adds up. That is why this mode defaults to `--photo-workers 3`: at most 3
+photo requests start a second, fewer when the portal has trouble. Every request goes through the
+same Client, photo throttle, ban guard and photo pool as a normal run, and it stops for the same
+reasons: a ban guard stop (exit 4, or 8 for a refusal), `--max-minutes`, disk trouble (exit 6) or
+Ctrl+C (exit 130). A photo that failed is asked for again on the next run (exit 5).
+
 ## Trial runs
 
 Point `--data-dir` at a scratch folder; nothing then touches `data/` or `site/data`:

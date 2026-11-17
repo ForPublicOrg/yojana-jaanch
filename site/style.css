@@ -378,3 +378,9 @@ textarea { width: 100%; min-height: 320px; font: .88rem/1.5 var(--mono); padding
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 .area-main > .finder:first-child { margin-top: 0; }
+
+/* A portal placeholder (an icon or plain graphic) shown as the evidence image: enlarge it without
+   smoothing so it reads as what it is, and say plainly that it is not a photo. */
+.thumb.is-placeholder img, .photo-frame.is-placeholder img { object-fit: contain; image-rendering: pixelated; }
+.photo-frame.is-placeholder img { width: min(100%, 480px); }
+.thumb.is-placeholder .ph-label { position: absolute; left: 0; right: 0; bottom: 0; padding: 6px 10px; background: rgba(20, 20, 20, 0.78); color: #fff; font-size: 0.85rem; line-height: 1.3; }

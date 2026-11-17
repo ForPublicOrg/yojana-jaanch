@@ -157,7 +157,28 @@
     });
   }
 
-  var api = { parseHash: parseHash, matchRoute: matchRoute, buildHash: buildHash, withQuery: withQuery, paginate: paginate,
+  /* The case with this id, or the case that took it over: when one picture saved as several files is
+     found, the case of the file on the most records keeps its id and lists the ids of the others in other_ids. */
+  function findCase(cases, id) {
+    var list = cases || [], i;
+    for (i = 0; i < list.length; i++) if (list[i].id === id) return { c: list[i], moved: false };
+    for (i = 0; i < list.length; i++) if ((list[i].other_ids || []).indexOf(id) !== -1) return { c: list[i], moved: true };
+    return null;
+  }
+
+  /* Number of different files a case's picture was saved as; 1 for a single file. */
+  function fileCount(c) {
+    return c && c.photo_files && c.photo_files.length > 1 ? c.photo_files.length : 1;
+  }
+
+  /* The comparison a scheme used: { distance, mad } when files were matched by picture, else null. */
+  function nearMatch(schemes) {
+    var on = (schemes || []).filter(function (s) { return s.photo_match && s.photo_match.near_matching; });
+    if (!on.length) return null;
+    return { schemes: on.map(function (s) { return s.name || s.id; }), distance: on[0].photo_match.max_distance };
+  }
+
+  var api = { findCase: findCase, fileCount: fileCount, nearMatch: nearMatch, parseHash: parseHash, matchRoute: matchRoute, buildHash: buildHash, withQuery: withQuery, paginate: paginate,
     pageList: pageList, matches: matches, filterItems: filterItems, facet: facet, sortCases: sortCases,
     kindSummary: kindSummary, sortRecords: sortRecords, same: same };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

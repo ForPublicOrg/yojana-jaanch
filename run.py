@@ -8,6 +8,8 @@
     python run.py check [--vision] [--data-dir data/_trial/<id>]
     python run.py serve [--port 8000]
     python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish)
+    python run.py phash [--data-dir D] # picture fingerprints for the near-duplicate match (needs .venv-publish)
+    python run.py collect --scheme jsjb --refetch-unhashed   # download again photos deleted before phash saw them
     python run.py drive-links --folder-id <id> --local-folder <Drive sync folder>   # or set GOOGLE_API_KEY
 
 Unknown options are passed through to the collector or checker.
@@ -45,8 +47,8 @@ def run(module, args):
 
 
 VENV = os.path.join(ROOT, ".venv-publish")
-SETUP_HELP = """The publish step needs OpenCV and numpy in a separate virtual environment.
-Set it up once with these two commands, then run python run.py publish again:
+SETUP_HELP = """The publish and phash steps need OpenCV, numpy and Pillow in a separate virtual environment.
+Set it up once with these two commands, then run the step again:
 
     python -m venv .venv-publish
     {pip} install -r requirements-publish.txt
@@ -61,21 +63,31 @@ def venv_python():
     return None
 
 
-def publish(rest):
+def publish(rest, step="publish", needs="import cv2, numpy"):
+    """publish and phash run in .venv-publish (OpenCV, numpy, Pillow)."""
     py = venv_python()
     pip = os.path.join(".venv-publish", "Scripts", "pip") if os.name == "nt" else ".venv-publish/bin/pip"
-    if not py or subprocess.call([py, "-c", "import cv2, numpy"], cwd=ROOT,
+    if not py or subprocess.call([py, "-c", needs], cwd=ROOT,
                                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) != 0:
         print(SETUP_HELP.format(pip=pip), flush=True)
         return 3
-    cmd = [py, "-m", "publisher", "publish"] + rest
+    cmd = [py, "-m", "publisher", step] + rest
     print("> " + " ".join(cmd), flush=True)
     return subprocess.call(cmd, cwd=ROOT)
 
 
+# Commands whose -h/--help goes to the step itself (it prints its options and exits). Not refresh:
+# its collector would print help and then a full check would run.
+STEP_HELP = ("collect", "check", "queue", "phash")
+
+
 def main():
-    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("command", choices=["refresh", "collect", "queue", "check", "serve", "publish", "drive-links"])
+    argv = sys.argv[1:]
+    step_help = bool(argv) and argv[0] in STEP_HELP and any(a in ("-h", "--help") for a in argv[1:])
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter,
+                                add_help=not step_help)
+    p.add_argument("command", choices=["refresh", "collect", "queue", "check", "serve", "publish", "phash",
+                                       "drive-links"])
     p.add_argument("--scheme", help="scheme id (collect default: jsjb; check default: all)")
     p.add_argument("--port", type=int, default=8000)
     opts, rest = p.parse_known_args()
@@ -87,6 +99,9 @@ def main():
 
     if opts.command == "publish":
         return publish(rest)
+
+    if opts.command == "phash":
+        return publish(rest, "phash", "import PIL")
 
     if opts.command == "queue":
         return run("collector.queue_runner", rest)

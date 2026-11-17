@@ -8,7 +8,7 @@
 
   var KINDS = {
     photo_reuse: { label: 'Same photo on several works', tag: 'Reused photo',
-      short: 'One photo file is attached as evidence to more than one work.',
+      short: 'One photo is attached as evidence to more than one work.',
       text: 'Each photo is fingerprinted from its exact file contents. When the identical file is attached as evidence to more than one work record, every work should have its own photo, so the reuse is flagged.' },
     same_day: { label: 'Many works started and finished the same day', tag: 'Same-day works',
       short: 'Several works in one place have the same start and end date.',
@@ -284,8 +284,14 @@
   function photoImg(src, alt, extra) {
     return '<img class="ph" src="' + esc(src) + '" alt="' + esc(alt) + '" referrerpolicy="no-referrer" decoding="async"' + (extra || '') + '>';
   }
+  function placeholderText(c) {
+    var ph = c.placeholder;
+    if (!ph) return '';
+    return 'Not a photo: ' + (ph.width ? 'a ' + ph.width + ' x ' + ph.height + ' pixel image' : 'a small image') + ' such as a broken-image icon or a plain graphic';
+  }
   function thumb(c, eager) {
     var p = photoFor(c, 'thumb');
+    if (p.state === 'ok' && c.placeholder) return '<span class="thumb is-loading is-placeholder">' + photoImg(p.src, '', ' loading="' + (eager ? 'eager' : 'lazy') + '" width="400" height="300"') + '<span class="ph-label">' + esc(placeholderText(c)) + '</span></span>';
     if (p.state === 'ok') return '<span class="thumb is-loading">' + photoImg(p.src, '', ' loading="' + (eager ? 'eager' : 'lazy') + '" width="400" height="300"') + '</span>';
     return '<span class="thumb thumb-empty"><span>' + esc(photoNote(p.state)) + '</span></span>';
   }
@@ -294,7 +300,7 @@
     return '<li class="card">' + thumb(c, i < 6) + '<div class="card-body">' +
       '<p class="card-tags"><span class="kind-tag">' + esc(kindTag(c.kind)) + '</span>' + (c.needs_human_review ? '<span class="review-tag">Awaiting human review</span>' : '') + '</p>' +
       '<' + h + ' class="card-h"><a href="' + caseHref(c.id) + '">' + esc(c.headline) + '</a></' + h + '>' +
-      '<p class="card-count"><strong>' + fmt(c.record_count) + '</strong> ' + (c.record_count === 1 ? 'record' : 'records') + '</p>' +
+      '<p class="card-count"><strong>' + fmt(c.record_count) + '</strong> ' + (c.record_count === 1 ? 'record' : 'records') + (L.fileCount(c) > 1 ? ', saved as ' + L.fileCount(c) + ' different files' : '') + '</p>' +
       '<p class="card-place">' + esc(placeLine(c, 3)) + '</p>' +
       '<p class="card-meta">' + esc(recordIds(c)) + ((c.offices || []).length ? '. ' + esc(c.offices.join(', ')) : '') + '</p></div></li>';
   }
@@ -658,9 +664,23 @@
     });
   }
 
+  /* Text for the method page when files were also compared by picture, built from the limits in cases.json. */
+  function nearMatchText() {
+    var m = L.nearMatch(S.data.schemes);
+    if (!m) return '';
+    return ' For ' + m.schemes.join(', ') + ', the check also compares the pictures, so one picture saved again as a different file counts as the same photo. That covers copies that were re-compressed or resized, cut by a few pixels, given another date or GPS stamp, or shown inside the black or white bars of a phone screenshot (the bars are cut off before the comparison). Two files count as one picture only when three tests all pass: their picture fingerprints differ in at most ' +
+      m.distance + ' of 256 bits, small greyscale copies of the two are almost identical pixel by pixel, and their width-to-height ratios match. Nearly blank or very small images are never matched this way, and broken-image icons and plain graphics are not shown as reused photos. The limits were set below what separated the closest pairs of different photos when the test was tried on the collected photos. No pair of different photos passed both tests, and every pair of files counted as one picture is listed for a person to check. Where the tests are in doubt the files stay apart, so some copies are missed, for example one cut down by more than a few pixels.';
+  }
+
   // cases.json carries only the first records of each case; the case page loads the rest.
   function loadCase(id, query) {
-    var c = (S.data.cases || []).filter(function (x) { return x.id === id; })[0];
+    var found = L.findCase(S.data.cases, id);
+    if (found && found.moved) {
+      // This case now holds the files of another one; open it under its own address.
+      location.replace(caseHref(found.c.id));
+      return;
+    }
+    var c = found && found.c;
     if (!c || !c.records_file || c.recordsLoaded === true) { renderCase(id, query); settle(); return; }
     var token = S.token;
     view.innerHTML = '<p class="status loading">Loading the records of this case...</p>';
@@ -686,10 +706,13 @@
     }
     setTitle(c.headline);
     var p = photoFor(c, 'full');
+    var files = L.fileCount(c);
     var alt = 'The evidence photo attached to ' + plural(c.record_count, 'record', 'records') + ' in this case';
+    var filesNote = files > 1 ? ' The same picture was attached as ' + files + ' different files. This is one of them; the list under "What looks wrong" names every file and how many works it is on.' : '';
+    var phNote = c.placeholder ? ' ' + placeholderText(c) + '. The portal shows this same image as the evidence photo for every record in this case.' : '';
     var photo = p.state === 'ok'
-      ? '<figure class="case-photo"><a class="photo-frame" href="' + esc(p.full) + '" target="_blank" rel="noopener noreferrer">' + photoImg(p.src, alt) + '</a>' +
-        '<figcaption>Photo as published on the official portal. Select it to open the full size file in a new tab.</figcaption></figure>'
+      ? '<figure class="case-photo"><a class="photo-frame' + (c.placeholder ? ' is-placeholder' : '') + '" href="' + esc(p.full) + '" target="_blank" rel="noopener noreferrer">' + photoImg(p.src, alt) + '</a>' +
+        '<figcaption>Photo as published on the official portal. Select it to open the full size file in a new tab.' + esc(phNote) + esc(filesNote) + '</figcaption></figure>'
       : '<div class="case-photo"><div class="photo-frame thumb-empty"><span>' + esc(photoNote(p.state)) + '</span></div>' +
         '<p class="figcap">' + (p.state === 'withheld' ? 'This photo is not published on this site. Open any record on the official portal to see it.' : 'No copy of a photo is stored with this case. Open any record on the official portal to see it.') + '</p></div>';
     var portal = c.source_url || schemeUrl(c.scheme);
@@ -780,7 +803,7 @@
       '<h2>The checks</h2><ul class="checks">' + Object.keys(KINDS).map(function (k) {
         var ran = !S.data.checks_run || S.data.checks_run.indexOf(k) !== -1;
         var count = used[k] || 0;
-        return '<li><h3>' + esc(KINDS[k].label) + '</h3><p>' + esc(KINDS[k].text) + '</p><p class="check-n">' +
+        return '<li><h3>' + esc(KINDS[k].label) + '</h3><p>' + esc(KINDS[k].text + (k === 'photo_reuse' ? nearMatchText() : '')) + '</p><p class="check-n">' +
           (ran ? 'Cases of this kind in the current data: ' + (count ? '<a class="tap" href="#' + L.buildHash('/cases', { kind: k }) + '">' + fmt(count) + '</a>' : '0') + '.' : 'This check was not run for the current data.') + '</p></li>';
       }).join('') + '</ul>' +
       '<h2>Schemes</h2><ul>' + (S.data.schemes || []).map(function (s) {

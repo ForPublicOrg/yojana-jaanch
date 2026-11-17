@@ -95,6 +95,24 @@ test('sortRecords by village then numeric id', function () {
   var r = L.sortRecords([{ village: 'B', record_id: '10' }, { village: 'A', record_id: '9' }, { village: 'B', record_id: '9' }]);
   assert.deepStrictEqual(r.map(function (x) { return x.village + x.record_id; }), ['A9', 'B9', 'B10']);
 });
+test('findCase finds a case by its own id or by an id it took over', function () {
+  var cases = [{ id: 'jsjb-photo_reuse-aaa', other_ids: ['jsjb-photo_reuse-bbb'] }, { id: 'jsjb-photo_reuse-ccc' }];
+  assert.deepStrictEqual(L.findCase(cases, 'jsjb-photo_reuse-ccc'), { c: cases[1], moved: false });
+  assert.deepStrictEqual(L.findCase(cases, 'jsjb-photo_reuse-bbb'), { c: cases[0], moved: true });
+  assert.strictEqual(L.findCase(cases, 'jsjb-photo_reuse-zzz'), null);
+  assert.strictEqual(L.findCase(undefined, 'x'), null);
+});
+test('fileCount counts the files of a picture', function () {
+  assert.strictEqual(L.fileCount({}), 1);
+  assert.strictEqual(L.fileCount({ photo_files: [{ sha256: 'a' }] }), 1);
+  assert.strictEqual(L.fileCount({ photo_files: [{ sha256: 'a' }, { sha256: 'b' }, { sha256: 'c' }] }), 3);
+});
+test('nearMatch reports only schemes where files were compared by picture', function () {
+  assert.strictEqual(L.nearMatch([{ id: 'jsjb' }]), null);
+  assert.strictEqual(L.nearMatch([{ id: 'jsjb', photo_match: { near_matching: false } }]), null);
+  assert.deepStrictEqual(L.nearMatch([{ id: 'jsjb', name: 'JSJB', photo_match: { near_matching: true, max_distance: 8 } }]),
+    { schemes: ['JSJB'], distance: 8 });
+});
 
 var failed = 0;
 tests.forEach(function (t) {

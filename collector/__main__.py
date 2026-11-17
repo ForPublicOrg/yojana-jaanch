@@ -880,10 +880,12 @@ def photo_max_arg(value):
     return n
 
 
-def add_photo_options(ap):
-    """--photo-workers and --photo-max, shared by the collector and the queue."""
-    ap.add_argument("--photo-workers", type=photo_workers_arg, default=1, metavar="N|auto",
-                    help=f"1 (default): photos one at a time, each after --delay. N from 2 to {HARD_CAP}: N photos "
+def add_photo_options(ap, default_workers=1):
+    """--photo-workers and --photo-max, shared by the collector and the queue. The collector passes
+    default_workers=None and picks 1, or 3 with --refetch-unhashed."""
+    ap.add_argument("--photo-workers", type=photo_workers_arg, default=default_workers, metavar="N|auto",
+                    help=f"1 (default; 3 with --refetch-unhashed): photos one at a time, each after --delay. "
+                         f"N from 2 to {HARD_CAP}: N photos "
                          "a second at most, downloaded while the next villages are read, slower when the portal "
                          f"has trouble. auto: start at {AUTO_START} a second and go up to --photo-max while the "
                          "portal keeps up. See collector/README.md, Speed")
@@ -909,7 +911,11 @@ def main(argv=None):
                       help="save records without their photos (photos_state not_fetched); fetch them later with --photos")
     mode.add_argument("--photos", action="store_true",
                       help="fetch the photos of saved records that have none yet; reads no area or record list")
-    ap.add_argument("--max-records", type=int, help="with --photos: stop after this many records")
+    mode.add_argument("--refetch-unhashed", action="store_true",
+                      help="download again photos whose file was deleted before the phash step read it; writes "
+                           "photo files only and can run beside a queue (collector/refetch.py)")
+    ap.add_argument("--max-records", type=int, help="with --photos: stop after this many records; "
+                                                    "with --refetch-unhashed: after this many photos")
     ap.add_argument("--log", help="also write the log to this file (default: <data-dir>/logs/<scheme>.log; "
                                   "empty to turn off)")
     ap.add_argument("--max-villages", type=int, help="stop after this many villages")
@@ -920,9 +926,11 @@ def main(argv=None):
                     help="stop after this many layout failures in a row (default 10)")
     ap.add_argument("--max-photo-mb", type=float, default=MAX_PHOTO_BYTES / 2 ** 20,
                     help="largest photo to download, in MB (default 25)")
-    add_photo_options(ap)
+    add_photo_options(ap, default_workers=None)
     ap.add_argument("--data-dir", default="data")
     a = ap.parse_args(argv)
+    if a.photo_workers is None:
+        a.photo_workers = 3 if a.refetch_unhashed else 1
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(errors="replace")
@@ -934,6 +942,10 @@ def main(argv=None):
             except (ValueError, OSError):
                 pass
 
+    if a.refetch_unhashed:
+        # Writes photo files only, so it takes its own lock and not the scheme's collector lock.
+        from .refetch import run_from_args
+        return run_from_args(a)
     filters = {k: getattr(a, k) for k in levels}
     if a.list_only and not getattr(SCHEMES[a.scheme], "supports_list_only", False):
         log.error("%s does not support --list-only: its records do not keep what list_photos needs", a.scheme)
