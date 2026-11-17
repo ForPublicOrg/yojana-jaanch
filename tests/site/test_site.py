@@ -33,6 +33,15 @@ class SiteTests(unittest.TestCase):
         self.assertNotIn('Scheme photo checker', html + (ROOT / 'site/app.js').read_text(encoding='utf-8'))
         self.assertIn('rel="icon"', html)
 
+    def test_photos_send_no_referrer(self):
+        js = (ROOT / 'site/app.js').read_text(encoding='utf-8')
+        imgs = re.findall(r"<img\b[^>]*", js)
+        self.assertTrue(imgs)
+        for tag in imgs:
+            self.assertIn('referrerpolicy="no-referrer"', tag)
+        for link in re.findall(r"<a class=\"photo-frame\"[^>]*", js):
+            self.assertIn('rel="noopener noreferrer"', link)
+
     @unittest.skipUnless(shutil.which('node'), 'node is not installed')
     def test_list_logic(self):
         r = subprocess.run(['node', str(Path(__file__).parent / 'test_logic.js')], capture_output=True, text=True)

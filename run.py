@@ -6,7 +6,7 @@
     python run.py check [--vision]
     python run.py serve [--port 8000]
     python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish)
-    python run.py drive-links --folder-id <id>   # needs GOOGLE_API_KEY
+    python run.py drive-links --folder-id <id> --local-folder <Drive sync folder>   # or set GOOGLE_API_KEY
 
 Unknown options are passed through to the collector or checker.
 No AI is used unless --vision is given.

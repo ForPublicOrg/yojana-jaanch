@@ -280,9 +280,13 @@
     var more = (c.record_count || ids.length) - Math.min(ids.length, 3);
     return (ids.length === 1 ? 'Record ' : 'Records ') + ids.slice(0, 3).join(', ') + (more > 0 ? ' and ' + more + ' more' : '');
   }
+  // Google Drive refuses image requests that carry a Referer header.
+  function photoImg(src, alt, extra) {
+    return '<img class="ph" src="' + esc(src) + '" alt="' + esc(alt) + '" referrerpolicy="no-referrer" decoding="async"' + (extra || '') + '>';
+  }
   function thumb(c, eager) {
     var p = photoFor(c, 'thumb');
-    if (p.state === 'ok') return '<span class="thumb is-loading"><img class="ph" src="' + esc(p.src) + '" alt="" loading="' + (eager ? 'eager' : 'lazy') + '" decoding="async" width="400" height="300"></span>';
+    if (p.state === 'ok') return '<span class="thumb is-loading">' + photoImg(p.src, '', ' loading="' + (eager ? 'eager' : 'lazy') + '" width="400" height="300"') + '</span>';
     return '<span class="thumb thumb-empty"><span>' + esc(photoNote(p.state)) + '</span></span>';
   }
   function caseCard(c, hl, i) {
@@ -592,7 +596,7 @@
     var p = photoFor(c, 'full');
     var alt = 'The evidence photo attached to ' + plural(c.record_count, 'record', 'records') + ' in this case';
     var photo = p.state === 'ok'
-      ? '<figure class="case-photo"><a class="photo-frame" href="' + esc(p.full) + '" target="_blank" rel="noopener"><img class="ph" src="' + esc(p.src) + '" alt="' + esc(alt) + '" decoding="async"></a>' +
+      ? '<figure class="case-photo"><a class="photo-frame" href="' + esc(p.full) + '" target="_blank" rel="noopener noreferrer">' + photoImg(p.src, alt) + '</a>' +
         '<figcaption>Photo as published on the official portal. Select it to open the full size file in a new tab.</figcaption></figure>'
       : '<div class="case-photo"><div class="photo-frame thumb-empty"><span>' + esc(photoNote(p.state)) + '</span></div>' +
         '<p class="figcap">' + (p.state === 'withheld' ? 'This photo is not published on this site. Open any record on the official portal to see it.' : 'No copy of a photo is stored with this case. Open any record on the official portal to see it.') + '</p></div>';

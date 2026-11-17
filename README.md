@@ -161,27 +161,44 @@ person, even at a low score. It writes those lines into `approved.txt` marked
 review page lists them as approved automatically. A person the engines missed completely would then go
 out unchecked, so leave it off unless you accept that.
 
-Upload to Google Drive by hand:
+Put the photos on Google Drive by hand:
 
-1. In Google Drive, create a folder and upload the files from `publish/upload/` into it. Upload only
-   that folder's contents, never `publish/photos/`, `site/photos/` or `data/`.
-2. Share the folder: Share, General access, "Anyone with the link", Viewer.
+1. Make a folder in your Google Drive sync folder on this computer (Google Drive for desktop), for
+   example `G:\My Drive\yojana-jaanch-photos`, and copy the files from `publish/upload/` into it. Copy
+   only that folder's contents, never `publish/photos/`, `site/photos/` or `data/`. Wait until Drive
+   has finished syncing.
+2. In Google Drive, share the folder: Share, General access, "Anyone with the link", Viewer.
 3. Copy the folder id from its address, `https://drive.google.com/drive/folders/<folder id>`.
 
-Make the links file. You need a Google Cloud API key with the Google Drive API enabled; it can only
-read public files:
+Make the links file. No API key is needed:
+
+    python run.py drive-links --folder-id <folder id> --local-folder "G:\My Drive\yojana-jaanch-photos"
+
+This reads the folder's public page and writes `site/data/photo_links.json`. The page gives no
+checksums, so each file is checked against the file of the same name in `--local-folder`. A file
+gets a link only when its name matches an approved copy that is not in `hide.txt` and the local file
+is byte for byte the same as that copy. If the page lists a different number of files than the local
+folder holds, the command stops and writes nothing: the page may be cut short, or Drive may still be
+syncing. Wait and run it again, or use an API key as below. If the folder is not public, or Google
+changes the page so it cannot be read, the command says so and writes nothing.
+
+With an API key instead: get a Google Cloud API key with the Google Drive API enabled (it can only
+read public files) and run
 
     set GOOGLE_API_KEY=<your key>                (PowerShell: $env:GOOGLE_API_KEY="<your key>")
     python run.py drive-links --folder-id <folder id>
 
-This lists the public folder (read only; it never uploads, shares or changes anything in Drive) and
-writes `site/data/photo_links.json`. A file gets a link only when its name matches an approved copy
-that is not in `hide.txt` and the checksum Drive reports matches that copy's bytes. Every other file
-in the folder (a hidden or unapproved photo, an original, a changed file, anything else) is listed
-with the reason and the command exits with code 4: anyone with the folder link can still open those
-files, so delete them from the Drive folder. Adding a photo to `hide.txt` does not remove it from Drive. When that file exists the site shows photos from Drive, and a case whose photo is
-not in it shows "Photo withheld". Without the file the site uses the local `site/photos/`, which is
-only for previewing on your own computer. Run `drive-links` again after uploading new photos.
+When `GOOGLE_API_KEY` is set this mode is used and `--local-folder` is not needed: it lists the folder
+through the Drive API and checks the checksum Drive reports for each file against the approved copy.
+
+Both ways are read only: they never upload, share or change anything in Drive or in the local folder.
+Every file that does not get a link (a hidden or unapproved photo, an original, a changed file, a
+subfolder, anything else) is listed with the reason and the command exits with code 4: anyone with
+the folder link can still open those files, so delete them from the Drive folder. Adding a photo to
+`hide.txt` does not remove it from Drive. When `photo_links.json` exists the site shows photos from
+Drive, and a case whose photo is not in it shows "Photo withheld". Without the file the site uses the
+local `site/photos/`, which is only for previewing on your own computer. Run `drive-links` again after
+adding new photos.
 
 ## Tests
 
