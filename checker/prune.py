@@ -22,7 +22,10 @@ import os
 import time
 from pathlib import Path
 
-GRACE_HOURS = 12
+# A village's records are saved within minutes of its photos (the collector holds at most 3 villages
+# of downloaded photos before saving them). 12 hours kept a day's downloads on disk between checks:
+# measured 18 Nov 2026, 101,045 files kept and 13 GB left free.
+GRACE_HOURS = 3
 
 
 def keep_hashes(found_data, cases):

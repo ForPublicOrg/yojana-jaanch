@@ -109,7 +109,7 @@ After a check of every scheme, the checker deletes the files under `data/photos/
 that is not a case's evidence photo, public or preview (`checker/prune.py`). For a reused photo
 that is the photo itself, plus every file of a picture saved as several files; for the other checks
 it is the photo shown with the case. Their sha256 stays in the records and the photo index, and the
-collector does not download them again. Files younger than 12 hours are left for the next check,
+collector does not download them again. Files younger than 3 hours are left for the next check,
 since their records may not be saved yet. If a later record reuses a deleted photo, that record's
 copy is downloaded under its own URL, so the new case has a file.
 
