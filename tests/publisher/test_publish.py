@@ -103,8 +103,10 @@ class PublishTests(unittest.TestCase):
             self.shas.append(sha)
             cases += [{"id": f"c{i}", "photo": f"photos/{sha}{ext}"}, {"id": f"d{i}", "photo": f"photos/{sha}{ext}"}]
         cases.append({"id": "none", "photo": None})
-        (self.root / "site" / "data").mkdir()
-        (self.root / "site" / "data" / "cases.json").write_text(json.dumps({"cases": cases}), encoding="utf-8")
+        (self.root / "site" / "data" / "index").mkdir(parents=True)
+        (self.root / "site" / "data" / "index" / "x.json").write_text(json.dumps({"cases": cases}), encoding="utf-8")
+        (self.root / "site" / "data" / "summary.json").write_text(
+            json.dumps({"index": [{"state": "X", "file": "data/index/x.json", "cases": len(cases)}]}), encoding="utf-8")
         self.paths = common.Paths(self.root)
         self.logs = []
 

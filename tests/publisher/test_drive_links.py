@@ -103,7 +103,7 @@ class DriveLinksTests(unittest.TestCase):
         self.paths.hide.write_text(f"# note\n{SHA[3]}  # hidden by hand\n", encoding="utf-8")
         self.paths.approved.write_text("".join(common.approval_line(s, man[s]["copy_sha256"]) + "\n"
                                                for s in SHA[:4]), encoding="utf-8")
-        self.out = self.root / "site" / "data" / "photo_links.json"
+        self.out = self.root / "site" / "data" / "links"
 
     def tearDown(self):
         self.tmp.cleanup()
@@ -117,7 +117,7 @@ class DriveLinksTests(unittest.TestCase):
         code = drive.run(self.paths, FOLDER, KEY, self.base, log=logs.append)
         text = " | ".join(logs)
         self.assertEqual(code, 4, text)
-        links = json.loads(self.out.read_text(encoding="utf-8"))
+        links = common.read_links(self.out)
         self.assertEqual(set(links), {SHA[0], SHA[2]})
         self.assertIn("id=id1&", links[SHA[0]]["full"])
         self.assertIn("old photos: a subfolder; its contents were not checked", text)
@@ -131,7 +131,7 @@ class DriveLinksTests(unittest.TestCase):
         self.assertIn(f"{SHA[3]}.jpg: listed in hide.txt", text)
         self.assertIn(f"{SHA[4]}.jpg: not a published copy", text)
         self.assertIn("notes.txt: not a published photo", text)
-        links = json.loads(self.out.read_text(encoding="utf-8"))
+        links = common.read_links(self.out)
         self.assertEqual(set(links), set(SHA[:3]))
         self.assertEqual(links[SHA[0]], {"full": "https://drive.google.com/thumbnail?id=id1&sz=w1600",
                                          "thumb": "https://drive.google.com/thumbnail?id=id1&sz=w480"})
@@ -147,7 +147,7 @@ class DriveLinksTests(unittest.TestCase):
         FakeDrive.pages = [files]
         logs = []
         code = drive.run(self.paths, FOLDER, KEY, self.base, log=logs.append)
-        return code, json.loads(self.out.read_text(encoding="utf-8")), " | ".join(logs)
+        return code, common.read_links(self.out), " | ".join(logs)
 
     def test_clean_folder_returns_zero(self):
         code, links, _ = self.run_with([drive_file("id1", SHA[0]), drive_file("id2", SHA[1])])
@@ -194,7 +194,25 @@ class DriveLinksTests(unittest.TestCase):
                             "--root", str(self.root), "--api-base", self.base],
                            cwd=ROOT, env=env, capture_output=True, text=True, timeout=60)
         self.assertEqual(r.returncode, 4, r.stdout + r.stderr)
-        self.assertEqual(set(json.loads(self.out.read_text(encoding="utf-8"))), set(SHA[:3]))
+        self.assertEqual(set(common.read_links(self.out)), set(SHA[:3]))
+
+
+class LinkFilesTests(unittest.TestCase):
+    def test_links_are_split_by_the_first_two_characters(self):
+        links = {"ab" + "0" * 62: {"full": "f1", "thumb": "t1"}, "AB" + "1" * 62: {"full": "f2", "thumb": "t2"},
+                 "0f" + "2" * 62: {"full": "f3", "thumb": "t3"}}
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp) / "links"
+            self.assertIsNone(common.read_links(folder))
+            common.write_links(folder, links)
+            self.assertEqual(len(list(folder.glob("*.json"))), 256)
+            self.assertEqual(len(json.loads((folder / "ab.json").read_text(encoding="utf-8"))), 2)
+            self.assertEqual(json.loads((folder / "00.json").read_text(encoding="utf-8")), {})
+            self.assertEqual(common.read_links(folder), links)
+            stamp = (folder / "0f.json").stat().st_mtime_ns
+            common.write_links(folder, {k: v for k, v in links.items() if not k.lower().startswith("ab")})
+            self.assertEqual((folder / "0f.json").stat().st_mtime_ns, stamp)
+            self.assertEqual(json.loads((folder / "ab.json").read_text(encoding="utf-8")), {})
 
 
 if __name__ == "__main__":

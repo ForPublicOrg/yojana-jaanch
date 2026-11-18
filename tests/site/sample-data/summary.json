@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-17T00:00:00",
+ "checks_run": [],
+ "schemes": [
+  {
+   "id": "jsjb",
+   "name": "Jal Sanchay Jan Bhagidari (JSJB)",
+   "portal_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx"
+  }
+ ],
+ "coverage": [
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Sangrur",
+   "villages_checked": 1,
+   "records_checked": 23,
+   "photos_checked": null
+  }
+ ],
+ "index": [
+  {
+   "state": "Punjab",
+   "file": "data/index/punjab.json",
+   "cases": 1
+  }
+ ],
+ "total": 1,
+ "villages_with_case": 1,
+ "kinds": [
+  {
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "n": 1
+  }
+ ],
+ "top": [
+  {
+   "id": "jsjb-photo_reuse-punjab-sangrur-duggan-7438259",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One photo, 23 different works",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Sangrur",
+   "villages": [
+    "Duggan"
+   ],
+   "record_count": 23,
+   "photo": null,
+   "offices": [
+    "BDPO SANGRUR",
+    "BDPO SUNAM II"
+   ],
+   "records": [
+    {
+     "record_id": "7438259"
+    },
+    {
+     "record_id": "10325558"
+    },
+    {
+     "record_id": "10326599"
+    }
+   ],
+   "severity": 23,
+   "needs_human_review": false
+  }
+ ]
+}

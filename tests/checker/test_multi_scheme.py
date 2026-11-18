@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 import types
 import unittest
 from pathlib import Path
@@ -87,9 +88,13 @@ class MultiScheme(unittest.TestCase):
     def load(self, *parts):
         return json.loads((self.root.joinpath(*parts)).read_text(encoding="utf-8"))
 
+    def site_data(self):
+        from checker import output
+        return output.read_site_data(self.root / "site")
+
     def test_preview_scheme_stays_out_of_the_site(self):
         run(self.root, log=quiet)
-        site = self.load("site", "data", "cases.json")
+        site = self.site_data()
         self.assertEqual([s["id"] for s in site["schemes"]], ["jsjb"])
         self.assertEqual({c["scheme"] for c in site["cases"]}, {"jsjb"})
         self.assertEqual({c["scheme"] for c in site["coverage"]}, {"jsjb"})
@@ -121,7 +126,7 @@ class MultiScheme(unittest.TestCase):
     def test_public_scheme_goes_to_the_site(self):
         self.demo_settings({"public": True})
         run(self.root, log=quiet)
-        site = self.load("site", "data", "cases.json")
+        site = self.site_data()
         self.assertEqual([s["id"] for s in site["schemes"]], ["demo", "jsjb"])
         self.assertIn("demo", {c["scheme"] for c in site["cases"]})
         self.assertFalse((self.root / "data" / "preview").exists())
@@ -129,7 +134,7 @@ class MultiScheme(unittest.TestCase):
     def test_jsjb_public_from_config_even_without_its_settings_file(self):
         (self.settings_dir / "jsjb.json").unlink()
         run(self.root, log=quiet)
-        self.assertEqual([s["id"] for s in self.load("site", "data", "cases.json")["schemes"]], ["jsjb"])
+        self.assertEqual([s["id"] for s in self.site_data()["schemes"]], ["jsjb"])
 
     def test_trial_folder_writes_only_its_preview(self):
         trial = self.root / "data" / "_trial" / "demo"
@@ -152,7 +157,7 @@ class MultiScheme(unittest.TestCase):
         prev = self.load("data", "preview", "cases.demo.json")
         self.assertIn("big_amount", prev["checks_run"])
         self.assertEqual(len([c for c in prev["cases"] if c["kind"] == "big_amount"]), 1)
-        site = self.load("site", "data", "cases.json")
+        site = self.site_data()
         self.assertNotIn("big_amount", site["checks_run"])
         mod.NEEDS = ("beneficiary_ref",)
         run(self.root, log=quiet)
@@ -199,7 +204,7 @@ class Concurrency(unittest.TestCase):
             timer.join()
         finally:
             lock.release()
-        self.assertTrue((self.root / "site" / "data" / "cases.json").exists())
+        self.assertTrue((self.root / "site" / "data" / "summary.json").exists())
 
     def test_checkers_started_together_leave_whole_files(self):
         procs = [subprocess.Popen([sys.executable, "-m", "checker", "--root", str(self.root)], cwd=str(ROOT),
@@ -207,9 +212,10 @@ class Concurrency(unittest.TestCase):
         errors = [p.communicate(timeout=120)[1] for p in procs]
         self.assertEqual([p.returncode for p in procs], [0, 0, 0], errors)
         out = self.root / "site" / "data"
-        self.assertEqual(len(json.loads((out / "cases.json").read_text(encoding="utf-8"))["cases"]), 5)
+        from checker import output
+        self.assertEqual(len(output.read_site_data(out.parent)["cases"]), 5)
         json.loads((out / "areas.json").read_text(encoding="utf-8"))
-        self.assertEqual(sorted(os.listdir(out)), ["areas.json", "cases", "cases.json"])
+        self.assertEqual(sorted(os.listdir(out)), ["areas.json", "cases", "index", "summary.json"])
         case_files = sorted(os.listdir(out / "cases"))
         self.assertEqual(len(case_files), 5)
         for f in case_files:
@@ -233,6 +239,80 @@ class Concurrency(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SiteDataFiles(unittest.TestCase):
+    """summary.json, one index file per state and one file per case, from output.write_site_data."""
+
+    def case(self, i, state, kind="photo_reuse", severity=1, records=4, block="B", villages=("V",)):
+        return {"id": f"jsjb-{kind}-{i:012x}", "scheme": "jsjb", "kind": kind, "state": state, "district": "D",
+                "block": block, "villages": list(villages), "severity": severity, "record_count": records,
+                "reasons": [f"reason {i}"], "source_url": "https://portal.example/", "photo": None,
+                "records": [{"record_id": str(i * 10 + n), "village": villages[0]} for n in range(records)]}
+
+    def write(self, site, cases):
+        from checker import output
+        output.write_site_data(site, cases, [{"id": "jsjb"}], [{"state": "Punjab"}], ["photo_reuse"],
+                               generated_at="2026-11-19T00:00:00+00:00")
+        return json.loads((site / "data" / "summary.json").read_text(encoding="utf-8"))
+
+    def test_summary_index_and_case_files(self):
+        from checker import output
+        first = dict(self.case(1, "Punjab", severity=5, villages=("Mohali", "Kheri")), other_ids=["jsjb-photo_reuse-0000000000ff"],
+                     photo_files=[{"sha256": "a", "records": 3}, {"sha256": "b", "records": 1}], placeholder={"width": 1, "height": 1},
+                     offices=["BDPO"], headline="One picture, 4 different works", needs_human_review=False)
+        cases = [first,
+                 self.case(2, "Punjab", kind="same_gps", severity=3, block="b", villages=("mohali",)),
+                 self.case(3, "Tamil Nadu", severity=4, villages=("Sasnagar",)),
+                 self.case(4, "TAMIL NADU", severity=2),
+                 self.case(5, "", severity=1, records=2)]
+        with tempfile.TemporaryDirectory() as tmp:
+            site = Path(tmp)
+            (site / "data" / "index").mkdir(parents=True)
+            (site / "data" / "index" / "gone.json").write_text("{}", encoding="utf-8")
+            (site / "data" / "cases.json").write_text("{}", encoding="utf-8")
+            s = self.write(site, cases)
+            self.assertEqual(s["total"], 5)
+            # Mohali counts as Sasnagar, and block names match without case, as on the site.
+            self.assertEqual(s["villages_with_case"], 3)
+            self.assertEqual(s["kinds"], [{"scheme": "jsjb", "kind": "photo_reuse", "n": 4},
+                                          {"scheme": "jsjb", "kind": "same_gps", "n": 1}])
+            self.assertEqual([c["id"] for c in s["top"]], [c["id"] for c in sorted(cases, key=lambda c: -c["severity"])])
+            self.assertEqual([(e["state"], e["file"], e["cases"]) for e in s["index"]], [
+                (None, "data/index/other.json", 1), ("Punjab", "data/index/punjab.json", 2),
+                ("TAMIL NADU", "data/index/tamil-nadu.json", 1), ("Tamil Nadu", "data/index/tamil-nadu-2.json", 1)])
+            self.assertEqual(sorted(os.listdir(site / "data" / "index")),
+                             ["other.json", "punjab.json", "tamil-nadu-2.json", "tamil-nadu.json"])
+            self.assertFalse((site / "data" / "cases.json").exists())
+            punjab = json.loads((site / "data" / "index" / "punjab.json").read_text(encoding="utf-8"))["cases"]
+            self.assertEqual([c["id"] for c in punjab], ["jsjb-photo_reuse-000000000001", "jsjb-same_gps-000000000002"])
+            # Everything the cards, filters and merged-case links use stays in the index.
+            self.assertEqual(set(punjab[0]), {"id", "scheme", "kind", "state", "district", "block", "villages", "severity",
+                                              "record_count", "photo", "records", "other_ids", "photo_files", "placeholder",
+                                              "offices", "headline", "needs_human_review"})
+            self.assertEqual(punjab[0]["records"], [{"record_id": "10"}, {"record_id": "11"}, {"record_id": "12"}])
+            whole = json.loads((site / "data" / "cases" / "jsjb-photo_reuse-000000000001.json").read_text(encoding="utf-8"))
+            self.assertEqual(whole["reasons"], ["reason 1"])
+            self.assertEqual(len(whole["records"]), 4)
+            self.assertEqual(output.read_site_data(site)["cases"], cases)
+
+    def test_top_cases_include_ties_with_the_last(self):
+        cases = [self.case(i, "Punjab", severity=9 if i < 3 else 2) for i in range(1, 10)]
+        with tempfile.TemporaryDirectory() as tmp:
+            s = self.write(Path(tmp), cases)
+        # Two cases with severity 9, then seven tied at 2: all seven tie with the fifth.
+        self.assertEqual(len(s["top"]), 9)
+
+    def test_unchanged_files_are_not_rewritten(self):
+        cases = [self.case(1, "Punjab")]
+        with tempfile.TemporaryDirectory() as tmp:
+            site = Path(tmp)
+            self.write(site, [dict(c) for c in cases])
+            files = [site / "data" / "index" / "punjab.json", site / "data" / "cases" / (cases[0]["id"] + ".json")]
+            before = [f.stat().st_mtime_ns for f in files]
+            time.sleep(0.05)
+            self.write(site, [dict(c) for c in cases])
+            self.assertEqual([f.stat().st_mtime_ns for f in files], before)
 
 
 class CaseFiles(unittest.TestCase):

@@ -1,4 +1,4 @@
-"""python -m publisher drive-links: read a public Google Drive folder and write site/data/photo_links.json.
+"""python -m publisher drive-links: read a public Google Drive folder and write the photo links in site/data/links/.
 
 Read only: it never uploads, shares or changes anything in Drive or in the local sync folder.
 
@@ -191,7 +191,7 @@ def run(paths, folder_id, api_key, api_base=API_BASE, out=None, log=print):
                 break
     links, dupes, problems = build_links(files, allowed, expected, originals, hidden)
     out = Path(out) if out else paths.links
-    common.write_json(out, links)
+    common.write_links(out, links)
     return report(log, out, len(files), links, allowed, problems, dupes)
 
 
@@ -376,7 +376,7 @@ def run_public(paths, folder_id, local_folder, page_base=PAGE_BASE, out=None, lo
                 problems.append((f"{sub}/{path.name}" if sub else path.name,
                                  "in the local folder but not on the Drive page"))
     out = Path(out) if out else paths.links
-    common.write_json(out, links)
+    common.write_links(out, links)
     return report(log, out, len(every), links, allowed, problems)
 
 
@@ -387,7 +387,7 @@ def main(argv=None):
     ap.add_argument("--local-folder", help="the Google Drive sync folder on this computer; needed without an API key")
     ap.add_argument("--root", default=str(common.ROOT))
     ap.add_argument("--publish-dir")
-    ap.add_argument("--out", help="default: site/data/photo_links.json")
+    ap.add_argument("--out", help="folder for the link files; default: site/data/links")
     ap.add_argument("--api-base", default=API_BASE, help=argparse.SUPPRESS)
     ap.add_argument("--page-base", default=PAGE_BASE, help=argparse.SUPPRESS)
     a = ap.parse_args(argv)

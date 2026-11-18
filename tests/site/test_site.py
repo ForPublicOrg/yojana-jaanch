@@ -5,17 +5,33 @@ ROOT = Path(__file__).resolve().parents[2]
 SAMPLE = Path(__file__).parent / 'sample-data'
 CASE_KEYS = {'id', 'scheme', 'kind', 'headline', 'state', 'district', 'block', 'villages', 'record_count',
              'reasons', 'photo', 'offices', 'records', 'source_url', 'severity', 'needs_human_review'}
+INDEX_DROP = {'reasons', 'source_url'}  # only in the whole case file, for the case page
 
 
 class SiteTests(unittest.TestCase):
     def test_sample_follows_contract(self):
-        cases = json.loads((SAMPLE / 'cases.json').read_text(encoding='utf-8'))
-        self.assertEqual(set(cases), {'generated_at', 'schemes', 'coverage', 'cases'})
-        for c in cases['cases']:
-            self.assertTrue(CASE_KEYS <= set(c), CASE_KEYS - set(c))
-            self.assertLessEqual(len(c['records']), c['record_count'])
+        summary = json.loads((SAMPLE / 'summary.json').read_text(encoding='utf-8'))
+        self.assertEqual(set(summary), {'generated_at', 'checks_run', 'schemes', 'coverage', 'index', 'total',
+                                        'villages_with_case', 'kinds', 'top'})
+        for entry in summary['index']:
+            part = json.loads((SAMPLE / entry['file'].replace('data/', '', 1)).read_text(encoding='utf-8'))
+            for c in part['cases']:
+                self.assertTrue(CASE_KEYS - INDEX_DROP <= set(c), CASE_KEYS - INDEX_DROP - set(c))
+                self.assertFalse(INDEX_DROP & set(c))
+                self.assertLessEqual(len(c['records']), 3)
+                whole = json.loads((SAMPLE / 'cases' / (c['id'] + '.json')).read_text(encoding='utf-8'))
+                self.assertTrue(CASE_KEYS <= set(whole), CASE_KEYS - set(whole))
+                self.assertLessEqual(len(whole['records']), whole['record_count'])
         areas = json.loads((SAMPLE / 'areas.json').read_text(encoding='utf-8'))
         self.assertIn('states', areas)
+
+    @unittest.skipUnless(shutil.which('node'), 'node is not installed')
+    def test_summary_matches_the_site_count(self):
+        folders = [SAMPLE] + ([ROOT / 'site' / 'data'] if (ROOT / 'site' / 'data' / 'summary.json').exists() else [])
+        for folder in folders:
+            r = subprocess.run(['node', str(Path(__file__).parent / 'check_summary.js'), str(folder)],
+                               capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
     def test_no_em_dash_or_cdn(self):
         for p in ['index.html', 'app.js', 'lib.js', 'style.css']:

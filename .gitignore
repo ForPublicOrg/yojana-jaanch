@@ -1,10 +1,11 @@
 # Private or generated content. The public repository holds code only.
 /data/
 site/data/*
-!site/data/cases.json
+!site/data/summary.json
 !site/data/areas.json
-!site/data/photo_links.json
+!site/data/index/
 !site/data/cases/
+!site/data/links/
 site/photos/
 publish/
 *.log

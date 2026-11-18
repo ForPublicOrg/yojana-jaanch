@@ -1,7 +1,9 @@
 'use strict';
 (function () {
   var L = window.YJ;
-  var S = { config: null, data: null, areas: null, geo: null, links: null, distIndex: {}, distGeo: {}, token: 0, lastPath: null, keepFocus: null };
+  // data: summary.json. cases: the index entries loaded so far. full: whole cases from data/cases/.
+  var S = { config: null, data: null, areas: null, geo: null, links: {}, linkFiles: {}, linkDone: {}, waiting: {}, cases: [], indexFiles: {}, full: {},
+    distIndex: {}, distGeo: {}, token: 0, lastPath: null, keepFocus: null };
   var view = document.getElementById('view');
   var CASES_PER_PAGE = 20, RECORDS_PER_PAGE = 25, COVERAGE_PER_PAGE = 25, TOP_CASES = 5;
   var REFRESH_CMD = 'python run.py refresh --scheme jsjb --state Punjab --district Sangrur --area Rural --block Sangrur';
@@ -23,10 +25,6 @@
       short: 'An automated image check doubts the photo matches the work type.',
       text: 'An optional automated image check, off by default, compares the photo with the type of work recorded. Cases from this check are marked as needing human review, because image models make mistakes.' }
   };
-  var DISTRICT_ALIASES = {
-    sahibzadaajitsinghnagar: 'sasnagar', mohali: 'sasnagar', firozpur: 'ferozepur',
-    muktsar: 'srimuktsarsahib', nawanshahr: 'shahidbhagatsinghnagar', ropar: 'rupnagar'
-  };
   var BANDS = [{ cls: 'f-1', min: 1, label: '1 to 4' }, { cls: 'f-2', min: 5, label: '5 to 19' }, { cls: 'f-3', min: 20, label: '20 to 99' }, { cls: 'f-4', min: 100, label: '100 or more' }];
 
   function esc(v) {
@@ -34,10 +32,7 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
-  function norm(s) {
-    var k = String(s || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
-    return DISTRICT_ALIASES[k] || k;
-  }
+  var norm = L.norm;
   function plural(n, one, many) { return fmt(n) + ' ' + (n === 1 ? one : many); }
   function fmt(n) { return n == null ? 'not recorded' : Number(n).toLocaleString('en-IN'); }
   function kindLabel(k) { return (KINDS[k] || { label: k }).label; }
@@ -68,11 +63,11 @@
   function photoFor(c, size) {
     if (!c || !c.photo) return { state: 'none' };
     if (!S.links) return { state: 'ok', src: c.photo, full: c.photo };
-    var sha = String(c.photo).split('/').pop().replace(/\.[^.]*$/, '').toLowerCase();
-    var e = S.links[sha];
+    var e = S.links[shaOf(c)];
     var full = e && e.full, src = e && (e[size] || e.full);
     return src ? { state: 'ok', src: src, full: full || src } : { state: 'withheld' };
   }
+  function shaOf(c) { return String(c.photo).split('/').pop().replace(/\.[^.]*$/, '').toLowerCase(); }
   function photoNote(state) {
     return state === 'withheld' ? 'Photo withheld' : state === 'broken' ? 'Photo could not be loaded' : 'No photo for this kind of check';
   }
@@ -93,7 +88,7 @@
     });
   }
   function casesFor(st, d) {
-    return (S.data.cases || []).filter(function (c) {
+    return S.cases.filter(function (c) {
       return (st == null || norm(c.state) === norm(st)) && (d == null || norm(c.district) === norm(d));
     });
   }
@@ -142,8 +137,10 @@
   function areaFigures(cases, cov) {
     var v = {};
     cases.forEach(function (c) { (c.villages || []).forEach(function (x) { v[norm(c.block) + '|' + norm(x)] = 1; }); });
-    var n = Object.keys(v).length;
-    return figures([{ n: cases.length, label: cases.length === 1 ? 'case found' : 'cases found', hot: cases.length > 0 },
+    return countFigures(cases.length, Object.keys(v).length, cov);
+  }
+  function countFigures(total, n, cov) {
+    return figures([{ n: total, label: total === 1 ? 'case found' : 'cases found', hot: total > 0 },
       { n: n, label: n === 1 ? 'village with a case' : 'villages with a case', hot: n > 0 }].concat(coverageItems(cov)));
   }
 
@@ -290,6 +287,11 @@
     return 'Not a photo: ' + (ph.width ? 'a ' + ph.width + ' x ' + ph.height + ' pixel image' : 'a small image') + ' such as a broken-image icon or a plain graphic';
   }
   function thumb(c, eager) {
+    if (c.photo && S.links && !S.linkDone[shaOf(c).slice(0, 2)]) {
+      // Filled in by fillThumbs once data/links/ for this photo has arrived; the box keeps its size.
+      S.waiting[c.id] = [c, eager];
+      return '<span class="thumb is-loading" data-case="' + esc(c.id) + '"></span>';
+    }
     var p = photoFor(c, 'thumb');
     if (p.state === 'ok' && c.placeholder) return '<span class="thumb is-loading is-placeholder">' + photoImg(p.src, '', ' loading="' + (eager ? 'eager' : 'lazy') + '" width="400" height="300"') + '<span class="ph-label">' + esc(placeholderText(c)) + '</span></span>';
     if (p.state === 'ok') return '<span class="thumb is-loading">' + photoImg(p.src, '', ' loading="' + (eager ? 'eager' : 'lazy') + '" width="400" height="300"') + '</span>';
@@ -305,11 +307,13 @@
       '<p class="card-meta">' + esc(recordIds(c)) + ((c.offices || []).length ? '. ' + esc(c.offices.join(', ')) : '') + '</p></div></li>';
   }
 
-  function summaryBlock(all, path, query, active, level) {
+  /* counts: [{scheme, kind, n}] from summary.json, used in place of `all` on the home page. */
+  function summaryBlock(all, path, query, active, level, counts) {
     var linkOnly = !active; active = active || {};
     var hn = 'h' + (level || 2);
-    var base = L.filterItems(all, L.withQuery(active, { scheme: null, kind: null }));
-    var groups = L.kindSummary(base), max = 1;
+    var base = counts ? null : L.filterItems(all, L.withQuery(active, { scheme: null, kind: null }));
+    var groups = counts ? L.kindGroups(counts) : L.kindSummary(base), max = 1;
+    var total = base ? base.length : groups.reduce(function (t, g) { return t + g.n; }, 0);
     groups.forEach(function (g) { g.kinds.forEach(function (k) { max = Math.max(max, k.n); }); });
     function link(changes, inner, on, cls) {
       return '<a class="' + cls + '" href="#' + L.buildHash(path, L.withQuery(query, L.withQuery(changes, { page: null }))) + '"' + (on && !linkOnly ? ' aria-current="true"' : '') + '>' + inner + '</a>';
@@ -317,7 +321,7 @@
     var allOn = !active.scheme && !active.kind;
     var multi = groups.length > 1;
     var html = '<section class="summary" aria-labelledby="sum-h"><' + hn + ' id="sum-h" class="panel-h">What was found</' + hn + '>' +
-      link({ scheme: null, kind: null }, '<span>All problems</span><span class="n">' + fmt(base.length) + '</span>', allOn, 'sum-all');
+      link({ scheme: null, kind: null }, '<span>All problems</span><span class="n">' + fmt(total) + '</span>', allOn, 'sum-all');
     groups.forEach(function (g) {
       var sOn = L.same(active.scheme, g.scheme) && !active.kind;
       html += (multi ? link({ scheme: g.scheme, kind: null }, '<span>' + esc(schemeName(g.scheme)) + '</span><span class="n">' + fmt(g.n) + '</span>', sOn, 'sum-scheme') : '<p class="sum-scheme-name">' + esc(schemeName(g.scheme)) + '</p>') +
@@ -333,13 +337,16 @@
   }
 
   /* fields: which narrowing selects this list offers */
-  function caseListSection(all, path, query, fields, place, wide) {
+  function caseList(all, query, fields) {
     var keys = ['scheme', 'kind'].concat(fields.map(function (f) { return f.key; }));
     var active = {};
     keys.forEach(function (k) { if (query[k]) active[k] = query[k]; });
     var sort = query.sort === 'village' ? 'village' : 'size';
     var list = L.sortCases(L.filterItems(all, active), sort);
-    var pg = L.paginate(list.length, query.page, CASES_PER_PAGE);
+    return { active: active, sort: sort, list: list, pg: L.paginate(list.length, query.page, CASES_PER_PAGE) };
+  }
+  function caseListSection(all, path, query, fields, place, wide, cl) {
+    var active = cl.active, sort = cl.sort, list = cl.list, pg = cl.pg;
     fixPage(pg, path, query);
     var filtered = Object.keys(active).length > 0;
     var selects = fields.map(function (f) { return selectField(f, query, L.facet(all, active, f.key)); }).join('') +
@@ -418,7 +425,7 @@
     Object.keys(S.geo || {}).forEach(function (k) { names[norm(k)] = k; });
     Object.keys(S.areas.states || {}).forEach(function (k) { if (!names[norm(k)]) names[norm(k)] = k; });
     (S.data.coverage || []).forEach(function (c) { if (c.state && !names[norm(c.state)]) names[norm(c.state)] = c.state; });
-    (S.data.cases || []).forEach(function (c) { if (c.state && !names[norm(c.state)]) names[norm(c.state)] = c.state; });
+    (S.data.index || []).forEach(function (e) { if (e.state && !names[norm(e.state)]) names[norm(e.state)] = e.state; });
     return Object.keys(names).map(function (k) { return names[k]; }).sort();
   }
   function allDistricts(st, shapes) {
@@ -446,42 +453,47 @@
       '<p><a class="btn btn-primary" href="#/">Go to the map of India</a></p></div>';
   }
 
+  function topCases() { return L.sortCases(S.data.top || [], 'size').slice(0, TOP_CASES); }
   function renderHome() {
     setTitle('');
-    var cases = L.sortCases(S.data.cases || [], 'size'), cov = S.data.coverage || [];
+    var total = S.data.total || 0, cov = S.data.coverage || [];
     var mapHtml = S.geo
       ? mapCard(S.geo, { title: 'Cases found, by state', status: function (k) { return status(k); }, label: 'Map of India by state. Marked states can be opened from the map; every state is also in the list below.' },
         'Select a marked state, or use the list of states below the map.')
       : '<p class="error">The map could not be loaded. The list below shows every state; only those with collected records or cases have been checked.</p>';
     var side = '';
-    if (cases.length) {
-      side += '<div class="panel">' + summaryBlock(cases, '/cases', {}, null, 2) + '</div>' +
-        '<section class="panel" aria-labelledby="top-h"><h2 id="top-h" class="panel-h">Largest cases</h2><ul class="cards compact">' + cases.slice(0, TOP_CASES).map(function (c, i) { return caseCard(c, 3, i); }).join('') + '</ul>' +
-        '<p class="panel-foot"><a class="btn btn-primary" href="#/cases">See all ' + esc(plural(cases.length, 'case', 'cases')) + '</a></p></section>';
+    if (total) {
+      side += '<div class="panel">' + summaryBlock(null, '/cases', {}, null, 2, S.data.kinds || []) + '</div>' +
+        '<section class="panel" aria-labelledby="top-h"><h2 id="top-h" class="panel-h">Largest cases</h2><ul class="cards compact">' + topCases().map(function (c, i) { return caseCard(c, 3, i); }).join('') + '</ul>' +
+        '<p class="panel-foot"><a class="btn btn-primary" href="#/cases">See all ' + esc(plural(total, 'case', 'cases')) + '</a></p></section>';
     } else {
       side += '<div class="panel"><h2 class="panel-h">What was found</h2><p>No cases have been flagged in the areas checked so far. See <a href="#/method">About the method</a> for what has been covered.</p></div>';
     }
     view.innerHTML = '<h1>Evidence photos that need a second look</h1><div class="intro">' +
       '<p class="dek">Public works under government schemes are recorded on official portals with photos as proof. This site checks those records and lists the ones where the evidence looks wrong.</p>' +
       '<p class="notice"><strong>A flag is a lead for checking, not proof of wrongdoing.</strong> Each case lists its record IDs so anyone can check them on the portal.</p></div>' +
-      areaFigures(cases, cov) +
+      countFigures(total, S.data.villages_with_case || 0, cov) +
       '<div class="home"><div class="home-map">' + mapHtml + '</div><div class="home-side">' + side + '</div><div class="home-finder">' +
       finder(byStatus(allStates().map(function (s) { return { name: s, href: stateHref(s), st: status(s) }; })), 'States and union territories') + '</div></div>';
     if (S.geo) bindMap(document.getElementById('map'), function (n) { location.hash = stateHref(n); });
     bindFinder();
   }
 
+  var ALL_FIELDS = [
+    { key: 'state', label: 'State', all: 'All states' },
+    { key: 'district', label: 'District', all: 'All districts' },
+    { key: 'block', label: 'Block', all: 'All blocks' },
+    { key: 'office', label: 'Office that made the entries', all: 'All offices' }
+  ];
+  function loadAllCases(query) {
+    whenReady(loadIndex(indexFor(null)), function () { renderAllCases(query); });
+  }
   function renderAllCases(query) {
     setTitle('All cases');
-    var all = S.data.cases || [];
+    var all = S.cases;
     view.innerHTML = pageHead(crumbs([{ name: 'All India', href: '#/' }, { name: 'All cases' }]), 'All cases',
       'Every flagged case in the current data, across all areas checked so far.', areaFigures(all, S.data.coverage || [])) +
-      caseListSection(all, '/cases', query, [
-        { key: 'state', label: 'State', all: 'All states' },
-        { key: 'district', label: 'District', all: 'All districts' },
-        { key: 'block', label: 'Block', all: 'All blocks' },
-        { key: 'office', label: 'Office that made the entries', all: 'All offices' }
-      ], 'all areas', true);
+      caseListSection(all, '/cases', query, ALL_FIELDS, 'all areas', true, caseList(all, query, ALL_FIELDS));
     bindFilters('/cases', query);
   }
 
@@ -490,7 +502,8 @@
     var key = findKey(S.geo || {}, st) || findKey(arrToObj(allStates()), st);
     if (!key) { renderNotFound('There is no state or union territory called "' + st + '" on this site.'); return settle(); }
     view.innerHTML = '<p class="status loading">Loading the district map for ' + esc(key) + '...</p>';
-    loadDistricts(key).catch(function () { return null; }).then(function (shapes) {
+    Promise.all([loadDistricts(key).catch(function () { return null; }), loadIndex(indexFor(key))]).then(function (r) {
+      var shapes = r[0];
       if (token !== S.token) return;
       var dKey = null;
       if (district) {
@@ -508,10 +521,9 @@
         ? mapCard(shapes, { title: 'Cases found, by district', selected: dKey, small: true, status: function (k) { return status(key, k); }, label: 'Map of ' + key + ' by district. Every district is also in the list below.' },
           'District boundaries follow Census 2011, so districts formed since then are not drawn separately.')
         : '<p class="status">No district map is available for ' + esc(key) + '. Use the list of districts below.</p>';
-      var fields = dKey ? [] : [{ key: 'district', label: 'District', all: 'All districts' }];
-      fields.push({ key: 'block', label: 'Block', all: 'All blocks' }, { key: 'office', label: 'Office that made the entries', all: 'All offices' });
+      var fields = areaFields(dKey);
       var stx = status(key, dKey), unchecked = stx.cls === 'f-none' && !all.length;
-      var list = all.length ? caseListSection(all, path, query, fields, place) : unchecked ? '' : '<section class="cases"><h2>Cases in ' + esc(place) + '</h2>' + emptyText(key, dKey) + '</section>';
+      var list = all.length ? caseListSection(all, path, query, fields, place, false, caseList(all, query, fields)) : unchecked ? '' : '<section class="cases"><h2>Cases in ' + esc(place) + '</h2>' + emptyText(key, dKey) + '</section>';
       var sub = stx.n ? esc(stx.text) + ' found in the parts of ' + esc(place) + ' checked so far.' :
         unchecked ? 'Not checked yet. No records have been collected for ' + esc(place) + ', so there are no figures or cases to show. <a href="#/method">About the method</a> lists the areas checked so far.' : esc(stx.text) + '.';
       var finderHtml = finder(byStatus(allDistricts(key, shapes).map(function (d) { return { name: d, href: districtHref(key, d), st: status(key, d) }; })), 'Districts of ' + key);
@@ -522,7 +534,15 @@
       bindFilters(path, query);
       bindFinder();
       settle();
+    }, function (e) {
+      if (token !== S.token) return;
+      loadFailed(e);
+      settle();
     });
+  }
+  function areaFields(dKey) {
+    var fields = dKey ? [] : [{ key: 'district', label: 'District', all: 'All districts' }];
+    return fields.concat({ key: 'block', label: 'Block', all: 'All blocks' }, { key: 'office', label: 'Office that made the entries', all: 'All offices' });
   }
   function arrToObj(a) { var o = {}; a.forEach(function (k) { o[k] = 1; }); return o; }
 
@@ -576,7 +596,7 @@
       return '<tr><td class="num id">' + esc(r.record_id) + '</td><td>' + esc(r.village) + '</td><td>' + esc(r.structure_type) + '</td><td>' + esc(r.created_by) +
         '</td><td class="num">' + esc(r.start_date) + '</td><td class="num">' + esc(r.end_date) + '</td><td class="num">' + esc(gps) + '</td></tr>';
     }).join('');
-    var intro = '<p class="muted">' + (recs.length < c.record_count ? esc('This case covers ' + fmt(c.record_count) + ' records. ' + (c.recordsLoaded === 'failed' ? 'The full list could not be loaded, so only the first ' + fmt(recs.length) + ' are shown. Reload the page to try again.' : 'The data file lists ' + fmt(recs.length) + ' of them.')) : esc(plural(c.record_count, 'record', 'records')) + ' in this case.') +
+    var intro = '<p class="muted">' + (recs.length < c.record_count ? esc('This case covers ' + fmt(c.record_count) + ' records. ' + 'The data file lists ' + fmt(recs.length) + ' of them.') : esc(plural(c.record_count, 'record', 'records')) + ' in this case.') +
       ' Sorted by village, then record ID. A blank cell means no value is recorded in this data.</p>';
     var filters = selectField({ key: 'village', label: 'Village', all: 'All villages' }, query, villages) +
       selectField({ key: 'office', label: 'Entered by', all: 'All offices' }, query, offices);
@@ -664,7 +684,7 @@
     });
   }
 
-  /* Text for the method page when files were also compared by picture, built from the limits in cases.json. */
+  /* Text for the method page when files were also compared by picture, built from the limits in summary.json. */
   function nearMatchText() {
     var m = L.nearMatch(S.data.schemes);
     if (!m) return '';
@@ -672,33 +692,28 @@
       m.distance + ' of 256 bits, small greyscale copies of the two are almost identical pixel by pixel, and their width-to-height ratios match. Nearly blank or very small images are never matched this way, and broken-image icons and plain graphics are not shown as reused photos. The limits were set below what separated the closest pairs of different photos when the test was tried on the collected photos. No pair of different photos passed both tests, and every pair of files counted as one picture is listed for a person to check. Where the tests are in doubt the files stay apart, so some copies are missed, for example one cut down by more than a few pixels.';
   }
 
-  // cases.json carries only the first records of each case; the case page loads the rest.
+  // A case page loads only data/cases/<id>.json, the whole case with all its records.
   function loadCase(id, query) {
-    var found = L.findCase(S.data.cases, id);
-    if (found && found.moved) {
-      // This case now holds the files of another one; open it under its own address.
-      location.replace(caseHref(found.c.id));
-      return;
-    }
-    var c = found && found.c;
-    if (!c || !c.records_file || c.recordsLoaded === true) { renderCase(id, query); settle(); return; }
-    var token = S.token;
-    view.innerHTML = '<p class="status loading">Loading the records of this case...</p>';
-    getJSON(c.records_file).then(function (d) {
-      if (!d || !Array.isArray(d.records)) throw new Error('no records');
-      c.records = d.records;
-      c.recordsLoaded = true;
-    }).catch(function () {
-      c.recordsLoaded = 'failed';
-    }).then(function () {
-      if (token !== S.token) return;
-      renderCase(id, query);
-      settle();
+    var moved = null;
+    var work = S.full[id] ? Promise.resolve() : getJSON('data/cases/' + L.caseFileName(id)).then(function (c) {
+      if (!c || !Array.isArray(c.records)) throw new Error('the file of this case is not valid');
+      if (c.id === id) S.full[id] = c;
+    }, function (e) {
+      if (e.status !== 404) throw e;
+      // No file under this id: the case may have taken over another one's files and kept its own id.
+      return loadIndex(indexFor(null)).then(function () {
+        var found = L.findCase(S.cases, id);
+        if (found && found.moved) moved = found.c.id;
+      });
     });
+    whenReady(work.then(function () { return S.full[id] ? loadLinks([S.full[id]]) : null; }), function () {
+      if (moved) { location.replace(caseHref(moved)); return; }
+      renderCase(id, query);
+    }, 'Loading the records of this case...');
   }
 
   function renderCase(id, query) {
-    var c = (S.data.cases || []).filter(function (x) { return x.id === id; })[0];
+    var c = S.full[id];
     if (!c) {
       setTitle('Case not found');
       view.innerHTML = '<div class="state-box"><h1>Case not found</h1><p>There is no case with this address in the current data. It may have been removed after a recheck.</p><p><a class="btn btn-primary" href="#/">Go to the map of India</a></p></div>';
@@ -795,7 +810,7 @@
   function renderMethod(query) {
     setTitle('About the method');
     var used = {};
-    (S.data.cases || []).forEach(function (c) { used[c.kind] = (used[c.kind] || 0) + 1; });
+    (S.data.kinds || []).forEach(function (k) { used[k.kind] = (used[k.kind] || 0) + k.n; });
     var name = S.config.site_name, hi = S.config.site_name_hi;
     view.innerHTML = '<div class="prose">' + pageHead('', 'About the method', 'Every work under these schemes is published on an official portal with location, dates, the office that entered it and one or more photos as proof. We copy those public records and run simple checks on them.') +
       '<p>' + esc(name) + (hi ? ' (<span lang="hi">' + esc(hi) + '</span>)' : '') + ' means "scheme check" in Hindi. ' + esc(S.config.tagline || '') + (S.config.tagline ? '.' : '') + '</p>' +
@@ -817,7 +832,20 @@
   }
 
   /* After each render: keep focus on a filter that was just changed, move to the list top on a page change, or go to the top on a new page. */
+  function fillThumbs() {
+    var els = Array.prototype.slice.call(view.querySelectorAll('.thumb[data-case]'));
+    var cases = els.map(function (el) { return (S.waiting[el.getAttribute('data-case')] || [])[0]; }).filter(Boolean);
+    if (!cases.length) return;
+    loadLinks(cases).then(function () {
+      els.forEach(function (el) {
+        var w = S.waiting[el.getAttribute('data-case')];
+        if (w && el.isConnected) el.outerHTML = thumb(w[0], w[1]);
+      });
+    });
+  }
+
   function settle() {
+    fillThumbs();
     var ctx = S.pending; S.pending = null;
     if (!ctx) return;
     var live = document.getElementById('announce');
@@ -841,25 +869,72 @@
     markNav(r.name);
     if (r.name === 'state' || r.name === 'district') { renderArea(r.state, r.district || null, p.query); return; }
     if (r.name === 'case') { loadCase(r.id, p.query); return; }
+    if (r.name === 'cases') { loadAllCases(p.query); return; }
+    if (r.name === 'home') { whenReady(loadLinks(topCases()), renderHome); return; }
     if (r.name === 'method') renderMethod(p.query);
-    else if (r.name === 'cases') renderAllCases(p.query);
-    else if (r.name === 'home') renderHome();
     else renderNotFound();
     settle();
   }
 
-  function loadLinks() {
-    return fetch('data/photo_links.json', { cache: 'no-cache' }).then(function (r) {
-      if (r.status === 404) return null;
-      if (!r.ok) return {};
-      return r.json().then(function (j) { return j && typeof j === 'object' ? j : {}; }, function () { return {}; });
-    }, function () { return {}; });
+  /* Runs render once `work` is done; shows a loading line only if that takes a moment. */
+  function whenReady(work, render, message) {
+    var token = S.token;
+    var timer = setTimeout(function () {
+      if (token === S.token) view.innerHTML = '<p class="status loading">' + esc(message || 'Loading case data...') + '</p>';
+    }, 150);
+    work.then(function () {
+      clearTimeout(timer);
+      if (token !== S.token) return;
+      render();
+      settle();
+    }, function (e) {
+      clearTimeout(timer);
+      if (token !== S.token) return;
+      loadFailed(e);
+      settle();
+    });
   }
-  function lowerKeys(o) {
-    if (!o) return o;
-    var out = {};
-    for (var k in o) out[k.toLowerCase()] = o[k];
-    return out;
+  function loadFailed(e) {
+    setTitle('Page not loaded');
+    view.innerHTML = '<div class="state-box error" role="alert"><h1>This page could not be loaded</h1><p>Part of the case data did not arrive. Check the connection and try again.</p>' +
+      '<p class="muted">Details: ' + esc(e && e.message) + '</p><button type="button" class="btn btn-primary" id="retry">Try again</button></div>';
+    document.getElementById('retry').addEventListener('click', route);
+  }
+
+  /* summary.json lists one index file per state; each holds that state's cases without their reasons. */
+  function indexFor(st) {
+    return (S.data.index || []).filter(function (e) { return st == null || norm(e.state) === norm(st); });
+  }
+  function loadIndex(entries) {
+    return Promise.all(entries.map(function (e) {
+      if (!S.indexFiles[e.file]) {
+        S.indexFiles[e.file] = getJSON(e.file).then(function (d) {
+          // Kept in the order of the data files, so lists and filters come out as they did from one file.
+          S.cases = S.cases.concat((d && d.cases) || []).sort(L.dataOrder);
+        }).catch(function (err) { delete S.indexFiles[e.file]; throw err; });
+      }
+      return S.indexFiles[e.file];
+    }));
+  }
+
+  /* Photo links are in data/links/<first two characters of the sha256>.json. A missing file means the
+     site has no links at all, so it shows the original photos. */
+  function loadLinks(cases) {
+    var want = {};
+    if (S.links === null) return Promise.resolve();
+    (cases || []).forEach(function (c) { if (c && c.photo) want[shaOf(c).slice(0, 2)] = 1; });
+    return Promise.all(Object.keys(want).map(function (part) {
+      if (!S.linkFiles[part]) {
+        S.linkFiles[part] = fetch('data/links/' + part + '.json', { cache: 'no-cache' }).then(function (r) {
+          if (r.status === 404) { S.links = null; return; }
+          if (!r.ok) throw new Error('links ' + r.status);
+          return r.json().then(function (j) {
+            if (S.links && j && typeof j === 'object') for (var k in j) S.links[k.toLowerCase()] = j[k];
+          });
+        }).catch(function () {}).then(function () { S.linkDone[part] = true; });
+      }
+      return S.linkFiles[part];
+    }));
   }
 
   document.addEventListener('load', function (e) {
@@ -881,8 +956,8 @@
     var fallback = { site_name: 'Yojana Jaanch', site_name_hi: 'योजना जाँच', tagline: 'Checking the evidence behind government scheme records' };
     var cfg = getJSON('config.json').catch(function () { return fallback; });
     var geo = Promise.all([getJSON('vendor/geo/india-states.json'), getJSON('vendor/geo/districts-index.json')]).catch(function () { return null; });
-    Promise.all([cfg, getJSON('data/cases.json'), getJSON('data/areas.json'), geo, loadLinks()]).then(function (r) {
-      S.config = r[0]; S.data = r[1]; S.areas = r[2]; S.links = lowerKeys(r[4]);
+    Promise.all([cfg, getJSON('data/summary.json'), getJSON('data/areas.json'), geo]).then(function (r) {
+      S.config = r[0]; S.data = r[1]; S.areas = r[2];
       for (var k in fallback) if (!S.config[k]) S.config[k] = fallback[k];
       if (r[3]) { S.geo = r[3][0]; S.distIndex = r[3][1]; }
       document.querySelector('.masthead nav').hidden = false;
@@ -902,11 +977,11 @@
       document.querySelector('.masthead nav').hidden = true;
       if (e && e.status === 404) {
         document.title = 'No data collected yet | Yojana Jaanch';
-        view.innerHTML = '<div class="state-box" role="alert"><h1>No data collected yet</h1><p>This copy of the site has no case data. The files data/cases.json and data/areas.json are written by the checker after a collection run. ' +
+        view.innerHTML = '<div class="state-box" role="alert"><h1>No data collected yet</h1><p>This copy of the site has no case data. The files data/summary.json and data/areas.json are written by the checker after a collection run. ' +
           'To collect one block and build the data, run this in the project folder:</p><pre class="cmd"><code>' + esc(REFRESH_CMD) + '</code></pre>' +
           '<p>The README lists the other options. When the command finishes, check again.</p><button type="button" class="btn btn-primary" id="retry">Check again</button></div>';
       } else {
-        view.innerHTML = '<div class="state-box error" role="alert"><h1>The case data could not be loaded</h1><p>The site needs data/cases.json and data/areas.json, which are produced by the checker. ' +
+        view.innerHTML = '<div class="state-box error" role="alert"><h1>The case data could not be loaded</h1><p>The site needs data/summary.json and data/areas.json, which are produced by the checker. ' +
           'If you run this site yourself, run the checker first. Otherwise try again in a moment.</p><p class="muted">Details: ' + esc(e.message) + '</p>' +
           '<button type="button" class="btn btn-primary" id="retry">Try again</button></div>';
       }

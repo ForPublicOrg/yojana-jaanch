@@ -210,7 +210,7 @@ def _run(root, scheme, use_vision, vision_limit, log, data_dir, data, main_data,
 
 
 def photo_match_info(near, scheme, unreadable=None):
-    """What the near-duplicate match did for one scheme, for cases.json and the log."""
+    """What the near-duplicate match did for one scheme, for summary.json and the log."""
     if near is None:
         return {"near_matching": False, "why_off": "phash.jsonl could not be read this run" if unreadable
                 else "the phash step has not run (no phash.jsonl)"}

@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import fixture  # noqa: E402
 from checker.__main__ import run  # noqa: E402
+from checker import output  # noqa: E402
 
 
 def quiet(*_):
@@ -66,21 +67,32 @@ class CheckerTest(unittest.TestCase):
         self.tmp.cleanup()
 
     def load(self, name):
-        """cases.json comes back with each case's full record list read from its own file."""
-        data_dir = self.root / "site" / "data"
-        out = json.loads((data_dir / name).read_text(encoding="utf-8"))
-        if name == "cases.json":
-            for c in out["cases"]:
-                self.assertLessEqual(len(c["records"]), 3)
-                full = json.loads((self.root / "site" / c["records_file"]).read_text(encoding="utf-8"))
-                self.assertEqual(full["id"], c["id"])
-                self.assertEqual([{"record_id": r["record_id"]} for r in full["records"][:3]], c["records"])
-                c["records"] = full["records"]
+        """summary.json with every whole case under "cases" for name "site"; checks each index
+        entry against its case file. Any other name is read as it is."""
+        site = self.root / "site"
+        if name != "site":
+            return json.loads((site / "data" / name).read_text(encoding="utf-8"))
+        out = output.read_site_data(site)
+        full = {c["id"]: c for c in out["cases"]}
+        listed = []
+        for entry in out["index"]:
+            part = json.loads((site / entry["file"]).read_text(encoding="utf-8"))["cases"]
+            self.assertEqual(len(part), entry["cases"])
+            for e in part:
+                self.assertLessEqual(len(e["records"]), 3)
+                self.assertEqual(e, output.index_entry(full[e["id"]]))
+                listed.append(e["id"])
+        self.assertEqual(sorted(listed), sorted(full))
         return out
+
+    def written_text(self):
+        """Every site data file the checker wrote, as one string."""
+        data = self.root / "site" / "data"
+        return "".join(p.read_text(encoding="utf-8") for p in sorted(data.rglob("*.json")))
 
     def test_cases_without_vision(self):
         run(self.root, log=quiet)
-        out = self.load("cases.json")
+        out = self.load("site")
         cases = out["cases"]
         kinds = sorted(c["kind"] for c in cases)
         self.assertEqual(kinds, ["photo_reuse", "photo_reuse", "same_day", "same_gps", "upload_burst"])
@@ -126,15 +138,15 @@ class CheckerTest(unittest.TestCase):
         self.assertEqual(areas["Punjab"]["districts"]["Sangrur"]["by_scheme"], {"jsjb": 4})
         self.assertEqual(areas["Haryana"]["by_scheme"], {"jsjb": 1})
 
-        raw = (self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8")
+        raw = self.written_text()
         self.assertNotIn("—", raw)
         self.assertNotIn("_photo_src", raw)
 
     def test_ids_stable_across_runs(self):
         run(self.root, log=quiet)
-        first = [c["id"] for c in self.load("cases.json")["cases"]]
+        first = [c["id"] for c in self.load("site")["cases"]]
         run(self.root, log=quiet)
-        self.assertEqual(first, [c["id"] for c in self.load("cases.json")["cases"]])
+        self.assertEqual(first, [c["id"] for c in self.load("site")["cases"]])
         self.assertTrue(all(re.fullmatch(r"jsjb-[a-z_]+-[0-9a-f]{12}", i) for i in first))
 
     def test_vision_without_settings_is_skipped(self):
@@ -171,7 +183,7 @@ class CheckerTest(unittest.TestCase):
         cache = json.loads((self.root / "data" / "state" / "vision_cache.json").read_text(encoding="utf-8"))
         self.assertEqual(len(cache), 28)
         self.assertTrue(all(k.startswith("fake-model|") for k in cache))
-        vis = [c for c in self.load("cases.json")["cases"] if c["kind"] == "vision_mismatch"]
+        vis = [c for c in self.load("site")["cases"] if c["kind"] == "vision_mismatch"]
         self.assertEqual(len(vis), 1)
         self.assertEqual(ids(vis[0]), ["3001", "3002"])
         self.assertTrue(vis[0]["needs_human_review"])
@@ -197,11 +209,11 @@ class CheckerTest(unittest.TestCase):
 
     def test_checks_run_listed(self):
         run(self.root, log=quiet)
-        self.assertNotIn("vision_mismatch", self.load("cases.json")["checks_run"])
+        self.assertNotIn("vision_mismatch", self.load("site")["checks_run"])
 
     def test_bad_records_are_skipped_and_counted(self):
         run(self.root, log=quiet)
-        before = self.load("cases.json")["cases"]
+        before = self.load("site")["cases"]
         path = self.root / "data" / "records" / "jsjb.jsonl"
         lines = path.read_text(encoding="utf-8").splitlines()
         good = json.loads(lines[-1])
@@ -232,7 +244,7 @@ class CheckerTest(unittest.TestCase):
         self.assertIn("skipped 9 malformed record(s) or file(s)", text)
         self.assertIn(f"jsjb: {len(lines) + 3} records", text)
         self.assertIn("jsjb.jsonl line", text)
-        after = self.load("cases.json")
+        after = self.load("site")
         self.assertEqual(len(after["cases"]), len(before))
         self.assertTrue(any(r["records_checked"] for r in after["coverage"]))
 
@@ -257,7 +269,7 @@ class PrunePhotos(unittest.TestCase):
         from checker import prune
         before = self.photo_files()
         cases = run(self.root, log=quiet, prune_photos=False)
-        site_cases = json.loads((self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8"))["cases"]
+        site_cases = output.read_site_data(self.root / "site")["cases"]
         keep = {Path(c["photo"]).stem for c in site_cases if c.get("photo")}
         self.assertTrue(keep and keep < before, (len(keep), len(before)))
         # Fresh files are left alone during the grace period.
@@ -279,5 +291,5 @@ class PrunePhotos(unittest.TestCase):
             run(self.root, log=quiet)
         finally:
             prune.prune = real
-        site_cases = json.loads((self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8"))["cases"]
+        site_cases = output.read_site_data(self.root / "site")["cases"]
         self.assertEqual(seen["keep"], {Path(c["photo"]).stem for c in site_cases if c.get("photo")})

@@ -71,7 +71,7 @@ def run(paths, allow_download=True, detector=None, log=print):
                 and (paths.out_photos / f"{sha}.jpg").exists()):
             continue
         todo.append((sha, rel))
-    log(f"{len(wanted)} photos in cases.json, {len(hidden & set(wanted))} hidden, "
+    log(f"{len(wanted)} photos in the cases, {len(hidden & set(wanted))} hidden, "
         f"{len(todo)} to process, {removed} removed from the manifest")
 
     missing = bad = 0

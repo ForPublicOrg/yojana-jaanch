@@ -1,7 +1,7 @@
 """One checker at a time per project folder.
 
 Several queues (one per scheme) each run the checker after an area. The checker takes
-data/state/checker.lock for the whole run, so the cases.json and areas.json it writes always come
+data/state/checker.lock for the whole run, so the site data files it writes always come
 from one run. A second checker waits for the first to finish. The operating system drops the lock
 when the process ends, even after a crash."""
 import os

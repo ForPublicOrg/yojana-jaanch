@@ -14,7 +14,7 @@ class Paths:
     def __init__(self, root=ROOT, publish_dir=None):
         self.root = Path(root)
         self.publish = Path(publish_dir) if publish_dir else self.root / "publish"
-        self.cases = self.root / "site" / "data" / "cases.json"
+        self.cases = self.root / "site" / "data" / "summary.json"
         self.site_photos = self.root / "site" / "photos"
         self.data_photos = self.root / "data" / "photos"
         self.out_photos = self.publish / "photos"
@@ -25,14 +25,22 @@ class Paths:
         self.approved = self.publish / "approved.txt"
         self.settings = self.publish / "settings.json"
         self.upload = self.publish / "upload"
-        self.links = self.root / "site" / "data" / "photo_links.json"
+        self.links = self.root / "site" / "data" / "links"
 
 
-def case_photo_hashes(cases_path):
+def site_cases(summary_path):
+    """Every case in the site's index files, which site/data/summary.json lists."""
+    summary_path = Path(summary_path)
+    site = summary_path.parent.parent
+    data = json.loads(summary_path.read_text(encoding="utf-8"))
+    for entry in data.get("index", []):
+        yield from json.loads((site / entry["file"]).read_text(encoding="utf-8")).get("cases", [])
+
+
+def case_photo_hashes(summary_path):
     """sha256 -> relative photo path, for every unique photo the cases reference."""
-    data = json.loads(Path(cases_path).read_text(encoding="utf-8"))
     out = {}
-    for c in data.get("cases", []):
+    for c in site_cases(summary_path):
         rel = c.get("photo")
         if not rel:
             continue
@@ -108,7 +116,7 @@ def ensure_hand_files(paths):
     paths.publish.mkdir(parents=True, exist_ok=True)
     if not paths.hide.exists():
         paths.hide.write_text(
-            "# One sha256 per line. A photo listed here is left out of publish/upload/ and photo_links.json.\n"
+            "# One sha256 per line. A photo listed here is left out of publish/upload/ and the photo links.\n"
             "# If it is already in the Drive folder, delete it there too.\n"
             "# Text after # is ignored, so you can add a note.\n", encoding="utf-8")
     if not paths.approved.exists():
@@ -224,6 +232,34 @@ def write_json(path, data):
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1, sort_keys=True)
     os.replace(tmp, path)
+
+
+def write_links(folder, links):
+    """Photo links in 256 files, one per first two characters of the sha256, so a page loads only the
+    files of the photos it shows. Every file is written, empty or not; unchanged ones are left alone."""
+    folder = Path(folder)
+    parts = {f"{i:02x}": {} for i in range(256)}
+    for sha, entry in links.items():
+        parts[sha[:2].lower()][sha] = entry
+    for part, body in parts.items():
+        path = folder / f"{part}.json"
+        try:
+            if json.loads(path.read_text(encoding="utf-8")) == body:
+                continue
+        except (OSError, ValueError):
+            pass
+        write_json(path, body)
+
+
+def read_links(folder):
+    """All links written by write_links, or None when there are none."""
+    files = sorted(Path(folder).glob("*.json")) if Path(folder).is_dir() else []
+    if not files:
+        return None
+    out = {}
+    for f in files:
+        out.update(json.loads(f.read_text(encoding="utf-8")))
+    return out
 
 
 def write_manifest(path, photos):

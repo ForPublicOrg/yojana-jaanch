@@ -382,7 +382,8 @@ class EndToEnd(unittest.TestCase):
         self.tmp.cleanup()
 
     def site_cases(self):
-        return json.loads((self.root / "site" / "data" / "cases.json").read_text(encoding="utf-8"))
+        from checker import output
+        return output.read_site_data(self.root / "site")
 
     def test_checker_run_merges_writes_audit_and_reports(self):
         msgs = []

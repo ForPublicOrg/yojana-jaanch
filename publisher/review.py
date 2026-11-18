@@ -41,7 +41,7 @@ label {{ display: inline-block; margin: 6px 0; }}
 <body>
 <h1>Review blurred photos</h1>
 {warning}<p>{total} blurred copies, {approved} approved, {waiting} waiting for a check. Only approved copies go to
-publish/upload/ and into photo_links.json.</p>
+publish/upload/ and into the photo links.</p>
 <p class="warn">The engines can still miss a face, most often a very small, far away or half hidden one, also in photos
 where they found other faces. An outline only shows where the copy was blurred, not that the photo is safe. Look at every
 person in every photo.</p>

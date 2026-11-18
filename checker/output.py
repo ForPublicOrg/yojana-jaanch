@@ -146,13 +146,42 @@ def write_text(path, text):
     _replace(tmp, path)
 
 
-# cases.json is loaded by every page of the site, so it holds only the first few record IDs of each
-# case; all records of a case are in site/data/cases/<id>.json, loaded by that case's page.
+# The site loads summary.json on the home page, data/index/<state>.json on the state, district and
+# all-cases pages, and data/cases/<id>.json, the whole case, on a case page.
 INDEX_RECORDS = 3
+INDEX_DROP = ("reasons", "source_url")
+TOP_CASES = 5  # TOP_CASES in site/app.js
+ALIASES = {"sahibzadaajitsinghnagar": "sasnagar", "mohali": "sasnagar", "firozpur": "ferozepur",
+           "muktsar": "srimuktsarsahib", "nawanshahr": "shahidbhagatsinghnagar", "ropar": "rupnagar"}
+
+
+def norm(s):
+    """Same as norm in site/lib.js, so counts here match what the site would count."""
+    k = re.sub(r"[^a-z0-9]", "", str(s or "").lower().replace("&", "and"))
+    return ALIASES.get(k, k)
 
 
 def case_file_name(case_id):
     return re.sub(r"[^A-Za-z0-9_.-]", "_", str(case_id)) + ".json"
+
+
+def _write_if_changed(path, body):
+    try:
+        if json.loads(path.read_text(encoding="utf-8")) == body:
+            return
+    except (OSError, ValueError):
+        pass
+    write_json(path, body)
+
+
+def _remove_others(folder, keep):
+    if folder.is_dir():
+        for p in folder.glob("*.json"):
+            if p.name not in keep:
+                try:
+                    p.unlink()
+                except OSError:
+                    pass
 
 
 def write_case_files(site, cases):
@@ -161,21 +190,61 @@ def write_case_files(site, cases):
     for c in cases:
         name = case_file_name(c["id"])
         keep.add(name)
-        path = folder / name
-        body = {"id": c["id"], "records": c["records"]}
-        try:
-            if json.loads(path.read_text(encoding="utf-8")) == body:
-                continue
-        except (OSError, ValueError):
-            pass
-        write_json(path, body)
-    if folder.is_dir():
-        for p in folder.glob("*.json"):
-            if p.name not in keep:
-                try:
-                    p.unlink()
-                except OSError:
-                    pass
+        _write_if_changed(folder / name, c)
+    _remove_others(folder, keep)
+
+
+def index_entry(c):
+    e = {k: v for k, v in c.items() if k not in INDEX_DROP}
+    e["records"] = [{"record_id": r.get("record_id")} for r in c["records"][:INDEX_RECORDS]]
+    return e
+
+
+def write_index(site, entries):
+    """One file per state, in the order of `entries`; returns [{state, file, cases}] by state name."""
+    by_state = {}
+    for e in entries:
+        by_state.setdefault(e.get("state") or "", []).append(e)
+    folder = site / "data" / "index"
+    files, keep = [], set()
+    for state in sorted(by_state):
+        base = re.sub(r"[^a-z0-9]+", "-", state.lower()).strip("-") or "other"
+        name, i = base + ".json", 2
+        while name in keep:
+            name, i = f"{base}-{i}.json", i + 1
+        keep.add(name)
+        _write_if_changed(folder / name, {"state": state or None, "cases": by_state[state]})
+        files.append({"state": state or None, "file": "data/index/" + name, "cases": len(by_state[state])})
+    return files, keep
+
+
+def summary(entries):
+    """What the home and method pages show without loading every case. `entries` in site order."""
+    counts, villages = {}, set()
+    for e in entries:
+        key = (e["scheme"], e["kind"])
+        counts[key] = counts.get(key, 0) + 1
+        villages.update(norm(e.get("block")) + "|" + norm(v) for v in e.get("villages") or [])
+    top = entries[:TOP_CASES]
+    # Cases tied with the last one go too, so the site picks the same ones with its own sort.
+    tie = lambda e: (e.get("severity") or 0, e.get("record_count") or 0)
+    while top and len(top) < len(entries) and tie(entries[len(top)]) == tie(top[-1]):
+        top = entries[:len(top) + 1]
+    return {"total": len(entries), "villages_with_case": len(villages),
+            "kinds": [{"scheme": s, "kind": k, "n": n} for (s, k), n in sorted(counts.items())], "top": top}
+
+
+def read_site_data(site):
+    """The site data as one object: summary.json plus "cases", every whole case from data/cases/,
+    in site order."""
+    site = Path(site)
+    data = json.loads((site / "data" / "summary.json").read_text(encoding="utf-8"))
+    cases = []
+    for entry in data["index"]:
+        for e in json.loads((site / entry["file"]).read_text(encoding="utf-8"))["cases"]:
+            cases.append(json.loads((site / "data" / "cases" / case_file_name(e["id"])).read_text(encoding="utf-8")))
+    cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
+    return dict(data, cases=cases)
 
 
 def _private(c):
@@ -192,14 +261,25 @@ def write(root, cases, schemes, coverage, checks_run=None):
         src, alts = _private(c)
         # A picture saved as several files: when the main file is gone, show another copy of it.
         c["photo"] = next((rel for rel in (copy_photo(root, site, s) for s in [src] + alts) if rel), None)
+    write_site_data(site, cases, schemes, coverage, checks_run)
+
+
+def write_site_data(site, cases, schemes, coverage, checks_run=None, generated_at=None):
+    """Case files, then the index, then summary.json, which names the index files, then areas.json."""
+    site = Path(site)
     cases.sort(key=lambda c: (-c["severity"], -c["record_count"], c["id"]))
     write_case_files(site, cases)
-    cases = [dict(c, records=[{"record_id": r.get("record_id")} for r in c["records"][:INDEX_RECORDS]],
-                  records_file="data/cases/" + case_file_name(c["id"])) for c in cases]
-    write_json(site / "data" / "cases.json", {
-        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "checks_run": checks_run or [], "schemes": schemes, "coverage": coverage, "cases": cases})
-    write_json(site / "data" / "areas.json", areas(cases))
+    entries = [index_entry(c) for c in cases]
+    files, keep = write_index(site, entries)
+    write_json(site / "data" / "summary.json", dict({
+        "generated_at": generated_at or datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "checks_run": checks_run or [], "schemes": schemes, "coverage": coverage, "index": files}, **summary(entries)))
+    write_json(site / "data" / "areas.json", areas(entries))
+    _remove_others(site / "data" / "index", keep)
+    try:
+        (site / "data" / "cases.json").unlink()  # the single file used before summary.json and data/index/
+    except OSError:
+        pass
 
 
 def write_preview(preview_dir, scheme, cases, scheme_info, coverage, checks_run, root=None):

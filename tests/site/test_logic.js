@@ -114,6 +114,23 @@ test('nearMatch reports only schemes where files were compared by picture', func
     { schemes: ['JSJB'], distance: 8 });
 });
 
+test('kindGroups from summary counts equals kindSummary from the cases', function () {
+  var cases = [{ scheme: 'a', kind: 'x' }, { scheme: 'b', kind: 'y' }, { scheme: 'a', kind: 'z' }, { scheme: 'a', kind: 'x' }];
+  assert.deepStrictEqual(L.kindGroups([{ scheme: 'a', kind: 'x', n: 2 }, { scheme: 'a', kind: 'z', n: 1 }, { scheme: 'b', kind: 'y', n: 1 }]), L.kindSummary(cases));
+});
+test('norm matches names across case, punctuation and old district names', function () {
+  assert.strictEqual(L.norm('Tamil Nadu'), L.norm('TAMIL-NADU'));
+  assert.strictEqual(L.norm('Jammu & Kashmir'), 'jammuandkashmir');
+  assert.strictEqual(L.norm('Mohali'), L.norm('SAS Nagar'));
+  assert.strictEqual(L.norm(null), '');
+});
+test('caseFileName and dataOrder follow checker/output.py', function () {
+  assert.strictEqual(L.caseFileName('jsjb-photo_reuse-ab12'), 'jsjb-photo_reuse-ab12.json');
+  assert.strictEqual(L.caseFileName('a/b c'), 'a_b_c.json');
+  var list = [{ id: 'b', severity: 1, record_count: 5 }, { id: 'a', severity: 1, record_count: 5 }, { id: 'c', severity: 2, record_count: 2 }, { id: 'd', severity: 1, record_count: 9 }];
+  assert.deepStrictEqual(list.sort(L.dataOrder).map(function (c) { return c.id; }), ['c', 'd', 'a', 'b']);
+});
+
 var failed = 0;
 tests.forEach(function (t) {
   try { t[1](); console.log('ok   ' + t[0]); } catch (e) { failed++; console.log('FAIL ' + t[0] + '\n     ' + e.message); }

@@ -3,6 +3,23 @@
 (function (root) {
   var QUERY_ORDER = ['scheme', 'kind', 'state', 'district', 'block', 'office', 'village', 'sort', 'page'];
 
+  var ALIASES = {
+    sahibzadaajitsinghnagar: 'sasnagar', mohali: 'sasnagar', firozpur: 'ferozepur',
+    muktsar: 'srimuktsarsahib', nawanshahr: 'shahidbhagatsinghnagar', ropar: 'rupnagar'
+  };
+  /* Name key for matching places; checker/output.py has the same function. */
+  function norm(s) {
+    var k = String(s || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
+    return ALIASES[k] || k;
+  }
+  /* data/cases/<this> holds the whole case; the same rule as case_file_name in checker/output.py. */
+  function caseFileName(id) { return String(id).replace(/[^A-Za-z0-9_.-]/g, '_') + '.json'; }
+  /* The order of the cases in the data files: severity, records, then id by character code. */
+  function dataOrder(a, b) {
+    return (b.severity || 0) - (a.severity || 0) || (b.record_count || 0) - (a.record_count || 0) ||
+      (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  }
+
   function dec(s) { try { return decodeURIComponent(String(s).replace(/\+/g, ' ')); } catch (e) { return String(s); } }
   function same(a, b) { return String(a == null ? '' : a).trim().toLowerCase() === String(b == null ? '' : b).trim().toLowerCase(); }
 
@@ -138,10 +155,14 @@
 
   /* Scheme, then kind, with counts. */
   function kindSummary(cases) {
+    return kindGroups((cases || []).map(function (c) { return { scheme: c.scheme, kind: c.kind, n: 1 }; }));
+  }
+  /* The same from counts [{scheme, kind, n}], as in summary.json. */
+  function kindGroups(rows) {
     var schemes = {};
-    (cases || []).forEach(function (c) {
-      var s = schemes[c.scheme] = schemes[c.scheme] || { scheme: c.scheme, n: 0, kinds: {} };
-      s.n++; s.kinds[c.kind] = (s.kinds[c.kind] || 0) + 1;
+    (rows || []).forEach(function (r) {
+      var s = schemes[r.scheme] = schemes[r.scheme] || { scheme: r.scheme, n: 0, kinds: {} };
+      s.n += r.n; s.kinds[r.kind] = (s.kinds[r.kind] || 0) + r.n;
     });
     return Object.keys(schemes).map(function (k) {
       var s = schemes[k];
@@ -178,7 +199,7 @@
     return { schemes: on.map(function (s) { return s.name || s.id; }), distance: on[0].photo_match.max_distance };
   }
 
-  var api = { findCase: findCase, fileCount: fileCount, nearMatch: nearMatch, parseHash: parseHash, matchRoute: matchRoute, buildHash: buildHash, withQuery: withQuery, paginate: paginate,
+  var api = { norm: norm, caseFileName: caseFileName, dataOrder: dataOrder, kindGroups: kindGroups, findCase: findCase, fileCount: fileCount, nearMatch: nearMatch, parseHash: parseHash, matchRoute: matchRoute, buildHash: buildHash, withQuery: withQuery, paginate: paginate,
     pageList: pageList, matches: matches, filterItems: filterItems, facet: facet, sortCases: sortCases,
     kindSummary: kindSummary, sortRecords: sortRecords, same: same };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

@@ -111,7 +111,7 @@ class DrivePublicTests(unittest.TestCase):
         self.paths.hide.write_text(f"{SHA[3]}\n", encoding="utf-8")
         self.paths.approved.write_text("".join(common.approval_line(s, man[s]["copy_sha256"]) + "\n"
                                                for s in SHA[:4]), encoding="utf-8")
-        self.out = self.root / "site" / "data" / "photo_links.json"
+        self.out = self.root / "site" / "data" / "links"
 
     def tearDown(self):
         self.tmp.cleanup()
@@ -126,7 +126,7 @@ class DrivePublicTests(unittest.TestCase):
         FakePage.body = body
         logs = []
         code = drive.run_public(self.paths, FOLDER, str(self.sync), self.base, log=logs.append)
-        links = json.loads(self.out.read_text(encoding="utf-8")) if self.out.exists() else None
+        links = common.read_links(self.out)
         return code, links, " | ".join(logs)
 
     def test_clean_folder(self):
@@ -299,7 +299,7 @@ class DrivePublicTests(unittest.TestCase):
                             "--root", str(self.root), "--local-folder", str(self.sync), "--page-base", self.base],
                            cwd=ROOT, env=env, capture_output=True, text=True, timeout=60)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertEqual(set(json.loads(self.out.read_text(encoding="utf-8"))), set(SHA[:3]))
+        self.assertEqual(set(common.read_links(self.out)), set(SHA[:3]))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,19 @@
 # checker
 
 Reads `data/records/<scheme>.jsonl` and `data/records/<scheme>.coverage.json`, then writes
-`site/data/cases.json`, `site/data/areas.json` and the case photos in `site/photos/`.
+the site data in `site/data/` and the case photos in `site/photos/`:
+
+- `summary.json`: totals, counts by scheme and problem, coverage, the largest cases and the list of
+  index files. The home and method pages need nothing else.
+- `index/<state>.json`: the cases of one state, each with its first 3 record IDs and without its
+  reasons, for the state, district and all-cases pages.
+- `cases/<id>.json`: one whole case with every record, for its case page.
+- `areas.json`: case counts by state and district, for the maps.
 Python 3.12 standard library only. No AI is used unless you pass `--vision`.
 
 ```
 python -m checker                      # all schemes found in data/records
-python -m checker --scheme jsjb        # one scheme (cases.json then holds only that scheme)
+python -m checker --scheme jsjb        # one scheme (the site data then holds only that scheme)
 python -m checker --vision --vision-limit 20
 python -m checker --root path/to/project
 python -m checker --data-dir data/_trial/<id>   # cases in data/_trial/<id>/preview/, site/ untouched
@@ -21,7 +28,7 @@ Only one checker runs at a time per data folder (`data/state/checker.lock`); ano
 `--lock-wait` minutes (default 30), then exits with code 7. Output files are written to a
 temporary file and renamed into place.
 
-Each entry of `schemes` in `cases.json` lists `checks_run` for that scheme, and `checks_off` with
+Each entry of `schemes` in `summary.json` lists `checks_run` for that scheme, and `checks_off` with
 the reason a check did not run. A check is off for a scheme when its settings turn it off, or when
 no record of the scheme has a field the check needs: `photo_reuse` needs photo sha256,
 `same_gps` lat and lon, `same_day` start_date, end_date and structure_type, `upload_burst` an
@@ -42,7 +49,7 @@ time), so a case keeps its id across runs while its records stay the same.
 ## Checks
 
 Each check is one module. A case is never emitted from fewer than 2 records, except a
-`vision_mismatch` case, which can be about one work. `cases.json` also has `checks_run`, the kinds
+`vision_mismatch` case, which can be about one work. `summary.json` also has `checks_run`, the kinds
 that ran this time, so the site can tell "not run" apart from "found nothing".
 
 | Module | Kind | What it flags |
@@ -204,7 +211,7 @@ largest distance and pixel difference within the group, and each file's first 12
 with its number of works. A group of one file gives the same case and text as before. Severity is
 unchanged.
 
-Each scheme entry in `cases.json` has `photo_match`: whether the match ran (or why not), how many
+Each scheme entry in `summary.json` has `photo_match`: whether the match ran (or why not), how many
 photos had a hash, how many were too plain to compare, how many files were merged into how many
 pictures, the largest distance and pixel difference used, and the limits. The log prints the same.
 

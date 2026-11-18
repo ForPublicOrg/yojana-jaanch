@@ -28,7 +28,7 @@ Direction: a modern investigations data site. Evidence first, figures before pro
 - Thin 1px borders separate surfaces; no gradients, glass or glow.
 
 ## Components
-- Figures row at the top of each view: every number is computed from cases.json and its coverage list.
+- Figures row at the top of each view: every number is computed from the case data and its coverage list (on the home page, from the totals in summary.json).
 - Case cards: fixed 4:3 thumbnail (lazy loaded), kind label, headline, record count in red, place, record IDs.
 - Missing, withheld or broken photos show a neutral grey box that says which of the three it is.
 - Category summary as bars with counts; each bar is a filter link.
@@ -38,5 +38,5 @@ Direction: a modern investigations data site. Evidence first, figures before pro
 
 ## Photos
 - `photoFor()` in app.js is the single place that picks a photo URL.
-- With data/photo_links.json it uses those URLs, and a case not listed shows "Photo withheld".
-- Without that file it falls back to the local photos/ folder for private preview.
+- With the files in data/links/ it uses those URLs, and a case not listed shows "Photo withheld".
+- Without those files it falls back to the local photos/ folder for private preview.
