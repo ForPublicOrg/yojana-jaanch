@@ -1,5 +1,6 @@
 """The two ONNX engines used by the publisher, run with onnxruntime, and their verified model files."""
 import hashlib
+import os
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
@@ -65,13 +66,27 @@ def model_path(key, model_dir=None, allow_download=True, log=print):
     return path
 
 
+PROVIDERS = {"cpu": "CPUExecutionProvider", "dml": "DmlExecutionProvider"}
+
+
 def onnx_session(path, threads=0):
+    """PUBLISH_ONNX_PROVIDER=dml runs the models on the graphics chip through DirectML (needs the
+    onnxruntime-directml package instead of onnxruntime); unset or cpu runs them on the CPU."""
     import onnxruntime as ort
+    want = os.environ.get("PUBLISH_ONNX_PROVIDER", "cpu").strip().lower() or "cpu"
+    if want not in PROVIDERS:
+        raise ValueError(f"PUBLISH_ONNX_PROVIDER={want!r}: use one of {', '.join(PROVIDERS)}")
+    if PROVIDERS[want] not in ort.get_available_providers():
+        raise ValueError(f"PUBLISH_ONNX_PROVIDER={want} needs {PROVIDERS[want]}, which this onnxruntime lacks")
     so = ort.SessionOptions()
     so.log_severity_level = 3
     if threads:
         so.intra_op_num_threads = threads
-    return ort.InferenceSession(str(path), so, providers=["CPUExecutionProvider"])
+    if want == "dml":
+        # DirectML runs one request at a time and needs these off.
+        so.enable_mem_pattern = False
+        so.execution_mode = ort.ExecutionMode.ORT_SEQUENTIAL
+    return ort.InferenceSession(str(path), so, providers=[PROVIDERS[want]])
 
 
 def nms(hits, iou=0.4):

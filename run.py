@@ -7,7 +7,8 @@
     python run.py collect --scheme <id> --list-only ...   then   python run.py collect --scheme <id> --photos
     python run.py check [--vision] [--data-dir data/_trial/<id>]
     python run.py serve [--port 8000]
-    python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish)
+    python run.py publish              # blurred public photo copies in publish/ (needs .venv-publish;
+                                       # uses the graphics chip through .venv-gpu when that is set up)
     python run.py phash [--data-dir D] # picture fingerprints for the near-duplicate match (needs .venv-publish)
     python run.py collect --scheme jsjb --refetch-unhashed   # download again photos deleted before phash saw them
     python run.py drive-copy --local-folder <Drive sync folder>   # approved copies into subfolders 0 to f
@@ -48,28 +49,49 @@ def run(module, args):
 
 
 VENV = os.path.join(ROOT, ".venv-publish")
+VENV_GPU = os.path.join(ROOT, ".venv-gpu")
 SETUP_HELP = """The publish and phash steps need OpenCV, numpy and Pillow in a separate virtual environment.
 Set it up once with these two commands, then run the step again:
 
     python -m venv .venv-publish
     {pip} install -r requirements-publish.txt
 """
+GPU_CHECK = ("import cv2, numpy, onnxruntime as o; "
+             "assert 'DmlExecutionProvider' in o.get_available_providers()")
 
 
-def venv_python():
+def venv_python(venv=None):
     for rel in (("Scripts", "python.exe"), ("bin", "python")):
-        path = os.path.join(VENV, *rel)
+        path = os.path.join(venv or VENV, *rel)
         if os.path.exists(path):
             return path
     return None
 
 
+def works(py, code):
+    return bool(py) and subprocess.call([py, "-c", code], cwd=ROOT,
+                                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) == 0
+
+
+def gpu_python():
+    """Python in .venv-gpu if its onnxruntime can use DirectML; None when PUBLISH_ONNX_PROVIDER=cpu."""
+    if os.environ.get("PUBLISH_ONNX_PROVIDER", "").strip().lower() == "cpu":
+        return None
+    py = venv_python(VENV_GPU)
+    return py if works(py, GPU_CHECK) else None
+
+
 def publish(rest, step="publish", needs="import cv2, numpy"):
-    """publish and phash run in .venv-publish (OpenCV, numpy, Pillow)."""
+    """publish and phash run in .venv-publish (OpenCV, numpy, Pillow). publish runs the blur models
+    on the graphics chip from .venv-gpu (requirements-publish-gpu.txt) when it is set up."""
+    gpu = gpu_python() if step == "publish" else None
+    if gpu:
+        cmd = [gpu, "-m", "publisher", step] + rest
+        print("> PUBLISH_ONNX_PROVIDER=dml " + " ".join(cmd), flush=True)
+        return subprocess.call(cmd, cwd=ROOT, env=dict(os.environ, PUBLISH_ONNX_PROVIDER="dml"))
     py = venv_python()
     pip = os.path.join(".venv-publish", "Scripts", "pip") if os.name == "nt" else ".venv-publish/bin/pip"
-    if not py or subprocess.call([py, "-c", needs], cwd=ROOT,
-                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) != 0:
+    if not works(py, needs):
         print(SETUP_HELP.format(pip=pip), flush=True)
         return 3
     cmd = [py, "-m", "publisher", step] + rest

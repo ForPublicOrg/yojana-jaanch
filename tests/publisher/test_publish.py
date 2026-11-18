@@ -8,9 +8,11 @@ import contextlib
 import hashlib
 import io
 import json
+import os
 import struct
 import sys
 import tempfile
+import types
 import unittest
 from pathlib import Path
 
@@ -378,17 +380,62 @@ class PublishTests(unittest.TestCase):
 
 class SetupMessageTests(unittest.TestCase):
     def test_missing_venv_prints_setup_commands(self):
-        old = run_py.VENV
+        old = run_py.VENV, run_py.VENV_GPU
         try:
             run_py.VENV = str(Path(tempfile.gettempdir()) / "no-such-venv-for-test")
+            run_py.VENV_GPU = str(Path(tempfile.gettempdir()) / "no-such-gpu-venv-for-test")
             buf = io.StringIO()
             with contextlib.redirect_stdout(buf):
                 code = run_py.publish([])
         finally:
-            run_py.VENV = old
+            run_py.VENV, run_py.VENV_GPU = old
         self.assertEqual(code, 3)
         self.assertIn("python -m venv .venv-publish", buf.getvalue())
         self.assertIn("install -r requirements-publish.txt", buf.getvalue())
+
+
+class GraphicsChipChoiceTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        scripts = Path(self.tmp.name) / "Scripts"
+        scripts.mkdir()
+        (scripts / "python.exe").write_bytes(b"")
+        self.calls = []
+        patches = {"VENV_GPU": self.tmp.name, "works": lambda py, code: bool(py),
+                   "subprocess": types.SimpleNamespace(call=self.call, DEVNULL=None)}
+        for name, value in patches.items():
+            old = getattr(run_py, name)
+            setattr(run_py, name, value)
+            self.addCleanup(setattr, run_py, name, old)
+        old_env = os.environ.pop("PUBLISH_ONNX_PROVIDER", None)
+        self.addCleanup(lambda: os.environ.__setitem__("PUBLISH_ONNX_PROVIDER", old_env) if old_env
+                        else os.environ.pop("PUBLISH_ONNX_PROVIDER", None))
+
+    def call(self, cmd, cwd=None, env=None, **kw):
+        self.calls.append((cmd, (env or {}).get("PUBLISH_ONNX_PROVIDER")))
+        return 0
+
+    def run_step(self, *args):
+        with contextlib.redirect_stdout(io.StringIO()):
+            return run_py.publish([], *args)
+
+    def test_publish_uses_the_gpu_environment_with_directml(self):
+        self.assertEqual(self.run_step(), 0)
+        cmd, provider = self.calls[-1]
+        self.assertTrue(cmd[0].startswith(self.tmp.name))
+        self.assertEqual(provider, "dml")
+
+    def test_provider_cpu_keeps_publish_on_the_cpu_environment(self):
+        os.environ["PUBLISH_ONNX_PROVIDER"] = "cpu"
+        self.assertIsNone(run_py.gpu_python())
+
+    def test_phash_never_uses_the_gpu_environment(self):
+        old = run_py.VENV
+        run_py.VENV = str(Path(tempfile.gettempdir()) / "no-such-venv-for-test")
+        self.addCleanup(setattr, run_py, "VENV", old)
+        self.assertEqual(self.run_step("phash", "import PIL"), 3)
+        self.assertEqual(self.calls, [])
 
 
 if __name__ == "__main__":

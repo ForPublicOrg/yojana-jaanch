@@ -1,0 +1,6 @@
+# Same as requirements-publish.txt, with the DirectML build of onnxruntime (Windows, any DirectX 12
+# graphics chip). Set up once: python -m venv .venv-gpu, then .venv-gpu\Scripts\pip install -r this file.
+numpy==2.5.5
+opencv-python-headless==4.14.0.94
+onnxruntime-directml==1.24.4
+pillow==13.0.0
