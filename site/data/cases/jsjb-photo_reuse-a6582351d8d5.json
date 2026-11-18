@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a6582351d8d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bagaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 13b4782d540d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 27 minutes (2026-11-12 23:10:05 to 2026-11-12 23:36:59)."
+ ],
+ "photo": "photos/13b4782d540d1e3b0307502fe71a4a17330e6abe6120b7747e14cb6ce9deacd9.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4025519",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

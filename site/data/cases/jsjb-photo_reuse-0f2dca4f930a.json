@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0f2dca4f930a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Amrala",
+  "Barwali Khurd",
+  "Dhanola",
+  "Sidhu Pur Kalan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5b2d11f48cb6) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (3), Bore-Well Recharge (1), Village Pond (1)."
+ ],
+ "photo": "photos/5b2d11f48cb62e90867334629a08d16da916700bf244118dcd633a00205c4b97.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1070114",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

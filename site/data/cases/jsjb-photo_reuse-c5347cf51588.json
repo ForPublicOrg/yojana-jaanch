@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-c5347cf51588",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Athwal",
+  "Balim",
+  "Barila Kalan",
+  "Bhadwan",
+  "Bhawana",
+  "Kotla Chahlan"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint b9a4fa8fd2f6) is attached to 6 different works in 6 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "These works are spread over 2 blocks: Dhariwal, Kalanaur."
+ ],
+ "photo": "photos/b9a4fa8fd2f68d0fca7eac1abb1954577e34f6900ba633dd9d0b6b005127adff.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10041560",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

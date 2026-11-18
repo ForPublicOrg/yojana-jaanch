@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c8f3239caacf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Bhaipur Kalan",
+  "Gothaura",
+  "Kundadih"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 94d13e6004e1) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/94d13e6004e17f6215ba4d395a8a6c8ef7702f17ce7ee6f1657c2c04db4ab4cd.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3620400",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

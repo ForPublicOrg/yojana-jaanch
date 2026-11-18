@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8f2996d4e16e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Indna Kalaske"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 56d723ef8d38) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 3 minutes (2026-04-04 21:47:37 to 2026-04-04 21:49:49)."
+ ],
+ "photo": "photos/56d723ef8d3872521d9ead27bcdedb270fc3c65f4b6984d156cd95a09df6a44a.jpg",
+ "offices": [
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119339",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

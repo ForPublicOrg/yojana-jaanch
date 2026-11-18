@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a226febeb0ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Manj"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 15f9a609fa59) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3)."
+ ],
+ "photo": "photos/15f9a609fa59967d585b9bfa2ffa0ab91dc1888df1921cbd4e6189e5cbbcc88f.jpg",
+ "offices": [
+  "BDPO Chogawan"
+ ],
  "records": [
   {
    "record_id": "7647688",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

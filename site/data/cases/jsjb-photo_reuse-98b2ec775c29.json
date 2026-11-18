@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-98b2ec775c29",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Bhasaudi",
+  "Chhahi",
+  "Muridpur",
+  "Nawapur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 29fb1a97117b) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Bore-Well Recharge (3), Soak Pit (2).",
+  "All 5 works report the same GPS point (25.539795, 83.053522)."
+ ],
+ "photo": "photos/29fb1a97117b34659f35b1226c491c06a7be8cccb122dd305633ab72e4506d85.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1822230",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

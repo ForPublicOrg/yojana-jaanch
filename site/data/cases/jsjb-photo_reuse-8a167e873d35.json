@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8a167e873d35",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Thabal Ke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 52386a28a5bf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.173758, 75.605305).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-04 15:38:35 to 2026-04-04 15:41:11)."
+ ],
+ "photo": "photos/52386a28a5bf6b240b4f02e67b9f83ba248d1b806422076dcd3e743ee31f1965.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "988910",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

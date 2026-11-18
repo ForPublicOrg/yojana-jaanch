@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-66691070ee85",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Madhuban Basaha",
+  "Mahamadpur",
+  "Mohuain"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 4313322138e1) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/4313322138e1590877e180039aa91767d3164af13de5f6163a5ee7305077d94b.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4135141",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

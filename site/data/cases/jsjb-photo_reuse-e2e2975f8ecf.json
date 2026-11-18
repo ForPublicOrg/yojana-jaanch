@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e2e2975f8ecf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Chananwindi",
+  "Raman"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1b223f7cdd1a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 10 minutes (2026-01-31 19:59:53 to 2026-01-31 20:09:37)."
+ ],
+ "photo": "photos/1b223f7cdd1a017dff44cbf501d6bc6d63aa1cf6e27f71e4116450ff5527b318.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1066369",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

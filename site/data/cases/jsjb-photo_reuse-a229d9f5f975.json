@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-a229d9f5f975",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Araji Line Sultanpur",
+  "Baraini"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1e7fce626a9e) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BDO Majhawa, BLOCK DEVELOPMENT OFFICER.",
+  "These works are spread over 2 blocks: Majhawa, Shikhar."
+ ],
+ "photo": "photos/1e7fce626a9e788cd2cfefe672502f7e595abfde4c402fa4eb0d414d844afe11.jpg",
+ "offices": [
+  "BDO Majhawa",
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3612577",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

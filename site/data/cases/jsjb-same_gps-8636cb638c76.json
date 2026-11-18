@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-8636cb638c76",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Vembaneri",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Vembaneri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Vembaneri report exactly the same GPS point (11.623616, 77.886726).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9357589",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

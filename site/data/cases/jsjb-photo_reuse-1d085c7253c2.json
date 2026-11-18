@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1d085c7253c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Didee Khurd",
+  "Nahara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4598ef091b2f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.0, 79.0)."
+ ],
+ "photo": "photos/4598ef091b2fc8c9de57538c000c60221cb2989d69406204f8a76cc73e00db4e.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11639081",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

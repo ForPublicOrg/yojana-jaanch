@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-c8cf0e6be5ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kagathi",
+  "Thinakallu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da66e11370e9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/da66e11370e9da1adadd3216f78d871077f4c8ad158045cd47bbf23a92ae0aa8.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "293906",
+   "village": "Thinakallu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-07",
+   "end_date": "2026-03-29",
+   "lat": 13.398469,
+   "lon": 77.965569,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "8504926",
+   "village": "Kagathi",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-14",
+   "end_date": "2026-02-27",
+   "lat": 13.429336,
+   "lon": 78.089612,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

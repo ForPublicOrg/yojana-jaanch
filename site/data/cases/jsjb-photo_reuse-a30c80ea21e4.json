@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a30c80ea21e4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Ramnagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e58b42a384a5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/e58b42a384a56c1a4d8fd6b97295e0b19533bb831a45c2893a5152e1224384f3.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "3844072",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

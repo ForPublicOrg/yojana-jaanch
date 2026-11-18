@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-47d1100a7c8e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Beshupur",
+  "Lakhmipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2eed927e327e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Baragaon, Sevapuri."
+ ],
+ "photo": "photos/2eed927e327ea03cb74d430c08664660b0d59ff60286a2d6c3fdae15df7244c4.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "339602769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

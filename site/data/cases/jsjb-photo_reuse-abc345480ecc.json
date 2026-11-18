@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-abc345480ecc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Thusur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4c4378093588) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (11.183787, 78.232132)."
+ ],
+ "photo": "photos/4c43780935881977f25aa730d71dff375e36a7a80ef011f4196c43fb6e9795d8.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9117288",
+   "village": "Thusur",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-10-25",
+   "end_date": "2024-11-21",
+   "lat": 11.183787,
+   "lon": 78.232132,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "9638599",
+   "village": "Thusur",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-10-25",
+   "end_date": "2024-11-21",
+   "lat": 11.183787,
+   "lon": 78.232132,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

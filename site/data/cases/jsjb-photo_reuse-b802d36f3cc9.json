@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b802d36f3cc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Hansolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2743bc982a19) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.0188875, 75.9109385)."
+ ],
+ "photo": "photos/2743bc982a19ee8437dafd367d1e557dbbdbce930af00ef00fead54bafcd2ea8.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4127896",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

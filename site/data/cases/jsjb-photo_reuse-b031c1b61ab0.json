@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b031c1b61ab0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Jallah"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba2bb0683717) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.58, 76.32).",
+  "All 2 works started and ended on the same day (2026-04-07).",
+  "The photo was uploaded 4 times within 16 seconds (2026-04-17 14:44:28 to 2026-04-17 14:44:44)."
+ ],
+ "photo": "photos/ba2bb068371754c029328fc386b99593a2120f1e52c6dce87e339297e0eb85d1.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5027882",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

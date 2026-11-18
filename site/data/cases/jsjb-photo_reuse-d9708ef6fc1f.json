@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d9708ef6fc1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Dharam Singhwala"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint ca19d7f5c164) is attached to 19 different works in 1 village. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Contour Trench (19).",
+  "All 19 works report the same GPS point (31.02, 75.13).",
+  "All 19 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 19 times within 26 minutes (2026-05-12 12:59:05 to 2026-05-12 13:24:20)."
+ ],
+ "photo": "photos/ca19d7f5c164cb432da4f04dbeee08b1ed61e520ad426622048015220179ba13.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8673844",
@@ -267,5 +288,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 60,
+ "needs_human_review": false
 }

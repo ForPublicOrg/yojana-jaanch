@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d98da83a417e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Chowtakuntahalli",
+  "Ullodu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 354f39abb0e2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/354f39abb0e2f4b04ae3511c87f2a68edc35491cdcfbb21d39650d9dfb3c55f5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3118433",
+   "village": "Ullodu",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-18",
+   "end_date": "2025-11-12",
+   "lat": 13.744688,
+   "lon": 77.753883,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3124967",
+   "village": "Chowtakuntahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-11-10",
+   "lat": 13.719229,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

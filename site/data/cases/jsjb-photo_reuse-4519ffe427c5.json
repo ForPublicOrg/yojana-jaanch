@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4519ffe427c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Ghania",
+  "Karirwali",
+  "Wara Bhaika"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint b3821540058d) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/b3821540058db529addc2001304865caaaa66ec7277b3fac74c43f34a1374f1b.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "3191736",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

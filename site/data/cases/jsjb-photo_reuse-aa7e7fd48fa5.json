@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-aa7e7fd48fa5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Kalian Sukha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint abc5656dc752) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/abc5656dc752db8cf5e4db084731310689f7d80ee16d7036bd4676f15c882462.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4922451",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

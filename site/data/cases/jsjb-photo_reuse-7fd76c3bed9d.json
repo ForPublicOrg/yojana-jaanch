@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-7fd76c3bed9d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Rajpur Chib",
+  "Toor"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 62aedbe0c035) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 2 dates: 2026-05-02, 2026-05-03.",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla."
+ ],
+ "photo": "photos/62aedbe0c035f2e6bc6298d4e3b87c2a93b23ecf47dad07606c8f2c0731f0ef6.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7585196",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

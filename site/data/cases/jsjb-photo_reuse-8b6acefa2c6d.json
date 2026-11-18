@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-8b6acefa2c6d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Bharpur Garh",
+  "Kanjari",
+  "Majra Manna Singh Wala",
+  "Mehmudpur",
+  "Raipur Chobdaran",
+  "Sherpur",
+  "Tangrala",
+  "Tibbi"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 0a2c8ea2c14d) is attached to 15 different works in 8 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (15)."
+ ],
+ "photo": "photos/0a2c8ea2c14d82585e6dcdd45450bcfaaaef8d522e7982f4e92cc34ff15b091a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4608009",
@@ -211,5 +236,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

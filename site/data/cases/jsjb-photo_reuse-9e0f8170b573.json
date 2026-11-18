@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-9e0f8170b573",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Somenahalli",
+  "Someswara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c6d7310b363b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/c6d7310b363ba8b02a69127df81373b58ef78af854f4cf91e7db37e43b3e83c6.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3096308",
+   "village": "Somenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-16",
+   "end_date": "2025-12-23",
+   "lat": 13.65335,
+   "lon": 77.81419,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3098111",
+   "village": "Someswara",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-20",
+   "end_date": "2025-11-19",
+   "lat": 13.65331,
+   "lon": 77.8141,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

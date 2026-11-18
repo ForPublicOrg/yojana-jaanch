@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-7e936fa58eb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Gujratan",
+  "Jagatpur Jattan",
+  "Khalwara",
+  "Lakhpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint abded0fd63c2) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-13."
+ ],
+ "photo": "photos/abded0fd63c2b872b7ec95ce38bd5a14ca2b79a125782297197d580a7767a393.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "8441066",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

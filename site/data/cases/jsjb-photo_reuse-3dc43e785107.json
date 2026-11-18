@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3dc43e785107",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Anhari Ujiari",
+  "Posua Patania"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 57bb6d3b1697) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/57bb6d3b1697967a54cc94154db43bd3b602789bc56f2317b9a1dfa903643d7a.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3743384",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

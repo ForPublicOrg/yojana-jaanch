@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-86af82c83545",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Kallankulam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec8ddc24cc73) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.497456, 78.200375)."
+ ],
+ "photo": "photos/ec8ddc24cc73aa0543c60c0c7f0abc339575e045b8b96a1df7c06b5d9dcd8474.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9334806",
+   "village": "Kallankulam",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-05-12",
+   "end_date": "2025-03-15",
+   "lat": 11.497456,
+   "lon": 78.200375,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9339317",
+   "village": "Kallankulam",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-05-28",
+   "end_date": "2025-03-16",
+   "lat": 11.497456,
+   "lon": 78.200375,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-17c4bf7d72ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Chuharpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cecdd4882602) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (32.02818, 75.51744).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-04 16:00:39 to 2026-05-04 16:04:51)."
+ ],
+ "photo": "photos/cecdd4882602d4d62477957389623e6a0e28574baafb48440f4e690877fb7bf6.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "1127688",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-d26466381034",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Jhunjhunu",
+ "villages": [
+  "Beebasar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28bc7c21f6c2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.027485, 75.360235).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-27 16:57:04 to 2026-03-27 16:58:08)."
+ ],
+ "photo": "photos/28bc7c21f6c2f0d600fb40b4b01965779f2a963ffa343655a8dbccd1fe6b6466.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4302265",
+   "village": "Beebasar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-01",
+   "end_date": "2026-03-28",
+   "lat": 28.027485,
+   "lon": 75.360235,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  },
+  {
+   "record_id": "4302301",
+   "village": "Beebasar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-01",
+   "end_date": "2026-02-28",
+   "lat": 28.027485,
+   "lon": 75.360235,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

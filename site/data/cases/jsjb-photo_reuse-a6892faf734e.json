@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a6892faf734e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Baragaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f059e94465e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/3f059e94465e1f6a205c61c2679990a399baeec008061792d1f1af2a01ea913d.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "924786",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

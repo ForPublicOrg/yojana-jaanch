@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e89eac0e0e31",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Sendamangalam",
+ "villages": [
+  "Periyakulam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c34ede142709) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.303507, 78.26319)."
+ ],
+ "photo": "photos/c34ede142709abceaeae8dc7b0e9bbd94315081025e1ebf9b03c03056bf57ac3.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9330836",
+   "village": "Periyakulam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-01",
+   "end_date": "2024-09-01",
+   "lat": 11.303507,
+   "lon": 78.26319,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  },
+  {
+   "record_id": "9335471",
+   "village": "Periyakulam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-01",
+   "end_date": "2024-06-01",
+   "lat": 11.303507,
+   "lon": 78.26319,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

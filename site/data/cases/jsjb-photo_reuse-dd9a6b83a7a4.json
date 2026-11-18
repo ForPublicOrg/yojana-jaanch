@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-dd9a6b83a7a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bhambri",
+  "Bhamian",
+  "Kotla",
+  "Lohar Majra Khurd"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint f8ce1d548c8d) is attached to 15 different works in 4 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (13), Soak Pit (2).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khamano."
+ ],
+ "photo": "photos/f8ce1d548c8db6e3e574abeea3ef0b3894b4d4d26440b0cd2376be709db4e715.jpg",
+ "offices": [
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "4436112",
@@ -211,5 +233,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

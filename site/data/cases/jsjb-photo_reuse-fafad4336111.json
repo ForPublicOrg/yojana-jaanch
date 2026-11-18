@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-fafad4336111",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Kammaguttahalli",
+  "Muddalahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d76ce87cac8d) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1)."
+ ],
+ "photo": "photos/d76ce87cac8d0a5773fc2bed2f3015c02f9b21b3cfe1a42216596720455b1711.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3088225",
+   "village": "Kammaguttahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-10-08",
+   "end_date": "2025-11-26",
+   "lat": 13.41248,
+   "lon": 77.758019,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3088880",
+   "village": "Kammaguttahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-08",
+   "end_date": "2025-11-26",
+   "lat": 13.635741,
+   "lon": 77.731105,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3095820",
+   "village": "Muddalahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-08",
+   "end_date": "2025-11-27",
+   "lat": 13.81288,
+   "lon": 77.932332,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

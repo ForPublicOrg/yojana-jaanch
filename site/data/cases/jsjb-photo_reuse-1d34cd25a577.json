@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1d34cd25a577",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Chandsinghpura",
+  "Dabarkalan",
+  "Kaseer",
+  "Rajmahal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint f61cda4006b5) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/f61cda4006b5581dcd16df547bed838a1d8c306183cae4ad84a4c6d621fa5548.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4041631",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

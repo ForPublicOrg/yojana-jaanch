@@ -1,5 +1,29 @@
 {
  "id": "jsjb-upload_burst-e47b445cc52a",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "10 photos uploaded in 9 minutes by MPDO",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Chebrole",
+ "villages": [
+  "Appapuram",
+  "Danthalur",
+  "Emani",
+  "Garikapadu",
+  "Sekuru"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "10 different photos for 10 different works were uploaded by MPDO within 9 minutes, from 2026-07-03 11:28:45 to 2026-07-03 11:37:25.",
+  "That is about one work every 52 seconds on average.",
+  "The works are in 5 villages: Appapuram, Danthalur, Emani, Garikapadu, Sekuru.",
+  "These works are spread over 4 blocks: Chebrole, Duggirala, Kakumanu, Kollipara."
+ ],
+ "photo": null,
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "7669833",
@@ -141,5 +165,8 @@
    "area_type": "Rural",
    "block": "Kakumanu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

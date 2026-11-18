@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9665f781c73c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Gumait",
+  "Ikolahi",
+  "Ramgarh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 76fe2ac04c32) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "These works are spread over 2 blocks: Khanna, Ludhiana-2."
+ ],
+ "photo": "photos/76fe2ac04c329ce751f55de33b81767eadc841e5f121baa431cebe1aa115f7b9.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1239852",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-1654d0099ae8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Ramsinghpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 77cc94ca3987 on 1 work, b4868007c6f1 on 1 work.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.262174, 82.739868).",
+  "The picture was uploaded 2 times within 19 minutes (2025-10-04 10:28:25 to 2025-10-04 10:47:19)."
+ ],
+ "photo": "photos/77cc94ca3987a09df4cb412fce35ed080f2d22c466bc333496694580d9a016cf.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391955948",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "77cc94ca3987a09df4cb412fce35ed080f2d22c466bc333496694580d9a016cf",
+   "records": 1
+  },
+  {
+   "sha256": "b4868007c6f1821eeb1606e74a67a0f23b02de065a7e9d5a89cc32d9e013c49a",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-69d01ec00910"
  ]
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dd8cf13a4947",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Madhopur",
+  "Madhopur Musharwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a3f0f53ede76) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-05 12:25:40 to 2026-04-05 12:27:09)."
+ ],
+ "photo": "photos/a3f0f53ede76ffc427c8c154ea900a25ef642c5c881d5ff99f74006c70de80c9.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4491332",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

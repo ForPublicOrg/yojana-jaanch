@@ -1,0 +1,3467 @@
+{
+ "generated_at": "2026-11-18T19:53:20+00:00",
+ "checks_run": [
+  "photo_reuse",
+  "same_gps",
+  "same_day",
+  "upload_burst"
+ ],
+ "schemes": [
+  {
+   "id": "jsjb",
+   "name": "Jal Sanchay Jan Bhagidari (JSJB)",
+   "portal_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+   "checks_run": [
+    "photo_reuse",
+    "same_gps",
+    "same_day",
+    "upload_burst"
+   ],
+   "photo_match": {
+    "photos": 112482,
+    "photos_with_hash": 105670,
+    "low_information": 1087,
+    "near_matching": true,
+    "max_distance": 8,
+    "max_mad": 0.03,
+    "max_aspect_gap": 0.01,
+    "files_merged": 1569,
+    "pictures": 768,
+    "largest_distance": 8,
+    "largest_mad": 0.0298,
+    "placeholder_cases": 7,
+    "placeholder_records": 630
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "scheme": "jsjb",
+   "state": "ANDAMAN AND NICOBAR ISLANDS",
+   "district": "South Andamans",
+   "block": "Ferrargunj",
+   "villages_checked": 77,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "ANDAMAN AND NICOBAR ISLANDS",
+   "district": "South Andamans",
+   "block": "Little Andaman",
+   "villages_checked": 19,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andaman And Nicobar Islands",
+   "district": "South Andamans",
+   "block": "Port Blair",
+   "villages_checked": 24,
+   "records_checked": 18,
+   "photos_checked": 19
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andaman And Nicobar Islands",
+   "district": "South Andamans",
+   "block": "Prothrapur",
+   "villages_checked": 35,
+   "records_checked": 4,
+   "photos_checked": 3
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Chebrole",
+   "villages_checked": 11,
+   "records_checked": 224,
+   "photos_checked": 282
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Duggirala",
+   "villages_checked": 14,
+   "records_checked": 455,
+   "photos_checked": 563
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Guntur",
+   "villages_checked": 68,
+   "records_checked": 395,
+   "photos_checked": 526
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Kakumanu",
+   "villages_checked": 11,
+   "records_checked": 650,
+   "photos_checked": 766
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Kollipara",
+   "villages_checked": 14,
+   "records_checked": 335,
+   "photos_checked": 362
+  },
+  {
+   "scheme": "jsjb",
+   "state": "ANDHRA PRADESH",
+   "district": "Guntur",
+   "block": "Mangalagiri",
+   "villages_checked": 9,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Mangalagiri Tadepalli",
+   "villages_checked": 50,
+   "records_checked": 24,
+   "photos_checked": 42
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Andhra Pradesh",
+   "district": "Guntur",
+   "block": "Ponnuru",
+   "villages_checked": 35,
+   "records_checked": 2,
+   "photos_checked": 3
+  },
+  {
+   "scheme": "jsjb",
+   "state": "ANDHRA PRADESH",
+   "district": "Guntur",
+   "block": "Tenali",
+   "villages_checked": 40,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Bairgania",
+   "villages_checked": 44,
+   "records_checked": 606,
+   "photos_checked": 262
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Bajpatti",
+   "villages_checked": 58,
+   "records_checked": 1031,
+   "photos_checked": 1292
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Bathanaha",
+   "villages_checked": 90,
+   "records_checked": 1754,
+   "photos_checked": 1005
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Belsand",
+   "villages_checked": 52,
+   "records_checked": 1002,
+   "photos_checked": 899
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Bokhra",
+   "villages_checked": 28,
+   "records_checked": 616,
+   "photos_checked": 221
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Choraut",
+   "villages_checked": 17,
+   "records_checked": 715,
+   "photos_checked": 159
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Dumra",
+   "villages_checked": 76,
+   "records_checked": 953,
+   "photos_checked": 777
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Janakpur Road",
+   "villages_checked": 25,
+   "records_checked": 36,
+   "photos_checked": 58
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Majorganj",
+   "villages_checked": 27,
+   "records_checked": 601,
+   "photos_checked": 202
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Nanpur",
+   "villages_checked": 32,
+   "records_checked": 949,
+   "photos_checked": 1072
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Parihar",
+   "villages_checked": 83,
+   "records_checked": 1600,
+   "photos_checked": 267
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Parsauni",
+   "villages_checked": 22,
+   "records_checked": 639,
+   "photos_checked": 258
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Pupri",
+   "villages_checked": 46,
+   "records_checked": 928,
+   "photos_checked": 311
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Riga",
+   "villages_checked": 42,
+   "records_checked": 925,
+   "photos_checked": 266
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Runnisaidpur",
+   "villages_checked": 102,
+   "records_checked": 2024,
+   "photos_checked": 479
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Sitamarhi",
+   "villages_checked": 46,
+   "records_checked": 19,
+   "photos_checked": 22
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Sonbarsa",
+   "villages_checked": 64,
+   "records_checked": 809,
+   "photos_checked": 803
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Suppi",
+   "villages_checked": 37,
+   "records_checked": 664,
+   "photos_checked": 599
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Bihar",
+   "district": "Sitamarhi",
+   "block": "Sursand",
+   "villages_checked": 73,
+   "records_checked": 725,
+   "photos_checked": 225
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chandigarh",
+   "district": "Chandigarh",
+   "block": "Chandigarh",
+   "villages_checked": 35,
+   "records_checked": 16,
+   "photos_checked": 17
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Bagepalli",
+   "villages_checked": 172,
+   "records_checked": 1858,
+   "photos_checked": 519
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Cheluru",
+   "villages_checked": 115,
+   "records_checked": 1547,
+   "photos_checked": 774
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Chik Ballapur",
+   "villages_checked": 31,
+   "records_checked": 3,
+   "photos_checked": 3
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Chikballapur",
+   "villages_checked": 254,
+   "records_checked": 2702,
+   "photos_checked": 779
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Chintamani",
+   "villages_checked": 412,
+   "records_checked": 2687,
+   "photos_checked": 874
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Gauribidanur",
+   "villages_checked": 231,
+   "records_checked": 6044,
+   "photos_checked": 1419
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Gudibanda",
+   "villages_checked": 125,
+   "records_checked": 985,
+   "photos_checked": 346
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Manchenahalli",
+   "villages_checked": 48,
+   "records_checked": 781,
+   "photos_checked": 17
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "block": "Sidlaghatta",
+   "villages_checked": 328,
+   "records_checked": 2753,
+   "photos_checked": 1856
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Akoda",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Alampur",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Ater",
+   "villages_checked": 189,
+   "records_checked": 268,
+   "photos_checked": 145
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Bhind",
+   "villages_checked": 141,
+   "records_checked": 138,
+   "photos_checked": 69
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Daboh",
+   "villages_checked": 15,
+   "records_checked": 4,
+   "photos_checked": 6
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Gohad",
+   "villages_checked": 235,
+   "records_checked": 193,
+   "photos_checked": 165
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Gormi",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Lahar",
+   "villages_checked": 185,
+   "records_checked": 73,
+   "photos_checked": 71
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Malanpur",
+   "villages_checked": 15,
+   "records_checked": 11,
+   "photos_checked": 18
+  },
+  {
+   "scheme": "jsjb",
+   "state": "MADHYA PRADESH",
+   "district": "Bhind",
+   "block": "Mau",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Mehgaon",
+   "villages_checked": 222,
+   "records_checked": 182,
+   "photos_checked": 131
+  },
+  {
+   "scheme": "jsjb",
+   "state": "MADHYA PRADESH",
+   "district": "Bhind",
+   "block": "Mihona",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "MADHYA PRADESH",
+   "district": "Bhind",
+   "block": "Phuphkalan",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Raon",
+   "villages_checked": 83,
+   "records_checked": 25,
+   "photos_checked": 27
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Madhya Pradesh",
+   "district": "Bhind",
+   "block": "Roun",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Ajnala",
+   "villages_checked": 99,
+   "records_checked": 586,
+   "photos_checked": 207
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Attari",
+   "villages_checked": 60,
+   "records_checked": 1732,
+   "photos_checked": 107
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Chogawan",
+   "villages_checked": 105,
+   "records_checked": 1670,
+   "photos_checked": 102
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Harshe Chhina",
+   "villages_checked": 77,
+   "records_checked": 1036,
+   "photos_checked": 147
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Jandiala Guru",
+   "villages_checked": 42,
+   "records_checked": 412,
+   "photos_checked": 137
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Majitha",
+   "villages_checked": 91,
+   "records_checked": 669,
+   "photos_checked": 219
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Ramdas",
+   "villages_checked": 88,
+   "records_checked": 650,
+   "photos_checked": 171
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Rayya",
+   "villages_checked": 82,
+   "records_checked": 1992,
+   "photos_checked": 285
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Tarsikka",
+   "villages_checked": 81,
+   "records_checked": 1560,
+   "photos_checked": 245
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Verka",
+   "villages_checked": 69,
+   "records_checked": 703,
+   "photos_checked": 210
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Barnala",
+   "block": "Barnala",
+   "villages_checked": 53,
+   "records_checked": 267,
+   "photos_checked": 321
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Barnala",
+   "block": "Mehal Kalan",
+   "villages_checked": 37,
+   "records_checked": 242,
+   "photos_checked": 321
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Barnala",
+   "block": "Sehna",
+   "villages_checked": 41,
+   "records_checked": 256,
+   "photos_checked": 375
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Bathinda",
+   "villages_checked": 35,
+   "records_checked": 114,
+   "photos_checked": 123
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Bhagta Bhaika",
+   "villages_checked": 24,
+   "records_checked": 116,
+   "photos_checked": 140
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Goniana",
+   "villages_checked": 29,
+   "records_checked": 295,
+   "photos_checked": 221
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Maur",
+   "villages_checked": 33,
+   "records_checked": 220,
+   "photos_checked": 201
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Nathana",
+   "villages_checked": 31,
+   "records_checked": 258,
+   "photos_checked": 261
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Phul",
+   "villages_checked": 18,
+   "records_checked": 208,
+   "photos_checked": 238
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Rampura",
+   "villages_checked": 34,
+   "records_checked": 184,
+   "photos_checked": 180
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Sangat",
+   "villages_checked": 38,
+   "records_checked": 330,
+   "photos_checked": 319
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Bathinda",
+   "block": "Talwandi Sabo",
+   "villages_checked": 50,
+   "records_checked": 224,
+   "photos_checked": 225
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Faridkot",
+   "block": "Faridkot",
+   "villages_checked": 102,
+   "records_checked": 273,
+   "photos_checked": 292
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Faridkot",
+   "block": "Jaitu",
+   "villages_checked": 43,
+   "records_checked": 194,
+   "photos_checked": 171
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Faridkot",
+   "block": "Kot Kapura",
+   "villages_checked": 28,
+   "records_checked": 150,
+   "photos_checked": 169
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fatehgarh Sahib",
+   "block": "Amloh",
+   "villages_checked": 105,
+   "records_checked": 1214,
+   "photos_checked": 540
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fatehgarh Sahib",
+   "block": "Bassi Pathana",
+   "villages_checked": 85,
+   "records_checked": 1002,
+   "photos_checked": 209
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fatehgarh Sahib",
+   "block": "Khamano",
+   "villages_checked": 81,
+   "records_checked": 1052,
+   "photos_checked": 274
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fatehgarh Sahib",
+   "block": "Khera",
+   "villages_checked": 83,
+   "records_checked": 911,
+   "photos_checked": 183
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fatehgarh Sahib",
+   "block": "Sirhind",
+   "villages_checked": 103,
+   "records_checked": 1125,
+   "photos_checked": 284
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fazilka",
+   "block": "Abohar",
+   "villages_checked": 54,
+   "records_checked": 116,
+   "photos_checked": 66
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fazilka",
+   "block": "Arniwala Shiekh Subhan",
+   "villages_checked": 30,
+   "records_checked": 65,
+   "photos_checked": 38
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fazilka",
+   "block": "Fazilka",
+   "villages_checked": 75,
+   "records_checked": 51,
+   "photos_checked": 43
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fazilka",
+   "block": "Jalalabad",
+   "villages_checked": 107,
+   "records_checked": 61,
+   "photos_checked": 27
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Fazilka",
+   "block": "Khuian Sarwar",
+   "villages_checked": 49,
+   "records_checked": 71,
+   "photos_checked": 33
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Firozpur",
+   "villages_checked": 133,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Ghall Khurd",
+   "villages_checked": 94,
+   "records_checked": 5,
+   "photos_checked": 8
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Guru Har Sahai",
+   "villages_checked": 115,
+   "records_checked": 4,
+   "photos_checked": 4
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Makhu",
+   "villages_checked": 118,
+   "records_checked": 1890,
+   "photos_checked": 15
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Mamdot",
+   "villages_checked": 129,
+   "records_checked": 11,
+   "photos_checked": 7
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Zira",
+   "villages_checked": 102,
+   "records_checked": 403,
+   "photos_checked": 8
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Batala",
+   "villages_checked": 123,
+   "records_checked": 3,
+   "photos_checked": 3
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Dera Baba Nanak",
+   "villages_checked": 123,
+   "records_checked": 160,
+   "photos_checked": 110
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Dhariwal",
+   "villages_checked": 100,
+   "records_checked": 301,
+   "photos_checked": 226
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Dinanagar",
+   "villages_checked": 117,
+   "records_checked": 572,
+   "photos_checked": 261
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Dorangla",
+   "villages_checked": 83,
+   "records_checked": 618,
+   "photos_checked": 368
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Fatehgarh Churian",
+   "villages_checked": 80,
+   "records_checked": 292,
+   "photos_checked": 176
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Gurdaspur",
+   "villages_checked": 186,
+   "records_checked": 341,
+   "photos_checked": 269
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Kahnuwan",
+   "villages_checked": 149,
+   "records_checked": 657,
+   "photos_checked": 269
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Kalanaur",
+   "villages_checked": 96,
+   "records_checked": 857,
+   "photos_checked": 87
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Qadian",
+   "villages_checked": 69,
+   "records_checked": 331,
+   "photos_checked": 286
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Gurdaspur",
+   "block": "Sri Hargobindpur",
+   "villages_checked": 99,
+   "records_checked": 108,
+   "photos_checked": 60
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Bhunga",
+   "villages_checked": 199,
+   "records_checked": 415,
+   "photos_checked": 452
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Dasuya",
+   "villages_checked": 180,
+   "records_checked": 236,
+   "photos_checked": 266
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Garhshankar",
+   "villages_checked": 134,
+   "records_checked": 548,
+   "photos_checked": 419
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Hajipur",
+   "villages_checked": 95,
+   "records_checked": 275,
+   "photos_checked": 109
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Hoshiarpur-I",
+   "villages_checked": 195,
+   "records_checked": 219,
+   "photos_checked": 128
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Hoshiarpur-Ii",
+   "villages_checked": 118,
+   "records_checked": 380,
+   "photos_checked": 421
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Mahilpur",
+   "villages_checked": 166,
+   "records_checked": 465,
+   "photos_checked": 519
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Mukerian",
+   "villages_checked": 141,
+   "records_checked": 175,
+   "photos_checked": 47
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Talwara",
+   "villages_checked": 78,
+   "records_checked": 241,
+   "photos_checked": 284
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Hoshiarpur",
+   "block": "Tanda",
+   "villages_checked": 121,
+   "records_checked": 103,
+   "photos_checked": 14
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Adampur",
+   "villages_checked": 77,
+   "records_checked": 66,
+   "photos_checked": 62
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Bhogpur",
+   "villages_checked": 81,
+   "records_checked": 54,
+   "photos_checked": 50
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Jalandhar - West",
+   "villages_checked": 162,
+   "records_checked": 157,
+   "photos_checked": 189
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Jalandhar-East",
+   "villages_checked": 114,
+   "records_checked": 183,
+   "photos_checked": 54
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Lohian",
+   "villages_checked": 89,
+   "records_checked": 15,
+   "photos_checked": 17
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Mehatpur",
+   "villages_checked": 50,
+   "records_checked": 39,
+   "photos_checked": 9
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Nakodar",
+   "villages_checked": 99,
+   "records_checked": 144,
+   "photos_checked": 102
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Nurmahal",
+   "villages_checked": 83,
+   "records_checked": 83,
+   "photos_checked": 65
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Phillaur",
+   "villages_checked": 108,
+   "records_checked": 165,
+   "photos_checked": 98
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Rurka Kalan",
+   "villages_checked": 49,
+   "records_checked": 197,
+   "photos_checked": 151
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Jalandhar",
+   "block": "Shahkot",
+   "villages_checked": 91,
+   "records_checked": 97,
+   "photos_checked": 47
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Kapurthala",
+   "block": "Dhilwan",
+   "villages_checked": 104,
+   "records_checked": 457,
+   "photos_checked": 106
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Kapurthala",
+   "block": "Kapurthala",
+   "villages_checked": 163,
+   "records_checked": 980,
+   "photos_checked": 165
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Kapurthala",
+   "block": "Nadala",
+   "villages_checked": 107,
+   "records_checked": 325,
+   "photos_checked": 14
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Kapurthala",
+   "block": "Phagwara",
+   "villages_checked": 132,
+   "records_checked": 726,
+   "photos_checked": 197
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Kapurthala",
+   "block": "Sultanpur Lodhi",
+   "villages_checked": 215,
+   "records_checked": 749,
+   "photos_checked": 140
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Dehlon",
+   "villages_checked": 45,
+   "records_checked": 129,
+   "photos_checked": 156
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Doraha",
+   "villages_checked": 62,
+   "records_checked": 205,
+   "photos_checked": 199
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Jagraon",
+   "villages_checked": 74,
+   "records_checked": 143,
+   "photos_checked": 113
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Khanna",
+   "villages_checked": 71,
+   "records_checked": 81,
+   "photos_checked": 78
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Ludhiana-1",
+   "villages_checked": 102,
+   "records_checked": 76,
+   "photos_checked": 75
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Ludhiana-2",
+   "villages_checked": 164,
+   "records_checked": 228,
+   "photos_checked": 148
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Machhiwara",
+   "villages_checked": 136,
+   "records_checked": 172,
+   "photos_checked": 151
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Maloud",
+   "villages_checked": 51,
+   "records_checked": 105,
+   "photos_checked": 120
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Pakhowal",
+   "villages_checked": 40,
+   "records_checked": 108,
+   "photos_checked": 167
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Raikot",
+   "villages_checked": 44,
+   "records_checked": 185,
+   "photos_checked": 164
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Samrala",
+   "villages_checked": 63,
+   "records_checked": 264,
+   "photos_checked": 190
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Sidhwan Bet",
+   "villages_checked": 58,
+   "records_checked": 124,
+   "photos_checked": 102
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Ludhiana",
+   "block": "Sudhar",
+   "villages_checked": 46,
+   "records_checked": 97,
+   "photos_checked": 75
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Malerkotla",
+   "block": "Ahmedgarh",
+   "villages_checked": 48,
+   "records_checked": 471,
+   "photos_checked": 380
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Malerkotla",
+   "block": "Amargarh",
+   "villages_checked": 64,
+   "records_checked": 905,
+   "photos_checked": 678
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Malerkotla",
+   "block": "Malerkotla (Head Quarter)",
+   "villages_checked": 80,
+   "records_checked": 318,
+   "photos_checked": 317
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Mansa",
+   "block": "Bhikhi",
+   "villages_checked": 32,
+   "records_checked": 122,
+   "photos_checked": 90
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Mansa",
+   "block": "Budhlada",
+   "villages_checked": 86,
+   "records_checked": 421,
+   "photos_checked": 142
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Mansa",
+   "block": "Jhunir",
+   "villages_checked": 42,
+   "records_checked": 107,
+   "photos_checked": 42
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Mansa",
+   "block": "Mansa",
+   "villages_checked": 44,
+   "records_checked": 70,
+   "photos_checked": 56
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Mansa",
+   "block": "Sardulgarh",
+   "villages_checked": 40,
+   "records_checked": 275,
+   "photos_checked": 101
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Moga",
+   "block": "Baghapurana",
+   "villages_checked": 48,
+   "records_checked": 763,
+   "photos_checked": 477
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Moga",
+   "block": "Kot-Ise-Khan",
+   "villages_checked": 117,
+   "records_checked": 857,
+   "photos_checked": 256
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Andana",
+   "villages_checked": 42,
+   "records_checked": 269,
+   "photos_checked": 178
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Bhawani Garh",
+   "villages_checked": 69,
+   "records_checked": 525,
+   "photos_checked": 293
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Dhuri",
+   "villages_checked": 19,
+   "records_checked": 206,
+   "photos_checked": 194
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Punjab",
+   "district": "Sangrur",
+   "block": "Sangrur",
+   "villages_checked": 57,
+   "records_checked": 679,
+   "photos_checked": 189
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Bhaniyana",
+   "villages_checked": 86,
+   "records_checked": 369,
+   "photos_checked": 441
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Fatehgarh",
+   "villages_checked": 74,
+   "records_checked": 277,
+   "photos_checked": 404
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Jaisalmer",
+   "villages_checked": 106,
+   "records_checked": 369,
+   "photos_checked": 514
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Mohangarh",
+   "villages_checked": 40,
+   "records_checked": 318,
+   "photos_checked": 374
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Pokaran",
+   "villages_checked": 20,
+   "records_checked": 9,
+   "photos_checked": 10
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jaisalmer",
+   "block": "Ramdevra",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Alsisar",
+   "villages_checked": 104,
+   "records_checked": 177,
+   "photos_checked": 134
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Baggar",
+   "villages_checked": 20,
+   "records_checked": 2,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Bissau",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Buhana",
+   "villages_checked": 76,
+   "records_checked": 386,
+   "photos_checked": 405
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Chirawa",
+   "villages_checked": 92,
+   "records_checked": 235,
+   "photos_checked": 220
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Dundlod",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Jakhal",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Jhunjhunu",
+   "villages_checked": 87,
+   "records_checked": 141,
+   "photos_checked": 112
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Jhunjhunun",
+   "villages_checked": 60,
+   "records_checked": 8,
+   "photos_checked": 15
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Khetri",
+   "villages_checked": 156,
+   "records_checked": 358,
+   "photos_checked": 309
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Malsisar",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Mandawa",
+   "villages_checked": 110,
+   "records_checked": 414,
+   "photos_checked": 367
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Mandrela",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Mukandgarh",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Nawalgarh",
+   "villages_checked": 165,
+   "records_checked": 359,
+   "photos_checked": 249
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Pilani",
+   "villages_checked": 111,
+   "records_checked": 135,
+   "photos_checked": 117
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Singhana",
+   "villages_checked": 66,
+   "records_checked": 180,
+   "photos_checked": 163
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Jhunjhunu",
+   "block": "Sultana",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Surajgarh",
+   "villages_checked": 94,
+   "records_checked": 433,
+   "photos_checked": 255
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Udaipurwati",
+   "villages_checked": 142,
+   "records_checked": 166,
+   "photos_checked": 160
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "block": "Vidyavihar",
+   "villages_checked": 25,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Deoli",
+   "villages_checked": 219,
+   "records_checked": 1224,
+   "photos_checked": 883
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Tonk",
+   "block": "Diggi",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Tonk",
+   "block": "Dooni",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "RAJASTHAN",
+   "district": "Tonk",
+   "block": "Lambaharising",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Malpura",
+   "villages_checked": 205,
+   "records_checked": 1292,
+   "photos_checked": 1080
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Newai",
+   "villages_checked": 216,
+   "records_checked": 2025,
+   "photos_checked": 1531
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Niwai",
+   "villages_checked": 35,
+   "records_checked": 182,
+   "photos_checked": 140
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Peeplu",
+   "villages_checked": 127,
+   "records_checked": 1047,
+   "photos_checked": 915
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Todaraisingh",
+   "villages_checked": 175,
+   "records_checked": 1970,
+   "photos_checked": 1789
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Tonk",
+   "villages_checked": 193,
+   "records_checked": 1800,
+   "photos_checked": 1573
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Tonk",
+   "block": "Uniara",
+   "villages_checked": 244,
+   "records_checked": 1183,
+   "photos_checked": 1063
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Alampalayam",
+   "villages_checked": 15,
+   "records_checked": 502,
+   "photos_checked": 464
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Athanur",
+   "villages_checked": 15,
+   "records_checked": 505,
+   "photos_checked": 354
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Elacipalayam",
+   "villages_checked": 32,
+   "records_checked": 1527,
+   "photos_checked": 1469
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Erumaipatti",
+   "villages_checked": 15,
+   "records_checked": 501,
+   "photos_checked": 187
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Erumapatty",
+   "villages_checked": 32,
+   "records_checked": 1356,
+   "photos_checked": 1442
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Kabilamalai",
+   "villages_checked": 25,
+   "records_checked": 1049,
+   "photos_checked": 1350
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Kalappanaickenpatti",
+   "villages_checked": 18,
+   "records_checked": 539,
+   "photos_checked": 317
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Kolli Hills",
+   "villages_checked": 29,
+   "records_checked": 851,
+   "photos_checked": 522
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Komarapalayam",
+   "villages_checked": 33,
+   "records_checked": 3013,
+   "photos_checked": 1908
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Mallasamudram",
+   "villages_checked": 45,
+   "records_checked": 1963,
+   "photos_checked": 1790
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Mohanur",
+   "villages_checked": 43,
+   "records_checked": 1910,
+   "photos_checked": 1676
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Namagiripet",
+   "villages_checked": 41,
+   "records_checked": 1012,
+   "photos_checked": 443
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Namagiripettai",
+   "villages_checked": 15,
+   "records_checked": 514,
+   "photos_checked": 458
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Namakkal",
+   "villages_checked": 66,
+   "records_checked": 6262,
+   "photos_checked": 4616
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Padaiveedu",
+   "villages_checked": 15,
+   "records_checked": 506,
+   "photos_checked": 459
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Pallipalayam",
+   "villages_checked": 36,
+   "records_checked": 4059,
+   "photos_checked": 3356
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Pandamangalam",
+   "villages_checked": 18,
+   "records_checked": 513,
+   "photos_checked": 354
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Paramathi",
+   "villages_checked": 18,
+   "records_checked": 618,
+   "photos_checked": 261
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Paramathy",
+   "villages_checked": 23,
+   "records_checked": 954,
+   "photos_checked": 1368
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Pattanam",
+   "villages_checked": 15,
+   "records_checked": 520,
+   "photos_checked": 229
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Pillanallur",
+   "villages_checked": 15,
+   "records_checked": 511,
+   "photos_checked": 315
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Pothanur",
+   "villages_checked": 15,
+   "records_checked": 502,
+   "photos_checked": 472
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Puduchatram",
+   "villages_checked": 32,
+   "records_checked": 1021,
+   "photos_checked": 948
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "R.Pudupatti",
+   "villages_checked": 15,
+   "records_checked": 507,
+   "photos_checked": 113
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Rasipuram",
+   "villages_checked": 50,
+   "records_checked": 4184,
+   "photos_checked": 2853
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Seerapalli",
+   "villages_checked": 15,
+   "records_checked": 519,
+   "photos_checked": 643
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Sendamangalam",
+   "villages_checked": 20,
+   "records_checked": 795,
+   "photos_checked": 725
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Senthamangalam",
+   "villages_checked": 15,
+   "records_checked": 520,
+   "photos_checked": 158
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Tiruchengode",
+   "villages_checked": 33,
+   "records_checked": 3064,
+   "photos_checked": 2518
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Tiruchengodu",
+   "villages_checked": 36,
+   "records_checked": 2681,
+   "photos_checked": 2106
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Velur",
+   "villages_checked": 15,
+   "records_checked": 499,
+   "photos_checked": 401
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Venkarai",
+   "villages_checked": 15,
+   "records_checked": 531,
+   "photos_checked": 310
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Vennandur",
+   "villages_checked": 31,
+   "records_checked": 1373,
+   "photos_checked": 1293
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "block": "Vennanthur",
+   "villages_checked": 15,
+   "records_checked": 520,
+   "photos_checked": 311
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Arasiramani",
+   "villages_checked": 15,
+   "records_checked": 5,
+   "photos_checked": 5
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Attayampatti",
+   "villages_checked": 15,
+   "records_checked": 6,
+   "photos_checked": 6
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Attur",
+   "villages_checked": 59,
+   "records_checked": 793,
+   "photos_checked": 677
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Ayodhiyapattinam",
+   "villages_checked": 51,
+   "records_checked": 1542,
+   "photos_checked": 1436
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Ayothiapattinam",
+   "villages_checked": 15,
+   "records_checked": 38,
+   "photos_checked": 33
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Belur",
+   "villages_checked": 15,
+   "records_checked": 15,
+   "photos_checked": 15
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "Edanganasalai",
+   "villages_checked": 27,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Edappadi",
+   "villages_checked": 30,
+   "records_checked": 1,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Elampillai",
+   "villages_checked": 18,
+   "records_checked": 12,
+   "photos_checked": 9
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Ethapur",
+   "villages_checked": 18,
+   "records_checked": 25,
+   "photos_checked": 25
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Gangavalli",
+   "villages_checked": 46,
+   "records_checked": 602,
+   "photos_checked": 384
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Idappadi",
+   "villages_checked": 12,
+   "records_checked": 1054,
+   "photos_checked": 896
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "Jalakandapuram",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Kadaiyampatty",
+   "villages_checked": 32,
+   "records_checked": 1260,
+   "photos_checked": 1033
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Kadayampatti",
+   "villages_checked": 18,
+   "records_checked": 4,
+   "photos_checked": 8
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Kannankurichi",
+   "villages_checked": 18,
+   "records_checked": 1,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Karuppur",
+   "villages_checked": 18,
+   "records_checked": 2,
+   "photos_checked": 4
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Keeripatti",
+   "villages_checked": 15,
+   "records_checked": 14,
+   "photos_checked": 26
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Kolathur",
+   "villages_checked": 28,
+   "records_checked": 414,
+   "photos_checked": 433
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Konganapuram",
+   "villages_checked": 24,
+   "records_checked": 622,
+   "photos_checked": 722
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Macdonalds Choultry",
+   "villages_checked": 13,
+   "records_checked": 1093,
+   "photos_checked": 1094
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Mallur",
+   "villages_checked": 15,
+   "records_checked": 11,
+   "photos_checked": 10
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Mecheri",
+   "villages_checked": 37,
+   "records_checked": 146,
+   "photos_checked": 198
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Mettur",
+   "villages_checked": 30,
+   "records_checked": 8,
+   "photos_checked": 14
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Nangavalli",
+   "villages_checked": 30,
+   "records_checked": 777,
+   "photos_checked": 760
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "Narasingapuram",
+   "villages_checked": 18,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Omalur",
+   "villages_checked": 63,
+   "records_checked": 1211,
+   "photos_checked": 1270
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "P.N.Patti",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Panaimarathupatti",
+   "villages_checked": 15,
+   "records_checked": 12,
+   "photos_checked": 12
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Panamarathupatti",
+   "villages_checked": 34,
+   "records_checked": 355,
+   "photos_checked": 412
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Peddanaickenpalayam",
+   "villages_checked": 49,
+   "records_checked": 1419,
+   "photos_checked": 1468
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Pethanaickenpalayam",
+   "villages_checked": 15,
+   "records_checked": 56,
+   "photos_checked": 51
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Poolampatti",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Salem",
+   "villages_checked": 76,
+   "records_checked": 449,
+   "photos_checked": 508
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Sankari",
+   "villages_checked": 47,
+   "records_checked": 555,
+   "photos_checked": 412
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Sentharapatti",
+   "villages_checked": 15,
+   "records_checked": 5,
+   "photos_checked": 10
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Talavasal",
+   "villages_checked": 39,
+   "records_checked": 374,
+   "photos_checked": 544
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Taramangalam",
+   "villages_checked": 17,
+   "records_checked": 3384,
+   "photos_checked": 1430
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "Thammampatti",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "TAMIL NADU",
+   "district": "Salem",
+   "block": "Tharamangalam",
+   "villages_checked": 27,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Thedavur",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 1
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Thevur",
+   "villages_checked": 15,
+   "records_checked": 18,
+   "photos_checked": 18
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Valapady",
+   "villages_checked": 40,
+   "records_checked": 1263,
+   "photos_checked": 1242
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Vanavasi",
+   "villages_checked": 15,
+   "records_checked": 12,
+   "photos_checked": 12
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Vazhapadi",
+   "villages_checked": 15,
+   "records_checked": 21,
+   "photos_checked": 36
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Veeraganur",
+   "villages_checked": 15,
+   "records_checked": 1,
+   "photos_checked": 2
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Veerakkalpudur",
+   "villages_checked": 12,
+   "records_checked": 3,
+   "photos_checked": 6
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Veerapandi",
+   "villages_checked": 53,
+   "records_checked": 1448,
+   "photos_checked": 1590
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "block": "Yercaud",
+   "villages_checked": 92,
+   "records_checked": 359,
+   "photos_checked": 360
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Badhani Bazar",
+   "villages_checked": 11,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Baitalpur",
+   "villages_checked": 144,
+   "records_checked": 81,
+   "photos_checked": 89
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Bankata",
+   "villages_checked": 166,
+   "records_checked": 31,
+   "photos_checked": 38
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Barhaj",
+   "villages_checked": 103,
+   "records_checked": 16,
+   "photos_checked": 27
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Bariyarpur",
+   "villages_checked": 13,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Bhagalpur",
+   "villages_checked": 155,
+   "records_checked": 16,
+   "photos_checked": 20
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Bhaluani",
+   "villages_checked": 198,
+   "records_checked": 28,
+   "photos_checked": 34
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Bhatni",
+   "villages_checked": 112,
+   "records_checked": 132,
+   "photos_checked": 141
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Bhatpar Rani",
+   "villages_checked": 137,
+   "records_checked": 438,
+   "photos_checked": 409
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Deoria",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Deoria Sadar",
+   "villages_checked": 161,
+   "records_checked": 36,
+   "photos_checked": 48
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Desai Deoria",
+   "villages_checked": 77,
+   "records_checked": 14,
+   "photos_checked": 20
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Gaura Barhaj",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Gauri Bazar",
+   "villages_checked": 125,
+   "records_checked": 46,
+   "photos_checked": 60
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Hetimpur",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Lar",
+   "villages_checked": 160,
+   "records_checked": 60,
+   "photos_checked": 59
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Madanpur",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Majhauliraj",
+   "villages_checked": 12,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Pathar Dewa",
+   "villages_checked": 107,
+   "records_checked": 62,
+   "photos_checked": 66
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Pathardewa",
+   "villages_checked": 14,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Rampur Karkhana",
+   "villages_checked": 118,
+   "records_checked": 133,
+   "photos_checked": 244
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Rudrapur",
+   "villages_checked": 195,
+   "records_checked": 19,
+   "photos_checked": 21
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Salempur",
+   "villages_checked": 241,
+   "records_checked": 116,
+   "photos_checked": 131
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "block": "Tarkalua",
+   "villages_checked": 68,
+   "records_checked": 64,
+   "photos_checked": 55
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Deoria",
+   "block": "Tarkulwa",
+   "villages_checked": 15,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Ait",
+   "villages_checked": 12,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "block": "Dakore",
+   "villages_checked": 161,
+   "records_checked": 5764,
+   "photos_checked": 394
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "block": "Jalaun",
+   "villages_checked": 140,
+   "records_checked": 189,
+   "photos_checked": 187
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "block": "Kadaura",
+   "villages_checked": 35,
+   "records_checked": 53,
+   "photos_checked": 28
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Kalpi",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Konch",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Kotra",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Madhogarh",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Nadigaon",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Orai",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Rampura",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Jalaun",
+   "block": "Umri",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Mirzapur",
+   "block": "Ahraura",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Chhanvey",
+   "villages_checked": 252,
+   "records_checked": 61,
+   "photos_checked": 69
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Mirzapur",
+   "block": "Chunar",
+   "villages_checked": 25,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Hallia",
+   "villages_checked": 214,
+   "records_checked": 766,
+   "photos_checked": 709
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Jamalpur",
+   "villages_checked": 226,
+   "records_checked": 238,
+   "photos_checked": 212
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Mirzapur",
+   "block": "Kachhwa",
+   "villages_checked": 12,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Kon",
+   "villages_checked": 84,
+   "records_checked": 134,
+   "photos_checked": 107
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Lalganj",
+   "villages_checked": 208,
+   "records_checked": 188,
+   "photos_checked": 55
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Majhawa",
+   "villages_checked": 55,
+   "records_checked": 157,
+   "photos_checked": 87
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Mirzapur",
+   "block": "Mirzapur-Cum-Vindhyachal",
+   "villages_checked": 28,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Nagar (City)",
+   "villages_checked": 182,
+   "records_checked": 42,
+   "photos_checked": 45
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Narainpur",
+   "villages_checked": 214,
+   "records_checked": 43,
+   "photos_checked": 63
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Pahari",
+   "villages_checked": 130,
+   "records_checked": 25,
+   "photos_checked": 24
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Patehra",
+   "villages_checked": 140,
+   "records_checked": 399,
+   "photos_checked": 396
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Rajgarh",
+   "villages_checked": 161,
+   "records_checked": 216,
+   "photos_checked": 213
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Mirzapur",
+   "block": "Shikhar",
+   "villages_checked": 101,
+   "records_checked": 215,
+   "photos_checked": 63
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Arajiline",
+   "villages_checked": 242,
+   "records_checked": 717,
+   "photos_checked": 658
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Varanasi",
+   "block": "Banaras Locomotive Works",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Baragaon",
+   "villages_checked": 147,
+   "records_checked": 624,
+   "photos_checked": 620
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Cantonment Board Varanasi",
+   "villages_checked": 7,
+   "records_checked": 30,
+   "photos_checked": 54
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Chiraigaon",
+   "villages_checked": 146,
+   "records_checked": 389,
+   "photos_checked": 308
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Cholapur",
+   "villages_checked": 161,
+   "records_checked": 430,
+   "photos_checked": 368
+  },
+  {
+   "scheme": "jsjb",
+   "state": "UTTAR PRADESH",
+   "district": "Varanasi",
+   "block": "Gangapur",
+   "villages_checked": 10,
+   "records_checked": 0,
+   "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Harahua",
+   "villages_checked": 168,
+   "records_checked": 435,
+   "photos_checked": 430
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Kashi Vidyapeeth",
+   "villages_checked": 127,
+   "records_checked": 681,
+   "photos_checked": 666
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Pindra",
+   "villages_checked": 192,
+   "records_checked": 1134,
+   "photos_checked": 695
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Sevapuri",
+   "villages_checked": 193,
+   "records_checked": 796,
+   "photos_checked": 736
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Varanasi",
+   "block": "Varanasi",
+   "villages_checked": 92,
+   "records_checked": 991,
+   "photos_checked": 1023
+  }
+ ],
+ "index": [
+  {
+   "state": "Andaman And Nicobar Islands",
+   "file": "data/index/andaman-and-nicobar-islands.json",
+   "cases": 2
+  },
+  {
+   "state": "Andhra Pradesh",
+   "file": "data/index/andhra-pradesh.json",
+   "cases": 46
+  },
+  {
+   "state": "Bihar",
+   "file": "data/index/bihar.json",
+   "cases": 2534
+  },
+  {
+   "state": "Chandigarh",
+   "file": "data/index/chandigarh.json",
+   "cases": 1
+  },
+  {
+   "state": "Karnataka",
+   "file": "data/index/karnataka.json",
+   "cases": 2240
+  },
+  {
+   "state": "Madhya Pradesh",
+   "file": "data/index/madhya-pradesh.json",
+   "cases": 188
+  },
+  {
+   "state": "Punjab",
+   "file": "data/index/punjab.json",
+   "cases": 5211
+  },
+  {
+   "state": "Rajasthan",
+   "file": "data/index/rajasthan.json",
+   "cases": 2072
+  },
+  {
+   "state": "Tamil Nadu",
+   "file": "data/index/tamil-nadu.json",
+   "cases": 11480
+  },
+  {
+   "state": "Uttar Pradesh",
+   "file": "data/index/uttar-pradesh.json",
+   "cases": 1795
+  }
+ ],
+ "total": 25569,
+ "villages_with_case": 12221,
+ "kinds": [
+  {
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "n": 21425
+  },
+  {
+   "scheme": "jsjb",
+   "kind": "same_day",
+   "n": 161
+  },
+  {
+   "scheme": "jsjb",
+   "kind": "same_gps",
+   "n": 690
+  },
+  {
+   "scheme": "jsjb",
+   "kind": "upload_burst",
+   "n": 3293
+  }
+ ],
+ "top": [
+  {
+   "id": "jsjb-photo_reuse-a2345818271d",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One picture, 2287 different works",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Makhu",
+   "villages": [
+    "Gurdittiwala",
+    "Hashmatwala",
+    "Jattanwali",
+    "Jhamke",
+    "Manochahal",
+    "Padhri (48/49)",
+    "Sadhara",
+    "Sirhali",
+    "Walayat Shahwala",
+    "Warpal"
+   ],
+   "record_count": 2287,
+   "photo": "photos/4ca7834d6c7472181b847149c1511782c4bfcd415db59687cd544597a3e22f22.jpg",
+   "offices": [
+    "Clerk",
+    "Senior Assistant",
+    "Sub Divisional Officer"
+   ],
+   "records": [
+    {
+     "record_id": "3788457"
+    },
+    {
+     "record_id": "3800351"
+    },
+    {
+     "record_id": "3800490"
+    }
+   ],
+   "severity": 6862,
+   "needs_human_review": false,
+   "photo_files": [
+    {
+     "sha256": "4ca7834d6c7472181b847149c1511782c4bfcd415db59687cd544597a3e22f22",
+     "records": 1354
+    },
+    {
+     "sha256": "cac350d237ea729327e12eb43ffec13783e18a630f73339a7b3da0481317fa6e",
+     "records": 665
+    },
+    {
+     "sha256": "46c2f19a0fe838cb70bef381fcd14f23c47dc88c6e36cbd7aecd889d09507016",
+     "records": 184
+    },
+    {
+     "sha256": "802306f26a095e184dc9c3d7273e3abaa99a5b25ab1f0ac8614914f4aef8e9a7",
+     "records": 84
+    }
+   ],
+   "other_ids": [
+    "jsjb-photo_reuse-56e9f59bb4a4",
+    "jsjb-photo_reuse-b67b745741a5",
+    "jsjb-photo_reuse-a4422ba824ec"
+   ]
+  },
+  {
+   "id": "jsjb-photo_reuse-59ec91075677",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One picture, 2253 different works",
+   "state": "Punjab",
+   "district": "Ferozepur",
+   "block": "Makhu",
+   "villages": [
+    "Gurdittiwala",
+    "Hashmatwala",
+    "Jattanwali",
+    "Jhamke",
+    "Manochahal",
+    "Padhri (48/49)",
+    "Sadhara",
+    "Sirhali",
+    "Walayat Shahwala",
+    "Warpal"
+   ],
+   "record_count": 2253,
+   "photo": "photos/abb49c3beca723031f12ff00d3e64cd436f4aea9ef8ad243f243219dc0c0319d.jpg",
+   "offices": [
+    "Clerk",
+    "Senior Assistant",
+    "Sub Divisional Officer"
+   ],
+   "records": [
+    {
+     "record_id": "3788457"
+    },
+    {
+     "record_id": "3800351"
+    },
+    {
+     "record_id": "3800490"
+    }
+   ],
+   "severity": 6760,
+   "needs_human_review": false,
+   "photo_files": [
+    {
+     "sha256": "abb49c3beca723031f12ff00d3e64cd436f4aea9ef8ad243f243219dc0c0319d",
+     "records": 725
+    },
+    {
+     "sha256": "b2e71b22ef2548cc0c38e26ced6a4e455fb8f52be6a1af64702e937570518593",
+     "records": 685
+    },
+    {
+     "sha256": "d21ef19ac7a23effc705d278fab74377537d4137fd1ec73a6dc5169ad4e315a1",
+     "records": 662
+    },
+    {
+     "sha256": "4b9ea1bd9e30a873c07bef16fa0f78ebe40e571a048bfda83296dc3162b329af",
+     "records": 181
+    }
+   ],
+   "other_ids": [
+    "jsjb-photo_reuse-2d6a3a029d67",
+    "jsjb-photo_reuse-95d49c9c150d",
+    "jsjb-photo_reuse-621288f21ecf"
+   ]
+  },
+  {
+   "id": "jsjb-photo_reuse-bf98b8309e1e",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One photo, 853 different works",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Attari",
+   "villages": [
+    "Khassa"
+   ],
+   "record_count": 853,
+   "photo": "photos/af129046de40ac9ec3432d57b802541233556cdf23caed38c5b1584ea790332e.jpeg",
+   "offices": [
+    "DFO office"
+   ],
+   "records": [
+    {
+     "record_id": "7124515"
+    },
+    {
+     "record_id": "7124558"
+    },
+    {
+     "record_id": "7124594"
+    }
+   ],
+   "severity": 2560,
+   "needs_human_review": false
+  },
+  {
+   "id": "jsjb-photo_reuse-f239cc51bc93",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One photo, 448 different works",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Attari",
+   "villages": [
+    "Khassa"
+   ],
+   "record_count": 448,
+   "photo": "photos/0b719c63cad7ca7878e10431f9c6789e1919b51698241ff06dd543c5d14c5270.jpg",
+   "offices": [
+    "DFO office"
+   ],
+   "records": [
+    {
+     "record_id": "5410072"
+    },
+    {
+     "record_id": "5411967"
+    },
+    {
+     "record_id": "5412548"
+    }
+   ],
+   "severity": 1345,
+   "needs_human_review": false
+  },
+  {
+   "id": "jsjb-photo_reuse-1dc07f513520",
+   "scheme": "jsjb",
+   "kind": "photo_reuse",
+   "headline": "One photo, 376 different works",
+   "state": "Punjab",
+   "district": "Amritsar",
+   "block": "Verka",
+   "villages": [
+    "Othian"
+   ],
+   "record_count": 376,
+   "photo": "photos/604700c4f9007708f663c9fcee5bc94a8a680a7c8b66a6d48b354e560a39be94.jpg",
+   "offices": [
+    "DFO office"
+   ],
+   "records": [
+    {
+     "record_id": "8100165"
+    },
+    {
+     "record_id": "8100344"
+    },
+    {
+     "record_id": "8100405"
+    }
+   ],
+   "severity": 1129,
+   "needs_human_review": false
+  }
+ ]
+}

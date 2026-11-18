@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-32e8b154a514",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Bhagtuapura",
+  "Manepura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6f6464413c5f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/6f6464413c5f7444482469d60d008c20732c76748384bd0e291725632eb7a23b.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12110417",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

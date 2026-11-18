@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f9538c8d2149",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Badrukhan"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 3819411438e6) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9).",
+  "All 9 works report the same GPS point (30.258358, 75.793536).",
+  "All 9 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/3819411438e6bfd0b127cd1de80ea7b9e4d195697b17c1e723d85f67a9a143c0.jpg",
+ "offices": [
+  "BDPO SUNAM II"
+ ],
  "records": [
   {
    "record_id": "10352055",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 29,
+ "needs_human_review": false
 }

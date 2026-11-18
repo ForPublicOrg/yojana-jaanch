@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-429e7b641ce3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Paheri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ec871b646501) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Other (1).",
+  "All 3 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 4 times within 10 minutes (2026-04-24 20:37:38 to 2026-04-24 20:47:26)."
+ ],
+ "photo": "photos/ec871b646501240076aadae9142ce747ac4ebca308fe4c14d7359f8456356413.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5454109",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

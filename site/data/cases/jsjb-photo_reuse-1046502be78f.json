@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1046502be78f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Latala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 50689bdb726a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (75.75, 30.68).",
+  "The photo was uploaded 2 times within 1 second (2025-04-26 08:44:47 to 2025-04-26 08:44:48)."
+ ],
+ "photo": "photos/50689bdb726ababa584a13cb01f10747547ef94e798ed271135c9ce8651be3c9.jpg",
+ "offices": [
+  "BDPO Pakhowal"
+ ],
  "records": [
   {
    "record_id": "1256129",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

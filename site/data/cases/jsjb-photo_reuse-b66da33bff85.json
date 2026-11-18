@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-b66da33bff85",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Chandli",
+  "Lawa",
+  "Sadarpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d90908f84c10) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BDO, Jen.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/d90908f84c10c0cbd3569992e24d337753c06db92c1d1427babf9a2ebd501315.jpg",
+ "offices": [
+  "BDO",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3655732",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

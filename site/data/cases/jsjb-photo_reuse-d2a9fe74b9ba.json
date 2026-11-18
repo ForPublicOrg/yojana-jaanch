@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d2a9fe74b9ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kanjari",
+  "Tibbi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7da890a89ac4) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/7da890a89ac403e608e896238d82a4618a47e9195a6c5cc8deb761605c6679bf.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5511456",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

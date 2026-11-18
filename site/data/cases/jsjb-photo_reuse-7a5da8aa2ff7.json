@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7a5da8aa2ff7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Kareeriya",
+  "Raufpura Khera"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 83a6a15da1c2) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Soak Pit (1).",
+  "The entries were made by 2 different offices: BDO Tonk, DISTRICT PROJECT COORDINATOR."
+ ],
+ "photo": "photos/83a6a15da1c23c0a5e27868e3688936b2d775bd5a76abc3ea3bc24c8877cd9d0.jpg",
+ "offices": [
+  "BDO Tonk",
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3635518",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

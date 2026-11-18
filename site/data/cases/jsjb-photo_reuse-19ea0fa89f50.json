@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-19ea0fa89f50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Bhamarsi Zer",
+  "Halo Tali",
+  "Jalbehri Gehla",
+  "Jewanpura",
+  "Manhera Jattan",
+  "Manunpur",
+  "Sainipur",
+  "Sidhupur"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint db6132bc713a) is attached to 16 different works in 8 villages. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Contour Trench (16).",
+  "These works are spread over 2 blocks: Khera, Sirhind."
+ ],
+ "photo": "photos/db6132bc713a1491d18b55352ffcb4532d5785e2d93680145f371267c5c90010.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4819919",
@@ -225,5 +251,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

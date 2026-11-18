@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7d41ca477d29",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Sathiali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b7607c407422) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/b7607c40742206d8e42d2d3f18d351a571429a2e34fd98964bc81d2269e66db9.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "1278194",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

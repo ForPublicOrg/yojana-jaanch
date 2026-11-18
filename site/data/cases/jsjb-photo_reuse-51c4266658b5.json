@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-51c4266658b5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Sandhwara",
+  "Saura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 12ab4c0ec0b2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 7 minutes (2026-03-25 12:20:08 to 2026-03-25 12:27:07)."
+ ],
+ "photo": "photos/12ab4c0ec0b2c5a59a24f24a082bf3b05616e28696cc49022a5d514363288121.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4230669",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

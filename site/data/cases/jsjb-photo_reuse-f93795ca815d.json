@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f93795ca815d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Nanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82da8c3049a0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/82da8c3049a0f693f55be9abcf75aff12a200d1ed113d10b4c845ec1586be225.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4354054",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,39 @@
 {
  "id": "jsjb-photo_reuse-61a7fc778feb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Ablu",
+  "Bhagi Bander",
+  "Bhagu",
+  "Bhodipura",
+  "Dan Singhwala",
+  "Faridkot",
+  "Ganga",
+  "Mandi Kalan",
+  "Manuana",
+  "Verkandi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint d9eb426b5cbd) is attached to 12 different works in 10 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Contour Trench (9), Other (2), Soak Pit (1).",
+  "The entries were made by 6 different offices: APO, Centre Head Teacher, Centre head Teacher, Centre head teacher, Computer Teacher, DFO.",
+  "These works are spread over 6 blocks: Bathinda, Bhagta Bhaika, Goniana, Rampura, Sangat, Talwandi Sabo."
+ ],
+ "photo": "photos/d9eb426b5cbd5506214cce09f5b6d10ddcd9dd23813c5f6cba826e838bbff68d.jpg",
+ "offices": [
+  "APO",
+  "Centre Head Teacher",
+  "Centre head Teacher",
+  "Centre head teacher",
+  "Computer Teacher",
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5067672",
@@ -169,5 +203,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 37,
+ "needs_human_review": false
 }

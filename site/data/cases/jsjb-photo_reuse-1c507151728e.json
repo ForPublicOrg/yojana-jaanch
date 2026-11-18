@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-1c507151728e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Maramangalam",
+  "Senthittu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3a6d75153487) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "The photo was uploaded 3 times within 20 minutes (2026-05-25 15:11:28 to 2026-05-25 15:31:04)."
+ ],
+ "photo": "photos/3a6d75153487895ccf397c0c9d54f2e242e2c048b52cc97c27622ad819343edc.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
+ "records": [
+  {
+   "record_id": "12507608",
+   "village": "Maramangalam",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Block Development Officer",
+   "start_date": "2025-09-20",
+   "end_date": "2025-10-08",
+   "lat": 11.8527229,
+   "lon": 78.3515349,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "12518692",
+   "village": "Senthittu",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Block Development Officer",
+   "start_date": "2025-06-30",
+   "end_date": "2025-07-05",
+   "lat": 11.6883456,
+   "lon": 78.1320192,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

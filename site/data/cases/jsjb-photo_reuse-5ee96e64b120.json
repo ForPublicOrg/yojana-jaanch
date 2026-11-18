@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5ee96e64b120",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Mehmadwal"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint a97f12821d25) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.36389, 75.25817)."
+ ],
+ "photo": "photos/a97f12821d2533b727b142cb92f5a12781a56ad1dd4a97379b214aef379b0d57.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "8667871",
@@ -281,5 +300,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 61,
+ "needs_human_review": false
 }

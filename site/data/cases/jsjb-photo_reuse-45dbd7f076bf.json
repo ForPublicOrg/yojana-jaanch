@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-45dbd7f076bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Antoli",
+  "Chand Sen",
+  "Jharli",
+  "Kantoli",
+  "Malikpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 539980cd0a33 on 4 works, 0c8505a58fc6 on 1 work.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/539980cd0a33eb79f9eb31bace6c1bdda692b015b91a82ff73c4e340d0ade6f7.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1395600",
@@ -71,5 +95,21 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "539980cd0a33eb79f9eb31bace6c1bdda692b015b91a82ff73c4e340d0ade6f7",
+   "records": 4
+  },
+  {
+   "sha256": "0c8505a58fc645a17fd3113c0399aa72eeae069dc5e9862ff00656e38002b2cc",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-98a98ecf4ade"
  ]
 }

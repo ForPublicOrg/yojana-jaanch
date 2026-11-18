@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-10613cf73a3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Darda Turki",
+  "Kathmana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1ac3fb331bad) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Rooftop Water Harvesting Structure (1)."
+ ],
+ "photo": "photos/1ac3fb331badd45102b013edc7b6b3b6635ebaffbb9536b4310c28f265cedad1.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "6298057",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-18fe0377f67d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Kauni",
+  "Ran Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2bf9087c9169) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "These works are spread over 2 blocks: Faridkot, Jaitu."
+ ],
+ "photo": "photos/2bf9087c91697b93d3a94050c639e18fa8dcc09de394f6e3711aa7d3be38944f.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "977924",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

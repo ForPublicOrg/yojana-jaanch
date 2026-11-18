@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-2b15b788fc0a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Bagha",
+  "Balarwal",
+  "Bhol",
+  "Boja",
+  "Chhailowal",
+  "Dakoha",
+  "Gande Ke",
+  "Kangra",
+  "Mika"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint c753bbb11a16) is attached to 23 different works in 9 villages. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (23)."
+ ],
+ "photo": "photos/c753bbb11a1658f30e0c01c2d548de55fe26b8ccaebc1db0f5447e5374e0fe23.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "10117934",
@@ -323,5 +349,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 69,
+ "needs_human_review": false
 }

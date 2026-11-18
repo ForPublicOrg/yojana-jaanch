@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-20087209320e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Khanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c142bc99d859) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-05 20:30:58 to 2026-04-05 20:32:14)."
+ ],
+ "photo": "photos/c142bc99d8598122cbb043446b5309d5ca05af4408b1c6ac5756628a2856ed3c.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977233",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

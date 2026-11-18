@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-66938ce86e7f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Kot-Ise-Khan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e8a9532f9dd5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (30.9441507, 75.1355705).",
+  "The photo was uploaded 2 times within 9 minutes (2025-12-31 11:43:36 to 2025-12-31 11:52:32).",
+  "The entries were made by 2 different offices: SDO, SOIL CONSERVATOR OFFICER."
+ ],
+ "photo": "photos/e8a9532f9dd509994e8e1dba475ba076a543e816fe337b261003cd46a38fd259.jpg",
+ "offices": [
+  "SDO",
+  "SOIL CONSERVATOR OFFICER"
+ ],
  "records": [
   {
    "record_id": "987056",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

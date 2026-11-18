@@ -1,5 +1,39 @@
 {
  "id": "jsjb-photo_reuse-ff4d56204f42",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 129 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Adliwal",
+  "Attari",
+  "Bharopal",
+  "Bua Nagli",
+  "Cheleke",
+  "Chogawan",
+  "Gallowal",
+  "Heir",
+  "Isapur",
+  "Jagdev Kalan",
+  "Khera",
+  "Khizarpura",
+  "Lopoke",
+  "Mahava",
+  "Malu Nangal",
+  "Wanjhanwala"
+ ],
+ "record_count": 129,
+ "reasons": [
+  "The same photo file (fingerprint c3926eec6a5b) is attached to 129 different works in 16 villages. A photo of one site cannot be evidence for 129 separate works.",
+  "The works are recorded as: Recharge Pit (127), Contour Trench (1), Other (1).",
+  "These works are spread over 4 blocks: Ajnala, Attari, Chogawan, Harshe Chhina."
+ ],
+ "photo": "photos/c3926eec6a5b4ad7d80a9919d92426e0d5d6cf46d788a9c037166fea4223a7c7.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5030751",
@@ -1807,5 +1841,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 387,
+ "needs_human_review": false
 }

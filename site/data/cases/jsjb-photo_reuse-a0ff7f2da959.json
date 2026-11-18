@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-a0ff7f2da959",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 25 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Galowali",
+  "Hamza",
+  "Majitha",
+  "Mohan Bhandari",
+  "Wachhoa"
+ ],
+ "record_count": 25,
+ "reasons": [
+  "The same photo file (fingerprint d9257d42f8b9) is attached to 25 different works in 5 villages. A photo of one site cannot be evidence for 25 separate works.",
+  "The works are recorded as: Other (25).",
+  "Each of the 25 works started and ended on a single day. The works are spread over 8 dates: 2025-05-31, 2025-06-01, 2025-06-13, 2025-07-17, 2026-04-30, 2026-05-01, 2026-05-05, 2026-05-06.",
+  "The entries were made by 2 different offices: SDO, Sub division officer.",
+  "These works are spread over 2 blocks: Majitha, Ramdas."
+ ],
+ "photo": "photos/d9257d42f8b92b46c127c95baeebe6a7ad059293966584d1f6a8577d911d9427.jpg",
+ "offices": [
+  "SDO",
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "5494725",
@@ -351,5 +377,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 77,
+ "needs_human_review": false
 }

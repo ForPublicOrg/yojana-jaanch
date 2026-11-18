@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2b4e2683eff7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Bhucho Khurd",
+  "Kalian Sukha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 035ed5bc7946) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/035ed5bc794656b258678017d3a5bee3f56ec277f44fe29ae15322a248e2408d.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "975222",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

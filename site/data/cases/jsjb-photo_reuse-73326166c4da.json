@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-73326166c4da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Muridpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f66a6e23f99a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.437392, 83.116438).",
+  "The photo was uploaded 4 times within 3 minutes (2026-01-16 20:16:29 to 2026-01-16 20:19:21)."
+ ],
+ "photo": "photos/f66a6e23f99aeaf814706b5d5ae95a3621992220adea48dfb4eb48e1dba324ee.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "357573",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

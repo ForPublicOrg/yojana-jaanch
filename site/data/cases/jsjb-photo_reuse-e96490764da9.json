@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e96490764da9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Adaiyur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 353ea2c8fcf9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (2), Other (1)."
+ ],
+ "photo": "photos/353ea2c8fcf9acdc208c067267af71eb2b5bf1fb94c76795fdbabf348019a17e.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349617",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-80c20ece3223",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Rahira"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2f0d95681167) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/2f0d95681167e90774316d12a4444183df759fdcabe8e219e28a6ddb7c59a407.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "11139966",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

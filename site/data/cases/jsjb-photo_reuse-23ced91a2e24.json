@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-23ced91a2e24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Saray Shekhlad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 61905e623a76) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.30535, 82.56224).",
+  "The photo was uploaded 4 times within 2 seconds (2026-01-16 17:18:27 to 2026-01-16 17:18:29)."
+ ],
+ "photo": "photos/61905e623a7609baca52958ae645d60cc1068034aea486dd12078bdf0356b40a.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3302851",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

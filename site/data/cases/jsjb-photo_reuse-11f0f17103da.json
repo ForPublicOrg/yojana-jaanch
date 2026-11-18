@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-11f0f17103da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Damami",
+  "Lohansi Urf Gosainpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6fc6aea2484b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-04 15:16:24 to 2026-04-04 15:23:19)."
+ ],
+ "photo": "photos/6fc6aea2484b60cc38df01010ff71cdc98972852234f8f0c1d11b6f0a2fb7f7b.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4476672",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

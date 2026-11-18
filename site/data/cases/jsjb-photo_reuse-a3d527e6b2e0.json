@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-a3d527e6b2e0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Mohanur (TP) - Ward No.4",
+  "Mohanur (TP) - Ward No.5",
+  "Mohanur (TP) - Ward No.6"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d716e29c513b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/d716e29c513bddf34a15438eb18f71b66d7ca5c2de7d6f7a5f594ba65a88746b.jpg",
+ "offices": [
+  "EO MOHANUR"
+ ],
+ "records": [
+  {
+   "record_id": "3535390",
+   "village": "Mohanur (TP) - Ward No.5",
+   "structure_type": "Other",
+   "created_by": "EO MOHANUR",
+   "start_date": "2025-09-30",
+   "end_date": "2025-12-02",
+   "lat": 11.059706,
+   "lon": 78.142272,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "3535583",
+   "village": "Mohanur (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO MOHANUR",
+   "start_date": "2025-09-29",
+   "end_date": "2025-12-01",
+   "lat": 11.059706,
+   "lon": 78.142281,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "3728711",
+   "village": "Mohanur (TP) - Ward No.4",
+   "structure_type": "Other",
+   "created_by": "EO MOHANUR",
+   "start_date": "2025-10-27",
+   "end_date": "2025-12-01",
+   "lat": 11.09706,
+   "lon": 78.142221,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

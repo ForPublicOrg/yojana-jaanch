@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2d93c47073c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Khoh",
+  "Manaksas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f9ba8029ec64) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 14 minutes (2026-03-27 15:45:39 to 2026-03-27 15:59:09)."
+ ],
+ "photo": "photos/f9ba8029ec6407cd2ebcf30ad3a338ae236fb3586a424b4874aef6a18054d470.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4299521",
+   "village": "Khoh",
+   "structure_type": "Village Pond",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2024-08-01",
+   "end_date": "2025-06-15",
+   "lat": 27.785923,
+   "lon": 75.620875,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4300104",
+   "village": "Manaksas",
+   "structure_type": "Village Pond",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-08-01",
+   "end_date": "2025-12-27",
+   "lat": 27.767153,
+   "lon": 75.634355,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

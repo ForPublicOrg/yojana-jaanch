@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9ea28eb03ea6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Bharoli Khurd",
+  "Manhad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6e3b79155189) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/6e3b791551893a30d5035d4bbb452d4bde8df01222274e5f41546e675234c9ae.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "13027496",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

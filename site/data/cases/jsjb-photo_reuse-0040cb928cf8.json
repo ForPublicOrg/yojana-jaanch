@@ -1,0 +1,88 @@
+{
+ "id": "jsjb-photo_reuse-0040cb928cf8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Bas Tokha",
+  "Bhawanipura",
+  "Bhoja Ka Bas",
+  "Mahpalwas"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint ecbd68136dcf) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The entries were made by 2 different offices: BDO, CEO ZILA PARISHAD.",
+  "These works are spread over 2 blocks: Pilani, Surajgarh."
+ ],
+ "photo": "photos/ecbd68136dcf705bbac275202c1075699fc0d060933a12953df25ba8ddfd140a.jpg",
+ "offices": [
+  "BDO",
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4269534",
+   "village": "Bas Tokha",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-09",
+   "end_date": "2025-12-19",
+   "lat": 28.369,
+   "lon": 75.365,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4269855",
+   "village": "Bhawanipura",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-06-04",
+   "end_date": "2025-12-16",
+   "lat": 28.635,
+   "lon": 75.268,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4270214",
+   "village": "Bhoja Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-08",
+   "end_date": "2025-12-15",
+   "lat": 28.52,
+   "lon": 75.25,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4294350",
+   "village": "Mahpalwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

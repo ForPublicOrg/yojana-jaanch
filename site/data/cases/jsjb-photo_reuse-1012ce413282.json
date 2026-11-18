@@ -1,5 +1,38 @@
 {
  "id": "jsjb-photo_reuse-1012ce413282",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Ballowali",
+  "Bhilowal Kake Zain",
+  "Boharwala",
+  "Boparai Kalan",
+  "Hardorattan",
+  "Jhanjoti",
+  "Kaler",
+  "Kalewal",
+  "Nestha",
+  "Padhari",
+  "Panju Rain",
+  "Ranwali"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint b22d2dfdb046) is attached to 15 different works in 12 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "This file is not a photograph of a work: it is a 533 x 470 pixel image such as a broken-image icon or a plain graphic. The portal shows this same image as the evidence photo for all 15 works, so none of them has a photo of the site in this slot.",
+  "The works are recorded as: Injection Well (14), Other (1).",
+  "The entries were made by 2 different offices: XEN Jandiala, XEN MAjitha PWRD.",
+  "These works are spread over 5 blocks: Attari, Chogawan, Harshe Chhina, Ramdas, Tarsikka."
+ ],
+ "photo": "photos/b22d2dfdb04673a4faa06d0d523019904ddc7fb1d0b761a2d271ea044167c7f2.jpeg",
+ "offices": [
+  "XEN Jandiala",
+  "XEN MAjitha PWRD"
+ ],
  "records": [
   {
    "record_id": "5391345",
@@ -211,5 +244,12 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 46,
+ "needs_human_review": false,
+ "placeholder": {
+  "width": 533,
+  "height": 470
+ }
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-e59a2410de67",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Lar",
+ "villages": [
+  "Nema"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 179ceeab2029) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.1507, 83.9107).",
+  "The photo was uploaded 4 times within 5 minutes (2026-11-14 16:14:28 to 2026-11-14 16:19:12)."
+ ],
+ "photo": "photos/179ceeab202926d0b29e55259fad97633ab6eb2153bc2a310e11af0183e3dcaa.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4136623",
+   "village": "Nema",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-01-31",
+   "end_date": "2026-03-08",
+   "lat": 26.1507,
+   "lon": 83.9107,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Lar"
+  },
+  {
+   "record_id": "4178752",
+   "village": "Nema",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-01-16",
+   "end_date": "2025-01-28",
+   "lat": 26.1507,
+   "lon": 83.9107,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Lar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-294aea8d53f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Kangan",
+  "Mehmud Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c18381577554) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/c183815775547ec43d6e4b8511f1afa6e7e8e76f52dfaf68c4822c0e7f1dba2b.jpg",
+ "offices": [
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "983909",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

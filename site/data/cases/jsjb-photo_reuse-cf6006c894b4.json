@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf6006c894b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Thikri Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 38d8b49ad539) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Soak Pit (1).",
+  "The entries were made by 2 different offices: BARJINDER PAL SINGH, Harjinder Singh ETT Teacher."
+ ],
+ "photo": "photos/38d8b49ad539dba6ff3e8d283d9c14d84cfa816791bfd7ea31f0d548ccb4fd27.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH",
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4418574",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

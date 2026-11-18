@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-733bbc95ae2e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Mir Pur Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3becbb13d371) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (29.7158, 75.2677).",
+  "All 3 works started and ended on the same day (2026-04-20).",
+  "The photo was uploaded 6 times within 4 minutes (2026-04-28 06:15:52 to 2026-04-28 06:19:08)."
+ ],
+ "photo": "photos/3becbb13d37181cd0376bf39d5a13a0ae875c76dcc2c46001f2f7e0f8d70e02c.jpg",
+ "offices": [
+  "GRS"
+ ],
  "records": [
   {
    "record_id": "5685660",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

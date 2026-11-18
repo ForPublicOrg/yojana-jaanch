@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5cadc6ba9020",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Gaurdiha"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 7c79a89c5abd) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6).",
+  "All 6 works report the same GPS point (25.431329, 83.079961).",
+  "The photo was uploaded 12 times within 52 seconds (2026-01-24 15:34:43 to 2026-01-24 15:35:35)."
+ ],
+ "photo": "photos/7c79a89c5abd83e995276d91f9dd655106bc75dade7816651dd44e5bb9c2f5dc.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3337773",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

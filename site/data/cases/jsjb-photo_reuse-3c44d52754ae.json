@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3c44d52754ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Panwaliya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2fdcfce4361f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.16066, 75.41123)."
+ ],
+ "photo": "photos/2fdcfce4361fbb6641d1b1cfd38e7a72ea909ea1e238be9a8c34c95212304897.jpg",
+ "offices": [
+  "SE"
+ ],
  "records": [
   {
    "record_id": "3722481",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

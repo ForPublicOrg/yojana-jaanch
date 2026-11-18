@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3ffda66e7b14",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Lallon Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bfdc0126652f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-25 14:29:57 to 2026-04-25 14:32:40)."
+ ],
+ "photo": "photos/bfdc0126652f8021b8bf2debc22d6566bdfb47f980020826b71577b835719b7b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5498748",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

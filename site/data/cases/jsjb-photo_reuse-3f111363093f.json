@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3f111363093f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Gholia Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a8c31435b69d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.673632, 75.181788).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-04 14:47:52 to 2026-05-04 14:50:16)."
+ ],
+ "photo": "photos/a8c31435b69db90432f979cfd760ea953bdf46453700a86e860d6f7c0ef0bb82.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7368127",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

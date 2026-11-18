@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-fb0ec58fc107",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "58 Kailasampalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e5d1e99e326) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Tank (1)."
+ ],
+ "photo": "photos/5e5d1e99e326e6aa32f88046ea28468f9c1edeeefaf9fd664a10d75784bae1b9.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9330691",
+   "village": "58 Kailasampalayam",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-06-03",
+   "end_date": "2024-10-15",
+   "lat": 11.390276,
+   "lon": 77.917145,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9330719",
+   "village": "58 Kailasampalayam",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-11-02",
+   "end_date": "2023-12-16",
+   "lat": 11.395149,
+   "lon": 77.918257,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

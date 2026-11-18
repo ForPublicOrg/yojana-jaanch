@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b6612d82ef0b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Mangalapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 199d2b97474e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "The photo was uploaded 3 times within 14 minutes (2026-02-09 12:46:40 to 2026-02-09 12:59:43)."
+ ],
+ "photo": "photos/199d2b97474e178be1de1c629f92e4f3d56f58d60dd98d7e64f002735f561562.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339247",
+   "village": "Mangalapuram",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-03",
+   "end_date": "2022-07-18",
+   "lat": 11.427919,
+   "lon": 78.24448,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9339252",
+   "village": "Mangalapuram",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-03",
+   "end_date": "2022-07-18",
+   "lat": 11.506863,
+   "lon": 78.244846,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

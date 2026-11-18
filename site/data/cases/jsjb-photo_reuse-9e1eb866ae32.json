@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-9e1eb866ae32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Chainpura",
+  "Deshma",
+  "Harnoda",
+  "Malikpur",
+  "Pachewar",
+  "Peepliya",
+  "Rampura Bas Ganwar",
+  "Thari",
+  "Tordi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint 5ab4945c1e55) is attached to 12 different works in 9 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Other (12)."
+ ],
+ "photo": "photos/5ab4945c1e55e28725760de132eadc334ae1b985c8456be5bed63914d83d432c.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1399539",
@@ -169,5 +195,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

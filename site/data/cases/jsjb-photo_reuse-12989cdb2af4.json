@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-12989cdb2af4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengode",
+ "villages": [
+  "Tiruchengode (M) - Ward No.14",
+  "Tiruchengode (M) - Ward No.21"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 63e3352fbd4d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-03 09:22:54 to 2026-05-03 09:24:26)."
+ ],
+ "photo": "photos/63e3352fbd4dbd4eb689b6acc9d9ab69a0b754ef30c5b4172f387e100578ffa1.jpg",
+ "offices": [
+  "COMMSIONEER TIRUCHENGODE"
+ ],
+ "records": [
+  {
+   "record_id": "7323727",
+   "village": "Tiruchengode (M) - Ward No.14",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMSIONEER TIRUCHENGODE",
+   "start_date": "2024-02-13",
+   "end_date": "2025-03-17",
+   "lat": 11.378138,
+   "lon": 77.904694,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Tiruchengode"
+  },
+  {
+   "record_id": "7323801",
+   "village": "Tiruchengode (M) - Ward No.21",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMSIONEER TIRUCHENGODE",
+   "start_date": "2024-03-11",
+   "end_date": "2025-03-17",
+   "lat": 11.371636,
+   "lon": 77.867144,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Tiruchengode"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

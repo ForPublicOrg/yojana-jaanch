@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9e75c92bdaf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Fattu Barkat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d6bae55b897c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.811802, 75.543762).",
+  "All 2 works started and ended on the same day (2026-05-08).",
+  "The photo was uploaded 2 times within 8 minutes (2026-05-08 12:20:12 to 2026-05-08 12:27:14)."
+ ],
+ "photo": "photos/d6bae55b897cd23dedd95ac4c999b2ff8917425e64ec24f6e6c1a145efb712c9.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7937093",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5deba02da194",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Kishangarh",
+  "Sikohpur Sangam"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f7a41b6b56e5) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/f7a41b6b56e59b95ae930288360422a8a85b4ed04eb39b31ad890f0ff7b6a1bf.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "11114522",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

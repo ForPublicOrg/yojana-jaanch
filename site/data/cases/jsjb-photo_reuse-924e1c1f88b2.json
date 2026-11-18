@@ -1,0 +1,143 @@
+{
+ "id": "jsjb-photo_reuse-924e1c1f88b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 7 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Athanur",
+ "villages": [
+  "Athanur (TP) - Ward No.12",
+  "Athanur (TP) - Ward No.3",
+  "Athanur (TP) - Ward No.5",
+  "Athanur (TP) - Ward No.6",
+  "Athanur (TP) - Ward No.8"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 7 different works in 5 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): e1742d3cc2ca on 6 works, ca4d4ec53791 on 1 work.",
+  "The works are recorded as: Recharge Pit (6), Other (1)."
+ ],
+ "photo": "photos/e1742d3cc2ca99de27b161df17616e4b7d980be93bb335b466987764cf552b1e.jpg",
+ "offices": [
+  "EO ATHANUR"
+ ],
+ "records": [
+  {
+   "record_id": "3729359",
+   "village": "Athanur (TP) - Ward No.12",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-18",
+   "end_date": "2025-09-18",
+   "lat": 11.500051,
+   "lon": 78.136281,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3729386",
+   "village": "Athanur (TP) - Ward No.6",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-11",
+   "end_date": "2025-09-11",
+   "lat": 11.49945,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3729460",
+   "village": "Athanur (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-16",
+   "end_date": "2025-09-16",
+   "lat": 11.50268,
+   "lon": 78.156784,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3729605",
+   "village": "Athanur (TP) - Ward No.8",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2026-02-13",
+   "end_date": "2026-02-13",
+   "lat": 11.50051,
+   "lon": 78.136281,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3729629",
+   "village": "Athanur (TP) - Ward No.3",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-15",
+   "end_date": "2025-09-15",
+   "lat": 11.501107,
+   "lon": 78.136815,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3730146",
+   "village": "Athanur (TP) - Ward No.8",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-11-21",
+   "end_date": "2025-11-21",
+   "lat": 11.501066,
+   "lon": 78.137042,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3741400",
+   "village": "Athanur (TP) - Ward No.8",
+   "structure_type": "Other",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-15",
+   "end_date": "2025-09-30",
+   "lat": 11.499623,
+   "lon": 78.136281,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "e1742d3cc2ca99de27b161df17616e4b7d980be93bb335b466987764cf552b1e",
+   "records": 6
+  },
+  {
+   "sha256": "ca4d4ec53791d9ca01297a96ec624e5121f6a0674508b9df5aa31bed613e268f",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-c39beb6466ad"
+ ]
+}

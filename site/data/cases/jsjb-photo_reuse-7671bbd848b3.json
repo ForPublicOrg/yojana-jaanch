@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7671bbd848b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Jalalipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 183e9f378df5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "The photo was uploaded 2 times within 11 minutes (2026-05-07 23:21:41 to 2026-05-07 23:32:26)."
+ ],
+ "photo": "photos/183e9f378df5af9a0a04f980f6d5624198865da39cfa313d1b21cfcebd690b20.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "7843908",
@@ -29,5 +48,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

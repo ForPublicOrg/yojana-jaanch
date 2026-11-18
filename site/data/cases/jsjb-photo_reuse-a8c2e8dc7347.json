@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a8c2e8dc7347",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatni",
+ "villages": [
+  "Behra Daber"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ea1096dd11ed) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.374504, 83.97183).",
+  "The photo was uploaded 4 times within 25 seconds (2026-03-25 16:15:23 to 2026-03-25 16:15:48)."
+ ],
+ "photo": "photos/ea1096dd11ed816f156b3bc19b338342d0f4978e930e5f75444c6e6ad2a3ee9a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4247865",
+   "village": "Behra Daber",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-15",
+   "end_date": "2025-10-21",
+   "lat": 26.374504,
+   "lon": 83.97183,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatni"
+  },
+  {
+   "record_id": "4247896",
+   "village": "Behra Daber",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-15",
+   "end_date": "2025-10-21",
+   "lat": 26.374504,
+   "lon": 83.97183,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatni"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

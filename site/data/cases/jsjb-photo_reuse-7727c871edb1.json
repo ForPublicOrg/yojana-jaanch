@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7727c871edb1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ferozepur",
+ "block": "Mamdot",
+ "villages": [
+  "Alfu Ke",
+  "Jatala",
+  "Mirza Lakho Ke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a77b49389313) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/a77b49389313e686605b33d1b9fd74b5db6815f1002c0860e08e4809ce1d59ba.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1120158",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Mamdot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

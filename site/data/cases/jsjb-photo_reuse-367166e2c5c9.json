@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-367166e2c5c9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Karnahia"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e4f1cd28878a) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (26.5609551, 85.448356).",
+  "The photo was uploaded 6 times within 3 minutes (2026-04-08 07:13:43 to 2026-04-08 07:16:25)."
+ ],
+ "photo": "photos/e4f1cd28878a297c30711d59b12520b9d350cca23e9f58d539248e3723b0f8dd.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4587874",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

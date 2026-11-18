@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c86158d2c732",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Jaspur (Gahili Wala)"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5a21f48c41b6) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.96, 75.13).",
+  "All 5 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 10 times within 8 minutes (2026-05-13 11:45:16 to 2026-05-13 11:52:43)."
+ ],
+ "photo": "photos/5a21f48c41b60d94a908fe5dc4329858834871a7b06e2caeb9c1835547ce20fb.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8867494",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

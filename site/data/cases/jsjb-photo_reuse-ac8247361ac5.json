@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ac8247361ac5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Achitpur",
+  "Bikasi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3dfdc8c5da33) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/3dfdc8c5da337214dc21072d2aa2543c21ab0630f65ae1bcf88dd225d858c21f.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3413051",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

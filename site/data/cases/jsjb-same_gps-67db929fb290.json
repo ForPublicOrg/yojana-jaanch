@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-67db929fb290",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "11 works at one GPS point in Idaiyappatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Idaiyappatti"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "11 works in Idaiyappatti report exactly the same GPS point (11.76, 78.51).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (11).",
+  "They carry 11 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9348618",
@@ -155,5 +175,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

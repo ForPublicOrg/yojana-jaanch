@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-da55e9638867",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Kamalu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dc70668e325e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 16 minutes (2026-04-27 10:57:48 to 2026-04-27 11:13:29)."
+ ],
+ "photo": "photos/dc70668e325eae5c712c3800a6cba47827854f18770e412ba685b7d0e8b3c485.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1169306",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

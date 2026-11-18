@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0ca8a080b667",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Chogawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 26db1d071eac) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/26db1d071eac4697daf068c3bac7ab2adb0c649ec2a1681c198bc406367f4301.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "985948",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

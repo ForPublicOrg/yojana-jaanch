@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4c1e0957825c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Ukhlana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 178d67faf1dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.9699736, 76.097077)."
+ ],
+ "photo": "photos/178d67faf1dd9d08d4660d7ec44ec2f5f585ca8299ec57b8068d3508477a180b.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4052692",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

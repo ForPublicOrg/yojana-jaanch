@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-92a7c529f5eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Rampur (Basani)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c09c18020541) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.547939, 83.026966).",
+  "The photo was uploaded 4 times within 6 seconds (2026-01-31 13:49:48 to 2026-01-31 13:49:54)."
+ ],
+ "photo": "photos/c09c180205417ea0acb430a27b22e23e5fc7a6e9c4798bf1567acc8f3be1f1b0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3368192",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

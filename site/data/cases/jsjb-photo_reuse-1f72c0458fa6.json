@@ -1,5 +1,72 @@
 {
  "id": "jsjb-photo_reuse-1f72c0458fa6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 122 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Adhgain",
+  "Amwa",
+  "Andauli",
+  "Baburban",
+  "Bahuarwa",
+  "Bara",
+  "Barahi",
+  "Bathuar",
+  "Baya",
+  "Bela Khurd",
+  "Betaha",
+  "Bhagaha",
+  "Bhagwatipur",
+  "Bishunpur",
+  "Demhua",
+  "Dhanaha",
+  "Dimahi",
+  "Ghaghra",
+  "Godari",
+  "Gorhari",
+  "Hanuman Nagar",
+  "Indarwa",
+  "Jagdhar",
+  "Kanhwa",
+  "Khuksi",
+  "Khursaha",
+  "Laduari",
+  "Lauharia",
+  "Maisaha",
+  "Malahi",
+  "Manikpur Musharnia",
+  "Manpaur",
+  "Masaha",
+  "Naranga",
+  "Nocha",
+  "Nonahi",
+  "Pakaria",
+  "Parsa",
+  "Parsa Urf Parwaha",
+  "Pipra Bishunpur",
+  "Pipra Koeria",
+  "Ramnaika",
+  "Sahjauli",
+  "Saur Bhaur",
+  "Sirsian",
+  "Siswa"
+ ],
+ "record_count": 122,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 122 different works in 46 villages. A photo of one site cannot be evidence for 122 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 8e57aa583a29 on 121 works, 545e9eb3b4de on 1 work.",
+  "The works are recorded as: Soak Pit (122).",
+  "The entries were made by 2 different offices: District Magistrate, PO Parihar."
+ ],
+ "photo": "photos/8e57aa583a29c00fe698889d4573fc413b41b123abb8b1b1a3d750f14200e28d.jpg",
+ "offices": [
+  "District Magistrate",
+  "PO Parihar"
+ ],
  "records": [
   {
    "record_id": "3451848",
@@ -1709,5 +1776,21 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 367,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "8e57aa583a29c00fe698889d4573fc413b41b123abb8b1b1a3d750f14200e28d",
+   "records": 121
+  },
+  {
+   "sha256": "545e9eb3b4de102bdb1896d4b2b2bf9fb8c7f79161a15f241008f98b71d5f6a6",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-8855444d23cf"
  ]
 }

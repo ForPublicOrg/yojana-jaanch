@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-cadef5412b62",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Barn",
+  "Mauli"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2976edb3add5) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (2), Village Pond (2).",
+  "The entries were made by 3 different offices: ARC, Block Devolpment officer Phagwara, Ziledar."
+ ],
+ "photo": "photos/2976edb3add561cb0a8846698e9bf447bd32753ee76172eeaeaf0f01b8418717.jpg",
+ "offices": [
+  "ARC",
+  "Block Devolpment officer Phagwara",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "984788",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

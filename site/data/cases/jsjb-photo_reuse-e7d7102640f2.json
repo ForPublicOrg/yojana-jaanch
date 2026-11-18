@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-e7d7102640f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Baitalpur",
+ "villages": [
+  "Bahorpur",
+  "Rampur Chandra Bhan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b3bff4d40ddb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Baitalpur, Rampur Karkhana."
+ ],
+ "photo": "photos/b3bff4d40ddb41d53f00e299c54a48f66918456df99eb9b11f82824772003c47.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3980237",
+   "village": "Rampur Chandra Bhan",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-14",
+   "end_date": "2025-10-30",
+   "lat": 26.59198,
+   "lon": 83.79072,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Rampur Karkhana"
+  },
+  {
+   "record_id": "3992345",
+   "village": "Bahorpur",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-13",
+   "end_date": "2025-10-31",
+   "lat": 26.56943,
+   "lon": 83.79217,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Baitalpur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

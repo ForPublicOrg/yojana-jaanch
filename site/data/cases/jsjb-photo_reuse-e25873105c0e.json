@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e25873105c0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Aidalpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d841bf2e95af) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Rooftop Water Harvesting Structure (1).",
+  "The photo was uploaded 2 times within 3 minutes (2026-09-11 11:40:43 to 2026-09-11 11:42:57)."
+ ],
+ "photo": "photos/d841bf2e95af5c5069c1eb9f89e9e092adda4d816916f2b1940ecf90372c4d42.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5203251",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

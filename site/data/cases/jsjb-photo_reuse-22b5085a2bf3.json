@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-22b5085a2bf3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Lakhuwal",
+  "Mehta",
+  "Othian"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 8955937e8b0f) is attached to 15 different works in 3 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Other (15).",
+  "Each of the 15 works started and ended on a single day. The works are spread over 4 dates: 2025-05-16, 2025-05-18, 2025-05-22, 2025-05-31.",
+  "These works are spread over 2 blocks: Rayya, Verka."
+ ],
+ "photo": "photos/8955937e8b0fbbd0ff5d50d6f08081da3221007521e24c8299c461177ba335e1.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5186829",
@@ -211,5 +233,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 46,
+ "needs_human_review": false
 }

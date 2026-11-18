@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a7f178523ec8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Parana Patti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 467b65b506ee) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (25.504967, 83.047716)."
+ ],
+ "photo": "photos/467b65b506eedac73339c7fded83f83f19a1a469a9ee07b2625f88ceae848646.jpg",
+ "offices": [
+  "BHUMI SANRAKSHAN ADHIKARI"
+ ],
  "records": [
   {
    "record_id": "328717",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

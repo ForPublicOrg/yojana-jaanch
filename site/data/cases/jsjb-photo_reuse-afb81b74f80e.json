@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-afb81b74f80e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Butari"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint cdc8b2816690) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The photo was uploaded 6 times within 10 minutes (2026-05-10 23:18:25 to 2026-05-10 23:28:24)."
+ ],
+ "photo": "photos/cdc8b2816690e27aec7d182b7d738d472ea0bbea86c732acb09fe6da4e71666b.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "8347913",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

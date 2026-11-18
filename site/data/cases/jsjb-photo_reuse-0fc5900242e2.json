@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0fc5900242e2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Chhalari Kalan",
+  "Sarana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 16b1d04629e0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (36.0, 73.0)."
+ ],
+ "photo": "photos/16b1d04629e0ce748bef3bbc8b0cd95fb52496e0f1e88c17c6fb4061d057142a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1088030",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

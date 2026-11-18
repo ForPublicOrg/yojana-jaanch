@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-93e482952203",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Moondiya Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5200a5aaeb04) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.097649, 75.340899)."
+ ],
+ "photo": "photos/5200a5aaeb0447f880144eb2a94f3a20936430f1aa361689cfe172154390f11c.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4037362",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

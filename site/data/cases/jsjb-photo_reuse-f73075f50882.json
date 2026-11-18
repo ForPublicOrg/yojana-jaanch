@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f73075f50882",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Rai Chak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dd9086893fa7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works started and ended on the same day (2026-05-14).",
+  "The photo was uploaded 4 times within 12 minutes (2026-05-18 13:32:19 to 2026-05-18 13:44:03)."
+ ],
+ "photo": "photos/dd9086893fa7b71404ef0ae2070d15354dc9669805df586e9a0da0c7f3b487fd.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "9929036",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

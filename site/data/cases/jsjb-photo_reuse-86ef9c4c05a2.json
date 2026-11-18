@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-86ef9c4c05a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Kurwa Fatehpur Chhapra",
+  "Marpa Tahir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4713ee131b91) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.6620035, 85.2542977).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-02 19:43:04 to 2026-04-02 19:46:04)."
+ ],
+ "photo": "photos/4713ee131b91c03f3a8f5c7d9df7374c4e0530a49e7af48bacf00eb054e62a71.jpg",
+ "offices": [
+  "BDO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4434226",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

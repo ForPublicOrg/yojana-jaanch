@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-655ab9e22eeb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Chirawa",
+ "villages": [
+  "Bakhtawarpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1f9e2eb81040) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: Aen, CEO ZILA PARISHAD."
+ ],
+ "photo": "photos/1f9e2eb81040cf5d4de486dfd67d1de395038daa059e50451063a1ad4ca7a9a3.jpg",
+ "offices": [
+  "Aen",
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4044576",
+   "village": "Bakhtawarpura",
+   "structure_type": "Soak Pit",
+   "created_by": "Aen",
+   "start_date": "2025-11-15",
+   "end_date": "2025-12-20",
+   "lat": 28.205249,
+   "lon": 75.556334,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Chirawa"
+  },
+  {
+   "record_id": "4292365",
+   "village": "Bakhtawarpura",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-12-15",
+   "end_date": "2026-03-05",
+   "lat": 28.20531,
+   "lon": 75.556516,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Chirawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

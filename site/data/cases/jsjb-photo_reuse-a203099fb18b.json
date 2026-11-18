@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a203099fb18b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Pudur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b383c97f4f98) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (11.566625, 77.962764).",
+  "The photo was uploaded 2 times within 7 minutes (2026-05-19 13:26:51 to 2026-05-19 13:33:03)."
+ ],
+ "photo": "photos/b383c97f4f981f3d3e4724097fbb864d0ac6a5e5996077799455f0ed4590b651.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10154328",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

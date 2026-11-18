@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b5a2cd89262a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Kaveripuram North",
+  "Mallikuttai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0035f67822f2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR.",
+  "These works are spread over 2 blocks: Kolathur, Taramangalam."
+ ],
+ "photo": "photos/0035f67822f2287e91d12a79df064325e3cea63863b390186c0f95d14ee8185e.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349657",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

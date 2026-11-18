@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-eb5fb941cbfe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Jaspal",
+  "Mehtab Kot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 35287330575f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/35287330575ff135bbbd968c0edc69324a9d4bdd26f7979e5b7e2e20dc24b36d.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "8896282",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

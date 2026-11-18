@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-e90d13d7b50f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Palanthinnipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7247681a8dcc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/7247681a8dccad6dc4338f7c70ad0e842db5cefe7506c423e37a6c7fd879ba7d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339661",
+   "village": "Palanthinnipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-12",
+   "end_date": "2022-08-13",
+   "lat": 11.493143,
+   "lon": 78.115563,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9339685",
+   "village": "Palanthinnipatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-12",
+   "end_date": "2022-08-13",
+   "lat": 11.495437,
+   "lon": 78.115563,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

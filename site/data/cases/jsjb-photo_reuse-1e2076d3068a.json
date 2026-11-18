@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1e2076d3068a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Miran Kot Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3d7c580f9557) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works started and ended on the same day (2025-06-09).",
+  "The photo was uploaded 2 times within 28 minutes (2026-05-21 00:44:36 to 2026-05-21 01:11:58)."
+ ],
+ "photo": "photos/3d7c580f95570d11ffe7b2a26c5e263b30ff13ac22cb3ca94d9b6fba684a1996.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "10482512",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

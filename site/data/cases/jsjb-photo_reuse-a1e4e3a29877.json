@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a1e4e3a29877",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Bolewal",
+  "Gopalpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e6d880f24efa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 75.0)."
+ ],
+ "photo": "photos/e6d880f24efa7863095d6ebf9345598ebec742a95e99c97c9cbc61f1e999ff87.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "1246192",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

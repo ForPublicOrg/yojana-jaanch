@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3fc4e904add3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Ali Pur Sandal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 53b5f8cb13bc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 3 times within 5 minutes (2026-04-24 18:37:31 to 2026-04-24 18:42:13)."
+ ],
+ "photo": "photos/53b5f8cb13bc753a90a422baae9a7ef588ae265240ea4c3405525978a7c8659a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5450106",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

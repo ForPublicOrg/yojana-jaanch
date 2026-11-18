@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-eea779a8ed8a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Khandewat"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5595d48d5f88) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 5 minutes (2026-05-23 11:24:03 to 2026-05-23 11:28:20)."
+ ],
+ "photo": "photos/5595d48d5f88eb8244562b599cb6f0e56702785456533a490f86d810a15f93c4.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "11532227",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

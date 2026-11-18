@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6522fb44c8c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Niwai",
+ "villages": [
+  "Niwai (M) - Ward No.11",
+  "Niwai (M) - Ward No.19",
+  "Niwai (M) - Ward No.22"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9fff40f9349c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/9fff40f9349cc53ceecaa6fa6b3668786b3887699dfe4ac8d75c00f38bb0d388.jpg",
+ "offices": [
+  "Executive officer"
+ ],
  "records": [
   {
    "record_id": "14785856",
@@ -43,5 +63,8 @@
    "area_type": "Urban",
    "block": "Niwai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

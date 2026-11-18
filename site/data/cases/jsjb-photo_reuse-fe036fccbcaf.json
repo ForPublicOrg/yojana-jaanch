@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-fe036fccbcaf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Gollahalli",
+  "Mogalakuppe",
+  "Patrenahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 72c01952824f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Contour Trench (1)."
+ ],
+ "photo": "photos/72c01952824f8b1a3e4367a6bf44d9696f8117b095fe597d36ab9be7729e09b2.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3106663",
+   "village": "Patrenahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-12-31",
+   "lat": 13.44112,
+   "lon": 77.44098,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3113365",
+   "village": "Mogalakuppe",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-05-04",
+   "end_date": "2025-07-06",
+   "lat": 13.28925148,
+   "lon": 77.85943362,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3121362",
+   "village": "Gollahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-12",
+   "end_date": "2025-07-06",
+   "lat": 13.28925147,
+   "lon": 77.85943389,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

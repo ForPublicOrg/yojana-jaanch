@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-da7be3a31b94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Namakkal (M) - Ward No.10",
+  "Namakkal (M) - Ward No.14",
+  "Namakkal (M) - Ward No.37"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f0cdad938919) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (2), Recharge Shaft (1).",
+  "All 3 works report the same GPS point (11.220403, 78.184731).",
+  "The photo was uploaded 6 times within 15 minutes (2026-02-28 12:33:38 to 2026-02-28 12:48:35)."
+ ],
+ "photo": "photos/f0cdad9389193d420f63032e724ec28df483214564a0cd5b3f3004f4dccd3122.jpg",
+ "offices": [
+  "COMMSIONEER -NAMAKKAL"
+ ],
+ "records": [
+  {
+   "record_id": "3723357",
+   "village": "Namakkal (M) - Ward No.37",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-06-12",
+   "end_date": "2024-10-05",
+   "lat": 11.220403,
+   "lon": 78.184731,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3723458",
+   "village": "Namakkal (M) - Ward No.14",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-10-10",
+   "end_date": "2024-09-25",
+   "lat": 11.220403,
+   "lon": 78.184731,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3723746",
+   "village": "Namakkal (M) - Ward No.10",
+   "structure_type": "Recharge Shaft",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-11-12",
+   "end_date": "2024-12-10",
+   "lat": 11.220403,
+   "lon": 78.184731,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

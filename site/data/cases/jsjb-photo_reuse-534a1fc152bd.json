@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-534a1fc152bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Vijai Nagar",
+  "Vijaigarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 66daf9e6f56b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.9502767, 75.8401783)."
+ ],
+ "photo": "photos/66daf9e6f56b452733c38d48badb1a46f24218caf5b37fa4c3a854cf3ee01aff.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4051200",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

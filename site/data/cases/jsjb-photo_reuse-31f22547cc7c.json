@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-31f22547cc7c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Hassan Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 595452d60c24) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (30.49, 76.46).",
+  "All 2 works started and ended on the same day (2026-04-24).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-27 16:57:37 to 2026-04-27 16:59:26)."
+ ],
+ "photo": "photos/595452d60c24405a98de4c9e200c595c53ada75335e729e5b28fa1e4bdf11adf.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5662147",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-0ddc31fbff2d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Chendur",
+  "Hampasandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 93f271ea0563) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.735615, 77.74463).",
+  "The photo was uploaded 4 times within 24 minutes (2025-12-17 17:09:00 to 2025-12-17 17:32:46)."
+ ],
+ "photo": "photos/93f271ea0563e129f40f01f50f15eabfff5c4cb613faf7e25eaac3d99341634f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3098227",
+   "village": "Chendur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-02",
+   "end_date": "2025-11-03",
+   "lat": 13.735615,
+   "lon": 77.74463,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3098442",
+   "village": "Hampasandra",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-09",
+   "end_date": "2025-10-08",
+   "lat": 13.735615,
+   "lon": 77.74463,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

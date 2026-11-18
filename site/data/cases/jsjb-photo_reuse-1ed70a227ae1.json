@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1ed70a227ae1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Mehma Sarja",
+  "Mehma Swai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 40a1aad03fd1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-04-22 13:24:56 to 2026-04-22 13:34:57)."
+ ],
+ "photo": "photos/40a1aad03fd102e697cbc808c621b750205d9bc1403f63e4f12fe6641a3f69ee.jpg",
+ "offices": [
+  "Head Teacher"
+ ],
  "records": [
   {
    "record_id": "5251479",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

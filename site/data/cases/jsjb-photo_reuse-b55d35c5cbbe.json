@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b55d35c5cbbe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Kaveripuram North"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 27569216ec49) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (6.5, 68.5).",
+  "The photo was uploaded 2 times within 4 minutes (2025-06-30 13:33:38 to 2025-06-30 13:36:45)."
+ ],
+ "photo": "photos/27569216ec49cd01682098f413c7c518790f1ddbfbb347bf559a70cce85c7bc5.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346590",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

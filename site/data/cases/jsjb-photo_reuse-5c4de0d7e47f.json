@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5c4de0d7e47f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Hanumannagar",
+  "Sahiara",
+  "Shahpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1b354d36a9ea) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/1b354d36a9eac887ca577be057277273bd41208a9953256949a100ed5a021a60.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4486514",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

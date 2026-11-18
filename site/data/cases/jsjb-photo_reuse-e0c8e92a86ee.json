@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e0c8e92a86ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Jallowal",
+  "Khumana",
+  "Turan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint dcabf2666d8b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/dcabf2666d8bcec8997e098fb38a68653ae299b71f348f9a6d8d3dacf96e6199.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1077110",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

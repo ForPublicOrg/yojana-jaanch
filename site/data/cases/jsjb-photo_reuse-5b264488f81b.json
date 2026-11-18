@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5b264488f81b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Rajinder Garh"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint f43ee661372f) is attached to 16 different works in 1 village. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Contour Trench (16)."
+ ],
+ "photo": "photos/f43ee661372f6cb68c8425574eebc30809da7cc0e09083e344173bd8cbf6c1ed.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5389729",
@@ -225,5 +243,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

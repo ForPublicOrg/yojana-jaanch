@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ad4414b37068",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Ranjitpur Urf Gobipur Daur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 367c4e823fe3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.626503, 85.46465)."
+ ],
+ "photo": "photos/367c4e823fe311e8ab259725e0857202adb48480d2b00f4c2acfe69569cf9485.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "191906769920",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-12ba965ae046",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 26 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Adaiyur"
+ ],
+ "record_count": 26,
+ "reasons": [
+  "The same photo file (fingerprint 2220a0488946) is attached to 26 different works in 1 village. A photo of one site cannot be evidence for 26 separate works.",
+  "The works are recorded as: Other (26).",
+  "All 26 works report the same GPS point (11.68997, 77.80915).",
+  "The photo was uploaded 52 times within 10 minutes (2026-05-15 17:24:15 to 2026-05-15 17:34:10)."
+ ],
+ "photo": "photos/2220a0488946567d289d1569493a2c48a7149ccc8551a3281b2eb7619a2f4dce.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9439708",
@@ -365,5 +385,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 80,
+ "needs_human_review": false
 }

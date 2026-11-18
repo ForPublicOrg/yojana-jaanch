@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a38b890c1d05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Kottavarudampatti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0eb91b931640) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.47, 77.97).",
+  "The photo was uploaded 3 times within 6 minutes (2025-07-04 14:18:11 to 2025-07-04 14:23:44)."
+ ],
+ "photo": "photos/0eb91b931640f3db2368b5c2c06f2ed2334b350451e0622f80b8aeaa9411b0ac.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9361469",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

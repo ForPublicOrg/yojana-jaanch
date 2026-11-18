@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-b9ab298819fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Surajgarh",
+ "villages": [
+  "Lotiya",
+  "Mahpalwas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bf6c263cb9f0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.3738, 75.8447)."
+ ],
+ "photo": "photos/bf6c263cb9f01feffc8790488b28bd1b310de61a74b0721e5283dcffd1c1dbd9.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4292080",
+   "village": "Mahpalwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "4295306",
+   "village": "Lotiya",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

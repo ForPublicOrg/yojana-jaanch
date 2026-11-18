@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-31215646d7fa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Barhchhoriya",
+  "Jodhpuriya"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 43087b115a7a on 3 works, f8b7b61caa40 on 1 work.",
+  "The works are recorded as: Recharge Pit (2), Recharge Shaft (2).",
+  "The entries were made by 2 different offices: BDO Toda PS, BLOCK DEVELOPMENT OFFICER."
+ ],
+ "photo": "photos/43087b115a7a5cbde769f7aea99884d474923ffd482f61196ea3137d12ed96f9.jpg",
+ "offices": [
+  "BDO Toda PS",
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "15129467",
@@ -57,5 +80,21 @@
    "area_type": "Rural",
    "block": "Newai"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "43087b115a7a5cbde769f7aea99884d474923ffd482f61196ea3137d12ed96f9",
+   "records": 3
+  },
+  {
+   "sha256": "f8b7b61caa40b503f9134cd9038bcce75d413a695335ca9c3b061dc9ae67f64b",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3158c42e0e24"
  ]
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7cd567e8ae72",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Harobande",
+  "Kuppahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 357e1c676314) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (1), Tank (1).",
+  "All 2 works report the same GPS point (17.262281, 68.272822)."
+ ],
+ "photo": "photos/357e1c67631495c0a16a3492232ca8bd58da524a38e6f3ee3833d5664b5b8617.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3122450",
+   "village": "Kuppahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-18",
+   "end_date": "2025-08-21",
+   "lat": 17.262281,
+   "lon": 68.272822,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3127705",
+   "village": "Harobande",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-23",
+   "end_date": "2025-09-18",
+   "lat": 17.262281,
+   "lon": 68.272822,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

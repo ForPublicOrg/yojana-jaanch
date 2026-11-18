@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4932eb42dc12",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nurmahal",
+ "villages": [
+  "Kandola Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 684a490c5ee8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: BDPO Nurmahal, Zilledar."
+ ],
+ "photo": "photos/684a490c5ee81c743b488db96c68d4e8d0f4c39ee3f0525ae04615c758e4ce77.jpg",
+ "offices": [
+  "BDPO Nurmahal",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "998572",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nurmahal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

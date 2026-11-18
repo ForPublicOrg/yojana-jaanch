@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-28a223b472cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Asdulapur",
+  "Chaunda",
+  "Rampur Bhindran"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 924f31933f57) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (3), Bench Terracing (1).",
+  "The entries were made by 3 different offices: APO, Rural Deveolpment, SDO Watersupply.",
+  "These works are spread over 2 blocks: Ahmedgarh, Amargarh."
+ ],
+ "photo": "photos/924f31933f579a5eb1de236f1e09c7723a737e14c0dd9d88cf8d7e028ed25cb8.jpg",
+ "offices": [
+  "APO",
+  "Rural Deveolpment",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "10709674",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b6cdf28009f9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Bal Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1dbf7af25851) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/1dbf7af258519047af3f494785bcaa45c72f964139c26ef35857effb963269eb.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1118341",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

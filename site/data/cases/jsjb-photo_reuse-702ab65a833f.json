@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-702ab65a833f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Baupur Afganan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 778d594b0a1a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/778d594b0a1a01b34df88099dcba27d53633e5be68802928ca0c896819939311.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8493313",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

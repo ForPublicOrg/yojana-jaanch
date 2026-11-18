@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5caa1b71828b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Azrakbe Mahdewa",
+  "Maudah"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7bd9cd72dfa6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-04 12:49:28 to 2026-04-04 12:50:49)."
+ ],
+ "photo": "photos/7bd9cd72dfa678240f3acfa88735735022bc1bd57c18c002812b1f609702feea.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4467874",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

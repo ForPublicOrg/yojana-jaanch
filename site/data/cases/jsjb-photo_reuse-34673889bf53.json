@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-34673889bf53",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Haripura",
+  "Rasoolpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 19e521e24eec) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.330334, 75.669719)."
+ ],
+ "photo": "photos/19e521e24eec98a589245a69b4a56c0304f50118397c9085a04ac17b70f6f3b0.jpg",
+ "offices": [
+  "Superintending Engineer"
+ ],
  "records": [
   {
    "record_id": "4052379",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

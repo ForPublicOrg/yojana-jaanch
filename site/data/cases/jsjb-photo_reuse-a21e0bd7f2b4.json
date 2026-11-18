@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a21e0bd7f2b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Dhaway",
+  "Kot Jograj"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 85de5cf88f05) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-08, 2026-05-11."
+ ],
+ "photo": "photos/85de5cf88f054e01df35bdaab2998ec8a87b9e0088b1e301e31ef6328bbbe222.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7922493",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

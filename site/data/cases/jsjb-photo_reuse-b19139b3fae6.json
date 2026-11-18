@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b19139b3fae6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Azgara Khas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5d7f078a5e6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.500089, 83.059842)."
+ ],
+ "photo": "photos/c5d7f078a5e6b92eb89243c28a00d7e13a7a1407e11ec6f957ff3b3684f90bae.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3338881",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

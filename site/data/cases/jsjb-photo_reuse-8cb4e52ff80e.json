@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-8cb4e52ff80e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Khetri",
+ "villages": [
+  "Beelwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 77c66679baef) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.99195, 75.75796).",
+  "The photo was uploaded 4 times within 17 minutes (2026-03-26 14:07:13 to 2026-03-26 14:24:08)."
+ ],
+ "photo": "photos/77c66679baeffee5ac60546b9e00b1391689794c87c27be6f4feb932262f80e7.jpg",
+ "offices": [
+  "bdo"
+ ],
+ "records": [
+  {
+   "record_id": "4272384",
+   "village": "Beelwa",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-02",
+   "end_date": "2025-10-25",
+   "lat": 27.99195,
+   "lon": 75.75796,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4272949",
+   "village": "Beelwa",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-08",
+   "end_date": "2025-10-28",
+   "lat": 27.99195,
+   "lon": 75.75796,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

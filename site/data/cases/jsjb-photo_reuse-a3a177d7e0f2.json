@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a3a177d7e0f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Madhumakhiya",
+  "Maniyari Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f12e8058fec5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Baragaon, Sevapuri."
+ ],
+ "photo": "photos/f12e8058fec559b782fcaf7f488d30da1c1e745c489aaaac8b33e931e1476adf.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "340037769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

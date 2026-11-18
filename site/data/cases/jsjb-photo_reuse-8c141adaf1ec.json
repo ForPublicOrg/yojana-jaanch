@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-8c141adaf1ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Sekha Klan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 50153e00adba) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.593797, 75.020687).",
+  "All 2 works started and ended on the same day (2026-04-29).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-30 12:00:42 to 2026-04-30 12:02:34).",
+  "The entries were made by 2 different offices: BDPO BGH, BDPO DMK."
+ ],
+ "photo": "photos/50153e00adbac0289ce3e0a6a82cbb6e7738c5a2884b3c4c70c3b21abe03740a.jpg",
+ "offices": [
+  "BDPO BGH",
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "6339085",
@@ -29,5 +52,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-e91474bd14bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Bhorchhi Rajputan",
+  "Mehta",
+  "Nangali",
+  "Othian"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint b6fc00c5bc66) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 4 dates: 2025-05-15, 2025-05-16, 2025-05-30, 2025-06-02.",
+  "These works are spread over 2 blocks: Rayya, Verka."
+ ],
+ "photo": "photos/b6fc00c5bc6648ec30662d1ab3a72b023ff859117cfcd9b2eacb2ae5292501ff.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5181414",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

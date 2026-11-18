@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-50990bb228fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Surajgarh",
+ "villages": [
+  "Kuloth Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint faff578b31cb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.3738, 75.8447).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-11 11:59:35 to 2026-03-11 12:03:04)."
+ ],
+ "photo": "photos/faff578b31cb84fd29ea9cee9dcf0c4f449c83fae278d3cb1c7c8d31a68a5bed.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3887521",
+   "village": "Kuloth Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "3887709",
+   "village": "Kuloth Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-bb5094440def",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Cheema Kalan",
+  "Paddi Jagir"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3f45ad65a144) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Bore-Well Recharge (1).",
+  "The photo was uploaded 3 times within 17 minutes (2026-04-03 10:44:45 to 2026-04-03 11:01:07).",
+  "The entries were made by 2 different offices: ARC , WRD Punjab, BDPO Phillaur."
+ ],
+ "photo": "photos/3f45ad65a144569f6d2a356249c72150e2e793681f7679abce63d5f8d558a4f1.jpg",
+ "offices": [
+  "ARC , WRD Punjab",
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119360",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

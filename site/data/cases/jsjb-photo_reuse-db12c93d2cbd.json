@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-db12c93d2cbd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Wazeerabad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0987ef3871ef) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.2598483, 75.9738083).",
+  "The photo was uploaded 4 times within 4 minutes (2026-02-26 15:49:59 to 2026-02-26 15:53:04)."
+ ],
+ "photo": "photos/0987ef3871efb09848f1d0c11e21f921c196083d480483d186e39fba0bc38e02.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3688587",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

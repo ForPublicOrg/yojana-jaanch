@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b680395d75c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Ladhran",
+  "Rahim Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70e8dc121a7c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: Ziledar, Zilledar."
+ ],
+ "photo": "photos/70e8dc121a7c11447db91c341fd83456158f0d6486e39c09c666e27d15ce994a.jpg",
+ "offices": [
+  "Ziledar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "975425",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

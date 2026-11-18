@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ed6982937eb6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Jhawa Tola",
+  "Panrahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 00adc0d8dd12) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/00adc0d8dd1278b2c946560859c4a7d918f9f7dc6b1d58156c1281189c5a5575.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4477979",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

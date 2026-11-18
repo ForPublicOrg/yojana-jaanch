@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-02b5bfbcf90e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Manjini"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 779a83c8e06b) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (3).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/779a83c8e06bfb2b543dddf99ab6118e9c2580af28db47cfc7da2ff6f008f3b1.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "7801233",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

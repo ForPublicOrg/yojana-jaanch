@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4968d09e29b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Malak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a62c48d08b76) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.83, 75.49)."
+ ],
+ "photo": "photos/a62c48d08b76f1c0e2c76e279632e64e45c50692db747ba60c9d76f0150d089b.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256398",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

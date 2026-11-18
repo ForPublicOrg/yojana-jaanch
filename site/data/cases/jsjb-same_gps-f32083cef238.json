@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-f32083cef238",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "35 works at one GPS point in Dalavaipatty",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Dalavaipatty"
+ ],
+ "record_count": 35,
+ "reasons": [
+  "35 works in Dalavaipatty report exactly the same GPS point (11.6, 78.52).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (35).",
+  "They carry 35 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9355036",
@@ -491,5 +512,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 70,
+ "needs_human_review": false
 }

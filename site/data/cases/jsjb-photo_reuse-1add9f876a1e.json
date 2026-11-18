@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-1add9f876a1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Chara Ka Bas",
+  "Dhaka Ka Bas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b9de9caa87da) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 19 minutes (2026-03-26 12:32:51 to 2026-03-26 12:51:01)."
+ ],
+ "photo": "photos/b9de9caa87da0cd524ad3605073a9080164ae736dc91d0c5e285c8326a611a1d.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4268146",
+   "village": "Chara Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-16",
+   "end_date": "2025-12-16",
+   "lat": 27.802814,
+   "lon": 75.40137,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4269097",
+   "village": "Dhaka Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-15",
+   "end_date": "2026-01-13",
+   "lat": 27.9121013,
+   "lon": 75.36897,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

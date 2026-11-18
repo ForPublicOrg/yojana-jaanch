@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9d3d4811dd7e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Godharpur",
+  "Narwan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 91ce2fbe962e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2025-04-24 23:42:09 to 2025-04-24 23:47:48)."
+ ],
+ "photo": "photos/91ce2fbe962e0c01a69017ccfebea3f1a6b819b08aa81ce6eccab5117e5834ec.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "1246282",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

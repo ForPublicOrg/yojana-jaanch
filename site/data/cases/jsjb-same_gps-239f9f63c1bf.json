@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-239f9f63c1bf",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Mohni Sakrauli",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Mohni Sakrauli"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Mohni Sakrauli report exactly the same GPS point (26.395, 85.5931).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (6), Other (1).",
+  "They carry 14 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4356069",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8cddc4fa8327",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Majhauli",
+  "Muradpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8779622bd990) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/8779622bd9908c5ed0dfe10bbccf60dd4dfb6aafda1036b22819ebe8ddcfc4f9.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3867922",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

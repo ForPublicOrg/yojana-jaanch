@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c2e2d8972650",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Dargheri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e389deba89b5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 51 seconds (2026-02-24 16:45:55 to 2026-02-24 16:46:46)."
+ ],
+ "photo": "photos/e389deba89b5ccfdb5683133e9b574afe7c5563ce6dbe4f2af28740f2090b41c.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1047749",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

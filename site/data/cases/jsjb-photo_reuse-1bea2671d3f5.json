@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1bea2671d3f5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Arniya"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 7a691dc89fff) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/7a691dc89fff6fbb5cda81696978e63aaafca8203ded3c236555650aa7e6b9cf.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12040835",
@@ -57,5 +75,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bf48418a55fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Abohar",
+ "villages": [
+  "Sito-Guno"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 569d85c81fc3) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (30.024, 74.363).",
+  "The photo was uploaded 6 times within 2 minutes (2026-05-28 22:47:28 to 2026-05-28 22:48:45)."
+ ],
+ "photo": "photos/569d85c81fc36bd641bdbd4d0b533c2ff4b30deafc4e917b2153ba1e79a99010.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "14371115",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Abohar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

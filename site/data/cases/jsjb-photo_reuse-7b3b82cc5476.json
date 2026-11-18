@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7b3b82cc5476",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Jangalapalli",
+  "Nallaguttapalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 87b6bd9965ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/87b6bd9965ea969c1ae42478ff0321cd02800ec1fc4f16c45446221ffceddeb2.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3101358",
+   "village": "Jangalapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-04-02",
+   "end_date": "2023-07-11",
+   "lat": 13.0,
+   "lon": 77.0,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3140296",
+   "village": "Nallaguttapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-18",
+   "end_date": "2025-07-10",
+   "lat": 13.740388,
+   "lon": 78.088565,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d03520acd99f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Hakimpur",
+  "Talwandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint befe9a247089) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.10796, 75.334594).",
+  "All 2 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/befe9a2470899ba5d455013f4f23452b1056f5a04827f5607178595e6cb9927f.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7953195",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

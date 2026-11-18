@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c4f85486f385",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Duggirala",
+ "villages": [
+  "Pedakondur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.012 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 39b1aa32c7ab on 1 work, 71129c97300b on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/39b1aa32c7abbb68d7615b44db8de2f1fc6e72d642f9411113b802270f95f82b.jpg",
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "8780041",
@@ -29,5 +49,21 @@
    "area_type": "Rural",
    "block": "Duggirala"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "39b1aa32c7abbb68d7615b44db8de2f1fc6e72d642f9411113b802270f95f82b",
+   "records": 1
+  },
+  {
+   "sha256": "71129c97300bf3fa7de334e318848edf78bae12867dc87bbdf5915484753a691",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-07811b5bac79"
  ]
 }

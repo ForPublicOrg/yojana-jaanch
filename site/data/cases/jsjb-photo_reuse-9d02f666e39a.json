@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9d02f666e39a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Deshma",
+  "Islam Nagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec5cdd568b32) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 39 seconds (2026-03-06 14:50:17 to 2026-03-06 14:50:56)."
+ ],
+ "photo": "photos/ec5cdd568b3231e7df5d08679ab896b0a98171a3175ad7dce4b5c5a0dcdd13a0.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1417181",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

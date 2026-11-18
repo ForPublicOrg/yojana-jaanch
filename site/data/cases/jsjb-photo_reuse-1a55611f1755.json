@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1a55611f1755",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Betaha",
+  "Mahadeopatti",
+  "Siswatia",
+  "Suki Musharnia Urf Gangdah"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint abfc30004e3b) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/abfc30004e3b0b6aee34ccac879a5823b9f096bb2ef231c19c8a28daeb7d8804.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4506566",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

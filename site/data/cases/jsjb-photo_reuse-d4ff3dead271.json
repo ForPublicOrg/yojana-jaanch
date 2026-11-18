@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d4ff3dead271",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Malanpur",
+ "villages": [
+  "Ward-15",
+  "Ward-4"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a79325a9d712) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Other (1)."
+ ],
+ "photo": "photos/a79325a9d712eb42294e7efbb2f248992dc1ab8f06a24a8edd7d5b0733290153.jpg",
+ "offices": [
+  "ULB"
+ ],
  "records": [
   {
    "record_id": "10200904",
@@ -29,5 +48,8 @@
    "area_type": "Urban",
    "block": "Malanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

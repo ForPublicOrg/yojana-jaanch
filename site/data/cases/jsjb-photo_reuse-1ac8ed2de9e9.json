@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1ac8ed2de9e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Parsauni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 13420a7912ff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/13420a7912ff4e0b691f2264073b1c0f36bc976f48b3a7c0925821add1c526fe.jpg",
+ "offices": [
+  "BDO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4044244",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

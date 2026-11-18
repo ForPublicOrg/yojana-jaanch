@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7071fe06f812",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Alipur",
+  "Bariana",
+  "Mazara Dingrian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 323b415c9c5b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1)."
+ ],
+ "photo": "photos/323b415c9c5b11d822af9fab8b59de389afe15d39d7ab7bed1da84b0f91cfd1d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1065605",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

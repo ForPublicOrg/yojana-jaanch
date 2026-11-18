@@ -1,6 +1,67 @@
 {
  "id": "jsjb-upload_burst-c432e4c8a5a5",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "50 photos uploaded in 10 minutes by DISTRICT COLLECTOR",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Bommiyampatti R.F.",
+  "Gudalur",
+  "Kadayampatti",
+  "Kanjanayakanpatti",
+  "Kaveripuram North",
+  "Kongupatti (South)",
+  "Kookuttapatti",
+  "Marakkottai",
+  "Naduppatti",
+  "Pannapatti",
+  "Perumagoundampatti (Ct)",
+  "Sampalli",
+  "Singiripatti",
+  "Thinnappatti"
+ ],
+ "record_count": 56,
+ "reasons": [
+  "50 different photos for 56 different works were uploaded by DISTRICT COLLECTOR within 10 minutes, from 2026-10-30 15:28:16 to 2026-10-30 15:38:13.",
+  "That is about one work every 11 seconds on average.",
+  "The works are in 14 villages: Bommiyampatti R.F., Gudalur, Kadayampatti, Kanjanayakanpatti, Kaveripuram North, Kongupatti (South), Kookuttapatti, Marakkottai, Naduppatti, Pannapatti, Perumagoundampatti (Ct), Sampalli, Singiripatti, Thinnappatti.",
+  "These works are spread over 4 blocks: Kadaiyampatty, Kolathur, Macdonalds Choultry, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
+  {
+   "record_id": "9344768",
+   "village": "Perumagoundampatti (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-05-04",
+   "end_date": "2023-11-09",
+   "lat": 11.597,
+   "lon": 78.0187,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "9344797",
+   "village": "Perumagoundampatti (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-05-18",
+   "end_date": "2023-11-09",
+   "lat": 11.601,
+   "lon": 78.024,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
   {
    "record_id": "9344904",
    "village": "Bommiyampatti R.F.",
@@ -757,5 +818,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 56,
+ "needs_human_review": false
 }

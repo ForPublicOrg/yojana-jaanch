@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4978e446e85c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Jhunir",
+ "villages": [
+  "Lalian Wali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 940ea6256498) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-11)."
+ ],
+ "photo": "photos/940ea6256498f84ae209c8afa49508e926d38e1795361f4a420eb8f19031abc6.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "8689511",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jhunir"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

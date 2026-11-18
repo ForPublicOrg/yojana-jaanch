@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5cc0a9af4aae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Talwandi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3493978a38b0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 35 seconds (2025-11-30 12:17:27 to 2025-11-30 12:18:02)."
+ ],
+ "photo": "photos/3493978a38b010a767318762e20503d18179b8e216a4d6f0d5f2a5aede95038b.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "986219",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

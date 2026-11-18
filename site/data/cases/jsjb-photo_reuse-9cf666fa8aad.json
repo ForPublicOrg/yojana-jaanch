@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-9cf666fa8aad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "S.M.Kondarajanahalli",
+  "Thimmasandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2f4ef4005fe0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (1), Village Pond (1)."
+ ],
+ "photo": "photos/2f4ef4005fe0aa08306ddec7418a054b4faa173ead91049d84ebc04e31f2f022.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092607",
+   "village": "S.M.Kondarajanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.623604,
+   "lon": 77.951014,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3098989",
+   "village": "Thimmasandra",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-09-24",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

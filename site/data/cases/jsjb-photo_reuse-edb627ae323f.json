@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-edb627ae323f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Pachnaur Murahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5581205f5d91) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/5581205f5d910f79aa4fafd2acb5b4d330952cb42e5f27ac26638fcbb3396d22.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4485726",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

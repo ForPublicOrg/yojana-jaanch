@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9ded20641cd1",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Balapura Jatan",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Balapura Jatan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Balapura Jatan report exactly the same GPS point (26.075775, 75.41129).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Any Innovative Low Cost Model (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "14812237",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

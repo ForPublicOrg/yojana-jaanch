@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-fe349a2ca72d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Paroha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82a233e0a79d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-03-19 10:27:30 to 2026-03-19 10:31:37)."
+ ],
+ "photo": "photos/82a233e0a79d90f34177b871053b716740c6b99b40f83e13a7b910155658ce7d.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4035302",
+   "village": "Paroha",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-17",
+   "end_date": "2025-12-15",
+   "lat": 26.375633,
+   "lon": 84.11071,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4035378",
+   "village": "Paroha",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-17",
+   "end_date": "2025-12-15",
+   "lat": 26.375249,
+   "lon": 84.110764,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

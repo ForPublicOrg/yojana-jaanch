@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-623f431f4c22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Kon",
+ "villages": [
+  "Semara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 48b9758b705a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.22612, 82.471925).",
+  "The entries were made by 2 different offices: BDO Kon, DPRO."
+ ],
+ "photo": "photos/48b9758b705ac17f96dd3ddc743dd794adb0d64b34147ac9479e50a844dd5277.jpg",
+ "offices": [
+  "BDO Kon",
+  "DPRO"
+ ],
  "records": [
   {
    "record_id": "4133340",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

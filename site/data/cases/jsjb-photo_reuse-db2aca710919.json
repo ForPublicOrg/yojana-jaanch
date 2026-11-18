@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-db2aca710919",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Lallian Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d06ac25efd6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Deputy Commissioner."
+ ],
+ "photo": "photos/8d06ac25efd6ae7cd92a2782b9374e57b06cc86e5f5ed3b7302a69085d8b603e.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "963632",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

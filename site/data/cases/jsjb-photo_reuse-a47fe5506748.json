@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a47fe5506748",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Vijaigarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 94fa6a024f28) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/94fa6a024f28f4e7c9b7593b0d760741d35e0926a85a2f1bd39d18cfce77ae87.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4037746",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

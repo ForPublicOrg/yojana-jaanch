@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d244b33d335b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Bir Ghugiana",
+  "Veere Wala Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint baae957655ae) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2025-12-26 16:26:43 to 2025-12-26 16:32:16)."
+ ],
+ "photo": "photos/baae957655aedb0b4dfadb117acbc753ed7806c5bcd721a8c5ff797d053a4eb0.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "1019210",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

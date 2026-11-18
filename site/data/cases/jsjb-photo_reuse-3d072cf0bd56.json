@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3d072cf0bd56",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Jhakhar Pindi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d0c266c400b0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.14584, 75.47236).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 2 times within 6 minutes (2026-05-07 23:22:19 to 2026-05-07 23:27:31)."
+ ],
+ "photo": "photos/d0c266c400b0c2a1599590be08f31f8d2a85f06002c6acd644d3f22d8c8e0a4b.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7843922",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

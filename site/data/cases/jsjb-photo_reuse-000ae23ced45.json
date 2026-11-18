@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-000ae23ced45",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Puduchatram",
+ "villages": [
+  "Thirumalaipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint edbee9a2db36) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-09 18:04:25 to 2026-02-09 18:06:17)."
+ ],
+ "photo": "photos/edbee9a2db362efc98a355bc8ec6008fc097f69b61da4c1d65f876161cd5d0d4.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339302",
+   "village": "Thirumalaipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.352544,
+   "lon": 78.21717,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  },
+  {
+   "record_id": "9339303",
+   "village": "Thirumalaipatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.3528,
+   "lon": 78.217,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

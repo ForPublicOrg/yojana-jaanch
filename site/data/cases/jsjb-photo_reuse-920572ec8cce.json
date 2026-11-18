@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-920572ec8cce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Bhukra",
+  "Bhun",
+  "Salimpur Afganan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6524c532b3af) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/6524c532b3af52f7a9a45d5646285947852678937a89954a4a39d46b457b72fd.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "1054432",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

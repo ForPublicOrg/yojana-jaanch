@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-19bcbcf000f6",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "10 works at one GPS point in Baghapurana",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Baghapurana"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "10 works in Baghapurana report exactly the same GPS point (30.691383, 75.07098).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (10).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7480229",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f0be67b1ffdf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Bhagwanpur",
+  "Doburji"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 95fcf6d2044d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/95fcf6d2044dd65aca7f4aea796358aecf7917442252f3edd3670a4fbd012eeb.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "7941248",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

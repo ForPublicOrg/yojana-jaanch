@@ -1,5 +1,31 @@
 {
  "id": "jsjb-upload_burst-bbf31ec5980a",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "15 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Dalavaipatti (Ct)",
+  "Dasinayakkanpatti",
+  "Keeraipappambadi",
+  "Konasamudram",
+  "Periyakavundapuram",
+  "Sukkampatti",
+  "Vedakuttampatti"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "15 different photos for 15 different works were uploaded by Block Development Officer within 10 minutes, from 2025-06-26 15:12:46 to 2025-06-26 15:22:03.",
+  "That is about one work every 37 seconds on average.",
+  "The works are in 7 villages: Dalavaipatti (Ct), Dasinayakkanpatti, Keeraipappambadi, Konasamudram, Periyakavundapuram, Sukkampatti, Vedakuttampatti.",
+  "These works are spread over 4 blocks: Ayodhiyapattinam, Konganapuram, Salem, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346005",
@@ -70,6 +96,34 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Konganapuram"
+  },
+  {
+   "record_id": "9358783",
+   "village": "Keeraipappambadi",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2020-10-08",
+   "end_date": "2023-06-15",
+   "lat": 11.6767546,
+   "lon": 78.0439147,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "9358786",
+   "village": "Keeraipappambadi",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2020-10-08",
+   "end_date": "2023-06-15",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
   },
   {
    "record_id": "9358788",
@@ -183,5 +237,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

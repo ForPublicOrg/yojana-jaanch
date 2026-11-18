@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-01cec52798cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Nehdai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 20845f294877) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-22 12:10:13 to 2026-05-22 12:15:19)."
+ ],
+ "photo": "photos/20845f2948778fd0af45f75ef4c8dd13b9e715b6b76ba64102b52582d18cabda.jpg",
+ "offices": [
+  "Watershed_JSM_MOH"
+ ],
+ "records": [
+  {
+   "record_id": "11070592",
+   "village": "Nehdai",
+   "structure_type": "Other",
+   "created_by": "Watershed_JSM_MOH",
+   "start_date": "2026-02-27",
+   "end_date": "2026-03-22",
+   "lat": 27.35477,
+   "lon": 70.984998,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "11073740",
+   "village": "Nehdai",
+   "structure_type": "Other",
+   "created_by": "Watershed_JSM_MOH",
+   "start_date": "2026-03-28",
+   "end_date": "2026-04-21",
+   "lat": 27.354435,
+   "lon": 70.986541,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

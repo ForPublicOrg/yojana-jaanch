@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e842d19ddb33",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Rurka Kalan",
+ "villages": [
+  "Rajgomal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d97c4420363) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 59 seconds (2026-04-03 16:15:06 to 2026-04-03 16:16:05)."
+ ],
+ "photo": "photos/6d97c44203634d5afb75f43654d3db016544ad037cdc3bf0c8446388644f1e54.jpg",
+ "offices": [
+  "BDPO Rurka Kalan"
+ ],
  "records": [
   {
    "record_id": "1119030",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Rurka Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

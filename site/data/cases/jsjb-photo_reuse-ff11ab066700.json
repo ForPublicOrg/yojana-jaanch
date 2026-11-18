@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ff11ab066700",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Goharpura",
+  "Sonwa",
+  "Theekariya"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 152772bf3eae) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/152772bf3eaefd679ac99fbfd32229c8de02df486eb87d66555f2feb69bd2c7e.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3645768",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

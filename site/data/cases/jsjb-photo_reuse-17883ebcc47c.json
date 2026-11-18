@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-17883ebcc47c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kapur Garh",
+  "Kaulgarh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 24c4ce5d31c1) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The photo was uploaded 4 times within 11 minutes (2026-04-16 13:21:38 to 2026-04-16 13:32:17)."
+ ],
+ "photo": "photos/24c4ce5d31c1220b6c110e278762eaf18f1cb0ff393b7f5cc26598b753ed6817.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4947642",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

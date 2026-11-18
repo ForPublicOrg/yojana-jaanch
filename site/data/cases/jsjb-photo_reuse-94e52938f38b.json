@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-94e52938f38b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Badbar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba5fd07f6179) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2026-05-26 22:53:18 to 2026-05-26 22:58:55)."
+ ],
+ "photo": "photos/ba5fd07f6179ea432a176238072ef4b2f82774ce546732828bed67dd62dc0404.jpg",
+ "offices": [
+  "Harinder Kaur Stenographer"
+ ],
  "records": [
   {
    "record_id": "7250202",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

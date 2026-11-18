@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-da52925eb963",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Gudalur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 63cbaaf208f5) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Percolation Pond (4).",
+  "All 4 works report the same GPS point (11.0, 77.0).",
+  "The photo was uploaded 4 times within 9 minutes (2025-06-25 13:28:23 to 2025-06-25 13:37:16)."
+ ],
+ "photo": "photos/63cbaaf208f5ab1079a09ed98106b3499552efd7b2aea7210e5e58a4801df2e1.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9359632",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e1e18c6932e0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Dhulwa",
+  "Gunti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0402bfd0738d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/0402bfd0738df3f20a1e8a716249e1fca2e12d00cedd9b2bbecc8d5d104de97c.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "12937092",
+   "village": "Dhulwa",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2023-06-16",
+   "end_date": "2026-03-18",
+   "lat": 28.276348,
+   "lon": 75.905876,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "13484665",
+   "village": "Gunti",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2023-05-04",
+   "end_date": "2026-03-18",
+   "lat": 28.286631,
+   "lon": 75.978123,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-559551412821",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Mallur",
+ "villages": [
+  "Mallur (TP) - Ward No.1",
+  "Mallur (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f6eaa2a3b011) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f6eaa2a3b011045a10d0c68d44b329d8ff156e04e848341d4db166ae70e162c4.jpg",
+ "offices": [
+  "ASSISTANT DIRECTOR OF TOWN PANCHAYAT"
+ ],
  "records": [
   {
    "record_id": "10413905",
@@ -29,5 +48,8 @@
    "area_type": "Urban",
    "block": "Mallur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

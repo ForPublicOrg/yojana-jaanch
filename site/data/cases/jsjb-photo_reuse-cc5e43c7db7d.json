@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cc5e43c7db7d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Gagarpur"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint c0c212fcf007) is attached to 23 different works in 1 village. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Contour Trench (23).",
+  "All 23 works started and ended on the same day (2026-05-12)."
+ ],
+ "photo": "photos/c0c212fcf007baa0618b23e8fb8291993dd56c1f8dd2072dc5434a417c125c0c.jpeg",
+ "offices": [
+  "BDPO SUNAM II"
+ ],
  "records": [
   {
    "record_id": "10635735",
@@ -323,5 +342,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 70,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-34fb5c02a97e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Rasulpur Jandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f259dc264096) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 30 minutes (2026-02-05 12:35:39 to 2026-02-05 13:04:57)."
+ ],
+ "photo": "photos/f259dc264096f458f60a764f819ccf29a360e8f9f50695af4a4ec3a819ac174a.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256427",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

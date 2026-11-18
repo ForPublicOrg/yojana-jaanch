@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-491e21340a34",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Nadupatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7ac00a7038f2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (1), Tank (1).",
+  "All 2 works report the same GPS point (11.506116, 78.094549).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-04 17:03:45 to 2026-02-04 17:05:03)."
+ ],
+ "photo": "photos/7ac00a7038f2139c811a0fd9c095c10dc710949203be3d66450819fe4dccc0a4.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339665",
+   "village": "Nadupatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-01",
+   "end_date": "2025-03-31",
+   "lat": 11.506116,
+   "lon": 78.094549,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9339666",
+   "village": "Nadupatti",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-01",
+   "end_date": "2025-03-31",
+   "lat": 11.506116,
+   "lon": 78.094549,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

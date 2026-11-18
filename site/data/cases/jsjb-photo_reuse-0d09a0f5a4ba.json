@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0d09a0f5a4ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Singipuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 96276dab1d39) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (11.634623, 78.414627).",
+  "The photo was uploaded 4 times within 8 minutes (2026-05-20 13:08:18 to 2026-05-20 13:15:31)."
+ ],
+ "photo": "photos/96276dab1d3959034d4fb20a38ee906bcfaa50f2d0b8940873b3ea1c4c9f4db3.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10355649",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

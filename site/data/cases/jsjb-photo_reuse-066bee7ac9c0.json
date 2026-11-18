@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-066bee7ac9c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Adampur",
+ "villages": [
+  "Kapur Pind"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f9995d260335) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1).",
+  "The entries were made by 2 different offices: BDPO Adampur, Zilledar."
+ ],
+ "photo": "photos/f9995d260335bfc3b994a1a43fe89a7de7789879cdbdc41420307ed7a7f81431.jpg",
+ "offices": [
+  "BDPO Adampur",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "974710",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Adampur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

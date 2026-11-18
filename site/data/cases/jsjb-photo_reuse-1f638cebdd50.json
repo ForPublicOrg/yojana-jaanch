@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1f638cebdd50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Ganzari",
+  "Goghari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 590098788bfa on 1 work, 82fccd7da7dc on 1 work.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/590098788bfa30bcdda3beccf30ffc742480c0747fe17137844791764daa9e0f.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3330946",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "590098788bfa30bcdda3beccf30ffc742480c0747fe17137844791764daa9e0f",
+   "records": 1
+  },
+  {
+   "sha256": "82fccd7da7dcdd411db9f1e1c5a0c4f68e016639b52541ce12e9b373080fd19c",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3a4fce4abbac"
  ]
 }

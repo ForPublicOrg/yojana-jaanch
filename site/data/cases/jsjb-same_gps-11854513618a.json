@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-11854513618a",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "28 works at one GPS point in Pappambadi",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Pappambadi"
+ ],
+ "record_count": 28,
+ "reasons": [
+  "28 works in Pappambadi report exactly the same GPS point (11.64, 77.96).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (28).",
+  "They carry 28 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346410",
@@ -393,5 +413,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 56,
+ "needs_human_review": false
 }

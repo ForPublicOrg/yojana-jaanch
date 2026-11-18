@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-aaa7f8d67cbc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Bhundar Bhaini",
+  "Gulahri",
+  "Hamirgarh",
+  "Shahpur Nauabad Alias Thedi"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 0553ba82be8f) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (29.0, 75.0)."
+ ],
+ "photo": "photos/0553ba82be8fd31dcd0e50060ed87a113f1505094a7ba7b20c8d4b34db0fb379.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "10321143",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

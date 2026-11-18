@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-48abeb857046",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Ibban"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ae0249d2f5be) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "The entries were made by 3 different offices: Block Devolpment officer Kapurthala, Deputy Commissioner, Patwari Water Resources Department."
+ ],
+ "photo": "photos/ae0249d2f5beebb994fdb6b9c578e6c5d53d481b00b5797151292f4072a87b96.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Deputy Commissioner",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "969637",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

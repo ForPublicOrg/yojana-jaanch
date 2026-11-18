@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4a4572c623f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Boolpur",
+  "Busowal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 350b517eef1d) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/350b517eef1d5b94dea52149841815faeb139ee34d0020370d4d3b2ecbeb6c67.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1062172",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

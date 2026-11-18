@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-471bd348675f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Gauri Bazar",
+ "villages": [
+  "Baniaini",
+  "Pakari Chhapar Patkhauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a13fead21a18) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 12 minutes (2026-10-09 15:44:08 to 2026-10-09 15:55:27).",
+  "These works are spread over 2 blocks: Gauri Bazar, Tarkalua."
+ ],
+ "photo": "photos/a13fead21a182172ed9df7c0ea5a59939a32acb9b7788d155c589b653a2e6381.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3240687",
+   "village": "Baniaini",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-26",
+   "lat": 26.49714,
+   "lon": 83.64904,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Gauri Bazar"
+  },
+  {
+   "record_id": "3996328",
+   "village": "Pakari Chhapar Patkhauli",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-09-08",
+   "end_date": "2025-09-30",
+   "lat": 26.58933,
+   "lon": 83.91731,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Tarkalua"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

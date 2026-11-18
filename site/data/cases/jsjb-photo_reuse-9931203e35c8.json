@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9931203e35c8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Khajala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d31311b5ab6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.773263, 75.269581).",
+  "All 2 works started and ended on the same day (2026-05-18)."
+ ],
+ "photo": "photos/8d31311b5ab6d0d3aef684c3dabf4cdf96fa0d4a4b128c826e32e59152972a19.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "10767728",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-82d196233755",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Abbaludu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f43dc099f839) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Percolation Pond (1).",
+  "The photo was uploaded 4 times within 6 minutes (2025-12-18 14:22:32 to 2025-12-18 14:27:42)."
+ ],
+ "photo": "photos/f43dc099f83920d6891fc2b19358071f69fa0931093e3dd9bc097b0c9beffb15.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3102093",
+   "village": "Abbaludu",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-10",
+   "end_date": "2025-09-24",
+   "lat": 13.3456,
+   "lon": 77.8585739,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3102145",
+   "village": "Abbaludu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-10-21",
+   "lat": 13.439698,
+   "lon": 77.854832,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-0253f2e1312b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Billur",
+  "Mumadivaripalli",
+  "Saddupalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9c0e2cd9e6a5) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/9c0e2cd9e6a50b2d5965db476bc16f3ca9d3b53d44d74210bf5d1857294a00ac.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3099274",
+   "village": "Mumadivaripalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-26",
+   "end_date": "2025-11-14",
+   "lat": 13.92152,
+   "lon": 77.82285,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3128574",
+   "village": "Saddupalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-17",
+   "end_date": "2025-11-12",
+   "lat": 13.81622469,
+   "lon": 77.87553955,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "11301716",
+   "village": "Billur",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-11",
+   "lat": 13.842741,
+   "lon": 78.008164,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

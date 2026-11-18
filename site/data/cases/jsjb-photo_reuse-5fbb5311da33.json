@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5fbb5311da33",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Baraini"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 658fdaa2583f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.221582, 82.690585)."
+ ],
+ "photo": "photos/658fdaa2583ffbe592f791037b3087d8dcd94e366f887c72fc09c02dfd4676df.jpg",
+ "offices": [
+  "BDO Majhawa"
+ ],
  "records": [
   {
    "record_id": "3613022",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

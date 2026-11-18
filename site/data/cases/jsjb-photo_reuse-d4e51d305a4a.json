@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d4e51d305a4a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Arurpatti"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint e8ca39dacf13) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "All 4 works report the same GPS point (11.71, 77.94)."
+ ],
+ "photo": "photos/e8ca39dacf1377c14a54ae526b0ae3d0cb7cb3a5bbbcff601a936bb96fd4973f.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9362376",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

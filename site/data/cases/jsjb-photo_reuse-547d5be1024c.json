@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-547d5be1024c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Mokhe"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17695e0d72f2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 17 minutes (2026-04-07 10:22:44 to 2026-04-07 10:39:00).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/17695e0d72f2b2048ecf46002285ec752357a8b6f6d7441d0990fcf852782698.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977895",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

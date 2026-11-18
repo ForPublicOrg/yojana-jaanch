@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b6a90bedcbae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Mahgoan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 45c6850dc137) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.257625, 82.832682).",
+  "The photo was uploaded 2 times within 4 seconds (2025-05-21 05:46:57 to 2025-05-21 05:47:01)."
+ ],
+ "photo": "photos/45c6850dc137767c3921b4bf18daad98640177012ef3d3a621946288ef963b90.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1717888",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

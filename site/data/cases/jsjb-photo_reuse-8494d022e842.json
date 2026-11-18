@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8494d022e842",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Majjupura"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 3c9020e7f552) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Other (7).",
+  "All 7 works report the same GPS point (31.786925, 74.912239).",
+  "Each of the 7 works started and ended on a single day. The works are spread over 3 dates: 2026-04-24, 2026-04-25, 2026-04-26."
+ ],
+ "photo": "photos/3c9020e7f5526381f35a7c748431f29e4afa491f0becc0d175d72aad389b4ea3.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "5568496",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

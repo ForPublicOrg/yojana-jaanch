@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0e4f2e3385d6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Bhullar",
+  "Nur Pur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c916a8d381f8) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 19 minutes (2026-04-05 12:14:20 to 2026-04-05 12:32:45)."
+ ],
+ "photo": "photos/c916a8d381f83dde7d0e7118b2041f83a8fe643ae131328c552d0bc619c09d7d.jpg",
+ "offices": [
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "992364",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-89a90b8d4eb0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Baupur Jadid"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint e1c769648a44) is attached to 18 different works in 1 village. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Contour Trench (18).",
+  "All 18 works report the same GPS point (31.252861, 75.11175).",
+  "All 18 works started and ended on the same day (2026-05-25)."
+ ],
+ "photo": "photos/e1c769648a44e318edf7f21421ddd9e2651afb5ca019759554464573a36af97b.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "12397566",
@@ -253,5 +273,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 56,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3b8e28fb8950",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Rurka Kalan",
+ "villages": [
+  "Sargundi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2962eca70377) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Other (1).",
+  "The photo was uploaded 6 times within 26 minutes (2026-04-04 20:44:29 to 2026-04-04 21:09:52).",
+  "The entries were made by 2 different offices: BDPO Rurka Kalan, Zilledar."
+ ],
+ "photo": "photos/2962eca70377001be59f914425e768b4854f660f043148a69546cc0d815a9e1d.jpg",
+ "offices": [
+  "BDPO Rurka Kalan",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "999499",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Rurka Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

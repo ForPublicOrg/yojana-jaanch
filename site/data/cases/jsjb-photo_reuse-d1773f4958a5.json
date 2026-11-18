@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d1773f4958a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Koili",
+  "Kuari"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 8627b3f579d5) is attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Village Pond (6)."
+ ],
+ "photo": "photos/8627b3f579d5648059cc840eb389403959fa3c5fd811b0470e6da05aafd4854d.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4062576",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

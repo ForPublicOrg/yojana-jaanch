@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5e661a8b9cfb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Kothia Rae",
+  "Rampur Kanth"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c9eadaef9149) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/c9eadaef9149b3d0ea9406e39a90f9b9f38ce5e94dc560822362cdf90f734ef8.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4420127",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

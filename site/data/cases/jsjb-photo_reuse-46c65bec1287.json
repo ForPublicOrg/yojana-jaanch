@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-46c65bec1287",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Manpur Ratnauli Urf Ratnouli Asli",
+  "Samhuti Urf Akbarpur",
+  "Siri Khinria"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4c605708c813) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/4c605708c813c3eab4a6892c9523eb03a6bc712fcff5476a6ac972f11f1da95a.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4800959",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

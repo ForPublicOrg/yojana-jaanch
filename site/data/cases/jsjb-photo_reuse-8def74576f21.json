@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8def74576f21",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "T.Konagapadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b312a2c7dce2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.5798, 77.9166)."
+ ],
+ "photo": "photos/b312a2c7dce2bce4186892a644a67d1b0860c4dc10888263c67fc652b4f5fa84.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349468",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

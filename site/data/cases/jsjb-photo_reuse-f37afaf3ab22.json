@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f37afaf3ab22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Kiwara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a15a56fc58ee) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (26.309566, 76.067603).",
+  "The photo was uploaded 2 times within 46 seconds (2026-05-23 18:35:45 to 2026-05-23 18:36:31)."
+ ],
+ "photo": "photos/a15a56fc58eef49870a3a19d3e3164782e336334fa962cebcf56aff397b3557e.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "11793342",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d70e879ece90",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Kalian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 88ecd51efa62) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/88ecd51efa62f0391ccc8e0c9ab23efed76e25f192deabbbfd6dfb45f97d96c7.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "5395399",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

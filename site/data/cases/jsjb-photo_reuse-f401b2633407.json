@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f401b2633407",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Baleam",
+  "Untwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bfe01b11a801) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/bfe01b11a801122482c91a96a128431f94f1b21a3b2e50a36a5d7ba8e5b5960b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1077124",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-46861967523c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Chuchakwal",
+  "Heir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 56ba9187b38b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "These works are spread over 2 blocks: Attari, Chogawan."
+ ],
+ "photo": "photos/56ba9187b38bde5c1c32a0e4382f01ad4265658188cb779d7e499320937d5b5d.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "993863",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-900e7a206d70",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Adampur",
+ "villages": [
+  "Kalra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5acc242eba7f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.399465, 75.782446).",
+  "The photo was uploaded 2 times within 24 seconds (2026-05-27 16:36:52 to 2026-05-27 16:37:16)."
+ ],
+ "photo": "photos/5acc242eba7fe405a3bae9b7102cd514c41f96fce6f3668f909f48ea6bdef553.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "13503674",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Adampur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

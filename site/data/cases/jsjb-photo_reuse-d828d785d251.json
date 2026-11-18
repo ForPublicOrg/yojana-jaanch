@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d828d785d251",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Jhunir",
+ "villages": [
+  "Khiali Chahlan Wali"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 74a09214a3b6) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9)."
+ ],
+ "photo": "photos/74a09214a3b6e30530d4eff2db032414cced430e9b385885cc4725590b705228.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "8692876",
@@ -127,5 +145,8 @@
    "area_type": "Rural",
    "block": "Jhunir"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

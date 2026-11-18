@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3b59a0c5d170",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Kukar Majara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a56e2effc752) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/a56e2effc7522c13efe61d969e8a82b4f60c56e78b1c83a44069926a7e94f021.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1058057",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

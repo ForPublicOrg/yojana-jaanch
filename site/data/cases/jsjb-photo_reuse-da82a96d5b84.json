@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-da82a96d5b84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Mirjanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 294199d0d9f3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-08).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla."
+ ],
+ "photo": "photos/294199d0d9f304c52d0463df7e94cefb92dbdd2f6a119bff750d3fa86328adb9.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8344032",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

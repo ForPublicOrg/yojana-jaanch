@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b5d3dd2be23c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Kahne Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5b9916c849d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.7231, 75.2111).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-18, 2026-04-19.",
+  "The photo was uploaded 4 times within 28 minutes (2026-04-19 15:52:12 to 2026-04-19 16:19:23)."
+ ],
+ "photo": "photos/a5b9916c849dafa0f5a0f6459f5ad046a3e935419ac67e334463fc6eee45ce65.jpg",
+ "offices": [
+  "GRS"
+ ],
  "records": [
   {
    "record_id": "5119834",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

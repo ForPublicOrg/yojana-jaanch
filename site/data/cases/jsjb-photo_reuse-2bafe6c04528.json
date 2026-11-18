@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2bafe6c04528",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Bachhohi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 786aafb6dd4a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 9 minutes (2026-05-31 12:25:20 to 2026-05-31 12:33:27)."
+ ],
+ "photo": "photos/786aafb6dd4aab143a842916b1729e891afb76c810670d012081801377ab5420.jpg",
+ "offices": [
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "16000229",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

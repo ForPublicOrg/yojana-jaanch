@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-a13867364d73",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Ahmedpur",
+  "Bhaini Kamboa",
+  "Hussainpura",
+  "Jatiwal",
+  "Manki",
+  "Matoi",
+  "Nathoheri",
+  "Tolewal"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint d7c4013d22da) is attached to 8 different works in 8 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (4), Bore-Well Recharge (2), Other (2).",
+  "The entries were made by 2 different offices: CANAL PATWARI, IT Manager.",
+  "These works are spread over 3 blocks: Ahmedgarh, Amargarh, Malerkotla (Head Quarter)."
+ ],
+ "photo": "photos/d7c4013d22da744d2ba6dceab7731f3137b2f3291ab8cefde6e57a2174b3e306.jpg",
+ "offices": [
+  "CANAL PATWARI",
+  "IT Manager"
+ ],
  "records": [
   {
    "record_id": "1045053",
@@ -113,5 +141,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

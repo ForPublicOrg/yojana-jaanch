@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-91c3d6faa971",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Nasirda",
+  "Niwariya"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 11f5f80d4500) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 8 minutes (2026-03-19 13:22:19 to 2026-03-19 13:29:59)."
+ ],
+ "photo": "photos/11f5f80d4500cea998c3e6508223ee167a1e5ad37be7ee3cd998ae2ef1fb30a6.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4042279",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

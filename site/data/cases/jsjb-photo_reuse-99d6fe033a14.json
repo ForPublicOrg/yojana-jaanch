@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-99d6fe033a14",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Kasba Bhural"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2925d8125c70) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.57101, 75.691764).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/2925d8125c70c0b376d675d32978041e45c9e9cde8e73ef3426608a3b1e8bb17.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "5395576",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

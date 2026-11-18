@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-455ac3a84c1d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Naudharani"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 08e71b4670c0) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.493656, 75.860617).",
+  "The photo was uploaded 3 times within 4 minutes (2026-05-21 13:13:28 to 2026-05-21 13:16:33)."
+ ],
+ "photo": "photos/08e71b4670c0d52d8d8b644823875b759940b02d0cd29baa904b4e070ba02ca6.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10668189",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

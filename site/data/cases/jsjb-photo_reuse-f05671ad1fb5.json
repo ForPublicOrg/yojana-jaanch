@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f05671ad1fb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Shyorajpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a2f821d99c60) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.001365, 75.927915)."
+ ],
+ "photo": "photos/a2f821d99c60ca27b4155b663697e0d2873c6cdc167b054f88ed945723eb0d4e.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4068703",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

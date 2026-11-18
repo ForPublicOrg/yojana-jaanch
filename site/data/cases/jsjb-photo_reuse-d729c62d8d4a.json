@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d729c62d8d4a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Nadampur",
+  "Rajpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.014 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 7221ca8f35eb on 1 work, d01d84286388 on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/7221ca8f35eb160fbd2bc6ec37fc7c34eb2f5687c475c1956af9b610d10c6ce5.jpg",
+ "offices": [
+  "SDO drainage Lehra"
+ ],
  "records": [
   {
    "record_id": "9454703",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "7221ca8f35eb160fbd2bc6ec37fc7c34eb2f5687c475c1956af9b610d10c6ce5",
+   "records": 1
+  },
+  {
+   "sha256": "d01d84286388f7bf66d4b77ae9fd0400b4a84fe61bc75f5c4eba8d4c3c3b39b5",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-7670ff63ded6"
  ]
 }

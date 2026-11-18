@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-97e40bd74d10",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Sandar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint abdf189c3d05) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.144944, 75.375877).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-01, 2026-05-02."
+ ],
+ "photo": "photos/abdf189c3d056c2f460e3304323849ccda799f03e6e1105923c99c55825cdf75.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8345373",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

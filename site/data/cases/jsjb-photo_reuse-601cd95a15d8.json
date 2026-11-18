@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-601cd95a15d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Bamor",
+  "Ilahipura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a0983089a680) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/a0983089a6801f42ce2f829cd6d27f20678b5434b8c5e04897fcf2527cc26961.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "13561456",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f2f74f0f5140",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Atta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bdc170a19be3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/bdc170a19be302124ba1cd97e28125e2dce68caf8742c5c624b6bf110c8fc851.jpg",
+ "offices": [
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119326",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

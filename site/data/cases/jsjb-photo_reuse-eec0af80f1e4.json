@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-eec0af80f1e4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 102 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Jagdev Khurd"
+ ],
+ "record_count": 102,
+ "reasons": [
+  "The same photo file (fingerprint 3ae9ff2a4c3a) is attached to 102 different works in 1 village. A photo of one site cannot be evidence for 102 separate works.",
+  "The works are recorded as: Other (101), Contour Trench (1).",
+  "All 102 works report the same GPS point (31.54, 74.53)."
+ ],
+ "photo": "photos/3ae9ff2a4c3a502688eb0d8e075532f402a5ebd8a6021242d64bf6e453225839.jpeg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5395315",
@@ -1429,5 +1448,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 307,
+ "needs_human_review": false
 }

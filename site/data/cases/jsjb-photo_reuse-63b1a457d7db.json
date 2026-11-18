@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-63b1a457d7db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Chhapiar Wali",
+  "Devidas Pura",
+  "Sathiala",
+  "Tanel",
+  "Tapiala"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 0ea919ab43bc) is attached to 8 different works in 5 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/0ea919ab43bcca2467991e1e4ae8c1850bbe1391db55750f8ca962b20903798a.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5684790",
@@ -113,5 +136,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

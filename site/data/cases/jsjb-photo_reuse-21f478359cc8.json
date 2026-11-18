@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-21f478359cc8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Naushera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e2514894b707) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.13071, 75.327987).",
+  "All 2 works started and ended on the same day (2026-05-04)."
+ ],
+ "photo": "photos/e2514894b7077dcec179f0fa36f0a162ad9382b162049c17d4edfbf4a842be74.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7978260",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

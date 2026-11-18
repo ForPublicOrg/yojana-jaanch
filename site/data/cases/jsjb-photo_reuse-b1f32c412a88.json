@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b1f32c412a88",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Pholriwala"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 125b5fbbf895) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "The photo was uploaded 10 times within 11 minutes (2026-03-15 16:59:48 to 2026-03-15 17:09:49)."
+ ],
+ "photo": "photos/125b5fbbf89581600a424aba95725c514e0fbd85f045674e7ca97b7e1a8a4840.jpg",
+ "offices": [
+  "Junior engineer civil Puda, jda"
+ ],
  "records": [
   {
    "record_id": "986559",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

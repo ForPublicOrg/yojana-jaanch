@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-68d538bd09dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Devlawas",
+  "Kalakhari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e6d3651da1bd) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Tank (3).",
+  "The photo was uploaded 6 times within 20 minutes (2026-05-27 12:50:49 to 2026-05-27 13:10:07)."
+ ],
+ "photo": "photos/e6d3651da1bd470996450e3e05f499372071103d506535b2b5d1ca97c9f7a383.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "13475082",
+   "village": "Devlawas",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-02-16",
+   "end_date": "2025-12-03",
+   "lat": 28.181746,
+   "lon": 75.952076,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "13479121",
+   "village": "Devlawas",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-02-16",
+   "end_date": "2025-12-03",
+   "lat": 28.1823422,
+   "lon": 75.9537473,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "13482426",
+   "village": "Kalakhari",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2022-12-01",
+   "end_date": "2026-03-16",
+   "lat": 28.20332323,
+   "lon": 75.90757574,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

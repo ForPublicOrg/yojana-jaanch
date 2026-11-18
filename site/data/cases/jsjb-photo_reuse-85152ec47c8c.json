@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-85152ec47c8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Arniyakedar",
+  "Kabra"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint f5477a01b57e) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/f5477a01b57ebd1a808d003b8947752d83b4215e5788626e19f1af8a11ce77ec.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3872763",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

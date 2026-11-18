@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-f0c92a62a93d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Duggirala",
+ "villages": [
+  "Chiluvuru",
+  "Siripuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.027 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): d57dcc610855 on 1 work, ec6cafcbd6cf on 1 work.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Duggirala, Kollipara."
+ ],
+ "photo": "photos/d57dcc6108550f0cc883c7691841b9e0751b9b74fc2d17a7f5aa3377a38d7066.jpg",
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "8162046",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Duggirala"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "d57dcc6108550f0cc883c7691841b9e0751b9b74fc2d17a7f5aa3377a38d7066",
+   "records": 1
+  },
+  {
+   "sha256": "ec6cafcbd6cf24fbc162ab97a5cfbb0305e9acdd7d6fd613c5e33d085b9cdb3f",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-19b8a985df1c"
  ]
 }

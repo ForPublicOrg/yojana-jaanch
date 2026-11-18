@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-63e4f83af8e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Pairowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fa7302598c09) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-12 13:50:58 to 2026-05-12 13:54:51)."
+ ],
+ "photo": "photos/fa7302598c091b213462d39077587ff5b1403292b5ed5f018892dd69632f562e.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "8686381",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-bf66af11a13b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Hosakote",
+  "Ramapura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a585907d1f85) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a585907d1f85b66fd9cbc894821faba719db7da96e41b3fefdfa0a3f2e22f841.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3141372",
+   "village": "Hosakote",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2020-02-10",
+   "end_date": "2021-04-05",
+   "lat": 13.583319,
+   "lon": 77.378899,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3157632",
+   "village": "Ramapura",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2020-02-10",
+   "end_date": "2021-04-05",
+   "lat": 13.618725,
+   "lon": 77.441377,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

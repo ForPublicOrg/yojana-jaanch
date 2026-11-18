@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3da0f2fbe648",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Jaitewali",
+  "Nauli",
+  "Patara"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 1cf48e4eaf9e) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The photo was uploaded 12 times within 26 minutes (2026-04-05 13:14:22 to 2026-04-05 13:39:49)."
+ ],
+ "photo": "photos/1cf48e4eaf9e088bab92af1f1da262b3bf18395be772c2f1168b1df409e818a8.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "974087",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

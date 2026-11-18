@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e63e85f3a2e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Akhatari",
+  "Malooni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 27bbae2a8668) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/27bbae2a86688f905d7f0cf2741569ea364e5d3ca0a129a2d4a0924710af8e30.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1394157",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

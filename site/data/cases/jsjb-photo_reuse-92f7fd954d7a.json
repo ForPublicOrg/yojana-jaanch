@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-92f7fd954d7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Kachogara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a2c1ecc034fd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (26.58, 78.87).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-25 22:16:39 to 2026-05-25 22:17:41)."
+ ],
+ "photo": "photos/a2c1ecc034fd8907fbb576d2be1bd2feb9056cbb06424835ad7a25e0154f02f7.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12681742",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5986060ee6bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Basant Khurd",
+  "Supi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e25cbb114609) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.717277, 85.3476999)."
+ ],
+ "photo": "photos/e25cbb114609231f977a5119831fff1331b7c475e1e9809e2364b4b78aab8a21.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4546049",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

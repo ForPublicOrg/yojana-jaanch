@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c6e614e9d2b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 14 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Belganj",
+  "Nandwara",
+  "Pachtaki Jadu",
+  "Patahi"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "The same photo file (fingerprint 175495fc32a6) is attached to 14 different works in 4 villages. A photo of one site cannot be evidence for 14 separate works.",
+  "The works are recorded as: Other (14)."
+ ],
+ "photo": "photos/175495fc32a6009198c1262124a7d1ec41912b68857c0044cd977dc52e8c143c.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4473043",
@@ -197,5 +218,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

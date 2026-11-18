@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b0de442baa40",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Mahamadpur Dalel Urf Durpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 970a4c8f3793) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.42487, 85.70078).",
+  "The photo was uploaded 2 times within 12 seconds (2026-03-22 21:12:53 to 2026-03-22 21:13:05)."
+ ],
+ "photo": "photos/970a4c8f37930cffd98049d3129c2a35349272c273f9295fd676683c828afa62.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4117643",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

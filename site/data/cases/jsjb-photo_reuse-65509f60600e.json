@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-65509f60600e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Kunnamalai",
+  "Villipalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 78dab663bdcd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/78dab663bdcd2201febb5f6793b232f75200b14c2e5376fe9d0a342ce0b72f12.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3411910",
+   "village": "Kunnamalai",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-10",
+   "lat": 11.188155,
+   "lon": 78.039274,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "6293765",
+   "village": "Villipalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-15",
+   "lat": 11.187605,
+   "lon": 78.038925,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

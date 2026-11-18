@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-96c82ac09b45",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Muradpur",
+  "Parmanandpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f2350b5eeeb5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2)."
+ ],
+ "photo": "photos/f2350b5eeeb536167b5d047c9f3f2f20c16e6d9164c0c6ce799ca22432814f48.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3943745",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

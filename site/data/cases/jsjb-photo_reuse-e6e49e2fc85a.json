@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-e6e49e2fc85a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Puduchatram",
+ "villages": [
+  "Minnampalli",
+  "Thalambadi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 62771395c830) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.301298, 78.165412)."
+ ],
+ "photo": "photos/62771395c83064a70b14bc39b3c2dea59c29a14d429c1d1403f2a909269c647f.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339009",
+   "village": "Minnampalli",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.301298,
+   "lon": 78.165412,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  },
+  {
+   "record_id": "9339029",
+   "village": "Thalambadi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.301298,
+   "lon": 78.165412,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  },
+  {
+   "record_id": "9339312",
+   "village": "Thalambadi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.301298,
+   "lon": 78.165412,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

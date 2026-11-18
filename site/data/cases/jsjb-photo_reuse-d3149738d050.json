@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d3149738d050",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Boran",
+  "Khera"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 101678ca787b) is attached to 11 different works in 2 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Contour Trench (10), Other (1)."
+ ],
+ "photo": "photos/101678ca787b316bc051cb050764eb2f0dcea6b378504c6fecb23f98b18a9355.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5392503",
@@ -155,5 +174,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

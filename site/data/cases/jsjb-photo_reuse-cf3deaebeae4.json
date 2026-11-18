@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-cf3deaebeae4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Namakkal (M) - Ward No.28",
+  "Namakkal (M) - Ward No.29"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da86ce12c668) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Recharge Shaft (1).",
+  "All 2 works report the same GPS point (11.223167, 78.181657)."
+ ],
+ "photo": "photos/da86ce12c668dc890b192e2bf4f4275b13180ae7d28470a46725923b5639a866.jpg",
+ "offices": [
+  "COMMSIONEER -NAMAKKAL"
+ ],
+ "records": [
+  {
+   "record_id": "3338889",
+   "village": "Namakkal (M) - Ward No.29",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-08-19",
+   "end_date": "2024-09-21",
+   "lat": 11.223167,
+   "lon": 78.181657,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3451678",
+   "village": "Namakkal (M) - Ward No.28",
+   "structure_type": "Recharge Shaft",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-08-12",
+   "end_date": "2024-10-05",
+   "lat": 11.223167,
+   "lon": 78.181657,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

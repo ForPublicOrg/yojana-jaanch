@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-92cd7f9f928b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Ballowal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4560e4a31cff) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1)."
+ ],
+ "photo": "photos/4560e4a31cff1083698947a45ffd30fe06f8a247a9d4a604da53f9a8d1d7aca0.jpg",
+ "offices": [
+  "BDPO Pakhowal"
+ ],
  "records": [
   {
    "record_id": "1197631",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

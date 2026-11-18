@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-4884de961e96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Theecholi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 29620f63f335) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 8 minutes (2026-03-26 12:46:59 to 2026-03-26 12:54:16)."
+ ],
+ "photo": "photos/29620f63f335f2896b0fe3a4a1310f502bef88173646072baac2370140343054.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4268866",
+   "village": "Theecholi",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-01",
+   "end_date": "2025-12-15",
+   "lat": 28.45124,
+   "lon": 75.68125,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4269293",
+   "village": "Theecholi",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-01",
+   "end_date": "2026-03-15",
+   "lat": 28.274762,
+   "lon": 75.904738,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

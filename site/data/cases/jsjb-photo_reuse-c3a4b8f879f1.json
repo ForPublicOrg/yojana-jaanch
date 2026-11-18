@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c3a4b8f879f1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Khilrian",
+  "Saron"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8592b797d777) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-15 10:09:07 to 2026-05-15 10:11:23)."
+ ],
+ "photo": "photos/8592b797d7774e4b6b7ef45f702093d596e64e067f4b528996857a81b4a54dba.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9238036",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

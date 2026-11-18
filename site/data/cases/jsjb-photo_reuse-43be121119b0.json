@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-43be121119b0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Belur",
+  "Krishnapuram"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8592c0f5da6f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (2), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/8592c0f5da6f7eccbbf908ee8f4ca5bb4584a28c1557890cbb1fde1bdfea02a5.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346971",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

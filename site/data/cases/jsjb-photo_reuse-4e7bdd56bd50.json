@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4e7bdd56bd50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Maniari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 43440357c040 on 2 works, a368d85d5d84 on 1 work.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/43440357c0407704dcd1aaa72522ea585fb34a8cabdfbb75ad0471d9e58eb608.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4573940",
@@ -43,5 +63,21 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "43440357c0407704dcd1aaa72522ea585fb34a8cabdfbb75ad0471d9e58eb608",
+   "records": 2
+  },
+  {
+   "sha256": "a368d85d5d84e29df7d1c66d588fe4c5b8681b9181b207e45ebd9a4876e4a6c4",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-19776cbe5823"
  ]
 }

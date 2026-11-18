@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c6fa17b450a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Alipur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint a5bb7a333619) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The entries were made by 3 different offices: Rural Deveolpment, SDO Watersupply, SOIL CONSERVATION OFFICER."
+ ],
+ "photo": "photos/a5bb7a333619756ecbff02c834105491f3298d3d08345f40fef521230c8bce4c.jpg",
+ "offices": [
+  "Rural Deveolpment",
+  "SDO Watersupply",
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "9061134",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

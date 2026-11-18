@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-de711a67c50d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Bhasar Machhaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 707028fffe2c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 2 times within 20 minutes (2026-03-13 12:16:04 to 2026-03-13 12:35:49)."
+ ],
+ "photo": "photos/707028fffe2c5c644bfe10365bb404ef3f2976df0bbcc039443f551a8d210672.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3914366",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

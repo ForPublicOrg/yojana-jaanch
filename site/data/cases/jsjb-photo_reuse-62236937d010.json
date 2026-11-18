@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-62236937d010",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Sunela Hazipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c7b1859f6546) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.1201645, 75.8967818)."
+ ],
+ "photo": "photos/c7b1859f6546d8180c5f21b57f30d56aea858b26b93f8df29680f69cf9b70a3a.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3675553",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

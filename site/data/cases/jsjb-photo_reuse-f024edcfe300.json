@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f024edcfe300",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Chettimankurichi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 55b5f55ce279) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3)."
+ ],
+ "photo": "photos/55b5f55ce2795e9fc4732b445e2a8002bb15a591d3190cfccbe015b267cb3571.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349304",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

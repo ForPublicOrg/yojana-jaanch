@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8b5cd664c156",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 17 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Ajmer",
+  "Gera"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "The same photo file (fingerprint 7830dc084a2a) is attached to 17 different works in 2 villages. A photo of one site cannot be evidence for 17 separate works.",
+  "The works are recorded as: Contour Trench (16), Other (1)."
+ ],
+ "photo": "photos/7830dc084a2a375992e13fba7fb3eaadc3dd7084fb379647992e6a7df4cc191a.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "5492561",
@@ -239,5 +258,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 51,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-11e833b2daf7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 30 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Bachharpur Urf Sahu Tikai",
+  "Bihta Dharampur",
+  "Hardia",
+  "Hariharpur"
+ ],
+ "record_count": 30,
+ "reasons": [
+  "The same photo file (fingerprint 715574e36a03) is attached to 30 different works in 4 villages. A photo of one site cannot be evidence for 30 separate works.",
+  "The works are recorded as: Village Pond (25), Percolation Pond (5)."
+ ],
+ "photo": "photos/715574e36a032f610364b922fdbe00bda9fa28d345d3c8b6874871eaee918f38.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "4067966",
@@ -421,5 +442,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 90,
+ "needs_human_review": false
 }

@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-faaae20d3518",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Athri",
+  "Bahilwara Tola Dhanukhi",
+  "Bengahi",
+  "Gangwara Buzurg",
+  "Gidha Phulwaria Urf Bhagwanpur",
+  "Madhaulsani",
+  "Mahisanrh",
+  "Masumnagar Urf Premnagar",
+  "Punarwara",
+  "Rupauli",
+  "Thuma"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 355b23e61af4) is attached to 15 different works in 11 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Soak Pit (15)."
+ ],
+ "photo": "photos/355b23e61af4cdfc479b256cf718cc8d5a281c34970d7df3bdf21fdea7a7e85f.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "3908233",
@@ -211,5 +239,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

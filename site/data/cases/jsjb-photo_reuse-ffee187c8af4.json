@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ffee187c8af4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Mauran Patiala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a09b300ba6ad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Recharge Pit (1).",
+  "The entries were made by 2 different offices: Clerk Mandeep Singh, HARDEV SINGH APO."
+ ],
+ "photo": "photos/a09b300ba6ad90f980731490215a3163975f9579cdc99ce8bb34e189b6ab24cd.jpg",
+ "offices": [
+  "Clerk Mandeep Singh",
+  "HARDEV SINGH APO"
+ ],
  "records": [
   {
    "record_id": "6160335",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

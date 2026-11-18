@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b8b817e42f15",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Kachnav Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dc4c703147eb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.650882, 78.596222)."
+ ],
+ "photo": "photos/dc4c703147ebe20fcb215c5a90ff976e972dde4308241913c1c8fd4a98433711.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "13485198",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

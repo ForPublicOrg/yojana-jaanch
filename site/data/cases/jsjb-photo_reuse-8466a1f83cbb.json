@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-8466a1f83cbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Beejwar",
+  "Bheeleda",
+  "Dewalya Patti Goojran",
+  "Dewalya Patti Jatan",
+  "Dwarkapuri @ Boorhi"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 085b0a3016ba) is attached to 7 different works in 5 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Soak Pit (7).",
+  "The entries were made by 3 different offices: BDO, JEN Panchayat Raj Malpura, Jen.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/085b0a3016ba2713d0ee94d9cdb3ee3c334d311887f5cca1215d206e340e544a.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3552375",
@@ -99,5 +125,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-471ac1487253",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Mandawa",
+ "villages": [
+  "Mahradasi",
+  "Wahidpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7a7112b20923) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (2), Other (1).",
+  "The photo was uploaded 6 times within 24 minutes (2026-03-25 16:22:38 to 2026-03-25 16:46:37)."
+ ],
+ "photo": "photos/7a7112b20923bda435b68830ad3b9805043531c9abb84234ae81fac355a959cd.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4248502",
+   "village": "Mahradasi",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-05",
+   "end_date": "2025-08-08",
+   "lat": 28.0715,
+   "lon": 75.2124,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "4248719",
+   "village": "Mahradasi",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-07-05",
+   "end_date": "2025-09-07",
+   "lat": 28.0715,
+   "lon": 75.2124,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "4250514",
+   "village": "Wahidpura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-04",
+   "end_date": "2025-08-06",
+   "lat": 28.715,
+   "lon": 75.2124,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

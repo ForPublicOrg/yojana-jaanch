@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d4a33cbadca2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Basera",
+  "Tordi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3791148b789a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "These works are spread over 2 blocks: Malpura, Todaraisingh."
+ ],
+ "photo": "photos/3791148b789a21c98bceabcd4d3cf699f72b3da1f12dd4993f69e78dfb7ef7d5.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4220610",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

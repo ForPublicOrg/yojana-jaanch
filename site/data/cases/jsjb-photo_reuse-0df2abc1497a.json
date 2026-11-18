@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0df2abc1497a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Deipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6578e2efdfa0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.329455, 82.803465).",
+  "The photo was uploaded 4 times within 34 seconds (2026-01-24 12:36:14 to 2026-01-24 12:36:48)."
+ ],
+ "photo": "photos/6578e2efdfa0c67e84c964b609470f00fc3c2f1cdf7a0517c238f68dd4b37b59.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3336300",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

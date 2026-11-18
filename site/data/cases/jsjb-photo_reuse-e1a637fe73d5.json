@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e1a637fe73d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Sidhana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 57ac67beb9a0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-07 11:43:21 to 2026-04-07 11:47:41)."
+ ],
+ "photo": "photos/57ac67beb9a0effcffd8285a4eceae69b9953afa826d1486c23af77b5dc0d46a.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "4557027",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

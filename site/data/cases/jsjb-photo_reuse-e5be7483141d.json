@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e5be7483141d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Chahang Basoya",
+  "Gujar Basoya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 19e24b7f4a93) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: Canal Patwari, JE."
+ ],
+ "photo": "photos/19e24b7f4a93bfd454274b531f7fc5e6ed9db5e269c43454556872c76d993b8d.jpg",
+ "offices": [
+  "Canal Patwari",
+  "JE"
+ ],
  "records": [
   {
    "record_id": "979400",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

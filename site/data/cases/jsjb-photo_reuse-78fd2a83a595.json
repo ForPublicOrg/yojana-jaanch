@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-78fd2a83a595",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Gurikha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 65365b3903e3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.395008, 78.290093).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/65365b3903e3d6a6783bd89f8e64097cea2d7789f10116d3a729e119d1ff4e7b.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12126849",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

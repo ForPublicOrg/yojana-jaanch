@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-9bf3da1db53e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Byalahalli",
+  "Mungalahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28828d19e8c2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "These works are spread over 2 blocks: Chikballapur, Chintamani."
+ ],
+ "photo": "photos/28828d19e8c2314b448dd8436166f79590bc693454a37d09613441685e90eb1c.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3126259",
+   "village": "Mungalahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-10-28",
+   "end_date": "2024-11-27",
+   "lat": 13.1,
+   "lon": 78.1,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3145802",
+   "village": "Byalahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-02",
+   "end_date": "2025-12-01",
+   "lat": 13.297423,
+   "lon": 78.017692,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

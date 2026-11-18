@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2a92166cde82",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Kamalke (259/260)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ddc01b8f504c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.9959562, 75.285279).",
+  "All 2 works started and ended on the same day (2026-05-08).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-11 16:00:17 to 2026-05-11 16:01:51)."
+ ],
+ "photo": "photos/ddc01b8f504cc66c6db926a044c871f587860c1d2968aac90d3ab974bb203377.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "8493512",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

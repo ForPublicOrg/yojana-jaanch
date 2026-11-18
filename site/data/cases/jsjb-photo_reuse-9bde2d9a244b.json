@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-9bde2d9a244b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Bhilowal",
+  "Bhoewal",
+  "Devidas Pura",
+  "Gaddli",
+  "Tapiala"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 9cfb92df6d04) is attached to 11 different works in 5 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11).",
+  "These works are spread over 3 blocks: Jandiala Guru, Rayya, Tarsikka."
+ ],
+ "photo": "photos/9cfb92df6d04c64e4022d330dbf2fec513d91a1802b2ea2901c3fb99cc10f250.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5687458",
@@ -155,5 +178,8 @@
    "area_type": "Rural",
    "block": "Jandiala Guru"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

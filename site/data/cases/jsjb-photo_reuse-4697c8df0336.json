@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4697c8df0336",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Karyal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e53665206d0c) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.93, 75.18).",
+  "All 5 works started and ended on the same day (2026-04-27)."
+ ],
+ "photo": "photos/e53665206d0cb7722fad190d6ee0810dc47d5446a2fb40d384ba22eb5944d891.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "6147270",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

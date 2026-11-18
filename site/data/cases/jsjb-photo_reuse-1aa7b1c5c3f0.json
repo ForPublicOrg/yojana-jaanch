@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1aa7b1c5c3f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Sohela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f1303048d844) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (26.2475, 75.86916667).",
+  "The photo was uploaded 4 times within 9 seconds (2026-05-26 18:13:17 to 2026-05-26 18:13:26)."
+ ],
+ "photo": "photos/f1303048d844aa1129f9d90240b858b7b118f101700fbe400bed62db02d177d1.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "13049378",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

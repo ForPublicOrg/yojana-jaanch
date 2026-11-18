@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5a07b8d1f365",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Bhundar Bhaini"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9eb196094c45) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-21 09:51:35 to 2026-05-21 09:52:41)."
+ ],
+ "photo": "photos/9eb196094c4502801cd730530211f91f602510cdd42fab5fdba1492ec6238339.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "10601871",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

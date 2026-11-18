@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-da032f4e172a",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "9 works at one GPS point in Kabra",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Kabra"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "9 works in Kabra report exactly the same GPS point (26.03, 75.82).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (9).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3862803",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

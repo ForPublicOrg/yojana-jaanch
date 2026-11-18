@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f2d89962fb84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Raikot",
+ "villages": [
+  "Bassian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 696fe84c6b65) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.651407, 75.537572)."
+ ],
+ "photo": "photos/696fe84c6b650a1b378a2da57ee9d93c6137661ba7c022d024c16b52e0e7234a.jpg",
+ "offices": [
+  "BDPO Raikot"
+ ],
  "records": [
   {
    "record_id": "1040751",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Raikot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

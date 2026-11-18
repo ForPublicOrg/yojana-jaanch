@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8055c08eceb8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Sanghar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bd2c9f72e483) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.969163, 75.290564).",
+  "The photo was uploaded 4 times within 10 seconds (2026-05-04 14:29:05 to 2026-05-04 14:29:15)."
+ ],
+ "photo": "photos/bd2c9f72e483a0b5b6e5d71a3351ffa7a104ec00d604132a6cad0f18a5e03520.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "7365654",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

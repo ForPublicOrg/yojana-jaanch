@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d3eef19ec369",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Purandaha Rajwaramai Tola Mus."
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 23874506b770) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.801238, 85.617045).",
+  "The photo was uploaded 2 times within 5 minutes (2026-03-21 06:35:25 to 2026-03-21 06:39:29)."
+ ],
+ "photo": "photos/23874506b77033c98d503462266830459964cd6234f323fbe2c066aea7b050c9.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4085857",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

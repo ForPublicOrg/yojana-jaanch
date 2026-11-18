@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7c901a9fe423",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Pamal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da2c9ecd2df2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (75.74, 30.84).",
+  "The photo was uploaded 2 times within 50 seconds (2026-02-04 22:58:12 to 2026-02-04 22:59:02)."
+ ],
+ "photo": "photos/da2c9ecd2df2dfc4eb24dbb5ac7f36ad992c7348d45a2fc534377ccb67e16660.jpg",
+ "offices": [
+  "BDPO Pakhowal"
+ ],
  "records": [
   {
    "record_id": "1255815",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

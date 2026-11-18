@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-603a02339889",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Riga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 55bfb54a009e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Gaibaion (2).",
+  "The photo was uploaded 2 times within 56 seconds (2026-04-12 21:36:50 to 2026-04-12 21:37:46)."
+ ],
+ "photo": "photos/55bfb54a009e0445097e8215a455a1958682520a7623ab2d2c7c7a8b768b5604.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4781808",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

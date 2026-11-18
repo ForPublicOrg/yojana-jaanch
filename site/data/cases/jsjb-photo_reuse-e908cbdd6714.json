@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e908cbdd6714",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Nayagaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aa033f518502) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (25.7625, 75.54972).",
+  "The photo was uploaded 2 times within 1 minute (2026-05-24 16:56:25 to 2026-05-24 16:57:25)."
+ ],
+ "photo": "photos/aa033f518502ce55ec81e1ec290d3e102c02e8cd49ec5f1efee6e8d749b03305.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12172955",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

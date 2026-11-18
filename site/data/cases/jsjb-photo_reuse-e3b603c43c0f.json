@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e3b603c43c0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Dulowal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 632680de4ded) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.355397, 75.272242).",
+  "The photo was uploaded 10 times within 5 minutes (2026-05-12 17:22:52 to 2026-05-12 17:27:16)."
+ ],
+ "photo": "photos/632680de4dedf64745b1286a76ae35eaf53af30c32c80210d498b4c364151c21.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8741719",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

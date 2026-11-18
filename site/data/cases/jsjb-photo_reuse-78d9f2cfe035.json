@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-78d9f2cfe035",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Parana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 912eee7ef564) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/912eee7ef564551d9a8468fcab760999e2f713d32cdf7b596b040b381cc47876.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "1391563",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

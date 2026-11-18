@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b5bb22847fbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 32 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Chainpur",
+  "Hariharpur"
+ ],
+ "record_count": 32,
+ "reasons": [
+  "The same photo file (fingerprint d5576aa4e784) is attached to 32 different works in 2 villages. A photo of one site cannot be evidence for 32 separate works.",
+  "The works are recorded as: Soak Pit (18), Other (14)."
+ ],
+ "photo": "photos/d5576aa4e784ea2bfdf23e3f55d6f1b20fe963a248577d135c011b3119651945.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "4566501",
@@ -449,5 +468,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 96,
+ "needs_human_review": false
 }

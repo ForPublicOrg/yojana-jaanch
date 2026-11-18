@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-ea6bd34bd36d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Pakari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0f4dc6fa2b47) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2)."
+ ],
+ "photo": "photos/0f4dc6fa2b4766123ae8ded068dd17f20057f7901dd414e0ab6bbe4f16c54287.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3601949",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

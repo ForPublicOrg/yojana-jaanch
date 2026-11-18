@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a737f3782f98",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Nuro Wal"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint 0b0b6a50448c) is attached to 19 different works in 1 village. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Contour Trench (19).",
+  "All 19 works report the same GPS point (31.327124, 75.195466)."
+ ],
+ "photo": "photos/0b0b6a50448c3b50d954fad064aefc923c41364924b428d8eede0380aae141ce.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "14750411",
@@ -267,5 +286,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 58,
+ "needs_human_review": false
 }

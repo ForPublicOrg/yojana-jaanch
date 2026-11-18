@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9064a759d88f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Bamma Kalan",
+  "Bhaini Nathu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 751cfbf2a152) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.9196, 76.066).",
+  "The photo was uploaded 4 times within 6 minutes (2026-02-04 22:17:51 to 2026-02-04 22:23:17)."
+ ],
+ "photo": "photos/751cfbf2a152b5200d4b14e0d4eb65336a1f6cbb8775d5c89d29c401ef6f1900.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1353053",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

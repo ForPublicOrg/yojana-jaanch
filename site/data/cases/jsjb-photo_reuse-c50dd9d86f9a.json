@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c50dd9d86f9a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Panjrukha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8a6f178a55b8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.634074, 76.095698).",
+  "The photo was uploaded 3 times within 3 seconds (2026-04-21 16:14:27 to 2026-04-21 16:14:30)."
+ ],
+ "photo": "photos/8a6f178a55b8afa99097b24d34b44dbc55eb9677636015da380c64ff15c62510.jpg",
+ "offices": [
+  "XEN Panchayati Raj"
+ ],
  "records": [
   {
    "record_id": "5208010",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

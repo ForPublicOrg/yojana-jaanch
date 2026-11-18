@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-bf2bcd2632df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Guru Sar Jajja"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ff23d67fdf26) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/ff23d67fdf26b96e333efb98c405f6fce025c1ff6a42e55865aae8b42087bcf0.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "4995163",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

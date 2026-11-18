@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d550b03d8650",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Saura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0f9aa7f7d6dc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/0f9aa7f7d6dc3777943ccb97c8ef24772cf7c8e4ba83cc23018c11929b155798.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "924762",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

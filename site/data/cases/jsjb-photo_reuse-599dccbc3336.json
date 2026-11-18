@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-599dccbc3336",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Bhaniyana",
+ "villages": [
+  "Deopalpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c4b5e910a1d1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.40339, 71.69918)."
+ ],
+ "photo": "photos/c4b5e910a1d1ad441ad88c943467f6f7c52cc588211438adbf9c54fe36a3a0f3.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3149410",
+   "village": "Deopalpura",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-04-07",
+   "end_date": "2025-09-08",
+   "lat": 26.40339,
+   "lon": 71.69918,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  },
+  {
+   "record_id": "10340197",
+   "village": "Deopalpura",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-07-04",
+   "end_date": "2025-08-09",
+   "lat": 26.40339,
+   "lon": 71.69918,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

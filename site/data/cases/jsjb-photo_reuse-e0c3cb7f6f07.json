@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e0c3cb7f6f07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Bullasandra",
+  "Yellodu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9cbe8fd6a5aa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/9cbe8fd6a5aa0e0b3c2104923bba5d3aa0f6da8611d3835f4c16e80bfa992168.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3142180",
+   "village": "Bullasandra",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-10-29",
+   "lat": 13.719229,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3147175",
+   "village": "Yellodu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-12",
+   "end_date": "2025-11-13",
+   "lat": 13.734742,
+   "lon": 77.74832,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

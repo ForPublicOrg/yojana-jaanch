@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-90ecd6fc7926",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Chak Sambhua",
+  "Gidha Phulwaria Urf Bhagwanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 049f96b0c7df) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 16 minutes (2026-04-08 12:35:38 to 2026-04-08 12:50:47)."
+ ],
+ "photo": "photos/049f96b0c7df37afc1f61ce18c7f9ca19caddef124f0e54493e706875ca3a8f7.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4598922",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

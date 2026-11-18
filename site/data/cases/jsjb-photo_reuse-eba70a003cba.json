@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-eba70a003cba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 111 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Awapur Urf Sherpur",
+  "Bagha Sati",
+  "Balha Madsudan",
+  "Bazidpur Baura",
+  "Gangti",
+  "Garha",
+  "Hariharpur",
+  "Pupri",
+  "Rampur Khurd"
+ ],
+ "record_count": 111,
+ "reasons": [
+  "The same photo file (fingerprint bf74057b636d) is attached to 111 different works in 9 villages. A photo of one site cannot be evidence for 111 separate works.",
+  "The works are recorded as: Soak Pit (110), Other (1)."
+ ],
+ "photo": "photos/bf74057b636d5dd788b85ab73040f89af85d102c351dfe07da422d75436746b0.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "4419772",
@@ -1555,5 +1581,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 333,
+ "needs_human_review": false
 }

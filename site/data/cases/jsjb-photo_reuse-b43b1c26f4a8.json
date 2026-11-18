@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b43b1c26f4a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Malke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a01733bfd048) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.581678, 74.967946).",
+  "All 2 works started and ended on the same day (2026-04-25).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-30 12:15:37 to 2026-04-30 12:16:49)."
+ ],
+ "photo": "photos/a01733bfd0487718a86ec6ae38820d007a8811a421ec0e81e6fc262e9c36bfdc.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "6350312",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d19bd64171d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Malahchak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 615f143bec69) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.269621, 83.981174)."
+ ],
+ "photo": "photos/615f143bec696245d0058056e646c95f7b616c10bae6e71c9b19492e1d916b7d.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4024111",
+   "village": "Malahchak",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-17",
+   "end_date": "2025-11-25",
+   "lat": 26.269621,
+   "lon": 83.981174,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4030645",
+   "village": "Malahchak",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-17",
+   "end_date": "2025-12-15",
+   "lat": 26.269621,
+   "lon": 83.981174,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

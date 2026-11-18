@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f4216f91bd03",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Kookuttapatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 900fc74d1898) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.83, 78.01).",
+  "The photo was uploaded 2 times within 10 seconds (2025-07-04 12:32:34 to 2025-07-04 12:32:44)."
+ ],
+ "photo": "photos/900fc74d18988085572251ac58d486b8d56efbf5ec610c52895e4c4719e68bc7.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9361162",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

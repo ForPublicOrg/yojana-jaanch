@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-921b4e196ac0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bishunpur Pitambar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8ab42562565a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7062135, 85.5301625)."
+ ],
+ "photo": "photos/8ab42562565a744f552ee513170b012222ffe3b5f3875a7e60ae942fb1183cbc.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4475537",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-8630bc0024cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Basantpur",
+  "Bokta",
+  "Narsanda Urf Narsawan",
+  "Riga",
+  "Sankhi"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 8e751b283ae9) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (5), Bore-Well Recharge (1)."
+ ],
+ "photo": "photos/8e751b283ae9e083a053db41da78846bb5c9afa1d9525b60cc752442661d0481.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "885132",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

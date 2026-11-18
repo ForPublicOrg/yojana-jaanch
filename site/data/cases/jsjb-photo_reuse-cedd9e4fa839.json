@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cedd9e4fa839",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Kothia Rae"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4e1ba44b746) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-22 07:35:40 to 2026-03-22 07:37:29)."
+ ],
+ "photo": "photos/d4e1ba44b7469eec553e6f6ba9f2f6e248fa09d96aef045be39a5e2b96abb61e.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4103271",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

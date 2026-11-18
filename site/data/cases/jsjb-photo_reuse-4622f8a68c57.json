@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-4622f8a68c57",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Abohar",
+ "villages": [
+  "Himmatpura",
+  "Shajrana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 476068d8b2a2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: Junior Engineer, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Abohar, Arniwala Shiekh Subhan."
+ ],
+ "photo": "photos/476068d8b2a2825f4d2a1ecd42ee22a7b9f887c491076d62dbe6123607c53af0.jpg",
+ "offices": [
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "983951",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Arniwala Shiekh Subhan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

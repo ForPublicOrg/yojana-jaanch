@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b6f941e4a61b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bathan Khurd",
+  "Chari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 911739deb6d1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/911739deb6d1ccd4625a337435a0023ef858bc0c1dc8cc3c8c6eaa8a66bd1ae2.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5678977",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

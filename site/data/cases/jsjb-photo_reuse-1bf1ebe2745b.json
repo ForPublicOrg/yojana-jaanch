@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-1bf1ebe2745b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Vellakkadai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d109e2071bdc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "All 2 works report the same GPS point (11.8602558, 78.2633226)."
+ ],
+ "photo": "photos/d109e2071bdcb4c209d482c8aebb0cae35fc1f44c5b8626941b32fd3c153e258.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "9359720",
+   "village": "Vellakkadai",
+   "structure_type": "Other",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2024-08-08",
+   "end_date": "2025-06-15",
+   "lat": 11.8602558,
+   "lon": 78.2633226,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "9359878",
+   "village": "Vellakkadai",
+   "structure_type": "Percolation Pond",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2024-08-08",
+   "end_date": "2025-07-17",
+   "lat": 11.8602558,
+   "lon": 78.2633226,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6202b2503e86",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dostpur Khadauli",
+  "Pandaul Urf Panthpakar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71ff8d1ecdcf) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 51 seconds (2026-02-05 22:56:49 to 2026-02-05 22:57:40)."
+ ],
+ "photo": "photos/71ff8d1ecdcf8b2a8f1a1783c6182f5f76f35f27b3fc7250a890e98e9950bfa8.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "67661769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

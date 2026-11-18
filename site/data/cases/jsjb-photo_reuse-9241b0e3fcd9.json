@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9241b0e3fcd9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Bahadargarh",
+  "Faridpur Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 42517b164362) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.484911, 76.827078).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/42517b164362693937e64183c149208f772aed85d84c3fda6a54a2ccb4ca21b6.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "5372208",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

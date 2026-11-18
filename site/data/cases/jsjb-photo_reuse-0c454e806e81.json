@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0c454e806e81",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Miani Jhabelian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9f257c5d8ff8) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.103619, 75.394428).",
+  "All 3 works started and ended on the same day (2026-05-04)."
+ ],
+ "photo": "photos/9f257c5d8ff847e373982f13689981096c2e1c44315cb477c4c629901493af56.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7843186",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

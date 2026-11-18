@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-fe022c710e27",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Namakkal (M) - Ward No.15",
+  "Namakkal (M) - Ward No.18",
+  "Namakkal (M) - Ward No.27"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 496949a90a67) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (2), Recharge Shaft (1).",
+  "All 3 works report the same GPS point (11.220132, 78.16979)."
+ ],
+ "photo": "photos/496949a90a6787069c6dd1ce282635b36f626df4f4f8a18e21501095e8eef3fc.jpg",
+ "offices": [
+  "COMMSIONEER -NAMAKKAL"
+ ],
+ "records": [
+  {
+   "record_id": "3339429",
+   "village": "Namakkal (M) - Ward No.27",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-08-12",
+   "end_date": "2024-10-10",
+   "lat": 11.220132,
+   "lon": 78.16979,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3343721",
+   "village": "Namakkal (M) - Ward No.15",
+   "structure_type": "Recharge Shaft",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-06-12",
+   "end_date": "2024-09-25",
+   "lat": 11.220132,
+   "lon": 78.16979,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3429385",
+   "village": "Namakkal (M) - Ward No.18",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-11-12",
+   "end_date": "2024-10-05",
+   "lat": 11.220132,
+   "lon": 78.16979,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

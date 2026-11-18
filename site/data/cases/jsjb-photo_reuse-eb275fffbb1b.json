@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-eb275fffbb1b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Sawai Ram Singhpura @ Arniya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d728a7d222a1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.19136, 75.18281)."
+ ],
+ "photo": "photos/d728a7d222a15f7462955db4a6edb30ed96bf13f855bf2091362eccb1d3d431d.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4036582",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

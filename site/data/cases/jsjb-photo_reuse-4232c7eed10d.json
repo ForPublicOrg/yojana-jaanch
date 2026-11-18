@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4232c7eed10d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Heir",
+  "Khiala Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3aacffbac1da) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2025-06-04, 2025-06-10.",
+  "These works are spread over 2 blocks: Attari, Chogawan."
+ ],
+ "photo": "photos/3aacffbac1da658d1d9b23a3b57f978729efded8285493bfc971c9e7b3f284d4.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5153299",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

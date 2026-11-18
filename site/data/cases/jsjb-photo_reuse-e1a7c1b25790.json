@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e1a7c1b25790",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Kallanatham"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 42c99dc1663d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/42c99dc1663d6799669127d49ff69507aab15e1511c93787465c6578483c1dbd.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9354529",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

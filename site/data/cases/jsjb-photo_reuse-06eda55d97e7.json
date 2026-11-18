@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-06eda55d97e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Dhanapur",
+  "Marui"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 65242ece31ef) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Soak Pit (1)."
+ ],
+ "photo": "photos/65242ece31ef013a79e13b45a576289bb06fc5e6f058859acb6f5c1e4ba9c0a1.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1743974",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-52227f6ea0cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Vellakkadai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 29e77c11c525) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.872767, 78.274208)."
+ ],
+ "photo": "photos/29e77c11c525cd7d6c4436a4bae3467ebd5595924c83b140b5495aa24df316e9.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
+ "records": [
+  {
+   "record_id": "9348479",
+   "village": "Vellakkadai",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-11-16",
+   "end_date": "2024-03-26",
+   "lat": 11.872767,
+   "lon": 78.274208,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "9348483",
+   "village": "Vellakkadai",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-11-16",
+   "end_date": "2024-03-26",
+   "lat": 11.872767,
+   "lon": 78.274208,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

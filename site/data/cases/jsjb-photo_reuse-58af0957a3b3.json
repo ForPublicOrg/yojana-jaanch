@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-58af0957a3b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Narainpur",
+ "villages": [
+  "Darra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 26a41f40d3d0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 6 minutes (2026-03-16 17:16:03 to 2026-03-16 17:21:21)."
+ ],
+ "photo": "photos/26a41f40d3d0253cedab22f1d64992c56daa0ce865d8b0f6fefe9fa33946284d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3980695",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Narainpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

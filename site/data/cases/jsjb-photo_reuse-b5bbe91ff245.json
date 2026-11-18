@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b5bbe91ff245",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Balian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3a167b7eed55) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 3 times within 11 minutes (2026-05-15 14:03:31 to 2026-05-15 14:13:46)."
+ ],
+ "photo": "photos/3a167b7eed55e066a592bb96ef2531cfdba6d73521a0fa3699584266b4cf8992.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9309724",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

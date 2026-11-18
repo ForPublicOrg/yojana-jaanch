@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-cced8fa9cbe0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Bagga",
+  "Bhoewal",
+  "Devidas Pura",
+  "Gaddli",
+  "Ghaziwal",
+  "Mahmud Pura",
+  "Rupowali Brahmnan",
+  "Sathiala",
+  "Shahpur"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint e8800f4047dd) is attached to 16 different works in 9 villages. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Other (16).",
+  "These works are spread over 3 blocks: Jandiala Guru, Rayya, Tarsikka."
+ ],
+ "photo": "photos/e8800f4047ddd457ce3967e943f5af3b58a0b108423f5d5198bfab6631f5a6f5.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5687532",
@@ -225,5 +252,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

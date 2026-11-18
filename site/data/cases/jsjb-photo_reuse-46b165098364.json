@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-46b165098364",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Kala Bahian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 306b3c81926a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 3 times within 40 seconds (2026-04-06 16:40:34 to 2026-04-06 16:41:14)."
+ ],
+ "photo": "photos/306b3c81926a7f0ea4b7ba33db837fd9ef766500adb5b4e6217f573b69439ea5.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977927",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

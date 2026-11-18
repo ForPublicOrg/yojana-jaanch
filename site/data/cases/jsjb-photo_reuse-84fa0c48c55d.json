@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-84fa0c48c55d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bathinda",
+ "villages": [
+  "Multania"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 757d9e9d18d5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/757d9e9d18d5f0eccfb2cf9dbce78c1c413b25543bff19cb97e916e576fccc8a.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1040855",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bathinda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

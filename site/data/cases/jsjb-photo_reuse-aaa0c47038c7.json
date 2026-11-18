@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-aaa0c47038c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Trar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb0ade2748f5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 3 times within 22 minutes (2026-04-05 12:45:21 to 2026-04-05 13:06:58).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/eb0ade2748f5e0e03b888b12025c1eac0a66c20249df6d8a8702434a7b7a1e6e.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986739",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

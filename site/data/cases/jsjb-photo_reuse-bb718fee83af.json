@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-bb718fee83af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Addagal",
+  "Settigere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb44c9981705) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/eb44c998170518c274c20a5bb58df654a5add2e1c45029d1529cbf238246b487.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3085819",
+   "village": "Settigere",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-12-22",
+   "lat": 13.55032,
+   "lon": 77.748529,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3096734",
+   "village": "Addagal",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-22",
+   "end_date": "2025-11-11",
+   "lat": 13.586458,
+   "lon": 77.76562,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

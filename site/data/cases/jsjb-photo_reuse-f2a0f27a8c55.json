@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-f2a0f27a8c55",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Alsisar",
+ "villages": [
+  "Bharoo Ka Bas",
+  "Ghasiram Ka Bas",
+  "Haripura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a776da868857) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (28.2874196, 75.3027128).",
+  "The photo was uploaded 6 times within 6 minutes (2026-03-26 11:22:42 to 2026-03-26 11:28:12)."
+ ],
+ "photo": "photos/a776da86885797973a37c36b4e809d2c1d6226c86c5e9a0e21408ab2d06ee86b.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4264885",
+   "village": "Haripura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.2874196,
+   "lon": 75.3027128,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "4264928",
+   "village": "Ghasiram Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.2874196,
+   "lon": 75.3027128,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "4265173",
+   "village": "Bharoo Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-02-01",
+   "end_date": "2026-01-07",
+   "lat": 28.2874196,
+   "lon": 75.3027128,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

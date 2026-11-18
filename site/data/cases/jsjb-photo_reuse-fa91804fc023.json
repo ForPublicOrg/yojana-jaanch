@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-fa91804fc023",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Mandi Ahmedgarh",
+  "Matoi",
+  "Rahira",
+  "Raipur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint f1ed8fe0a37e) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The entries were made by 2 different offices: APO, Rural Deveolpment.",
+  "These works are spread over 2 blocks: Ahmedgarh, Amargarh."
+ ],
+ "photo": "photos/f1ed8fe0a37e4311e5b285dba4c28dcdb303d94b9ce0c650ef9eb240e98e1076.jpg",
+ "offices": [
+  "APO",
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "10397056",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

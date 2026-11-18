@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f4f8a654243f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Bara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 86ce7832aa22) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.506064, 78.269256).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/86ce7832aa2225383c2801acdecda510ab427871e0b6aac8746c8b502b48e09a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12115937",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c4f1004023f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Chak Prema",
+  "Dhadde",
+  "Rampur Sunran"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint b55bae1132fc) is attached to 16 different works in 3 villages. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Contour Trench (16).",
+  "Each of the 16 works started and ended on a single day. The works are spread over 2 dates: 2026-05-23, 2026-05-25."
+ ],
+ "photo": "photos/b55bae1132fc5a75e5b0adf357177bbe484764d59e14268cd0d07fed3af7dc11.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "12643040",
@@ -225,5 +246,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 49,
+ "needs_human_review": false
 }

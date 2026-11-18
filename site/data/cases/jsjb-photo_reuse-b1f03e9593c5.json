@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b1f03e9593c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Bugar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7334307cbf18) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (30.213915, 75.594803).",
+  "The entries were made by 2 different offices: BDPO Sangrur, Block Development Officer Sunam."
+ ],
+ "photo": "photos/7334307cbf187808139a87064e66108ce39feb99458a28018b6e9d7101a57a94.jpeg",
+ "offices": [
+  "BDPO Sangrur",
+  "Block Development Officer Sunam"
+ ],
  "records": [
   {
    "record_id": "1062621",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

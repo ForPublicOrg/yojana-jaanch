@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2128d34151bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Vilaripalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf04ebedf27b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.59, 78.42).",
+  "The photo was uploaded 2 times within 46 seconds (2025-07-03 16:55:50 to 2025-07-03 16:56:36)."
+ ],
+ "photo": "photos/cf04ebedf27bc40e3dd1292ae7c8111df59a6255379bb749545e3748a044f70c.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9353857",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-1b3df19edabb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Pratappur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b3589ffacdcb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Open Well Recharge / Dug Well (1).",
+  "The photo was uploaded 2 times within 10 seconds (2026-05-21 10:53:38 to 2026-05-21 10:53:48).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/b3589ffacdcb4b98d23851ef04a5ae6f9977f695a0891b447c4a32a05665e8e1.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "8619008",
+   "village": "Pratappur",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-05-08",
+   "end_date": "2025-08-02",
+   "lat": 27.5377283,
+   "lon": 70.9085175,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "10620931",
+   "village": "Pratappur",
+   "structure_type": "Check Dam",
+   "created_by": "GWD",
+   "start_date": "2025-08-13",
+   "end_date": "2025-09-10",
+   "lat": 27.4637157,
+   "lon": 71.0135608,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

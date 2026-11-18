@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9fe97c87f156",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Aklia Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e5ae2495327c) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.376498, 74.871213)."
+ ],
+ "photo": "photos/e5ae2495327c7df6affa5fbd68ce242d94540b03c7c58811e074115a7b177b35.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5175953",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

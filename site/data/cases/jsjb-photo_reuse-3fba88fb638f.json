@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3fba88fb638f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Jarahan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9e1f99b82c35) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/9e1f99b82c35bfcda202501145a7330c92614982187f1950dcd9c64ec0f7f5d3.jpg",
+ "offices": [
+  "BDPO Pakhowal"
+ ],
  "records": [
   {
    "record_id": "1256046",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

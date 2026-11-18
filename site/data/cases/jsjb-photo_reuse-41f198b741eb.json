@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-41f198b741eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Paniar"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e4e176d99691) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/e4e176d99691bcdb1912f2fff34fce7b6ac024a687b82a6f77113a86736d184c.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7981593",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

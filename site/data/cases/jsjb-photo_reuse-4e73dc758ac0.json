@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4e73dc758ac0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Dewa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 03be2eb805da) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (27.1495159, 70.9796432).",
+  "The photo was uploaded 3 times within 3 minutes (2026-05-30 09:28:38 to 2026-05-30 09:30:48)."
+ ],
+ "photo": "photos/03be2eb805da18c2f987795e86d4ac4ecd5afd9b0a7a5b2032419ba7c3f56036.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15013482",
+   "village": "Dewa",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-08-01",
+   "end_date": "2025-12-14",
+   "lat": 27.1495159,
+   "lon": 70.9796432,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "15014121",
+   "village": "Dewa",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-08-01",
+   "end_date": "2025-12-14",
+   "lat": 27.1495159,
+   "lon": 70.9796432,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

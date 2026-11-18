@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e7fcfa89dbe5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Kanakpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c1ca314c0c12) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 25 minutes (2026-01-30 18:47:02 to 2026-01-30 19:11:55)."
+ ],
+ "photo": "photos/c1ca314c0c122a106eac8237f2943a5ef0f6c506031ca0f82cdbff1e221c943f.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3364674",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-73d2be2c78dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Bheempura",
+  "Deoli Gaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 47e47c0acfcc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/47e47c0acfccb2de704a4939f73604a462e6ee730232d6e8954eca74157fbeb5.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3664252",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-02e430d8ffbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Paiwari Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d83ba7ac5d22) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (24.82844895, 82.236835).",
+  "The photo was uploaded 2 times within 20 minutes (2026-04-13 20:44:36 to 2026-04-13 21:04:24)."
+ ],
+ "photo": "photos/d83ba7ac5d226b4d11b734e1cbd28532aec1eb4438ddcc5392a9715c08344b61.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1122486",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

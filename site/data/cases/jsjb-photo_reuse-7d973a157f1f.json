@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7d973a157f1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Raina"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 74ea107a97f7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: BDPO Khanna, BDPO Ludhiana-2."
+ ],
+ "photo": "photos/74ea107a97f72022d7d41bb1ebdd7de2364cd71703a04d8720fa6c6994ef543e.jpg",
+ "offices": [
+  "BDPO Khanna",
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1238303",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

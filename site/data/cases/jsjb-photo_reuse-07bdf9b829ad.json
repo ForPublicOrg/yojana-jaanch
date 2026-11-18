@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-07bdf9b829ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Bhadal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 132167cc0637) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.059212, 75.132796).",
+  "The photo was uploaded 2 times within 32 seconds (2026-05-30 09:02:18 to 2026-05-30 09:02:50)."
+ ],
+ "photo": "photos/132167cc0637d14afb37fb53bbdb373df67ada2e56a0bf253d7e291e2f829f0f.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "15004837",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

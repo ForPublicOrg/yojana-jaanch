@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-1abbbe86fac0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Chaunda",
+  "Mandian"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 42fe495464ea) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The entries were made by 2 different offices: APO, Rural Deveolpment.",
+  "These works are spread over 2 blocks: Ahmedgarh, Amargarh."
+ ],
+ "photo": "photos/42fe495464eaf3c152271527a37025c41892839900d8bd1b1ca5f60ba1e738fb.jpg",
+ "offices": [
+  "APO",
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "10411921",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d0614b7c23a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Dehgaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4dd26172e65) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.29344, 78.583296).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/d4dd26172e659b29fa41b98b8e419a89698ddd224f94be3809614ca3ad001ab0.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7081118",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

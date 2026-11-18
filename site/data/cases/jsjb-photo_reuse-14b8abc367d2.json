@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-14b8abc367d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Kot Kapura",
+ "villages": [
+  "Dawareana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4ae892a25628) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: APO Mgnrega, ARC."
+ ],
+ "photo": "photos/4ae892a25628056b899b2c3feb62e2466b8e5bc0d5bc8bb56a964e85cf530049.jpg",
+ "offices": [
+  "APO Mgnrega",
+  "ARC"
+ ],
  "records": [
   {
    "record_id": "977058",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kot Kapura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

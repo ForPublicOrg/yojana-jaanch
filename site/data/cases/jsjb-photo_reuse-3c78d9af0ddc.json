@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3c78d9af0ddc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Chamb"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9e448edf1246) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-14).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-16 08:05:35 to 2026-05-16 08:07:18)."
+ ],
+ "photo": "photos/9e448edf1246ef5df504654cb751a701bb3520ddb83c9e4b91f731b10c33aaab.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "9517331",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

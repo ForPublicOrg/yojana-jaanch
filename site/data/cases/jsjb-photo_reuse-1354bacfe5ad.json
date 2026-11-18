@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1354bacfe5ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Parsurampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bc0f36260bd9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 3 times within 26 minutes (2026-03-13 14:14:44 to 2026-03-13 14:39:55)."
+ ],
+ "photo": "photos/bc0f36260bd9a1938be1a3e0564e0d22a543e678f4d6590562add81727873cbe.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "3922661",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

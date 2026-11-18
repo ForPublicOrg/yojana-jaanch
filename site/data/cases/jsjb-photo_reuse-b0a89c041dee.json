@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b0a89c041dee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Bariarpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b363203251fa) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-22 15:59:12 to 2026-03-22 16:02:28)."
+ ],
+ "photo": "photos/b363203251fa4e404b08dc4e3d70c1742f01bcb34ccaae575b7679be5de845e4.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4111311",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

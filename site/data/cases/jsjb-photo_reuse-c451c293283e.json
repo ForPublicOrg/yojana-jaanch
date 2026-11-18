@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c451c293283e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Arniya Kankar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 175353b20e0b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4220219, 75.6323955)."
+ ],
+ "photo": "photos/175353b20e0b718ab6f40b0f0775ba3a327c28a7fbc35d8dad257eec07a860f7.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3652784",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

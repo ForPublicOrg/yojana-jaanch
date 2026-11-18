@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bb5ffc7e9d8d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Rampur Bhindran"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 16dedfe8e802 on 3 works, 8b8ba382ef58 on 2 works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/16dedfe8e802ad45e53ab52f95ac91ee4a3a2baa8020d49c3ea236630f2dad05.jpg",
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "10772675",
@@ -71,5 +91,21 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "16dedfe8e802ad45e53ab52f95ac91ee4a3a2baa8020d49c3ea236630f2dad05",
+   "records": 3
+  },
+  {
+   "sha256": "8b8ba382ef5841eee83f3c6ebfe42b04d532908402341a77e5ef9f640fd504c9",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ca35dfcf3f05"
  ]
 }

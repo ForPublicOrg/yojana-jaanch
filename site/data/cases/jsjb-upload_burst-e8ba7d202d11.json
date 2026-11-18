@@ -1,6 +1,49 @@
 {
  "id": "jsjb-upload_burst-e8ba7d202d11",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "23 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Anaiyampatty",
+  "Avadattur (Ct)",
+  "Bairoji",
+  "Belurkaradipatti",
+  "Erumaipatti",
+  "Kamakkapalayam",
+  "Kaveripatti",
+  "Nirmullikuttai",
+  "Tirumanur",
+  "Vellakkalpatty (Ct)"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "23 different photos for 23 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-01 16:00:47 to 2025-07-01 16:10:18.",
+  "That is about one work every 25 seconds on average.",
+  "The works are in 10 villages: Anaiyampatty, Avadattur (Ct), Bairoji, Belurkaradipatti, Erumaipatti, Kamakkapalayam, Kaveripatti, Nirmullikuttai, Tirumanur, Vellakkalpatty (Ct).",
+  "These works are spread over 9 blocks: Gangavalli, Konganapuram, Nangavalli, Omalur, Peddanaickenpalayam, Sankari, Talavasal, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
+  {
+   "record_id": "9349741",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-10-05",
+   "end_date": "2023-10-28",
+   "lat": 11.5761,
+   "lon": 78.0698,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
   {
    "record_id": "9349742",
    "village": "Belurkaradipatti",
@@ -309,5 +352,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

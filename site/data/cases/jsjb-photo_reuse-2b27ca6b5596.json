@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2b27ca6b5596",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Lawa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b53064670759) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.336823, 75.556202)."
+ ],
+ "photo": "photos/b5306467075976c3aec50d37ee605769186ec30dd7986814d8e926f2c32937f6.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4045483",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

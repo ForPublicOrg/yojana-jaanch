@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6b25a82d7c6c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Baher"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 973b1383f671) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "All 4 works report the same GPS point (30.0, 76.0)."
+ ],
+ "photo": "photos/973b1383f6718c5b6923d38ab07adc5875aea06959f83974912758e6ddcbd274.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1038814",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

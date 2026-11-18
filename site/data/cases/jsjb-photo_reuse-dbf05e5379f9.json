@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-dbf05e5379f9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Bir Sahnewal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6d13a65bc9f2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/6d13a65bc9f2090797d37fa34cadddff3e493e231e44864d8a24932993781de1.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1054475",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

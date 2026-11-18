@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e84d1f9f506e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Bargachhia Mai Arazibargachhia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8fc531300dc2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4559613, 85.712866)."
+ ],
+ "photo": "photos/8fc531300dc2f5f4634f1a451e36eabc10884501650b011a94fefa477f7d8552.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "3880397",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

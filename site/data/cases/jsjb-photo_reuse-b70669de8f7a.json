@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b70669de8f7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Kamalpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6dab26b7caaf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/6dab26b7caaf34e10ff6ceec07b3998080e556494b4f46e30403f2024cbe011b.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256373",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

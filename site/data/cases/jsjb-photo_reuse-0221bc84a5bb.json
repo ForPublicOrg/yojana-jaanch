@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0221bc84a5bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Baurhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 85695f27c2a8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.64142, 75.834495)."
+ ],
+ "photo": "photos/85695f27c2a82ad19cef4e6903ec37aa2cce11d4218934028156a2f8d1cb5456.jpg",
+ "offices": [
+  "Sub Division Officer Drainage"
+ ],
  "records": [
   {
    "record_id": "7707057",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-25fb09ccd462",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Bal Kohna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9291c23fbb74) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (31.186256, 75.389329).",
+  "The entries were made by 2 different offices: BDPO Nakodar, Zilledar."
+ ],
+ "photo": "photos/9291c23fbb74e12b055c9e6cbf6bfb215c74c24800b1c83303e45ca2667e5b27.jpg",
+ "offices": [
+  "BDPO Nakodar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "973458",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

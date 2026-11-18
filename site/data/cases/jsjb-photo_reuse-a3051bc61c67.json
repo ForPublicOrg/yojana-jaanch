@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a3051bc61c67",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Chak Dhaab Kushaal Joyia",
+  "Pali Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 465895b10caa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: Junior Engineer, ziledar kabulshah."
+ ],
+ "photo": "photos/465895b10caaa81d25d1a49133e352276df4853731fdbc09877ecb492a340c05.jpg",
+ "offices": [
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "981594",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

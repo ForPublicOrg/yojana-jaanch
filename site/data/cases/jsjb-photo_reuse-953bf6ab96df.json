@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-953bf6ab96df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 60 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Madoke"
+ ],
+ "record_count": 60,
+ "reasons": [
+  "The same photo file (fingerprint 8c8418639782) is attached to 60 different works in 1 village. A photo of one site cannot be evidence for 60 separate works.",
+  "The works are recorded as: Other (60).",
+  "All 60 works report the same GPS point (31.68, 74.67)."
+ ],
+ "photo": "photos/8c841863978279878d4d434737c3e1cdaa27706b949c64b65439a090a5b5b8ce.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "8100059",
@@ -841,5 +860,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 181,
+ "needs_human_review": false
 }

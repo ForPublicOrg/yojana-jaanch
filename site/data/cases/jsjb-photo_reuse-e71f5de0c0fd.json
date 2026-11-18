@@ -1,0 +1,87 @@
+{
+ "id": "jsjb-photo_reuse-e71f5de0c0fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Pandamangalam (TP) - Ward No.15",
+  "Venkarai (TP) - Ward No.15",
+  "Venkarai (TP) - Ward No.8"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 05438805115a) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (3), Rooftop Water Harvesting Structure (1).",
+  "The entries were made by 2 different offices: EO PANDAMANGALAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Pandamangalam, Venkarai."
+ ],
+ "photo": "photos/05438805115a87ca983e15120243b0eee8fa7e56136af1de40287cf74cc9fed2.jpg",
+ "offices": [
+  "EO PANDAMANGALAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3512420",
+   "village": "Pandamangalam (TP) - Ward No.15",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-07-14",
+   "end_date": "2025-07-29",
+   "lat": 11.100229,
+   "lon": 77.967335,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  },
+  {
+   "record_id": "3786202",
+   "village": "Venkarai (TP) - Ward No.8",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-04",
+   "end_date": "2025-08-29",
+   "lat": 11.090676,
+   "lon": 77.967632,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3802629",
+   "village": "Venkarai (TP) - Ward No.15",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2026-01-17",
+   "end_date": "2026-01-30",
+   "lat": 11.090468,
+   "lon": 77.972412,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3803443",
+   "village": "Venkarai (TP) - Ward No.15",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-11-12",
+   "end_date": "2025-11-25",
+   "lat": 11.092496,
+   "lon": 77.972341,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

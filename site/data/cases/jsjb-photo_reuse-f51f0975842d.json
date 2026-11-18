@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-f51f0975842d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Dhunike",
+  "Verkandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d09e81c9d70c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: DFO, GRAM ROZGAR SEWAK.",
+  "These works are spread over 2 blocks: Goniana, Sangat."
+ ],
+ "photo": "photos/d09e81c9d70c77abf40fc191b24996d0dbc17c034e7760f3a817ef708e3dcaca.jpg",
+ "offices": [
+  "DFO",
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4390007",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

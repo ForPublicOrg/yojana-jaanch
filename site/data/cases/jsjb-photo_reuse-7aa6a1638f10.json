@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7aa6a1638f10",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Bhuchi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f6d9a39421b7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-03 10:21:12 to 2026-03-03 10:22:18)."
+ ],
+ "photo": "photos/f6d9a39421b725314923656ebc88e16d2d3ff27572b3a9984941f930a0a621c7.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1038423",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

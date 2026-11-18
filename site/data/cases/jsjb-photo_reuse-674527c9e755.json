@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-674527c9e755",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Pasnawal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ebfa64175945) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.907883, 75.377603)."
+ ],
+ "photo": "photos/ebfa641759454ef4627299a30e0492c5068cb9957b61f6e7c58f089c8490b173.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "1229088",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

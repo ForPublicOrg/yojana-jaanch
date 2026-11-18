@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-003c0cb174d0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Lachapur",
+  "Loharapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 180c970447e6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.358098, 82.896018)."
+ ],
+ "photo": "photos/180c970447e6eca6d2b3dc06078bc01be652460ebc907a0ad58be377e463da9b.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391942268",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

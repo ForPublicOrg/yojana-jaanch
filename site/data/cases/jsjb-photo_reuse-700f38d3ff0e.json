@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-700f38d3ff0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Bhawar",
+  "Chakauti",
+  "Dhankaul Khurd",
+  "Kurhar"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint f9a33252fa9a) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (5), Recharge Pit (1).",
+  "All 6 works report the same GPS point (26.0, 85.0)."
+ ],
+ "photo": "photos/f9a33252fa9a01685f5df5cc06e81ee91e3d0c2de9584b09d0070db4c9e78ac3.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4039732",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

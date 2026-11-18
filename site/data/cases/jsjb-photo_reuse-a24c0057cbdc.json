@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a24c0057cbdc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Kutiwal Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f3cc1f101e38) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/f3cc1f101e389571d8327c257aef3f713ef5c151bf1b2f296d209bd6c532375c.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1049300",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

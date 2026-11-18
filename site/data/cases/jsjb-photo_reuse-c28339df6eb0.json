@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c28339df6eb0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Tonk (M Ci) - Ward No.56"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6e637d96eb2a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.167591, 75.855934).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-26, 2026-05-27."
+ ],
+ "photo": "photos/6e637d96eb2a1eed54e0df77794c84948fd7255e9d05e6339bb756bf162761a1.jpg",
+ "offices": [
+  "AEN LSG TONK"
+ ],
  "records": [
   {
    "record_id": "13067623",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

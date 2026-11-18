@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cbe7b1b15499",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Kamiana",
+  "Maani Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 271560cbcade) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: APO Mgnrega, SDO."
+ ],
+ "photo": "photos/271560cbcadeeb64b6fdd0b38f2328e6f54e9c924fd36940b59ef39553307594.jpg",
+ "offices": [
+  "APO Mgnrega",
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "989967",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

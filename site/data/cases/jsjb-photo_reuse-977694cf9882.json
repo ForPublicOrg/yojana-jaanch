@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-977694cf9882",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Tumbipadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f3b43ed0fa3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.79927, 78.069917).",
+  "The photo was uploaded 4 times within 11 minutes (2025-08-01 15:10:06 to 2025-08-01 15:20:48)."
+ ],
+ "photo": "photos/3f3b43ed0fa30be1a12c6742be93248c183c6ac014506ec56c355a34ab131779.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9355913",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

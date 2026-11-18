@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-53b630b2b7d4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Bathal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e990cd172bc4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.305671, 76.099904).",
+  "The photo was uploaded 4 times within 59 seconds (2026-04-21 16:33:51 to 2026-04-21 16:34:50)."
+ ],
+ "photo": "photos/e990cd172bc429e0ec670cce7590c4e566a9c6bbbe4eeb353f5f5c3ca6f19789.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1089402",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

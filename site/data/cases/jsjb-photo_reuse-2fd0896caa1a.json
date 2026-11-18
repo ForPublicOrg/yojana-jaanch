@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2fd0896caa1a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Muttanchetti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d2a12520a2e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.142152, 78.202015).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-27 17:27:01 to 2026-02-27 17:28:14)."
+ ],
+ "photo": "photos/1d2a12520a2e4674b81c3db8681a1789c3c2a13e6cab4e81a310ce0d3653867e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3717009",
+   "village": "Muttanchetti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-12",
+   "end_date": "2023-06-25",
+   "lat": 11.142152,
+   "lon": 78.202015,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "3717042",
+   "village": "Muttanchetti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-12",
+   "end_date": "2023-06-25",
+   "lat": 11.142152,
+   "lon": 78.202015,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

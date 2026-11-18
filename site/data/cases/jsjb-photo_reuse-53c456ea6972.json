@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-53c456ea6972",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Chakanwali",
+  "Chaura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c19e4a18219) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-05-10 20:48:09 to 2026-05-10 20:54:22)."
+ ],
+ "photo": "photos/3c19e4a18219eea4815ec72363bccca61a551cdefe4fd639b066d6823f707daf.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "8342910",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b188501ba63f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Pachtaki Jadu",
+  "Pachtaki Ram",
+  "Parsauni"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 5c106f5a5785) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/5c106f5a5785488b2e70a53cc351a5cae891b3a440a4aff2f99c7494fdd0f2f0.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4469267",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

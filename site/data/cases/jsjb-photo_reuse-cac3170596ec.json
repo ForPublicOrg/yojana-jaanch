@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cac3170596ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Peerowali"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint d1542ddc37c7) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works started and ended on the same day (2026-05-09)."
+ ],
+ "photo": "photos/d1542ddc37c7143a626a51549ae55902263826944737f18ce950d9ea0252e78a.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "8272345",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

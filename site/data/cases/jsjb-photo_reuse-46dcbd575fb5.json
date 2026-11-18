@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-46dcbd575fb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Bilaspur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9ac813c3777f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 49 seconds (2026-02-05 14:23:51 to 2026-02-05 14:24:40)."
+ ],
+ "photo": "photos/9ac813c3777f1e223d79f262bd0e31454535a243525e6998e804317ddad5d7e8.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1041008",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

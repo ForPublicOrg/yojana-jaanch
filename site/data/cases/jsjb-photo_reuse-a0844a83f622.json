@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a0844a83f622",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Brahmanarahalli",
+  "Kariganathammanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e106198628a6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/e106198628a64828e79b8dc12da8ca75131f9af11abacc23e005720efbbcaf04.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3120351",
+   "village": "Kariganathammanahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-06",
+   "end_date": "2025-11-10",
+   "lat": 13.744688,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3120518",
+   "village": "Brahmanarahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-04",
+   "end_date": "2025-11-06",
+   "lat": 13.734742,
+   "lon": 77.74463,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

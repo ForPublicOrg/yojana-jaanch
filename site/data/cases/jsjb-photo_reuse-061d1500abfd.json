@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-061d1500abfd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Burj Mansa",
+  "Kararwala",
+  "Tungwali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d220400cebeb) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: ZILEDAR PHUL, ZILEDAR SHAMIR.",
+  "These works are spread over 2 blocks: Nathana, Rampura."
+ ],
+ "photo": "photos/d220400cebebae5f70c8931922b62a45021c074c901a64548ee71b7e4df07642.jpg",
+ "offices": [
+  "ZILEDAR PHUL",
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "989365",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

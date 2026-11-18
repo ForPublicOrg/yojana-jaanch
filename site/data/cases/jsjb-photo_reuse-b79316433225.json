@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b79316433225",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Belahi",
+  "Nadana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8250683c01b4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/8250683c01b4a50c08bb6d0006b811f7d77c1b83c21bb15aa97abfa9f9744e4c.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1096334",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

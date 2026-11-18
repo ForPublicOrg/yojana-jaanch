@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fd2c1196ec57",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Talibpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2cce26e2ec15) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works started and ended on the same day (2026-05-29).",
+  "The photo was uploaded 2 times within 10 minutes (2026-05-30 08:20:05 to 2026-05-30 08:29:42)."
+ ],
+ "photo": "photos/2cce26e2ec15f514b44d8985efa80ae259f36d4a23523043525b282cac319896.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14990653",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

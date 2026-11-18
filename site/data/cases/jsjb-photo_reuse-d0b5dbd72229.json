@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d0b5dbd72229",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Gazapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 5 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.013 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 36cadaec66ed on 1 work, c94ed0c6e5b5 on 1 work.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/36cadaec66ed9549c41c376acc755a59e84b0852c8a2c431929b0202a1546672.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3395132",
@@ -29,5 +49,21 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "36cadaec66ed9549c41c376acc755a59e84b0852c8a2c431929b0202a1546672",
+   "records": 1
+  },
+  {
+   "sha256": "c94ed0c6e5b534466ec8878c373cc2e0c09eb456e8452c56f50b9a020c0a94af",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-c164a99ce4f1"
  ]
 }

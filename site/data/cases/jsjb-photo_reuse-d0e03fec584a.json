@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d0e03fec584a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Sikaraul"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d79dc96b2f82) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 16 minutes (2025-09-03 11:15:36 to 2025-09-03 11:30:37)."
+ ],
+ "photo": "photos/d79dc96b2f823b64955c17c47377579e13eddb0f127bf8cf55c619096e137bbb.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391903128",
@@ -29,5 +48,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

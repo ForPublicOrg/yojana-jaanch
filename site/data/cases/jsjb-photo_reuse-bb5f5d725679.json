@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bb5f5d725679",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Kakahara",
+  "Ojha"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint bd22bb27df3d) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1).",
+  "All 3 works report the same GPS point (26.0, 79.0)."
+ ],
+ "photo": "photos/bd22bb27df3d66fa8e93a1cce833324e39a6bc0217ee460aa3d351c10b790f90.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11663078",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

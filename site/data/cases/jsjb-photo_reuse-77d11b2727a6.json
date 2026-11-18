@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-77d11b2727a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Bhaloth"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 77cd0a6f62b8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (28.18018, 76.019884).",
+  "The photo was uploaded 4 times within 27 seconds (2026-05-20 14:51:42 to 2026-05-20 14:52:09)."
+ ],
+ "photo": "photos/77cd0a6f62b8bf6f4e2e71defcb663ea947d249b4d8f63f50e5d6a69d3949a03.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "10381437",
+   "village": "Bhaloth",
+   "structure_type": "Village Pond",
+   "created_by": "Aen Buhana",
+   "start_date": "2023-05-16",
+   "end_date": "2026-02-20",
+   "lat": 28.18018,
+   "lon": 76.019884,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "10381527",
+   "village": "Bhaloth",
+   "structure_type": "Village Pond",
+   "created_by": "Aen Buhana",
+   "start_date": "2023-05-16",
+   "end_date": "2026-02-20",
+   "lat": 28.18018,
+   "lon": 76.019884,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

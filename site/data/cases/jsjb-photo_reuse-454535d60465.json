@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-454535d60465",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Jabbo Sudhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4f5dc2b879f4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.23, 75.17)."
+ ],
+ "photo": "photos/4f5dc2b879f480d61d558e7a13cc8fbe601f12b1a745e06a067eab96ef4af1a9.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1062294",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

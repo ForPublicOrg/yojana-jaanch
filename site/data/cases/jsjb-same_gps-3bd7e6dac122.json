@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3bd7e6dac122",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "12 works at one GPS point in Egapuram",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Egapuram"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 works in Egapuram report exactly the same GPS point (11.615606, 77.963243).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (12).",
+  "They carry 24 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347274",
@@ -169,5 +189,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

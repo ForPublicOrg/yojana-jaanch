@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-2b66f0963676",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Pasrotiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8dee30368a4e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/8dee30368a4e6add58428fe66ab27782966e28caddde6af83ddc3519544a4737.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4177281",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

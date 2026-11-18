@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4646dd1cc3c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Jhaloor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 005e828a77f6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/005e828a77f6b45180ad2ff8aad1a3b8d16a41be346cdb558a7540fa34b90c70.jpg",
+ "offices": [
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4435599",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

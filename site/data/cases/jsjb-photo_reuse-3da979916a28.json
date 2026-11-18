@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3da979916a28",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Heir"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint c32b61a34e89) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 3 dates: 2025-06-03, 2025-06-04, 2025-06-05."
+ ],
+ "photo": "photos/c32b61a34e89bcca4cdbab827223f1cbc035ae602c35dac1d86289d19b074a68.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5125695",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

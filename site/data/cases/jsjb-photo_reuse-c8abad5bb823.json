@@ -1,5 +1,37 @@
 {
  "id": "jsjb-photo_reuse-c8abad5bb823",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 50 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Attari",
+  "Boparai Baj Singh",
+  "Heir",
+  "Jagdev Kalan",
+  "Jastarwal",
+  "Khiala Kalan",
+  "Kotli Amb",
+  "Lopoke",
+  "Nangal Wanjhanwala",
+  "Othian",
+  "Raipur Khurd",
+  "Ramdas(Rural)",
+  "Umarpura",
+  "Wanjhanwala"
+ ],
+ "record_count": 50,
+ "reasons": [
+  "The same photo file (fingerprint ccd38f904a82) is attached to 50 different works in 14 villages. A photo of one site cannot be evidence for 50 separate works.",
+  "The works are recorded as: Recharge Pit (49), Other (1).",
+  "These works are spread over 5 blocks: Ajnala, Attari, Chogawan, Harshe Chhina, Ramdas."
+ ],
+ "photo": "photos/ccd38f904a8282c46ad8a3ae1fec99b331a1ae4de9e4c7161e4c2e9af87f5352.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5026731",
@@ -701,5 +733,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 150,
+ "needs_human_review": false
 }

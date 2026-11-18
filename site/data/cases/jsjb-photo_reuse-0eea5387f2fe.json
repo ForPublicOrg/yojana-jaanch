@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0eea5387f2fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 119 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Darya Mussa"
+ ],
+ "record_count": 119,
+ "reasons": [
+  "The same photo file (fingerprint d3e3bc98d000) is attached to 119 different works in 1 village. A photo of one site cannot be evidence for 119 separate works.",
+  "The works are recorded as: Other (118), Contour Trench (1).",
+  "All 119 works report the same GPS point (31.58, 74.5)."
+ ],
+ "photo": "photos/d3e3bc98d00030204fecb826844b4af2587f16dcfc79e723cbd92736de16c480.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5374336",
@@ -1667,5 +1686,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 358,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2ce3b04aa55d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Kakkaveri",
+  "Vadugam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4aec838ab198) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Soak Pit (1)."
+ ],
+ "photo": "photos/4aec838ab198fc19641673d40a5a0329f36dfea015e4b505e9d4b992fe5607e0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9334529",
+   "village": "Kakkaveri",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-07-03",
+   "end_date": "2024-07-31",
+   "lat": 11.441154,
+   "lon": 78.2247,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9337620",
+   "village": "Vadugam",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-08-29",
+   "lat": 11.492742,
+   "lon": 78.24764,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

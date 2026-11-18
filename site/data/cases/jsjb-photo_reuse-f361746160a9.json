@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f361746160a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Deonathpatti",
+  "Jawahirpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 103c8a0eabd5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/103c8a0eabd58401e01fffbe2240c45930e5dd7e6a235d2bb4e0cf4b5474aed1.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4418569",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

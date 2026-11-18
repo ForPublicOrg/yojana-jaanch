@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d0d9fe8d6431",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Mehma Swai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8ed78292e3cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.32, 74.86).",
+  "The photo was uploaded 4 times within 43 seconds (2026-03-09 17:17:36 to 2026-03-09 17:18:19)."
+ ],
+ "photo": "photos/8ed78292e3cd98c2a691a1eb54a6b696379706eb868eda3f80aa6b7c0e55c403.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1166588",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e27790053d30",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Katari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dfd580e7253c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 59 seconds (2026-02-05 17:04:09 to 2026-02-05 17:05:08)."
+ ],
+ "photo": "photos/dfd580e7253c65277fcbd436b10eafe98bdb2b4b000e0a136b3c7233667d1167.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1254751",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

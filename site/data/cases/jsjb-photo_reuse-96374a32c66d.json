@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-96374a32c66d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Bhatpurwan",
+  "Kathauna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 11bc246b1b06) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/11bc246b1b063630ae3d82bc632d6c2dd1ad4454a3a759d78a8e0294058fad90.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3333303",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e624f38f43db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Badalgarh"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 6a391bc68bfb on 3 works, 5646994ffbdd on 1 work.",
+  "The works are recorded as: Contour Trench (4).",
+  "The picture was uploaded 8 times within 16 minutes (2026-05-22 14:40:17 to 2026-05-22 14:56:11)."
+ ],
+ "photo": "photos/6a391bc68bfba4f0d7fb3043a4cf9dbbc146b37e53ec275ab3f8a9bf1e1d6b22.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "11145882",
@@ -57,5 +78,21 @@
    "area_type": "Rural",
    "block": "Andana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "6a391bc68bfba4f0d7fb3043a4cf9dbbc146b37e53ec275ab3f8a9bf1e1d6b22",
+   "records": 3
+  },
+  {
+   "sha256": "5646994ffbdd347faf81ac4f1474790092eb2c9f3dbc7e17f2f32724d096c7d6",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-9d756e4ec1fb"
  ]
 }

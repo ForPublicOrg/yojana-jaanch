@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-d515946b7bc1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Khanpur",
+  "Mandaur",
+  "Sohag Heri"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 171f870dc6fb) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 3 dates: 2026-04-07, 2026-04-08, 2026-04-13.",
+  "These works are spread over 2 blocks: Bassi Pathana, Sirhind."
+ ],
+ "photo": "photos/171f870dc6fb9aa95aad6ef5ffe3398ba4494debcde679fb48f5f51f3a8b0f3d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5056552",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

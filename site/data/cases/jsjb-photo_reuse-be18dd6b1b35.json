@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-be18dd6b1b35",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kolathukombai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0e9ea1336186) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.731897, 78.355906).",
+  "The photo was uploaded 4 times within 19 seconds (2026-05-19 15:06:00 to 2026-05-19 15:06:19)."
+ ],
+ "photo": "photos/0e9ea1336186aff54c0ab5aeb9e8782ffb8b03cf639c88737d60b3019e1a2c47.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10177802",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

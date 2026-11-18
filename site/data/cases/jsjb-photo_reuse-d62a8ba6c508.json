@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d62a8ba6c508",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Fateh Nangal (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ef12e087a995) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.952158, 75.328957).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-19 11:57:07 to 2026-05-19 12:02:47)."
+ ],
+ "photo": "photos/ef12e087a99577c9817acb1cb2ffb99908a4f85ada323695605d820bd79429c3.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10134992",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

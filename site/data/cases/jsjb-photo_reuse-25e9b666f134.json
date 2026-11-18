@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-25e9b666f134",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Chhan",
+  "Sankhana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bc8f6b1c4e7a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1)."
+ ],
+ "photo": "photos/bc8f6b1c4e7a92fb11109fca68d69e136ac939e78a0ec0af7d2b60045690a350.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14045090",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

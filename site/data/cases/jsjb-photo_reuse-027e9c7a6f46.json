@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-027e9c7a6f46",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Darinaikanapalya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 1178de883341 on 1 work, 97169207c632 on 1 work.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/1178de8833412dca51e2274a60d34028c20948636b880747562c1f92b4131aef.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3123238",
+   "village": "Darinaikanapalya",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-28",
+   "end_date": "2025-11-10",
+   "lat": 13.626397,
+   "lon": 77.599346,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3126006",
+   "village": "Darinaikanapalya",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-17",
+   "end_date": "2025-11-22",
+   "lat": 13.642902,
+   "lon": 77.452439,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "1178de8833412dca51e2274a60d34028c20948636b880747562c1f92b4131aef",
+   "records": 1
+  },
+  {
+   "sha256": "97169207c6320ede67c55a28e94dda048f4d27f296a3bed376ec5a2aad0fc8c4",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-02b567297eb6"
+ ]
+}

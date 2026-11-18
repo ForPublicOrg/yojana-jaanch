@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-01c0f1abe8b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Gunsi",
+  "Sakatpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9ecd6d6884c8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/9ecd6d6884c87f740331beba924017218673a64e93677efeed4fd41293b308f2.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1390543",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

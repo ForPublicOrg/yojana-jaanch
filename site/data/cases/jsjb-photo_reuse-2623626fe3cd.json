@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-2623626fe3cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Jeeda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 12e52de41739) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/12e52de4173940b3eee5b87c8356c03c2ae268c295ed594071940504365dda6b.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1087176",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

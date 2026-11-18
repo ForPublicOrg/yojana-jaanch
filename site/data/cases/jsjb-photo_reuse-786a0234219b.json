@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-786a0234219b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Panikkanur",
+  "Pappambadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a24cb80d501e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.68, 77.91).",
+  "The photo was uploaded 2 times within 3 minutes (2025-07-09 17:06:49 to 2025-07-09 17:08:54)."
+ ],
+ "photo": "photos/a24cb80d501eefc531cfea22f19751746b172b01b605fc0ad0635ad531952c60.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9355116",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

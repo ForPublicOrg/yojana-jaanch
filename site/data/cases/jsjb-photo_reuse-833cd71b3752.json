@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-833cd71b3752",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Banaul",
+  "Bokhra",
+  "Chakauti",
+  "Dhankaul Khurd",
+  "Kharka Basant",
+  "Madsudanpur Dumri Mahisautha",
+  "Siari",
+  "Singha Chauri",
+  "Ukhra"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint b4125c4b2983) is attached to 15 different works in 9 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Soak Pit (15)."
+ ],
+ "photo": "photos/b4125c4b2983dea085eb56c98e66a5d9b20c130efb2fd8f94f3515dd2527a44d.jpg",
+ "offices": [
+  "BDO Bokhra"
+ ],
  "records": [
   {
    "record_id": "3946362",
@@ -211,5 +237,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

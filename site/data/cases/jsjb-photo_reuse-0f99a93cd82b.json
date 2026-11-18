@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-0f99a93cd82b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Adampal",
+  "Dhano",
+  "Jafrabad",
+  "Jatiwal",
+  "Rampur Chhana",
+  "Rurka",
+  "Togaheri",
+  "Uppal Khedi"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint de13142f3f70) is attached to 9 different works in 8 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Village Pond (7), Bore-Well Recharge (2).",
+  "These works are spread over 2 blocks: Amargarh, Malerkotla (Head Quarter)."
+ ],
+ "photo": "photos/de13142f3f70abe4a99b5220e9916917d1e3578c1d0392e8b13b27d70b8192c4.jpg",
+ "offices": [
+  "IT Manager"
+ ],
  "records": [
   {
    "record_id": "1158499",
@@ -127,5 +153,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

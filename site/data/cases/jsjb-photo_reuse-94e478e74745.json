@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-94e478e74745",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Mallikuttai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint df3c0d148e0f) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.74, 77.95)."
+ ],
+ "photo": "photos/df3c0d148e0f45ec52f2d6cd6b57414579d6b5f46aef022bd286564f65fe1b4a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346042",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

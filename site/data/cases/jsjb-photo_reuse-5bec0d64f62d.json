@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5bec0d64f62d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Ajnodha",
+  "Pachera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17990736a6f4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/17990736a6f4c581b23da9bbaebcd828c3d2e7f8a8a00a5c817baf1ff7f5f94f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11340321",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

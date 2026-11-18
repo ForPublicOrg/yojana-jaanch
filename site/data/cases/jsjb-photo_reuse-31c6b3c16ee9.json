@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-31c6b3c16ee9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Bahmani",
+  "Ghulla"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 529807d268ba) is attached to 9 different works in 2 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (8), Open Well Recharge / Dug Well (1).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla.",
+  "These works are spread over 2 blocks: Dinanagar, Gurdaspur."
+ ],
+ "photo": "photos/529807d268ba05a2e21f260505103f745889b29850227f5452c1b3871d7a24a5.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "6303978",
@@ -127,5 +149,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

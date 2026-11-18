@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6529b76e2efe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Bagota",
+  "Kohala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 55f24b0396d2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-06 13:32:06 to 2026-04-06 13:33:53)."
+ ],
+ "photo": "photos/55f24b0396d2604a25d4a6332a4c2701fbb04e30f2cbf99ecbcce0b13889de3d.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "974339",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-46e8ac4ef8fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Bhatti",
+  "Bhikhampur",
+  "Garhwa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0faed4050b93) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "These works are spread over 3 blocks: Arajiline, Harahua, Kashi Vidyapeeth."
+ ],
+ "photo": "photos/0faed4050b9301fa290b1acd6fcac0036b3347ee56c843ec88c4f91d25f90283.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391892652",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kashi Vidyapeeth"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

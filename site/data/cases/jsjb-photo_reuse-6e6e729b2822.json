@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6e6e729b2822",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Adampur",
+ "villages": [
+  "Daroli Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d401afae645) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-13 10:38:36 to 2026-02-13 10:40:29)."
+ ],
+ "photo": "photos/6d401afae6455dbc145f4c8610800c3d65bceac60072a0d92d9241363bf04979.jpg",
+ "offices": [
+  "BDPO Adampur"
+ ],
  "records": [
   {
    "record_id": "1105173",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Adampur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

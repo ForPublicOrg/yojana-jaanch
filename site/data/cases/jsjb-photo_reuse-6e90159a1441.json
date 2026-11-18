@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-6e90159a1441",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bathinda",
+ "villages": [
+  "Virk Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1d3f6ffa45fd) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1)."
+ ],
+ "photo": "photos/1d3f6ffa45fd4a1451315f99ce17ea6abcb06410e47633fcaa95523de1782217.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1041222",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Bathinda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

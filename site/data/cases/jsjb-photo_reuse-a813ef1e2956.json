@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a813ef1e2956",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Mullanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6ca23700032e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 30 minutes (2026-02-04 13:37:18 to 2026-02-04 14:07:10)."
+ ],
+ "photo": "photos/6ca23700032e43073564449ee0cca5785324a5608de386c68774f35f6566257a.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1045027",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

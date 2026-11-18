@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4a73868dfe13",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 17 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Kamalpur"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "The same photo file (fingerprint fe11547b3ed0) is attached to 17 different works in 1 village. A photo of one site cannot be evidence for 17 separate works.",
+  "The works are recorded as: Contour Trench (17).",
+  "All 17 works report the same GPS point (31.233735, 75.300653).",
+  "All 17 works started and ended on the same day (2026-05-14)."
+ ],
+ "photo": "photos/fe11547b3ed0fbfc9531f79083b26450ee43bd929201d906eb865b861717f25a.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "9167923",
@@ -239,5 +259,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 53,
+ "needs_human_review": false
 }

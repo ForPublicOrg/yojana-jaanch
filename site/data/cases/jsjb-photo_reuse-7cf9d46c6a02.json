@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7cf9d46c6a02",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Barthara Khurd",
+  "Jairampur",
+  "Kursato"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 986cfcfad60a) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "These works are spread over 3 blocks: Arajiline, Chiraigaon, Cholapur."
+ ],
+ "photo": "photos/986cfcfad60aa3537637d24998de4a0f05a8902688b37405b2747e6254f82386.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893201",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

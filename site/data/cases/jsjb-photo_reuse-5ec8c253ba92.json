@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5ec8c253ba92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Mauna",
+  "Mehsaul",
+  "Pota Urf Tajpur Phaksia Bharthi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9b4ec79b677c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/9b4ec79b677c332dd31c4d6b30fb6ab35b1466a3adc63317453f509f7d4ed5ac.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4645638",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

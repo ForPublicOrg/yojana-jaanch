@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-af4373223957",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Lohar Majra Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d08302b4838) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.608356, 76.252002).",
+  "The photo was uploaded 3 times within 5 minutes (2026-04-17 11:57:04 to 2026-04-17 12:01:20)."
+ ],
+ "photo": "photos/8d08302b48389b28eea4a4946e95e2efc4521542c7c766017a482d8c9fa5186a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5006892",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e569524c4d61",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Dehliz Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0ef3218e79b0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.6417597, 75.809403).",
+  "The photo was uploaded 2 times within 8 minutes (2026-05-31 23:19:39 to 2026-05-31 23:27:11)."
+ ],
+ "photo": "photos/0ef3218e79b00548660dad22439c18b5e0ae546a2ad47fcbe18e1bf7e0180584.jpg",
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "16497953",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

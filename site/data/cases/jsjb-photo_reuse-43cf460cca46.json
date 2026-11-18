@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-43cf460cca46",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Nurwala",
+  "Paharuwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f16f6faecd9d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.9196, 76.066).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-04 21:38:05 to 2026-02-04 21:39:10)."
+ ],
+ "photo": "photos/f16f6faecd9d099fd6d5fa120b56cb792fe3b24fe65f3d092b2a57feae10be5c.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1356946",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

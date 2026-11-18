@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-256a93509369",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Akoi",
+  "Fatehgarh Chhanna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6072d40e5a4d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "The entries were made by 2 different offices: BDPO Sangrur, FRO Sangrure."
+ ],
+ "photo": "photos/6072d40e5a4da21e1e95201d5b5365f0a0d88ea42954bac2dde622b7063ed65f.jpeg",
+ "offices": [
+  "BDPO Sangrur",
+  "FRO Sangrure"
+ ],
  "records": [
   {
    "record_id": "10378095",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

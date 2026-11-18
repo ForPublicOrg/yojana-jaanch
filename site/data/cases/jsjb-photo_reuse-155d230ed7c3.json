@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-155d230ed7c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Chakkotla",
+  "Haibatpur",
+  "Sech"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 055b12744175) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/055b12744175c2927ca4a77e206ccacdf9c92a7ae6664b961f0087f25de0aa1f.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1062256",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e3dd9c2003a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Aujla Jogi"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint d24d109bf1e5) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9).",
+  "All 9 works report the same GPS point (31.338765, 75.411904).",
+  "All 9 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 18 times within 19 minutes (2026-05-10 17:35:12 to 2026-05-10 17:53:40)."
+ ],
+ "photo": "photos/d24d109bf1e5a8c126987991a19c175dad9736fdcce8fa3874c17c506f565105.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8319195",
@@ -127,5 +148,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

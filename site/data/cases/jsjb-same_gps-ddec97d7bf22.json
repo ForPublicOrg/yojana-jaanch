@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-ddec97d7bf22",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "9 works at one GPS point in Sidhwan Bet",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Sidhwan Bet"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "9 works in Sidhwan Bet report exactly the same GPS point (30.9235, 75.4743).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (9).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO Sidhwan"
+ ],
  "records": [
   {
    "record_id": "5260615",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1977717574bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Garcha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2189215dfe4a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.89107, 76.87729).",
+  "The photo was uploaded 4 times within 52 seconds (2026-02-04 21:18:52 to 2026-02-04 21:19:44)."
+ ],
+ "photo": "photos/2189215dfe4a4aeaa0404c12030d2494cda0ec79f17abfcef8c485e4dbfde6c7.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1239506",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

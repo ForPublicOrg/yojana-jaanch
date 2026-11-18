@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-60773aa911ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Chharenta(Ano)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0ad303a1b746) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.44446, 78.34879).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/0ad303a1b746eecb448931ab10de91eb0c3cb9889bfc17018e8c0c977e36c602.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12122873",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

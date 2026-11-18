@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b5f6b5ddeb05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Kon",
+ "villages": [
+  "Majhalipatti",
+  "Semara"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 4144a828ad54) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "The entries were made by 2 different offices: BDO Kon, DPRO."
+ ],
+ "photo": "photos/4144a828ad54e91bf7ae62c9c476680745d459b40347ba235be2525c86081c73.jpg",
+ "offices": [
+  "BDO Kon",
+  "DPRO"
+ ],
  "records": [
   {
    "record_id": "4004777",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

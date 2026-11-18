@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-4b7c6a6d8c11",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Amana",
+  "Kararbana",
+  "Maruki",
+  "Radhau",
+  "Simiahi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint c99fe30efb67) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/c99fe30efb675a5d354b3e701464ac93b1e8eb178eaab9ad0f3bf87bbb10069c.jpg",
+ "offices": [
+  "PO Sursand"
+ ],
  "records": [
   {
    "record_id": "931571",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

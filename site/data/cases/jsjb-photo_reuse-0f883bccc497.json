@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-0f883bccc497",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Bazurg",
+  "Dakha",
+  "Humbran (2J)",
+  "Patti Multani"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e72fa733b927) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "These works are spread over 3 blocks: Jagraon, Ludhiana-1, Sudhar."
+ ],
+ "photo": "photos/e72fa733b92766fd8cddcb10d95087c96016eaf0acaa61fc98733bcd84ebd5e1.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "982109",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

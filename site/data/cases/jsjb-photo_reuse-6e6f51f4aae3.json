@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-6e6f51f4aae3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "S.M.Kondarajanahalli",
+  "Sundrahalli",
+  "Varasandra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 236905ec1220) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (13.62631, 77.99231)."
+ ],
+ "photo": "photos/236905ec1220f130f65cb235a24e7aea3a6076d8131ac39874e05cbaf6845973.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092721",
+   "village": "Varasandra",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-08-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3092737",
+   "village": "Sundrahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-08-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3099362",
+   "village": "S.M.Kondarajanahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-16",
+   "end_date": "2025-09-17",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

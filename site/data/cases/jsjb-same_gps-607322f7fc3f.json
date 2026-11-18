@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-607322f7fc3f",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Tekkalpatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Tekkalpatti"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Tekkalpatti report exactly the same GPS point (11.55, 78.33).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (6), Village Pond (1).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347710",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

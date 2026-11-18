@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7f3286f473d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Chapra",
+  "Pachera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4340040b9023) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/4340040b90230ffa46013954ed93a2c47169f2a2ac4cbd69fa57f68429b1dc34.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11339835",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

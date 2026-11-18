@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0f099dcb2e2a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Bor Khandi Kalan",
+  "Jhirana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint acf8f6c6f5d3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/acf8f6c6f5d30c10191c261704cec8ace50e5ae2ac605ccb875a9f80baf72a27.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3634023",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

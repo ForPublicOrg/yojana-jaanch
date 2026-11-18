@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7d04a58a6e67",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Devidaspur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e1078151428a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.94761, 75.272626).",
+  "The photo was uploaded 4 times within 14 seconds (2026-05-14 10:21:07 to 2026-05-14 10:21:21)."
+ ],
+ "photo": "photos/e1078151428a6051f2356f3a51cf719b4f4204b91f186837d98813a8dcf53576.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "9044174",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

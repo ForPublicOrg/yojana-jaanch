@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-586ac973e652",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Shahkot",
+ "villages": [
+  "Bhoepur",
+  "Malsian",
+  "Sandhanwal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6212ffc5d158) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 12 minutes (2026-04-20 19:37:31 to 2026-04-20 19:49:09)."
+ ],
+ "photo": "photos/6212ffc5d158180b1ae173b2bd5b7028d5ae2764e1f18abaf96968c7fe264388.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "970073",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Shahkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

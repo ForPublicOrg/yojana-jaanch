@@ -1,0 +1,84 @@
+{
+ "id": "jsjb-photo_reuse-fdd7d8c8b6ce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Gulur",
+  "Sajjupalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 6 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 0054cb72a467 on 2 works, d295de5c5dcd on 1 work.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/0054cb72a4673f05a555c579227c3c5391a20fce293f52e2c2dafe57b7f90632.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3085628",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-17",
+   "end_date": "2025-10-11",
+   "lat": 13.840966,
+   "lon": 77.848244,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3099021",
+   "village": "Sajjupalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-13",
+   "end_date": "2025-11-20",
+   "lat": 13.90855,
+   "lon": 77.976422,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3121822",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-15",
+   "end_date": "2025-10-19",
+   "lat": 13.83711674,
+   "lon": 77.85918692,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "0054cb72a4673f05a555c579227c3c5391a20fce293f52e2c2dafe57b7f90632",
+   "records": 2
+  },
+  {
+   "sha256": "d295de5c5dcd71add1e1de8da478dfcae4cc8524847a54b95aedd6e22ef2548a",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f3b20d5b9df6"
+ ]
+}

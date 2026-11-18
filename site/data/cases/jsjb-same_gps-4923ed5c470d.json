@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-4923ed5c470d",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Jhuner",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Jhunir",
+ "villages": [
+  "Jhuner"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Jhuner report exactly the same GPS point (29.8087, 75.3533).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "13406997",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Jhunir"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

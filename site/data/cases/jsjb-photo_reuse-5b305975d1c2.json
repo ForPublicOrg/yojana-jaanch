@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5b305975d1c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Chandlai",
+  "Hatauna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d39ca47b0860) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/d39ca47b08601aefda7c691807656de3e5c490c077bc3f86e7ce2bc66969eff6.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3888782",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

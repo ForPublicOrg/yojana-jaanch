@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-85cea99232d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Kanhauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 90db236fc2d2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-11-13 07:35:59 to 2026-11-13 07:39:30)."
+ ],
+ "photo": "photos/90db236fc2d2f7ae842c2d80428b03d59336e7d88e16fe5b4891d8db36f4de50.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4569634",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

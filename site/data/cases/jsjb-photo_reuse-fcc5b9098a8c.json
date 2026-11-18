@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-fcc5b9098a8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 22 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Banaul",
+  "Bokhra",
+  "Madsudanpur Dumri Mahisautha",
+  "Singha Chauri"
+ ],
+ "record_count": 22,
+ "reasons": [
+  "The same photo file (fingerprint 6d34f53aa5b9) is attached to 22 different works in 4 villages. A photo of one site cannot be evidence for 22 separate works.",
+  "The works are recorded as: Other (22).",
+  "All 22 works report the same GPS point (26.0, 85.0)."
+ ],
+ "photo": "photos/6d34f53aa5b94389dd2fd2e44e0148b40eafdca03c8703523de3f5495204c8ab.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4506636",
@@ -309,5 +331,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 67,
+ "needs_human_review": false
 }

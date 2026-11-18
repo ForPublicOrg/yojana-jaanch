@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8f8d1c160b30",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Jalalgarh",
+  "Manvi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf0f25a49ffb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/cf0f25a49ffb6ff623a86fa9ee60d8cccbf5312ccb13b8110eb8283bc19f8d6f.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "10407378",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

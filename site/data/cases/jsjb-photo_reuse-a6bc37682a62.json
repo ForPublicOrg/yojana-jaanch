@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a6bc37682a62",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Datwas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bf9e31f4978d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.480024, 76.133566).",
+  "The photo was uploaded 4 times within 52 seconds (2026-05-30 16:32:14 to 2026-05-30 16:33:06)."
+ ],
+ "photo": "photos/bf9e31f4978da86c452689d438a55f4cbd13f5eecaef6d777b964e2148ca98f8.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "15139060",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

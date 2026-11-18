@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-baf5596a3229",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Kathu Nangal",
+  "Variyam Nangal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d7f841610761) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-06-14, 2025-06-15.",
+  "The photo was uploaded 2 times within 28 minutes (2026-05-13 01:33:25 to 2026-05-13 02:01:02)."
+ ],
+ "photo": "photos/d7f8416107616e9e35bb32cf34663d93e4f3356da70d1724d09e93f19253a4d6.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "8775149",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

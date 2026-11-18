@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-205d790ef7e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Dialpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1de436789240) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works started and ended on the same day (2026-05-11)."
+ ],
+ "photo": "photos/1de436789240fd3ec60bd270bb6f281a829d9f2e71c0be67b307fff7a01b644b.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "9282170",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

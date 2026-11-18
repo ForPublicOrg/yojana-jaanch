@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-caf8eb4c2d7f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Parsa Urf Parsad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d68aaa7ed461) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/d68aaa7ed46116db677b4168967f6a3fa4b6ec57bd10c7b0790977ab52baab07.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4476537",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

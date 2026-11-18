@@ -1,5 +1,30 @@
 {
  "id": "jsjb-upload_burst-8a7666c66911",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "15 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Chinnakavundapuram",
+  "Dasinayakkanpatti",
+  "Keeraipappambadi",
+  "Konasamudram",
+  "Periyakavundapuram",
+  "Sukkampatti"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "15 different photos for 15 different works were uploaded by Block Development Officer within 10 minutes, from 2025-06-26 15:02:22 to 2025-06-26 15:12:12.",
+  "That is about one work every 39 seconds on average.",
+  "The works are in 6 villages: Chinnakavundapuram, Dasinayakkanpatti, Keeraipappambadi, Konasamudram, Periyakavundapuram, Sukkampatti.",
+  "These works are spread over 3 blocks: Ayodhiyapattinam, Konganapuram, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9358726",
@@ -14,6 +39,34 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
+  },
+  {
+   "record_id": "9358728",
+   "village": "Keeraipappambadi",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2020-10-08",
+   "end_date": "2022-01-20",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "9358738",
+   "village": "Keeraipappambadi",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2020-10-08",
+   "end_date": "2023-05-05",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
   },
   {
    "record_id": "9358739",
@@ -183,5 +236,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

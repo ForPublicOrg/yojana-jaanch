@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7322d4141dff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Arniyakedar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2a64c3a85b98) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.166099, 75.926413).",
+  "The photo was uploaded 4 times within 24 seconds (2026-05-29 13:38:25 to 2026-05-29 13:38:49)."
+ ],
+ "photo": "photos/2a64c3a85b98d438b26173524b86bd6bcaaa04cc5e3d920deaedbfad6b57edcd.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14757242",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

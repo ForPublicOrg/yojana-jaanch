@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-0b0645033777",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 24 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Baya",
+  "Bhawanipur",
+  "Jagdhar",
+  "Naranga",
+  "Pipra Koeria",
+  "Sahsaram",
+  "Sirsian",
+  "Siswa",
+  "Surgahia",
+  "Sutihara Ram"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "The same photo file (fingerprint 9aa0d1c4a9c7) is attached to 24 different works in 10 villages. A photo of one site cannot be evidence for 24 separate works.",
+  "The works are recorded as: Village Pond (23), Other (1)."
+ ],
+ "photo": "photos/9aa0d1c4a9c75873875552e2b6599d6c002cefd0fb567b70f4959b2c4628b82f.jpg",
+ "offices": [
+  "PO Parihar"
+ ],
  "records": [
   {
    "record_id": "3945896",
@@ -337,5 +364,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 72,
+ "needs_human_review": false
 }

@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-b977941b3c23",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Bharna",
+  "Ratanpura",
+  "Reedlya Bujurg"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 02637e61ede8) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The entries were made by 3 different offices: BDO, JEN Panchayat Raj Malpura, Jen.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/02637e61ede8baaa87672efddc9ac95bcc5cfd710f0e2ae4251d8a6f0252e8c0.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3562015",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

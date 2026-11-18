@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-79d14203287c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Ladhai Ke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c84ec74303ef) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/c84ec74303eff7b5d32748ddd2a4f700548a92e96a05d8f368084e168b63f170.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8694464",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

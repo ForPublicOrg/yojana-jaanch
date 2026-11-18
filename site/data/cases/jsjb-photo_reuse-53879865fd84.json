@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-53879865fd84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Jhambala",
+  "Saunti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8aa33a967448) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/8aa33a967448043ad020a7645cbc8c0eb9427b6e32ad1b37e99889ad18392954.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1077201",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

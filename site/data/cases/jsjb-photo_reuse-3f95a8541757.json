@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3f95a8541757",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Khassa"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint d07c801d86fd) is attached to 23 different works in 1 village. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Other (23).",
+  "All 23 works report the same GPS point (31.62, 74.77)."
+ ],
+ "photo": "photos/d07c801d86fd178312c99961ea3be96541ce9051f7aff7a2b2b8d70507e5cc41.jpeg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5411759",
@@ -323,5 +342,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 70,
+ "needs_human_review": false
 }

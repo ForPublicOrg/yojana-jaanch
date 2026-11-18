@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-8fd018c72a96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kothur",
+  "Shettihalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0e0d4fc09483) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bench Terracing (1), Contour Trench (1)."
+ ],
+ "photo": "photos/0e0d4fc094835608e4f68b282335022f95004377108a3deba14f941e11bdf06a.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3063713",
+   "village": "Kothur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-09",
+   "end_date": "2025-11-17",
+   "lat": 13.455214,
+   "lon": 78.06236,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3094260",
+   "village": "Shettihalli",
+   "structure_type": "Bench Terracing",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-09",
+   "end_date": "2025-11-07",
+   "lat": 13.461,
+   "lon": 78.02431,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b17a01c7f6b5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Pakho"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fe2f6b3420e9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 20 minutes (2026-05-25 17:58:29 to 2026-05-25 18:17:48)."
+ ],
+ "photo": "photos/fe2f6b3420e997ed1c5f1d313fac4c208925911cda709b02a265332946bb7049.jpg",
+ "offices": [
+  "CLERK Karanvir Singh"
+ ],
  "records": [
   {
    "record_id": "5649478",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c99b0a83ff08",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Sahibana",
+  "Sheria"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3000533c19de) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-02-04 20:38:55 to 2026-02-04 20:49:03)."
+ ],
+ "photo": "photos/3000533c19de0cf05e17f49637fa22130b82440763294b5d4ee7e594dc80b80c.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1253072",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

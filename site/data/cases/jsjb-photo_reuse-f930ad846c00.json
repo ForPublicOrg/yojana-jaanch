@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f930ad846c00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Machanapalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0fefb2d10e45) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (13.5454514, 78.053453)."
+ ],
+ "photo": "photos/0fefb2d10e45f86bd1dcd46bf5b0a93f6d51efaceb86842bb39d9bfd64661282.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3396525",
+   "village": "Machanapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3397238",
+   "village": "Machanapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

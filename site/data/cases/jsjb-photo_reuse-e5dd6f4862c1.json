@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e5dd6f4862c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Barohi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 656b618c91c2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-26).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-28 10:22:24 to 2026-05-28 10:24:37)."
+ ],
+ "photo": "photos/656b618c91c241d5bb9a5d6bd54389c4ab6a594a7d36b74667a1321bb9380a2e.jpg",
+ "offices": [
+  "SCO"
+ ],
  "records": [
   {
    "record_id": "5651267",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

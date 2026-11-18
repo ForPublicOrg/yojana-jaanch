@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-0e1e2c7e4b89",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Bagga",
+  "Bhilowal",
+  "Bhoewal",
+  "Gaddli",
+  "Ghaziwal",
+  "Rupowali Brahmnan",
+  "Tanel"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint fc0605d390ca) is attached to 18 different works in 7 villages. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Other (17), Contour Trench (1).",
+  "These works are spread over 3 blocks: Jandiala Guru, Rayya, Tarsikka."
+ ],
+ "photo": "photos/fc0605d390cadcd735b0a0404e29a68ac20d444e5692f809e4e5414568539e8b.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "7405504",
@@ -253,5 +278,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 54,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-21cbb89335bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Dharai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d6e60ec20454) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2)."
+ ],
+ "photo": "photos/d6e60ec204540835a49a901e19c76f3ef6e3d114f2ff2e427398b7386d3bd6ca.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11820525",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

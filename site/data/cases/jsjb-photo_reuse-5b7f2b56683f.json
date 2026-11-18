@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-5b7f2b56683f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Beejwar",
+  "Chandli",
+  "Devikhera",
+  "Malera",
+  "Polyara",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 79cf5cd5a1d4) is attached to 6 different works in 6 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (3), Other (3)."
+ ],
+ "photo": "photos/79cf5cd5a1d4d8cc9366b1c6ef4a3f783340e4b3377ebf7e39e5f5867066899c.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4040920",
@@ -85,5 +108,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-f77a8563b13f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Bhua Kheri",
+  "Blahri Khurd",
+  "Boran"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a7732c9ea4a6) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (30.64, 76.49).",
+  "The photo was uploaded 6 times within 7 minutes (2026-04-27 15:47:59 to 2026-04-27 15:54:50)."
+ ],
+ "photo": "photos/a7732c9ea4a6d778b5a1251e6fe06be3c000c610c1a2a0237240c3069213d29d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5641144",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

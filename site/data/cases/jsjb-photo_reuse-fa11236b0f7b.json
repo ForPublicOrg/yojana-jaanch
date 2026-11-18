@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fa11236b0f7b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Rampur Bhindran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d09ec20e7da) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-21 15:43:23 to 2026-05-21 15:47:21)."
+ ],
+ "photo": "photos/1d09ec20e7da7b3086d31e01967ba53ea444ec9924d00077a4b91472feccb351.jpg",
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "10729393",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

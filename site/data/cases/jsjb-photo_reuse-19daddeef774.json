@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-19daddeef774",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Karipatti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b2bddad1b63d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.66, 78.28)."
+ ],
+ "photo": "photos/b2bddad1b63d73dc757b9ce9c5b6e29e869586d8c926f61dc0a1138804d7fd8a.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346185",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

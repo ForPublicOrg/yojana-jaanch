@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-848297574ad5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Bhaniyana",
+ "villages": [
+  "Naya Loonakalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a09276be35ad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (26.6436054, 71.5912404)."
+ ],
+ "photo": "photos/a09276be35ad2c5f3d59c8018c843984d4cd82f52f4b11b07d6ca6c963c36fba.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8603414",
+   "village": "Naya Loonakalan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-07-18",
+   "end_date": "2025-07-19",
+   "lat": 26.6436054,
+   "lon": 71.5912404,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  },
+  {
+   "record_id": "8616893",
+   "village": "Naya Loonakalan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-07-18",
+   "end_date": "2025-07-19",
+   "lat": 26.6436054,
+   "lon": 71.5912404,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-58d526f8f61c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Fatehgarh Chhanna"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint dcfda898f419) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Contour Trench (7).",
+  "All 7 works report the same GPS point (30.307321, 75.855811).",
+  "All 7 works started and ended on the same day (2026-05-02).",
+  "The photo was uploaded 7 times within 17 minutes (2026-05-06 12:45:36 to 2026-05-06 13:01:42)."
+ ],
+ "photo": "photos/dcfda898f4199868e6cbd25efce3aa442c1fe5fd13ae3ed4f70b0ec52c514ee0.jpg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "7566652",
@@ -99,5 +120,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

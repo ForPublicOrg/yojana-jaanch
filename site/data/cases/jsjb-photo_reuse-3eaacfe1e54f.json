@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3eaacfe1e54f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Ahrolikali",
+  "Gader"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb6388d7f709) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/bb6388d7f709675b71dba240ae048812ac307b555df5e14adaf3e2f330f67419.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "5682191",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

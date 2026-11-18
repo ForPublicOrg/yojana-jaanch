@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-0b72b0c57dff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Chandauli Timba",
+  "Pachnaur Murahi",
+  "Panrahi",
+  "Partapur",
+  "Sirsian",
+  "Sukhi",
+  "Sundarpur",
+  "Walipur"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 412c97b40768) is attached to 9 different works in 8 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Soak Pit (9)."
+ ],
+ "photo": "photos/412c97b407687e9f2ee71a2f772820a5d61f1e76e0c796fc162bd47678c38891.jpg",
+ "offices": [
+  "BDO Belsand"
+ ],
  "records": [
   {
    "record_id": "4557263",
@@ -127,5 +152,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

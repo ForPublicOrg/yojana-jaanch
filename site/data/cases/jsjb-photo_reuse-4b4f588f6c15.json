@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4b4f588f6c15",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Panj Graian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28c4ca298f8a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.767, 75.267)."
+ ],
+ "photo": "photos/28c4ca298f8a614281bc4f9392a1f535c102c33058883726592c5add2ae2e2b4.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "7982843",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

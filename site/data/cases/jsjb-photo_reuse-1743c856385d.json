@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1743c856385d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Rampur Kanth"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0189f92c9f4a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.6733541, 85.3114287).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-10 14:05:07 to 2026-04-10 14:07:13)."
+ ],
+ "photo": "photos/0189f92c9f4a3b7d81c22ec3921ab3c5560369af2403dd71d680f62c8940493b.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4688177",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

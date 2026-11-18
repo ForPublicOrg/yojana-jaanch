@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0e3370ba34ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Mandian",
+  "Sikohpur Sangam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4f78d66595e9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.621319, 75.868554).",
+  "These works are spread over 2 blocks: Ahmedgarh, Amargarh."
+ ],
+ "photo": "photos/4f78d66595e9007a543ab1776d6a65e885b794e983f88b221e1bf1cb717e46b5.jpg",
+ "offices": [
+  "Sub Division Officer Drainage"
+ ],
  "records": [
   {
    "record_id": "14906398",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

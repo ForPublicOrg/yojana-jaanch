@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9ac0b588f08c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Khairwa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint cf7bb2b1a544) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/cf7bb2b1a5441064c8a43403ecf29fa4cfd8c1b56e296258a07ff0c2a8ef6bcf.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3777677",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

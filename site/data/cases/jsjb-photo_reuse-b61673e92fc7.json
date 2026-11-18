@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b61673e92fc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Tajpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4c4fef8dc7ed) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.117651, 75.308175)."
+ ],
+ "photo": "photos/4c4fef8dc7ede5f7d1eef81633b505d5fe2829e1316bc73fd390a893e7ed962d.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7131302",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-f37f69789032",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "39 works at one GPS point in Muttampatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Muttampatti"
+ ],
+ "record_count": 39,
+ "reasons": [
+  "39 works in Muttampatti report exactly the same GPS point (11.65, 78.36).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (39).",
+  "They carry 39 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347615",
@@ -547,5 +567,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 78,
+ "needs_human_review": false
 }

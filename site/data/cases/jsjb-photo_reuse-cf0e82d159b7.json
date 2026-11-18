@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cf0e82d159b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Ghabdan"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 914c5d68aadc) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (7), Other (1).",
+  "All 8 works report the same GPS point (30.267695, 75.940542).",
+  "The entries were made by 2 different offices: BDPO SUNAM II, BDPO Sangrur."
+ ],
+ "photo": "photos/914c5d68aadcb0b8a072d7d60bb7a698a8a3af782a587a322ebc3b788a071aaf.jpeg",
+ "offices": [
+  "BDPO SUNAM II",
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "1069801",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

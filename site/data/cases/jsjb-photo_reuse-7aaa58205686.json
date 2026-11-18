@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7aaa58205686",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Ellapalayam",
+  "Kurukkapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 887d08407185) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.441978, 78.149928)."
+ ],
+ "photo": "photos/887d08407185dfecaf3a233ba76f8ba819aff125ce2e324142f8ca9d45bb0aa1.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9335211",
+   "village": "Kurukkapuram",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2019-09-05",
+   "end_date": "2019-10-22",
+   "lat": 11.441978,
+   "lon": 78.149928,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9342909",
+   "village": "Ellapalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.441978,
+   "lon": 78.149928,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

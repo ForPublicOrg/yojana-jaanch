@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2bf23f8dd5be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Salodi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 275a81614bb0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.75, 76.22).",
+  "The photo was uploaded 4 times within 32 seconds (2026-02-04 19:00:42 to 2026-02-04 19:01:14)."
+ ],
+ "photo": "photos/275a81614bb0c22567c63c866301074c5163c4a57a0766a8a0d70fca81a83a44.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1243582",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

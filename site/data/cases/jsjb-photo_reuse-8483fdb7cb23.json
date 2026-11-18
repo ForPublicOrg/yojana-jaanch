@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-8483fdb7cb23",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bagge",
+  "Chak Kanian Kalan",
+  "Chheeda",
+  "Jafar Wala",
+  "Mundi Jamal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 89acb706dafe) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (3), Other (2).",
+  "The entries were made by 3 different offices: Deputy Commissioner, JUNIOR ENGINEER, ZILEDAR.",
+  "These works are spread over 2 blocks: Baghapurana, Kot-Ise-Khan."
+ ],
+ "photo": "photos/89acb706dafe1016b90ca78e2e7352e52ec476b886885b8ac044bb00e8561047.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "JUNIOR ENGINEER",
+  "ZILEDAR"
+ ],
  "records": [
   {
    "record_id": "979020",
@@ -71,5 +97,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

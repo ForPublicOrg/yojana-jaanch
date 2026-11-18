@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-23b950871287",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Tanba",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Tanba"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Tanba report exactly the same GPS point (26.0, 79.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4193816",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2b09e61da34f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Kotla Sadar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d8d2d41cadb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.829481, 74.90844).",
+  "The entries were made by 2 different offices: BDPO Chogawan, BDPO Ramdass."
+ ],
+ "photo": "photos/0d8d2d41cadbfe0d38ee368d454f803a29606a5e0be2bd8ff7db295eb036750d.jpg",
+ "offices": [
+  "BDPO Chogawan",
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "5413458",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

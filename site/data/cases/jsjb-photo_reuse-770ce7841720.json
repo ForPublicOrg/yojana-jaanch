@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-770ce7841720",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Sandar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ad1d44c29d2e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Soak Pit (1).",
+  "All 3 works report the same GPS point (32.144943, 75.375877).",
+  "All 3 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/ad1d44c29d2e96e769a8663ed7fe970111b0b495a2c007f5d5d59119db1e5124.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8345229",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dc9ab2b9e0e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Jandanwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 01d8e7dbffba) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-24 14:49:55 to 2026-02-24 14:51:48)."
+ ],
+ "photo": "photos/01d8e7dbffba281b4938d02672c262f3b7f402badefa7f0ba0f4d3b9886ae9a5.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1141562",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

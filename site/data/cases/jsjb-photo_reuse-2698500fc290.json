@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2698500fc290",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Galib Kalan",
+  "Lakha",
+  "Sohian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d45d5b09467e) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "These works are spread over 2 blocks: Jagraon, Sudhar."
+ ],
+ "photo": "photos/d45d5b09467e5261038a93e057e265d7b5536336195c31aab37735e015c63e68.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "984458",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,45 @@
 {
  "id": "jsjb-photo_reuse-df70bbca7bc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 108 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Kalemajra",
+  "Kasumbri",
+  "Nahanheri",
+  "Nandpur",
+  "Nanowal",
+  "Narsinghpura",
+  "Nogawan",
+  "Railon",
+  "Raily",
+  "Raipur Gujran",
+  "Rampur Kaleran",
+  "Rasoolpur",
+  "Rupalheri",
+  "Sadakpur",
+  "Sakandarpura",
+  "Shahidgarh",
+  "Shehzadpur",
+  "Shergarh",
+  "Shivdaspur",
+  "Thablan"
+ ],
+ "record_count": 108,
+ "reasons": [
+  "The same picture was saved as 3 different files and attached to 108 different works in 20 villages. A photo of one site cannot be evidence for 108 separate works.",
+  "The 3 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 30db2b9d0960 on 88 works, 88f228540fee on 13 works, 6304cc2f4bd2 on 7 works.",
+  "The works are recorded as: Contour Trench (101), Other (7).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khera."
+ ],
+ "photo": "photos/30db2b9d0960c63401501b7b8d5a3fb6bdd17f40c16afb1eddaffaf1c1165483.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5177785",
@@ -1513,5 +1553,26 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 324,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "30db2b9d0960c63401501b7b8d5a3fb6bdd17f40c16afb1eddaffaf1c1165483",
+   "records": 88
+  },
+  {
+   "sha256": "88f228540fee4119e3ab36602b270c139b25ffc93db2781be7254be9e59d4385",
+   "records": 13
+  },
+  {
+   "sha256": "6304cc2f4bd24f9468ee69ab6ea040e29af0ae715594b8a873b92cdc84e613fb",
+   "records": 7
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-586111f43d1c",
+  "jsjb-photo_reuse-d63d06c63197"
  ]
 }

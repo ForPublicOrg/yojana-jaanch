@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-344499897422",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Thaska"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0baeabfec84) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 4 times within 56 seconds (2026-05-07 12:25:51 to 2026-05-07 12:26:47)."
+ ],
+ "photo": "photos/f0baeabfec849f53c323c20ea8f3be8a5d0f16c2d58da8c4eb47b047ab8d43c0.jpg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "1096130",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

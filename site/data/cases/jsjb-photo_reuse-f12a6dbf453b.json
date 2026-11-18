@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f12a6dbf453b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Sheikhe Pind"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3666073deb96) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: BDPO Jalandhar East, Zilledar."
+ ],
+ "photo": "photos/3666073deb9650693f4e5b2860bf86327b9215fd2192a6aa4994e26617516981.jpg",
+ "offices": [
+  "BDPO Jalandhar East",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986066",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

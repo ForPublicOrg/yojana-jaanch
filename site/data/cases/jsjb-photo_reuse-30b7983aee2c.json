@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-30b7983aee2c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Bharoo"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a0e233ed22c1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1)."
+ ],
+ "photo": "photos/a0e233ed22c1924a93f180975a50873faa7edec91b38db5f7913f640517eb0e5.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "1053759",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

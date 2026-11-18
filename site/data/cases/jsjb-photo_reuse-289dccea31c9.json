@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-289dccea31c9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Wazeer Nagar",
+  "Wazeerabad",
+  "Wazeerpura Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint dcdfb393835c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (26.2744952, 75.9733561)."
+ ],
+ "photo": "photos/dcdfb393835ce659e8fdec5051e964e8242db9596a35c95a64a7e65743ed46b1.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3679289",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

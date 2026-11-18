@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9f5675fc3c0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Kharkan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a9af52611a8e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.510873, 76.057996).",
+  "The photo was uploaded 2 times within 12 minutes (2026-04-27 00:47:06 to 2026-04-27 00:58:18)."
+ ],
+ "photo": "photos/a9af52611a8e852bf0112a3c28338bcde0b657272413bb864f8401f10f32e3d0.jpg",
+ "offices": [
+  "Soil Conservation Officer"
+ ],
  "records": [
   {
    "record_id": "5581928",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

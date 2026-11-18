@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d12160faf97f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Madhopur Chaturi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d59eee98cbaf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/d59eee98cbafdfba58f9a39ca18ce32ebc71ccec58eb4b042ba69c56ff212998.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "925225",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

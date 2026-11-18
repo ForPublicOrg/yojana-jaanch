@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2d863e76fd03",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Heran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 61055a3000a5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 38 seconds (2026-02-02 17:04:10 to 2026-02-02 17:04:48)."
+ ],
+ "photo": "photos/61055a3000a589ed80f0a775abe0b46a5d1797168324c4b947dab1905c3ccbc3.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1044667",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

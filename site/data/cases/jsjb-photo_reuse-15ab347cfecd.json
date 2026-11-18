@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-15ab347cfecd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Mullukurichi",
+  "Perappansolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 54d773b636f2 on 1 work, 625fcb35d209 on 1 work.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/54d773b636f21b26a5889c620796f987d4414912ef83bc842a0a72fe88729c54.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9338551",
+   "village": "Mullukurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-09-08",
+   "end_date": "2023-03-26",
+   "lat": 11.45524,
+   "lon": 78.422276,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9342721",
+   "village": "Perappansolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-11-29",
+   "end_date": "2019-03-26",
+   "lat": 11.4153416,
+   "lon": 78.4048431,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "54d773b636f21b26a5889c620796f987d4414912ef83bc842a0a72fe88729c54",
+   "records": 1
+  },
+  {
+   "sha256": "625fcb35d2090d8d779a7e2551e205db80e7ded0dc7f23449852ce5b415e4137",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-33ea152aa6c6"
+ ]
+}

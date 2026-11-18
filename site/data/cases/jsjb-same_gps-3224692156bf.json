@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3224692156bf",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "21 works at one GPS point in Kanavoipudur",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Kanavoipudur"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "21 works in Kanavoipudur report exactly the same GPS point (11.95, 78.22).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (21).",
+  "They carry 21 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9359002",
@@ -295,5 +315,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4a8910726d36",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Laddi"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 668a4bc85f23) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9).",
+  "Each of the 9 works started and ended on a single day. The works are spread over 2 dates: 2026-05-15, 2026-05-21."
+ ],
+ "photo": "photos/668a4bc85f234910053c96b16eb03d6cfafa1f7a299e4a6c02c7065c27566a7e.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9246786",
@@ -127,5 +146,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-0bad4d3a3b9f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Bakthgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e57083455eb1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1)."
+ ],
+ "photo": "photos/e57083455eb1074b68ae5aabb7884be986f7a11cbba665612d02a665ff1a2d0f.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH"
+ ],
  "records": [
   {
    "record_id": "4461559",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bcdb2a6139b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Manak Heri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f76abf9464e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.589052, 75.81739).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/f76abf9464e8ffeffca20773891dd59999e3ee50c8a92df797384b55dc131b5b.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "5329430",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

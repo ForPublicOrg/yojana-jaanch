@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6ad40d475732",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Kalal Majra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a648270f7fba) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.74, 76.2).",
+  "The photo was uploaded 4 times within 46 seconds (2026-02-04 13:57:51 to 2026-02-04 13:58:37)."
+ ],
+ "photo": "photos/a648270f7fbaf6322860b3b6e16b5457e5c44fff0ae1f55bd0d76d46bdf503ec.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1227178",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

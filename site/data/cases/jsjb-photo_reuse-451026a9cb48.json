@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-451026a9cb48",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhandari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 98df2101a31f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Recharge Pit (1)."
+ ],
+ "photo": "photos/98df2101a31fc64d2b77232153a635d99722707d52767ecb189c28fc03bb0535.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "931159",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2e439819eb83",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Jalalpur",
+  "Rampur",
+  "Roh"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 45e249a956a1) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/45e249a956a1c31f53f307f5d9ab3aa2fe7ef2aafb9214d2379518dea9482232.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3338844",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

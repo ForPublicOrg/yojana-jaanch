@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0ab88449529a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Budhlada",
+ "villages": [
+  "Phulowala Dod"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7e812ed81060) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.877392, 75.601569).",
+  "All 2 works started and ended on the same day (2026-05-22)."
+ ],
+ "photo": "photos/7e812ed81060496688a89a9ee0164ac76b7af655fda1438dc44a5c34407e9eb1.jpg",
+ "offices": [
+  "Clerk"
+ ],
  "records": [
   {
    "record_id": "12787892",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Budhlada"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

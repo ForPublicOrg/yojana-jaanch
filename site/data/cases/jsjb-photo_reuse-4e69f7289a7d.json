@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4e69f7289a7d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Peetawas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9ab898f4de88) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.27246, 75.78257).",
+  "The photo was uploaded 4 times within 28 seconds (2026-03-11 11:50:03 to 2026-03-11 11:50:31)."
+ ],
+ "photo": "photos/9ab898f4de88d394015a8823b8278431206589ce4498af1969a104acd3db7fc6.jpg",
+ "offices": [
+  "AEn"
+ ],
  "records": [
   {
    "record_id": "3887054",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

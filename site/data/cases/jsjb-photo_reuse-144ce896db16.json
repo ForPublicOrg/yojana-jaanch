@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-144ce896db16",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Madhukarpur",
+  "Murha Chhitauna",
+  "Murha Dih",
+  "Pipra Ghat"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 4db14fae653d) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (8)."
+ ],
+ "photo": "photos/4db14fae653d93cc610ac0a09120667e6a7940a80b70db8a4db80f2c5e44c475.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4407300",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

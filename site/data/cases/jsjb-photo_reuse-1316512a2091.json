@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1316512a2091",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Chahal",
+  "Ramu Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 989be7f7f915) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-04-09 15:36:45 to 2026-04-09 15:40:36).",
+  "These works are spread over 2 blocks: Faridkot, Jaitu."
+ ],
+ "photo": "photos/989be7f7f915a5c64e4cccaad0aa7a3ba79eccd5edd1f58bc60318514311cf1d.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4650404",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

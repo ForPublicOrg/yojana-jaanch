@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-0b2332d30ff5",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "53 works at one GPS point in Mallikuttai",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Mallikuttai"
+ ],
+ "record_count": 53,
+ "reasons": [
+  "53 works in Mallikuttai report exactly the same GPS point (11.73, 77.92).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (35), Other (18).",
+  "They carry 53 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344939",
@@ -743,5 +764,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 106,
+ "needs_human_review": false
 }

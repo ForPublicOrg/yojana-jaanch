@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1d9f08dd907e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Arniala Shahpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9d5517170130) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 75.0).",
+  "The photo was uploaded 4 times within 40 seconds (2026-03-13 09:52:27 to 2026-03-13 09:53:07)."
+ ],
+ "photo": "photos/9d55171701306ff27de9c72464367c001a42b18614ad9edd523994a6fdac3582.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1053842",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

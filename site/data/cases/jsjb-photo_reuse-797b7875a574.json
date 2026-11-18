@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-797b7875a574",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Ali Nangal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4b6fa91e79e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.068704, 75.273537).",
+  "All 2 works started and ended on the same day (2026-05-12)."
+ ],
+ "photo": "photos/d4b6fa91e79e6feaae5276815f99963613a43ab75330d531cb2db7be8edb361e.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8895087",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

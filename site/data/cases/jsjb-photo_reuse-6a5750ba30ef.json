@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-6a5750ba30ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Amar Patti",
+  "Basawn",
+  "Parampur",
+  "Sarvipur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 142e1de465aa) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "These works are spread over 4 blocks: Arajiline, Baragaon, Chiraigaon, Pindra."
+ ],
+ "photo": "photos/142e1de465aa3b7c4932a381308acf12357ba81ecacba10814534960b0b1b25d.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893315",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

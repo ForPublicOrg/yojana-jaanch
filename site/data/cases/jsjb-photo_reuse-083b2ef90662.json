@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-083b2ef90662",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Alsisar",
+ "villages": [
+  "Basri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b063d2640926) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.2439908, 75.319136).",
+  "The photo was uploaded 3 times within 2 minutes (2026-03-26 12:48:48 to 2026-03-26 12:50:23)."
+ ],
+ "photo": "photos/b063d2640926f41d994e0683ca14e22af6b869d64fa9944da0a55d23dfcebd24.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4268963",
+   "village": "Basri",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-02-09",
+   "lat": 28.2439908,
+   "lon": 75.319136,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "4269067",
+   "village": "Basri",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.2439908,
+   "lon": 75.319136,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

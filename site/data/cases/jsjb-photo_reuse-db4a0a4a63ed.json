@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-db4a0a4a63ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Battalahalli",
+  "Digavakote",
+  "Ragimakalahally"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 709bf078d7e8) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/709bf078d7e83613d8961cc93904d19b6e9713935e1b54c300fed4e6001d2416.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3132657",
+   "village": "Digavakote",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-06",
+   "end_date": "2025-09-08",
+   "lat": 13.48256,
+   "lon": 78.1755053,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3137223",
+   "village": "Ragimakalahally",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-10-01",
+   "lat": 13.600962,
+   "lon": 78.185523,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3138143",
+   "village": "Battalahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-01",
+   "lat": 13.3459,
+   "lon": 78.8133,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

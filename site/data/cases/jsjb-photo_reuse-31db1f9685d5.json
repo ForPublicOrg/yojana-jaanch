@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-31db1f9685d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Dhingar",
+  "Mehraj Patti Kala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0b1bcbbd914d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/0b1bcbbd914dbf70533951485cc3600d77ca41c9133057e042e1ff33bbad7cb7.jpg",
+ "offices": [
+  "ZILEDAR PHUL"
+ ],
  "records": [
   {
    "record_id": "989009",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

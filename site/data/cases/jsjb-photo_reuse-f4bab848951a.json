@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f4bab848951a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Andauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1002bd0590bb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.6911505, 85.6372242).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-07 16:29:33 to 2026-04-07 16:32:58)."
+ ],
+ "photo": "photos/1002bd0590bba4177a23ccd53df5ad079e8ced2b8a7af8c8fef0018ed2879740.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4577617",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

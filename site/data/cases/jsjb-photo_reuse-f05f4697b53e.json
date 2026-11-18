@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f05f4697b53e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Dhaliwal Dona"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f9d4f1269eb2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Patwari Water Resources Department."
+ ],
+ "photo": "photos/f9d4f1269eb214dc6f3436d700df02e368e051151f22d014ba95b5339db2c2d7.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "985658",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-74ae4a2558f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Selurnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f32f5fd52a8c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2)."
+ ],
+ "photo": "photos/f32f5fd52a8cd2691d5976f93bf6b127435c185c9bc340999c40b881220625fe.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9340908",
+   "village": "Selurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-05-28",
+   "lat": 11.231028,
+   "lon": 78.322319,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9342330",
+   "village": "Selurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-05-28",
+   "lat": 11.222183,
+   "lon": 78.307575,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f1ead60e9749",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennanthur",
+ "villages": [
+  "Vennanthur (TP) - Ward No.10",
+  "Vennanthur (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5c99d328f30d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/5c99d328f30d4e255793564ef4b97b4ab0e174f4bb0d2da0c1a7937ad2391caa.jpg",
+ "offices": [
+  "EO VENNANDUR"
+ ],
+ "records": [
+  {
+   "record_id": "3607971",
+   "village": "Vennanthur (TP) - Ward No.13",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO VENNANDUR",
+   "start_date": "2026-01-01",
+   "end_date": "2026-02-02",
+   "lat": 11.5898,
+   "lon": 78.0568,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Vennanthur"
+  },
+  {
+   "record_id": "3612419",
+   "village": "Vennanthur (TP) - Ward No.10",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO VENNANDUR",
+   "start_date": "2026-01-01",
+   "end_date": "2026-02-06",
+   "lat": 11.5898,
+   "lon": 78.0526,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Vennanthur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

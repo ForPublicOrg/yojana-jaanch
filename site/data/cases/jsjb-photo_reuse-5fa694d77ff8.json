@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-5fa694d77ff8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Guvalakanahalli",
+  "Soppahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bd30b723b407) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (13.46679124, 77.74018084)."
+ ],
+ "photo": "photos/bd30b723b4079e5208e75782a2ff375fff9ef2769514898d01c3c20afc57d645.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3113359",
+   "village": "Soppahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-08-05",
+   "end_date": "2025-08-05",
+   "lat": 13.46679124,
+   "lon": 77.74018084,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3122125",
+   "village": "Guvalakanahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-06",
+   "end_date": "2026-05-15",
+   "lat": 13.46679124,
+   "lon": 77.74018084,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b693cc2163ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Brihmah",
+  "Kapur Garh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf8947862f19) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.56, 76.34).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-23, 2026-04-24."
+ ],
+ "photo": "photos/cf8947862f195a7da50362316ac1728f30c502d2f30f67a65665731e5418a4eb.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5483457",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

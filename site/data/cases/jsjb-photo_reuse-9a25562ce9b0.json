@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-9a25562ce9b0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Doomra",
+  "Nahar Singhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aca51abb8fea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/aca51abb8feadf3c76e9a5c31547e3c77252a4aedb177799fefcf37d32e8da97.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4246319",
+   "village": "Doomra",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-14",
+   "end_date": "2025-11-17",
+   "lat": 27.962,
+   "lon": 75.238,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4282361",
+   "village": "Nahar Singhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-03",
+   "lat": 27.928,
+   "lon": 75.236,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

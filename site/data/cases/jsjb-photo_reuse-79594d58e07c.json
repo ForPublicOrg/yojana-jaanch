@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-79594d58e07c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Dhilwan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f14d6561bcf9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-04-25)."
+ ],
+ "photo": "photos/f14d6561bcf9ced5dd79261ba4746e7a68df004ed6ae70b028eccb9d68e6be6d.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "5604317",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

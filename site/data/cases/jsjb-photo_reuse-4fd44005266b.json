@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4fd44005266b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Chandu Suja",
+  "Chichrewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d33721666bf) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-28 21:32:12 to 2026-04-28 21:34:54)."
+ ],
+ "photo": "photos/1d33721666bf79521b81bf0de22b16240d577318432e28f507509856ee071edb.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "6202314",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

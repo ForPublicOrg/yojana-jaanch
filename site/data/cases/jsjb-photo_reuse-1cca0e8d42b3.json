@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1cca0e8d42b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Fatehgarh Niwan",
+  "Talwara",
+  "Turan"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 33b30e0526af) is attached to 10 different works in 3 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10)."
+ ],
+ "photo": "photos/33b30e0526af0a38b989357b509457bfffdf28bc04f1e9d8ee7c9848b21e6cfc.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5036772",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

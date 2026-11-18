@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-90c31d82f577",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Bhatiwal Kalan",
+  "Bhatiwal Khurd"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 5e9d1f9f94ea) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 4 times within 23 minutes (2026-05-11 15:06:25 to 2026-05-11 15:29:04)."
+ ],
+ "photo": "photos/5e9d1f9f94eaa0e4ae72c61d6f76c1e6e63f9567a2b4c92aa0fb23ffc7288043.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "8480795",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

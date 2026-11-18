@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-1905f09a9e16",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 28 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Chakoki",
+  "Dhaliwal Bet",
+  "Passie Wal",
+  "Talwandi Purdal"
+ ],
+ "record_count": 28,
+ "reasons": [
+  "The same photo file (fingerprint 0519a70355bc) is attached to 28 different works in 4 villages. A photo of one site cannot be evidence for 28 separate works.",
+  "The works are recorded as: Contour Trench (28).",
+  "The entries were made by 2 different offices: Block Devolpmen Officer Dhilwan, Block Devolpment Office Nadala.",
+  "These works are spread over 2 blocks: Dhilwan, Nadala."
+ ],
+ "photo": "photos/0519a70355bca99b44d3105011f72aab4fde9283d925e7a5ba2b85c3c49c1ac2.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan",
+  "Block Devolpment Office Nadala"
+ ],
  "records": [
   {
    "record_id": "10472859",
@@ -393,5 +417,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 85,
+ "needs_human_review": false
 }

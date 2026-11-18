@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7c243ca71482",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Fattupur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd2109f7f53f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.97829, 75.100893).",
+  "The photo was uploaded 2 times within 3 minutes (2025-04-30 13:16:56 to 2025-04-30 13:19:24)."
+ ],
+ "photo": "photos/fd2109f7f53ff522966fb74d6cc4186c0cd1b57f1b6f73e57adf10e7f0a0c8e2.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "1327274",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

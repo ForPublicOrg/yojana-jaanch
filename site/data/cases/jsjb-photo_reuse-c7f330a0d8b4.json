@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c7f330a0d8b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Bhagrana",
+  "Kheri Bhai Ki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 787302e2cff5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.64, 76.49).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-27 15:39:54 to 2026-04-27 15:41:12)."
+ ],
+ "photo": "photos/787302e2cff5cc48f595dd824945767c38b890e0c91feea9332f6ec656d5f759.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5639904",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

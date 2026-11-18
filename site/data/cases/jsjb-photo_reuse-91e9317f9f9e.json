@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-91e9317f9f9e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Bakhopir"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 63b8138557ad) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-14."
+ ],
+ "photo": "photos/63b8138557ad0fb7fb5af4355065dcc871d9e53dbb127e86e99ccf06304f8dca.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "8624524",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

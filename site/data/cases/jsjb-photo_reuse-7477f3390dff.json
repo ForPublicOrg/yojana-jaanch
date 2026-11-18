@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7477f3390dff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Matghana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 548b35bc5c95) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-30 14:10:45 to 2026-05-30 14:16:29)."
+ ],
+ "photo": "photos/548b35bc5c95a4d5683808708626f1b41b29243c9dd1a28b576c36c457dc02d2.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "15087404",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

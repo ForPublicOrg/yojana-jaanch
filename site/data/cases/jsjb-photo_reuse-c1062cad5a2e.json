@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c1062cad5a2e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Laxmipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b49a6c20529) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.988553, 75.794272).",
+  "The entries were made by 2 different offices: BDO Toda PS, BDO Tonk."
+ ],
+ "photo": "photos/5b49a6c20529dc6a0db460ad8f3af1053bc1517541ad30271cf830f2431ad146.jpg",
+ "offices": [
+  "BDO Toda PS",
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "13667748",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

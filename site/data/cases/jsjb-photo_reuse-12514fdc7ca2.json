@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-12514fdc7ca2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Tajo Ke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8ce931645c9e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (30.260526, 75.380004).",
+  "The photo was uploaded 2 times within 22 seconds (2026-04-29 13:35:10 to 2026-04-29 13:35:32)."
+ ],
+ "photo": "photos/8ce931645c9e06f65b1c7db50898f80d35e7b59e7e4d4c81035500f531f847fd.jpg",
+ "offices": [
+  "Clerk Mandeep Singh"
+ ],
  "records": [
   {
    "record_id": "6253437",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1b49ef9a5a02",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Daburji"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e6152d241697) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.857205, 75.091564).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-16."
+ ],
+ "photo": "photos/e6152d2416977941ab37fde4eb1c4727a2eb5d97faeb404a2cdd55786190300d.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "9232464",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

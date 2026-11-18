@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d15ecafbb4fb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Rampura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d0e97da3a1eb) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Check Dam (3)."
+ ],
+ "photo": "photos/d0e97da3a1ebfd0a6d962dbc8e6d2a216547a58f0059e47818b08aa06bc4463b.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3783022",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

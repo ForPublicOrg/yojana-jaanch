@@ -1,5 +1,30 @@
 {
  "id": "jsjb-upload_burst-6b78aa3c9025",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "12 photos uploaded in 9 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Achanguttaipatti",
+  "Bairoji",
+  "Chikkampatti",
+  "Koneripatti Ag.",
+  "Mannarpalayam",
+  "Periyakavundapuram"
+ ],
+ "record_count": 13,
+ "reasons": [
+  "12 different photos for 13 different works were uploaded by Block Development Officer within 9 minutes, from 2025-07-01 13:38:07 to 2025-07-01 13:47:03.",
+  "That is about one work every 41 seconds on average.",
+  "The works are in 6 villages: Achanguttaipatti, Bairoji, Chikkampatti, Koneripatti Ag., Mannarpalayam, Periyakavundapuram.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Omalur, Sankari, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349648",
@@ -58,6 +83,20 @@
    "block": "Ayodhiyapattinam"
   },
   {
+   "record_id": "9357765",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-10-05",
+   "end_date": "2023-10-28",
+   "lat": 11.5694,
+   "lon": 78.0646,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9357770",
    "village": "Periyakavundapuram",
    "structure_type": "Soak Pit",
@@ -114,6 +153,20 @@
    "block": "Ayodhiyapattinam"
   },
   {
+   "record_id": "9357795",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-10-05",
+   "end_date": "2023-10-28",
+   "lat": 11.5628,
+   "lon": 78.0646,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9357797",
    "village": "Achanguttaipatti",
    "structure_type": "Percolation Pond",
@@ -155,5 +208,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

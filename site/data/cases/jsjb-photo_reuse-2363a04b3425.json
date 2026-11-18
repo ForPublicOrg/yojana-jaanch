@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-2363a04b3425",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Burj Masta",
+  "Romana Albel Singh",
+  "Rupaian Wali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0715d4699984) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The entries were made by 2 different offices: SDO, Zilledar.",
+  "These works are spread over 2 blocks: Faridkot, Jaitu."
+ ],
+ "photo": "photos/0715d469998468712fb6a9c44f54065a161287aa181f27ba283f7888677f7b70.jpg",
+ "offices": [
+  "SDO",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "978397",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

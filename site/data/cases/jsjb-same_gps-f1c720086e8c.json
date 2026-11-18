@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-f1c720086e8c",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "19 works at one GPS point in Mor",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Mor"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "19 works in Mor report exactly the same GPS point (26.12, 75.43).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Any Innovative Low Cost Model (19).",
+  "They carry 19 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "13533570",
@@ -267,5 +287,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 38,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-092dc21b014e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Addagal",
+  "Peresandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4a1b5805a486) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Village Pond (1)."
+ ],
+ "photo": "photos/4a1b5805a486062fb098ad47b8bdd6bd01876a7aea1473bbf0f369641fa45348.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3083699",
+   "village": "Peresandra",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-30",
+   "end_date": "2025-12-02",
+   "lat": 13.58560713,
+   "lon": 77.792907,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3096470",
+   "village": "Addagal",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-23",
+   "end_date": "2025-11-19",
+   "lat": 13.58645,
+   "lon": 77.76358,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

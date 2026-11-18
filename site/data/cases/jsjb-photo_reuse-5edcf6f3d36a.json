@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5edcf6f3d36a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Kailani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 21fc2e367e81) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.2927, 83.9885)."
+ ],
+ "photo": "photos/21fc2e367e810491cbeed2435bf007fe2075968637f81d7a821cf3d589445830.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4092637",
+   "village": "Kailani",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-18",
+   "end_date": "2025-12-16",
+   "lat": 26.2927,
+   "lon": 83.9885,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4092928",
+   "village": "Kailani",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-15",
+   "end_date": "2025-12-30",
+   "lat": 26.2927,
+   "lon": 83.9885,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

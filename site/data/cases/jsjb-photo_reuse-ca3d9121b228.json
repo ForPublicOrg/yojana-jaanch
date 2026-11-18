@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ca3d9121b228",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Muthukalipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec12ffda149d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.464444, 78.150712)."
+ ],
+ "photo": "photos/ec12ffda149dee342642533e3a6bd6701b94577f2d8fb1ab19b4735938f9c9bb.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9334308",
+   "village": "Muthukalipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-07-03",
+   "end_date": "2024-07-31",
+   "lat": 11.464444,
+   "lon": 78.150712,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9336079",
+   "village": "Muthukalipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-09-11",
+   "end_date": "2024-09-18",
+   "lat": 11.464444,
+   "lon": 78.150712,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

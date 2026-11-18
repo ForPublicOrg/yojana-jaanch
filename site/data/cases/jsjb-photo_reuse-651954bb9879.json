@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-651954bb9879",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Isapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 054893020bf2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/054893020bf27918aff0e17f93d6365a7e3a778b7febc20c7e47a914dba1a557.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "10866391",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

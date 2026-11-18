@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-9436e8c5bb96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Khetri",
+ "villages": [
+  "Papurana",
+  "Tateeja",
+  "Thathwari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6bbe9996c072) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/6bbe9996c072e1d990d30d5eebf09dee6d645f892e76b131e729bcb19c6dc739.jpg",
+ "offices": [
+  "bdo"
+ ],
+ "records": [
+  {
+   "record_id": "4270047",
+   "village": "Papurana",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-11-07",
+   "end_date": "2025-11-28",
+   "lat": 28.31802,
+   "lon": 75.64569,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4273775",
+   "village": "Thathwari",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-01",
+   "end_date": "2025-10-30",
+   "lat": 28.04828,
+   "lon": 76.00979,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4274505",
+   "village": "Tateeja",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-02",
+   "end_date": "2025-10-25",
+   "lat": 28.08304,
+   "lon": 75.75955,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

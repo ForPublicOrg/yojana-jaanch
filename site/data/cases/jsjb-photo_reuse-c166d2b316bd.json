@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c166d2b316bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Bychapura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0f45d2521052) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Percolation Pond (1).",
+  "The photo was uploaded 4 times within 12 minutes (2025-12-18 12:39:23 to 2025-12-18 12:51:00)."
+ ],
+ "photo": "photos/0f45d252105279faeb663d7f721e4c8f52b6ac34c5fcc46a7dd5c009477248ad.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3100764",
+   "village": "Bychapura",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2026-04-01",
+   "lat": 13.679302,
+   "lon": 77.470648,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3100961",
+   "village": "Bychapura",
+   "structure_type": "Check Dam",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-28",
+   "end_date": "2025-11-18",
+   "lat": 13.678907,
+   "lon": 77.470648,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

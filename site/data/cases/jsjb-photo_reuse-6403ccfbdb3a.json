@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6403ccfbdb3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dostpur Khadauli",
+  "Pandaul Urf Panthpakar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e1f6792c1fae) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/e1f6792c1fae972bb20db50216a50daf06cfdb7dd9cbf60a0b2662c2768ebb62.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4486464",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

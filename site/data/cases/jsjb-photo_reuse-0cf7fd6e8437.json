@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0cf7fd6e8437",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Bharthala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 98ab0f243bbc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-10, 2026-04-15."
+ ],
+ "photo": "photos/98ab0f243bbcef6b022d83669d986b7f0c3a5ba59559076f1a912acb54922e9a.jpg",
+ "offices": [
+  "XEN/ Water Supply & Sanitation, Khanna"
+ ],
  "records": [
   {
    "record_id": "5248041",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

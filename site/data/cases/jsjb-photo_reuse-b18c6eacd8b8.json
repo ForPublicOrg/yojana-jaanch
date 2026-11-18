@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b18c6eacd8b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Mangewal",
+  "Nanakpur Jangera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0ef8e926251) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f0ef8e9262516f01e069eb868d18625e6671b0ccbfb7c3ca43bbb6a886e06956.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1049595",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

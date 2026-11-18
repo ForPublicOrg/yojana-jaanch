@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-1a3493513fd2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Akhta (Part In Suppi) *",
+  "Marpa Tahir",
+  "Nandwara",
+  "Pachtaki Jadu",
+  "Parsauni",
+  "Patahi",
+  "Piprahi Sultanpur"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint c877d6c04951) is attached to 23 different works in 7 villages. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Other (23)."
+ ],
+ "photo": "photos/c877d6c049511bf6bdcc5935aa2be51c50df8c8b62639643237b0efed66c2047.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4017906",
@@ -323,5 +347,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 69,
+ "needs_human_review": false
 }

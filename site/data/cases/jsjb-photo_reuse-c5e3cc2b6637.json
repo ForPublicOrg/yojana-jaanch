@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c5e3cc2b6637",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Konasamudram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4ec2bbac11e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.592327, 77.907422).",
+  "The photo was uploaded 2 times within 3 minutes (2026-02-28 15:41:52 to 2026-02-28 15:44:19)."
+ ],
+ "photo": "photos/d4ec2bbac11ea762dff544c4ec85675752a4acb9699308093db92d37111aada7.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9360072",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

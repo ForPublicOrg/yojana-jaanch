@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-05a2409ee867",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Cholapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6b51a7916661) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.096782, 83.080887).",
+  "The photo was uploaded 3 times within 29 minutes (2026-01-29 21:51:06 to 2026-01-29 22:20:04)."
+ ],
+ "photo": "photos/6b51a79166610029b558fec3dd86a68468fdb3b7c6c7413766ceba4f60e26a54.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3357284",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

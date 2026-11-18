@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-11fde530c1bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Jindra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6cbce80b957f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.99804, 75.03629).",
+  "All 2 works started and ended on the same day (2026-05-12).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-14 11:14:39 to 2026-05-14 11:16:28)."
+ ],
+ "photo": "photos/6cbce80b957f77e045840d5e2e1ac7414eafe229c182f11859ba07183c40540b.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "9057162",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

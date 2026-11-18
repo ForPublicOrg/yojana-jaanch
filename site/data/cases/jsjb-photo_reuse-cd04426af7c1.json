@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cd04426af7c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Ahi",
+  "Badhawa"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 6030ea812639) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/6030ea81263948262908d4d3c6c0e1ce4cdd09cfdfa3cb94d6d2d9e3c783553f.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "1263374",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

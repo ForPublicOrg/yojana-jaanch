@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-91e9d9df1261",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Thethigiripatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Mecheri",
+ "villages": [
+  "Thethigiripatti"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Thethigiripatti report exactly the same GPS point (11.872454, 77.95427).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9351737",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Mecheri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-6196a5cb3b01",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Afzulapur",
+  "Barmalipur",
+  "Shahpur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 126bc380e374 on 2 works, 44ad3fe211ab on 2 works.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/126bc380e3741bd1c57fa46ec40101d2bff424790d3a9ff9748adc15098cc55c.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1040023",
@@ -57,5 +79,21 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "126bc380e3741bd1c57fa46ec40101d2bff424790d3a9ff9748adc15098cc55c",
+   "records": 2
+  },
+  {
+   "sha256": "44ad3fe211abbdc58ad195036715e078001099eaa8dbc70a02f5d5bd6e732d1a",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f56585ce804c"
  ]
 }

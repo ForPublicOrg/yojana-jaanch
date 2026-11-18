@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-8b81129eab37",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Gulur",
+  "Pesalaparthi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ce4bf0373b96) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/ce4bf0373b9672c76c5fc4d05760437e53f85f2e3cf12cf26003d2d62d6b379f.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3086740",
+   "village": "Pesalaparthi",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-11",
+   "end_date": "2025-10-28",
+   "lat": 13.932285,
+   "lon": 77.829836,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3087291",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-08",
+   "end_date": "2025-10-13",
+   "lat": 13.932285,
+   "lon": 77.528697,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "10256908",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-05",
+   "end_date": "2025-11-13",
+   "lat": 13.863144,
+   "lon": 77.836977,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

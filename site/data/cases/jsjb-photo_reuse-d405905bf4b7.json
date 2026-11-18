@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d405905bf4b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Kharawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 12ad2e9776ec) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/12ad2e9776ecaecb129f39bc1d01f418ca7a767d33c60cd51f6277070bb59bfd.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391952827",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

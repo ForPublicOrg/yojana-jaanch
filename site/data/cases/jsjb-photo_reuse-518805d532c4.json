@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-518805d532c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Singiripatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7e21ac583aa0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.875708, 77.735822).",
+  "The photo was uploaded 2 times within 2 seconds (2026-05-11 16:47:34 to 2026-05-11 16:47:36)."
+ ],
+ "photo": "photos/7e21ac583aa0d5f5c7785a262a0b2f24c518ee53ae9582f841ccd8da72a7ad49.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "8506485",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-058bb1740549",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Audar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7122138bee2d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-04-16 10:57:45 to 2026-04-16 11:03:47)."
+ ],
+ "photo": "photos/7122138bee2d89e298559d5939d138cd83a12fbce149ae93eb8227c15899b76a.jpeg",
+ "offices": [
+  "Juniour engineer"
+ ],
  "records": [
   {
    "record_id": "4934458",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

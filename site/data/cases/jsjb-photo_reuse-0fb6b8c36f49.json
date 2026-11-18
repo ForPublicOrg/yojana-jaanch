@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0fb6b8c36f49",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Railon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 754428c53ae0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 47 seconds (2026-02-28 21:17:46 to 2026-02-28 21:18:33)."
+ ],
+ "photo": "photos/754428c53ae09dac243d4aef57b297122b0e99684549a36966a15d5211b1e8e9.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1071610",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

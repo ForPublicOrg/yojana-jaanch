@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f0dfdc0e22be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Sujanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9f3be3e3b59e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.942649, 75.351029).",
+  "The photo was uploaded 3 times within 24 minutes (2026-05-04 12:43:53 to 2026-05-04 13:07:28)."
+ ],
+ "photo": "photos/9f3be3e3b59e3d9371ab30913ec6a0ff599f72f32fab2fef5c17a33953783df3.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "1229108",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c3057ee3b0df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Chak Donai",
+  "Chak Rampur Hari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 258e7c3e408d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4100634, 85.4937836).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-08 12:30:08 to 2026-04-08 12:31:15)."
+ ],
+ "photo": "photos/258e7c3e408d8656002bb986c7d1f740586dc4a5dd0a84628850d99ec3371fe7.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4598571",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

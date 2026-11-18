@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-515173715df0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Deopura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f7b07488b1fe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f7b07488b1fea04c988c0d1fbdf8778f67af1e8c8119e35c1821967889b1f954.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "1393085",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

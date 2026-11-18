@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-8ce9859069a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 14 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Jamdoli",
+  "Kantoli",
+  "Kaririya",
+  "Ramnagar Dhaturi"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "The same photo file (fingerprint afb1c29de562) is attached to 14 different works in 4 villages. A photo of one site cannot be evidence for 14 separate works.",
+  "The works are recorded as: Other (14).",
+  "The entries were made by 2 different offices: AEN, Watershed Department Deoli, Collector & DM."
+ ],
+ "photo": "photos/afb1c29de5628c03886830918d12771417836559a70bbbdc7ca68d6a8ef1ead8.jpg",
+ "offices": [
+  "AEN, Watershed Department Deoli",
+  "Collector & DM"
+ ],
  "records": [
   {
    "record_id": "3723501",
@@ -197,5 +220,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 43,
+ "needs_human_review": false
 }

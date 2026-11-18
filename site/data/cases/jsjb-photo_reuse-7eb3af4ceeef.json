@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7eb3af4ceeef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Malera",
+  "Toda Ka Gothra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fedb6e8a4167) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 19 minutes (2026-05-25 17:46:16 to 2026-05-25 18:05:05)."
+ ],
+ "photo": "photos/fedb6e8a416774582e7edb748f73ad1d4f1aaf8952ae4f8531177bfa3a3d5e27.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1394885",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

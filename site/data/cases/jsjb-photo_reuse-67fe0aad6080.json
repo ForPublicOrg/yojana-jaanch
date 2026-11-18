@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-67fe0aad6080",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Matghana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e05d01f9abe1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.64885, 78.853781).",
+  "The photo was uploaded 4 times within 27 seconds (2026-05-30 14:52:14 to 2026-05-30 14:52:41)."
+ ],
+ "photo": "photos/e05d01f9abe15e1dd1fb96de2fdfc85896e4f2e03d5d01246ed6a61d939f14dc.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "15105369",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

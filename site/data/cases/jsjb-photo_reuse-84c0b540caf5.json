@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-84c0b540caf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Gawnipalli",
+  "Pokamakalapalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 54f30eda3f00) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/54f30eda3f00e2ea16d44279446c2e1e0d97cd55be3873f37b944ed8a26cdcad.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3109642",
+   "village": "Gawnipalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-06",
+   "end_date": "2025-06-25",
+   "lat": 13.845986,
+   "lon": 77.895462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3111898",
+   "village": "Pokamakalapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-08",
+   "end_date": "2025-06-24",
+   "lat": 13.88548,
+   "lon": 77.86958,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

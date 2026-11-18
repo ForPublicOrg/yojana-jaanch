@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-037bd63cd67a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Sohela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 07a789094368) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/07a789094368c4f55d5a81a0e22032027d279e00991046b6406b41a557a13bc7.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4035551",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

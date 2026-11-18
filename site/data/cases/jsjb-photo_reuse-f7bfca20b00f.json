@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f7bfca20b00f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Dhira"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 75d3aad70108) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.730727, 75.315195).",
+  "All 2 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 2 times within 25 seconds (2026-05-17 21:14:04 to 2026-05-17 21:14:29)."
+ ],
+ "photo": "photos/75d3aad701086f4620eb6daeee07e1049c20443d156ec02f851203a25fd1bb4a.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "9829927",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bedbeca6e889",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Chak Roran Wala",
+  "Chak Sotrian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7521e0348aab) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/7521e0348aabf0ccb84913836cc8c5ff82f21e22c332582b12e6833d67c6f0f7.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981563",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

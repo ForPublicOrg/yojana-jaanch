@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-af54af4e909e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Sidhwan Jamita",
+  "Waryah"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7ad0b416cced) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2026-04-29 12:41:18 to 2026-04-29 12:46:43)."
+ ],
+ "photo": "photos/7ad0b416cceda928263bfd62933bd67fe07ad64a67f8497b5d60df4575b5c49d.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "1260331",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

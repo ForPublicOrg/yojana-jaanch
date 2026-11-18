@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-7257b64ba6e1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Akhta (Part In Suppi) *",
+  "Belganj",
+  "Jamua",
+  "Nandwara",
+  "Pachtaki Jadu",
+  "Parsauni"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 4f0e5b196b08) is attached to 8 different works in 6 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (7), Nala Bund (1).",
+  "All 8 works report the same GPS point (26.68, 85.24)."
+ ],
+ "photo": "photos/4f0e5b196b08ccf93f355e3de9c478265a292404653581cf2cbb43421dc2432a.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "105965769920",
@@ -113,5 +137,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-438ca9b8cab9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Dewari Matauna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c2d83b1b9ed4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/c2d83b1b9ed4b1da4b7c2f4cda7c7b429a186e977f14db138ae8936d434ecd09.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4407122",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

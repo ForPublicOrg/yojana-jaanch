@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d41118fbe120",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Galib Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cc39406cb366) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/cc39406cb36635e36319bfaf00e11f3688adf766d91281303e5e86795beb1c66.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256325",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

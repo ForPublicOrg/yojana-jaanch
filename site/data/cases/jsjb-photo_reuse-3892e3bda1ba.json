@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-3892e3bda1ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Alipur",
+  "Bhodan",
+  "Dhani Dangiyan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b79abf369732) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/b79abf369732510d702bc012bab58edd2e6af606c3561052a6d6cb3337995704.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4291572",
+   "village": "Alipur",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-02-12",
+   "end_date": "2026-02-20",
+   "lat": 28.122224,
+   "lon": 75.947818,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4292512",
+   "village": "Bhodan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-05",
+   "end_date": "2025-12-01",
+   "lat": 28.115501,
+   "lon": 75.873095,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4294913",
+   "village": "Dhani Dangiyan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-17",
+   "end_date": "2025-10-31",
+   "lat": 28.140007,
+   "lon": 75.685601,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

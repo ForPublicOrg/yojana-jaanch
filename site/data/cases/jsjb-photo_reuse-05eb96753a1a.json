@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-05eb96753a1a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Thollapalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): fb7687245e4b on 2 works, 38e0ee55daf5 on 1 work.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/fb7687245e4b9a6cd9885334fb0041051b81064744aa2269557b053fa309239b.jpg",
+ "offices": [
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "10785678",
+   "village": "Thollapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-11",
+   "lat": 13.78709,
+   "lon": 77.960488,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "10807801",
+   "village": "Thollapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-11",
+   "lat": 13.786933,
+   "lon": 77.960436,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "10808206",
+   "village": "Thollapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-11",
+   "lat": 13.786933,
+   "lon": 77.960436,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "fb7687245e4b9a6cd9885334fb0041051b81064744aa2269557b053fa309239b",
+   "records": 2
+  },
+  {
+   "sha256": "38e0ee55daf5fb3c3f6164b81e40154e247ebc2fbac02e848a2ac0b94307a7e1",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ad42b38e39a8"
+ ]
+}

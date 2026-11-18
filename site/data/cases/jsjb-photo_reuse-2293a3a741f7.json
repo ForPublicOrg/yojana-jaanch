@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2293a3a741f7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Hussainabad"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 78e0fb6f5c48) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.339071, 75.324969)."
+ ],
+ "photo": "photos/78e0fb6f5c48bce54eb22f15da516814711681a14230dd30694ff9b3177f0df4.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8634385",
@@ -281,5 +300,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 61,
+ "needs_human_review": false
 }

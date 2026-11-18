@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b5796cceb62c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Chakmukand"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 21e16505a551) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.602542, 74.717575).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-06 16:15:43 to 2026-05-06 16:20:45)."
+ ],
+ "photo": "photos/21e16505a551fc73d50cb903235da7ef47f67ce6bf25346967f5f4fefeb165e9.jpeg",
+ "offices": [
+  "BDPO Attari"
+ ],
  "records": [
   {
    "record_id": "7611435",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ef9797ff2a53",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Kot Kapura",
+ "villages": [
+  "Aulakh",
+  "Sirsari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 41bc312e32f4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/41bc312e32f4aaf0c343193d965856817dc1db47c606be8606c75c1904a82665.jpg",
+ "offices": [
+  "ARC"
+ ],
  "records": [
   {
    "record_id": "979318",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kot Kapura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

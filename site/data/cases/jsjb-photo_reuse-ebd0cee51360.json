@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ebd0cee51360",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Chikkakadiganahalli",
+  "Ramachandra Hosur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b7c8ef0b85a7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1)."
+ ],
+ "photo": "photos/b7c8ef0b85a73cb89dd8740619f686888f6f7a472ca76b03eeb98db82e74b95a.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3074915",
+   "village": "Chikkakadiganahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-08",
+   "lat": 13.39277,
+   "lon": 77.749944,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3128326",
+   "village": "Ramachandra Hosur",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-23",
+   "end_date": "2025-10-14",
+   "lat": 13.43023,
+   "lon": 77.827876,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cf2a628cb02c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Bajra",
+  "Bhagpur",
+  "Bhaini Ghai",
+  "Bhamia Kalan"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 458fef840247) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Village Pond (6)."
+ ],
+ "photo": "photos/458fef840247ab19f634b52ce056094fe58e4765fb320d305bd9430d7b2824e8.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1044444",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

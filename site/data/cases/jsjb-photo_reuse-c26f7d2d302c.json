@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c26f7d2d302c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Akbarpur",
+  "Fatehgarh Bhadson"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 06bac733c67f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-05, 2026-05-06."
+ ],
+ "photo": "photos/06bac733c67fd35388f07def2cca121439855693e11625a92bf2080430755e95.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "7460660",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ce89af4dd934",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Poolakuntahalli",
+  "Yerabachanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4943db6083a2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2025-12-22 15:35:51 to 2025-12-22 15:37:15)."
+ ],
+ "photo": "photos/4943db6083a2e51b0f750128831018229ac2cabc0268fbd4fd4a5b0ef0b4d2c3.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3136851",
+   "village": "Poolakuntahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-15",
+   "end_date": "2025-07-30",
+   "lat": 13.530428,
+   "lon": 77.973287,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3136888",
+   "village": "Yerabachanahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-08-30",
+   "lat": 13.491714,
+   "lon": 77.96425,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

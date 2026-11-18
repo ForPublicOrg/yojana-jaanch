@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-09b6e74811bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Asan Jogiyan",
+  "Chabrana",
+  "Kalmanda",
+  "Sotwara"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 9e0a9146a9cc) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/9e0a9146a9cc50c21440116b7fc88213a0856bfde3f1db1dee5d6a1e9a566a6d.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1394061",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

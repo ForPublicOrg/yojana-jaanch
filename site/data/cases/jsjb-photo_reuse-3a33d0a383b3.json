@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3a33d0a383b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Banwalipur",
+  "Khanowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e4b43fb54a60) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Patwari Water Resources Department."
+ ],
+ "photo": "photos/e4b43fb54a606bbedc4317cde68eddf062572b4749d334f6785c27316faf1951.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "978363",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

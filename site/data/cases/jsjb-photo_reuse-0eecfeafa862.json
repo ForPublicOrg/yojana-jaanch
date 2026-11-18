@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0eecfeafa862",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Jhabkra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fe393cb2d29c) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-04-30).",
+  "The photo was uploaded 6 times within 6 minutes (2026-05-02 20:58:54 to 2026-05-02 21:04:38)."
+ ],
+ "photo": "photos/fe393cb2d29cfdebf537a53449ead7eecec51424392589ab248c4c04a2dd38a1.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7310190",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

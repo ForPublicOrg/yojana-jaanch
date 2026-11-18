@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1fdb6a607c94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Bija"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec667f4d284d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.3704, 76.15184).",
+  "The photo was uploaded 4 times within 40 seconds (2026-02-04 20:01:52 to 2026-02-04 20:02:32)."
+ ],
+ "photo": "photos/ec667f4d284d5e53bf9c9021a2e53a614345ae932bb0e5bdf2a5ad398562214c.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1450483",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a8a8d8812f88",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Dharamgarh Urf Tarkhan Majra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 57cbc842ab4e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 5 times within 8 minutes (2026-04-24 18:57:58 to 2026-04-24 19:05:41)."
+ ],
+ "photo": "photos/57cbc842ab4e1604d32bdd668717845667eaed96b4d5878e7834c84ce5d767f9.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5451119",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

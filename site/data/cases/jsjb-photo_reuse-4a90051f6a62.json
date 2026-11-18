@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4a90051f6a62",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Daboh",
+ "villages": [
+  "Gandhi Ward",
+  "Jayprakash Nagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c4ba75093fd7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, ULB."
+ ],
+ "photo": "photos/c4ba75093fd7b964ca8b3fc7070d7389f4ce0c3340a6356aa13adf76da2cdbe1.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "ULB"
+ ],
  "records": [
   {
    "record_id": "7479540",
@@ -29,5 +50,8 @@
    "area_type": "Urban",
    "block": "Daboh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

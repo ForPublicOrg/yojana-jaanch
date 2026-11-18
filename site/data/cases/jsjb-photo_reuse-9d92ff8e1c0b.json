@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9d92ff8e1c0b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Alaudinpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint d41fec5363ae) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.413326, 75.308074).",
+  "The photo was uploaded 10 times within 5 minutes (2026-04-23 09:43:03 to 2026-04-23 09:47:17)."
+ ],
+ "photo": "photos/d41fec5363aeac1691abe4c32d92790ce27beffd288c98371eec07b20e3a8de1.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "9329524",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

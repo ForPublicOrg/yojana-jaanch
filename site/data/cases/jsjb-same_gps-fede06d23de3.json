@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-fede06d23de3",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "12 works at one GPS point in Puduppalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Puduppalayam"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 works in Puduppalayam report exactly the same GPS point (11.570155, 77.898938).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (12).",
+  "They carry 24 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9356361",
@@ -169,5 +189,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

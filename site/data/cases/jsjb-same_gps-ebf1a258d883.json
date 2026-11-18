@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-ebf1a258d883",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Dharo Chak",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Dharo Chak"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Dharo Chak report exactly the same GPS point (32.15, 75.467).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (7).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7843619",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

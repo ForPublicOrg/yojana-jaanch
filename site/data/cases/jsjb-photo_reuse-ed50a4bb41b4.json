@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-ed50a4bb41b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Balua",
+  "Daghariya",
+  "Gaurdiha",
+  "Jagdeeshpur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 53d4ea9bf208) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "These works are spread over 4 blocks: Arajiline, Chiraigaon, Cholapur, Harahua."
+ ],
+ "photo": "photos/53d4ea9bf208d8f4439cdbb5cddcafd109d5a685756eb6bc78370905c82eeea0.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391892713",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4848b9fed1e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Gangkala",
+  "Rasara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a86df5c3d0eb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Baragaon, Cholapur."
+ ],
+ "photo": "photos/a86df5c3d0eb8b17e9c273ca629783162e87e85d37889af61812a11a641c9c54.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893515",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

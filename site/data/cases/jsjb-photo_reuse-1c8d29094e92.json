@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1c8d29094e92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Ahrolikali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2806c3d3308f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1)."
+ ],
+ "photo": "photos/2806c3d3308f86d1f79cf54312b4689894151fa62c26121a6fe2f4f82df5869a.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "5683600",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

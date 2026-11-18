@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6e174a213794",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Garcha",
+  "Gujjarwal Bet"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a0af7c162a8e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-04 17:05:56 to 2026-02-04 17:07:01)."
+ ],
+ "photo": "photos/a0af7c162a8e8937a3d31a2c402870834a6fce87d4425989756985308db61b08.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1054730",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-08b80ca69ab4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Binjari",
+  "Deopura"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint a4a7631331c5) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The photo was uploaded 8 times within 25 minutes (2026-03-19 16:15:57 to 2026-03-19 16:40:15)."
+ ],
+ "photo": "photos/a4a7631331c5ef5075b347c9c12daf2a62616db35f579de2d31a53e3da8b8ff5.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4050610",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

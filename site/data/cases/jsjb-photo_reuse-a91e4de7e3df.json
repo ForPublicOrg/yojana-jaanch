@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a91e4de7e3df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Emappalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3778bf1bd8e6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.323524, 77.853361)."
+ ],
+ "photo": "photos/3778bf1bd8e6a5d19f1c3b7d0996d65269a397efc506fda452d1c9cb083d705e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332199",
+   "village": "Emappalli",
+   "structure_type": "Any Innovative Low Cost Model",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-04-01",
+   "end_date": "2024-03-31",
+   "lat": 11.323524,
+   "lon": 77.853361,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9333588",
+   "village": "Emappalli",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-10-24",
+   "end_date": "2024-12-19",
+   "lat": 11.323524,
+   "lon": 77.853361,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

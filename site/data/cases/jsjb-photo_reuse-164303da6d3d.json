@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-164303da6d3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Molapalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a8cf7b7b5881) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.413677, 78.235931)."
+ ],
+ "photo": "photos/a8cf7b7b5881d63a8f1804a7efa197316af1b8cefcc95cbfebb1dd28f0a73c19.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9076340",
+   "village": "Molapalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.413677,
+   "lon": 78.235931,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9331674",
+   "village": "Molapalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-07-03",
+   "end_date": "2024-07-31",
+   "lat": 11.413677,
+   "lon": 78.235931,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

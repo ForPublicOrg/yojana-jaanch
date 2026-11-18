@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c0d2d9cebe64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Chande",
+  "Hamza"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a4cf6136359f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "All 3 works started and ended on the same day (2026-05-13).",
+  "The photo was uploaded 3 times within 13 minutes (2026-05-13 14:54:24 to 2026-05-13 15:06:27)."
+ ],
+ "photo": "photos/a4cf6136359fe48e2b9ed82f68db6b6b49eba5cba87c4c8a404d0585228ee65e.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "8906980",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-dddb54de5b2a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Salempur",
+ "villages": [
+  "Garhwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 075164fc2fff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 8 minutes (2026-03-19 21:08:53 to 2026-03-19 21:16:53)."
+ ],
+ "photo": "photos/075164fc2fff53032368274151b66932b84b2c4ae8d85c34c9278431e7d8a09a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4057097",
+   "village": "Garhwa",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2026-02-20",
+   "end_date": "2026-02-22",
+   "lat": 26.270925,
+   "lon": 83.893598,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Salempur"
+  },
+  {
+   "record_id": "4057192",
+   "village": "Garhwa",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2026-02-19",
+   "end_date": "2026-02-24",
+   "lat": 26.270372,
+   "lon": 83.893797,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Salempur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

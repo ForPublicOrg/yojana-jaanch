@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ea41aea4f1bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Dapparthi",
+  "Yellodu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f5191b8c1a20) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/f5191b8c1a20840e0a8c21593c5037f04be05b1a7ca442e452991f7f935a4267.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3147036",
+   "village": "Dapparthi",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-20",
+   "end_date": "2025-10-24",
+   "lat": 13.74055,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3203026",
+   "village": "Yellodu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-11",
+   "end_date": "2025-11-12",
+   "lat": 13.719229,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

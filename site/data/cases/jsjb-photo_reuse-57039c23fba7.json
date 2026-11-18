@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-57039c23fba7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Rairampura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 95f2067c79c5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.26747, 75.79716).",
+  "The photo was uploaded 4 times within 23 seconds (2026-03-11 12:27:08 to 2026-03-11 12:27:31)."
+ ],
+ "photo": "photos/95f2067c79c559b49e23995adf31a24ad2891c22d431fa3d058f409fe9233507.jpg",
+ "offices": [
+  "AEn"
+ ],
  "records": [
   {
    "record_id": "3889316",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

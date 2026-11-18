@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f65a93357d77",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Aswalpur",
+  "Baharipur",
+  "Bamokhar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b2b5d6eb286a) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3)."
+ ],
+ "photo": "photos/b2b5d6eb286a8ada06d16639c53536274c61688e14d697582afa66876b9215c7.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3333745",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

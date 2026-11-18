@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-caf995c93f05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Arniwala Shiekh Subhan",
+ "villages": [
+  "Ghariana",
+  "Sahiwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7c4077cb4ac8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Jalalabad."
+ ],
+ "photo": "photos/7c4077cb4ac8bcbe5dc3e6fb12ef33d7663a942be4d83401b11d92012df610d7.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981205",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Arniwala Shiekh Subhan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

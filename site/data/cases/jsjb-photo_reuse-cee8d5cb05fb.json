@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cee8d5cb05fb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhandari",
+  "Pachnaur Murahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5421bf305dfc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Shaft (1)."
+ ],
+ "photo": "photos/5421bf305dfc4ee35ebaf3c14f3e098a3466ca2f8701d8f0b93b2a8ae0d36bec.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "922715",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

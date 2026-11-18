@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ad6e1d19ca0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Anuppur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f71022e4ff94) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.740346, 78.314304)."
+ ],
+ "photo": "photos/f71022e4ff94dbf151fd5384928f8e4010843b178b0a8dc2042c78371ccb02c7.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9358413",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

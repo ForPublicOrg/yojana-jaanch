@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fe264e310e63",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Goghari",
+  "Khuthan",
+  "Saray Shekhlad"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 56df867888b0) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/56df867888b0e381d0744d06b11c0f3fccb5bd6ad0be2298935e5fccd8bce839.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "333873",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

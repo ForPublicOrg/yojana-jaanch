@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-63d200b38100",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Chakkotla",
+  "Chananwindi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 767e9f23e68e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 15 minutes (2026-02-03 12:06:59 to 2026-02-03 12:21:02)."
+ ],
+ "photo": "photos/767e9f23e68ea904ca077f5c9865d2d6ac438b7d34d7a6c86320e63ab990cb12.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "981794",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

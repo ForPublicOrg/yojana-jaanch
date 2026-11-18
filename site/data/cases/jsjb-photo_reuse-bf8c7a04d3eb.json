@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bf8c7a04d3eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Wazirpur Afganan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2640e61afa4e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.130286, 75.297647).",
+  "All 2 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/2640e61afa4e4ff817e13f81b81cff39cbee7737ef3d5f119849a661d77354dc.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7978667",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

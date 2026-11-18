@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-5fdd98930dab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Amarakundhi",
+  "Ariyampatti",
+  "Manathal"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 538e85d15547) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (3), Soak Pit (3).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/538e85d15547d97c1839215181d38296418fc41770fe6f28e6d67d72163a2fbe.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9345035",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

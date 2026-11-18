@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e403a7507065",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Mulanpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e8f75d29601f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 6 times within 7 minutes (2026-04-21 10:35:48 to 2026-04-21 10:41:58)."
+ ],
+ "photo": "photos/e8f75d29601f41950938de1a44a805e3e2a418a1f229b37e6ac9844d889a3dbc.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5177631",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

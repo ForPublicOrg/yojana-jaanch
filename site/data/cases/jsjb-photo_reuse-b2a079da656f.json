@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b2a079da656f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Bardh",
+  "Jagatpur Buzurg"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a4c60be61313) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 12 minutes (2026-09-09 13:55:15 to 2026-09-09 14:06:55)."
+ ],
+ "photo": "photos/a4c60be61313efdc858e0864d32f3cb92ddaecaede69b94eae41686aec5c4850.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5151657",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

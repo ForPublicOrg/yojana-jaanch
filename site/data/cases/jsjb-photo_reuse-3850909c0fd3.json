@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3850909c0fd3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Manpur",
+  "Shadi Pur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 3e4388afde9d) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (3), Other (2).",
+  "The entries were made by 2 different offices: BDPO, FOREST RANGER KHAMANO."
+ ],
+ "photo": "photos/3e4388afde9da8f00659020b59287fcbd42c3086d3e921fb1754a9eb4d1497d1.jpg",
+ "offices": [
+  "BDPO",
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "14729305",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

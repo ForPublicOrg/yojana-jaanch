@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-35ed8e38dbc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Jorikotwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c07b3ecd04ce) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.71, 78.72)."
+ ],
+ "photo": "photos/c07b3ecd04ceec84a1280170b538ad7e424a06ed1f7e38b0c0d031bad4fc7a46.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7985025",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

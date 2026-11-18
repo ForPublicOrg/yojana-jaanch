@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3a7b0425c7ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Balkhandiya",
+  "Kashipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9cea9815fffe) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.3474939, 75.7107988)."
+ ],
+ "photo": "photos/9cea9815fffe1b1a1859c80010e927f010191e968ece5a5ea34dc9e5d2842024.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3654175",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

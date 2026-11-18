@@ -1,5 +1,40 @@
 {
  "id": "jsjb-photo_reuse-8aa036a70418",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 36 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Bagh Sikandar",
+  "Basian",
+  "Biromajra",
+  "Dafera",
+  "Gopalon",
+  "Jawanda",
+  "Mehdoodan",
+  "Mehmadpur",
+  "Nandpur",
+  "Naraina",
+  "Niamumajra",
+  "Pamaur",
+  "Patton",
+  "Rasoolpur",
+  "Sampla",
+  "Silkapra"
+ ],
+ "record_count": 36,
+ "reasons": [
+  "The same photo file (fingerprint 26b95be903af) is attached to 36 different works in 16 villages. A photo of one site cannot be evidence for 36 separate works.",
+  "The works are recorded as: Contour Trench (36).",
+  "All 36 works report the same GPS point (30.0, 76.0).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khera."
+ ],
+ "photo": "photos/26b95be903af57b79b0364944293cc47717899ced6253a6d82459142a8674970.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5176727",
@@ -505,5 +540,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 109,
+ "needs_human_review": false
 }

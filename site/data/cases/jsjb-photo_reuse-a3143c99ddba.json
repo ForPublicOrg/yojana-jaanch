@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-a3143c99ddba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Akalpur",
+  "Dalla",
+  "Haibatpur",
+  "Mangupur",
+  "Muketramwala",
+  "Salehpur Dona",
+  "Todarwal"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 55302c945727) is attached to 8 different works in 7 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8)."
+ ],
+ "photo": "photos/55302c945727dcda15ee5c3956e1dfc359c24f71f273344b1307d9787a384ec4.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1065983",
@@ -113,5 +137,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

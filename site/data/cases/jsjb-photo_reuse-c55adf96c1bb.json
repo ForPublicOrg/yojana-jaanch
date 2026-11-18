@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c55adf96c1bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Muh Chatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 19cf485709af) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 22 minutes (2026-11-13 01:49:23 to 2026-11-13 02:10:33)."
+ ],
+ "photo": "photos/19cf485709af668a22fac47caf7dd84c25c46e921899c7442e3126df86d08a05.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4355816",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-049170951ee2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Jabdi Loharpatti",
+  "Jagdhar"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 753bc9c493ca) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/753bc9c493caedd4c86b9840f6d4186f1ba855c7635d2a402111ec17dcd6aed4.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4572747",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

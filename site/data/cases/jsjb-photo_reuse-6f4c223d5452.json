@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6f4c223d5452",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Dhobha",
+  "Ghausnagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c998829c9c86) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 9 minutes (2026-04-08 16:06:29 to 2026-04-08 16:14:34)."
+ ],
+ "photo": "photos/c998829c9c86cbcd36be49e58e708a8be86fda3981cc619780ac19fc2bc2f4ac.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4612439",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

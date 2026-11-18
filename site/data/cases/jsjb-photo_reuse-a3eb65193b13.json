@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a3eb65193b13",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Vijaipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b70010835fb3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "The entries were made by 2 different offices: AEN, UNIARA, WS DEPT., SE."
+ ],
+ "photo": "photos/b70010835fb37a8eb63d4868c23a24320c95369e94980cfd6338fed12c17afa2.jpg",
+ "offices": [
+  "AEN, UNIARA, WS DEPT.",
+  "SE"
+ ],
  "records": [
   {
    "record_id": "3719164",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

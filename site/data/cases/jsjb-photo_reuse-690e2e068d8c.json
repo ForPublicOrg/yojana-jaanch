@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-690e2e068d8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Bhanowal",
+  "Kantian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5834b9cfa6b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 19 minutes (2026-03-11 09:13:10 to 2026-03-11 09:31:11).",
+  "These works are spread over 2 blocks: Bhunga, Hoshiarpur-I."
+ ],
+ "photo": "photos/c5834b9cfa6bc2adb5988817a2decf5b0a4acf4276eb1a5d8e2b78581aad228a.jpg",
+ "offices": [
+  "Canal Patwari"
+ ],
  "records": [
   {
    "record_id": "991221",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-I"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d7aa8fdd7bf9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Parewar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 76159cb362cf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 3 times within 4 minutes (2026-05-29 15:17:15 to 2026-05-29 15:20:58)."
+ ],
+ "photo": "photos/76159cb362cf7c88414ef708b73590561cf028e112169f98bad30642497c5c93.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14773856",
+   "village": "Parewar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2021-01-01",
+   "end_date": "2024-02-01",
+   "lat": 27.3814062,
+   "lon": 70.6957013,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "14774683",
+   "village": "Parewar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2021-01-01",
+   "end_date": "2024-02-01",
+   "lat": 27.315391,
+   "lon": 70.8033313,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

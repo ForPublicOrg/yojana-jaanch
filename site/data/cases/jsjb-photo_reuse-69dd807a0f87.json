@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-69dd807a0f87",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Mansa Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 76c694147e0d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/76c694147e0d0821c758e06d7abbab6ed97b875914dd5425cf8e72c417b0d53c.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4186205",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

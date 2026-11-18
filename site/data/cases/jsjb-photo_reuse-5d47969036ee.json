@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5d47969036ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Manjali Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3f57be8b1f5e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.79, 76.13).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 16:46:19 to 2026-02-04 16:47:28)."
+ ],
+ "photo": "photos/3f57be8b1f5e00ee116d1cce5918a84783f7457a406a779fef3567b81a663052.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1225541",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

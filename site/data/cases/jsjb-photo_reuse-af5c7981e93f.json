@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-af5c7981e93f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Masum Pur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 325edfe2f5c1) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/325edfe2f5c1e9b9502ca7393bc04816c90f2f6f1599dc142db9b15c0cae7b7f.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "8483103",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

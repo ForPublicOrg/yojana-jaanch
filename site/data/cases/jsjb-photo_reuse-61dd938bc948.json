@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-61dd938bc948",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Ghulla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a13525975ee0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Recharge Pit (1).",
+  "All 2 works report the same GPS point (32.084249, 75.439638)."
+ ],
+ "photo": "photos/a13525975ee0ed6fd88439f7bd0999fd1ebb6f44fed407430f3a002e2c7a3cd4.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7080076",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

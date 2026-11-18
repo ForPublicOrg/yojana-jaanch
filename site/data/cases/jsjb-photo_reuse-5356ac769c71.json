@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5356ac769c71",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Gaura",
+  "Rasulganj Urf Koili"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 94aa606c7fc3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 10 minutes (2026-04-02 17:20:09 to 2026-04-02 17:29:43)."
+ ],
+ "photo": "photos/94aa606c7fc329ee05e11c2f5dfb02fad11cb12188002b3d5107cb28976acaa9.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4431605",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

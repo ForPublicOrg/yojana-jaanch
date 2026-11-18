@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-737321a412f4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Desavilakku North"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 25f77a8b3c5b on 2 works, 06e3055481c3 on 1 work.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.65, 77.95)."
+ ],
+ "photo": "photos/25f77a8b3c5bfafeca3d1f5c93e6b6f037cc5a096cf95aea83cf6473d558ae2e.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345390",
@@ -43,5 +64,21 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "25f77a8b3c5bfafeca3d1f5c93e6b6f037cc5a096cf95aea83cf6473d558ae2e",
+   "records": 2
+  },
+  {
+   "sha256": "06e3055481c31d109ab56758b5a78c8a6475847774e35e507f6f7b20c391dfc3",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d2dab17ead07"
  ]
 }

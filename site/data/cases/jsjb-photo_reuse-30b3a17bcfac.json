@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-30b3a17bcfac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Cheema",
+  "Ferozepur",
+  "Rampur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4182c8cb56de) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/4182c8cb56de238a7f45b367409fb90d33cd56415d1c7691b39294b519f82eea.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1344095",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

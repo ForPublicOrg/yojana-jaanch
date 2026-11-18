@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f0ec1b169bee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Fatehgarh Korotana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a83bf4e5dd14) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.88118, 75.211441).",
+  "All 2 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-14 15:15:10 to 2026-05-14 15:16:38)."
+ ],
+ "photo": "photos/a83bf4e5dd14f9020bdfa4f510b24548824efc34967f19d8e5f88775cd87c1e9.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "9100945",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

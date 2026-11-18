@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-52d41f3da267",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Koothandahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 669f0893d434) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (1), Village Pond (1)."
+ ],
+ "photo": "photos/669f0893d4343012b47e22b47af60d9d56839803548f37a12b123b0ddda2b2e7.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3107483",
+   "village": "Koothandahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-09-20",
+   "lat": 13.424243,
+   "lon": 77.897264,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "1651391836712",
+   "village": "Koothandahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-12",
+   "end_date": "2025-10-30",
+   "lat": 13.499774,
+   "lon": 77.966159,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

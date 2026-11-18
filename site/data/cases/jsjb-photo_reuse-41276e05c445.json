@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-41276e05c445",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Bhali Chhapara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b650582a3ab3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.3156472, 84.0372024).",
+  "The photo was uploaded 4 times within 22 seconds (2026-03-22 12:26:00 to 2026-03-22 12:26:22)."
+ ],
+ "photo": "photos/b650582a3ab334725e5afc083f29d48426b5ab73b5cbfcc015dbd43f7f90422d.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4106584",
+   "village": "Bhali Chhapara",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-25",
+   "end_date": "2025-12-23",
+   "lat": 26.3156472,
+   "lon": 84.0372024,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4106594",
+   "village": "Bhali Chhapara",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-25",
+   "end_date": "2025-12-23",
+   "lat": 26.3156472,
+   "lon": 84.0372024,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

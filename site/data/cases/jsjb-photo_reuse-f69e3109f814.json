@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f69e3109f814",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Balarwal",
+  "Dhirowal",
+  "Gilbob"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3d6ebd937286) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/3d6ebd9372861a4e7e1e3ac8c2dc551e8fa32c23f368c39b900b2b56024acf1f.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "1246201",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

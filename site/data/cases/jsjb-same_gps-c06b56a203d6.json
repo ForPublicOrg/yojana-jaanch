@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-c06b56a203d6",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Bhawar",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Bhawar"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Bhawar report exactly the same GPS point (26.0, 85.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4485036",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3225e5177cfc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Chunehri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b68a6962f80) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.217333, 75.976795).",
+  "All 2 works started and ended on the same day (2026-04-13)."
+ ],
+ "photo": "photos/5b68a6962f80a898542ae413c9708a20c7f9601d0659e2c7569694fd2ad8da56.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "4815790",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

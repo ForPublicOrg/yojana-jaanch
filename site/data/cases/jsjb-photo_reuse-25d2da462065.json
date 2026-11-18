@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-25d2da462065",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Mahima Rasulpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 43d1b94b8281) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 2 minutes (2025-07-16 15:18:32 to 2025-07-16 15:19:43)."
+ ],
+ "photo": "photos/43d1b94b8281cab923d130dd070dbbc00537d49ca5f5c251b89fbd8941e85911.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "387665769920",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

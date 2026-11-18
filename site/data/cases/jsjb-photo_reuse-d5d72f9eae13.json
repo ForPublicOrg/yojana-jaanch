@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d5d72f9eae13",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Sonbarsa Kumhra Sumer",
+  "Turkaulia"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint ddead2da2cd9) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/ddead2da2cd97aa2af77d664aa67d28baa9b92726f654380d744af4dca1dc57d.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3742377",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

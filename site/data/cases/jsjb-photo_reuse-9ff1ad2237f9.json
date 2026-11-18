@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9ff1ad2237f9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Kumhra Bishunpur",
+  "Ranjitpur Urf Gobipur Daur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b13e10272f0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/5b13e10272f04530f362c72c866e25a927397c80550ee4a698bed292f0f3a28f.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4548023",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5edcac11e344",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Radha Kishan Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 186aadd2a4ce) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4397055, 75.6984398)."
+ ],
+ "photo": "photos/186aadd2a4cee44a6df070bfe27513a421fc714d8830f5d2491a9b507b376201.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3702160",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

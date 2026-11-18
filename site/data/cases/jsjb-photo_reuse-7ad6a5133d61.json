@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7ad6a5133d61",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Bharatpur Rajputan",
+  "Gajjar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3504017e2ce6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/3504017e2ce6d2d3c53a856f9457dea417952001fc3cb6fefddc8a448b5dc64a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1115940",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

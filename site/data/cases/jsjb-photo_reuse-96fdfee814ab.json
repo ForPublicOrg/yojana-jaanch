@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-96fdfee814ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Sangha"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 33d43a3cd5da) is attached to 15 different works in 1 village. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (14), Other (1).",
+  "All 15 works started and ended on the same day (2026-05-22)."
+ ],
+ "photo": "photos/33d43a3cd5da6db41ea8ec3f24f2b2c0ca9878d5537671348afc0e50bd26b22f.jpg",
+ "offices": [
+  "Clerk"
+ ],
  "records": [
   {
    "record_id": "15900818",
@@ -211,5 +230,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 46,
+ "needs_human_review": false
 }

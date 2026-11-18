@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-04ab57949751",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Bassi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9ea646c3abd4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 25 minutes (2026-05-29 14:02:47 to 2026-05-29 14:27:29)."
+ ],
+ "photo": "photos/9ea646c3abd441ec1402e8ce489df9cb7d06cc3d25a1c6c24651fe581a7249bb.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "5494739",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

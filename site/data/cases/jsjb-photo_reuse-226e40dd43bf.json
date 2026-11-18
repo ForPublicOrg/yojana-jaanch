@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-226e40dd43bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Gulab Pura",
+  "Pachewar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eeaf291d0d26) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-19 12:22:31 to 2026-03-19 12:24:35)."
+ ],
+ "photo": "photos/eeaf291d0d26f3b57dca2f72da11a53e83086ae3821e39c7c84261f8ee36b2b9.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4039287",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6e7bbb028d4e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Badhan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eae78a8653ac) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 25 minutes (2026-04-21 14:33:47 to 2026-04-21 14:58:02)."
+ ],
+ "photo": "photos/eae78a8653acdc6d9380affceba96183ab65ffd994f61adfbd448c13572867a7.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1057264",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-21c60acaa70d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Jagral"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a0dcf08926a2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 45 seconds (2026-04-04 19:33:06 to 2026-04-04 19:33:51)."
+ ],
+ "photo": "photos/a0dcf08926a2f1e5d6fe11cd38b841ad8e423e7c4713faea335bd7b9f0c54667.jpg",
+ "offices": [
+  "BDPO Jalandhar East"
+ ],
  "records": [
   {
    "record_id": "1118155",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

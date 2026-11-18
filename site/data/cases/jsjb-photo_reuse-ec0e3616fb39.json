@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ec0e3616fb39",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Navalur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 8b120f885dd1) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "All 4 works report the same GPS point (11.664325, 78.146011).",
+  "The photo was uploaded 4 times within 20 minutes (2025-07-03 10:50:24 to 2025-07-03 11:09:44)."
+ ],
+ "photo": "photos/8b120f885dd19d8e7cb2ce882f67284dc1ca0c8c0a8aa95f8faaa5e3c8843635.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347464",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

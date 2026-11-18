@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f63c7125d518",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Srirampur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 093ea076dadf) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/093ea076dadffe56f6a264b092f768f6afe6d4a5825199897f316c196452c10f.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8344452",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

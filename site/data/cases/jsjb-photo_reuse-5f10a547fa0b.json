@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-5f10a547fa0b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Eegaletihalli",
+  "S.M.Kondarajanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c133cec27a75) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.62631, 77.99231).",
+  "The photo was uploaded 4 times within 3 minutes (2025-12-17 13:42:23 to 2025-12-17 13:44:35)."
+ ],
+ "photo": "photos/c133cec27a7517d09aa15f65b7dfbf70bae49b989972342368fc8e969a39f505.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3095515",
+   "village": "S.M.Kondarajanahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-07",
+   "end_date": "2025-09-10",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3095548",
+   "village": "Eegaletihalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-21",
+   "end_date": "2025-08-22",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

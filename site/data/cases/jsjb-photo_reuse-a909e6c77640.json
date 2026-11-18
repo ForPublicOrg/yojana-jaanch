@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a909e6c77640",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Ganga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b16386abb88e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.354663, 74.839156)."
+ ],
+ "photo": "photos/b16386abb88e06571cf48068cfe336a3be931fc04672f0da0202d5784fa9cd51.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5176188",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

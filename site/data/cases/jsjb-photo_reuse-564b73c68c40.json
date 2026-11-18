@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-564b73c68c40",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Palaniyapuri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3956ef72cd68) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "All 2 works report the same GPS point (11.607456, 78.534142).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-19 18:12:02 to 2026-05-19 18:13:34)."
+ ],
+ "photo": "photos/3956ef72cd68b80ef9b6c21c29816f5f7368dc207d09d7293ff202bd5619ee46.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10231184",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bbb324df28bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 31 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Bandha"
+ ],
+ "record_count": 31,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 31 different works in 1 village. A photo of one site cannot be evidence for 31 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.024 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 2c2b5dd96455 on 17 works, f03c47bf71df on 14 works.",
+  "The works are recorded as: Contour Trench (31).",
+  "All 31 works report the same GPS point (26.027078, 79.54835)."
+ ],
+ "photo": "photos/2c2b5dd96455344706311c83952c901c96346e3f067a0e07d3584d562e3ceea4.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "3978521",
@@ -435,5 +456,21 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 94,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "2c2b5dd96455344706311c83952c901c96346e3f067a0e07d3584d562e3ceea4",
+   "records": 17
+  },
+  {
+   "sha256": "f03c47bf71df3c8540d94b52761d87ce4dab6ffb73a29a48635e9bd4b43a6f52",
+   "records": 14
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e974a4581a6c"
  ]
 }

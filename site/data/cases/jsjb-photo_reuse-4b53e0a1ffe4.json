@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4b53e0a1ffe4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Jatpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 133c13aa3da2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.46584, 75.985887).",
+  "The photo was uploaded 6 times within 2 minutes (2026-05-29 09:18:04 to 2026-05-29 09:19:55)."
+ ],
+ "photo": "photos/133c13aa3da2e26b0e48ee285e24db89ddb20093ebf6e0dced9c56451d877b47.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "14718609",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

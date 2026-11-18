@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-141bda5ae529",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Barharwa Urf Bishunpurmohabbat",
+  "Jamal Parsa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d6ee7fbbe986) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 6 minutes (2026-04-02 15:32:22 to 2026-04-02 15:37:37)."
+ ],
+ "photo": "photos/d6ee7fbbe986aac85a2bc71aa695ce4ff0917df67b3a0ff7198892134ae4bc76.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4425956",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

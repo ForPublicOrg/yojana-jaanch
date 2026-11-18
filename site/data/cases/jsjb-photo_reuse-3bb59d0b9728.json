@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3bb59d0b9728",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Harpur Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 55e3ee6844f8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-02 06:19:38 to 2026-04-02 06:21:12)."
+ ],
+ "photo": "photos/55e3ee6844f88ca0f44e8afca9d91b383450d12b51b9b0c821d8a455cb41db8b.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4408939",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

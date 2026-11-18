@@ -1,5 +1,37 @@
 {
  "id": "jsjb-photo_reuse-b901478c7628",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Basantpura",
+  "Chanalon",
+  "Chandiala",
+  "Kale Majra",
+  "Kotla Jattan",
+  "Raipur Raian",
+  "Ramgarh",
+  "Ranwan",
+  "Rattan Garh",
+  "Reona Niwan",
+  "Sandhari Majra",
+  "Sanghol",
+  "Sidhu Pur Khurd",
+  "Wazir Nagar"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint c18e2db5b66e) is attached to 19 different works in 14 villages. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Contour Trench (18), Recharge Pit (1).",
+  "These works are spread over 2 blocks: Khamano, Sirhind."
+ ],
+ "photo": "photos/c18e2db5b66e66880efbd8d20e504d4e6dc8fe1d708ab07abdcc43aed3f497a1.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4950891",
@@ -267,5 +299,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 57,
+ "needs_human_review": false
 }

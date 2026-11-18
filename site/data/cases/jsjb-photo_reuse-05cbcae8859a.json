@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-05cbcae8859a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Doda Wazir"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint 4c8499096fc1) is attached to 18 different works in 1 village. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Contour Trench (18).",
+  "All 18 works report the same GPS point (31.2738979, 75.1580038)."
+ ],
+ "photo": "photos/4c8499096fc1cdf0346f8df7585e9704c091d2d811a7a71bb13a2c50930c8404.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "8452914",
@@ -253,5 +272,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 55,
+ "needs_human_review": false
 }

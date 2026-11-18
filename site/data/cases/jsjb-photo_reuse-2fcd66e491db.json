@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2fcd66e491db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Modamangalam",
+  "Modamangalam Agraharam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bf9852536f7f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (11.427102, 77.830759)."
+ ],
+ "photo": "photos/bf9852536f7fa660f61e7cd3566bd344a77c99972e4bbd49eaf85cc411cc6e58.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9333360",
+   "village": "Modamangalam",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-04-01",
+   "end_date": "2022-03-31",
+   "lat": 11.427102,
+   "lon": 77.830759,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9336826",
+   "village": "Modamangalam Agraharam",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-01-01",
+   "end_date": "2023-03-01",
+   "lat": 11.427102,
+   "lon": 77.830759,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

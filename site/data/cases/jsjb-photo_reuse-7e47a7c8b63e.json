@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7e47a7c8b63e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Beedaganahalli",
+  "Chadulapura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb4f69311363) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/eb4f69311363bc5493cd04cdd17c61f07daf6ccdd372ac86bb8caac22372ea47.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3122673",
+   "village": "Chadulapura",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-01",
+   "end_date": "2025-12-30",
+   "lat": 13.381701,
+   "lon": 77.723405,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3123319",
+   "village": "Beedaganahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-07-30",
+   "lat": 13.44321,
+   "lon": 77.667543,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

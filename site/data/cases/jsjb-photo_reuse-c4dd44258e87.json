@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-c4dd44258e87",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Bhilowal Kake Zain",
+  "Pairewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cfe345c4fd9b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 29 minutes (2026-04-24 15:00:01 to 2026-04-24 15:28:07).",
+  "The entries were made by 2 different offices: BDPO Chogawan, BDPO Ramdass.",
+  "These works are spread over 2 blocks: Chogawan, Ramdas."
+ ],
+ "photo": "photos/cfe345c4fd9bb2ac8aacd09688402d9dbfde9ea1420b8d9087b667a7d58d9ab8.jpeg",
+ "offices": [
+  "BDPO Chogawan",
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "5416715",
@@ -29,5 +52,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

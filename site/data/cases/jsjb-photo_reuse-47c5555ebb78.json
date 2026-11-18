@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-47c5555ebb78",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Chelasi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9146fa942148) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1).",
+  "All 2 works report the same GPS point (27.900559, 75.277642).",
+  "The photo was uploaded 4 times within 20 seconds (2026-05-26 14:35:24 to 2026-05-26 14:35:44)."
+ ],
+ "photo": "photos/9146fa942148e110658c679fbe23b019dfb966ebdccfaa0378832d2cef49a8d7.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "12952257",
+   "village": "Chelasi",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-03-01",
+   "end_date": "2025-03-31",
+   "lat": 27.900559,
+   "lon": 75.277642,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "12952390",
+   "village": "Chelasi",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-03-01",
+   "end_date": "2025-03-31",
+   "lat": 27.900559,
+   "lon": 75.277642,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

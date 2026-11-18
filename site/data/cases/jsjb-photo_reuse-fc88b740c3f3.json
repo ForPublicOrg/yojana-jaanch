@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fc88b740c3f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Kuralian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2bcbaf015d7d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.845786, 74.881716).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-15 13:55:30 to 2026-05-15 13:59:31)."
+ ],
+ "photo": "photos/2bcbaf015d7d0e89daee95485b4d61913e2a077a1bce0a9bede679e9686f19ad.jpg",
+ "offices": [
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "9308513",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

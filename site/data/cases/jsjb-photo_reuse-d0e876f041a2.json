@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d0e876f041a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Manan",
+  "Mander Dona"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 02fcac626af2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Patwari Water Resources Department."
+ ],
+ "photo": "photos/02fcac626af2797760ac982575d3313cc5ca8adfb8eee68fa62d11fe9e3bdb1b.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "988357",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

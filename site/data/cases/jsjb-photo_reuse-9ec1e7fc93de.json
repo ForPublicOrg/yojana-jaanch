@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-9ec1e7fc93de",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Bugran",
+  "Ghanda Bana",
+  "Rampura(Rural)"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 7c80e1a70fd4 on 2 works, 65926a7fce31 on 1 work.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "These works are spread over 2 blocks: Phul, Rampura."
+ ],
+ "photo": "photos/7c80e1a70fd45662e6e169281713810ea94bb80d59bfc7018ced7e88c0939439.jpg",
+ "offices": [
+  "ZILEDAR PHUL"
+ ],
  "records": [
   {
    "record_id": "989093",
@@ -43,5 +66,21 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "7c80e1a70fd45662e6e169281713810ea94bb80d59bfc7018ced7e88c0939439",
+   "records": 2
+  },
+  {
+   "sha256": "65926a7fce31142437ba68a7a5c4a0d598e5e67f850d400757cd871d23f4e495",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-751e079ffa20"
  ]
 }

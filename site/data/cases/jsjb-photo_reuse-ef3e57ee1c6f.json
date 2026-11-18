@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-ef3e57ee1c6f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Chanar Thal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c93fc9620d33) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/c93fc9620d33cf9442f7462f760fcdd055016b974bb5200323c464915ae6039a.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1051960",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

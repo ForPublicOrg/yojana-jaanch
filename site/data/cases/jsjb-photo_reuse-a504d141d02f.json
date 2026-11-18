@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a504d141d02f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Khuian Sarwar",
+ "villages": [
+  "Sabuana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da963fa6d34e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.403728, 74.025536).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-18 10:59:42 to 2026-05-18 11:01:46)."
+ ],
+ "photo": "photos/da963fa6d34ebd94d36d8fa54e722be205ed70b5ac62aaa6644868607dd509e5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "9895895",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khuian Sarwar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

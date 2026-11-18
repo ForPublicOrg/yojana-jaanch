@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-77688c69adb4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Pipahadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 10ea0e216bf9 on 1 work, b8524f830db1 on 1 work.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.522331, 78.412715).",
+  "The entries were made by 2 different offices: Sub Engineer, Sub engineer."
+ ],
+ "photo": "photos/10ea0e216bf9ebce337053c41a61548819552fc3d580daf3f90da68d16793988.jpg",
+ "offices": [
+  "Sub Engineer",
+  "Sub engineer"
+ ],
  "records": [
   {
    "record_id": "12148651",
@@ -29,5 +52,21 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "10ea0e216bf9ebce337053c41a61548819552fc3d580daf3f90da68d16793988",
+   "records": 1
+  },
+  {
+   "sha256": "b8524f830db125f0cc9e8bad7d1843f174c9052a110accdbdde7ca8eeb286ba9",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d08ba7b69851"
  ]
 }

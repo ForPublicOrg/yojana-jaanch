@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bf98b8309e1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 853 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Khassa"
+ ],
+ "record_count": 853,
+ "reasons": [
+  "The same photo file (fingerprint af129046de40) is attached to 853 different works in 1 village. A photo of one site cannot be evidence for 853 separate works.",
+  "The works are recorded as: Other (852), Contour Trench (1).",
+  "All 853 works report the same GPS point (31.62, 74.77)."
+ ],
+ "photo": "photos/af129046de40ac9ec3432d57b802541233556cdf23caed38c5b1584ea790332e.jpeg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "7124515",
@@ -11943,5 +11962,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 2560,
+ "needs_human_review": false
 }

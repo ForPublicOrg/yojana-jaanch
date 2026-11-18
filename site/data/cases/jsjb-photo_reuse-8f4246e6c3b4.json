@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8f4246e6c3b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Laddi"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 8b8032a5ed9f) is attached to 11 different works in 1 village. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Contour Trench (10), Gullu Plug (1).",
+  "All 11 works report the same GPS point (30.289675, 75.936515).",
+  "All 11 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/8b8032a5ed9fb035faba6d5a498ee9e0d30d50cad222282b3c896d4c17e7b396.jpeg",
+ "offices": [
+  "BDPO SUNAM II"
+ ],
  "records": [
   {
    "record_id": "14736305",
@@ -155,5 +175,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 35,
+ "needs_human_review": false
 }

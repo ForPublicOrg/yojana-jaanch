@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ffbdf65c30f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Mullanwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a6907c43be07) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.833528, 75.540045).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-08, 2026-05-09."
+ ],
+ "photo": "photos/a6907c43be0792459e95c8d5aa33de3db32aa61764ed260852b862fb98dc7709.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7952897",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

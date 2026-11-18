@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e51f79574a47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Gharachon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6880e1742cca) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-05, 2026-05-06."
+ ],
+ "photo": "photos/6880e1742cca8914d56b798d29ec94fa69382db17cc6066a4d760a4337e3a2a0.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "7473090",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

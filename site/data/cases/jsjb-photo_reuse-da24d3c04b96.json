@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-da24d3c04b96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Molapalayam",
+  "Singalandapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e8e61ad5de9c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.399094, 78.218561)."
+ ],
+ "photo": "photos/e8e61ad5de9c5db87e4635e5dcf0a001d6ead45c3adf95af6b6211cb920091b0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9106291",
+   "village": "Singalandapuram",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-10-05",
+   "end_date": "2023-10-18",
+   "lat": 11.399094,
+   "lon": 78.218561,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9337356",
+   "village": "Molapalayam",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-08-29",
+   "lat": 11.399094,
+   "lon": 78.218561,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

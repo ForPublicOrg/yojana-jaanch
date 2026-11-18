@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7126a9567cbe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Manguppai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1fac0a98db6d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/1fac0a98db6d834aed05d4852082040662946516624517943501ab4c9b03c3fd.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9353910",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

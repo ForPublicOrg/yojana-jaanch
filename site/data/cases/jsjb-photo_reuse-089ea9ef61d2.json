@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-089ea9ef61d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Jallal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6653f6b5de3f) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 24 minutes (2026-05-13 12:56:16 to 2026-05-13 13:19:56)."
+ ],
+ "photo": "photos/6653f6b5de3f3594dc8f098b686ff8605effd7bef48a9e04de5f3678dffaa32c.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "8883331",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

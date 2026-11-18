@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3c056780f714",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Talhan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 089216c935d2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 5 times within 7 minutes (2026-04-05 13:21:45 to 2026-04-05 13:27:57)."
+ ],
+ "photo": "photos/089216c935d26996033ea77b91e2055aed498e4d663a700fd4bf0cdc9e83dbf4.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "988151",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

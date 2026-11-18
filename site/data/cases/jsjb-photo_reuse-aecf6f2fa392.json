@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-aecf6f2fa392",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Izzat Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aca47631bfdd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.96156164, 75.30139036).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-06 14:23:31 to 2026-05-06 14:25:06)."
+ ],
+ "photo": "photos/aca47631bfdde7285cbe3c872b9c7742bc028a307cd153d5b0da3f9c74539ef6.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "7586721",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

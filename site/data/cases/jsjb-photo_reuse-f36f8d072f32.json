@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f36f8d072f32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Achaganapalli",
+  "Palyakere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 80d6f340a2a6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Recharge Pit (1)."
+ ],
+ "photo": "photos/80d6f340a2a6573bc10e0cd658ad2371b4084b65ccb4273d6e067235ab735a42.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3093670",
+   "village": "Palyakere",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-12",
+   "end_date": "2025-06-12",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3396278",
+   "village": "Achaganapalli",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-803669a5c6c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Kathmana",
+  "Khedooliya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7dec8fd823ec) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bench Terracing (1), Rooftop Water Harvesting Structure (1)."
+ ],
+ "photo": "photos/7dec8fd823ecea5808d43d2ffe640707be9f6a32b97fab008e00475e44937a9d.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "6298172",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

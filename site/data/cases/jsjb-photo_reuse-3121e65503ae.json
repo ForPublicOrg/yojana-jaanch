@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3121e65503ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Bahadarke",
+  "Bhamipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 386a8b04c50f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 6 minutes (2026-02-05 11:31:41 to 2026-02-05 11:37:34)."
+ ],
+ "photo": "photos/386a8b04c50f086788d0b2a777ace2f711e3226d6b46325f0ce6b69d7fd02763.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256144",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

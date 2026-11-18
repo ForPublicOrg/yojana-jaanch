@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6efefc4d620d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Alisher",
+  "Gazikot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e927b0251ac8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/e927b0251ac8ec4eaa57d71a1380078d3ac844085015571b8d800cf7cc8091d4.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "1260571",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

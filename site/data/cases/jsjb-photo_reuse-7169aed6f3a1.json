@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7169aed6f3a1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Dangharian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6390aac30c9e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (30.61036, 76.5123).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-13 22:09:50 to 2026-05-13 22:12:29)."
+ ],
+ "photo": "photos/6390aac30c9ebe8d017be1ae804c385e355c4c00de5edd307529a19afab5b1ef.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "8969836",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

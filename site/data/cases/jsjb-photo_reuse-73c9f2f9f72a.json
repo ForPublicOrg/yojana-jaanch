@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-73c9f2f9f72a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Mallikuttai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint eee5d6f71622) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.73, 77.92).",
+  "The photo was uploaded 3 times within 7 minutes (2025-07-10 15:33:40 to 2025-07-10 15:39:55)."
+ ],
+ "photo": "photos/eee5d6f716222593006a62c72108fbb87c5924f75f5a4e7b83a55ada41829403.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9363324",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

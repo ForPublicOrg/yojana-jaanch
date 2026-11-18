@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ccae6212f6bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Hameera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce6381611a5d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.001449, 71.077339).",
+  "The photo was uploaded 4 times within 7 minutes (2026-05-30 12:55:17 to 2026-05-30 13:01:38)."
+ ],
+ "photo": "photos/ce6381611a5d8169986104fced5ab3d02404e31aaec04fef28b5a9a97b72f138.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15056357",
+   "village": "Hameera",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-20",
+   "lat": 27.001449,
+   "lon": 71.077339,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "15057625",
+   "village": "Hameera",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-20",
+   "lat": 27.001449,
+   "lon": 71.077339,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

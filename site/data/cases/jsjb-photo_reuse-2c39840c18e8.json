@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2c39840c18e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Kumaripalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ad73e083b053) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.0564257, 78.1600948)."
+ ],
+ "photo": "photos/ad73e083b053dec4500ac8aae68a5f090603aff24903d8005aa36a0ded890390.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339817",
+   "village": "Kumaripalayam",
+   "structure_type": "Percolation Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-15",
+   "end_date": "2025-04-25",
+   "lat": 11.0564257,
+   "lon": 78.1600948,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9341381",
+   "village": "Kumaripalayam",
+   "structure_type": "Percolation Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-02-02",
+   "end_date": "2025-02-25",
+   "lat": 11.0564257,
+   "lon": 78.1600948,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

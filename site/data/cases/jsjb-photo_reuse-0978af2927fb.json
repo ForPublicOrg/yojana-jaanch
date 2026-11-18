@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-0978af2927fb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Bhagwanpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6451d478d902) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2), Other (1)."
+ ],
+ "photo": "photos/6451d478d902c618f1220056736d72131f211eda5c615428d18568f9491102e1.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "1245914",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

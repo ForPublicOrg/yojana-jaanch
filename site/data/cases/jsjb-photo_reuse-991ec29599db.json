@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-991ec29599db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Chakmukand",
+  "Jagdev Kalan",
+  "Saktu Nangal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 359bd9bf0679) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (5).",
+  "The entries were made by 2 different offices: BDPO Attari, BDPO Harsha Chhina.",
+  "These works are spread over 2 blocks: Attari, Harshe Chhina."
+ ],
+ "photo": "photos/359bd9bf06798fc5d503590f1ce6815c51db0cd83f58518cb702bb1d5bc2fc82.jpeg",
+ "offices": [
+  "BDPO Attari",
+  "BDPO Harsha Chhina"
+ ],
  "records": [
   {
    "record_id": "10726414",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

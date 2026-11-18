@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0915bbe25cbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Suna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 69d55135007e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.435611, 76.093417).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-27 12:45:08 to 2026-05-27 12:51:03)."
+ ],
+ "photo": "photos/69d55135007e06e1332f7ed3c08da2d04de016557a9b8ac14f3e2dc318183f33.jpg",
+ "offices": [
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "13471120",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

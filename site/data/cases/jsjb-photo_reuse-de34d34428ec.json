@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-de34d34428ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Arniwala Shiekh Subhan",
+ "villages": [
+  "Arniwala Sheikh Subhan",
+  "Dabwala Kalan",
+  "Mammu Khera",
+  "Mohar Singh Wala Hithar"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 90ebe8a2037c) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Jalalabad."
+ ],
+ "photo": "photos/90ebe8a2037cc55260fdfb04d8cb43aecbe0d1c62fd5906f6a1500f7f45e2cf6.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981296",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Arniwala Shiekh Subhan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

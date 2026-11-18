@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-5d03593fa069",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Akhlaspur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): c18f006df5d9 on 5 works, e4aa9a600ece on 1 work.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (31.954, 75.319)."
+ ],
+ "photo": "photos/c18f006df5d9c22eab8472f85c8152bbc50cddafe6df39af9c9350b39b0736ee.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "7380000",
@@ -85,5 +106,21 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "c18f006df5d9c22eab8472f85c8152bbc50cddafe6df39af9c9350b39b0736ee",
+   "records": 5
+  },
+  {
+   "sha256": "e4aa9a600ecef5da5deb7c0dfb1783fdf1e178c48552a2d06e4b05c40856de35",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-787c0f4c4448"
  ]
 }

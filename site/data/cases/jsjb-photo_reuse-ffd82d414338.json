@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-ffd82d414338",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Balpur",
+  "Behlolpur",
+  "Bharri",
+  "Ditupur Faqiria",
+  "Gunian Majra"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint eed2ce1e7983) is attached to 20 different works in 5 villages. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "These works are spread over 2 blocks: Khamano, Sirhind."
+ ],
+ "photo": "photos/eed2ce1e7983eca417d20ad9579a8e5d9d5490fda132155a58700c2fd2019204.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5009499",
@@ -281,5 +304,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 60,
+ "needs_human_review": false
 }

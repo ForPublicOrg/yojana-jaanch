@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f9a19f122b80",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Basantpur",
+  "Batraulia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3e9eb82742f3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.67684, 85.444572).",
+  "The photo was uploaded 2 times within 4 minutes (2025-06-24 16:00:06 to 2025-06-24 16:03:52)."
+ ],
+ "photo": "photos/3e9eb82742f3adaf7dfeab1bb51f8b218c2a2e9d840948dd4926290213c28cbd.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "67868769920",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

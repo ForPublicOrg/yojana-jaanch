@@ -1,5 +1,32 @@
 {
  "id": "jsjb-upload_burst-a8d79d64febb",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "12 photos uploaded in 10 minutes by MPDO",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Kakumanu",
+ "villages": [
+  "Danthalur",
+  "Garikapadu",
+  "Godavarru",
+  "Kollimarla",
+  "Nallapadu (R)",
+  "Pandrapadu",
+  "Retur",
+  "Vadlamudi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 different photos for 12 different works were uploaded by MPDO within 10 minutes, from 2026-07-03 14:50:44 to 2026-07-03 15:00:17.",
+  "That is about one work every 48 seconds on average.",
+  "The works are in 8 villages: Danthalur, Garikapadu, Godavarru, Kollimarla, Nallapadu (R), Pandrapadu, Retur, Vadlamudi.",
+  "These works are spread over 4 blocks: Chebrole, Guntur, Kakumanu, Kollipara."
+ ],
+ "photo": null,
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "7141756",
@@ -169,5 +196,8 @@
    "area_type": "Rural",
    "block": "Chebrole"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

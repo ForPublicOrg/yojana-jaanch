@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-40c827aac4d7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Sans"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 80af1a84b18c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.3970373, 75.2433483).",
+  "The entries were made by 2 different offices: JEN Panchayat Raj Malpura, Jen."
+ ],
+ "photo": "photos/80af1a84b18c93c580b00e3f54679d8c7dd8f9fefd455dc93f676f586871d5ee.jpg",
+ "offices": [
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3562184",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

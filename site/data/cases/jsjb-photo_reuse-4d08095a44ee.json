@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4d08095a44ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Kashi Vidyapeeth",
+ "villages": [
+  "Lathiya",
+  "Tikari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9af45c730865) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2)."
+ ],
+ "photo": "photos/9af45c73086572aeb1199d44a0c71ccb09abc0bcdd2ce1221f195881c30370ff.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "472975",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kashi Vidyapeeth"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

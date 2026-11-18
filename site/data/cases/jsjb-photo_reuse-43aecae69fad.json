@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-43aecae69fad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Pandamangalam (TP) - Ward No.6",
+  "Venkarai (TP) - Ward No.11",
+  "Venkarai (TP) - Ward No.3"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 776f89f423f6) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: EO PANDAMANGALAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Pandamangalam, Venkarai."
+ ],
+ "photo": "photos/776f89f423f655fe13b1a5c3b1067aa9479107575e9407d48cff1ce71f53d11f.jpg",
+ "offices": [
+  "EO PANDAMANGALAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3515217",
+   "village": "Pandamangalam (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-11-06",
+   "end_date": "2025-11-30",
+   "lat": 11.103965,
+   "lon": 77.96704,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  },
+  {
+   "record_id": "3785202",
+   "village": "Venkarai (TP) - Ward No.11",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-11-06",
+   "end_date": "2025-11-20",
+   "lat": 11.087918,
+   "lon": 77.960423,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3801012",
+   "village": "Venkarai (TP) - Ward No.3",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2026-01-15",
+   "end_date": "2026-01-30",
+   "lat": 11.094923,
+   "lon": 77.974115,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-42488981475c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Bhainsawata Khurd",
+  "Dhadhot Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fbf1ed82b0dc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/fbf1ed82b0dc9013fc5fd3949e50cc59e75b0adc303887c775f6e25b76c3389f.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4292373",
+   "village": "Bhainsawata Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-02-07",
+   "end_date": "2026-02-14",
+   "lat": 28.142831,
+   "lon": 75.758711,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4294518",
+   "village": "Dhadhot Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-07",
+   "end_date": "2025-11-28",
+   "lat": 28.146361,
+   "lon": 75.740256,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

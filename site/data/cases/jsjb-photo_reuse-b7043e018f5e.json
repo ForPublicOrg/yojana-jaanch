@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-b7043e018f5e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Arniwala Shiekh Subhan",
+ "villages": [
+  "Chak Ban Wala",
+  "Janisar",
+  "Mahuana Bodla"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2051e10e9416) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: BDPO Arniwala, BDPO jalalabad.",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Jalalabad."
+ ],
+ "photo": "photos/2051e10e941644ed6c05d75ff55c7991aadc6f69632c555d9034e519d27e9025.jpg",
+ "offices": [
+  "BDPO Arniwala",
+  "BDPO jalalabad"
+ ],
  "records": [
   {
    "record_id": "1074140",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Arniwala Shiekh Subhan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

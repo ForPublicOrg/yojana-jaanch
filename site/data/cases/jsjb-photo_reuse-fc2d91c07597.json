@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fc2d91c07597",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Dakhla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c6184a6d8742) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-07 22:59:10 to 2026-05-07 23:00:38)."
+ ],
+ "photo": "photos/c6184a6d8742aadd7c6b9a9d6f328cc29f0eda0916bc784fb76cef4f8eba027f.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7843368",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

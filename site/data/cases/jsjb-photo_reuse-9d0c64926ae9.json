@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9d0c64926ae9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Tirumanur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b552a53666fb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/b552a53666fba388b8f745d123ae4e8497879f9986760ae9358d506288c35a83.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346591",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

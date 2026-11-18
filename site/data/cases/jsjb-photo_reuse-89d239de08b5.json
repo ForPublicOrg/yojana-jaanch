@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-89d239de08b5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Uchokey Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f1d5c7a30a4b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.551127, 74.889917).",
+  "The photo was uploaded 4 times within 9 minutes (2026-05-07 07:44:12 to 2026-05-07 07:52:56)."
+ ],
+ "photo": "photos/f1d5c7a30a4bb95793ed7826d73e55331dd366e59d750e368c47aa0259fdcdca.jpg",
+ "offices": [
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7668548",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

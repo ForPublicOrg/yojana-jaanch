@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1711da072762",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 25 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Idaiyapatti",
+  "Kurukkupatti (Ct)",
+  "Mallikuttai"
+ ],
+ "record_count": 25,
+ "reasons": [
+  "The same photo file (fingerprint 3fc6c122b7e6) is attached to 25 different works in 3 villages. A photo of one site cannot be evidence for 25 separate works.",
+  "The works are recorded as: Soak Pit (25)."
+ ],
+ "photo": "photos/3fc6c122b7e6ef9c5e10464d0e0805faf9516ce92ad3db00d9976292815852c3.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345307",
@@ -351,5 +371,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 75,
+ "needs_human_review": false
 }

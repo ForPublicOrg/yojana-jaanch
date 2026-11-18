@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-ec85754a1ec2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Dhilwan Kalan",
+  "Ghugiana",
+  "Khara",
+  "Nathe Wala"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint b6c17b94ee64) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4).",
+  "The entries were made by 3 different offices: APO Mgnrega, SDO, Zilledar.",
+  "These works are spread over 2 blocks: Faridkot, Kot Kapura."
+ ],
+ "photo": "photos/b6c17b94ee643916fb8d4296e048505dda57e2c67e3c3a7a99a2963bc63accca.jpg",
+ "offices": [
+  "APO Mgnrega",
+  "SDO",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977329",
@@ -57,5 +82,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

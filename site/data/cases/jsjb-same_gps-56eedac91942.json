@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-56eedac91942",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Niwai (M) - Ward No.20",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Niwai",
+ "villages": [
+  "Niwai (M) - Ward No.20"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Niwai (M) - Ward No.20 report exactly the same GPS point (26.36, 75.92).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Executive officer"
+ ],
  "records": [
   {
    "record_id": "13003515",
@@ -71,5 +91,8 @@
    "area_type": "Urban",
    "block": "Niwai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

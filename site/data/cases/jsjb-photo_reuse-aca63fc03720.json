@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-aca63fc03720",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Rustam Bahiari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dc97cd4ba725) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.271303, 84.40718).",
+  "The photo was uploaded 4 times within 15 seconds (2026-03-20 11:11:57 to 2026-03-20 11:12:12)."
+ ],
+ "photo": "photos/dc97cd4ba7255f23c135d9c3ae4169d3b02ba40c68e24776e20c0029d3da1983.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4062102",
+   "village": "Rustam Bahiari",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-08",
+   "end_date": "2025-12-30",
+   "lat": 26.271303,
+   "lon": 84.40718,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4062114",
+   "village": "Rustam Bahiari",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-08",
+   "end_date": "2025-12-30",
+   "lat": 26.271303,
+   "lon": 84.40718,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

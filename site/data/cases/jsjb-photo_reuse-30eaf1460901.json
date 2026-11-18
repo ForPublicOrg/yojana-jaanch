@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-30eaf1460901",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pattanam",
+ "villages": [
+  "Pattinam (TP) - Ward No.10",
+  "Pattinam (TP) - Ward No.12"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d3666a62cda) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/8d3666a62cda279c996492206b46524d0fbc2b877092e5694a2e63aa7911c3d4.jpg",
+ "offices": [
+  "EO PATTANAM"
+ ],
+ "records": [
+  {
+   "record_id": "3574983",
+   "village": "Pattinam (TP) - Ward No.10",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.46385,
+   "lon": 78.20754,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3584652",
+   "village": "Pattinam (TP) - Ward No.12",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.47173,
+   "lon": 78.2069,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

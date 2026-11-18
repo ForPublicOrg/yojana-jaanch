@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d91a72017960",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Dewa"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint fc7e7b96f340) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Soak Pit (6), Tank (1)."
+ ],
+ "photo": "photos/fc7e7b96f340bed55f7b0793fcc6c4921c0a5206caaf999c4a87e220dc465ed9.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "3973782",
@@ -99,5 +117,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

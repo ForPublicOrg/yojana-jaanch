@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-60a549051429",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Vellur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c525cf7e72c0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/c525cf7e72c00fe40714dd32f1c4725760923171da84454c3aaf8bec9b8481c7.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
+ "records": [
+  {
+   "record_id": "9351174",
+   "village": "Vellur",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-04-13",
+   "end_date": "2023-08-10",
+   "lat": 11.819312,
+   "lon": 78.176696,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "9351268",
+   "village": "Vellur",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-12-19",
+   "lat": 11.815971,
+   "lon": 78.159688,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

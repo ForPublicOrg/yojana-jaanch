@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-794cdc13ee72",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Balua",
+  "Suhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 974eb1e16ff4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-02-02 16:03:03 to 2026-02-02 16:07:30)."
+ ],
+ "photo": "photos/974eb1e16ff432b15f693462f2fc8950f4d0c8d16ca98193eb15930f01ebe1dc.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "169757769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

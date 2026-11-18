@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3146012e1f94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Maniari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c8ad1b3f858e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7154899, 85.3380115).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-04 14:24:43 to 2026-04-04 14:27:50)."
+ ],
+ "photo": "photos/c8ad1b3f858e0f06e98597bbdbeab8b814be8ac58ec35ba9a69a65fadb54f483.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4473759",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

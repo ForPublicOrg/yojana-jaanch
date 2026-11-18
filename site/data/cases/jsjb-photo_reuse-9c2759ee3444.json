@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9c2759ee3444",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Khareda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0a835abd6e4c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (26.035288, 75.633464)."
+ ],
+ "photo": "photos/0a835abd6e4c1b4e66ad16518b6b5cff48160edb3b88e1ba67b1f4b3ad36b578.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "14832483",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

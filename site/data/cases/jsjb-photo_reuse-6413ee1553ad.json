@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-6413ee1553ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Bailnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e751f98e9caf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Village Pond (1).",
+  "All 2 works report the same GPS point (11.384087, 78.340313)."
+ ],
+ "photo": "photos/e751f98e9caf8b08e08d761ea79e18c212cd882a23590d0b21a76cb20309a382.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332585",
+   "village": "Bailnadu",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-05-28",
+   "lat": 11.384087,
+   "lon": 78.340313,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9334965",
+   "village": "Bailnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-17",
+   "end_date": "2025-07-26",
+   "lat": 11.384087,
+   "lon": 78.340313,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

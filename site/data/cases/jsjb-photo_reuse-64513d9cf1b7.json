@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-64513d9cf1b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Jallal",
+  "Nangali",
+  "Naurang Pur",
+  "Sathiala"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 3e19b27b5cbf) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8)."
+ ],
+ "photo": "photos/3e19b27b5cbf88c071b432ba6f7ac098d0957fb5bd6bc2fac7ee8fdb6a94c794.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "8856430",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

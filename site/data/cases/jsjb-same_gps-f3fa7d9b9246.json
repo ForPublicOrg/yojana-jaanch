@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-f3fa7d9b9246",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Ajagara",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Ajagara"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Ajagara report exactly the same GPS point (25.096346, 83.080887).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3373481",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

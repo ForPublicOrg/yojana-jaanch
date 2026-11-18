@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4a92920aa777",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Kishangarh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0dc2e569db40) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/0dc2e569db401f384fd37edbddd12ed8971e07a9ad0b3e0b18ec34d28bb16dde.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "11106729",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

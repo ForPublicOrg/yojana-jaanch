@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-42af8a04bc2c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 351 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Tarsikka"
+ ],
+ "record_count": 351,
+ "reasons": [
+  "The same picture was saved as 3 different files and attached to 351 different works in 1 village. A photo of one site cannot be evidence for 351 separate works.",
+  "The 3 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.005 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 6ca2ed5a023a on 221 works, b4ea2c401c43 on 128 works, f200af99cd2c on 2 works.",
+  "The works are recorded as: Other (349), Contour Trench (2).",
+  "All 351 works report the same GPS point (31.38, 75.72)."
+ ],
+ "photo": "photos/6ca2ed5a023a0dcf6255360d4a02f865c63296cf91a1cf007ac47498e64971b1.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5475309",
@@ -4915,5 +4936,26 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 1054,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "6ca2ed5a023a0dcf6255360d4a02f865c63296cf91a1cf007ac47498e64971b1",
+   "records": 221
+  },
+  {
+   "sha256": "b4ea2c401c43dcc1821a51dffbaa929b999b7875ce4fcaaf029f7d07b6d16d58",
+   "records": 128
+  },
+  {
+   "sha256": "f200af99cd2c1e487c46dbba6c0235f0f8f3536222a53528c58b073ec6558e34",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-616d74473da2",
+  "jsjb-photo_reuse-cd01a9325a29"
  ]
 }

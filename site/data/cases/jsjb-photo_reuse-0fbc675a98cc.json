@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0fbc675a98cc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Medharkalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0108099ad31e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (26.390732, 76.132017).",
+  "The photo was uploaded 4 times within 16 seconds (2026-02-25 11:13:15 to 2026-02-25 11:13:31)."
+ ],
+ "photo": "photos/0108099ad31e5671b5b92709a32f79ee140643f89fa86a864eb0055a759b7f53.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3646725",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

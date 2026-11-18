@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-349d73549030",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Sekhu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d96c2d2a8ae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.985263, 74.872224).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-25 10:43:01 to 2026-04-25 10:45:46)."
+ ],
+ "photo": "photos/0d96c2d2a8ae86bc8e0c19fac64e7892f2f796ac7be9f2347b27830f7fbefca0.jpg",
+ "offices": [
+  "Centre Head Teacher"
+ ],
  "records": [
   {
    "record_id": "5475297",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

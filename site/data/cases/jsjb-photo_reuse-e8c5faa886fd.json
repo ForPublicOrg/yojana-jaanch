@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e8c5faa886fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Banauli",
+  "Harari Dularpur",
+  "Pathanpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 006dc9d1007f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/006dc9d1007f349c6436e81963139fa019a2e8f66aaceb711924e6ed048f1adb.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4477521",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

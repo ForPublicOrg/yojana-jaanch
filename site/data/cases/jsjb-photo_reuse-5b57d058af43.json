@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5b57d058af43",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Chebrole",
+ "villages": [
+  "Chebrolu",
+  "Manchala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ffac705a8c13) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/ffac705a8c13c73d01e10ba46a09e7f8129fd116020b7ed9bec2c270f3e6db09.jpg",
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "421307769920",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Chebrole"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

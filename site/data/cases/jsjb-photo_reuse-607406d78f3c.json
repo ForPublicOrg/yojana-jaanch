@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-607406d78f3c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Bagga",
+  "Saffipur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 746d86633614) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "The entries were made by 2 different offices: BDPO Jandiala, BDPO Tarsikka.",
+  "These works are spread over 2 blocks: Jandiala Guru, Tarsikka."
+ ],
+ "photo": "photos/746d86633614b7ebf3e329ca93a64f5996182d9bbd876e3137224be7258d8d5e.jpg",
+ "offices": [
+  "BDPO Jandiala",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7664118",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Jandiala Guru"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

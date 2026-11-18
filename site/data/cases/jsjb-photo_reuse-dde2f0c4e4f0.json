@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dde2f0c4e4f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Ghaniaki"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 1d207785d8ea) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.40858, 75.250668)."
+ ],
+ "photo": "photos/1d207785d8ea3378f35cd284d831a35a2d2701d68e3bbeab2603463713c8606e.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "12027275",
@@ -281,5 +300,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 61,
+ "needs_human_review": false
 }

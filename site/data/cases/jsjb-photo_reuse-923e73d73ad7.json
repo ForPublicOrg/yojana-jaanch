@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-923e73d73ad7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Baronga Buland"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 573ed1f00263) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-02-24 12:50:54 to 2026-02-24 12:52:55)."
+ ],
+ "photo": "photos/573ed1f002637c9f0547c69b827de6a43985fa13412fee2be253d4580847e116.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1047603",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

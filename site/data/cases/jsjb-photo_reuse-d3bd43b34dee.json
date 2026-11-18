@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-d3bd43b34dee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Khilchian",
+  "Mehsampurkalan",
+  "Mehta",
+  "Othian"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 53e0ea43b25d) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8).",
+  "Each of the 8 works started and ended on a single day. The works are spread over 7 dates: 2025-05-15, 2025-05-16, 2025-05-17, 2025-05-23, 2025-05-24, 2025-05-31, 2025-06-02.",
+  "These works are spread over 3 blocks: Rayya, Tarsikka, Verka."
+ ],
+ "photo": "photos/53e0ea43b25d10e419e93d1761413ef08cdb97c4938b65ab1fd6d2fc1e65cadd.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5182507",
@@ -113,5 +136,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

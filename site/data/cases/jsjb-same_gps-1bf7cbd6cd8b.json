@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-1bf7cbd6cd8b",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "31 works at one GPS point in Kadayampatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Kadayampatti"
+ ],
+ "record_count": 31,
+ "reasons": [
+  "31 works in Kadayampatti report exactly the same GPS point (11.86, 78.05).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (31).",
+  "They carry 31 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9354254",
@@ -435,5 +455,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

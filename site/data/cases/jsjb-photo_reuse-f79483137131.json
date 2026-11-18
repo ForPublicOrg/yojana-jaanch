@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f79483137131",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Shahkot",
+ "villages": [
+  "Kohar Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ae6a46e6cf33) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.094905, 75.284167).",
+  "The photo was uploaded 4 times within 42 seconds (2026-04-16 16:40:29 to 2026-04-16 16:41:11)."
+ ],
+ "photo": "photos/ae6a46e6cf33ec77f51360a5c85fea2042db5c646602ceebc0a7531c4bbd4b4c.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "971661",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Shahkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

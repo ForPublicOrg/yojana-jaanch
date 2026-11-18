@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-99ebe77dd5f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Kakraj Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4590ff6ec3b2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (26.21592, 75.76699)."
+ ],
+ "photo": "photos/4590ff6ec3b20813805a7254dcb81278ffcd6c2565ebe08fb2d804dfba8d6035.jpg",
+ "offices": [
+  "AEn"
+ ],
  "records": [
   {
    "record_id": "3716945",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

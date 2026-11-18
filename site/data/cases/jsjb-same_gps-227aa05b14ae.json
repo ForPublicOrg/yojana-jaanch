@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-227aa05b14ae",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Madhubani",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Madhubani"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Madhubani report exactly the same GPS point (26.7061731, 85.5288752).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4491543",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

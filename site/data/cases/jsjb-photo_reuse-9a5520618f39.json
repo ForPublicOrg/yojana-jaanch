@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9a5520618f39",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Balua Kharaua",
+  "Deona Buzurg",
+  "Neori",
+  "Pota Urf Tajpur Phaksia Bharthi"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 404150d1026d) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (8)."
+ ],
+ "photo": "photos/404150d1026d4f4d6c75e4b8b081dec27d53de33dbca51bbc06a42d665403659.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4422321",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

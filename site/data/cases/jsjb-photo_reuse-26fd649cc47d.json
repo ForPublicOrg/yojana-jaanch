@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-26fd649cc47d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Mudigere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b805f088cfd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "All 2 works report the same GPS point (13.584273, 77.459263).",
+  "The photo was uploaded 4 times within 4 seconds (2026-05-09 22:41:26 to 2026-05-09 22:41:30)."
+ ],
+ "photo": "photos/5b805f088cfdfde5126af9c0f494bbebe46918a043986976f62b96f4d57efaca.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "8192015",
+   "village": "Mudigere",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2026-04-01",
+   "lat": 13.584273,
+   "lon": 77.459263,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "8192016",
+   "village": "Mudigere",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-04-28",
+   "end_date": "2024-09-08",
+   "lat": 13.584273,
+   "lon": 77.459263,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

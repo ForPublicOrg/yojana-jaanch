@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-917b07e6160d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Ahmedpur",
+  "Hazipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4a25d89a779f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/4a25d89a779f43be481c81f71445b808d4ff330593dbcd3ccfb06b290183cac5.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1065745",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-51b3f8b99e1c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Dhoul Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 352592179d34) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/352592179d3438a4d839b7b01643f125545f790a1287be70bb864d193c89db53.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1321312",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

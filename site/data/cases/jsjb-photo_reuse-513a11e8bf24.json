@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-513a11e8bf24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Asogi",
+  "Basantpur",
+  "Batraulia",
+  "Bhagwanpur",
+  "Kharsan",
+  "Pakri",
+  "Ramnagar",
+  "Shahbazpur",
+  "Sirahi"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 627e7c0a9368) is attached to 15 different works in 9 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Village Pond (12), Recharge Pit (2), Gaibaion (1)."
+ ],
+ "photo": "photos/627e7c0a936830729d0afa78ac14f5ad8989feaf1dd803048107190ccfd45416.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3982442",
@@ -211,5 +237,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

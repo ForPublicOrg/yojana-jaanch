@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-443e28f0912d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Abakavaripalli",
+  "Joolapalya",
+  "Peddapalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4759f0573cc1) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (2), Contour Trench (1).",
+  "All 3 works report the same GPS point (13.708823, 78.255554).",
+  "These works are spread over 2 blocks: Bagepalli, Cheluru."
+ ],
+ "photo": "photos/4759f0573cc146e24d0cbf68a0043ca79c25d139c96f3efb054c0c9c695d164c.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3094130",
+   "village": "Joolapalya",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-05",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3101981",
+   "village": "Abakavaripalli",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-07",
+   "end_date": "2025-08-02",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3123406",
+   "village": "Peddapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-08",
+   "end_date": "2025-07-22",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

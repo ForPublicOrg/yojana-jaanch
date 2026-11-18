@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-50acca3f5fb3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Mecheri",
+ "villages": [
+  "Aranganur",
+  "Olaipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4f79bdf77dd4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/4f79bdf77dd47bce27143d69989223f3b127d690cd4ec2d8f3a59a5c5874c043.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10357479",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mecheri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

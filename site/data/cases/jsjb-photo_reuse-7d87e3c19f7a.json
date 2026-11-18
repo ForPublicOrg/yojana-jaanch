@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7d87e3c19f7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Selavadi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b3ecbe662445) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.6996, 77.914).",
+  "The photo was uploaded 3 times within 11 minutes (2025-06-27 12:56:39 to 2025-06-27 13:07:32)."
+ ],
+ "photo": "photos/b3ecbe6624453fd28ae9147d857d91bb23fa4746e032501d9562ec9b2a41dfd3.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346138",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

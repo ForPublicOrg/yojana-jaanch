@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-542c2b31bc44",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Sonnenahalli",
+  "Thaladummanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 490943fc8546) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 18 minutes (2026-02-27 13:24:50 to 2026-02-27 13:42:05)."
+ ],
+ "photo": "photos/490943fc85465d8e86d8d90e165119f4797e8fb73df919f2dc103486afaee02e.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3707648",
+   "village": "Sonnenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-25",
+   "end_date": "2025-10-30",
+   "lat": 13.40407,
+   "lon": 77.895619,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3708460",
+   "village": "Thaladummanahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-08-20",
+   "lat": 13.387309,
+   "lon": 77.895137,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

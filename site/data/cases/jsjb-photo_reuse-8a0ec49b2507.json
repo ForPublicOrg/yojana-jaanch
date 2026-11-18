@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8a0ec49b2507",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Chak Nurali",
+  "Nangal Ghorewaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c527bcbc009) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-11 11:39:51 to 2026-03-11 11:41:44)."
+ ],
+ "photo": "photos/3c527bcbc0093562dad0dee083ea4e94e007c6f08fe1e59dfb95a7c97f91dd3a.jpg",
+ "offices": [
+  "Canal Patwari"
+ ],
  "records": [
   {
    "record_id": "997872",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

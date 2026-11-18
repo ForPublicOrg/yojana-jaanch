@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-6860ba87bb51",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Banaul",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Banaul"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Banaul report exactly the same GPS point (26.0, 85.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1), Recharge Pit (1), Soak Pit (1).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "3742843",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

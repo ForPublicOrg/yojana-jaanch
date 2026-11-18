@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-99ec7582cd6c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Ganguwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 066523de9d59) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-10 15:01:33 to 2026-03-10 15:03:25)."
+ ],
+ "photo": "photos/066523de9d59e6f3fd146d2f3349c18ddb1126f34dfe987309ca9ca88b67c717.jpg",
+ "offices": [
+  "Canal Patwari"
+ ],
  "records": [
   {
    "record_id": "994440",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

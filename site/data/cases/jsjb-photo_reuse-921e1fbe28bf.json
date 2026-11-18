@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-921e1fbe28bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Rajeana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aa858b86402b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.660582, 75.070883).",
+  "All 2 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 2 times within 40 seconds (2026-05-12 15:17:43 to 2026-05-12 15:18:23)."
+ ],
+ "photo": "photos/aa858b86402ba249a890f15f233ecaed1818740104a2f985c659f9ba6a7cc49d.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8707406",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7ec175b14986",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Jhunjhunu",
+ "villages": [
+  "Derwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0e9f56b3d644) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.056825, 75.352307)."
+ ],
+ "photo": "photos/0e9f56b3d6445272266775b064150405d1c606e5d851f40e2327798a2361066a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4250206",
+   "village": "Derwala",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-15",
+   "end_date": "2026-02-16",
+   "lat": 28.056825,
+   "lon": 75.352307,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  },
+  {
+   "record_id": "4252846",
+   "village": "Derwala",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-15",
+   "end_date": "2026-02-16",
+   "lat": 28.056825,
+   "lon": 75.352307,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

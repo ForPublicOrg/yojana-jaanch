@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-265e242db429",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Gudha Gorji",
+  "Nangal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f7465c6eb95) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/3f7465c6eb95d2dabe5f6d4bb8b4dc96f4c2bd534c38c99433047428c7b27500.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4290318",
+   "village": "Nangal",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2022-07-13",
+   "end_date": "2022-07-28",
+   "lat": 27.487563,
+   "lon": 75.685475,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4310232",
+   "village": "Gudha Gorji",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2021-12-16",
+   "end_date": "2021-12-31",
+   "lat": 27.538929,
+   "lon": 75.347281,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

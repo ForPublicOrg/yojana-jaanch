@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a7bf7980d44d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Maniana"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7a3a5663afc4) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 6 times within 2 minutes (2026-05-22 10:07:22 to 2026-05-22 10:09:18)."
+ ],
+ "photo": "photos/7a3a5663afc4f2a2ff5390bcd58992e998d41da6a64d4e1ab89f46ebe68eb3f8.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "11014449",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

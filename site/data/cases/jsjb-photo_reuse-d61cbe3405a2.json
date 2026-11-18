@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d61cbe3405a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Chandar Saina",
+  "Parigawan"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint cff5046f4eac) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4).",
+  "The entries were made by 2 different offices: District Magistrate, PO Charaut."
+ ],
+ "photo": "photos/cff5046f4eac9896203b2cae3e68809ba47ee8885c8e3350c6c082d4057d77af.jpg",
+ "offices": [
+  "District Magistrate",
+  "PO Charaut"
+ ],
  "records": [
   {
    "record_id": "3453436",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

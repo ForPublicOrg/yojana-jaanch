@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7a9a321ba11d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Badesh Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f88ced238e3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "All 2 works report the same GPS point (30.840705, 76.366974)."
+ ],
+ "photo": "photos/3f88ced238e36be895636ca84b98ce9e6a9606a9eb98d53c2c066eae1fdb8bcb.jpg",
+ "offices": [
+  "X.E.N"
+ ],
  "records": [
   {
    "record_id": "2941497",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

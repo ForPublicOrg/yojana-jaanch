@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-eed6069e2993",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Bahilwara Tola Dhanukhi",
+  "Baligarh Deona Khurd"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 93af15d7a7b1) is attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6).",
+  "The photo was uploaded 12 times within 20 minutes (2026-04-07 16:00:14 to 2026-04-07 16:20:13)."
+ ],
+ "photo": "photos/93af15d7a7b1108626b5143f56bd86881c2f41fd009f1cad008a590aaddc2fb9.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4575645",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

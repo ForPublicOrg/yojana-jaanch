@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-3c8b3965717a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Kavakkrampatti",
+  "Pottireddipatty"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8efedd7aa163) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.170796, 78.270214)."
+ ],
+ "photo": "photos/8efedd7aa163859c1720f058f962d1c0580fca8bb376226aa8d309781dbe5950.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3440742",
+   "village": "Pottireddipatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-03-03",
+   "end_date": "2024-08-19",
+   "lat": 11.170796,
+   "lon": 78.270214,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "3640162",
+   "village": "Kavakkrampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-01-06",
+   "end_date": "2024-11-11",
+   "lat": 11.170796,
+   "lon": 78.270214,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

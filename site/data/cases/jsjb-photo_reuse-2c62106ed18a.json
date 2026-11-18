@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2c62106ed18a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Ellavampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 874c015f053f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.6787479, 77.915993).",
+  "The photo was uploaded 4 times within 3 minutes (2026-01-29 14:47:11 to 2026-01-29 14:49:35)."
+ ],
+ "photo": "photos/874c015f053f8c2ef5fc599af7487d486f318bfaee6e05d7af1842d0ed98260b.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349404",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

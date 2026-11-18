@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d7942ac26ec1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Marara"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7d2c62dba1a6) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.172477, 75.3824).",
+  "All 3 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/7d2c62dba1a61bb5fd1a5c48f668013edd00011197cdb99b3166a6a102fb0d5b.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7294858",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

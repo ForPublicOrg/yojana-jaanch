@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-c529339dfb82",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Ponparappipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8cb2c750cc20) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1)."
+ ],
+ "photo": "photos/8cb2c750cc20ca244f1ef60ac459c67a99913246bcdcde48ef432d590cdc5f30.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3342055",
+   "village": "Ponparappipatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2010-05-28",
+   "end_date": "2012-03-06",
+   "lat": 11.534191,
+   "lon": 78.12114,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9340598",
+   "village": "Ponparappipatti",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2020-02-11",
+   "end_date": "2021-01-15",
+   "lat": 11.534187,
+   "lon": 78.121147,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-dfe2832b2834",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Bhobiya",
+  "Hameenpur",
+  "Mahpalwas"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2ec51cf6756b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BDO, CEO ZILA PARISHAD.",
+  "These works are spread over 2 blocks: Pilani, Surajgarh."
+ ],
+ "photo": "photos/2ec51cf6756b4e2bf7981780d2fa37717006a596959ec7e38d6f2c99ee5093f4.jpg",
+ "offices": [
+  "BDO",
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4270157",
+   "village": "Bhobiya",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-01",
+   "end_date": "2025-12-05",
+   "lat": 28.78,
+   "lon": 75.369,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4292782",
+   "village": "Hameenpur",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-08",
+   "end_date": "2025-11-19",
+   "lat": 28.35,
+   "lon": 75.32,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4294170",
+   "village": "Mahpalwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

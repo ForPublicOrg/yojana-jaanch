@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-eae671fa45bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Pachnaur Murahi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint cad6c73fa90f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/cad6c73fa90f1e20f2df4422ac37ca621294a2ed34622907223d6a84e14ee0dc.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4423496",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

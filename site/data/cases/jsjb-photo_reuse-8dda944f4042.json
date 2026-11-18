@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-8dda944f4042",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Ghanda Bana"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0e3149939384) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/0e31499393849981b13935c88070cdefebad8b5cb8b10dc68551423f6bd2b1ac.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "4097939",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f1da528c2c96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Mann"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3eef751f915f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-02-04 13:51:14 to 2026-02-04 13:54:46)."
+ ],
+ "photo": "photos/3eef751f915f31529c59a51b7109f300aaa958ecf7add6ef1678bc0a2299def1.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1046451",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

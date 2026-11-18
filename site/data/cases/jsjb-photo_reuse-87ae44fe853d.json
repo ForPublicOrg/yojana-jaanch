@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-87ae44fe853d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Dhapai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71c83382dfeb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Patwari Water Resources Department."
+ ],
+ "photo": "photos/71c83382dfeb06671d539e01b633cf8ed140ab3d00981e2141d832ea9d3b644a.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "985108",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

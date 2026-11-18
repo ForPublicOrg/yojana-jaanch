@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cf27b623837f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Dihana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a48fe70dbb76) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "All 2 works report the same GPS point (31.357408, 75.895471)."
+ ],
+ "photo": "photos/a48fe70dbb76fc5a9eb75d3ae34614fb3c5e1c66a5cbf3dffa7f4c3605db894d.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "1057546",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

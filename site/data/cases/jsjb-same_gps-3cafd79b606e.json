@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3cafd79b606e",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "9 works at one GPS point in Bishunpur Kamdeo",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Bishunpur Kamdeo"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "9 works in Bishunpur Kamdeo report exactly the same GPS point (26.6626744, 85.3904651).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (9).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4486867",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

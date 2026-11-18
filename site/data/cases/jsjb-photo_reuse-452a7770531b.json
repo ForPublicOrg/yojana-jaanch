@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-452a7770531b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Bhateri",
+  "Bhuchi",
+  "Gadhera"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 218d292b0501) is attached to 11 different works in 3 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Contour Trench (11).",
+  "All 11 works report the same GPS point (30.0, 76.0).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khera."
+ ],
+ "photo": "photos/218d292b0501a36c9c7277334a477c26ae6ba5299fc3d2198562c8c2a81e3d93.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5194978",
@@ -155,5 +177,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

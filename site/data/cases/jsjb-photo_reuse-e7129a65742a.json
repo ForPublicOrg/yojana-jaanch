@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e7129a65742a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Arniya"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 395d4daf5a35) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (26.418675, 76.125502).",
+  "The photo was uploaded 6 times within 5 minutes (2026-05-31 13:54:14 to 2026-05-31 13:58:55)."
+ ],
+ "photo": "photos/395d4daf5a354f9a0b87c733bd3e52e6d69e4fb3a537d266891fd8258502be33.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "16056620",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

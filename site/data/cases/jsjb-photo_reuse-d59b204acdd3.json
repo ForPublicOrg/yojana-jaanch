@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-d59b204acdd3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Boparai Kalan",
+  "Heir",
+  "Jagdev Kalan",
+  "Khiala Kalan"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 0916c3ca83e9) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Recharge Pit (6).",
+  "These works are spread over 3 blocks: Attari, Chogawan, Harshe Chhina."
+ ],
+ "photo": "photos/0916c3ca83e91ea993325e3a9a0446d833d93a733d573b216a8532c4cfa805c6.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5025491",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

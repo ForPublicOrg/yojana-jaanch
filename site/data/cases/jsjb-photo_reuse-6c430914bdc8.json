@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6c430914bdc8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Salem",
+ "villages": [
+  "Kondappanaickenpatti (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 86ee03efca54) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.7218446, 78.1843914).",
+  "The photo was uploaded 2 times within 27 minutes (2025-06-25 15:39:59 to 2025-06-25 16:06:27)."
+ ],
+ "photo": "photos/86ee03efca546097f97acac20116d5309b36f4473c5df610e23aecb83921e957.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9359421",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Salem"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

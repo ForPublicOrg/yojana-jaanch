@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3acb593a8094",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Adavigollavarahalli",
+  "Agalagurki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1facf3bec21c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/1facf3bec21c5a79d474816b33b01a817c919722ad21df37194a92b283c5ce59.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3070445",
+   "village": "Agalagurki",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-05",
+   "end_date": "2025-09-15",
+   "lat": 13.543,
+   "lon": 77.534,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3099003",
+   "village": "Adavigollavarahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-01",
+   "end_date": "2025-10-30",
+   "lat": 13.21143,
+   "lon": 77.33216,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

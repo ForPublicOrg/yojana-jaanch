@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-79857a34e7c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Jhotiwala 54)",
+  "Sher Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cd5a9b48905b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/cd5a9b48905b88f6a4bfc606545a61373ada3245483f9881730fb903739841d9.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "986481",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

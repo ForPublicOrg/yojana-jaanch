@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-86c62b107b72",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Mahan Dev Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2802c1bfc334) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.977936, 75.368342).",
+  "The photo was uploaded 6 times within 2 minutes (2026-05-05 12:44:11 to 2026-05-05 12:45:19)."
+ ],
+ "photo": "photos/2802c1bfc334e72afc8a6f59b0aa8f0a5a0fe2c5b2adc05ebf1476acae5e1618.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "7453971",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

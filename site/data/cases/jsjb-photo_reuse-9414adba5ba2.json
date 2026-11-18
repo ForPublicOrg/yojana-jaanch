@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9414adba5ba2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Akoi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2dd30f26ae5b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 2 times within 46 seconds (2026-05-15 09:59:44 to 2026-05-15 10:00:30)."
+ ],
+ "photo": "photos/2dd30f26ae5b4606f085ba98d2c5426eabf21bf3ee498bb67acb8e1650a5a39c.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9234385",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

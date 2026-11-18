@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-973e8e1a0dbd",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "10 works at one GPS point in Bela",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Bela"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "10 works in Bela report exactly the same GPS point (25.096346, 83.080887).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (10).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3373418",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

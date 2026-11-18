@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5df587422d28",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Mandawa",
+ "villages": [
+  "Seegri",
+  "Shekhsar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c9aea0edb52a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/c9aea0edb52a3410e489f41da22851cf16fd093d7926d01c99b27971af2fa544.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3873917",
+   "village": "Shekhsar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-05-01",
+   "end_date": "2025-07-11",
+   "lat": 28.111677,
+   "lon": 75.20621,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "4301551",
+   "village": "Seegri",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-05",
+   "end_date": "2025-07-07",
+   "lat": 28.1116,
+   "lon": 75.2062,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5cc410e1c0ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Mudh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a469814baaa7) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "All 3 works report the same GPS point (31.32713, 74.135535).",
+  "The photo was uploaded 6 times within 11 minutes (2026-05-07 08:03:50 to 2026-05-07 08:14:19)."
+ ],
+ "photo": "photos/a469814baaa7124aeae7c19e8dc53b196f467dbceccb83bf8e652f5333eb40f1.jpg",
+ "offices": [
+  "BDPO Rayya"
+ ],
  "records": [
   {
    "record_id": "7671625",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

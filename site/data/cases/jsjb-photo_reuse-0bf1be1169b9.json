@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0bf1be1169b9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Anwa",
+  "Boyara",
+  "Gurai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e9639ffef1d0) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/e9639ffef1d0e1c70dd5b6b640f34409b87dd452895013fb841e7d3a2ea2325e.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3634378",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

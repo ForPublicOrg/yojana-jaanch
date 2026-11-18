@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fb76f64f65ff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Dumri Khurd"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint c350b0830dd8) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "All 4 works report the same GPS point (26.7457329, 85.3525434).",
+  "The photo was uploaded 8 times within 9 minutes (2026-04-01 18:55:14 to 2026-04-01 19:03:26)."
+ ],
+ "photo": "photos/c350b0830dd8152d9ce0f98da81fb5d6d207c89cee19c32e9849798483c2a6a1.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4406108",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-b9518e270580",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Ber Kalan",
+  "Chakkar",
+  "Kaunke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 53f74659319f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: BDPO Jagraon, Canal Patwari/Ropar Canal & Ground Water Division.",
+  "These works are spread over 2 blocks: Jagraon, Maloud."
+ ],
+ "photo": "photos/53f74659319f23c3c95480d062583d3cae4ec0bca616114c6e8fc9d83d28daba.jpg",
+ "offices": [
+  "BDPO Jagraon",
+  "Canal Patwari/Ropar Canal & Ground Water Division"
+ ],
  "records": [
   {
    "record_id": "988903",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

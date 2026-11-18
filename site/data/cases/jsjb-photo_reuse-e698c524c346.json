@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e698c524c346",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 32 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Bahilwara Urf Garha"
+ ],
+ "record_count": 32,
+ "reasons": [
+  "The same photo file (fingerprint 2c63180f86fe) is attached to 32 different works in 1 village. A photo of one site cannot be evidence for 32 separate works.",
+  "The works are recorded as: Soak Pit (32)."
+ ],
+ "photo": "photos/2c63180f86fe04fcdaa01231f668ce2d721fca8e2415e8771f745335fbbf62b6.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4518910",
@@ -449,5 +467,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 96,
+ "needs_human_review": false
 }

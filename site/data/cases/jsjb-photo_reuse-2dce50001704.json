@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2dce50001704",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Idaiyapatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17e4ec05e1f9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.67, 77.95).",
+  "The photo was uploaded 2 times within 10 minutes (2025-07-09 11:57:31 to 2025-07-09 12:06:58)."
+ ],
+ "photo": "photos/17e4ec05e1f95d0fa7e397a9b5a26e47ea5eb2ec632355e673982a671c04cd22.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9362906",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

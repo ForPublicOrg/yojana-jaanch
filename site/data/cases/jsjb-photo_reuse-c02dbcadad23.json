@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c02dbcadad23",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pallipalayam",
+ "villages": [
+  "Pappampalayam",
+  "Pudupalayam Agraharam (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 318006eeb134) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (11.31782, 77.787703)."
+ ],
+ "photo": "photos/318006eeb13482eb02c83a7bcad2fd4c92a7e3f0bbf0f3071c82592f8c45dcc9.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9338022",
+   "village": "Pudupalayam Agraharam (Ct)",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2020-10-10",
+   "end_date": "2020-11-12",
+   "lat": 11.31782,
+   "lon": 77.787703,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Pallipalayam"
+  },
+  {
+   "record_id": "9338451",
+   "village": "Pappampalayam",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-05-03",
+   "end_date": "2018-05-19",
+   "lat": 11.31782,
+   "lon": 77.787703,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Pallipalayam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

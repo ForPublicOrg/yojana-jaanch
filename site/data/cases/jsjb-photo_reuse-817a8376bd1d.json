@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-817a8376bd1d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Naine Wal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d4ad510b92c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/8d4ad510b92c718e669835e10aeb975cf95dc2c625550e84e8a4401233183a29.jpg",
+ "offices": [
+  "JE Amarpal Singh"
+ ],
  "records": [
   {
    "record_id": "8917338",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

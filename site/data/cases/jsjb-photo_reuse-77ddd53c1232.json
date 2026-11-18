@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-77ddd53c1232",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Ahungi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0d25be2f687) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (24.8014484, 82.2968274).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-14 19:30:15 to 2026-04-14 19:33:30)."
+ ],
+ "photo": "photos/f0d25be2f687bbf62e758c7d5316d46672d49ae5ad99af2d549804c290e556b2.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1151175",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

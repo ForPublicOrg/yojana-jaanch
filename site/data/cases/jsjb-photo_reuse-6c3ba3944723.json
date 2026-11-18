@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6c3ba3944723",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Veppampoondi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f45ee329c800) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.52299, 78.787523)."
+ ],
+ "photo": "photos/f45ee329c8001ec97359f0b4a46f0c7850293d3e4fb1b3ef2c921883528439ca.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9348058",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

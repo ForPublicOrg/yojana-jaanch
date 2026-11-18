@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-61c056a48ee4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Matihara",
+  "Sikta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 38aed0c979c3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/38aed0c979c3935a5fb92ef7f480260aec0b6a50a4e09701a4beaddfbeb8bfd3.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1135343",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

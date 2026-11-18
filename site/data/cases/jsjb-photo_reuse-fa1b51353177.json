@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fa1b51353177",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Bir Amloh (P)",
+  "Raipur Chobdaran"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 5ffe7753cfaf) is attached to 8 different works in 2 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8)."
+ ],
+ "photo": "photos/5ffe7753cfafbaff4f67c52f5d05c8ad60cf29b0be0660a62c6acd5483aa1c24.jpg",
+ "offices": [
+  "FOREST RANGER SIRHIND"
+ ],
  "records": [
   {
    "record_id": "4435389",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

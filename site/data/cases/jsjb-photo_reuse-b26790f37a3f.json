@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b26790f37a3f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Kadeela",
+  "Kali Hardiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71a692066245) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: JEN Panchayat Raj Malpura, Jen."
+ ],
+ "photo": "photos/71a69206624538aedf62bb9e2ad1341dff88d34f05cf89cc2dfcfe9a268b7cd8.jpg",
+ "offices": [
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3560356",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

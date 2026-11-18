@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-60aa04c1a768",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Bhaini Nathu",
+  "Daheru"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d6ee2eff208c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "These works are spread over 2 blocks: Khanna, Ludhiana-2."
+ ],
+ "photo": "photos/d6ee2eff208c940fd3bd3cf912ad380c6343fb0b3d3d1c32dc8f06eaa31b2fc7.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1239824",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

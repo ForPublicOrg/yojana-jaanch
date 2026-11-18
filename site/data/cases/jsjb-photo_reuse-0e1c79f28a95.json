@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0e1c79f28a95",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Tailanur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6db47aae5316) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.70028219, 78.23043607).",
+  "The photo was uploaded 6 times within 9 minutes (2026-05-20 13:07:02 to 2026-05-20 13:15:36)."
+ ],
+ "photo": "photos/6db47aae5316664659844cc019ed2e34a79eee29fd900950a32aae2617a50735.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10354500",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bcce624ee428",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Kathmana",
+  "Sonwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8613ae138729) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-19 12:03:13 to 2026-03-19 12:05:58).",
+  "These works are spread over 2 blocks: Peeplu, Tonk."
+ ],
+ "photo": "photos/8613ae13872939a25b5071fb74a54d20639701cfc38d6fc21953514931e9bfb0.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4038393",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

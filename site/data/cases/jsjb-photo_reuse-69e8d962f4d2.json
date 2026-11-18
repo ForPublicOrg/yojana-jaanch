@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-69e8d962f4d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Budha Dewal",
+  "Diggi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b4b2b94d992d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/b4b2b94d992d951804c27e0e36556adb41e6cb2756a1f40282bc145737f99aba.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1399854",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

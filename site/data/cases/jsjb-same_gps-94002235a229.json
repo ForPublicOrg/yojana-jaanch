@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-94002235a229",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "12 works at one GPS point in Panj Graian",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Panj Graian"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 works in Panj Graian report exactly the same GPS point (31.767, 75.267).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (12).",
+  "They carry 12 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "7982186",
@@ -169,5 +189,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

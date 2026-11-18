@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-b63b95711b16",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "16 works at one GPS point in Rampur Bhindran",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Rampur Bhindran"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "16 works in Rampur Bhindran report exactly the same GPS point (30.40752256, 76.00351344).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (16).",
+  "They carry 16 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "9959816",
@@ -225,5 +245,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 32,
+ "needs_human_review": false
 }

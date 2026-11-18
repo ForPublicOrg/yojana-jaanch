@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6ab9d713ba6f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Raon",
+ "villages": [
+  "Damnapura",
+  "Pachokhara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 53dc65fac165) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.343614, 79.043642)."
+ ],
+ "photo": "photos/53dc65fac16576c909ebf07bc1568fe2ce12994140d1173f7494e4d75ab05b0e.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "3952408",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Raon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

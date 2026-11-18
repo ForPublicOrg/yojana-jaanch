@@ -1,0 +1,174 @@
+{
+ "id": "jsjb-photo_reuse-03d9b3890c01",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 9 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Gudisilahalli",
+  "Kambampalli",
+  "Kootharajanahalli",
+  "Kuruburu",
+  "M0shilahalli",
+  "Munganahalli",
+  "Perumachanahalli",
+  "Thippanahalli"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 9 different works in 8 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 8f81f5eaacb9 on 5 works, 4e5d6cdf5381 on 4 works.",
+  "The works are recorded as: Village Pond (8), Contour Trench (1)."
+ ],
+ "photo": "photos/8f81f5eaacb9b151903cdb770f5100508a22d33641f144c3222e01f8eb8a8010.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3099777",
+   "village": "Perumachanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-03",
+   "lat": 13.340655,
+   "lon": 78.013662,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3100909",
+   "village": "Thippanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-11-07",
+   "lat": 13.48442,
+   "lon": 78.05349,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3111913",
+   "village": "Gudisilahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-11-05",
+   "lat": 13.4857563,
+   "lon": 78.2396,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3125710",
+   "village": "Kuruburu",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-10-12",
+   "lat": 13.311992,
+   "lon": 78.070877,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3125903",
+   "village": "Kootharajanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-11",
+   "end_date": "2025-09-18",
+   "lat": 13.324297,
+   "lon": 78.073792,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3126712",
+   "village": "Munganahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-09",
+   "lat": 13.582058,
+   "lon": 78.181745,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3137479",
+   "village": "Kambampalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-03",
+   "lat": 13.600962,
+   "lon": 78.185523,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3137532",
+   "village": "Kambampalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-09",
+   "lat": 13.601358,
+   "lon": 78.183968,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3690525",
+   "village": "M0shilahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-06",
+   "end_date": "2025-11-20",
+   "lat": 13.4674,
+   "lon": 78.045646,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "8f81f5eaacb9b151903cdb770f5100508a22d33641f144c3222e01f8eb8a8010",
+   "records": 5
+  },
+  {
+   "sha256": "4e5d6cdf5381db0841aa1b4539c05f513b9f81960d076726394470d8c9696b1c",
+   "records": 4
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-7d5d3893d97f"
+ ]
+}

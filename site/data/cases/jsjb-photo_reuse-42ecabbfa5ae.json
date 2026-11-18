@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-42ecabbfa5ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Kotha Guru"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b25fd6825933) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works started and ended on the same day (2026-04-01).",
+  "The photo was uploaded 2 times within 14 seconds (2026-04-18 11:20:21 to 2026-04-18 11:20:35)."
+ ],
+ "photo": "photos/b25fd6825933673735a1917a3749e70d3abe59719deb22710c84943c9508a440.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5068242",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

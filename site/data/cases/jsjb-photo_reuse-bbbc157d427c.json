@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bbbc157d427c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Manaria",
+  "Shahpur Sitalpatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 90f23fd1af37) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-16 14:16:13 to 2026-03-16 14:20:01)."
+ ],
+ "photo": "photos/90f23fd1af3731cc9bf7bac42c85dc7355683f631e923e16bbc4ff47366bbae7.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3973226",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

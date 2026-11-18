@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a16aa2ca1312",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Bariar",
+  "Narainpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8953710a6f59) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.0686837, 75.4403403)."
+ ],
+ "photo": "photos/8953710a6f59ba20ebd3c298b5094b740cc47d8737f1877aea36bd1df21e7b8d.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "8345395",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

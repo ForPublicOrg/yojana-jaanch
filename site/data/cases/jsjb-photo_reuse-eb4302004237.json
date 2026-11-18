@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-eb4302004237",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Sittampoondi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33d19b28c6d3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.212915, 77.914113)."
+ ],
+ "photo": "photos/33d19b28c6d3ca7e61b289301dc18d189cf996c3618cc6e103fcbb7d325546f1.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3407785",
+   "village": "Sittampoondi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-12",
+   "lat": 11.212915,
+   "lon": 77.914113,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "3440107",
+   "village": "Sittampoondi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-11",
+   "lat": 11.212915,
+   "lon": 77.914113,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

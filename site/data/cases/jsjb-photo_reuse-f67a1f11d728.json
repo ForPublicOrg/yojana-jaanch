@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f67a1f11d728",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Bajhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec4f862e4cbe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (26.57, 79.01).",
+  "The photo was uploaded 4 times within 9 minutes (2026-05-26 09:22:21 to 2026-05-26 09:30:30)."
+ ],
+ "photo": "photos/ec4f862e4cbee210ed072be4bcd7d006896d16a43a78034905f6b00f0c124cb5.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12888135",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

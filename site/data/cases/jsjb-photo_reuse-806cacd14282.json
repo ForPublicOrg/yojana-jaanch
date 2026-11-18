@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-806cacd14282",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Possi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d0968f177820) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.268882, 76.052081)."
+ ],
+ "photo": "photos/d0968f1778208d2d59b2b13667b5b6afdd28fa9c936154af7e871fd386f42e52.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1060920",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

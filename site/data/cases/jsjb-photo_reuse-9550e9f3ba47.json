@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9550e9f3ba47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Jaid"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3121bd9c78ae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.24999, 75.317992)."
+ ],
+ "photo": "photos/3121bd9c78ae50e9db99f03f7028deae3139ce5339c58cba52148b342a18f37b.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1169265",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

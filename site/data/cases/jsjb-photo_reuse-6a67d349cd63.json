@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-6a67d349cd63",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Mehthi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82aef9988c70) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1)."
+ ],
+ "photo": "photos/82aef9988c7006a6ac105496905d05b2fa260359b2ac09c89fd3774f86777a9e.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4059493",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

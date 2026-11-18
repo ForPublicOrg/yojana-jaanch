@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-de20e3e6c847",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Bhanpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9d36f69b2a18) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.9637532, 75.9606571)."
+ ],
+ "photo": "photos/9d36f69b2a182b5db17607deec908e5ec7b6e51f0933400ba5936e2579b6e54f.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3993695",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

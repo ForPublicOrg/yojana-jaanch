@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6769ef9d6d0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Bhateri",
+  "Kotla"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3247559e2e9c on 2 works, beb70067f101 on 2 works.",
+  "The works are recorded as: Contour Trench (2), Soak Pit (2)."
+ ],
+ "photo": "photos/3247559e2e9cc8e27b189dee1fea5a15880c2e72d95a5990f8d76415526ef9fd.jpg",
+ "offices": [
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "10728150",
@@ -57,5 +78,21 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3247559e2e9cc8e27b189dee1fea5a15880c2e72d95a5990f8d76415526ef9fd",
+   "records": 2
+  },
+  {
+   "sha256": "beb70067f101518742555fcdeeebfb7c24e0f2175b9f52b8386f7728330ba7d8",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-40e1ed3c2b54"
  ]
 }

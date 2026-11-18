@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e7d37a982cc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Rampur Gangauli",
+  "Rewasi Maksudpur",
+  "Sankhi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 085b4fa505ce) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/085b4fa505ce64aabc8d0506021b90f09053a4df18a6f6ee21e503413c2f6b44.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4505362",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

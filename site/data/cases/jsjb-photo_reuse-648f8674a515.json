@@ -1,5 +1,43 @@
 {
  "id": "jsjb-photo_reuse-648f8674a515",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Abhowal",
+  "Basiala",
+  "Behbalpur",
+  "Bhambian",
+  "Bilron",
+  "Chahalpur",
+  "Chambal Kalan",
+  "Dairan",
+  "Ganguwal",
+  "Golian",
+  "Jaijon",
+  "Khushalpur",
+  "Kothi",
+  "Mahal Valtohian",
+  "Maujopur",
+  "Mehngerwal",
+  "Mugo Patti",
+  "Nangal Kalan",
+  "Pachnangal",
+  "Sakruli"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 2d088c0e5608) is attached to 20 different works in 20 villages. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Village Pond (18), Other (2).",
+  "These works are spread over 2 blocks: Garhshankar, Mahilpur."
+ ],
+ "photo": "photos/2d088c0e560884d3413fdb2e9e4ed1be84ffd9e5eb2cfd4d2695ba293fd98d3e.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1079014",
@@ -281,5 +319,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 60,
+ "needs_human_review": false
 }

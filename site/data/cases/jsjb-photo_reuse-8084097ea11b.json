@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8084097ea11b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Bhatton",
+  "Majri Mishri Wala",
+  "Shiraj Majra",
+  "Turan"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 254751de1b5a) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/254751de1b5ab6833927585ca693a150983598d928e04f9834b9bed6c365afdd.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1048398",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

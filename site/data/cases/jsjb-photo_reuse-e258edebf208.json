@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e258edebf208",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pandamangalam",
+ "villages": [
+  "Pandamangalam (TP) - Ward No.3",
+  "Pandamangalam (TP) - Ward No.5"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aeb67c3d93d9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/aeb67c3d93d901cb73608ed92ec938514f724b80007bac8d3f9f540467ce1d34.jpg",
+ "offices": [
+  "EO PANDAMANGALAM"
+ ],
+ "records": [
+  {
+   "record_id": "3494307",
+   "village": "Pandamangalam (TP) - Ward No.3",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-07-03",
+   "end_date": "2025-07-16",
+   "lat": 11.105216,
+   "lon": 77.966466,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  },
+  {
+   "record_id": "3750664",
+   "village": "Pandamangalam (TP) - Ward No.5",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-12-08",
+   "end_date": "2025-12-27",
+   "lat": 11.104212,
+   "lon": 77.968137,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

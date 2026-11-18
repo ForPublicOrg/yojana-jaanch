@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f55eae836c84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Lakhuwal",
+  "Mehta",
+  "Nangali"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 41896f505614) is attached to 11 different works in 3 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11).",
+  "Each of the 11 works started and ended on a single day. The works are spread over 3 dates: 2025-05-21, 2025-05-29, 2025-05-31."
+ ],
+ "photo": "photos/41896f505614af6a684cc44c07d496b81085c0b5bcb9044fa33992439b0f32d1.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "7405289",
@@ -155,5 +176,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

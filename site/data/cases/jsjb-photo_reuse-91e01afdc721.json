@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-91e01afdc721",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kurichi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 88866e758d5b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.74, 78.4)."
+ ],
+ "photo": "photos/88866e758d5b6c9675ac9466ff48644499fe99e3f8ca4c8ff22475d4abed477b.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9362920",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

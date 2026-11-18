@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2e54048a4c0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Salani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3bf337873d2c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.608356, 76.251183).",
+  "The photo was uploaded 4 times within 30 seconds (2026-04-28 12:58:51 to 2026-04-28 12:59:21)."
+ ],
+ "photo": "photos/3bf337873d2c8befa2f53eee92af548a7146ac973263752906a7a1cca98778d5.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "6145533",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

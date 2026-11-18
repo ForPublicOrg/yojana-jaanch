@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-cce4d9f2fd0c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pattanam",
+ "villages": [
+  "Pattinam (TP) - Ward No.13",
+  "Pattinam (TP) - Ward No.7"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 9f7107703ef3 on 1 work, eb6d3c9135de on 1 work.",
+  "The works are recorded as: Other (2).",
+  "The picture was uploaded 4 times within 4 minutes (2026-02-13 13:26:06 to 2026-02-13 13:29:17)."
+ ],
+ "photo": "photos/9f7107703ef3719412b3bc4353d1c94caec1314d5bf54f9dd45bf9817d5561bc.jpg",
+ "offices": [
+  "EO PATTANAM"
+ ],
+ "records": [
+  {
+   "record_id": "3501842",
+   "village": "Pattinam (TP) - Ward No.7",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.46991,
+   "lon": 78.20857,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3501962",
+   "village": "Pattinam (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.47193,
+   "lon": 78.20505,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "9f7107703ef3719412b3bc4353d1c94caec1314d5bf54f9dd45bf9817d5561bc",
+   "records": 1
+  },
+  {
+   "sha256": "eb6d3c9135de3156a8f000daea92c21d1f0204eb6485324c29981da6cf30133a",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-cb162deba55e"
+ ]
+}

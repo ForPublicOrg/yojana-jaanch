@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-33d2c3f016c8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Gollapalli",
+  "Palyakere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d31cb3eadc6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 6 minutes (2026-09-21 17:46:04 to 2026-09-21 17:51:56)."
+ ],
+ "photo": "photos/0d31cb3eadc660962ad14926a03d8bc93c42609408ec8f33eb585fedd4c6b11b.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3396377",
+   "village": "Gollapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3396732",
+   "village": "Palyakere",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

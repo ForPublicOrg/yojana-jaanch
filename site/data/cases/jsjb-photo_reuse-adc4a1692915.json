@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-adc4a1692915",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Panikkanur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint de66316e555e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.6766, 77.9986).",
+  "The photo was uploaded 2 times within 15 minutes (2025-07-02 17:18:41 to 2025-07-02 17:33:23)."
+ ],
+ "photo": "photos/de66316e555e2d0d838fc53b6d9f6f59c2c9fd93c4aa96aba73c99f9595e9562.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9360948",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

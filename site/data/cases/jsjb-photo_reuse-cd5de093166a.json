@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-cd5de093166a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 41 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bishunpur",
+  "Mursand"
+ ],
+ "record_count": 41,
+ "reasons": [
+  "The same photo file (fingerprint e910401f2de8) is attached to 41 different works in 2 villages. A photo of one site cannot be evidence for 41 separate works.",
+  "The works are recorded as: Soak Pit (41).",
+  "The entries were made by 2 different offices: BDO Runnisaidpur, BDO Sonbarsa.",
+  "These works are spread over 2 blocks: Runnisaidpur, Sonbarsa."
+ ],
+ "photo": "photos/e910401f2de823693a9d894531ec2c924dace3e3168f5a85a7cc31d0c2cc142c.jpg",
+ "offices": [
+  "BDO Runnisaidpur",
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4359053",
@@ -575,5 +597,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 124,
+ "needs_human_review": false
 }

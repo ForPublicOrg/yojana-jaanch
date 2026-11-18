@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d3e15c199208",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Jafar Wala"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 76ca13b2961d) is attached to 11 different works in 1 village. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Contour Trench (11).",
+  "All 11 works report the same GPS point (30.98, 75.17).",
+  "All 11 works started and ended on the same day (2026-04-28)."
+ ],
+ "photo": "photos/76ca13b2961dc3b9558c479e0b665d2535b0aa5ed5f527e3eff03784932fa684.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "7341478",
@@ -155,5 +175,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 35,
+ "needs_human_review": false
 }

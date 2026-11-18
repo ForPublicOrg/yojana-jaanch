@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-959a7c055d67",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Daulatpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f8e4d826b5a2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 10 minutes (2026-05-23 15:02:08 to 2026-05-23 15:12:00)."
+ ],
+ "photo": "photos/f8e4d826b5a275b82cc8288f4790523ce0d3c7831891394c0433c08b6bdb49dc.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "11656284",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

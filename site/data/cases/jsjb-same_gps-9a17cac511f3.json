@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9a17cac511f3",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Shop",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Shop"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Shop report exactly the same GPS point (25.9019778, 76.1582663).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4178950",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

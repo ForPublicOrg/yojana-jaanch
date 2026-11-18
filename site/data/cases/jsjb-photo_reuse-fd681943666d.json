@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fd681943666d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Chuhar Singhwala"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 0e18c9787363) is attached to 15 different works in 1 village. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (15).",
+  "All 15 works report the same GPS point (30.9, 75.17).",
+  "All 15 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 15 times within 22 minutes (2026-05-12 13:38:26 to 2026-05-12 14:00:13)."
+ ],
+ "photo": "photos/0e18c978736375bf9690e7ca6750d01c3b33f851704010665a4178b5b4adcf17.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8683899",
@@ -211,5 +232,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

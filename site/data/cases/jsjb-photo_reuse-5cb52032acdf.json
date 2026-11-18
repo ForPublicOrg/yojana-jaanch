@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-5cb52032acdf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Ahmedpur",
+  "Badyal",
+  "Balehar Khanpur",
+  "Banwalipur",
+  "Dainwind",
+  "Durgapur",
+  "Khojewali",
+  "Thigli"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 5b3bca2d516e) is attached to 8 different works in 8 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (6), Other (2).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Patwari Water Resources Department."
+ ],
+ "photo": "photos/5b3bca2d516eca33649e8d773b7a1692063b2e14c47d696afc16ad064f81ef48.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "978410",
@@ -113,5 +140,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

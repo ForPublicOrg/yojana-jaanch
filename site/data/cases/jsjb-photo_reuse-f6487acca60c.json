@@ -1,0 +1,86 @@
+{
+ "id": "jsjb-photo_reuse-f6487acca60c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Billur",
+  "Gulur",
+  "Mumadivaripalli"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1cc9fb678d86) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/1cc9fb678d86189bfc3358a19af21903635274a133c5bef295e499a307a8bd6e.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3099294",
+   "village": "Mumadivaripalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-09",
+   "end_date": "2025-12-01",
+   "lat": 13.928452,
+   "lon": 77.82453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3120684",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-24",
+   "end_date": "2025-10-26",
+   "lat": 13.82772897,
+   "lon": 77.85406528,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3128805",
+   "village": "Gulur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-16",
+   "end_date": "2025-10-04",
+   "lat": 13.82574043,
+   "lon": 77.8457506,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "11304994",
+   "village": "Billur",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-11",
+   "lat": 13.839031,
+   "lon": 78.00718,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-59e797823d80",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Rasulpur Malla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a531a078ea96) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/a531a078ea964f3d365ea343c92fa3c0d2d79fe18eb69d445260b985b8e9853e.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256421",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

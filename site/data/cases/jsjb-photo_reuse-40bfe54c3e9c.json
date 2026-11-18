@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-40bfe54c3e9c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Tibba"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint be0c80b87792) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (75.95, 30.81)."
+ ],
+ "photo": "photos/be0c80b877924b5b49ce7973ad6d53cbae98e37de7235223d88e51700f80d0a2.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1255506",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

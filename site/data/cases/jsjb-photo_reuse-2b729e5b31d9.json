@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2b729e5b31d9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Manathal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bd148ee0f89a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.763, 77.966).",
+  "The photo was uploaded 4 times within 18 minutes (2025-07-21 13:12:28 to 2025-07-21 13:29:43)."
+ ],
+ "photo": "photos/bd148ee0f89a06442204802843062632636aef1357f97da881abf3f2cb2fc94a.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9355477",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

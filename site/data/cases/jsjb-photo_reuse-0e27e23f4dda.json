@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0e27e23f4dda",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Mohni Sakrauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4b86fe14eae4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-30 16:41:13 to 2026-03-30 16:43:01)."
+ ],
+ "photo": "photos/4b86fe14eae466404ac1fb058b5fc2829bdf18590b06940014243cdd8c1087c7.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4365625",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

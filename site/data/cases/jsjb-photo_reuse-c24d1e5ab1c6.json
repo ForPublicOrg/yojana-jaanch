@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c24d1e5ab1c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumaipatti",
+ "villages": [
+  "Erumaipatti (TP) - Ward No.14",
+  "Erumaipatti (TP) - Ward No.15"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 95f408105de3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/95f408105de36389073cd09a1cc7a53714d9bb36fcfc6ebbdf2250f56a3cf965.jpg",
+ "offices": [
+  "EO ERUMAPATTY"
+ ],
+ "records": [
+  {
+   "record_id": "3679061",
+   "village": "Erumaipatti (TP) - Ward No.15",
+   "structure_type": "Other",
+   "created_by": "EO ERUMAPATTY",
+   "start_date": "2025-08-14",
+   "end_date": "2025-08-24",
+   "lat": 11.146405,
+   "lon": 78.288694,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Erumaipatti"
+  },
+  {
+   "record_id": "3742221",
+   "village": "Erumaipatti (TP) - Ward No.14",
+   "structure_type": "Other",
+   "created_by": "EO ERUMAPATTY",
+   "start_date": "2025-08-14",
+   "end_date": "2025-08-23",
+   "lat": 11.146101,
+   "lon": 78.29062,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Erumaipatti"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

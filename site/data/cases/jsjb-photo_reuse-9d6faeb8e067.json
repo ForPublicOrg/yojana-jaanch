@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9d6faeb8e067",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Modiyala",
+  "Mor Bhatiyan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8e262122b45f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Other (1)."
+ ],
+ "photo": "photos/8e262122b45f1870ca1618674de125be1d06074a8919d51ab39efbfa1bfd052f.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "1379180",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

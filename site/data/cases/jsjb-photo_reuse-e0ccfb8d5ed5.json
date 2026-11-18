@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e0ccfb8d5ed5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Kotli Amb",
+  "Othian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b9d4acaf7736) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2025-06-12, 2025-06-14.",
+  "These works are spread over 2 blocks: Ajnala, Harshe Chhina."
+ ],
+ "photo": "photos/b9d4acaf77365b92be2a25be82aea2895695302cbf553e60f9c0680784df6e94.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5423872",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

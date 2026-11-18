@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-500a98d01b15",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Athwal",
+  "Bhuttar Sivia",
+  "Jodha Nagri",
+  "Khabba Rajputan",
+  "Lohgarh",
+  "Mahmud Pura",
+  "Shahpur"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 8f5fc1b083e3) is attached to 9 different works in 7 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Other (9).",
+  "The entries were made by 2 different offices: DFO office, XEN Jandiala.",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/8f5fc1b083e3dc3c2cd41f5134ebc1ef380af58cea75d34ccc436213b508e973.jpg",
+ "offices": [
+  "DFO office",
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5691543",
@@ -127,5 +154,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

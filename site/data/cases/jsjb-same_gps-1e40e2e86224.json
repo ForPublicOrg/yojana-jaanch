@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-1e40e2e86224",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Deevattipatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Deevattipatti"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Deevattipatti report exactly the same GPS point (11.85, 78.08).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (8).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344313",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

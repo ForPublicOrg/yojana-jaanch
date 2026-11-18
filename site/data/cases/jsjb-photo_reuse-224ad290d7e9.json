@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-224ad290d7e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Bhadian",
+  "Rasulganj Urf Koili"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d2536db79dcf) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/d2536db79dcfa7714aa56a31b6c135ffeacc28fb8cd3564de0735adc06d12aad.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4422968",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

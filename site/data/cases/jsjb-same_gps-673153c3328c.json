@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-673153c3328c",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Bargawa",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Rajgarh",
+ "villages": [
+  "Bargawa"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Bargawa report exactly the same GPS point (25.018708, 82.818785).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "D.F.O. Mirzapur"
+ ],
  "records": [
   {
    "record_id": "4953228",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Rajgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

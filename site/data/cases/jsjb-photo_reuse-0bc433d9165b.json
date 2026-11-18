@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0bc433d9165b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Bishwanathpur",
+  "Kuri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2c82d09b3db6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/2c82d09b3db6ebf03603be851d7344670232f7128bd86b71220cae416259c00d.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893542",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dd038e426d40",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Chunta",
+  "Udhipur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1130fec1946c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/1130fec1946c2ead713fc1c54e06a3a5039e0ba20f8b4d6342fb38989ae705f8.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "1070417",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

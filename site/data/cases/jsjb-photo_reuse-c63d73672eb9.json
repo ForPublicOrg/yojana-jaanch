@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c63d73672eb9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Jhunjhunu",
+ "villages": [
+  "Nayasar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8b090269cf07) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.1359699, 75.3545174).",
+  "The photo was uploaded 4 times within 56 seconds (2026-03-26 14:21:57 to 2026-03-26 14:22:53)."
+ ],
+ "photo": "photos/8b090269cf07e0e0da62ea5c2cd172125c1cb10bcc646c079abbc44ff5a22050.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4272877",
+   "village": "Nayasar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-14",
+   "end_date": "2026-01-30",
+   "lat": 28.1359699,
+   "lon": 75.3545174,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  },
+  {
+   "record_id": "4272911",
+   "village": "Nayasar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-14",
+   "end_date": "2026-01-30",
+   "lat": 28.1359699,
+   "lon": 75.3545174,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

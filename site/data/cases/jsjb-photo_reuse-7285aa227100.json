@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7285aa227100",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Humayupur",
+  "Moraul"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b412d1d6f71c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/b412d1d6f71c6a411c02f880d068c790da8e040df71ee25eebf699dac85dc510.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "925872",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

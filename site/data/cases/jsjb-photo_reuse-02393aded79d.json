@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-02393aded79d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Garhwa Bishunpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 81facf3b9253) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "All 5 works report the same GPS point (26.765684, 85.4467444).",
+  "The photo was uploaded 10 times within 7 minutes (2026-04-01 19:51:59 to 2026-04-01 19:58:39)."
+ ],
+ "photo": "photos/81facf3b925355d802dc43f3498681ab23aa79a36c682244f75c8ef0f48a84d3.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4406830",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

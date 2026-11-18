@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d9de0ce6a45a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Arniyamal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint eab9a6ac9da4) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "All 5 works report the same GPS point (26.05, 75.8).",
+  "The photo was uploaded 10 times within 15 minutes (2026-05-20 17:14:40 to 2026-05-20 17:28:59)."
+ ],
+ "photo": "photos/eab9a6ac9da43b47b4fc5fa8354bba9629b564205173ff2e67fc356a99dafb5d.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "10416868",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

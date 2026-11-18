@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-2875b1cbd6ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Bor Khandi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8e8767c94edd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/8e8767c94edd8639eb85ee1cb6b9da3195ed0e1fe9b5579a7c84fd2513511dd4.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1394208",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e899c0e3966a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Fatehpur Jattan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0442aeef4fa7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-02 11:45:26 to 2026-03-02 11:47:49)."
+ ],
+ "photo": "photos/0442aeef4fa7337d3171a2ff4a8ba1336fcedacc22ec24dc84fa94501c0daf79.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1054277",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

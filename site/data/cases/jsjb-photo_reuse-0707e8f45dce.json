@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-0707e8f45dce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Jagdev Kalan",
+  "Kuralian",
+  "Sohiya Kalan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint f0419d39e852) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (5).",
+  "The entries were made by 3 different offices: BDPO Harsha Chhina, BDPO Majitha, BDPO Ramdass.",
+  "These works are spread over 3 blocks: Harshe Chhina, Majitha, Ramdas."
+ ],
+ "photo": "photos/f0419d39e85271a53eca9209c94a153d870b530569af7f4cfedcadfa8c1468ab.jpg",
+ "offices": [
+  "BDPO Harsha Chhina",
+  "BDPO Majitha",
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "9329086",
@@ -71,5 +95,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

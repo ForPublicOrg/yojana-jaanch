@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-b34bf6c0cb04",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Pallavanaickenpatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e965c10c8a20) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1)."
+ ],
+ "photo": "photos/e965c10c8a2034d80b9bb5394e4d86cd7f5e93c6ac3848a06144c92cc772832c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9334923",
+   "village": "Pallavanaickenpatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-04-01",
+   "end_date": "2022-06-02",
+   "lat": 11.543252,
+   "lon": 78.17155,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9339472",
+   "village": "Pallavanaickenpatti",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-04-01",
+   "end_date": "2022-06-02",
+   "lat": 11.538766,
+   "lon": 78.176003,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

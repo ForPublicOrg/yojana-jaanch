@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-15d15c8b265e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Gairaha",
+  "Mahrajpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9802dd2df34c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/9802dd2df34c6fed88c1a44eb5ab7d8e0c59a2adf8ce0c525c74fbf60b6625ac.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391930475",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9b573837fbc5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Narayanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fdfaeef5d2ac) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5056921, 85.7200254).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-03 10:44:42 to 2026-04-03 10:46:54)."
+ ],
+ "photo": "photos/fdfaeef5d2ac28719d2a58be69f715d420f36b31e6f050b4c635ac0ecfa9fc26.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "4439358",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

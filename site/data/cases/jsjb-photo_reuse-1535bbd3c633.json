@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1535bbd3c633",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Gajepur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 90102eaf545d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (25.346794, 82.764188).",
+  "The photo was uploaded 3 times within 7 minutes (2025-10-16 15:26:07 to 2025-10-16 15:32:46)."
+ ],
+ "photo": "photos/90102eaf545d5c31a2585c48582aca22fba533864270900875118c6b20e22760.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "2877462",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

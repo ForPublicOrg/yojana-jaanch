@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3eb06314d661",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Jhunir",
+ "villages": [
+  "Danewala",
+  "Kot Dharmu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7828be3cdfcf) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (29.8108036, 75.3943289)."
+ ],
+ "photo": "photos/7828be3cdfcf9f955f0d243695a300212408b56dcf9c2d72d3dc692e71577a4d.jpg",
+ "offices": [
+  "Technical"
+ ],
  "records": [
   {
    "record_id": "3131491",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jhunir"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

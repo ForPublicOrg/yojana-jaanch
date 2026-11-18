@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-046e6a17a0cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Chitang",
+  "Phuliari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a46c83f35514) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: BLOCK DEVELOPMENT OFFICER, BLOCK DEVLOPMENT OFFICER.",
+  "These works are spread over 2 blocks: Hallia, Lalganj."
+ ],
+ "photo": "photos/a46c83f35514ffde82375efbc74dd0107210a02088f7f7712624fb594714bc65.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER",
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1050576",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Lalganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

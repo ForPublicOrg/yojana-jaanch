@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-be5ebee33055",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Manki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3dcf66661765) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-27 13:44:06 to 2026-04-27 13:50:19)."
+ ],
+ "photo": "photos/3dcf666617654107ddec19c2f1d73a5747078ef299e72e9d0813dd7ecb20d63f.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "5620826",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

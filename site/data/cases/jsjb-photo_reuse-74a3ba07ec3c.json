@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-74a3ba07ec3c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Athwal",
+  "Bhuttar Sivia",
+  "Ghaziwal",
+  "Jabbowal",
+  "Said Pur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5012fe90df6c) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/5012fe90df6ce78e2e93aec1d47386b794598aeb57dee9116d58dd3d4bcdd2c7.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "7596599",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0c1962bcbbc3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Kishunpur Taufir",
+  "Kumargawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 024b3fa47708) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 6 minutes (2026-03-07 08:39:28 to 2026-03-07 08:44:47)."
+ ],
+ "photo": "photos/024b3fa4770894a22cc51391d8914f714c47000e03fa691b80cc685cebc213ae.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3808241",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

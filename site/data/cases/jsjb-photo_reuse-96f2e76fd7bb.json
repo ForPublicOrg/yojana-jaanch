@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-96f2e76fd7bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Dabri Baloda",
+  "Mohanwari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d52826ae13e7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/d52826ae13e72652867e5f6be884a05ba4855ac6755fc95defff4b74437ffa5c.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4246054",
+   "village": "Dabri Baloda",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-19",
+   "end_date": "2025-09-20",
+   "lat": 28.0028,
+   "lon": 75.341,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4281392",
+   "village": "Mohanwari",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-12",
+   "end_date": "2026-01-16",
+   "lat": 27.74815,
+   "lon": 75.307638,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

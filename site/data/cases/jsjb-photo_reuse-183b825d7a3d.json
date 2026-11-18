@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-183b825d7a3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhorahar Mal",
+  "Rukunpur Urf Patahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a23051348e1f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/a23051348e1f227993ff1f7736e3ad4c78940f3fce453997d19d0ef14bceff43.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4171111",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

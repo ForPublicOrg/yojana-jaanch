@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e76c41298305",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Nizampur",
+  "Saharan Majra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ef40e3a67e5a) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1)."
+ ],
+ "photo": "photos/ef40e3a67e5a5330a1bbfd62a0b1de61a667228e17a85f5bc8c948dfb78604fd.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1320069",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

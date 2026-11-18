@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-87ec79cc9e7b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Ahli Kalan",
+  "Burewal",
+  "Jhalleiwala",
+  "Mokha",
+  "Shatabgarh",
+  "Tibba"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint f959b9bd2a70) is attached to 7 different works in 6 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Other (7)."
+ ],
+ "photo": "photos/f959b9bd2a70e8bbb3987bb39a4b30f98df29ecbd7dce722c54fcf3188886aac.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1061817",
@@ -99,5 +122,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-86adbc44cf83",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Alsisar",
+ "villages": [
+  "Bajla",
+  "Bas Bhinwsariya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 07e3bc67697d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/07e3bc67697df890b127da0181d7c01f93f7dbb73146473f496f3daf01d47af5.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4263833",
+   "village": "Bajla",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.2629841,
+   "lon": 75.3723699,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "4267168",
+   "village": "Bas Bhinwsariya",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-02-09",
+   "lat": 28.1929717,
+   "lon": 75.2362374,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

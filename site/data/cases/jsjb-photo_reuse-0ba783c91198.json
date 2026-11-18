@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0ba783c91198",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Pethanaickenpalayam",
+ "villages": [
+  "Pethanaickenpalayam (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a6b3805fb3af) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.650394, 78.504111).",
+  "The entries were made by 2 different offices: ASSISTANT DIRECTOR OF TOWN PANCHAYAT, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/a6b3805fb3af1735686834bc21dfe23f10258888af2705fae70be9eb06617fa5.jpg",
+ "offices": [
+  "ASSISTANT DIRECTOR OF TOWN PANCHAYAT",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "7399411",
@@ -29,5 +50,8 @@
    "area_type": "Urban",
    "block": "Pethanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-e8b1d541b7bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Billur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 864f4279dae0 on 1 work, a9fdb7829be9 on 1 work.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.847691, 77.993448).",
+  "The picture was uploaded 4 times within 5 minutes (2025-12-21 10:37:38 to 2025-12-21 10:42:18)."
+ ],
+ "photo": "photos/864f4279dae09cd9b7f3bfaab5398ec3db911b5672372e29077fe12de36a39d7.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3123257",
+   "village": "Billur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-12",
+   "lat": 13.847691,
+   "lon": 77.993448,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3123276",
+   "village": "Billur",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-13",
+   "end_date": "2025-09-10",
+   "lat": 13.847691,
+   "lon": 77.993448,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "864f4279dae09cd9b7f3bfaab5398ec3db911b5672372e29077fe12de36a39d7",
+   "records": 1
+  },
+  {
+   "sha256": "a9fdb7829be9a3347fa134babc73520568d6ac26e9dbd7eebfd6d2ae9f5e86b5",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3bfa51d5079f"
+ ]
+}

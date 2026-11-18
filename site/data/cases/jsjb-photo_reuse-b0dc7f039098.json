@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b0dc7f039098",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Shikhar",
+ "villages": [
+  "Araji Line Sultanpur",
+  "Goraiya",
+  "Hansipur",
+  "Mawaiya",
+  "Pachraon"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 66af1052ed4a) is attached to 8 different works in 5 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (5), Other (2), Recharge Pit (1)."
+ ],
+ "photo": "photos/66af1052ed4a4197e273522d41dacc5abebf4ff2745f6da6a791961cc1a2dfec.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1182376",
@@ -113,5 +135,8 @@
    "area_type": "Rural",
    "block": "Shikhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

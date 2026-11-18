@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ffe66adadafe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Bhagpur",
+  "Khattra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5f8fc134c10) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "These works are spread over 2 blocks: Khanna, Ludhiana-2."
+ ],
+ "photo": "photos/a5f8fc134c1005cac3f130bd15fbff8cdc7f797c2637f9cdd35290221f8397fd.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1239838",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

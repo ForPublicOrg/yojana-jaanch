@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-62a9c52ab536",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Busowal"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 25ecffb76af9) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.223577, 75.167124).",
+  "Each of the 20 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-19."
+ ],
+ "photo": "photos/25ecffb76af996f43ada87644e700f958e52c792cf204382ab649205fee34642.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "9165892",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

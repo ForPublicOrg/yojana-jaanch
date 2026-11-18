@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a44c73d92dfa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Mehta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fb7146cf41e2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (30.289145, 75.41089)."
+ ],
+ "photo": "photos/fb7146cf41e2e407ad8608acb6324bdc70d911e1b6830fb9d35ce0f6cb6cdd19.jpg",
+ "offices": [
+  "Clerk Mandeep Singh"
+ ],
  "records": [
   {
    "record_id": "6254870",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

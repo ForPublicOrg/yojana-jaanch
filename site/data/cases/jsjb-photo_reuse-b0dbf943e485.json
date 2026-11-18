@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b0dbf943e485",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 28 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Jagowal Banger",
+  "Jindhar"
+ ],
+ "record_count": 28,
+ "reasons": [
+  "The same photo file (fingerprint 973745dd65aa) is attached to 28 different works in 2 villages. A photo of one site cannot be evidence for 28 separate works.",
+  "The works are recorded as: Recharge Pit (28).",
+  "Each of the 28 works started and ended on a single day. The works are spread over 2 dates: 2026-05-08, 2026-05-21."
+ ],
+ "photo": "photos/973745dd65aa0b96a59cc1ff07d7192cb789503618ca1f3128b686a55f85f85c.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7985796",
@@ -393,5 +413,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 85,
+ "needs_human_review": false
 }

@@ -1,5 +1,35 @@
 {
  "id": "jsjb-photo_reuse-8eeab08a3105",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 35 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Baragaon",
+  "Chak Saura",
+  "Madhurapur",
+  "Pachra Nimahi",
+  "Paharpur",
+  "Patdeora",
+  "Pharuha Bhawani",
+  "Piprarhi",
+  "Raepur Jagarnath",
+  "Raghunathpur",
+  "Rasulpur",
+  "Ratanpur",
+  "Rudauli"
+ ],
+ "record_count": 35,
+ "reasons": [
+  "The same photo file (fingerprint 8c3dd878c22a) is attached to 35 different works in 13 villages. A photo of one site cannot be evidence for 35 separate works.",
+  "The works are recorded as: Soak Pit (34), Village Pond (1)."
+ ],
+ "photo": "photos/8c3dd878c22acf2845c1c7eeb74eeeebdbdef106d7eef20c52ac47a2187b3e9a.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4467676",
@@ -491,5 +521,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 105,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-68baf11f474a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bagaha",
+  "Bishunpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cd227dada0e5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/cd227dada0e535d0019db64906a7acafa3371725bd3c699d7bc40bc326aaf0d9.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4572832",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

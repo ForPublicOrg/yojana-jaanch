@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b9e32876a1a3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhorahar Mal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c49f08381be8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-04 05:52:13 to 2026-04-04 05:57:04)."
+ ],
+ "photo": "photos/c49f08381be8f825397fce31a3ed2921e907760d55dd4154433e217dce0d0526.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4458302",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

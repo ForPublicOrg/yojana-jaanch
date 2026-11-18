@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-45811ec33b52",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Chak Hira Singh",
+  "Faridkot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 62e99da3fb7b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.06712, 74.75711).",
+  "All 2 works started and ended on the same day (2026-04-06)."
+ ],
+ "photo": "photos/62e99da3fb7bc834be7ba7aabd676cebcba9953eda2bdf695753ad055df73f82.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4762326",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

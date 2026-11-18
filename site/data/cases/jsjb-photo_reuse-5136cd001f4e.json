@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5136cd001f4e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Krodian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 632a3b46cf12) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-02-05 17:08:39 to 2026-02-05 17:09:45)."
+ ],
+ "photo": "photos/632a3b46cf12d45fac42790d17ae42f69c2212fdedd650fd01d441a3b41fd9e5.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1254725",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

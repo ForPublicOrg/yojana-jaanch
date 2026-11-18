@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a11718d56142",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Gorai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7124cfa787ad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.335157, 82.79169).",
+  "The photo was uploaded 2 times within 9 seconds (2025-09-16 09:00:39 to 2025-09-16 09:00:48)."
+ ],
+ "photo": "photos/7124cfa787adffac8722e84517f18e92f3de58a9cc15ac7c31263a0cc2daa38f.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391931671",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8e5e8a66a6cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Bholu Wala",
+  "Bir Bholu Wala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f08a7212b368) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/f08a7212b368c1dd3d49b1f6b8d7e865cffd80396a51c9f2123f9818b81f0a18.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "986671",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

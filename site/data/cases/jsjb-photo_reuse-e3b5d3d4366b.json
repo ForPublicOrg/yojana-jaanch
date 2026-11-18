@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e3b5d3d4366b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Gauri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 79869467bf7d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (26.43029, 85.63626).",
+  "The photo was uploaded 3 times within 14 minutes (2026-04-02 17:16:55 to 2026-04-02 17:30:33)."
+ ],
+ "photo": "photos/79869467bf7d87705f04fc4fad261b9245e55846826b2e39d65e88db915a36e2.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4431471",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

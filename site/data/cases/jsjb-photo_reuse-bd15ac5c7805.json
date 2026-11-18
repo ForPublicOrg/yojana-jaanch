@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bd15ac5c7805",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Morur Bit 1",
+  "Sungudivaradampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d1d66d381b2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/0d1d66d381b2bc1cba40e404e6e6c9509dfa9c3bbf09f8ef82d68bf2fcd496db.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9354467",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

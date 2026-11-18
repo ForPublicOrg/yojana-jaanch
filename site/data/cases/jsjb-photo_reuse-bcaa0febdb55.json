@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bcaa0febdb55",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Basant Khurd",
+  "Maniari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 05c945c4832f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "The photo was uploaded 3 times within 5 minutes (2026-04-04 14:37:31 to 2026-04-04 14:41:40)."
+ ],
+ "photo": "photos/05c945c4832f622fef42e7d0df3f262bb4ca0ff06d0afed6267f0887dbff4360.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4474477",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

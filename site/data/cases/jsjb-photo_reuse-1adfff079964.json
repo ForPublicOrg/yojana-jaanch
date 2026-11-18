@@ -1,0 +1,88 @@
+{
+ "id": "jsjb-photo_reuse-1adfff079964",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Hossur",
+  "Iragampalli",
+  "Kagathi",
+  "Masthenahalli"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 4f48fba362a9) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Tank (3), Percolation Pond (1).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer.",
+  "These works are spread over 2 blocks: Chintamani, Gauribidanur."
+ ],
+ "photo": "photos/4f48fba362a94d3d1da2bf28a9fa0c91fcb3bf3dcf794096889cc955dd130d9b.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3097551",
+   "village": "Iragampalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-16",
+   "end_date": "2025-10-16",
+   "lat": 13.7854,
+   "lon": 78.4521,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3131277",
+   "village": "Masthenahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-16",
+   "end_date": "2025-08-12",
+   "lat": 13.40485,
+   "lon": 78.112,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3701032",
+   "village": "Hossur",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-02-10",
+   "end_date": "2024-08-08",
+   "lat": 13.577204,
+   "lon": 77.4349,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "8506934",
+   "village": "Kagathi",
+   "structure_type": "Tank",
+   "created_by": "Executive Officer",
+   "start_date": "2025-09-17",
+   "end_date": "2026-03-11",
+   "lat": 13.429336,
+   "lon": 78.089612,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

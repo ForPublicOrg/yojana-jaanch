@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b3981bee3921",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Arathi Agraharam",
+  "Govindampalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d5313e24ebc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/5d5313e24ebc7fca93a67f963bf2f3a13bcf9c32bb53c099fea6f2c4dd9fd45f.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347682",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-upload_burst-ce2bdceff57e",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "13 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kolathukombai",
+  "Nirmullikuttai",
+  "Perumagoundampatti (Ct)"
+ ],
+ "record_count": 13,
+ "reasons": [
+  "13 different photos for 13 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-02 17:37:20 to 2025-07-02 17:46:49.",
+  "That is about one work every 44 seconds on average.",
+  "The works are in 3 villages: Kolathukombai, Nirmullikuttai, Perumagoundampatti (Ct).",
+  "These works are spread over 2 blocks: Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344753",
@@ -72,6 +94,20 @@
    "block": "Valapady"
   },
   {
+   "record_id": "9360995",
+   "village": "Perumagoundampatti (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-04-27",
+   "end_date": "2023-11-09",
+   "lat": 11.598,
+   "lon": 78.018,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9360996",
    "village": "Kolathukombai",
    "structure_type": "Percolation Pond",
@@ -84,6 +120,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Valapady"
+  },
+  {
+   "record_id": "9360997",
+   "village": "Perumagoundampatti (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-04-27",
+   "end_date": "2023-11-09",
+   "lat": 11.601,
+   "lon": 78.023,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
   },
   {
    "record_id": "9361000",
@@ -155,5 +205,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

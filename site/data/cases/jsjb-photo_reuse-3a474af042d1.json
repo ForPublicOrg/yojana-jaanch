@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3a474af042d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Ferozewal Mangal Singh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb6cce947069) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.95, 75.233).",
+  "All 2 works started and ended on the same day (2026-05-06)."
+ ],
+ "photo": "photos/bb6cce947069acfd8463b6d1355c66dc4a3cc37d86efffab7d33cd7a7053eb9d.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "7591974",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

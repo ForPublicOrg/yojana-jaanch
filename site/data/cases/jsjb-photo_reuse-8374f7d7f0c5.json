@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-8374f7d7f0c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Bansla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1f10d6d92ef1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/1f10d6d92ef1c9a64129d777fbee0f32b1ae185d2a8c50e53009680f8113c9c5.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4047827",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

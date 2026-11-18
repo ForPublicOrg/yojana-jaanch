@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-ac0f02a563a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Kotla Gujra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fe882597f022) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2)."
+ ],
+ "photo": "photos/fe882597f0220559ebf2f62dcfae1a4b2e886d4993989aa9c00f3c12c0c8b77c.jpg",
+ "offices": [
+  "BDPO Majitha"
+ ],
  "records": [
   {
    "record_id": "7583419",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

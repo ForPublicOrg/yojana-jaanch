@@ -1,0 +1,175 @@
+{
+ "id": "jsjb-photo_reuse-0e97132a6627",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 9 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Paramathi (TP) - Ward No.6",
+  "Paramathi (TP) - Ward No.7",
+  "Venkarai (TP) - Ward No.13",
+  "Venkarai (TP) - Ward No.5",
+  "Venkarai (TP) - Ward No.7",
+  "Venkarai (TP) - Ward No.8"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 9 different works in 6 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): ec2c24102f57 on 6 works, e25079f99ead on 3 works.",
+  "The works are recorded as: Other (5), Rooftop Water Harvesting Structure (4).",
+  "The entries were made by 2 different offices: EO PARAMATHI, EO VENGARAI.",
+  "These works are spread over 2 blocks: Paramathi, Venkarai."
+ ],
+ "photo": "photos/ec2c24102f57f18b56ea8bfd097a18061a511397187903907a2f8a848f3fd02b.jpg",
+ "offices": [
+  "EO PARAMATHI",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3555654",
+   "village": "Paramathi (TP) - Ward No.7",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-10-20",
+   "end_date": "2025-11-07",
+   "lat": 11.65231,
+   "lon": 78.32154,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3555672",
+   "village": "Paramathi (TP) - Ward No.7",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-09-10",
+   "end_date": "2025-09-27",
+   "lat": 11.54879,
+   "lon": 78.65847,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3555770",
+   "village": "Paramathi (TP) - Ward No.7",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-09-10",
+   "end_date": "2025-09-27",
+   "lat": 11.54879,
+   "lon": 78.65847,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3745305",
+   "village": "Paramathi (TP) - Ward No.6",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-10-20",
+   "end_date": "2025-11-03",
+   "lat": 11.139387,
+   "lon": 78.65847,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3757775",
+   "village": "Venkarai (TP) - Ward No.7",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-06-30",
+   "end_date": "2025-10-31",
+   "lat": 11.09602,
+   "lon": 77.958305,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3766482",
+   "village": "Venkarai (TP) - Ward No.5",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-08",
+   "end_date": "2025-08-10",
+   "lat": 11.105365,
+   "lon": 77.963723,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3766619",
+   "village": "Venkarai (TP) - Ward No.8",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-09-10",
+   "end_date": "2025-09-27",
+   "lat": 11.091155,
+   "lon": 77.968501,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3773229",
+   "village": "Venkarai (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-09-11",
+   "end_date": "2025-09-28",
+   "lat": 11.081122,
+   "lon": 77.951659,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3776444",
+   "village": "Venkarai (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-06-15",
+   "end_date": "2025-07-02",
+   "lat": 11.081122,
+   "lon": 77.951659,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "ec2c24102f57f18b56ea8bfd097a18061a511397187903907a2f8a848f3fd02b",
+   "records": 6
+  },
+  {
+   "sha256": "e25079f99eade931d3343a9786124ab221af92441018473b9325e8393658acc9",
+   "records": 3
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-50442be5505d"
+ ]
+}

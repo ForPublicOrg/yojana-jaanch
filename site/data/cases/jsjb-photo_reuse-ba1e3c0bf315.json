@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ba1e3c0bf315",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Harchandera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5aedf0776f69) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.11401, 75.89274).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-10 12:05:07 to 2026-03-10 12:06:12)."
+ ],
+ "photo": "photos/5aedf0776f69805ac82f725f51150bf58ec8b470a58149ea2826556da2d523cb.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3862288",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

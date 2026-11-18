@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9d92e469f21c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Dhudi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 260853e08fb5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 2 times within 6 minutes (2026-05-12 12:57:50 to 2026-05-12 13:02:57)."
+ ],
+ "photo": "photos/260853e08fb50b7cca0b32bb53ada8a83f57e1f4750c3099d89bc6c84e547d93.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "8673570",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

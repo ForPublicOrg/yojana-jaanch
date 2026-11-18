@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-efc1adb8ad8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Erumaipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e73edb29a019) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.57, 77.93).",
+  "The photo was uploaded 2 times within 55 seconds (2025-07-02 12:41:48 to 2025-07-02 12:42:43)."
+ ],
+ "photo": "photos/e73edb29a019a946b223ad8855d67a7d1f9564dcf160cb42305c4729e256274c.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9350342",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

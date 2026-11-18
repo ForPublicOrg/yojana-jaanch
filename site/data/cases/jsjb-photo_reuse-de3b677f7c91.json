@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-de3b677f7c91",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Gisara Urf Gidhsara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6acdb5c84fe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/b6acdb5c84fe0036fcaa8aea030808c7d470364ecee330f5d84dc0cc32811a89.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "4019104",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

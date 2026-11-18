@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1963705efaad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Bal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cbc8b161d359) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.706822, 74.815352).",
+  "The photo was uploaded 2 times within 9 seconds (2026-04-29 12:54:46 to 2026-04-29 12:54:55)."
+ ],
+ "photo": "photos/cbc8b161d3594696db6b49572fcac485b3705b2143710b1a55338a9e306616a1.jpg",
+ "offices": [
+  "Juniour engineer"
+ ],
  "records": [
   {
    "record_id": "6246767",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

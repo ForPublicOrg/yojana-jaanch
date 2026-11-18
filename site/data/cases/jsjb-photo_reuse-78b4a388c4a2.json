@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-78b4a388c4a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Barwasi",
+  "Sonthli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b66d63ee0d4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-26 16:29:46 to 2026-03-26 16:32:47)."
+ ],
+ "photo": "photos/3b66d63ee0d4dbd43e466357c702e2c675f345fdf9b331c80060d22718851b39.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4277970",
+   "village": "Barwasi",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-08",
+   "end_date": "2026-02-12",
+   "lat": 27.986,
+   "lon": 75.2674,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4278102",
+   "village": "Sonthli",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-05",
+   "end_date": "2025-09-11",
+   "lat": 27.921,
+   "lon": 75.5,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

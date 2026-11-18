@@ -1,5 +1,36 @@
 {
  "id": "jsjb-photo_reuse-ac426a02a24c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 44 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Dera Mir Miran",
+  "Ghumandgarh",
+  "Jawanda",
+  "Kamali",
+  "Karimpura",
+  "Khalaspur",
+  "Khanpur",
+  "Kheri Bhai Ki",
+  "Kheri Bir Singh",
+  "Khudadadpur",
+  "Kishanpura",
+  "Lachhmangarh"
+ ],
+ "record_count": 44,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 44 different works in 12 villages. A photo of one site cannot be evidence for 44 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 8560184fa57a on 31 works, e865fbc30ae0 on 13 works.",
+  "The works are recorded as: Contour Trench (42), Other (2)."
+ ],
+ "photo": "photos/8560184fa57a2241483d0805483e3e0d5be236ca70f58615a917c4ebca040249.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4982663",
@@ -617,5 +648,21 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 132,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "8560184fa57a2241483d0805483e3e0d5be236ca70f58615a917c4ebca040249",
+   "records": 31
+  },
+  {
+   "sha256": "e865fbc30ae02aeb9ed7727c202cd654367d8435610961491a02f253b3cdb83f",
+   "records": 13
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-571890f80ebb"
  ]
 }

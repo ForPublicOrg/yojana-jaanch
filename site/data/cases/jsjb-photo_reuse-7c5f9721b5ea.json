@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7c5f9721b5ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Kon",
+ "villages": [
+  "Majhgawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1ee710b53fb3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.163625, 82.543562).",
+  "The entries were made by 2 different offices: BDO Kon, DPRO."
+ ],
+ "photo": "photos/1ee710b53fb39ede389ddb87e556d0183484e03a84f4ae441c3f7dfb52f52dd2.jpg",
+ "offices": [
+  "BDO Kon",
+  "DPRO"
+ ],
  "records": [
   {
    "record_id": "4074738",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

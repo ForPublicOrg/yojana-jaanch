@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-11d3746834ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Venkarai (TP) - Ward No.3",
+  "Venkarai (TP) - Ward No.4"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5797ba673d40) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5797ba673d4013e3d309c92c6b5bad3d3946f9629ae894ce6ede5cfae03d34fb.jpg",
+ "offices": [
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3784019",
+   "village": "Venkarai (TP) - Ward No.3",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-10-05",
+   "end_date": "2025-10-25",
+   "lat": 11.095684,
+   "lon": 77.974591,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3802394",
+   "village": "Venkarai (TP) - Ward No.4",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-10-15",
+   "end_date": "2025-10-21",
+   "lat": 11.09634,
+   "lon": 77.975727,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

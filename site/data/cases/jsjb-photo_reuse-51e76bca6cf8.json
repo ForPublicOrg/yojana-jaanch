@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-51e76bca6cf8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Bhagtana Boharwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c77d8ad31c49) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (32.04752, 75.09642).",
+  "The photo was uploaded 3 times within 13 seconds (2026-05-11 13:16:29 to 2026-05-11 13:16:42)."
+ ],
+ "photo": "photos/c77d8ad31c49f506581d33df56a1aab5fb22f66a53b45c25309e07f314e84b0a.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "8454278",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

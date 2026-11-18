@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-01b69496a0e4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Lachhmipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3d854fd241b2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2026-03-24 17:30:59 to 2026-03-24 17:36:25)."
+ ],
+ "photo": "photos/3d854fd241b2753330fed7c6a147e788ce490586bbfd31b6c732fa190846a968.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "4211618",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3b6ab19aed70",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Rampur Parori",
+  "Ranjitpur Urf Gobipur Daur"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint da20b7a84e25) is attached to 8 different works in 2 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (8)."
+ ],
+ "photo": "photos/da20b7a84e258f0adeada7898d34c5270bfc389068ab0f3ce6e038d24eefa073.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "4314974",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

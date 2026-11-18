@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d41a002041bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Pattar Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a3ab4bbacc8e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.3981097, 75.4568726).",
+  "The photo was uploaded 4 times within 44 seconds (2026-04-06 12:22:58 to 2026-04-06 12:23:42)."
+ ],
+ "photo": "photos/a3ab4bbacc8e5d0f37c58811ce92de4f893bca59b0f1d09c0ac2f24c146cdc08.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "985654",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

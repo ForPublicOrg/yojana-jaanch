@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-861ee3aeab50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Parowal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a5e132ef1546) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.831032, 75.0354).",
+  "All 3 works started and ended on the same day (2026-05-20)."
+ ],
+ "photo": "photos/a5e132ef15465d818518c9b1120a5c8c395a05d3da6b6338f85988df7f392605.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "10719558",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

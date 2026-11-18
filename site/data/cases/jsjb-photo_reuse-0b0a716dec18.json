@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0b0a716dec18",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Kup"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1bd00e0e24da) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.623751, 75.869227).",
+  "All 2 works started and ended on the same day (2026-05-21).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-22 14:41:22 to 2026-05-22 14:44:44)."
+ ],
+ "photo": "photos/1bd00e0e24da2c5975de10fb4a96964b51c6afadfdc4d6e1d23827f9cc1b5d97.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "11146883",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b653ddcc0d1d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Dolon Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ee16107ac6e7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 76.0)."
+ ],
+ "photo": "photos/ee16107ac6e74ef04a3a7e925b0b309b3e198ff4f2493c67561a516a3ba217c7.jpg",
+ "offices": [
+  "BDPO Ludhiana-1"
+ ],
  "records": [
   {
    "record_id": "1040520",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

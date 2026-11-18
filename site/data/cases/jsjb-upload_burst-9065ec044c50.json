@@ -1,5 +1,33 @@
 {
  "id": "jsjb-upload_burst-9065ec044c50",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "34 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Anaiyampatty",
+  "Avadattur (Ct)",
+  "Bairoji",
+  "Belurkaradipatti",
+  "Erumaipatti",
+  "Irugalur",
+  "Kaveripatti Agraharam",
+  "Nirmullikuttai",
+  "Umbilikamaramangalam"
+ ],
+ "record_count": 34,
+ "reasons": [
+  "34 different photos for 34 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-01 15:40:29 to 2025-07-01 15:50:23.",
+  "That is about one work every 17 seconds on average.",
+  "The works are in 9 villages: Anaiyampatty, Avadattur (Ct), Bairoji, Belurkaradipatti, Erumaipatti, Irugalur, Kaveripatti Agraharam, Nirmullikuttai, Umbilikamaramangalam.",
+  "These works are spread over 8 blocks: Gangavalli, Konganapuram, Nangavalli, Omalur, Peddanaickenpalayam, Sankari, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349713",
@@ -394,6 +422,20 @@
    "block": "Omalur"
   },
   {
+   "record_id": "9357423",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-10-05",
+   "end_date": "2023-10-28",
+   "lat": 11.5768,
+   "lon": 78.0624,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9357424",
    "village": "Erumaipatti",
    "structure_type": "Soak Pit",
@@ -463,5 +505,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e8616680eda2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Mianpur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 71958a66fb82) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 7 times within 6 minutes (2026-04-25 10:49:28 to 2026-04-25 10:54:35)."
+ ],
+ "photo": "photos/71958a66fb82bdb705eb775cc3df471b721e83113875d8caa1838e58e8342636.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5475756",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d4b6149e16fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Kothia Belahi Nilkanth"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 1fc78df0c7a7) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Soak Pit (20)."
+ ],
+ "photo": "photos/1fc78df0c7a719e28b2f559719ff7f4105ec74299b9d639e8073ce22e81702c2.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4607567",
@@ -281,5 +299,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 60,
+ "needs_human_review": false
 }

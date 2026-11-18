@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9ca06b0e9f8d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Araria",
+  "Bishunpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c161ea788366) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 11 minutes (2026-11-13 00:33:24 to 2026-11-13 00:43:41)."
+ ],
+ "photo": "photos/c161ea7883661eeb3800b379641453b34fdf4697fd21c4a42b5aea26faa1124e.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "3846830",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

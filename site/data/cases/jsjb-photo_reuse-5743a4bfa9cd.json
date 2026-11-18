@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5743a4bfa9cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Laddivadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7427a902bcd9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/7427a902bcd9d123785f0d5989d21d463a96caf642bd662312caadf139a302c0.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9350186",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

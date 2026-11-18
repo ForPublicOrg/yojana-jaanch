@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3a77624a3839",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Umarpur Khurd"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 7e67040a9eff) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/7e67040a9effd1e54ae44857e6cbfb5bd7d31fb4210219e5d1e391d985754111.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7130497",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

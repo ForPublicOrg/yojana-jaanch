@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cfd0c4b81615",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Agatamdike",
+  "Billur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6652b5916b53) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/6652b5916b536e595d4f8dc6afeef044418ddbb6319abe8c5bb0cb1633bffd2c.jpg",
+ "offices": [
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "10855330",
+   "village": "Agatamdike",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-07-01",
+   "end_date": "2025-09-11",
+   "lat": 13.786523,
+   "lon": 77.960616,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "11329094",
+   "village": "Billur",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-09-01",
+   "end_date": "2025-10-10",
+   "lat": 13.845261,
+   "lon": 78.006669,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

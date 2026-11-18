@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-75bef16385c8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Kokna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ff6bcd96aa55) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 6 minutes (2026-04-07 20:47:23 to 2026-04-07 20:52:56)."
+ ],
+ "photo": "photos/ff6bcd96aa55e0e2e805adacb32917aea6e57e398b632c38c60b1866f52b3aed.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4585059",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

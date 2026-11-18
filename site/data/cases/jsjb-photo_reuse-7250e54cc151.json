@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7250e54cc151",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Blahar Mehma"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9b3d19878048) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.35735, 74.842007)."
+ ],
+ "photo": "photos/9b3d198780483cfe4d3ebc39d82a96c118216c7494f82de7eb4a09fdf7758064.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5175361",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

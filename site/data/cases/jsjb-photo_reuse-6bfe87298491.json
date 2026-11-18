@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6bfe87298491",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Dhoda",
+  "Hans"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 43f0e9c7c4cb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 45 seconds (2025-11-30 17:35:47 to 2025-11-30 17:36:32).",
+  "These works are spread over 2 blocks: Dehlon, Maloud."
+ ],
+ "photo": "photos/43f0e9c7c4cbb375feb07fd2b9a353c9c1c38c73ef8a56de857f23d066be3899.jpg",
+ "offices": [
+  "Canal Patwari/Ropar Canal & Ground Water Division"
+ ],
  "records": [
   {
    "record_id": "988989",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

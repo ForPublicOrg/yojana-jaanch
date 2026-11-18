@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c3a29e663940",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Sora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3eae0cf45f92) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.211229, 78.603031).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-22 18:23:08 to 2026-05-22 18:24:15)."
+ ],
+ "photo": "photos/3eae0cf45f9223bc18e188d73d38e66c6577721187952eda2bbdfc17cb08ac23.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11276764",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

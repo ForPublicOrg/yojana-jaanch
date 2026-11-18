@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-12a5fe13d007",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "44 works at one GPS point in Malkpur",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Malkpur"
+ ],
+ "record_count": 44,
+ "reasons": [
+  "44 works in Malkpur report exactly the same GPS point (30.6750017, 75.8420164).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (43), Gullu Plug (1).",
+  "They carry 44 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "12455446",
@@ -617,5 +637,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 88,
+ "needs_human_review": false
 }

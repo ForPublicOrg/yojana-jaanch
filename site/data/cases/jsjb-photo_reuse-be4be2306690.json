@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-be4be2306690",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Badesh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5a3215a53309) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.981123, 75.30693).",
+  "The photo was uploaded 4 times within 26 seconds (2026-05-11 12:21:56 to 2026-05-11 12:22:22)."
+ ],
+ "photo": "photos/5a3215a533092c8341f11579b3f87b939092650d3e950fc262c53b4404a7efd8.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "8440100",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

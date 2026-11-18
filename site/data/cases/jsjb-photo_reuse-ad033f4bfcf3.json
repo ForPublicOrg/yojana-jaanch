@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ad033f4bfcf3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Dhola Ka Khera",
+  "Diggi",
+  "Thari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ef99c26e7ded) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 27 minutes (2026-03-06 14:26:31 to 2026-03-06 14:53:29)."
+ ],
+ "photo": "photos/ef99c26e7dedef290587371601879e849d3169d108ce7b6c39981ff48f8cb60b.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1416897",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

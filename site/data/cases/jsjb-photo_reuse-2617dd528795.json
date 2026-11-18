@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2617dd528795",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Toor"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3de5341c0fda) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.200445, 75.346481).",
+  "All 3 works started and ended on the same day (2026-05-03)."
+ ],
+ "photo": "photos/3de5341c0fdac087f743da26fd55e0ab74801b7c0b318af99bc13396f119444b.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7585973",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

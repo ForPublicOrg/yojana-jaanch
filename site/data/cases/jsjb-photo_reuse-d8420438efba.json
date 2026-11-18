@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d8420438efba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Senthamangalam",
+ "villages": [
+  "Senthamangalam (TP) - Ward No.15",
+  "Senthamangalam (TP) - Ward No.3"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 399e833c81a2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/399e833c81a2663ad2b7b9881efe60ab42c06d50876e161caebb739b6ba22978.jpg",
+ "offices": [
+  "EO SENDAMANGALAM"
+ ],
+ "records": [
+  {
+   "record_id": "3616525",
+   "village": "Senthamangalam (TP) - Ward No.3",
+   "structure_type": "Other",
+   "created_by": "EO SENDAMANGALAM",
+   "start_date": "2025-08-14",
+   "end_date": "2025-11-19",
+   "lat": 11.283896,
+   "lon": 78.230399,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Senthamangalam"
+  },
+  {
+   "record_id": "3702361",
+   "village": "Senthamangalam (TP) - Ward No.15",
+   "structure_type": "Other",
+   "created_by": "EO SENDAMANGALAM",
+   "start_date": "2025-07-23",
+   "end_date": "2025-11-19",
+   "lat": 11.28221,
+   "lon": 78.235374,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Senthamangalam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

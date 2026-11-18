@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a17c50419183",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Jethuke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1bf474eb5a43) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.29395, 75.32344).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-03-16, 2026-03-19."
+ ],
+ "photo": "photos/1bf474eb5a43be5f5d317a598883430b1ee1a572574c526c07656757bf7b2325.jpg",
+ "offices": [
+  "Computer faculty"
+ ],
  "records": [
   {
    "record_id": "4017568",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-17e67daf0347",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Shamgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 03c4b0a01f1b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.829579, 76.177965)."
+ ],
+ "photo": "photos/03c4b0a01f1b7f181672ce75fd179a42717ddea55d5b9afe9bc2fda29bef3802.jpg",
+ "offices": [
+  "XEN Panchayati Raj"
+ ],
  "records": [
   {
    "record_id": "5189061",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

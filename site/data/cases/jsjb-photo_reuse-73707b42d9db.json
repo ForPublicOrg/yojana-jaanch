@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-73707b42d9db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Kusumari",
+  "Rewasi Maksudpur",
+  "Riga"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 817ab3003edb) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Injection Well (1), Nala Bund (1), Village Pond (1)."
+ ],
+ "photo": "photos/817ab3003edbbe559539b0449dcdff7f40e31cf57f867878783c4886419ebe6c.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3982530",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

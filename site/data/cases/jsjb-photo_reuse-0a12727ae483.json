@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0a12727ae483",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Khaira Majja"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 49cb92483a87) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1).",
+  "The photo was uploaded 6 times within 8 minutes (2026-04-02 16:28:02 to 2026-04-02 16:35:57).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/49cb92483a8730e833f5b332b69bbdcdec6ec58f66a15343eaf10f8d05dada37.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "984271",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

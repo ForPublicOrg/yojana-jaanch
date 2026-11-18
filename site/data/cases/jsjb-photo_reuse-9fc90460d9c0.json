@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9fc90460d9c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Addi",
+  "Gohir",
+  "Kotla Bhagu"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5b71b89a9111) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The entries were made by 2 different offices: Ziledar, Zilledar."
+ ],
+ "photo": "photos/5b71b89a911141756a829c8b9eb0ec086080633b267377e2da6acbbaa12122e9.jpg",
+ "offices": [
+  "Ziledar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977960",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

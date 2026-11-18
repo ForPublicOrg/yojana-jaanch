@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7716c0c0aa89",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Rurka Kalan",
+ "villages": [
+  "Lakhanpal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0573d0ba452e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 16 minutes (2026-05-28 12:17:13 to 2026-05-28 12:33:01)."
+ ],
+ "photo": "photos/0573d0ba452e81706d3bcc47ad484dcc1dbd21aaa1d39b0612ebf4353accb485.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "14175753",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Rurka Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

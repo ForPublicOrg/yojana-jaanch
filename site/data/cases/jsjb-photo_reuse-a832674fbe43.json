@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a832674fbe43",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Pasrotiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ad77c3753a5c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1)."
+ ],
+ "photo": "photos/ad77c3753a5ccefafb6c86554e6cef90bed4e991444d1921794d91d078fcaceb.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1400753",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

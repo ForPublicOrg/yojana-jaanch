@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-5e327fdca803",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Alawalpur",
+  "Amargarh",
+  "Athwal",
+  "Attari",
+  "Aujla",
+  "Balim",
+  "Barila Kalan",
+  "Behalpur",
+  "Bhawana",
+  "Qila Nathu Singh"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint 2cec64d4b674) is attached to 18 different works in 10 villages. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Contour Trench (17), Other (1)."
+ ],
+ "photo": "photos/2cec64d4b674c22d999cc3c608091661368ec42eb0706a4ebeb74061fc4d3060.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "9929534",
@@ -253,5 +280,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 54,
+ "needs_human_review": false
 }

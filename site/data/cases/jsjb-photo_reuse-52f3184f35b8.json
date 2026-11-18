@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-52f3184f35b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Motooka"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 2388b8082c88) is attached to 10 different works in 1 village. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Other (10)."
+ ],
+ "photo": "photos/2388b8082c88beae6f46b3ccdfed5c362b820866e92bcdd4c886e995a4c227b3.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12962569",
@@ -141,5 +159,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

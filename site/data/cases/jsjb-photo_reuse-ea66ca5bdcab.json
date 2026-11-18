@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ea66ca5bdcab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Mudowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d737a8f3e14) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-02-01 12:55:51 to 2026-02-01 12:58:29)."
+ ],
+ "photo": "photos/8d737a8f3e14731ffa0ec8713c2ba49c408e78e826ba46e124222627c19cf35b.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "1052953",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

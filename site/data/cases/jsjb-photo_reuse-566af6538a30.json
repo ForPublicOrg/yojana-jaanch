@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-566af6538a30",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Bagli Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5042bb1cb9d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 34 seconds (2026-02-04 19:04:05 to 2026-02-04 19:04:39)."
+ ],
+ "photo": "photos/c5042bb1cb9d3b6e1a5689d51c808388a97a9c5fe887b0a9026c80525d344f18.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1326818",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-34d99d1dcb87",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Bara Pind",
+  "Jaja Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 546ae80b9476) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-28 20:58:49 to 2026-05-28 20:59:59)."
+ ],
+ "photo": "photos/546ae80b9476e20855a13a49eb0668d7ecebbe9994e0eb90c2070a0622146ded.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "14344568",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

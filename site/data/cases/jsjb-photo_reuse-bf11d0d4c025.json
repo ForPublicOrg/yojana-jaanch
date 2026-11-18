@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bf11d0d4c025",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Bharath Qazi Chak",
+  "Machhrala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6fc4872841c1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/6fc4872841c1a0a1455b2f16428e2bb3e1942131896e6c3c75ba76395eaf0686.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "1262183",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

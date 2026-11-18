@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ef510ccc219b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Nagawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fa0465bf048a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.263552, 82.993342).",
+  "The photo was uploaded 4 times within 18 seconds (2026-04-08 16:52:49 to 2026-04-08 16:53:07)."
+ ],
+ "photo": "photos/fa0465bf048a89288f2df469741d76822d775176fddc25c13e9197dbc12e54f7.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "4615571",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

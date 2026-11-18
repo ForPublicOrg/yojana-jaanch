@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0dd200491e7e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Akorhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c6e944cfccc3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.09109715, 79.37058978).",
+  "The photo was uploaded 3 times within 46 seconds (2026-05-26 14:59:20 to 2026-05-26 15:00:06)."
+ ],
+ "photo": "photos/c6e944cfccc310e7fdac2e714dfc9b362f166306ca1725d63e17cb66a8df40f0.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "12957452",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

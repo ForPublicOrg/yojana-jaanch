@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4b55d1650357",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Mandi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b729db269e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.213302, 75.253854).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-03-15, 2026-03-16."
+ ],
+ "photo": "photos/3b729db269e83480efdab345ee38e3e161cb47d7079765933e246cdc2a9b5b99.jpg",
+ "offices": [
+  "Computer faculty"
+ ],
  "records": [
   {
    "record_id": "3972792",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

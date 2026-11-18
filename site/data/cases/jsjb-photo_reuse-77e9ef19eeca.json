@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-77e9ef19eeca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Bhagi Bander",
+  "Manuana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fa286c1f6889) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (29.87325, 75.14131)."
+ ],
+ "photo": "photos/fa286c1f68897e36012e86c760ebf69a585c056b953150265a7b38d7a2813178.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "3724418",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8cde2f00c6e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Majruha",
+  "Manik Chauk"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 93a1078b059c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-09 12:13:18 to 2026-04-09 12:16:26)."
+ ],
+ "photo": "photos/93a1078b059cd5bd44e16031f0b1edbb001577ff16706beab36f201aed9652d3.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4635926",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

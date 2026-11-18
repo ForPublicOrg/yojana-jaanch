@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-05f849a1bfb9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Burj"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 338df80c3cc8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/338df80c3cc8881ccaa916c5c7b1c036e2c9545109276172bce3c7a6846d37a6.jpeg",
+ "offices": [
+  "dealing assistant-primary Education"
+ ],
  "records": [
   {
    "record_id": "1226362",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

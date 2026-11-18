@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-d85e738e4496",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Namakkal (M) - Ward No.27",
+  "Namakkal (M) - Ward No.7",
+  "Namakkal (M) - Ward No.8"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d1a48270adea) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (11.239664, 78.149891)."
+ ],
+ "photo": "photos/d1a48270adeaa799e9e0e4ceb4521afed59eb59f176392bcac20c0b15964b1de.jpg",
+ "offices": [
+  "COMMSIONEER -NAMAKKAL"
+ ],
+ "records": [
+  {
+   "record_id": "3333893",
+   "village": "Namakkal (M) - Ward No.7",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-09-08",
+   "end_date": "2024-06-12",
+   "lat": 11.239664,
+   "lon": 78.149891,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3454307",
+   "village": "Namakkal (M) - Ward No.27",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-09-15",
+   "end_date": "2024-11-19",
+   "lat": 11.239664,
+   "lon": 78.149891,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3460345",
+   "village": "Namakkal (M) - Ward No.8",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-02-01",
+   "end_date": "2024-12-13",
+   "lat": 11.239664,
+   "lon": 78.149891,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

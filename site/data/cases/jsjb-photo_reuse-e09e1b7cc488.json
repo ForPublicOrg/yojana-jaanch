@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-e09e1b7cc488",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Dilwargarh",
+  "Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6c049132ed28) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-04, 2026-05-05.",
+  "The entries were made by 2 different offices: APO, SDO Watersupply.",
+  "These works are spread over 2 blocks: Ahmedgarh, Malerkotla (Head Quarter)."
+ ],
+ "photo": "photos/6c049132ed283e095d999c635fb31ce7d261a4423a841f4786e4f270cdb5fe61.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "7558627",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

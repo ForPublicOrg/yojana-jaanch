@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d5dbdd8eefee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Jamua"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2ea2bb2f96e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/2ea2bb2f96e848c2d07837a217c5aab6a5ecaed10e51d2bb43938cda8a86c600.jpg",
+ "offices": [
+  "BDO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4427831",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

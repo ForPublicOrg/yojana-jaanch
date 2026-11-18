@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-4e95070c3bc5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Chak Khere Wala",
+  "Kheo Wali Mustkil Bareka",
+  "Santokh Singh Wala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ebd674fa8883) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1).",
+  "The entries were made by 2 different offices: BDPO jalalabad, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Jalalabad, Khuian Sarwar."
+ ],
+ "photo": "photos/ebd674fa888357946a5bce44df912a391e54e4c0c3719488fff591462df02f77.jpg",
+ "offices": [
+  "BDPO jalalabad",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "989650",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

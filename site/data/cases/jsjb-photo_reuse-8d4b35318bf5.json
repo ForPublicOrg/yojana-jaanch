@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8d4b35318bf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Kale Ke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4cdcd2a69e38) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.2308735, 75.540085)."
+ ],
+ "photo": "photos/4cdcd2a69e38ce65aa88ff9ca6e9956f9b56fe08058d5ab114fa1410b88cee1a.jpg",
+ "offices": [
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4407919",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

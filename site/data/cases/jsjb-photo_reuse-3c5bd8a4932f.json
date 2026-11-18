@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3c5bd8a4932f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Baghpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c717e5545938) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c717e554593882be4ba4490168bbd79665d77cafbbbccd0bb9cf9ddefb070234.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4036073",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

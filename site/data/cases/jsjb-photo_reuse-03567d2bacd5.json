@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-03567d2bacd5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bara",
+  "Bhuttan",
+  "Shivdaspur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 78076ed79d34) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khamano."
+ ],
+ "photo": "photos/78076ed79d3462217dab9715983ebc7c5a78ccb79ac16310f39624750863fd66.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5007201",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

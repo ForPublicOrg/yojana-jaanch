@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5a0e2d01554c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Mehdudan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2ab0c5ed2bf2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/2ab0c5ed2bf2345b3f28fc133e5e2a97567bf61d438d5d0330a7404dc972dfeb.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046514",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

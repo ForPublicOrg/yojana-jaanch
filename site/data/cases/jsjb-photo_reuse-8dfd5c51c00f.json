@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8dfd5c51c00f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Machhiwara",
+ "villages": [
+  "Powat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 698619955e99) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.897943, 76.283002)."
+ ],
+ "photo": "photos/698619955e99071fe2fa8c5c3f6cc525329b1f3c3b18153c77396e381098d5a8.jpg",
+ "offices": [
+  "XEN/ Ludhiana Drainage cum Mining & Geology"
+ ],
  "records": [
   {
    "record_id": "5254062",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Machhiwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

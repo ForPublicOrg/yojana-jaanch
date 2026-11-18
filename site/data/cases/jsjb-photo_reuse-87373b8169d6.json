@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-87373b8169d6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Chomon",
+  "Sihora"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1157693d0110) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 3 times within 7 minutes (2025-04-29 18:03:36 to 2025-04-29 18:10:18)."
+ ],
+ "photo": "photos/1157693d0110066266eb881495e614b04c4ca6ffe45d60f9f978332af60b013d.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1320351",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

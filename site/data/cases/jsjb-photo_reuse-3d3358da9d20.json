@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3d3358da9d20",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Bhila"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fb9799c0fee8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Kapurthala, Deputy Commissioner."
+ ],
+ "photo": "photos/fb9799c0fee8dc62b93143d34d4e2858b68ca8e027d0b821c5f27a372978360f.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "979454",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

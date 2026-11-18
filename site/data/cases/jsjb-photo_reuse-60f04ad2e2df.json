@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-60f04ad2e2df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Akalgarh (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e1090dc0957) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5e1090dc0957e0a9ca0df64e6fadf2587b8f854178a27fa7b9ba5a37c7b9c848.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1042839",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

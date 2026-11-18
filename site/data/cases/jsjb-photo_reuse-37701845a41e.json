@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-37701845a41e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 53 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "T.Konagapadi"
+ ],
+ "record_count": 53,
+ "reasons": [
+  "The same photo file (fingerprint 21b2b741753d) is attached to 53 different works in 1 village. A photo of one site cannot be evidence for 53 separate works.",
+  "The works are recorded as: Soak Pit (53).",
+  "All 53 works report the same GPS point (11.68, 77.99)."
+ ],
+ "photo": "photos/21b2b741753d47455673723dada82831e91c52a7c188e7fca033e709e3f1a27c.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345169",
@@ -743,5 +762,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 160,
+ "needs_human_review": false
 }

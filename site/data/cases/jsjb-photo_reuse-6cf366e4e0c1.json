@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6cf366e4e0c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Kaseer",
+  "Khawaspura",
+  "Malera",
+  "Thanwala"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 9444623889bd) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/9444623889bd4e6011aa15d5944fda7214980fef51281325a7f5ad28b6533e17.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4040660",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

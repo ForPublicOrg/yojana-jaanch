@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-71480571b622",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Budhewal",
+  "Jhamat",
+  "Malakpur",
+  "Sahibana"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint adefd8fd9946) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The entries were made by 2 different offices: Canal Ziledaar/ Sidhwan Canal & Ground Divn, Ludhi, Canal Ziledaar/Sidhwan Canal & Ground Water Divisi.",
+  "These works are spread over 2 blocks: Ludhiana-1, Ludhiana-2."
+ ],
+ "photo": "photos/adefd8fd9946eda18b39e41ed149ecf6f5f0c1f3b0561de0ddae03fff6835ebf.jpg",
+ "offices": [
+  "Canal Ziledaar/ Sidhwan Canal & Ground Divn, Ludhi",
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "987636",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2bc3376d31c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Kesar Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8a51148cd6d0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.514721, 75.119842).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-07 15:40:47 to 2026-04-07 15:42:45)."
+ ],
+ "photo": "photos/8a51148cd6d00e2150dd57852e3dce2f0c043a909a08f072243b5157e88014fc.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4574128",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

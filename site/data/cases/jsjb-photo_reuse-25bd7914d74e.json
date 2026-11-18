@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-25bd7914d74e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Dandupur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 6256650de1fe) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "All 5 works report the same GPS point (25.426148, 82.706915).",
+  "The photo was uploaded 10 times within 2 minutes (2026-01-23 13:27:35 to 2026-01-23 13:28:37)."
+ ],
+ "photo": "photos/6256650de1feb5bc216148e3bc4f1c490d5abb7530f5d25cbe64858d1ba45a30.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3332730",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

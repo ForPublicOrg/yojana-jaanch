@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5a53b22ebfb3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Chand Sen",
+  "Kali Hardiya",
+  "Lawa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 332fb8532874) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/332fb8532874105137891d7ab92179cc6f3dd3286f321b6d65946739eabce73f.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1395531",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

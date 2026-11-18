@@ -1,0 +1,114 @@
+{
+ "id": "jsjb-photo_reuse-6237c55926e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Athanur",
+ "villages": [
+  "Athanur (TP) - Ward No.11",
+  "Athanur (TP) - Ward No.13",
+  "Athanur (TP) - Ward No.5",
+  "Athanur (TP) - Ward No.6"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 781dad69432b on 3 works, f2bfc02778c9 on 2 works.",
+  "The works are recorded as: Recharge Pit (3), Other (2)."
+ ],
+ "photo": "photos/781dad69432b68cbdfdbdedde3bf9bd45316fe73c8fba968b59a72ddf955e39c.jpg",
+ "offices": [
+  "EO ATHANUR"
+ ],
+ "records": [
+  {
+   "record_id": "3726394",
+   "village": "Athanur (TP) - Ward No.6",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-12-09",
+   "end_date": "2025-12-09",
+   "lat": 11.499945,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3729887",
+   "village": "Athanur (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-16",
+   "end_date": "2025-09-16",
+   "lat": 11.499945,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3730025",
+   "village": "Athanur (TP) - Ward No.13",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-08-20",
+   "end_date": "2025-08-20",
+   "lat": 11.499948,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3733088",
+   "village": "Athanur (TP) - Ward No.11",
+   "structure_type": "Other",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-10-07",
+   "end_date": "2025-10-28",
+   "lat": 11.499945,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3734041",
+   "village": "Athanur (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-10-12",
+   "end_date": "2025-10-20",
+   "lat": 11.499945,
+   "lon": 78.137218,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "781dad69432b68cbdfdbdedde3bf9bd45316fe73c8fba968b59a72ddf955e39c",
+   "records": 3
+  },
+  {
+   "sha256": "f2bfc02778c9dfae552554857c4b609b1cd9eea3e1eb1b567e1f46dff51e4b0e",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-7e70028d745a"
+ ]
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-328f117b0e79",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Rattan Garh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint de8bbcfecffb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The photo was uploaded 2 times within 9 minutes (2025-11-04 13:00:56 to 2025-11-04 13:09:00)."
+ ],
+ "photo": "photos/de8bbcfecffb292d25437c29b8ad0259be4c5a2557a5598f8db3382e9625b9ec.jpg",
+ "offices": [
+  "X.E.N"
+ ],
  "records": [
   {
    "record_id": "2940722",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

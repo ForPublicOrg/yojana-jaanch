@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-b39298489e87",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Diyal Bhatti",
+  "Sahian Khurd",
+  "Tera Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 48ee849e258f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "The entries were made by 2 different offices: BDPO AJNALA, BDPO Verka.",
+  "These works are spread over 2 blocks: Ajnala, Verka."
+ ],
+ "photo": "photos/48ee849e258f0a705eb6500fae1eec134186d1d66110067fd9a34f02127b8ed7.jpeg",
+ "offices": [
+  "BDPO AJNALA",
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "7442666",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

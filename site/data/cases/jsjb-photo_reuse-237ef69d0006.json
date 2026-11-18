@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-237ef69d0006",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Nayagaon Jatan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0de7730d5cc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.260481, 75.29342).",
+  "The photo was uploaded 4 times within 6 seconds (2026-03-20 10:37:26 to 2026-03-20 10:37:32)."
+ ],
+ "photo": "photos/f0de7730d5cc26b3c7c8ddc7fad47c544b6b4bc1b8ced017366872de5fae8703.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4061198",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

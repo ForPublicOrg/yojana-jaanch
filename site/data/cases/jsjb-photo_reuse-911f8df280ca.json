@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-911f8df280ca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bhaluaha",
+  "Marhia Tetaria"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 81f67fbdd205) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/81f67fbdd205471ade6e47eb35d6e51f35aa0b237f3e0c1e6a116667f4fb17f9.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4598578",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

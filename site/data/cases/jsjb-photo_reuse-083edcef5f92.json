@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-083edcef5f92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Mehal Kalan",
+ "villages": [
+  "Chananwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3eebc935ff08) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/3eebc935ff0854273f3ada45eb4e1ca7337984a13c6930da67e2690fdca063ec.jpg",
+ "offices": [
+  "JE Makhan Singh"
+ ],
  "records": [
   {
    "record_id": "8911621",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

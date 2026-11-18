@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-da74cc6f551f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Barwa",
+  "Bay"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e928246a1d8b) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/e928246a1d8bde98865e13f6b9634177650206adb1197587367d81def9d053e1.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4225796",
+   "village": "Bay",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-07",
+   "end_date": "2026-01-06",
+   "lat": 27.849499,
+   "lon": 75.3367,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4266486",
+   "village": "Barwa",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-10",
+   "end_date": "2025-12-16",
+   "lat": 27.748231,
+   "lon": 75.350347,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4274401",
+   "village": "Bay",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-12",
+   "end_date": "2025-12-23",
+   "lat": 27.84874605,
+   "lon": 75.336131,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

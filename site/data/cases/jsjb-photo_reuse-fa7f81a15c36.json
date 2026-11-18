@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fa7f81a15c36",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bela",
+  "Dighi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 99b14549497e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 4 times within 53 seconds (2026-04-07 12:41:05 to 2026-04-07 12:41:58)."
+ ],
+ "photo": "photos/99b14549497e313740d659f11ce017aa18429eb22b0c4e5e33e92ea2d5824245.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4561040",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

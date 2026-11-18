@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2a57ff100689",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Kadambur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7770c224b6dc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.502372, 78.605167).",
+  "The photo was uploaded 3 times within 11 minutes (2025-07-14 12:46:05 to 2025-07-14 12:56:40)."
+ ],
+ "photo": "photos/7770c224b6dc910690f2f52cdb9902fd00757060257f52e90acf1009a1de526d.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9348810",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

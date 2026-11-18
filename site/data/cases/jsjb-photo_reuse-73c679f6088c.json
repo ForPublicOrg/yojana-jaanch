@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-73c679f6088c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Bashirpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a8c5c95510dc) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/a8c5c95510dcc62bdb821a9a9a0d6ea0de272ff243c480981dd051b01fa4e91d.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3655220",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

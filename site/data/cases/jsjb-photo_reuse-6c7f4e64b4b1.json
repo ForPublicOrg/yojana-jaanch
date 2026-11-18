@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6c7f4e64b4b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Balala"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 5d41fb6ca682) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4).",
+  "All 4 works report the same GPS point (30.81, 76.11).",
+  "The photo was uploaded 8 times within 2 minutes (2026-02-04 16:28:03 to 2026-02-04 16:29:49)."
+ ],
+ "photo": "photos/5d41fb6ca682d5cc4e7b6258193b8d560cdb2e5ab467a1f8a08c0b570635cc6e.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1225255",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

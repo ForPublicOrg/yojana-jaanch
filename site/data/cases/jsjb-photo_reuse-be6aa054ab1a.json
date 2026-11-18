@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-be6aa054ab1a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Dhano"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d9cb7ee36c6d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.574996, 75.816189)."
+ ],
+ "photo": "photos/d9cb7ee36c6dbf9a177cfbafc0eda94269350289b9a663b28fa6c15b8313cba3.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10689381",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

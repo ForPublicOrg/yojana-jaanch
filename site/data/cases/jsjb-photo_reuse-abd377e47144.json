@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-abd377e47144",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Barbaspur",
+  "Barwan",
+  "Rampoor",
+  "Rampur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5b41f383fcb7) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (4), Village Pond (1)."
+ ],
+ "photo": "photos/5b41f383fcb7df66aff9266f7aaa063543510cdd515fb8644aff52402515e187.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3331355",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

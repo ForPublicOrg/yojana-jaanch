@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a475e813ab00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Rurka Kalan",
+ "villages": [
+  "Nathewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 45c4b1e5d354) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 9 minutes (2026-04-05 09:25:50 to 2026-04-05 09:34:42).",
+  "The entries were made by 2 different offices: BDPO Rurka Kalan, Zilledar."
+ ],
+ "photo": "photos/45c4b1e5d3545d67e19ef3bf0ee9d78069d2d1311ba109c5b6fd500971fae0a7.jpg",
+ "offices": [
+  "BDPO Rurka Kalan",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986494",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Rurka Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

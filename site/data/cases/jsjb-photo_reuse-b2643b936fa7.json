@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b2643b936fa7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Bajoli",
+  "Bas Kheriya",
+  "Dheekla"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f3c7d2fc27e6) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/f3c7d2fc27e6dd9a50a02c36488d28ba350b097f3260e712a50544dbb0a3fc38.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3636399",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

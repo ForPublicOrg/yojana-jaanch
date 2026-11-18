@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d9ebafdba595",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Jamua"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 145aaafa3e1b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.68, 85.24).",
+  "The photo was uploaded 2 times within 8 minutes (2026-02-01 13:07:13 to 2026-02-01 13:14:52)."
+ ],
+ "photo": "photos/145aaafa3e1bd1b4371c999e850c00a43b13342531b99df628c182c803020276.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "106088769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

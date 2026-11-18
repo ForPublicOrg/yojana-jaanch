@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3cf7b38c0da5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Karmer"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7943b94980c8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/7943b94980c856f7c773ee3eb5534944b5a934575f7f3801e6625a1f93f8ef77.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5153728",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

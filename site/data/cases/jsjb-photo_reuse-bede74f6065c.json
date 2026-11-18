@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-bede74f6065c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Norangpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7b199f583202) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/7b199f58320289f3021174cfe49abd19c264396e78f48dc7e6344d7fcc650078.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1396503",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

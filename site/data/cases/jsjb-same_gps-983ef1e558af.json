@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-983ef1e558af",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "24 works at one GPS point in Ariyapalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Ariyapalayam"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "24 works in Ariyapalayam report exactly the same GPS point (11.62, 78.47).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (24).",
+  "They carry 23 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349640",
@@ -337,5 +358,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

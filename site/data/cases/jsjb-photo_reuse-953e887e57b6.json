@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-953e887e57b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Eranapuram (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9e7afe0f138f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (11.556305, 77.983929).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-19 18:19:43 to 2026-05-19 18:23:30)."
+ ],
+ "photo": "photos/9e7afe0f138f5cc57ffd4ce7367a1c140eeb12da327d89f7ab61e91ee903967a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10234472",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

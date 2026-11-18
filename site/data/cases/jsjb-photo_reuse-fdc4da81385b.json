@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fdc4da81385b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Kutiwal Kalan",
+  "Kutiwal Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ca30f985e448) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-03-16)."
+ ],
+ "photo": "photos/ca30f985e448db6b8b2f3088aba2204e4045b1cb60b0142132305d44ea984e44.jpg",
+ "offices": [
+  "Computer faculty"
+ ],
  "records": [
   {
    "record_id": "3971043",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

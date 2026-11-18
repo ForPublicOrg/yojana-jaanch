@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8ab0b2f39c0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kadaura",
+ "villages": [
+  "Akori",
+  "Badagaon",
+  "Bhendi Khurd",
+  "Chatela"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 8f78923c7322) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/8f78923c732293919644a5d2afab843354898061441b6205d7c0ad5a4b883a9b.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5195511",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kadaura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

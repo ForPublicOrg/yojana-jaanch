@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3971fea49d09",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Kanakwal Alias Rattan Garh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b155d1c69027) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: APO, Computer faculty."
+ ],
+ "photo": "photos/b155d1c690273680eb7ce10a6054b8baf64b60c31ed9a9610b4d57ba700ad227.jpg",
+ "offices": [
+  "APO",
+  "Computer faculty"
+ ],
  "records": [
   {
    "record_id": "3962158",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

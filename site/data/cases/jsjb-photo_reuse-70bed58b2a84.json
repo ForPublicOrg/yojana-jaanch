@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-70bed58b2a84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Bordi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d9403a5f050) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.108497, 75.91939).",
+  "All 2 works started and ended on the same day (2026-05-29).",
+  "The photo was uploaded 2 times within 4 minutes (2026-05-30 18:07:11 to 2026-05-30 18:10:31)."
+ ],
+ "photo": "photos/8d9403a5f050d49ffd60355a606f0d7fd137263769d8d55f9c94a24e9e18939a.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "15180151",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

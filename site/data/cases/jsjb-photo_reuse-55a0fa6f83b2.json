@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-55a0fa6f83b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 14 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Balua Kharaua",
+  "Belahi Nil Kanth",
+  "Chakwa",
+  "Kharka",
+  "Madhopur",
+  "Masumnagar Urf Premnagar",
+  "Neori"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "The same photo file (fingerprint 54e73c0b5404) is attached to 14 different works in 7 villages. A photo of one site cannot be evidence for 14 separate works.",
+  "The works are recorded as: Village Pond (13), Soak Pit (1)."
+ ],
+ "photo": "photos/54e73c0b5404d2c183feab12631924a4782d2208528721113548834b949c4074.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4422433",
@@ -197,5 +221,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

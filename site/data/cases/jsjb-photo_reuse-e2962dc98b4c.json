@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e2962dc98b4c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Hindu Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9d0d712bd396) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.0, 76.0).",
+  "The photo was uploaded 2 times within 10 minutes (2026-04-17 12:25:10 to 2026-04-17 12:34:15)."
+ ],
+ "photo": "photos/9d0d712bd396086ecd573dfa2f035a62db45e1df249db1d9ee5080f4f5d60992.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5010250",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

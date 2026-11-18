@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b1b3633ece52",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Dhanaula Kalan",
+  "Fatehgarh Channa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7d30454cff53) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/7d30454cff533a3703f57f55a4300b13b31587079b218d1f9ea619bb8b3043ae.jpg",
+ "offices": [
+  "Manuj Mittal J E"
+ ],
  "records": [
   {
    "record_id": "6253638",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

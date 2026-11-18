@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-d24e95bd9dd1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 10 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Behlolpur",
+  "Buhra",
+  "Chanalon",
+  "Sangatpura"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 10 different works in 4 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 809ee417c0ee on 8 works, b010d51a28bf on 2 works.",
+  "The works are recorded as: Contour Trench (10)."
+ ],
+ "photo": "photos/809ee417c0eebc1f9f9b97ce63d3140cc8276c5f79da4e1940d324174e6dbd57.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4820240",
@@ -141,5 +164,21 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "809ee417c0eebc1f9f9b97ce63d3140cc8276c5f79da4e1940d324174e6dbd57",
+   "records": 8
+  },
+  {
+   "sha256": "b010d51a28bfd46e21411a278a59bf22b841f154f4635708e738434f914f63a2",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-b1f74b2de959"
  ]
 }

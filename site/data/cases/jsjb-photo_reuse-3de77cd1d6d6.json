@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3de77cd1d6d6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Muthuruttu",
+  "Perappansolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e9b7c91a2a7c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/e9b7c91a2a7cfe7800a446117cb2cde78ebd474be0042d8d8444efdefdf02177.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9331005",
+   "village": "Perappansolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-11-29",
+   "end_date": "2019-07-30",
+   "lat": 11.4078243,
+   "lon": 78.4076274,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9331389",
+   "village": "Muthuruttu",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-01-05",
+   "end_date": "2018-12-21",
+   "lat": 11.5519739,
+   "lon": 78.4477155,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-09bc9433a375",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Tangrala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f8514e72a2ae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.5656, 76.3467).",
+  "The photo was uploaded 4 times within 13 minutes (2026-04-25 16:34:35 to 2026-04-25 16:47:17)."
+ ],
+ "photo": "photos/f8514e72a2aef3a4d7299a37b00ed172102f9d1420b1996a7f0af18b0260cb1f.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5512378",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

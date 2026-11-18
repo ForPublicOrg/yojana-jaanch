@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7557e6ccc814",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Deoria Sadar",
+ "villages": [
+  "Ahilwar Buzurg",
+  "Maharajpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8268325cbe14) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/8268325cbe14962bee696a1c2fa9ea2bae65246b7150be07c39713cad552e669.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3243622",
+   "village": "Ahilwar Buzurg",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-09-18",
+   "end_date": "2025-09-24",
+   "lat": 26.44793,
+   "lon": 83.82738,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Deoria Sadar"
+  },
+  {
+   "record_id": "3343660",
+   "village": "Maharajpur",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-11",
+   "end_date": "2025-11-26",
+   "lat": 26.44791,
+   "lon": 83.82744,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Deoria Sadar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

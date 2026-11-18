@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9850484b58b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Aliwal Jattan",
+  "Khehra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 75059d468820) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.837948, 75.017341).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-16."
+ ],
+ "photo": "photos/75059d468820494f2e1c2535185a71454767e0c2cb40e9ed7c2488f172e4400e.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "9237671",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

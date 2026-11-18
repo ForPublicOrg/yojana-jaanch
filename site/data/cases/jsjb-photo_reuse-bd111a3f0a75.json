@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-bd111a3f0a75",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhagalpur",
+ "villages": [
+  "Pandey Mhiswa",
+  "Pipra Beni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1ee213932f23) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Bhagalpur, Gauri Bazar."
+ ],
+ "photo": "photos/1ee213932f2364bbc8affd3137d50c4c0afa158f54f316c2b7c10652780c1483.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3243054",
+   "village": "Pandey Mhiswa",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-09-17",
+   "end_date": "2025-09-23",
+   "lat": 26.61505,
+   "lon": 83.66651,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Gauri Bazar"
+  },
+  {
+   "record_id": "3250573",
+   "village": "Pipra Beni",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-09-10",
+   "end_date": "2025-10-30",
+   "lat": 26.29165,
+   "lon": 83.81605,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhagalpur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

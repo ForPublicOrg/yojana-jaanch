@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2d8b5ef79097",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Dadwindi"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint 1c11dde21a11) is attached to 19 different works in 1 village. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Contour Trench (19).",
+  "All 19 works report the same GPS point (31.240369, 75.262863)."
+ ],
+ "photo": "photos/1c11dde21a11029f4ab1fd092db6b67bb53742a8638c24b23c7f0292a0ff3139.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "12274820",
@@ -267,5 +286,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 58,
+ "needs_human_review": false
 }

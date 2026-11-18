@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-dd4d8a163516",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Anakanur",
+  "Ankanagondi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0ddd4ba9170d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/0ddd4ba9170d3ac789bebfb774338aea316ec13228ac43edaa09917e5173d7bb.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3094800",
+   "village": "Anakanur",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-07-17",
+   "lat": 13.34507,
+   "lon": 77.23405,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3100090",
+   "village": "Ankanagondi",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-01",
+   "end_date": "2025-08-19",
+   "lat": 13.23409,
+   "lon": 77.23408,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

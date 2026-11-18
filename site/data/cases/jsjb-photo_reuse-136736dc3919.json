@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-136736dc3919",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Dalavaipatty"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d5be444444ad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.6, 78.52)."
+ ],
+ "photo": "photos/d5be444444ad998b65dbed980db63016a18b03faf2b908fdb93bcaab17e9c4af.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9362078",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

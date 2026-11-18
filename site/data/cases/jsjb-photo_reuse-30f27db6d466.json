@@ -1,5 +1,36 @@
 {
  "id": "jsjb-photo_reuse-30f27db6d466",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 174 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Balsa",
+  "Barri Bihta",
+  "Basotra",
+  "Bhanta Bari",
+  "Bhutaha",
+  "Chandar Saina",
+  "Cheraut",
+  "Chikna Chak",
+  "Dumarbana",
+  "Jadupatti Urf Semra",
+  "Khoria",
+  "Parigawan"
+ ],
+ "record_count": 174,
+ "reasons": [
+  "The same picture was saved as 3 different files and attached to 174 different works in 12 villages. A photo of one site cannot be evidence for 174 separate works.",
+  "The 3 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 302720599cb0 on 114 works, 9f628126b79a on 44 works, 8e908a64a0b4 on 16 works.",
+  "The works are recorded as: Village Pond (166), Percolation Pond (8)."
+ ],
+ "photo": "photos/302720599cb03507960d8921eca466ae37fd53fa1469cfbc9dc645338a57e5d1.jpg",
+ "offices": [
+  "PO Charaut"
+ ],
  "records": [
   {
    "record_id": "3532420",
@@ -2437,5 +2468,26 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 522,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "302720599cb03507960d8921eca466ae37fd53fa1469cfbc9dc645338a57e5d1",
+   "records": 114
+  },
+  {
+   "sha256": "9f628126b79a9d859464ec2539545504ff962f127060947bc944192db4fdc452",
+   "records": 44
+  },
+  {
+   "sha256": "8e908a64a0b43f8feb16b08827151c07a68b97e4b772118994abc67153f44103",
+   "records": 16
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e479a74c0ac2",
+  "jsjb-photo_reuse-7abb8f743136"
  ]
 }

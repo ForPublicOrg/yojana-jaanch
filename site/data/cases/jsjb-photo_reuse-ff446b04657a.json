@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ff446b04657a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Bajhai",
+  "Kachogara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint acbe5bf2ce7e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/acbe5bf2ce7e241dcb86e3b2a63b95502b88deaa3674c50d20f10068f05549f3.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12882996",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

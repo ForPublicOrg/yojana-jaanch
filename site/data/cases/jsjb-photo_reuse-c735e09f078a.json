@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c735e09f078a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Dhamot",
+  "Giddari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4348874f50e3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/4348874f50e39c9a8f85fc0042e02c9db04f46ba56a850cd23a573e154ac6115.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1345076",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

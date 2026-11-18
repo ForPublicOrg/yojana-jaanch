@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-beef73a896dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Mor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f866bca64fb3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Other (1).",
+  "All 2 works report the same GPS point (26.14, 75.43)."
+ ],
+ "photo": "photos/f866bca64fb3380d9502d17ac488e87355700f0faa2cc8ad0785d07d77b54537.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "1379113",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

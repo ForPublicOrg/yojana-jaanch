@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3ec9077fc58f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Chogai",
+  "Sondi Phal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ca7c8ce9c729) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.381347, 75.6355382)."
+ ],
+ "photo": "photos/ca7c8ce9c729fe704c41586ee14f3c11c452a65945a393c71176a79b53221c8e.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3700311",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-0ee922016d8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Surajgarh",
+ "villages": [
+  "Jakhod"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 73753992e91e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (28.317753, 75.688284)."
+ ],
+ "photo": "photos/73753992e91ee993b04fc1f04ecc2812384c9db22d06b7a36a76a70f8b3b3c5c.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "13504540",
+   "village": "Jakhod",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-04-17",
+   "end_date": "2026-04-30",
+   "lat": 28.317753,
+   "lon": 75.688284,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "13506918",
+   "village": "Jakhod",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-04-17",
+   "end_date": "2026-04-30",
+   "lat": 28.317753,
+   "lon": 75.688284,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "13520989",
+   "village": "Jakhod",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-04-17",
+   "end_date": "2026-04-30",
+   "lat": 28.317753,
+   "lon": 75.688284,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fb02b713abd9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Dialgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1cb4a9986528) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.156387, 75.581669).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-18.",
+  "The photo was uploaded 4 times within 17 minutes (2026-05-18 11:19:29 to 2026-05-18 11:35:42)."
+ ],
+ "photo": "photos/1cb4a9986528f00f5bc2923da0bba30c21ff780fc738ece8bffb8c62634a8ed9.jpg",
+ "offices": [
+  "Block Development Officer Sunam"
+ ],
  "records": [
   {
    "record_id": "9900289",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

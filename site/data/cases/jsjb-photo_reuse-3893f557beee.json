@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-3893f557beee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Choradi Athuni",
+  "Tonk Dhaka Ki Dhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2ce599c1ad39) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 17 minutes (2026-03-26 12:43:30 to 2026-03-26 13:00:03)."
+ ],
+ "photo": "photos/2ce599c1ad392881d141ef4fdf0678fccdb00ec27459d08f9de263602eb97eb9.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4268679",
+   "village": "Choradi Athuni",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-12",
+   "end_date": "2026-02-10",
+   "lat": 28.02026,
+   "lon": 75.338175,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4269611",
+   "village": "Tonk Dhaka Ki Dhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-15",
+   "end_date": "2025-11-11",
+   "lat": 27.75682,
+   "lon": 75.3955,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

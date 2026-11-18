@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-41a4807894de",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Moolapallipatti",
+  "Thimmanaickenpatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a6d379fefdae) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a6d379fefdae7ffe7aa86878953c2b5a254e5e2da6bcf556bb87412b0abad2c5.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9331292",
+   "village": "Moolapallipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-10-12",
+   "end_date": "2024-03-26",
+   "lat": 11.29042,
+   "lon": 78.183741,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9342635",
+   "village": "Thimmanaickenpatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-09-28",
+   "end_date": "2024-08-25",
+   "lat": 11.351401,
+   "lon": 78.263824,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

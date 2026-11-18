@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-5e3ff6cc909b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Adampal",
+  "Badshahpur",
+  "Dhano",
+  "Farwahali (6/96)",
+  "Jhunair"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint fa0ffd431864) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (3), Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: CANAL PATWARI, IT Manager."
+ ],
+ "photo": "photos/fa0ffd431864fa2d3557a5559b11776ca168082a3c37db144ce2686bd68606de.jpg",
+ "offices": [
+  "CANAL PATWARI",
+  "IT Manager"
+ ],
  "records": [
   {
    "record_id": "1045170",
@@ -71,5 +95,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

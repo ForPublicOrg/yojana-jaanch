@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-74d87fce9dd9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Ganeti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 13a5b5a8b3e4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (26.049148, 75.581568).",
+  "The photo was uploaded 4 times within 56 seconds (2026-05-30 13:44:20 to 2026-05-30 13:45:16)."
+ ],
+ "photo": "photos/13a5b5a8b3e4ceccf527f1c2969767671fe143bba757c6682ee4a0b6c2dbf80d.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "15077549",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-a377043622f1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Agwan",
+  "Alawalpur",
+  "Amargarh",
+  "Behalpur",
+  "Bhakhariwal",
+  "Bhangwan",
+  "Bohar Wadala",
+  "Dado Wala"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 92cd3dd9d829) is attached to 9 different works in 8 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9)."
+ ],
+ "photo": "photos/92cd3dd9d829cd5090f6484c4717f05801378c178c8eed668c91c066b90ec340.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10041654",
@@ -127,5 +152,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

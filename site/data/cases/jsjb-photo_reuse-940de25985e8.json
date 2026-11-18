@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-940de25985e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Kathawahazi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f3ea2b9a0c2f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1).",
+  "All 2 works report the same GPS point (26.390686, 78.3872)."
+ ],
+ "photo": "photos/f3ea2b9a0c2f06434968a6e9ecb4a9a80e52c4c88b6d0da3285feb0778d95191.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11383897",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

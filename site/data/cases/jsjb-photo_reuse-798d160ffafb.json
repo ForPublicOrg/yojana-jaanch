@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-798d160ffafb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Adalpur",
+  "Malahi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 3d9b878bf372) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (3), Other (1)."
+ ],
+ "photo": "photos/3d9b878bf372daa49f9c1a0936bca64220202c588a6b38ae4e32da6499362dd0.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4429139",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

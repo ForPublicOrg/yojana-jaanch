@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a97b6f7c3b1d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kotli",
+  "Malowal"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 7724a01be9dd) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "The photo was uploaded 8 times within 4 minutes (2026-02-25 11:50:00 to 2026-02-25 11:53:26)."
+ ],
+ "photo": "photos/7724a01be9dd072422c1964bbe61ac0e92b4e6024a1a862e3d747f0512946696.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1048281",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

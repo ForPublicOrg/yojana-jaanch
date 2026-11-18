@@ -1,5 +1,24 @@
 {
  "id": "jsjb-same_gps-13b089ee7e18",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Bhainsa",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Bhainsa"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Bhainsa report exactly the same GPS point (25.25386942, 82.70506083).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Bore-Well Recharge (3), Other (2)."
+ ],
+ "photo": null,
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "1239091",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

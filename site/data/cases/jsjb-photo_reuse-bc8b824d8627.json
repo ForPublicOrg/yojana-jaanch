@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bc8b824d8627",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Akbarnagar",
+  "Bagri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 66ec1a5a5a0c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (26.2974291, 75.7834772).",
+  "The photo was uploaded 6 times within 5 minutes (2026-02-25 12:27:24 to 2026-02-25 12:31:49)."
+ ],
+ "photo": "photos/66ec1a5a5a0c4deee32d52b7e5eb9de1e36265fe99855c251a99bc5907480c04.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3650253",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

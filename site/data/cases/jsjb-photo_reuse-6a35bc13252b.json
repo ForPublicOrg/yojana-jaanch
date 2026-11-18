@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-6a35bc13252b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Angarekanahalli",
+  "Dibbur",
+  "Gangrekaluve"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5256a58501ed) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (2), Other (1)."
+ ],
+ "photo": "photos/5256a58501edf92d7607f9f11800a07ca52f9c0de46afdeb63066fe0759a04a1.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3095744",
+   "village": "Dibbur",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-08-31",
+   "lat": 13.514571,
+   "lon": 77.799098,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3103656",
+   "village": "Angarekanahalli",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-12",
+   "end_date": "2026-03-08",
+   "lat": 13.449799,
+   "lon": 77.822836,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3109346",
+   "village": "Gangrekaluve",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-04-16",
+   "end_date": "2025-11-20",
+   "lat": 13.888458,
+   "lon": 77.856312,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-6d401e2b1065",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Doburji"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cd3e027e5222) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/cd3e027e5222c2f5216db62d0f9eaebcb6b15bd345417d0801a6b542bdae22f4.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "3766566",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

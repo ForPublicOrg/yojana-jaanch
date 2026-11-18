@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-e6b7088d7eb7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Dakhiya",
+  "Karimpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 79515370e5db on 1 work, e88789c34200 on 1 work.",
+  "The works are recorded as: Other (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (26.01492938, 75.7187332)."
+ ],
+ "photo": "photos/79515370e5db07aa31be4ca10c5dd75dea13eacd71ef84ded4ea2661e6b6fa44.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3637326",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "79515370e5db07aa31be4ca10c5dd75dea13eacd71ef84ded4ea2661e6b6fa44",
+   "records": 1
+  },
+  {
+   "sha256": "e88789c34200a52c6837bf40885caad95273cf99ea4e231ce154c6385226f084",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ba94b6fe9c2c"
  ]
 }

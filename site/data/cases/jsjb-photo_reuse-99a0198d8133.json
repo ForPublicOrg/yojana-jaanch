@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-99a0198d8133",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Saron"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 4f6ded7268b4) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "Each of the 8 works started and ended on a single day. The works are spread over 4 dates: 2026-05-15, 2026-05-21, 2026-05-22, 2026-05-31."
+ ],
+ "photo": "photos/4f6ded7268b4e56e18e6d5d48da683ea17aa5e98cc75f723567a64c550812f54.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9229158",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

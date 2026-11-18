@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-bf0619fdee95",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bharwari",
+  "Bhataulia",
+  "Bhorahar Mal",
+  "Bhorhan Birt",
+  "Maheshpur",
+  "Mandar",
+  "Mehthi",
+  "Nunaura"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint 821520e9e08e) is attached to 19 different works in 8 villages. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Soak Pit (19)."
+ ],
+ "photo": "photos/821520e9e08eefd6abfb406121ba0792249cd1db8ab786558e280d464911c11b.jpg",
+ "offices": [
+  "BDO Belsand"
+ ],
  "records": [
   {
    "record_id": "4667384",
@@ -267,5 +292,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 57,
+ "needs_human_review": false
 }

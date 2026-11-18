@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bf8018187b97",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Bugga Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0541f7d4e09d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 5 times within 11 minutes (2026-04-25 12:29:49 to 2026-04-25 12:40:02)."
+ ],
+ "photo": "photos/0541f7d4e09d4c29a2a684be5b73e8a5be33c6f2469481ee78260c103564c2ef.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5485559",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

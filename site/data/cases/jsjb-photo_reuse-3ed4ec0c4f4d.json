@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3ed4ec0c4f4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Sheikh Daulat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a547dda5da34) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 30 minutes (2026-04-19 22:52:59 to 2026-04-19 23:22:43)."
+ ],
+ "photo": "photos/a547dda5da34446b43f276bfb0d80dd21c28897e4ce8ef15d06824386d49b214.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "983655",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8697445b6cfe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Meghowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e166fdcc3e55) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.329119, 76.086654).",
+  "All 2 works started and ended on the same day (2026-04-21).",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-26 16:57:22 to 2026-04-26 17:01:25)."
+ ],
+ "photo": "photos/e166fdcc3e5510919b2b778c32bba10f7a1f6b4b21d950601d6addf5281e5f5e.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "5566762",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

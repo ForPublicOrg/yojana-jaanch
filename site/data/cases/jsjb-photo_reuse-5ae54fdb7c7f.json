@@ -1,5 +1,46 @@
 {
  "id": "jsjb-photo_reuse-5ae54fdb7c7f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 116 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Araria",
+  "Arazi Mohanpur",
+  "Arazi Sarwarpur",
+  "Az Rakbe Bharsand",
+  "Bagaha",
+  "Bandarjhula",
+  "Basahia",
+  "Chitra",
+  "Dostia",
+  "Ghurghura Hanumannagar Urf Ghurghura Baluaha",
+  "Indarwa",
+  "Jamunia Urf Majurwa",
+  "Kachaur",
+  "Kohbarwa",
+  "Lachhmipur",
+  "Marhia Tetaria",
+  "Parsa Kalan",
+  "Phulkaha",
+  "Pipra Parsain",
+  "Purandaha Rajwaramai Tola Mus.",
+  "Rajwara",
+  "Singhibahni"
+ ],
+ "record_count": 116,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 116 different works in 22 villages. A photo of one site cannot be evidence for 116 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): d1cecd1a08be on 105 works, 733bf0e38cfe on 11 works.",
+  "The works are recorded as: Soak Pit (104), Other (12)."
+ ],
+ "photo": "photos/d1cecd1a08be7051d717b6e43212dfc6812727bce182183b204fcc4857fda52a.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "3913283",
@@ -1625,5 +1666,21 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 348,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "d1cecd1a08be7051d717b6e43212dfc6812727bce182183b204fcc4857fda52a",
+   "records": 105
+  },
+  {
+   "sha256": "733bf0e38cfed742ab105681250a90dc33be3cbcedbf129422460214e4860fd5",
+   "records": 11
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-a85550c79414"
  ]
 }

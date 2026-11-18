@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-17e30061acec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Alampura",
+  "Gowli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c665a329a199) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: BDO, CEO ZILA PARISHAD."
+ ],
+ "photo": "photos/c665a329a199f22076a9ad12a835a83fa1759befdd7f66bd3a9c31d1f12e2428.jpg",
+ "offices": [
+  "BDO",
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4241460",
+   "village": "Alampura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-04",
+   "end_date": "2025-10-30",
+   "lat": 28.2354,
+   "lon": 75.235,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4292089",
+   "village": "Gowli",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-22",
+   "end_date": "2025-10-07",
+   "lat": 28.3,
+   "lon": 75.55,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

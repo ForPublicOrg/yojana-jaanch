@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9b38d6096f4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Harbans Pura",
+  "Hussainpura",
+  "Reona Bhola"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 86fdb2ea5183) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/86fdb2ea5183de41654bd946e8edc698fb24637f3ae42fa93d82cde29ca7473a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4821065",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

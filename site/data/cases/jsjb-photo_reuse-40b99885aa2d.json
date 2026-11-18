@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-40b99885aa2d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Pathanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cfeae87fcad7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.6405, 85.685896)."
+ ],
+ "photo": "photos/cfeae87fcad79c78dc9fbec3c7b6b1d6cb5344535e463a82eb43ef3762f9f456.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4476712",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

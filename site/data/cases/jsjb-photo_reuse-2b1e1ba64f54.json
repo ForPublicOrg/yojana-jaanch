@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2b1e1ba64f54",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Chachowali"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 6ef1b9b4985f) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The photo was uploaded 6 times within 9 minutes (2026-04-23 21:45:10 to 2026-04-23 21:53:24)."
+ ],
+ "photo": "photos/6ef1b9b4985f4f64974826f5c24db2e295d2061637988de36429a8843bd68895.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5359664",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

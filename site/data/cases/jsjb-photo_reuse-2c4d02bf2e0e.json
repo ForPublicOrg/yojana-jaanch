@@ -1,0 +1,85 @@
+{
+ "id": "jsjb-photo_reuse-2c4d02bf2e0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kotagal",
+  "Nandiganahalli",
+  "Vasanthahalli",
+  "Venkatapura"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 8ff32aaac6ab) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Percolation Pond (1)."
+ ],
+ "photo": "photos/8ff32aaac6abbe1bca6aac4e2d07628bc69b819200c90b389e7e5b180bf8477b.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3101284",
+   "village": "Kotagal",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-09",
+   "end_date": "2025-11-12",
+   "lat": 13.49567,
+   "lon": 78.04895,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3101375",
+   "village": "Vasanthahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-12",
+   "end_date": "2025-11-13",
+   "lat": 13.46713,
+   "lon": 78.06523,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3101442",
+   "village": "Venkatapura",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-05",
+   "end_date": "2025-11-08",
+   "lat": 13.45288,
+   "lon": 78.0182,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3102134",
+   "village": "Nandiganahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-09",
+   "end_date": "2025-11-12",
+   "lat": 13.42857,
+   "lon": 78.16714,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

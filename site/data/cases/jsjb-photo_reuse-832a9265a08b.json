@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-832a9265a08b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Dherian",
+  "Fazal Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 384b9f836cf6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 18 minutes (2026-04-05 12:15:52 to 2026-04-05 12:33:36)."
+ ],
+ "photo": "photos/384b9f836cf66beb83a19602efa99a46588405a23509a836534ad9b3456b6be6.jpg",
+ "offices": [
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "992458",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

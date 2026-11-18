@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cd8a2d04f54f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Bhikhi",
+ "villages": [
+  "Matti",
+  "Tam Kot"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 3a4cc4c0f6f8) is attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 2 dates: 2026-05-10, 2026-05-11.",
+  "These works are spread over 2 blocks: Bhikhi, Mansa."
+ ],
+ "photo": "photos/3a4cc4c0f6f834ef640cd8f9d13558085b841632df1048b1e00e335d357bf403.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "8651085",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Bhikhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

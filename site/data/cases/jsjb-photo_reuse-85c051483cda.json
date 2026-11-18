@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-85c051483cda",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Aklia Jalal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 26c8441ee5ae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-04-07 13:12:44 to 2026-04-07 13:16:22)."
+ ],
+ "photo": "photos/26c8441ee5ae2a497ea05179c3154dccc76b40a319cc2e393e72503c4d9e08ae.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4563510",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

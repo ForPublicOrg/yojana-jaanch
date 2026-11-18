@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-31b401370564",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Fateh Ullah Shahwala (99/105)",
+  "Fatehgarh Korotana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 10c0d1091c05) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: JUNIOR ENGINEER, ZILEDAR."
+ ],
+ "photo": "photos/10c0d1091c05e3953ea07ed91064a3dd6c125ad8258bd6178a954fcaa47b27ca.jpg",
+ "offices": [
+  "JUNIOR ENGINEER",
+  "ZILEDAR"
+ ],
  "records": [
   {
    "record_id": "984800",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

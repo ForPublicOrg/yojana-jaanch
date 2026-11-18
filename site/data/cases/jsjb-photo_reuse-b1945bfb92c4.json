@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b1945bfb92c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Lehli Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d5f0641e8658) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (31.4410854, 76.0143932).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-25 13:43:18 to 2026-04-25 13:44:45)."
+ ],
+ "photo": "photos/d5f0641e8658b499ba3f0b6242ff2bbd07202442f554e17e4292bbeb51b06043.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "5493979",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

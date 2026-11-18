@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dac7954c9d63",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Barila Khurd",
+  "Bhakhariwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4d17562033b4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.059212, 75.132796)."
+ ],
+ "photo": "photos/4d17562033b4ac818521e5b450d038b98e1fd39eea6cda522b58b9b5a334a579.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "13307277",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e67d673c6ff8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Wachhoa"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 8d460068621d) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Other (7).",
+  "Each of the 7 works started and ended on a single day. The works are spread over 3 dates: 2025-05-21, 2025-05-22, 2026-04-29."
+ ],
+ "photo": "photos/8d460068621d6035f2085214cbfb3f5623d4f9dddfbb76b3d84e316fa1fc7ec5.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5556192",
@@ -99,5 +118,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

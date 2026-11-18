@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-648a82bc7780",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Boparai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 91fec2232e2b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (32.007062, 75.271942).",
+  "The photo was uploaded 4 times within 11 seconds (2026-05-18 15:28:41 to 2026-05-18 15:28:52)."
+ ],
+ "photo": "photos/91fec2232e2bdf4be402c4fd98630218d786295ad973cf947497d2715b995654.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "9960589",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

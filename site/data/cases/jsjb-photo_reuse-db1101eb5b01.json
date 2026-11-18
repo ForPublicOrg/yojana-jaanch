@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-db1101eb5b01",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Hale Gudibanda",
+  "Ullodu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 65dcd94f66fb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.74055, 77.751462).",
+  "The photo was uploaded 4 times within 10 minutes (2025-12-20 17:06:41 to 2025-12-20 17:16:15)."
+ ],
+ "photo": "photos/65dcd94f66fb02ac7124164b29cd73ead80220db2df8c18266597b26ead5ab86.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3120163",
+   "village": "Ullodu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-10",
+   "end_date": "2025-11-14",
+   "lat": 13.74055,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3120246",
+   "village": "Hale Gudibanda",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-12",
+   "end_date": "2025-11-06",
+   "lat": 13.74055,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

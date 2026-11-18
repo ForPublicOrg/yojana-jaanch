@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-48fe8c954e87",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Balua Kharaua"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ef8cd294492a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.359468, 85.487266).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-05 19:45:03 to 2026-04-05 19:48:06)."
+ ],
+ "photo": "photos/ef8cd294492a43682ebc81ce8323c88b9125a7a822008f588df7822a80cdfd55.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4504191",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

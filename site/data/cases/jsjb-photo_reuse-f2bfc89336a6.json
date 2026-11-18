@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f2bfc89336a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Deona Buzurg"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6fb85022e48b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 9 minutes (2026-04-02 17:27:06 to 2026-04-02 17:35:40)."
+ ],
+ "photo": "photos/6fb85022e48b9384372c79729d0821c47acb03ae75e0505096681d9cc1936611.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4431856",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

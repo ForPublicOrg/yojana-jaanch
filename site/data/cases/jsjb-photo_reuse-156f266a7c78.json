@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-156f266a7c78",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Kottamettupatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3d29c8320585) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.757825, 78.05517)."
+ ],
+ "photo": "photos/3d29c8320585082cee50d62ae19031a099cf04db38b7c0ef0723ffb7cdb692d2.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346204",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

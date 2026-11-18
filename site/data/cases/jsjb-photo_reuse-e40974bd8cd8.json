@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e40974bd8cd8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Ramsinghpur",
+  "Taraya",
+  "Vikapur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 51bd69eb45da) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "These works are spread over 2 blocks: Arajiline, Chiraigaon."
+ ],
+ "photo": "photos/51bd69eb45dae5c413c4329f73b833fe04e55c6ab294e1fcad5685ab51e5ab02.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893358",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

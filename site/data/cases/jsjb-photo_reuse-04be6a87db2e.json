@@ -1,5 +1,40 @@
 {
  "id": "jsjb-photo_reuse-04be6a87db2e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 46 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhandari",
+  "Bharwar Nankar Rakbe",
+  "Bharwari",
+  "Bharwari Tola",
+  "Bhataulia",
+  "Chandauli Timba",
+  "Damami",
+  "Dayanagar Gosainpur",
+  "Dumra",
+  "Garhwa Bhada",
+  "Gothwara",
+  "Hansaur",
+  "Jafarpur",
+  "Jhawa Tola",
+  "Kansar",
+  "Lohansi Urf Gosainpur",
+  "Madh Kaul",
+  "Pachnaur Murahi"
+ ],
+ "record_count": 46,
+ "reasons": [
+  "The same photo file (fingerprint dfba2ed3457d) is attached to 46 different works in 18 villages. A photo of one site cannot be evidence for 46 separate works.",
+  "The works are recorded as: Soak Pit (46)."
+ ],
+ "photo": "photos/dfba2ed3457da9e95bd80593048d96c46af07471673699c514276acbd081038f.jpg",
+ "offices": [
+  "BDO Belsand"
+ ],
  "records": [
   {
    "record_id": "4753765",
@@ -645,5 +680,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 138,
+ "needs_human_review": false
 }

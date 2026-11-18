@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f565f6bfa4b0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Hira Kanhauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c8ca84d24843) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4859335, 85.3915986).",
+  "The photo was uploaded 4 times within 3 seconds (2026-03-13 18:30:30 to 2026-03-13 18:30:33)."
+ ],
+ "photo": "photos/c8ca84d248431d7f6430606a020b4f9ecf8eb126c788cd379af0a369358510d5.jpg",
+ "offices": [
+  "BDO Parsauni"
+ ],
  "records": [
   {
    "record_id": "3934339",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

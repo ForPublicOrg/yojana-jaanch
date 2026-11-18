@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-95334686c05b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Appamasamudram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bc285fd47abe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.62706546, 78.57076955).",
+  "The photo was uploaded 4 times within 2 minutes (2025-11-25 13:42:28 to 2025-11-25 13:43:52)."
+ ],
+ "photo": "photos/bc285fd47abe8282c383dbe07259b97057d2e444ba79cb908e1da1b90a89b5ab.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9352773",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

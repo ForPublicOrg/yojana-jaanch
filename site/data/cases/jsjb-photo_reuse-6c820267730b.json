@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6c820267730b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Andauli",
+  "Chiganwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 10132c38a81c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/10132c38a81ca78e3642f023666d1a979cb6fe09c597c622fe9f66828566f6da.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4585756",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

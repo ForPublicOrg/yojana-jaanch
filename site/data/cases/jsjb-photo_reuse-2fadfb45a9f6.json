@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2fadfb45a9f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Tanda Badla Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5bb4a056c1c1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.26956, 76.203434).",
+  "The photo was uploaded 3 times within 44 seconds (2026-04-16 15:49:45 to 2026-04-16 15:50:29)."
+ ],
+ "photo": "photos/5bb4a056c1c197a95b69ed4816565d7f813349a461846d4f9dd94ee5094f1186.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4962095",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

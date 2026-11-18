@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0d0f38212af0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Mahindwara"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 2abd21676353) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (8).",
+  "All 8 works report the same GPS point (26.4371128, 85.4995801)."
+ ],
+ "photo": "photos/2abd21676353d31dba231c85b46a210cdde50d8a54a4eeb1c3eec6e410bcdd21.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4643857",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

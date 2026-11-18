@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-24acf58befad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Chirawa",
+ "villages": [
+  "Bhukana",
+  "Budaniya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint db57024a9ae6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-26 19:32:49 to 2026-03-26 19:36:25)."
+ ],
+ "photo": "photos/db57024a9ae63a9ea66c2d1c1a2f649bcd4f1d473084bc3fe7506d14052e652a.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4282764",
+   "village": "Bhukana",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-12-15",
+   "end_date": "2026-03-05",
+   "lat": 28.0608,
+   "lon": 75.6138,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Chirawa"
+  },
+  {
+   "record_id": "4282810",
+   "village": "Budaniya",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-12-15",
+   "end_date": "2026-03-04",
+   "lat": 28.2693,
+   "lon": 75.5091,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Chirawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

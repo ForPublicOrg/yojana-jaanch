@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-6f3971431e9e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Velur",
+ "villages": [
+  "Velur (TP) - Ward No.10",
+  "Velur (TP) - Ward No.5"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3bc8f10dc381) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.103474, 78.005124)."
+ ],
+ "photo": "photos/3bc8f10dc381ed33ef0fa30cf303c2775dac016b1c03fd341fe33ca4eddab191.jpg",
+ "offices": [
+  "EO VELUR"
+ ],
+ "records": [
+  {
+   "record_id": "3509876",
+   "village": "Velur (TP) - Ward No.5",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO VELUR",
+   "start_date": "2025-07-09",
+   "end_date": "2025-09-30",
+   "lat": 11.103474,
+   "lon": 78.005124,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Velur"
+  },
+  {
+   "record_id": "3946937",
+   "village": "Velur (TP) - Ward No.10",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO VELUR",
+   "start_date": "2025-06-09",
+   "end_date": "2025-08-28",
+   "lat": 11.103474,
+   "lon": 78.005124,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Velur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-be5bc67c1a22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Balha Manorath",
+  "Pachra Nimahi",
+  "Piprarhi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 111bd2ffea0f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/111bd2ffea0fa578987549e8a76e7b498f0e5efce76212f046a052f6f827d328.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4426023",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

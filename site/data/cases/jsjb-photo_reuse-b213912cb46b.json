@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b213912cb46b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Majri Sodhian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cdb25d063974) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.32, 76.46).",
+  "All 2 works started and ended on the same day (2026-04-10).",
+  "The photo was uploaded 4 times within 10 minutes (2026-04-21 13:39:47 to 2026-04-21 13:48:48)."
+ ],
+ "photo": "photos/cdb25d06397486bb398f528dc6a59acb2d76dc5fbeb28021904ee40c792065ad.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5150559",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

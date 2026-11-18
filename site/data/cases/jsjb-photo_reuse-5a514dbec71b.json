@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5a514dbec71b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Harkesh Urf Maibiharkesh",
+  "Phulwaria"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0c74700e6d4e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-04 12:35:04 to 2026-04-04 12:37:48)."
+ ],
+ "photo": "photos/0c74700e6d4ea09494393207a1fd4b7b7214589bb5ecf7bbd593210a22a5bc83.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4466970",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-29f3742dddbf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Thuma"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 856084625ca7) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (26.362733, 85.414421).",
+  "The photo was uploaded 6 times within 28 seconds (2026-03-22 19:32:49 to 2026-03-22 19:33:17)."
+ ],
+ "photo": "photos/856084625ca7f5c600c8e4eb74356c75560af28874984f4d3c2d11ec8af8ccf7.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4115470",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-dca3bfde4e38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Birrakh",
+  "Chakni",
+  "Dewari Matauna",
+  "Kaurna",
+  "Maruki"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 08262186fa48) is attached to 11 different works in 5 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Soak Pit (10), Recharge Pit (1)."
+ ],
+ "photo": "photos/08262186fa4887a8b3a18ed395d33999af73e98ac65520e31beb1cf6d9c1b49e.jpg",
+ "offices": [
+  "PO Sursand"
+ ],
  "records": [
   {
    "record_id": "4003510",
@@ -155,5 +177,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

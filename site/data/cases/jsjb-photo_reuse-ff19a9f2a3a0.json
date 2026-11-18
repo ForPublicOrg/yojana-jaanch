@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ff19a9f2a3a0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Itaharwa Dularpur",
+  "Lachhmipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.005 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 66ad6dc25cfe on 1 work, c4134b5ccf30 on 1 work.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/66ad6dc25cfe43786d210f3deb8bee31fa769dc3cbe91a15335155874c319061.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4479406",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "66ad6dc25cfe43786d210f3deb8bee31fa769dc3cbe91a15335155874c319061",
+   "records": 1
+  },
+  {
+   "sha256": "c4134b5ccf3019d5d52abae2e938716920dcc70519673416a7dd4d7f73173347",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d830cf21fa1a"
  ]
 }

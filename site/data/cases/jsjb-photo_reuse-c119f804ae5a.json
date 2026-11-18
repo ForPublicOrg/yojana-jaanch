@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c119f804ae5a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Mathwa Azrakbe Balua Arazi",
+  "Sankhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 948994f022c3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.609265, 85.4409423)."
+ ],
+ "photo": "photos/948994f022c3b7184073a70df9b3619a458c2955368176719be6f12290e21e0b.jpg",
+ "offices": [
+  "BDO Riga"
+ ],
  "records": [
   {
    "record_id": "4505563",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

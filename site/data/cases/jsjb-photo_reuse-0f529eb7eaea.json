@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-0f529eb7eaea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Puduppuliyampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e95f45025c48) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Recharge Pit (1).",
+  "All 2 works report the same GPS point (11.332355, 77.912058)."
+ ],
+ "photo": "photos/e95f45025c483133da52b92a43383ac53991288bd6b5178185d441101fc7cc7a.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332988",
+   "village": "Puduppuliyampatti",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-08-05",
+   "end_date": "2025-03-06",
+   "lat": 11.332355,
+   "lon": 77.912058,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9336333",
+   "village": "Puduppuliyampatti",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-01-12",
+   "end_date": "2024-10-11",
+   "lat": 11.332355,
+   "lon": 77.912058,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

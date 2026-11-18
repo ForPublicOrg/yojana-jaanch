@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4b3c86982466",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Kundalagurki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 827c44b23ded) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/827c44b23ded22df45af71675266c6eb7c1710c533c000b762b00f79e870be50.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "9611758",
+   "village": "Kundalagurki",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-06-16",
+   "end_date": "2025-08-04",
+   "lat": 13.954175,
+   "lon": 77.95348,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "10339578",
+   "village": "Kundalagurki",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-26",
+   "end_date": "2025-11-24",
+   "lat": 13.451139,
+   "lon": 77.948117,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

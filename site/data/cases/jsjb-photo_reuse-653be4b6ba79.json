@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-653be4b6ba79",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Saraiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 813564592c84) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "All 2 works report the same GPS point (25.335785, 83.026735).",
+  "The photo was uploaded 2 times within 5 seconds (2026-05-08 07:57:08 to 2026-05-08 07:57:13)."
+ ],
+ "photo": "photos/813564592c843314701ac0b3ed973c2898a024d9890e0e6992a683a6cf9153d1.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "7864673",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

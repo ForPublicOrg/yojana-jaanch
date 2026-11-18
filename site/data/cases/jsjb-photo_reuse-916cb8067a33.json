@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-916cb8067a33",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bakhar Urf Neamatullahpur",
+  "Neamatullahpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ccdd416f2e9a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-07 12:36:03 to 2026-04-07 12:37:05)."
+ ],
+ "photo": "photos/ccdd416f2e9a1102a46df6ee88156c0d3721f97dec2bcc0ec14f5534e8e6a3ae.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4560616",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

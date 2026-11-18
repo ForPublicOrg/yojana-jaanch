@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-9fc81b0ea126",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kaiwara",
+  "Seekallu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 908efcb7f123) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/908efcb7f123dfe57d730603cde6f16058e66327d95ed95a3f4afaedf40a8976.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3097620",
+   "village": "Kaiwara",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-06",
+   "end_date": "2025-12-02",
+   "lat": 13.351525,
+   "lon": 78.097814,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3110230",
+   "village": "Seekallu",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-16",
+   "end_date": "2026-02-23",
+   "lat": 13.314083,
+   "lon": 78.101409,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

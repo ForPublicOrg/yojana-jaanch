@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-38999e0d015e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Chhajjawal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b4b4eb5a19d8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 53 seconds (2026-02-02 16:41:25 to 2026-02-02 16:42:18)."
+ ],
+ "photo": "photos/b4b4eb5a19d84a837ed83085cf216c4a37536380386f7b2fc0c84c1923b19df0.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1046245",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

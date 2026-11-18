@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-6c054e98878a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pillanallur",
+ "villages": [
+  "Pillanallur (TP) - Ward No.1",
+  "Pillanallur (TP) - Ward No.3"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.011 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 0502b34cd018 on 1 work, db08d0b126cb on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/0502b34cd0181f278994bae66d3f8a44e6fc4241148be7e28af155d259c247b2.jpg",
+ "offices": [
+  "EO PILLANALLUR"
+ ],
+ "records": [
+  {
+   "record_id": "3724738",
+   "village": "Pillanallur (TP) - Ward No.3",
+   "structure_type": "Other",
+   "created_by": "EO PILLANALLUR",
+   "start_date": "2026-01-28",
+   "end_date": "2026-02-03",
+   "lat": 11.12415,
+   "lon": 78.19052,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pillanallur"
+  },
+  {
+   "record_id": "3814577",
+   "village": "Pillanallur (TP) - Ward No.1",
+   "structure_type": "Other",
+   "created_by": "EO PILLANALLUR",
+   "start_date": "2026-01-08",
+   "end_date": "2026-02-25",
+   "lat": 11.425792,
+   "lon": 78.135924,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pillanallur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "0502b34cd0181f278994bae66d3f8a44e6fc4241148be7e28af155d259c247b2",
+   "records": 1
+  },
+  {
+   "sha256": "db08d0b126cb0c5d8d1a1c291b8429536be4d2db65449419427940bbf3b65cb4",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-c9f6b2ebde91"
+ ]
+}

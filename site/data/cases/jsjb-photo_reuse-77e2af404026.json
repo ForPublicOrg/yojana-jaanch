@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-77e2af404026",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Dapparthi",
+  "Kannamangala",
+  "Ullodu"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 266fe1f7cc5a) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "These works are spread over 2 blocks: Gudibanda, Sidlaghatta."
+ ],
+ "photo": "photos/266fe1f7cc5a76568595e2ea32dcac562b0b3bf119b0082173b665de7e05d1b1.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3103462",
+   "village": "Kannamangala",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-25",
+   "end_date": "2025-08-12",
+   "lat": 13.5624,
+   "lon": 77.47586,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3112513",
+   "village": "Dapparthi",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-27",
+   "end_date": "2025-10-28",
+   "lat": 13.744688,
+   "lon": 77.753883,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3119389",
+   "village": "Ullodu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-10-21",
+   "end_date": "2026-02-02",
+   "lat": 13.744688,
+   "lon": 77.74832,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

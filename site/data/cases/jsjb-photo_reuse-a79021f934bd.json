@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a79021f934bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Langiana Nawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b0d7e2d99499) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.715628, 75.03672).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 2 times within 19 minutes (2026-05-05 12:46:03 to 2026-05-05 13:04:05)."
+ ],
+ "photo": "photos/b0d7e2d994994542589ac76aeecd002276abd66cb0527fbc7233c267bbbb5163.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7454146",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

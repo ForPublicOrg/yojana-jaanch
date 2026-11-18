@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-de006b6da55e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Veerapandi",
+ "villages": [
+  "Perumampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 098a9890b22c on 1 work, c9607baa31f0 on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.644992, 78.080503)."
+ ],
+ "photo": "photos/098a9890b22c53cb1fa25b20bcfcab9574d5216eb29880e886d4e825b4b26088.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "7492809",
+   "village": "Perumampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2024-12-05",
+   "end_date": "2025-07-05",
+   "lat": 11.644992,
+   "lon": 78.080503,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "7502303",
+   "village": "Perumampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2024-12-05",
+   "end_date": "2025-07-05",
+   "lat": 11.644992,
+   "lon": 78.080503,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "098a9890b22c53cb1fa25b20bcfcab9574d5216eb29880e886d4e825b4b26088",
+   "records": 1
+  },
+  {
+   "sha256": "c9607baa31f07a1403005fc33c35e1e510c24bab6f17d96bac156dd0533c3dba",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-4fabc8cb69ff"
+ ]
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6db28b3251f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Alamgir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4d496f670a34) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 76.0)."
+ ],
+ "photo": "photos/4d496f670a343f9792dd074c2f933cef7de4643f77733d777d41ff327f553c73.jpg",
+ "offices": [
+  "BDPO Ludhiana-1"
+ ],
  "records": [
   {
    "record_id": "1040472",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

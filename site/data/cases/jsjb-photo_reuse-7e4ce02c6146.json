@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-7e4ce02c6146",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Darhi Keshopur",
+  "Gorar",
+  "Humayupur",
+  "Loknathpur",
+  "Narha Kalyan",
+  "Narharpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint b4cc14f64113) is attached to 6 different works in 6 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/b4cc14f64113a615e4e800260d0127121b09bc98350dd14a025403551c489beb.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4131658",
@@ -85,5 +108,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

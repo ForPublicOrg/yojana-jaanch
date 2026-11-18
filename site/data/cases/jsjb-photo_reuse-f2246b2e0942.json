@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f2246b2e0942",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Pannapatti",
+  "Poosaripatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3fef771620bd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 36 seconds (2026-10-30 13:42:27 to 2026-10-30 13:43:03)."
+ ],
+ "photo": "photos/3fef771620bd29c740c0112002f5b0f599d43bc06e33a85efdeedac3d0f3aaa8.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9361337",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

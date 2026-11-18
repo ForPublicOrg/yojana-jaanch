@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-46e8a01c3f82",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Ratra"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint fc47eadebd84) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.39225, 75.225008).",
+  "The photo was uploaded 10 times within 10 minutes (2026-05-12 14:12:20 to 2026-05-12 14:21:40)."
+ ],
+ "photo": "photos/fc47eadebd842b0db79bb64a83c2a6f2b4550c17aa5fdbdfe596eb031e807ec7.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "8690996",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

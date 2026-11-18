@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1132b7946283",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Burapur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint abc18375e884) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/abc18375e8849391a040c3dcf7dfff8d9167dccfde29f517aee79453a383d33c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "367465",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

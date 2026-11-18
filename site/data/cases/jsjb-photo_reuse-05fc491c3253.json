@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-05fc491c3253",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Bilota"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d3683eb4d183) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/d3683eb4d183e969a89aac7c0dabd7cf8fe2cc30d00ccb28dc8ab57db4b8f5e8.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4042182",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

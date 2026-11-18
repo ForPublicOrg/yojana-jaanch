@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9adf38ed8962",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Khera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 38a107c2776b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 76.0).",
+  "The photo was uploaded 2 times within 3 minutes (2026-02-04 15:57:29 to 2026-02-04 15:59:32)."
+ ],
+ "photo": "photos/38a107c2776b7a4d467146d84cf76fcdc70f0b13df4d2a8f30bf78da6b555e93.jpg",
+ "offices": [
+  "BDPO Ludhiana-1"
+ ],
  "records": [
   {
    "record_id": "1041441",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

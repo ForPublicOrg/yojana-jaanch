@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cd8df490ddb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Bara Pind",
+  "Rurka Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 197f83ed8b41) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The entries were made by 2 different offices: ARC , WRD Punjab, BDPO Phillaur."
+ ],
+ "photo": "photos/197f83ed8b41bcd5999c3d48c0e2565b91845cb634a9e1a5d30ca4ef367168b1.jpg",
+ "offices": [
+  "ARC , WRD Punjab",
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "4414204",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

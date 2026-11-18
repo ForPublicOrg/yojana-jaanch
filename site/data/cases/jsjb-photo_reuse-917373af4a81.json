@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-917373af4a81",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Chhina Retwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33d6e5768fba) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.879544, 75.366854)."
+ ],
+ "photo": "photos/33d6e5768fbab505fc461f071615a7f6664b17993fade53755461bf5b97fd771.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "1229102",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

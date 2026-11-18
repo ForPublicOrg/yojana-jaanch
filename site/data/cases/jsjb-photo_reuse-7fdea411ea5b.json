@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-7fdea411ea5b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Kamakkapalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.022 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): e7fbc1032260 on 1 work, f5b8757ec994 on 1 work.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.56, 78.74).",
+  "The picture was uploaded 2 times within 3 minutes (2025-07-01 16:28:21 to 2025-07-01 16:31:04)."
+ ],
+ "photo": "photos/e7fbc10322607d4cb922639c7f9e2bcbc16f961d7e71053aea6aed1d3b853c2a.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349773",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "e7fbc10322607d4cb922639c7f9e2bcbc16f961d7e71053aea6aed1d3b853c2a",
+   "records": 1
+  },
+  {
+   "sha256": "f5b8757ec994ac83dc1ae590d08d1de6f519d25f2e401f1588d3aa5985159178",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-6b6ec1317697"
  ]
 }

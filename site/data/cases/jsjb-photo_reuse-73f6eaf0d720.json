@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-73f6eaf0d720",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Harahua",
+ "villages": [
+  "Bhobhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e1af16e7ff8c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.400715, 82.939392).",
+  "The photo was uploaded 4 times within 22 seconds (2026-03-30 14:20:21 to 2026-03-30 14:20:43)."
+ ],
+ "photo": "photos/e1af16e7ff8c07022de887dee2d9c6c8c3becc7ee7f5976d941c7d168d8d4bce.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "4359011",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

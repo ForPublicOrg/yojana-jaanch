@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-dd00492ad904",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "24 works at one GPS point in Danishpet",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Danishpet"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "24 works in Danishpet report exactly the same GPS point (11.88, 78.15).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (24).",
+  "They carry 24 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9353532",
@@ -337,5 +357,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

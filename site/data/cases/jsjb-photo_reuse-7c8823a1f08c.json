@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7c8823a1f08c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Bhadian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c967fcd149e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-02 11:24:34 to 2026-04-02 11:28:56)."
+ ],
+ "photo": "photos/c967fcd149e8da64d9be624266172044c9fa08a6599336dea501b012ce7acc92.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4413217",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

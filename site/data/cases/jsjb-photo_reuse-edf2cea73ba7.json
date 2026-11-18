@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-edf2cea73ba7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Bhoochh",
+  "Kalu Sohal"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 0d7017a36a32) is attached to 7 different works in 2 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Recharge Pit (7).",
+  "Each of the 7 works started and ended on a single day. The works are spread over 2 dates: 2026-05-08, 2026-05-11."
+ ],
+ "photo": "photos/0d7017a36a3251d7f8d3f0826f3cf2838eef74a193a43e95f5af0569ec909f49.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "8284164",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

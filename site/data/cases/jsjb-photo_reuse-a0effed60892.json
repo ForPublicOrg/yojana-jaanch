@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-a0effed60892",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Dewa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7b19e6a83170) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (27.103585, 70.955075).",
+  "The entries were made by 2 different offices: BDO, Watershed_JSM_MOH."
+ ],
+ "photo": "photos/7b19e6a83170597255964c133bd38a1ee869fb0288ba6db7ebc014002dbc466c.jpg",
+ "offices": [
+  "BDO",
+  "Watershed_JSM_MOH"
+ ],
+ "records": [
+  {
+   "record_id": "3001154",
+   "village": "Dewa",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-05-20",
+   "end_date": "2025-08-08",
+   "lat": 27.103585,
+   "lon": 70.955075,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "3150958",
+   "village": "Dewa",
+   "structure_type": "Contour Trench",
+   "created_by": "Watershed_JSM_MOH",
+   "start_date": "2025-06-04",
+   "end_date": "2025-07-09",
+   "lat": 27.103585,
+   "lon": 70.955075,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

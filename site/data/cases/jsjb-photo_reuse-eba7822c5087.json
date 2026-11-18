@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-eba7822c5087",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 25 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Jahangirpur",
+  "Khiranwali"
+ ],
+ "record_count": 25,
+ "reasons": [
+  "The same photo file (fingerprint b6037f138187) is attached to 25 different works in 2 villages. A photo of one site cannot be evidence for 25 separate works.",
+  "The works are recorded as: Contour Trench (25).",
+  "All 25 works report the same GPS point (31.393843, 75.282916)."
+ ],
+ "photo": "photos/b6037f138187c8c57d5406e1f87a4371146fbc0cf83a0b8d6a4762c347eb028d.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8325654",
@@ -351,5 +371,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 76,
+ "needs_human_review": false
 }

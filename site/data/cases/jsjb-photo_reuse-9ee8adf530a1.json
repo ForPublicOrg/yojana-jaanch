@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9ee8adf530a1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Khirgi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dad03513e3cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.313203, 76.026806).",
+  "The photo was uploaded 4 times within 16 seconds (2026-05-31 09:11:35 to 2026-05-31 09:11:51)."
+ ],
+ "photo": "photos/dad03513e3cd15103c90a6458bce74119ae29e72c51afe81b766e71730e0248d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "15929786",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

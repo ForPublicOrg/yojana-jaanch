@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-33dfeb31567a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Kacholiya",
+  "Kantoli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f1e2d3186073) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: JEN Panchayat Raj Malpura, Jen."
+ ],
+ "photo": "photos/f1e2d3186073d40a8cc3c9342bab8680963295f1e320b358918bfcaa2a6cfbeb.jpg",
+ "offices": [
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3560283",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f0ef89644fe5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Megha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fda43d028e3c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 75.0).",
+  "The photo was uploaded 2 times within 2 minutes (2025-04-24 22:30:09 to 2025-04-24 22:31:34)."
+ ],
+ "photo": "photos/fda43d028e3c88c379dd8a97801c9c084a5ac83fc03ebb8a9927e56c7428978e.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "1246015",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

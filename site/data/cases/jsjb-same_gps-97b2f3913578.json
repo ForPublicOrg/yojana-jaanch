@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-97b2f3913578",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "22 works at one GPS point in Vilaripalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Vilaripalayam"
+ ],
+ "record_count": 22,
+ "reasons": [
+  "22 works in Vilaripalayam report exactly the same GPS point (11.59, 78.42).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (22).",
+  "They carry 22 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9353755",
@@ -309,5 +329,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 44,
+ "needs_human_review": false
 }

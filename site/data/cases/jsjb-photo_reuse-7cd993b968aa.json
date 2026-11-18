@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7cd993b968aa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Machhiwara",
+ "villages": [
+  "Behlolpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c8e178f535e4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c8e178f535e4fb3e456f8454f409e0fbd75224ad58950350be068133984a32f0.jpg",
+ "offices": [
+  "XEN/ Ludhiana Drainage cum Mining & Geology"
+ ],
  "records": [
   {
    "record_id": "7094146",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Machhiwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

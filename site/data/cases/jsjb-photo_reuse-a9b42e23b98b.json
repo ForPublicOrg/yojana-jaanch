@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a9b42e23b98b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Gujratan",
+  "Khalwara",
+  "Lakhpur",
+  "Nangal"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint c388db5f5edb) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8)."
+ ],
+ "photo": "photos/c388db5f5edbc8c9751440ac3f621a37d65077ef82a22bc3268b1556e6902207.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "8431916",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2e270d726862",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Periyasoragai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 8449ef8b6e59 on 1 work, bfeb434d13c0 on 1 work.",
+  "The works are recorded as: Check Dam (2).",
+  "The picture was uploaded 4 times within 4 minutes (2026-05-10 12:59:00 to 2026-05-10 13:02:44)."
+ ],
+ "photo": "photos/8449ef8b6e59457d1c7275820337fa6819340da541742b10d6ebccc517b3614c.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "8272299",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "8449ef8b6e59457d1c7275820337fa6819340da541742b10d6ebccc517b3614c",
+   "records": 1
+  },
+  {
+   "sha256": "bfeb434d13c026c81e1d8b4d699f7c9019ae5b3f856bd17cb98d971ad13075a5",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-4dd21152125d"
  ]
 }

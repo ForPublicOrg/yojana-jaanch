@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-39cdda2a12b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Kakod"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 41f868cf0730) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.060063, 75.964769).",
+  "The photo was uploaded 2 times within 9 minutes (2026-05-26 11:41:07 to 2026-05-26 11:50:07)."
+ ],
+ "photo": "photos/41f868cf0730e0b3ac13e07c3c5023a915071ccbc02acce6acfbcfc3d20f7ac5.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12914444",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

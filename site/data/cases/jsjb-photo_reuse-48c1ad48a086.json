@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-48c1ad48a086",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Mallikuttai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2cbf530423a1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.73, 77.92).",
+  "The photo was uploaded 2 times within 6 minutes (2025-07-07 12:24:00 to 2025-07-07 12:29:08)."
+ ],
+ "photo": "photos/2cbf530423a1b49c8c707daecbb8e7e2f11a2e0bf71af7f2e344d85c37fb49eb.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9361596",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

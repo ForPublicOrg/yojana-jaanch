@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-8917e893ba7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Balahra",
+  "Mandofal",
+  "Patarsi Khurd",
+  "Pir Jain",
+  "Rampur",
+  "Randhawa"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint bfd88f50b519) is attached to 6 different works in 6 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (5), Other (1).",
+  "All 6 works report the same GPS point (6.5, 77.0)."
+ ],
+ "photo": "photos/bfd88f50b5195c2032426973b369c88fb610e4d466f9ef4d88d9e6dd7c6db918.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4890589",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

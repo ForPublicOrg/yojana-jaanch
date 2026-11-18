@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-679f1b62b6f5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Jhunjhunu",
+ "villages": [
+  "Ajari Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ac09f597cb87) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.9729773, 75.444851).",
+  "The photo was uploaded 4 times within 58 seconds (2026-03-26 15:14:22 to 2026-03-26 15:15:20)."
+ ],
+ "photo": "photos/ac09f597cb874337b2287cef0dfe55483ca038e981cb9d481ef7770ce07b293b.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4274836",
+   "village": "Ajari Kalan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-02",
+   "end_date": "2026-02-27",
+   "lat": 27.9729773,
+   "lon": 75.444851,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  },
+  {
+   "record_id": "4274874",
+   "village": "Ajari Kalan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-02",
+   "end_date": "2026-02-27",
+   "lat": 27.9729773,
+   "lon": 75.444851,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-32da53a9000a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Dau-Majra",
+  "Dewa Mander"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d1434e7c2bb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/6d1434e7c2bb252bd6089a4306667dbd74c9cab5ff8d4ca130d8a4c88ea194d8.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1244083",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

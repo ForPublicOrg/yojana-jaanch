@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a275123b00b9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bairaha",
+  "Belahia",
+  "Bishunpur Pitambar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c35c88778db6) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Nala Bund (2), Percolation Pond (1)."
+ ],
+ "photo": "photos/c35c88778db676a1985bfcb8f2b63ee12aa3d93cb9daf712b35ca5fa4d04c3e3.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3962999",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

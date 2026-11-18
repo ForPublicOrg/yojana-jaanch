@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-72b5c350c24e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Kahla",
+  "Moolsagar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 442c63ad8fc1) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Shaft (2), Defunct Bore-Well (1).",
+  "The photo was uploaded 3 times within 9 minutes (2025-12-22 16:28:16 to 2025-12-22 16:36:36).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/442c63ad8fc123c2ac7a3ab7d963bd308967c6abfff7d11805ea25263d7897a2.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3138127",
+   "village": "Moolsagar",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2025-08-16",
+   "end_date": "2025-10-25",
+   "lat": 26.9164581,
+   "lon": 70.776131,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "3138295",
+   "village": "Moolsagar",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2025-08-07",
+   "end_date": "2025-10-17",
+   "lat": 26.9160522,
+   "lon": 70.775759,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "8605939",
+   "village": "Kahla",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-08-01",
+   "end_date": "2025-08-20",
+   "lat": 26.9163535,
+   "lon": 70.7753877,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

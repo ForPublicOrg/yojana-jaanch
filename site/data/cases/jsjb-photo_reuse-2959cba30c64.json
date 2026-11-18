@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2959cba30c64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Angatta",
+  "Arasanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf83dc4e31e2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Tank (1)."
+ ],
+ "photo": "photos/cf83dc4e31e2f21c3d0574b63ac678070c7380351be15305426e3bc30b5786c1.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3122448",
+   "village": "Arasanahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-16",
+   "end_date": "2025-09-24",
+   "lat": 13.397601,
+   "lon": 77.715855,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3122590",
+   "village": "Angatta",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-18",
+   "end_date": "2025-09-24",
+   "lat": 13.364174,
+   "lon": 77.705736,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-675d123ef79b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Bholia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 326a306a6be2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.9, 76.69).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-17 11:23:32 to 2026-04-17 11:27:37)."
+ ],
+ "photo": "photos/326a306a6be28349cf042e49d8cd362dc74a85806d19a96f114d3b779e8a0b66.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5003141",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

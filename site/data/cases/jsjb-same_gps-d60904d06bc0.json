@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-d60904d06bc0",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "31 works at one GPS point in Navappatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Navappatti"
+ ],
+ "record_count": 31,
+ "reasons": [
+  "31 works in Navappatti report exactly the same GPS point (6.5, 68.1).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (31).",
+  "They carry 31 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349861",
@@ -435,5 +455,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

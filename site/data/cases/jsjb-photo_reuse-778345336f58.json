@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-778345336f58",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Andlu",
+  "Kailey"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e56c587dc3a5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 24 minutes (2025-12-01 07:51:40 to 2025-12-01 08:15:12).",
+  "These works are spread over 2 blocks: Pakhowal, Raikot."
+ ],
+ "photo": "photos/e56c587dc3a5ea85c71d4368a59bf329ab15a61ce3839c805afc9b31a6234eb7.jpg",
+ "offices": [
+  "Canal Patwari/Ropar Canal & Ground Water Division"
+ ],
  "records": [
   {
    "record_id": "989718",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

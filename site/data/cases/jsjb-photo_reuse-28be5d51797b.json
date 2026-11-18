@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-28be5d51797b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Sibian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 83b63e0edbf8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/83b63e0edbf8766ebb775809ba52443ca2bcef9e3dd258ff7ca5c8e66c364c4d.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1079506",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-d93d3a3e7a4b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Akodiya",
+  "Chandwar",
+  "Thari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fe906ce19a13) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BDO, JEN Panchayat Raj Malpura.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/fe906ce19a137694eccb8b2190d4302dc3c0bd6e1f705974e884683e0db2f804.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura"
+ ],
  "records": [
   {
    "record_id": "3572948",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

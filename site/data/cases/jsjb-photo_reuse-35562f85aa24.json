@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-35562f85aa24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Ghulal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec21e970c6ec) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.84, 76.13).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-04 14:08:45 to 2026-02-04 14:10:18)."
+ ],
+ "photo": "photos/ec21e970c6ecd6fd46d7aca2be1a0e86f9d955e5926a9db138d320ec2cccb90f.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046170",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

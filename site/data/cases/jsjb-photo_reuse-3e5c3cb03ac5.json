@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3e5c3cb03ac5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Dhobha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f2b718b76124) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.3184949, 85.4332969).",
+  "The photo was uploaded 4 times within 44 seconds (2026-04-04 15:40:17 to 2026-04-04 15:41:01)."
+ ],
+ "photo": "photos/f2b718b761244ab1453088c462455564ef1796b089694bbce2c7183859ac8e03.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4477943",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-39c87d305127",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kadaura",
+ "villages": [
+  "Chatela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d249f85e6cb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 11 minutes (2026-04-21 14:37:12 to 2026-04-21 14:47:26)."
+ ],
+ "photo": "photos/5d249f85e6cb397fbe0cbfb3fdb13abf9c46067cff1848dd8cf5d65020061efe.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5198586",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kadaura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

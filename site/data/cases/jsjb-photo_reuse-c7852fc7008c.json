@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c7852fc7008c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Rikhauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f453ad28f09) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.557424, 85.578092).",
+  "The entries were made by 2 different offices: District Magistrate, PO Dumra."
+ ],
+ "photo": "photos/3f453ad28f091e7bb2b21092247cad74a1958e0b1c797101e2b20c6768c096eb.jpg",
+ "offices": [
+  "District Magistrate",
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3526016",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

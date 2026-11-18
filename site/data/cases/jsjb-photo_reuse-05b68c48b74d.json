@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-05b68c48b74d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Athri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint af41013e53d6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-28 09:14:26 to 2026-03-28 09:16:13)."
+ ],
+ "photo": "photos/af41013e53d619f46fa5c240546a81287f026c1ccc2b77f4252374d2c386e84a.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4308766",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e0d11f169694",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Kotra Korian Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8bedc754d8db) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: GRAM ROZGAR SEWAK, ZILEDAR PHUL."
+ ],
+ "photo": "photos/8bedc754d8db4d0e0d6a58724dd8952d11f63dfd397c5af34f3cb474ec93fc65.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK",
+  "ZILEDAR PHUL"
+ ],
  "records": [
   {
    "record_id": "990380",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

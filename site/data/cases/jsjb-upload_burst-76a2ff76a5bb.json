@@ -1,6 +1,42 @@
 {
  "id": "jsjb-upload_burst-76a2ff76a5bb",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "11 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Arurpatti",
+  "Doramangalam (Ct)",
+  "Veerapandi"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "11 different photos for 11 different works were uploaded by Block Development Officer within 10 minutes, from 2026-02-02 12:20:01 to 2026-02-02 12:29:16.",
+  "That is about one work every 50 seconds on average.",
+  "The works are in 3 villages: Arurpatti, Doramangalam (Ct), Veerapandi.",
+  "These works are spread over 3 blocks: Nangavalli, Taramangalam, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
+  {
+   "record_id": "9344550",
+   "village": "Veerapandi",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-01-05",
+   "end_date": "2025-06-01",
+   "lat": 11.5973206,
+   "lon": 78.0623292,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
   {
    "record_id": "9347720",
    "village": "Doramangalam (Ct)",
@@ -141,5 +177,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

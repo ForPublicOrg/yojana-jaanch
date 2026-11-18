@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf6dab7f6086",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Kiwara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f6a1439fa144) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.310872, 76.071318).",
+  "The photo was uploaded 2 times within 2 seconds (2026-02-25 17:21:27 to 2026-02-25 17:21:29)."
+ ],
+ "photo": "photos/f6a1439fa144da8d63934cc66cfdee18a91bb96cd386f7359b0b35de3a11607b.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3665533",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

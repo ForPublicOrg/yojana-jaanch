@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b020759654e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Baba Bakala (Ct)",
+  "Bothangarh",
+  "Mehtab Kot"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3e7f9342988f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/3e7f9342988fb5db3a39b74b5c7869781a7a17b5ec625964c581e4e5c0ac0a80.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "6212827",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

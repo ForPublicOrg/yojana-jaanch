@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-75b56d24375c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Thali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4746bbb88ff6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.98781, 75.354889).",
+  "The photo was uploaded 4 times within 22 minutes (2026-05-25 17:48:11 to 2026-05-25 18:10:10)."
+ ],
+ "photo": "photos/4746bbb88ff6558afe8776e2ce87416358f5d0587187c89faadd7b59901aaf02.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1395219",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6f8013173558",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Kuhara Bujurg"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4a265e928f59) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.1271442, 75.2101644).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-05 16:14:41 to 2026-03-05 16:15:46)."
+ ],
+ "photo": "photos/4a265e928f59133d5ba23e9e4369ce9b5449e2d3433b8e8c379a2c28c4510c79.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "3782242",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

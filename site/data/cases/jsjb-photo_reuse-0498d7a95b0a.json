@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0498d7a95b0a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Patehra",
+ "villages": [
+  "Ghori"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e84239e78c1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (24.870874, 82.503635).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-18 14:02:51 to 2026-04-18 14:04:44)."
+ ],
+ "photo": "photos/5e84239e78c1574d3ecb0912bc29b2084057198c1176fbdd36df0b1a38bee10c.jpg",
+ "offices": [
+  "D.F.O. Mirzapur"
+ ],
  "records": [
   {
    "record_id": "5082863",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Patehra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

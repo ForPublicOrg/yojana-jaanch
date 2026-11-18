@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-5dd33f69b6ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Mandaur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf77993a2766) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (30.61, 76.33).",
+  "All 2 works started and ended on the same day (2026-04-27).",
+  "The photo was uploaded 3 times within 3 minutes (2026-04-27 10:08:17 to 2026-04-27 10:10:18)."
+ ],
+ "photo": "photos/cf77993a2766ae1cef34433791cedd9ce5ae1b108ecab4c618784ec70ff1f8e2.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5592359",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

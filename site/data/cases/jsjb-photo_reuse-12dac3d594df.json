@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-12dac3d594df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Aroor",
+  "Thumukalahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3361c54c3507) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The photo was uploaded 6 times within 5 minutes (2025-12-16 13:14:24 to 2025-12-16 13:19:16)."
+ ],
+ "photo": "photos/3361c54c350745e3efde6d70118acca3d678c796cb103daeb57d047acc954b4f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3088802",
+   "village": "Thumukalahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2025-11-04",
+   "lat": 13.395431,
+   "lon": 77.726077,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3088828",
+   "village": "Aroor",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-21",
+   "end_date": "2025-11-07",
+   "lat": 13.576907,
+   "lon": 77.782629,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3088897",
+   "village": "Aroor",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2025-11-07",
+   "lat": 13.576907,
+   "lon": 77.782629,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0858e6b439e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Jhawar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 38f8495bc850) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.997465, 75.38439).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-15 12:06:33 to 2026-05-15 12:08:15)."
+ ],
+ "photo": "photos/38f8495bc850f84081a67ed1a18e47b370de6e71385d5f8e4e7a2c3944d076d9.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "9272577",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

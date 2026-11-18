@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-565b8a7df464",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Badalgarh",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Badalgarh"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Badalgarh report exactly the same GPS point (29.0, 75.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (4), Soak Pit (1).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "1067296",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

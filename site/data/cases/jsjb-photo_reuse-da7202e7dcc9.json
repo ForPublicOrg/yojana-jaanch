@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-da7202e7dcc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Shikhar",
+ "villages": [
+  "Goraiya",
+  "Hansipur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint d12a117fddec) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (3), Other (1)."
+ ],
+ "photo": "photos/d12a117fddece8da5b205b0ca2cff30b03e4d2cce200ecd0622eb52db267f6b2.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1236420",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Shikhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

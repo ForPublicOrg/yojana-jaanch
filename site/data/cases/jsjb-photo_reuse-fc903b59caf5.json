@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fc903b59caf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Smadh Bhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7fa385f786f8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.595987, 75.146162).",
+  "All 2 works started and ended on the same day (2026-05-13).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-13 13:07:50 to 2026-05-13 13:08:58)."
+ ],
+ "photo": "photos/7fa385f786f8ad597519a74e7b1f5941a03f6c3cadbbb107e1c915bb313eb50a.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8886107",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

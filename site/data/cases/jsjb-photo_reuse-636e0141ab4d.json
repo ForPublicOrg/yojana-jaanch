@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-636e0141ab4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Lakhmipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0c22226964fc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/0c22226964fc4dac0beecfc8e1cb71fb9ea05b36dd5a6387a386c9e2e8c4688e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "2515005",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

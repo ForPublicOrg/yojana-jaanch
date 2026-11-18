@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8e3acb59715b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Bhadvan",
+  "Gadhela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint beebb5ff1b64) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 2 times within 58 seconds (2026-09-11 11:47:27 to 2026-09-11 11:48:25)."
+ ],
+ "photo": "photos/beebb5ff1b640669f6473919d6414be26fb9be6529ab34c52536483e36a853d2.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5213660",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

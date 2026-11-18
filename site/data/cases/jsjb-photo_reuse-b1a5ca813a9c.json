@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b1a5ca813a9c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Bassi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2dc46d56d397) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (26.28916667, 76.00944444).",
+  "The photo was uploaded 2 times within 10 seconds (2026-02-25 10:10:30 to 2026-02-25 10:10:40)."
+ ],
+ "photo": "photos/2dc46d56d39738093ae129437b49ab41ed8a7de24f0fce0e17c545d23ba86d46.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3645203",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

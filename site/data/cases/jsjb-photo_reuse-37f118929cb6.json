@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-37f118929cb6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Bhagwanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82b1239dc7a2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5484215, 85.4190108).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-05 20:02:47 to 2026-04-05 20:05:22)."
+ ],
+ "photo": "photos/82b1239dc7a26f9900443df3b39a9b9ac77ac8333d9202dec886d88570b9738f.jpg",
+ "offices": [
+  "BDO Riga"
+ ],
  "records": [
   {
    "record_id": "4504530",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

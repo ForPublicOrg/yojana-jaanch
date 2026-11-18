@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-165e053a7603",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Addagal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce1d94822ed9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/ce1d94822ed905656c6d6e9681ff149bd9491abb04bd5659f142697def3a3001.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3085492",
+   "village": "Addagal",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-18",
+   "end_date": "2025-12-19",
+   "lat": 13.415141,
+   "lon": 77.699562,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3096639",
+   "village": "Addagal",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-07",
+   "end_date": "2025-10-10",
+   "lat": 13.587496,
+   "lon": 77.76548,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-c4fdc22bc872",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Atarsuma",
+  "Bhadakhur",
+  "Bhagwasi",
+  "Lahroli",
+  "Ojha",
+  "Rachhedi"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 337e0a523c34) is attached to 8 different works in 6 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (8).",
+  "All 8 works report the same GPS point (26.0, 79.0).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/337e0a523c34399366244ee306d06c7d14f8e115a6d5ca9e40d9defef35cc7c6.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7385404",
@@ -113,5 +139,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9317404e12a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bahiram Ke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 315b1b521da0) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.93, 75.13).",
+  "All 3 works started and ended on the same day (2026-04-27).",
+  "The photo was uploaded 3 times within 7 minutes (2026-04-28 15:46:44 to 2026-04-28 15:53:38)."
+ ],
+ "photo": "photos/315b1b521da0969b81acdf3b9edbb25c55d8bb15e4c717c94c88462101e198db.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "6171933",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

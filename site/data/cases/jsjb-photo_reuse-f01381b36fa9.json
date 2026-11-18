@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f01381b36fa9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Mohammad Nagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 76bd245483c2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.281317, 75.704691)."
+ ],
+ "photo": "photos/76bd245483c266469275f9796776a3dbded0048da3d3112251af6a82fe109fa0.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3569054",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

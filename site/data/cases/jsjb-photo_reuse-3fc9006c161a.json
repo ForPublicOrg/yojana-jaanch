@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-3fc9006c161a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 23 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Majjupura"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 23 different works in 1 village. A photo of one site cannot be evidence for 23 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.007 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3ee96dddf496 on 14 works, f79f28b8e516 on 9 works.",
+  "The works are recorded as: Other (23).",
+  "All 23 works report the same GPS point (31.786925, 74.912239).",
+  "Each of the 23 works started and ended on a single day. The works are spread over 2 dates: 2026-04-24, 2026-04-25."
+ ],
+ "photo": "photos/3ee96dddf496d5aa34b0cf0a709ce7d71ca1870a771ea8b6604f1fb2989167d8.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "5566617",
@@ -323,5 +345,21 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 71,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3ee96dddf496d5aa34b0cf0a709ce7d71ca1870a771ea8b6604f1fb2989167d8",
+   "records": 14
+  },
+  {
+   "sha256": "f79f28b8e51699a5f8d95b72210db69ea88f3bf22a8e32037d6bc121d6b2d5b8",
+   "records": 9
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-dbf7998df0f2"
  ]
 }

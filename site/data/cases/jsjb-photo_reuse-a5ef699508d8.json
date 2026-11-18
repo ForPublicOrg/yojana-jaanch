@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a5ef699508d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Chinnakalrayanhillsvadakkunadu",
+  "Thirthagiri Rf"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0096d99629d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/f0096d99629d33061735ed432031326667f82d3dbdfdc7a4785f57d5bdd1c4d9.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9359559",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

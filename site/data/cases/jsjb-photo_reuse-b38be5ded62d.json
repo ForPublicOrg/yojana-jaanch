@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-b38be5ded62d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Perumapatti",
+  "Varagur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d19aa2293a93) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.152133, 78.292347)."
+ ],
+ "photo": "photos/d19aa2293a93857ec87ecac3a932b339396b4d9b8ac866977fc8ad2b0af562b0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3735692",
+   "village": "Perumapatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-09-23",
+   "end_date": "2024-08-22",
+   "lat": 11.152133,
+   "lon": 78.292347,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "9337280",
+   "village": "Varagur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-18",
+   "end_date": "2024-09-24",
+   "lat": 11.152133,
+   "lon": 78.292347,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

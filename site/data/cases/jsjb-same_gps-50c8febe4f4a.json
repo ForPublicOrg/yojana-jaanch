@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-50c8febe4f4a",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "9 works at one GPS point in Chinnakalrayanhillstherkkunadu",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Chinnakalrayanhillstherkkunadu"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "9 works in Chinnakalrayanhillstherkkunadu report exactly the same GPS point (11.808800493521, 78.620070250928).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (8), Percolation Pond (1).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9356445",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

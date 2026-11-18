@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5cc7d3cfddab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Kotli Amb"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a50374bd8903) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works started and ended on the same day (2025-06-10).",
+  "The photo was uploaded 2 times within 11 minutes (2026-04-22 20:28:25 to 2026-04-22 20:38:51)."
+ ],
+ "photo": "photos/a50374bd8903f89401cb83304373a18d27485fc3aca5984b4561212e8f695bd1.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5286341",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

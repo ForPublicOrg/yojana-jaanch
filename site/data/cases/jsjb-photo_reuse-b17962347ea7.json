@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b17962347ea7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Chhajjawal",
+  "Sherpur Kalan",
+  "Sidhwan Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 44b61f1be5be) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "These works are spread over 2 blocks: Jagraon, Sudhar."
+ ],
+ "photo": "photos/44b61f1be5be434bd54e7168bd96a15cabc64eed4ce65cab2b4ff30e2e19a2e7.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "984906",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

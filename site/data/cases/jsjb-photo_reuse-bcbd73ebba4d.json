@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-bcbd73ebba4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Lasoi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a46309e578a4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/a46309e578a40171d7dba8c55e22901fbd8f6e6b6bdcfae03970ab9800712f1b.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10691822",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

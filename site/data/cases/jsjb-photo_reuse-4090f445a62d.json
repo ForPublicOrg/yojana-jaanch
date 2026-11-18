@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4090f445a62d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Chigateegalagutta",
+  "Palyakere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 26b4ac1e9071) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (13.5454514, 78.053453)."
+ ],
+ "photo": "photos/26b4ac1e9071b0b5a5c69ae83fe893bbdd60e614f39c8f8fc2c25238a0371c01.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3397553",
+   "village": "Chigateegalagutta",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3398199",
+   "village": "Palyakere",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

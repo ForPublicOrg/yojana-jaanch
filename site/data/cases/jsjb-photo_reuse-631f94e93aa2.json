@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-631f94e93aa2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Basantpura",
+  "Basmana",
+  "Jhadu Wala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 90f1d5db9d95) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (2), Other (1).",
+  "The photo was uploaded 6 times within 21 minutes (2026-03-28 06:52:38 to 2026-03-28 07:13:07)."
+ ],
+ "photo": "photos/90f1d5db9d95ccbc2811ea088c5cbe10ae8953c3e5adf343984f73608d6e7b2e.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4307584",
+   "village": "Basantpura",
+   "structure_type": "Recharge Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-05-01",
+   "end_date": "2025-05-15",
+   "lat": 30.842264,
+   "lon": 80.436467,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4307597",
+   "village": "Basmana",
+   "structure_type": "Other",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-04-01",
+   "end_date": "2025-04-15",
+   "lat": 33.563362,
+   "lon": 74.456362,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4307675",
+   "village": "Jhadu Wala",
+   "structure_type": "Recharge Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-05-01",
+   "end_date": "2025-05-15",
+   "lat": 33.743152,
+   "lon": 84.436365,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

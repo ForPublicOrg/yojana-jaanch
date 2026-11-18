@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-e0481b7d1f5a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Haripur Pipra",
+  "Semardah Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.007 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 2235711c86fb on 1 work, 5302ae432c06 on 1 work.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.6439524, 85.3759948)."
+ ],
+ "photo": "photos/2235711c86fb12b1e8ce726d6511ffb2e7ae30d6912fbca811408cb344bed592.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4473121",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "2235711c86fb12b1e8ce726d6511ffb2e7ae30d6912fbca811408cb344bed592",
+   "records": 1
+  },
+  {
+   "sha256": "5302ae432c0632b596d5d173c3654e051f8cac9e9feb5e7d131ee28c98ef5f51",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-70b9b82a5f54"
  ]
 }

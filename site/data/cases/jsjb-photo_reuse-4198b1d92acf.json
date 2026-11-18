@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4198b1d92acf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Phulewala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 316f0917c08a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-25, 2026-04-27."
+ ],
+ "photo": "photos/316f0917c08a1fb4000ea3c1a2c51579b1cd3a4b064da9c8c6a2e82d6c5c9fdd.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "5615428",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

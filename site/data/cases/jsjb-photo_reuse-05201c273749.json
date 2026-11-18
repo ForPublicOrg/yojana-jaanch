@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-05201c273749",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Kotli-Nasir Khan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 333ea39dd788) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.577, 74.786).",
+  "All 2 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-13 11:35:29 to 2026-05-13 11:36:48)."
+ ],
+ "photo": "photos/333ea39dd7886327d8a8968a16d0b34586ea3e4d22c14a505325871924f086aa.jpeg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "8865583",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

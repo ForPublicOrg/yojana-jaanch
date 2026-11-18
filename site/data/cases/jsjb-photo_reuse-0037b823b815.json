@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-0037b823b815",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Singhibahni"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 11cf51433c6c) is attached to 15 different works in 1 village. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Soak Pit (15)."
+ ],
+ "photo": "photos/11cf51433c6cac7e78556317894238d36726c1138ced1d580d01571c37984341.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4181245",
@@ -211,5 +229,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

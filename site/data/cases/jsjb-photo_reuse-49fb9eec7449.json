@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-49fb9eec7449",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Nanakpura"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 30ee7765f4d1) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-20."
+ ],
+ "photo": "photos/30ee7765f4d125f9dccc1c017ce09d8c4b51efe6ee66be37f6b2bd8a8a551d0d.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9098122",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

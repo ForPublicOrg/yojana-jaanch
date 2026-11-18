@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1f823c2efb94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Rurka (83j)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 644bc6195c0f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.83, 75.7).",
+  "The photo was uploaded 4 times within 8 minutes (2026-02-04 13:39:04 to 2026-02-04 13:46:54)."
+ ],
+ "photo": "photos/644bc6195c0fc7748cfe70dc2b5838aecb5c0831dad54dd44a8d7ec7b5fcb545.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1045487",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

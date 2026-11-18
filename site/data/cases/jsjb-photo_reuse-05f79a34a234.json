@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-05f79a34a234",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Barahi",
+  "Batraulia",
+  "Bhorha",
+  "Bokta",
+  "Posua Patania",
+  "Ramnagar"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 4e520dce34b7) is attached to 9 different works in 6 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Recharge Pit (8), Nala Bund (1)."
+ ],
+ "photo": "photos/4e520dce34b752b1d2e60f1fddd71d956d9f664641c92293a0001214f8599c91.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4498972",
@@ -127,5 +150,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

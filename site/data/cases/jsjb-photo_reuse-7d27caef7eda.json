@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7d27caef7eda",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Bakhariya",
+  "Milki Chack"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9c2a060ce0f2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Arajiline, Kashi Vidyapeeth."
+ ],
+ "photo": "photos/9c2a060ce0f279fb22cd3c6916fa4a73b1a965e53e2daee61ec478bd771228f1.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893301",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kashi Vidyapeeth"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

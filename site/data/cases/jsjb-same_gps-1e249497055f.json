@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-1e249497055f",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Dasavilakku South",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Dasavilakku South"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Dasavilakku South report exactly the same GPS point (11.65, 77.98).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349809",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

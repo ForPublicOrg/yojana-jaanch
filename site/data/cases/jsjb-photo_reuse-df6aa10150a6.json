@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-df6aa10150a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Dhanola",
+  "Gagarwal",
+  "Hargana"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint cbaa2c02592c) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/cbaa2c02592c74dc1f6cda1e06b5d9632c65365279164831f7d4b50069e8433f.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "8459026",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

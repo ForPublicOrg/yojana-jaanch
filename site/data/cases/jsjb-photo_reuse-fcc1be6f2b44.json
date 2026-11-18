@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fcc1be6f2b44",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Doodi Nagar",
+  "Gadhwalon Ka Bas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28820daa2c7c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-27 15:24:14 to 2026-03-27 15:26:28)."
+ ],
+ "photo": "photos/28820daa2c7ce7b94e53cefb9b9f8b1ad85feeac699e03cee176d27808805c70.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4298493",
+   "village": "Gadhwalon Ka Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-02-12",
+   "end_date": "2025-03-27",
+   "lat": 27.881975,
+   "lon": 75.464549,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4298625",
+   "village": "Doodi Nagar",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-02-12",
+   "end_date": "2025-03-29",
+   "lat": 27.881972,
+   "lon": 75.464559,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-5033de90db80",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Mangalagiri Tadepalli",
+ "villages": [
+  "Mangalagiri Ward No.44"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2ab254d79ff6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (16.456147, 80.583959).",
+  "The entries were made by 2 different offices: Municipal Comissioner, Municipal Commissioner Mangalagiri Tadepalli."
+ ],
+ "photo": "photos/2ab254d79ff6e7f49be86a967e7dab10c54e489565321452d9d8c162c95dbec7.jpg",
+ "offices": [
+  "Municipal Comissioner",
+  "Municipal Commissioner Mangalagiri Tadepalli"
+ ],
  "records": [
   {
    "record_id": "500849769920",
@@ -29,5 +50,8 @@
    "area_type": "Urban",
    "block": "Mangalagiri Tadepalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

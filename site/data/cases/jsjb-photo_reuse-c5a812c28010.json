@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c5a812c28010",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Chittur Bit 1"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b2f212c3bcbd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.6574, 77.82249)."
+ ],
+ "photo": "photos/b2f212c3bcbd7893bf212f646372f565a4b50eacb96ec9df4570aa328e04fcab.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349281",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

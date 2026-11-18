@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ef35c0c3ad52",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Mehal Kalan",
+ "villages": [
+  "Chananwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cfaa369825f0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.50487, 75.48808)."
+ ],
+ "photo": "photos/cfaa369825f0012680ee60fb36e4bcffa876227e010261f663050f5ce0b99b30.jpg",
+ "offices": [
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "5459977",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

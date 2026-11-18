@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f85377bf7fe6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Manuke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 417c20e2d226) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.69, 75.47)."
+ ],
+ "photo": "photos/417c20e2d226f1c4c50744dc0314206d7079c49fb931bc587be005225f258ee3.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256404",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

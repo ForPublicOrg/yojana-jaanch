@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-906878874809",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Ghangas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 86e1dfe21f59) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 50 seconds (2026-02-05 16:08:35 to 2026-02-05 16:09:25)."
+ ],
+ "photo": "photos/86e1dfe21f59867c08e13f5a73078487f17fa0108123c58827c524468bcd3529.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1041597",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

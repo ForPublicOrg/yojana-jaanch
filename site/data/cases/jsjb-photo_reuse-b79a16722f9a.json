@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-b79a16722f9a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Mallasamudram (TP) - Ward No.13",
+  "Venkarai (TP) - Ward No.3",
+  "Venkarai (TP) - Ward No.9"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d2f2fb2cc8d8) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1).",
+  "The entries were made by 2 different offices: EO MALLASAMUDRAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Mallasamudram, Venkarai."
+ ],
+ "photo": "photos/d2f2fb2cc8d874eaf8558dd0213b264b67ff64010607654cc6fe7e3a3e19ecea.jpg",
+ "offices": [
+  "EO MALLASAMUDRAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3606630",
+   "village": "Mallasamudram (TP) - Ward No.13",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-04",
+   "end_date": "2025-06-08",
+   "lat": 11.498397,
+   "lon": 78.028855,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3785137",
+   "village": "Venkarai (TP) - Ward No.9",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-29",
+   "end_date": "2025-09-06",
+   "lat": 11.099062,
+   "lon": 77.95932,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3800218",
+   "village": "Venkarai (TP) - Ward No.3",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-11-02",
+   "end_date": "2025-11-15",
+   "lat": 11.094883,
+   "lon": 77.974282,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-4634d674a8f8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Bassian",
+  "Gag Kalan",
+  "Sodhiwala",
+  "Swaddi Kalan",
+  "Virk"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5e3a92646697) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "These works are spread over 2 blocks: Jagraon, Sidhwan Bet."
+ ],
+ "photo": "photos/5e3a92646697228f57a03022d2f4c10284776ad713c0ae03bd0895bb84fa260a.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "982266",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

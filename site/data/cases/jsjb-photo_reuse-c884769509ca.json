@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c884769509ca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Sidhwan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a755b693d76d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.944154, 75.414448).",
+  "All 2 works started and ended on the same day (2026-05-24).",
+  "The photo was uploaded 2 times within 9 seconds (2026-05-24 22:06:12 to 2026-05-24 22:06:21)."
+ ],
+ "photo": "photos/a755b693d76d6eacf2f96df05832c2e6a4b730644f14bcd85f9f2bc52e54cadc.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "12289206",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

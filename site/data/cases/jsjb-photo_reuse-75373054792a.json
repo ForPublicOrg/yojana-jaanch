@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-75373054792a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Maharajpura",
+  "Ranupura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 91acba3d2953) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/91acba3d2953fe4a802a620874535344ee7e12aedebdf8cae5bc044528665f40.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11140381",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

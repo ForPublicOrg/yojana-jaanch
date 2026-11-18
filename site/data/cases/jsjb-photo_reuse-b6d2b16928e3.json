@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b6d2b16928e3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Harnahia"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9f3f3992e93d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/9f3f3992e93da3da16d6478afd88c784e6bc87db39a987c2c944ccf583169177.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3924910",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

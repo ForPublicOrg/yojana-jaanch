@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-217eef27a0a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Belganj",
+  "Nandwara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 35f76257a5f2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.68, 85.24).",
+  "The photo was uploaded 2 times within 30 minutes (2026-02-01 12:44:09 to 2026-02-01 13:13:30)."
+ ],
+ "photo": "photos/35f76257a5f25ca229de8541fca349ce4a03398f6e31ccbb362b53eea8d3e4e8.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "168800769920",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

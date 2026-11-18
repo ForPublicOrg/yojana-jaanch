@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-ef007a87d3d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Pavithiram",
+  "Pudukkotti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8cb31e3a4270) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.152233, 78.29234)."
+ ],
+ "photo": "photos/8cb31e3a42705fbc7976aa6da16f6cd950825ee27fde3b7b829232a790afbdb3.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9337486",
+   "village": "Pavithiram",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-11",
+   "end_date": "2024-07-23",
+   "lat": 11.152233,
+   "lon": 78.29234,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "9337574",
+   "village": "Pudukkotti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-09-05",
+   "end_date": "2024-07-26",
+   "lat": 11.152233,
+   "lon": 78.29234,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "9338066",
+   "village": "Pudukkotti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-18",
+   "end_date": "2024-08-19",
+   "lat": 11.152233,
+   "lon": 78.29234,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c74ece800f99",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Balua",
+  "Bishunpur Nagwan Urf Muhchatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8873a79f07c4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/8873a79f07c4d904fd61222bb1f31b3f05e967bbae535f722335b2ccfd5c263e.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4586515",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

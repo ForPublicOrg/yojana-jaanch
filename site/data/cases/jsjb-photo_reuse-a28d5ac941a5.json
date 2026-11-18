@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a28d5ac941a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Lullon"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint fee02ed8a484) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.72, 76.5).",
+  "The photo was uploaded 9 times within 6 minutes (2026-04-21 10:06:13 to 2026-04-21 10:12:08)."
+ ],
+ "photo": "photos/fee02ed8a48493344b5ca4144b01ead2aab9c390ad690acb2bb15b9d2731c900.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5176660",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

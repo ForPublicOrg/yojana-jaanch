@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1659d7ebbfd3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Bharial"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 5f7873fb66e9) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works started and ended on the same day (2026-05-03)."
+ ],
+ "photo": "photos/5f7873fb66e93e11281487caba7f5eb5df79337de23e16c1cd625f10b5c40230.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7514225",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

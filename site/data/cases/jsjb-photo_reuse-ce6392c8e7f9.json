@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-ce6392c8e7f9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Gangahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bfe6e2e86c0a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Tank (1)."
+ ],
+ "photo": "photos/bfe6e2e86c0a6d5e6d76be5a3ced60f4ca86b1881670c4a2999949681549bc1d.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3093709",
+   "village": "Gangahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-30",
+   "lat": 13.265,
+   "lon": 77.5636,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3107240",
+   "village": "Gangahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-08-25",
+   "lat": 13.481629,
+   "lon": 77.965742,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

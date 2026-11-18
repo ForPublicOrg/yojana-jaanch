@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b073f5afba82",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Koer Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5f964614866) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c5f964614866e5f6a72d59036b8c47fa9b39eccd25bb081ce0f356c703e939ff.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1059865",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

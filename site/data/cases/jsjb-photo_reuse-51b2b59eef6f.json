@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-51b2b59eef6f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ferozepur",
+ "block": "Mamdot",
+ "villages": [
+  "Faru Wala",
+  "Lakho Ke Behram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d2a3b35d139a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-02 21:16:53 to 2026-02-02 21:18:00)."
+ ],
+ "photo": "photos/d2a3b35d139a75675cc5fcc15242961cb153573a3019dbab7a3771203da26e66.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1134541",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mamdot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

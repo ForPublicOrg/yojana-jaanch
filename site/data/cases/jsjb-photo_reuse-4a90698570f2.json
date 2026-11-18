@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4a90698570f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Ghabdan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0f45337bde2d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-22."
+ ],
+ "photo": "photos/0f45337bde2da934de996c933efb10dc7373a207798266c8507469763b9c0b36.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "9095176",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

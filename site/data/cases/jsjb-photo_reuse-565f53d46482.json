@@ -1,0 +1,89 @@
+{
+ "id": "jsjb-photo_reuse-565f53d46482",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Fatehgarh",
+ "villages": [
+  "Baiya",
+  "Bhoo Ki Dhani",
+  "Magra",
+  "Pokaran (M) - Ward No.1"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 67c07199ed96) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Defunct Bore-Well (1).",
+  "The photo was uploaded 5 times within 28 minutes (2025-12-23 12:39:13 to 2025-12-23 13:06:36).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD.",
+  "These works are spread over 2 blocks: Fatehgarh, Pokaran."
+ ],
+ "photo": "photos/67c07199ed96fb884cac95e48ca438cac39c1215f4b1424bfa8d720708c24104.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3144226",
+   "village": "Baiya",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-26",
+   "lat": 26.2343511,
+   "lon": 70.7530873,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "3144319",
+   "village": "Magra",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-06-18",
+   "end_date": "2025-06-28",
+   "lat": 26.302127,
+   "lon": 70.76985,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "3144839",
+   "village": "Pokaran (M) - Ward No.1",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-06-13",
+   "end_date": "2025-07-25",
+   "lat": 26.902,
+   "lon": 71.9554,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Urban",
+   "block": "Pokaran"
+  },
+  {
+   "record_id": "8603517",
+   "village": "Bhoo Ki Dhani",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-05-20",
+   "end_date": "2025-07-13",
+   "lat": 26.2217337,
+   "lon": 70.8054916,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
+}

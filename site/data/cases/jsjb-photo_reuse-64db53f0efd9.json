@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-64db53f0efd9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Manivilundan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f864f80a9779) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.6183, 78.6888)."
+ ],
+ "photo": "photos/f864f80a97798a90f5e35813bfd45b63825ea0a10d8e5281666e98e9f3893587.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349955",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

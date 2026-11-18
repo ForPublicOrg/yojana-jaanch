@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dd01acf004e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Chandauli Timba",
+  "Sauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da510448bfc2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/da510448bfc22e58dda8b2c3f751a61663d1d34921b14fbb782e4bf3aa2d9b27.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4455582",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

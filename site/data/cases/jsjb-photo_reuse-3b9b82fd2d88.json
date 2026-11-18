@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3b9b82fd2d88",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Bandhauli",
+  "Dadari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 59582f2bc832) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (25.0, 79.0)."
+ ],
+ "photo": "photos/59582f2bc8322c3844d59f2ede31e68930454227c320f149757b63e1d6f79390.jpg",
+ "offices": [
+  "DAO"
+ ],
  "records": [
   {
    "record_id": "293349",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

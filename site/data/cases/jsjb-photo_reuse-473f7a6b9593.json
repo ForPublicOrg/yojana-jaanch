@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-473f7a6b9593",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Mallasettyhalli",
+  "Thurukachenahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 43c7b60fdae1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Sub Surface Dyke (SSD) (2).",
+  "All 2 works report the same GPS point (13.62631, 77.99231).",
+  "The photo was uploaded 4 times within 18 minutes (2025-12-16 19:55:31 to 2025-12-16 20:12:55)."
+ ],
+ "photo": "photos/43c7b60fdae16dc36be61b70fca9686245ab4af187f8c12d78b664dd32dd9304.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092642",
+   "village": "Thurukachenahalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3092666",
+   "village": "Mallasettyhalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

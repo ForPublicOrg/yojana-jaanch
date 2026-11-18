@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1f52c534db5e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Kothi",
+  "Maili"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5a2af70d7a6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/c5a2af70d7a66c3bb7a44b687a84923bbb2a71bccfdf12ce4d9b2db1950aab15.jpg",
+ "offices": [
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "5565069",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

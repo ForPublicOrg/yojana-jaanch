@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-dc02d09a7694",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Kon",
+ "villages": [
+  "Akabarpatti",
+  "Purjagir Mu. Mawaiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 445df42061db) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The entries were made by 2 different offices: APO, BDO Kon."
+ ],
+ "photo": "photos/445df42061db34261a01461252fb7bd624c51ae2339579f1056079f78327c8c9.jpg",
+ "offices": [
+  "APO",
+  "BDO Kon"
+ ],
  "records": [
   {
    "record_id": "1249970",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ceaef18a793d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Ghutind"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 69e42f7b3b4e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-02-24 14:57:10 to 2026-02-24 15:00:04)."
+ ],
+ "photo": "photos/69e42f7b3b4e143ef06542f7725ed88d3e559130b1494092b47928b09f73c56e.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1047843",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

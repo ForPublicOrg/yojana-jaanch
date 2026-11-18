@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-f08eb91b2329",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Azamgarh Nagwan Tolajagdishpur",
+  "Balua",
+  "Muradpur",
+  "Shiuhar"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint ff3af1a6e06d) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (3), Recharge Pit (2).",
+  "The photo was uploaded 5 times within 20 minutes (2026-02-02 15:53:16 to 2026-02-02 16:12:29)."
+ ],
+ "photo": "photos/ff3af1a6e06d94aef81bd9bbf2570f8fa46f0c70e33de6390b2823b972c95d4b.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "108467769920",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c53e93ed1998",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Saura Urf Bhalni Churaman"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d272a0f92ae2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-07 07:56:02 to 2026-04-07 07:59:42)."
+ ],
+ "photo": "photos/d272a0f92ae2f793e5cef3de6da91cb5c47452ba279fe516bbbb93496b31cc6c.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4549245",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-147ea09d6ece",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Doodi",
+  "Ghumansar Kalan",
+  "Mahpalwas"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8a3e578e7c82) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BDO, CEO ZILA PARISHAD.",
+  "These works are spread over 2 blocks: Pilani, Surajgarh."
+ ],
+ "photo": "photos/8a3e578e7c82f83f98a5687ce9b006017f66f7e9ec3f9b4f12cfb04ff07f25ae.jpg",
+ "offices": [
+  "BDO",
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4288225",
+   "village": "Doodi",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-09-15",
+   "end_date": "2025-11-26",
+   "lat": 28.2561,
+   "lon": 75.3275,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4291716",
+   "village": "Ghumansar Kalan",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-07-14",
+   "end_date": "2025-10-13",
+   "lat": 28.65,
+   "lon": 75.25,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4293531",
+   "village": "Mahpalwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-02",
+   "end_date": "2025-09-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

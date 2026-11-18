@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-f07e14b0aa0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Ariyur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bedc6f6e9c20) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.096625, 78.132828).",
+  "The photo was uploaded 4 times within 9 minutes (2026-01-23 12:06:48 to 2026-01-23 12:15:41)."
+ ],
+ "photo": "photos/bedc6f6e9c20d5331586bf55cc58852c75250e376669fcb0afa0017f40f82c7b.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339779",
+   "village": "Ariyur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-03",
+   "end_date": "2025-04-28",
+   "lat": 11.096625,
+   "lon": 78.132828,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9339783",
+   "village": "Ariyur",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-03",
+   "end_date": "2025-04-28",
+   "lat": 11.096625,
+   "lon": 78.132828,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

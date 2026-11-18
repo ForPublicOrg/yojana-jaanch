@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a64c535747c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Mansa",
+ "villages": [
+  "Tam Kot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 96980294a4a8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Contour Trench (1).",
+  "All 2 works report the same GPS point (30.045311, 75.408032).",
+  "All 2 works started and ended on the same day (2026-05-11)."
+ ],
+ "photo": "photos/96980294a4a87fb8f9120e632afe26cdabb4855b73708d7461426a3bcaa0273c.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "8770073",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mansa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

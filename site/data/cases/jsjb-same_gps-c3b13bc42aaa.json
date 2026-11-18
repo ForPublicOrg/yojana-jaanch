@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-c3b13bc42aaa",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Krishnapuram",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Krishnapuram"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Krishnapuram report exactly the same GPS point (11.500853, 78.644503).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (5).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9352372",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

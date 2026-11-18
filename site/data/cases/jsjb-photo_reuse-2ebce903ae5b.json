@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-2ebce903ae5b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 14 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Jodhpur",
+  "Railon",
+  "Raily",
+  "Raipur Gujran",
+  "Rampur Kaleran",
+  "Rupalheri"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "The same photo file (fingerprint 39413aff225d) is attached to 14 different works in 6 villages. A photo of one site cannot be evidence for 14 separate works.",
+  "The works are recorded as: Contour Trench (14).",
+  "All 14 works report the same GPS point (6.5, 68.2)."
+ ],
+ "photo": "photos/39413aff225d75141888a1efeaaed006c61fd52e7c82afd05e4d8bf43e2ec283.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5031723",
@@ -197,5 +221,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 43,
+ "needs_human_review": false
 }

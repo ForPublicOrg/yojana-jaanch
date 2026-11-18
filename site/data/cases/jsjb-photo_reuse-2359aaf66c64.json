@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-2359aaf66c64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 30 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Narha Jagdarpi",
+  "Neamatullahpur",
+  "Nizamuddinpur",
+  "Pandaul Urf Panthpakar",
+  "Purnahia",
+  "Saidpur Urf Hajipur",
+  "Shiunagar",
+  "Singrahia"
+ ],
+ "record_count": 30,
+ "reasons": [
+  "The same photo file (fingerprint 56359389ff45) is attached to 30 different works in 8 villages. A photo of one site cannot be evidence for 30 separate works.",
+  "The works are recorded as: Soak Pit (30)."
+ ],
+ "photo": "photos/56359389ff459640539baac8d7e50bbeb8b9e8b6f4377e5a92e41681a100349f.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4495706",
@@ -421,5 +446,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 90,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-3ccbac4ed5e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Bid Bharthala",
+  "Jamdoli",
+  "Kiwara",
+  "Ramnagar Dhaturi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint d990bf99ee91) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "The entries were made by 2 different offices: AEN, Watershed Department Deoli, Collector & DM."
+ ],
+ "photo": "photos/d990bf99ee91b4a9aa6f91b6b1f3a0eca92ae84b5d29335542bc53dc28311715.jpg",
+ "offices": [
+  "AEN, Watershed Department Deoli",
+  "Collector & DM"
+ ],
  "records": [
   {
    "record_id": "3725498",
@@ -57,5 +80,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

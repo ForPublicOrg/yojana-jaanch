@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4e035ab8c474",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Thala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 59c242d2c3d4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-27 10:17:33 to 2026-05-27 10:18:53)."
+ ],
+ "photo": "photos/59c242d2c3d4d8b59f6f873b0386e29de029887342f328decc1ed5aa31de84db.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "13416998",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

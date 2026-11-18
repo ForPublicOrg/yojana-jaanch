@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-450b08098f07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Ghaziwal",
+  "Naurang Pur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5bba06eb11c2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5bba06eb11c2afa44988162f9eaad9837221d975a0c2737380fb874735868f52.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "11726782",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

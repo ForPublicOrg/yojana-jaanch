@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b6d6f29b3421",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Komarapalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 991ca2339631) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.090226, 78.074619)."
+ ],
+ "photo": "photos/991ca2339631e34b60e23d1e53b1df9ae4470d262be56ecedd5abc31b3b58783.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9118284",
+   "village": "Komarapalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2026-02-02",
+   "end_date": "2026-02-22",
+   "lat": 11.090226,
+   "lon": 78.074619,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9341380",
+   "village": "Komarapalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-03-03",
+   "end_date": "2025-03-28",
+   "lat": 11.090226,
+   "lon": 78.074619,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

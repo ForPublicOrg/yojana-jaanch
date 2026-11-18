@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-96df4af17fab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Bhairupura",
+  "Kiwara"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 13a607c0eb9c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "The photo was uploaded 6 times within 12 minutes (2026-02-28 11:11:35 to 2026-02-28 11:23:26)."
+ ],
+ "photo": "photos/13a607c0eb9cc21f95d6fee62edaca577d533d97d3a7ebb2ce06f596982bd71c.jpg",
+ "offices": [
+  "Collector & DM"
+ ],
  "records": [
   {
    "record_id": "3721592",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

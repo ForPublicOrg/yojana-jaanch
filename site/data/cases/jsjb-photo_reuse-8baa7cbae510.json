@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-8baa7cbae510",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Abohar",
+ "villages": [
+  "Bhadar Khera",
+  "Muhammad Pira"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 28313d64a13a) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1), Tank (1).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Junior Engineer.",
+  "These works are spread over 2 blocks: Abohar, Fazilka."
+ ],
+ "photo": "photos/28313d64a13a34c43655c793718769093ca658e02da5e0bd530de655b5e756f6.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "985016",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Fazilka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

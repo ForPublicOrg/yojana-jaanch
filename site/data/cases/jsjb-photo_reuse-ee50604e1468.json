@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ee50604e1468",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Kurukkupatti (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 766d84854377) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.68, 77.98).",
+  "The photo was uploaded 2 times within 10 minutes (2025-06-30 14:20:36 to 2025-06-30 14:30:27)."
+ ],
+ "photo": "photos/766d8485437702e16943c9121f79e483b90c54c783a6887831cd521b1dcb4f1f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346632",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

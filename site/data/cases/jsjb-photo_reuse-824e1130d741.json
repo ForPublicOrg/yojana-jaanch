@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-824e1130d741",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Bhikhi",
+ "villages": [
+  "Kishangarh Pharwahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 785fc81a2582) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-30)."
+ ],
+ "photo": "photos/785fc81a25820c5f05c301221b8c6b10756014b83c82a7e0fee6f5f200418485.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "15151304",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bhikhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

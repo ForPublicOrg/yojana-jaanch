@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e7c08a1320b9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Pottipuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d93853b9fc50) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.78919, 78.078487)."
+ ],
+ "photo": "photos/d93853b9fc50552b82a474b18fbfd235d6303fd9626ba9d69a900d35bb3cc8f7.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346532",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

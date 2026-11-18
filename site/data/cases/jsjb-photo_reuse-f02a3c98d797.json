@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f02a3c98d797",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Main Majri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 6516b8c2eb77) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 8 times within 11 minutes (2026-04-21 10:14:20 to 2026-04-21 10:25:00)."
+ ],
+ "photo": "photos/6516b8c2eb7761f4132af9bc5df894ab7bbfc781009b67e8d324becafb13509b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5176927",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

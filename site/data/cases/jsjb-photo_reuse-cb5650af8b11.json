@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cb5650af8b11",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Bhikhi",
+ "villages": [
+  "Bhoopal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 21bcedc834a9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.1055, 75.4574).",
+  "All 2 works started and ended on the same day (2026-05-22).",
+  "The photo was uploaded 4 times within 13 minutes (2026-05-26 14:13:53 to 2026-05-26 14:26:29)."
+ ],
+ "photo": "photos/21bcedc834a9f17aa188f6d612daacb6b22f41063e537d25776472eaaa1a60c2.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "12945965",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bhikhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

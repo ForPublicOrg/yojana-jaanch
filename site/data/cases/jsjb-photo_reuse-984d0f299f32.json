@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-984d0f299f32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Ariyampatti",
+  "Manathal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e3e7e1201d78) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/e3e7e1201d78a9fe8dea64dff18bcee8f7ccec30002c0d7cf444866b3d1fdb7f.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9354962",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-95a9dc66dd47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Banaul",
+  "Bazidpur Gorhauli"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 402f1a792bad) is attached to 8 different works in 2 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Recharge Pit (8).",
+  "All 8 works report the same GPS point (26.0, 85.0)."
+ ],
+ "photo": "photos/402f1a792bade4636d0060975c4e49a27e11aa99a5bc0829d70db8cfa6a2d7e3.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "3746255",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-21a93ea03bbd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Minnampalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 055d498f05ea) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.68, 78.27).",
+  "The photo was uploaded 3 times within 8 minutes (2025-07-05 11:36:39 to 2025-07-05 11:43:40)."
+ ],
+ "photo": "photos/055d498f05ea33fe8ec5642c4fab61cdff8b3bae95416f0c3a04b3ce754bac18.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9354299",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-b395f6e68258",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Bithola",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Bithola"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Bithola report exactly the same GPS point (26.1354081, 75.9265455).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3874528",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

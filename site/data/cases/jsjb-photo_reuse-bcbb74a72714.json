@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bcbb74a72714",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Darda Hind",
+  "Lamba",
+  "Takholi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e5a53df25b14) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/e5a53df25b1407242da443aa77e51aafff7a99a54efcafff7999722c3295107a.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3911313",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

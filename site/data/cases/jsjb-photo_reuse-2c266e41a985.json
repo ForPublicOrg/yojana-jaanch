@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2c266e41a985",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Sirsian",
+  "Walipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint acb695741fa4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 27 minutes (2026-04-04 13:22:08 to 2026-04-04 13:48:18)."
+ ],
+ "photo": "photos/acb695741fa4fd66b8cc683f27f1165461b7927b11ef682fc65d759b4ebc427a.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4470023",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

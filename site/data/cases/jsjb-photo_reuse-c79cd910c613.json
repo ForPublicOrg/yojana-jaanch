@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c79cd910c613",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Nimahera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8ea1c7758127) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.24, 75.6)."
+ ],
+ "photo": "photos/8ea1c7758127035c2193184a8f28eb9fe8eb8d7375d6887edb598b93c94c9323.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4291854",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

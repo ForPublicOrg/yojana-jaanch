@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b91c85ab450a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Madh Kaul"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint f98a35d475d2) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Recharge Pit (6)."
+ ],
+ "photo": "photos/f98a35d475d21918ba8cdc5786f761a9f3d84e40ea272dbf4b65e371635a2a1d.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4100601",
@@ -85,5 +103,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

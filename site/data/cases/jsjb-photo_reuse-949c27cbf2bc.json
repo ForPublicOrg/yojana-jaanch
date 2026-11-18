@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-949c27cbf2bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Hameerpur",
+  "Kirawal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fab2e4b807ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Tank (1).",
+  "These works are spread over 2 blocks: Malpura, Todaraisingh."
+ ],
+ "photo": "photos/fab2e4b807ea46198bf5823509584e95760721b666823feb62254b02fcc9939b.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4266767",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

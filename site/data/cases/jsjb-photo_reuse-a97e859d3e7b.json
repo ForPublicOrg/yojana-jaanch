@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a97e859d3e7b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Harian",
+  "Talwandi Ghuman"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 75ff76d8f4fa) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-06, 2026-05-13."
+ ],
+ "photo": "photos/75ff76d8f4fa2c7bbb17460a3172870b66e655579565a914fd124efa43202fdd.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "7623938",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

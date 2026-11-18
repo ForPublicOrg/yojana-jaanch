@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-de364065fc70",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Ladpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 67d0fd5176ed) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/67d0fd5176ed4512551499bb5eba6b460d68aa9e725972cf2035a2b31121dc47.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5004327",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

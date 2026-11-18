@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-304eec968d34",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Verkandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33ab8692ed67) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.38, 74.83).",
+  "The photo was uploaded 4 times within 56 seconds (2026-03-09 15:11:51 to 2026-03-09 15:12:47)."
+ ],
+ "photo": "photos/33ab8692ed67f02e33ee57698c22fdc6889048d91bce1e26df46143b187e377c.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1143610",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

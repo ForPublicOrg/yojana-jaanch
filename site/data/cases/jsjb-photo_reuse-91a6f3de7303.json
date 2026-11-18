@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-91a6f3de7303",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Bagga",
+  "Joeyke",
+  "Kamirpur",
+  "Mudh"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e7eff5697e53) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (5).",
+  "The entries were made by 4 different offices: BDPO AJNALA, BDPO Chogawan, BDPO Rayya, BDPO Tarsikka.",
+  "These works are spread over 4 blocks: Ajnala, Chogawan, Rayya, Tarsikka."
+ ],
+ "photo": "photos/e7eff5697e53930c1920980cda0e725f8180dc79ee2ab3ece0dbe488015df924.jpeg",
+ "offices": [
+  "BDPO AJNALA",
+  "BDPO Chogawan",
+  "BDPO Rayya",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7663233",
@@ -71,5 +97,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

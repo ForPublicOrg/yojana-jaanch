@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bf02dd91761e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Mohni Madol",
+  "Parsauni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0124b393435b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The photo was uploaded 3 times within 3 minutes (2026-04-06 19:01:38 to 2026-04-06 19:04:20).",
+  "These works are spread over 2 blocks: Bairgania, Suppi."
+ ],
+ "photo": "photos/0124b393435b76ea7d087907354d8179025d298f48cc1d3a90e3d0fdff85a258.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "881827",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

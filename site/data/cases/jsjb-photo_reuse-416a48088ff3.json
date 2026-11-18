@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-416a48088ff3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Duriya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5c5d3d7c689) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a5c5d3d7c689cd631f119509e17980f85dc970c2b7e2134f36517a70d29d6053.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4273521",
+   "village": "Duriya",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2023-11-15",
+   "end_date": "2023-12-15",
+   "lat": 27.851254,
+   "lon": 75.522344,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4281350",
+   "village": "Duriya",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2024-02-01",
+   "end_date": "2024-02-15",
+   "lat": 27.851265,
+   "lon": 75.572345,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

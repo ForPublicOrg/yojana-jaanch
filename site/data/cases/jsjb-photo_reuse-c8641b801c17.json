@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c8641b801c17",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Chak Prema"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c82e67e5191a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Phagwara, Ziledar."
+ ],
+ "photo": "photos/c82e67e5191a9e7f1a0516868b7ddaf25ecfcf13776c420a1fd0ac2cfb2284e6.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "989096",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

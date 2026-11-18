@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-58f058ef5603",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Lange",
+  "Mughlani Chak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b406acd65261) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla.",
+  "These works are spread over 2 blocks: Dinanagar, Dorangla."
+ ],
+ "photo": "photos/b406acd65261e81eb82dff1ce27f65b760e9e6f34729038605970834251b3828.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "1086672",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

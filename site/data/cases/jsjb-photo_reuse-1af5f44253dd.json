@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1af5f44253dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Lodhi Gujjar",
+  "Manj"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a76308e9bc81) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.735975, 74.57378)."
+ ],
+ "photo": "photos/a76308e9bc8180c229a2b41ef849242b92665eac1d0d3d39ad5a5874e6422e22.jpg",
+ "offices": [
+  "BDPO Chogawan"
+ ],
  "records": [
   {
    "record_id": "7354342",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

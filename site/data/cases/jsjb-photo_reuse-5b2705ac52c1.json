@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5b2705ac52c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Vanavasi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 116b60a25880) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/116b60a25880722ea103cc94b855c09fcf5780bb7a62395c4f110068f6026e79.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9351705",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

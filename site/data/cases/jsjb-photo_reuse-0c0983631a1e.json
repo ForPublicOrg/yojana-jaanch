@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0c0983631a1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Himatgarh Channa"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 729c1d40dc08) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 5 times within 6 minutes (2026-04-24 19:16:46 to 2026-04-24 19:22:24)."
+ ],
+ "photo": "photos/729c1d40dc089cf8d464c882a0d0fe9e57dd0cc5c51942f3e8b3588d137a3531.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5451830",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

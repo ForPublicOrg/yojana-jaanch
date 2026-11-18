@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f5aa8745757b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Chak Daulatpur",
+  "Daulatpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 25ee6773fa3b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: BDPO Jalandhar East, Zilledar."
+ ],
+ "photo": "photos/25ee6773fa3b16f869cdbf2f327b0d1fdd2776cc385936e5513110f5cb439e57.jpg",
+ "offices": [
+  "BDPO Jalandhar East",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "985886",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-be48c45749d0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Sirsi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b4a63b9435f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "The photo was uploaded 2 times within 6 minutes (2026-03-19 13:04:30 to 2026-03-19 13:10:25)."
+ ],
+ "photo": "photos/5b4a63b9435f10a66dc848859118904e80b4aa9662a811ff4f007604501e1d28.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4041404",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

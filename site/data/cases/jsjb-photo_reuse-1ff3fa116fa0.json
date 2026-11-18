@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1ff3fa116fa0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Chittur Bit 1"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3517ca53cefc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/3517ca53cefc4b87daf040142e5a194897bf509a88045d9df875650f10cb5cb8.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9350323",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

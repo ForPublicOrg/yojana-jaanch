@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c6966e7a6324",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Baraichan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d0411276d542) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.56, 76.34).",
+  "The photo was uploaded 3 times within 4 minutes (2026-04-24 18:49:34 to 2026-04-24 18:52:42)."
+ ],
+ "photo": "photos/d0411276d542f717bf4b7ed6fcb2f6f380c1a70f8243dfa1d86b857a7626f48d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5450784",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

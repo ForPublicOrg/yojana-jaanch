@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bf010eacedac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Chak Rautan",
+  "Kunail"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd06a9b7f9d3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 3 minutes (2026-03-11 07:07:10 to 2026-03-11 07:09:19)."
+ ],
+ "photo": "photos/fd06a9b7f9d37dba1081547b3df1943e9d4c05fd3e08bcf543a7b69bc57f80cf.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "974893",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

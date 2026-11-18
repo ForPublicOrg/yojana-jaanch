@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3635c0390fb6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Kharusa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb2c94e9a173) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.9755868, 79.3091962)."
+ ],
+ "photo": "photos/eb2c94e9a173191f2d16a2e920219f813746bc81cb940d39c0191bf8ab9a581e.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4986472",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

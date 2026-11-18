@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-c11b15901c41",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Bherrahia Ramatua",
+  "Hanuman Nagar",
+  "Khursaha",
+  "Mahadeopatti",
+  "Majhaura"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint ec673ef4ea79) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/ec673ef4ea792d3dacdfbf5f84ee8be829de1595b13e3fa7cbf1d5da2d138aa3.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4507437",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fa6a5169739c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Lalganj",
+ "villages": [
+  "Usari Khamaharia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7707a9e9f9bc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-04 15:40:34 to 2026-05-04 15:42:03)."
+ ],
+ "photo": "photos/7707a9e9f9bc16dcdded3703c2b9481de7a39a823a2df37cc53c9e8d3511285a.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1160124",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Lalganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

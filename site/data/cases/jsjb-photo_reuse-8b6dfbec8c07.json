@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-8b6dfbec8c07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Chhailowal",
+  "Dakoha",
+  "Talwandi Bhindran"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint bce238fb189b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (31.0, 75.0).",
+  "The photo was uploaded 6 times within 6 minutes (2026-05-14 11:22:42 to 2026-05-14 11:28:18)."
+ ],
+ "photo": "photos/bce238fb189b063e1b778733795c149ad3738a44d4e9cf2e9a1df67986619de9.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "1125158",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

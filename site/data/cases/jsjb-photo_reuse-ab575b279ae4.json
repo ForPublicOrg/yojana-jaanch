@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ab575b279ae4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Singipuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6dad2586b733) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.62426, 78.407611).",
+  "The photo was uploaded 4 times within 53 seconds (2026-05-20 16:16:47 to 2026-05-20 16:17:40)."
+ ],
+ "photo": "photos/6dad2586b733c510505d24f34505e88ffeae3b8c2d687852466ca38f3c96a4c8.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10402026",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

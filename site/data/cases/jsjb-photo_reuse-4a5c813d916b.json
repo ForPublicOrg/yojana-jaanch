@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4a5c813d916b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Kalian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 85aa12f20bad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/85aa12f20bad18b168108174b2aedba01f7aa7ded99e7be202da1a1452d9af75.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "5395399",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

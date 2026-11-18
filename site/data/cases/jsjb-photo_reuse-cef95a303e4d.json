@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cef95a303e4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Boparai",
+  "Dhirowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bffb884726fa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (31.0, 75.0)."
+ ],
+ "photo": "photos/bffb884726fa6ce1db3515513c328dcd7f12046692b786ba8fc714913107db0d.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "10120900",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

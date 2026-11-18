@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-15ce15fd3b32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Gulabpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 099ebee504fb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.048345, 75.858218).",
+  "All 2 works started and ended on the same day (2026-05-27).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-27 09:54:47 to 2026-05-27 09:56:28)."
+ ],
+ "photo": "photos/099ebee504fb150b2e457a2981c11d3b51aeb1d162b2a8091391699ae583c282.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "13412018",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

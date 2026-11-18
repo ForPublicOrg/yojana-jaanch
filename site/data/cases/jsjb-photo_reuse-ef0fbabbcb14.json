@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ef0fbabbcb14",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kotla Dadheri",
+  "Talwara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 687f446fd07b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-03-01 18:36:02 to 2026-03-01 18:42:21)."
+ ],
+ "photo": "photos/687f446fd07b32255dca52530b71b141b43b748bdd1c8a75b24b0bc3fc22b2c3.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1077635",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

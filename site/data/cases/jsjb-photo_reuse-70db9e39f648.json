@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-70db9e39f648",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Hamidi"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 62dba29a382d) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Other (7).",
+  "All 7 works report the same GPS point (30.3763309, 75.540283).",
+  "The photo was uploaded 14 times within 13 seconds (2026-04-09 15:40:01 to 2026-04-09 15:40:14)."
+ ],
+ "photo": "photos/62dba29a382dfb84a25dcf3bf8e852a51d9405dc4ca8348f0357928853d5c3cc.jpg",
+ "offices": [
+  "SURVEYOR RAHUL KUMAR"
+ ],
  "records": [
   {
    "record_id": "4650682",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

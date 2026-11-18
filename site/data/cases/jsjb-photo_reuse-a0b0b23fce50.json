@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-a0b0b23fce50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Kalinayakanahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1b51accf37bc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (1), Tank (1)."
+ ],
+ "photo": "photos/1b51accf37bcd097b6fa91ef003d6b37971d6d20cefec6093f0789365a187a8f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3141533",
+   "village": "Kalinayakanahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-08-10",
+   "lat": 13.247662,
+   "lon": 77.938922,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3170302",
+   "village": "Kalinayakanahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2022-09-06",
+   "end_date": "2025-08-10",
+   "lat": 13.265769,
+   "lon": 77.903394,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

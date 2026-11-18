@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-8481fe22542a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Ferozepur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint bd3bca8a9d58) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/bd3bca8a9d58f97f1c95356c96a590c6e1aac193451d0e5f8ff9ca642a080d2b.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "3755692",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

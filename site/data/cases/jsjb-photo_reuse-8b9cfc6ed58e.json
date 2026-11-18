@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8b9cfc6ed58e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Matiar Kalan",
+  "Phulparasi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9640ce60e8ed) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-04 13:08:09 to 2026-04-04 13:14:46)."
+ ],
+ "photo": "photos/9640ce60e8ed1b7faa5ff3addbab0fd4f0ea2bfe75183d2c911aa1251c40c5b0.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4469112",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

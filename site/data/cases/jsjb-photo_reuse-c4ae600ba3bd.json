@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c4ae600ba3bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Hatauna",
+  "Karola",
+  "Lamba",
+  "Takholi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 7fcb3ccdd10b) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/7fcb3ccdd10b2232df9a6c6d6bf9f24310215a5fa0377ef3101aeac55c59954c.jpg",
+ "offices": [
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3633600",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

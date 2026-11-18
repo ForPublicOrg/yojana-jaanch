@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e3a83304c9cc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Dindaspur",
+  "Ramraypur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3a180c3a69f6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Arajiline, Pindra."
+ ],
+ "photo": "photos/3a180c3a69f6f0a7c884410172de774f31a44a04fc09d989b510fbf0f3eff30f.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893343",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

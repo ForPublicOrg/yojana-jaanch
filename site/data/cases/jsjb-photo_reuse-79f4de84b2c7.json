@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-79f4de84b2c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Chhohan",
+  "Chikri",
+  "Nurowali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 26bc659143f7) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.748726, 75.22794).",
+  "These works are spread over 2 blocks: Dhariwal, Kalanaur."
+ ],
+ "photo": "photos/26bc659143f775eef47b94719cf63b6ca465bc8aaf793fc66a96808c286dd26a.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10041570",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

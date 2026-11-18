@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cc9d57522eba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Minnakkal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 94880e9824b9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.541544, 78.084682)."
+ ],
+ "photo": "photos/94880e9824b973a82091be9158dbd390e2a2bd68ad0a188a930f9832ba122abc.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3538925",
+   "village": "Minnakkal",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-04",
+   "end_date": "2024-04-11",
+   "lat": 11.541544,
+   "lon": 78.084682,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9334926",
+   "village": "Minnakkal",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-03-01",
+   "end_date": "2021-06-01",
+   "lat": 11.541544,
+   "lon": 78.084682,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

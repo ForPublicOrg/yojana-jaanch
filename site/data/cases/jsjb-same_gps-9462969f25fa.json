@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9462969f25fa",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "32 works at one GPS point in Somanpatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Somanpatti"
+ ],
+ "record_count": 32,
+ "reasons": [
+  "32 works in Somanpatti report exactly the same GPS point (11.6, 78.42).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (30), Village Pond (2).",
+  "They carry 32 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9348011",
@@ -449,5 +469,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 64,
+ "needs_human_review": false
 }

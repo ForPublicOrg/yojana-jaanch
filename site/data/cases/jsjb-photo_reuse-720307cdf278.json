@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-720307cdf278",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Ponkurichi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 914aadd0540a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.429331, 78.116353)."
+ ],
+ "photo": "photos/914aadd0540af9e29b8db28bed77c681b52ef50dfadee3b3a51625a7eff6d08e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9065485",
+   "village": "Ponkurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-02-22",
+   "end_date": "2023-06-05",
+   "lat": 11.429331,
+   "lon": 78.116353,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9337929",
+   "village": "Ponkurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-05",
+   "end_date": "2025-06-25",
+   "lat": 11.429331,
+   "lon": 78.116353,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

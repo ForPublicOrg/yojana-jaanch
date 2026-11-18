@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f60c31cf41d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Patial"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d936337ce246) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/d936337ce246befc8b3b2c5836b84bd05b5d913425e2087db923e8b7ed289410.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1115969",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

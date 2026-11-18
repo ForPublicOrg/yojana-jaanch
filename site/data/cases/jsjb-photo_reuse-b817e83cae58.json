@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b817e83cae58",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Haria Wala",
+  "Mahla Klan",
+  "Nathuwala Garbi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f9f442d9f158) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 6 minutes (2026-02-17 15:18:51 to 2026-02-17 15:24:08)."
+ ],
+ "photo": "photos/f9f442d9f158a3afd79752337525d27f4b1311623732edfddc2fadf4f65892fc.jpg",
+ "offices": [
+  "PATWARI"
+ ],
  "records": [
   {
    "record_id": "978660",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

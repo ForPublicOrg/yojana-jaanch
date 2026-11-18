@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-50c303c61e6b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Morur Bit 1"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9c13d00ef54a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 29 minutes (2026-11-16 12:42:38 to 2026-11-16 13:11:11)."
+ ],
+ "photo": "photos/9c13d00ef54a0842b93d791b637807c01400508a4e4e626b1a261ca867ba5164.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9354452",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

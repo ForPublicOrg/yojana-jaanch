@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-764418f0e8ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Fatehgarh Jatana",
+  "Fatehpur Gujran"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint ac1d990944c1) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/ac1d990944c103ac94d79ce29ecf73d4910eeb0bc9f8ec9d0f526f5604025b20.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1054726",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

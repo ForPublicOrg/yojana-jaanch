@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-de495b19eb72",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Cheemanahalli",
+  "Kempenahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5007cc024805) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Sub Surface Dyke (SSD) (2)."
+ ],
+ "photo": "photos/5007cc024805455f911601e23f0560399f3b10f42f70656ea3be92c9be0faab1.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3073440",
+   "village": "Kempenahalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-20",
+   "end_date": "2025-09-15",
+   "lat": 13.456273,
+   "lon": 77.849957,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3087639",
+   "village": "Cheemanahalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-26",
+   "end_date": "2025-11-18",
+   "lat": 13.4334,
+   "lon": 77.8527,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-610e1039aba5",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Vazhapadi (TP) - Ward No.12",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Vazhapadi",
+ "villages": [
+  "Vazhapadi (TP) - Ward No.12"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Vazhapadi (TP) - Ward No.12 report exactly the same GPS point (11.653942, 78.397572).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5), Other (1).",
+  "They carry 11 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "ASSISTANT DIRECTOR OF TOWN PANCHAYAT"
+ ],
  "records": [
   {
    "record_id": "11514318",
@@ -85,5 +105,8 @@
    "area_type": "Urban",
    "block": "Vazhapadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

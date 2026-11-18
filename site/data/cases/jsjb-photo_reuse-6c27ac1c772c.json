@@ -1,0 +1,58 @@
+{
+ "id": "jsjb-photo_reuse-6c27ac1c772c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Roopsi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 090f1c8f60a5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.9832861, 70.8135451).",
+  "The photo was uploaded 2 times within 18 minutes (2026-05-31 18:13:57 to 2026-05-31 18:31:38).",
+  "The entries were made by 2 different offices: BDO, Chief Engineer."
+ ],
+ "photo": "photos/090f1c8f60a5f314e585f17be07deaa8d058e351ff9a06972b2721ea8b0ebdba.jpg",
+ "offices": [
+  "BDO",
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "16255118",
+   "village": "Roopsi",
+   "structure_type": "Village Pond",
+   "created_by": "Chief Engineer",
+   "start_date": "2022-05-01",
+   "end_date": "2023-03-02",
+   "lat": 26.9832861,
+   "lon": 70.8135451,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "16264533",
+   "village": "Roopsi",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2022-05-01",
+   "end_date": "2024-07-12",
+   "lat": 26.9832861,
+   "lon": 70.8135451,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

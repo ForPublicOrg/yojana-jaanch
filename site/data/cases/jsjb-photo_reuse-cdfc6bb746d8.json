@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cdfc6bb746d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Chak Attar Singhwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8283a2096b76) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.076845, 74.713418).",
+  "The photo was uploaded 4 times within 20 seconds (2026-04-04 11:58:11 to 2026-04-04 11:58:31)."
+ ],
+ "photo": "photos/8283a2096b76ec12023363e1d164fbcddd9f572d7a1f23cac794e86b29ac373c.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4464806",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

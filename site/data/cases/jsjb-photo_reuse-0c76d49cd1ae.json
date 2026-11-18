@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0c76d49cd1ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Rupauli",
+  "Sirsian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 567ea680feef) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-03-25 18:09:51 to 2026-03-25 18:13:01)."
+ ],
+ "photo": "photos/567ea680feef693998e62b2c9860851ffb44940113cdf3268b0d55a8e6372c8f.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4255243",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

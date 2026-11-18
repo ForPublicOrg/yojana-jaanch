@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-29fd5df99c41",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Kheri Gilan",
+  "Nadampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 30413e74929e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/30413e74929ea3fbcf49742d56fd277fabb30bbf144a0313e57f8e18dd3fd6b2.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "7449455",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-acf9559addb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Khialewala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2ddd9779769d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1)."
+ ],
+ "photo": "photos/2ddd9779769df969c8d0f0c96beb09706761d5deea78cac22b64fae35f4ddfea.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1141069",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

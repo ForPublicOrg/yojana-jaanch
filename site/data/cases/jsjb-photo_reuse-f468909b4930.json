@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f468909b4930",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Kanganpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d470e927015c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-21)."
+ ],
+ "photo": "photos/d470e927015c87b0b9a733c9d937e67875e0450d22f6c8484a87801498fce24d.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10852318",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

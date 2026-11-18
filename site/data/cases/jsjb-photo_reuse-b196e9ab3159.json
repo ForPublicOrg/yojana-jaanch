@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b196e9ab3159",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Jamalpur",
+  "Pasahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 11933deccbb9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/11933deccbb921d5f2aa5a0d9dd7de9ad5e6ef7929fe439ffd816f518a88dbf1.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3413084",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

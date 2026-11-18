@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-41497f194e5d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Narendra Nagar",
+  "Nehdai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2c74942b63a0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-02 20:14:53 to 2026-05-02 20:16:49)."
+ ],
+ "photo": "photos/2c74942b63a0aff8d82b8beca2854eee45ce34e9acca7240a743381f33a3bc4a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "7308706",
+   "village": "Nehdai",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-02-11",
+   "end_date": "2025-06-13",
+   "lat": 27.35,
+   "lon": 71.03,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "7308776",
+   "village": "Narendra Nagar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-02-11",
+   "end_date": "2025-06-13",
+   "lat": 27.3,
+   "lon": 70.98,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0009d988b29e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Fattupur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 89c5d53752e2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.97775, 75.10929).",
+  "The photo was uploaded 4 times within 11 seconds (2026-05-11 12:00:25 to 2026-05-11 12:00:36)."
+ ],
+ "photo": "photos/89c5d53752e2e4be93369db28ed31de73c42865a49841344c205103cc64aad18.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "8433570",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

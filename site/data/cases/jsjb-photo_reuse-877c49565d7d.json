@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-877c49565d7d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Mehdudan",
+  "Pohir 338)",
+  "Zirk"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 42dcc3d6e72d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1).",
+  "The entries were made by 2 different offices: Canal Patwari/Ropar Canal & Ground Water Division, XEN/ BML Patiala.",
+  "These works are spread over 3 blocks: Dehlon, Maloud, Samrala."
+ ],
+ "photo": "photos/42dcc3d6e72d6fd772ca6b5a6b377711f63a3c1eb601395486394bfa3834de24.jpg",
+ "offices": [
+  "Canal Patwari/Ropar Canal & Ground Water Division",
+  "XEN/ BML Patiala"
+ ],
  "records": [
   {
    "record_id": "969661",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

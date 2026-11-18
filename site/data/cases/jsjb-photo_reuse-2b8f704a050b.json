@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2b8f704a050b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Ariyampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c62d4110bb4c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.7187375, 77.9054871).",
+  "The photo was uploaded 4 times within 10 minutes (2026-01-30 14:19:20 to 2026-01-30 14:29:15)."
+ ],
+ "photo": "photos/c62d4110bb4c66911424a6364aa894e77a31d90704fdac062fbd22cc41bf6853.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344986",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

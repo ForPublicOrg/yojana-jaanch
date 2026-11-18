@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c4cf90b35ca1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Fatrhnagar Alias Munsni Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 668de78f31e3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.250222, 76.157349).",
+  "All 2 works started and ended on the same day (2026-05-06).",
+  "The photo was uploaded 2 times within 5 minutes (2026-05-06 11:34:40 to 2026-05-06 11:38:44)."
+ ],
+ "photo": "photos/668de78f31e3f7452c4e5355674baf29e5b813fd8f8d32035720dfacaabcab69.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "7552019",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

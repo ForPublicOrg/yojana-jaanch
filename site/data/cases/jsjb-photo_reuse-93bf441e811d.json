@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-93bf441e811d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Mehta"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e22d4f5a660d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The entries were made by 2 different offices: BARJINDER PAL SINGH, Harjinder Singh ETT Teacher."
+ ],
+ "photo": "photos/e22d4f5a660d51d5700b6c2761e92eeca09042d40c3838344cf17139397f26d1.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH",
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4461816",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

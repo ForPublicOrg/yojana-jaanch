@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-954be8279054",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Dhar Goan",
+  "Kabilpura",
+  "Kahta",
+  "Kharusa",
+  "Kukar Gaon"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 1648ce7b126f) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/1648ce7b126f7fbb42fa6056371c5b5f53f75f0662171427aacd1ecec002f287.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4985655",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

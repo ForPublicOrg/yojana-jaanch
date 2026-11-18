@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-759d8aaa1bac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Kanajenahalli",
+  "Peresandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6aa0477f63ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1)."
+ ],
+ "photo": "photos/6aa0477f63ea045fd9da3805b8c1dd4260d4b4ec7e77fbe176d8593381cbe866.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3077966",
+   "village": "Kanajenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-24",
+   "end_date": "2025-12-01",
+   "lat": 13.435059,
+   "lon": 77.705211,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3085009",
+   "village": "Peresandra",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-26",
+   "end_date": "2025-11-09",
+   "lat": 13.0,
+   "lon": 77.0,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

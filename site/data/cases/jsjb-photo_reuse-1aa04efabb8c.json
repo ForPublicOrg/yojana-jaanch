@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1aa04efabb8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Jhawa Tola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8525a343c617) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 9 minutes (2026-03-23 07:59:20 to 2026-03-23 08:07:35)."
+ ],
+ "photo": "photos/8525a343c617202bf39107afe078a3e8d8d25a0b1f40994234037894679ad5e9.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4121904",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

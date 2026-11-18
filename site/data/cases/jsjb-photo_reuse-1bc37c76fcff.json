@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1bc37c76fcff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Chhani Khas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 03bd278a40e4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (26.1059829, 79.3160072).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-21 17:10:40 to 2026-04-21 17:12:49)."
+ ],
+ "photo": "photos/03bd278a40e457f5dbb2db002285c7b7f285536e7981163c86ae8de53d9c488f.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5214014",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

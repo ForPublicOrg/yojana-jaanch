@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-60b23d1ea233",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Maluka"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4e2f25e4240) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.45, 75.083).",
+  "The photo was uploaded 4 times within 6 seconds (2026-04-18 09:57:12 to 2026-04-18 09:57:18)."
+ ],
+ "photo": "photos/d4e2f25e42400fc4d82fe4109ab5d67aaf5eaba55fedb759682a967cbe253859.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5064591",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

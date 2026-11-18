@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9e620bb17222",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Baronga Buland",
+  "Kapur Garh",
+  "Lallon Khurd"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint c13ae1a8d65e) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.56, 76.34)."
+ ],
+ "photo": "photos/c13ae1a8d65ebe95ee6430909915edf6bb94603b044ea5c2d92c5751e773ee80.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5478006",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

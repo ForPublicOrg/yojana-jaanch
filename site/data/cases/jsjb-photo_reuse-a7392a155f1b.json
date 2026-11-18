@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a7392a155f1b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Bhawanipur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 120188f799cb) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/120188f799cb7794e18a2d015e8062e8f1834986ca62c374fcba449eeb11db4f.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "5676014",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

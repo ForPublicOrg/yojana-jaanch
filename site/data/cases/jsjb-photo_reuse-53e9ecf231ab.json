@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-53e9ecf231ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Agatamdike",
+  "Pichalavaripalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 993ea1c55872) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/993ea1c55872b4a15bd71c88327b2e8e05c9e8f92efd02679aeb6cd1e99aab44.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3111140",
+   "village": "Pichalavaripalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-08",
+   "end_date": "2025-07-29",
+   "lat": 13.888485,
+   "lon": 77.869856,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3111271",
+   "village": "Pichalavaripalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-14",
+   "end_date": "2025-09-14",
+   "lat": 13.888489,
+   "lon": 77.86548,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "10852945",
+   "village": "Agatamdike",
+   "structure_type": "Contour Trench",
+   "created_by": "Executive Officer",
+   "start_date": "2025-07-01",
+   "end_date": "2025-09-11",
+   "lat": 13.786523,
+   "lon": 77.960616,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

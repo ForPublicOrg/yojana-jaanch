@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c9d03f8e105c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Mannayakanpatti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): b3ae51eed863 on 2 works, 34511c223bac on 1 work.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (3)."
+ ],
+ "photo": "photos/b3ae51eed8636cb08b532a5595b44720cdef42aff5b2b0a86798ffc67a08fc6b.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9906841",
@@ -43,5 +63,21 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "b3ae51eed8636cb08b532a5595b44720cdef42aff5b2b0a86798ffc67a08fc6b",
+   "records": 2
+  },
+  {
+   "sha256": "34511c223bacef2f86b9bfeaf8d9f49bb9a26b7466d9a1383c31130579f509d8",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-79f43c5ab805"
  ]
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2247c0154255",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Rasipuram (M) - Ward No.23",
+  "Rasipuram (M) - Ward No.24"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b7ac3549ff7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/3b7ac3549ff7b4cf6e1b0ec43f288be32a8b6e7351b80b282a6eadb87f80cfa2.jpg",
+ "offices": [
+  "COMMSIONEER - RASIPURAM"
+ ],
+ "records": [
+  {
+   "record_id": "7826492",
+   "village": "Rasipuram (M) - Ward No.23",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-09-22",
+   "end_date": "2026-03-25",
+   "lat": 11.270704,
+   "lon": 78.1714,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "8049416",
+   "village": "Rasipuram (M) - Ward No.24",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-09-10",
+   "end_date": "2026-02-10",
+   "lat": 11.270704,
+   "lon": 78.971405,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

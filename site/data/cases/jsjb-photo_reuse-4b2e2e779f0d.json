@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-4b2e2e779f0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Kasam Bhatti",
+  "Rameana",
+  "Ramgarh",
+  "Rori Kapura",
+  "Ukandwala"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 0f08ba24a44b) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Bench Terracing (5).",
+  "All 5 works report the same GPS point (30.41694384, 74.97725)."
+ ],
+ "photo": "photos/0f08ba24a44bb5bc0e1387bac3fceaba6c4b697764c99aa339644248b7862c0e.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "5632611",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

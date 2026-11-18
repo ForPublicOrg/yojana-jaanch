@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b84178d0be82",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Arniwala Shiekh Subhan",
+ "villages": [
+  "Koiel Khera",
+  "Mahuana Bodla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1468bb5e2406) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Khuian Sarwar."
+ ],
+ "photo": "photos/1468bb5e24065b257ebcf9db2081d50c6f4d234a43b58279996fb5f17b92e178.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981088",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Khuian Sarwar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

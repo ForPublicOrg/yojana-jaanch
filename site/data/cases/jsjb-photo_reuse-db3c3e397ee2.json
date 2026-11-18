@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-db3c3e397ee2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Dhandholi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2fe51b34db8e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.84, 75.5).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-25 17:49:11 to 2026-05-25 17:50:50)."
+ ],
+ "photo": "photos/2fe51b34db8e7d214fe8b822999fd10bccf2ffa2dc08497069731e9a7617c075.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1382164",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

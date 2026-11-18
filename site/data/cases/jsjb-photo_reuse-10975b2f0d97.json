@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-10975b2f0d97",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Atarsuma",
+  "Didee Khurd",
+  "Kot",
+  "Lahroli",
+  "Samanna",
+  "Sankari"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 8a1d8682ee38) is attached to 9 different works in 6 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Village Pond (9).",
+  "All 9 works report the same GPS point (26.0, 79.0).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/8a1d8682ee384084bbeffc62d1d1d0862e19e61c51e6883501463ea63ebfd5a3.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11540349",
@@ -127,5 +153,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 29,
+ "needs_human_review": false
 }

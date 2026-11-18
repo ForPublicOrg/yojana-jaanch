@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b4b71ca21041",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Darda Turki",
+  "Shrinagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 815ce03bab37) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.2636767, 75.766195)."
+ ],
+ "photo": "photos/815ce03bab370342c1255674d3e1b520b3d85667c822dca799e1de973d3e08c2.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3660492",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

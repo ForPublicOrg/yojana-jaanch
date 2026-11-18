@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9aa5468d5f47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Birampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33eaf47e9bb3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Soil Conservation officer Garhshankar."
+ ],
+ "photo": "photos/33eaf47e9bb3f12aee6f4ac0d2897db550b2541b1d024987b2592da103c1a40c.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Soil Conservation officer Garhshankar"
+ ],
  "records": [
   {
    "record_id": "5677900",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

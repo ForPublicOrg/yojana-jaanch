@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9ee2042e3e42",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Hameerpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e12bd2c53bd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (26.160843, 75.557613).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-28 07:59:49 to 2026-05-28 08:01:38)."
+ ],
+ "photo": "photos/5e12bd2c53bd2fa31252581f047219f10c979178f8f4c715df61defeeee4a94e.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "14072084",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

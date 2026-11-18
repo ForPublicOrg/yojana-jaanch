@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c1a259c986cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kumbhra"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint b18cd63e9621) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (4), Check Dam (1).",
+  "All 5 works report the same GPS point (30.62, 76.29).",
+  "The photo was uploaded 10 times within 10 minutes (2026-04-17 12:31:55 to 2026-04-17 12:41:25)."
+ ],
+ "photo": "photos/b18cd63e9621d99206c72d1a0fa2759dd44aaced1c4482cff74bc02645e6205d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5011163",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

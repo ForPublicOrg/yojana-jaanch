@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1ce4be230272",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Lalganj",
+ "villages": [
+  "Bardiha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 27abce28adcd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/27abce28adcdc30c132a92a061216c0b83716766d2bcb284d31f437e170f8064.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1260987",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Lalganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

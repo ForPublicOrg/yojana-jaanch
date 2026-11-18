@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-f1fc5d41cd80",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Bengahi",
+  "Bishunpur Basdeo Urf Bishunpur",
+  "Chakwa",
+  "Kodaria",
+  "Madhaulsani",
+  "Pitaunjia Gobind",
+  "Tekaur"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint fcbcf9eafeee) is attached to 12 different works in 7 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Nala Bund (8), Village Pond (4)."
+ ],
+ "photo": "photos/fcbcf9eafeeecf64c6095e5bbdaa2bb193ee96dbf3958d33886a0d5d825584d3.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4460565",
@@ -169,5 +193,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

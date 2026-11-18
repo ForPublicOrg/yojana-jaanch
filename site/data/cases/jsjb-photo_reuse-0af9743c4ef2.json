@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0af9743c4ef2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Bazindowal",
+  "Khalwara",
+  "Sri Hargobindgarh"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 547b25b9c16a) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/547b25b9c16ac5e6155832e2848a2fbd1184318fd1c6f0e2b431930afcc33ac3.jpg",
+ "offices": [
+  "SDO-Phagwara Drainage Sub Division-Phillaur"
+ ],
  "records": [
   {
    "record_id": "9329428",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

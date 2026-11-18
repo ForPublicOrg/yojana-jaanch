@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-60b9901407ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Madhurapur",
+  "Rampur Kanth"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9f5bdb30b8df) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 4 minutes (2026-04-02 13:17:55 to 2026-04-02 13:21:51)."
+ ],
+ "photo": "photos/9f5bdb30b8df18b82842cee957f2e7982fbb1a746abd78135e2dfa8fd5dcf42b.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4418785",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

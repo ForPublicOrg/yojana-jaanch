@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-f99261989c51",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Nallaguttapalli",
+  "Peddarajupalli",
+  "Somanathapura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 70bfd5025929) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (1), Percolation Pond (1), Tank (1)."
+ ],
+ "photo": "photos/70bfd50259296b049dbb9d092be17b66f7e4aba58631f60633f7cbbd5399b0ed.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3123139",
+   "village": "Peddarajupalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3152950",
+   "village": "Somanathapura",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-05",
+   "end_date": "2025-06-19",
+   "lat": 13.744632,
+   "lon": 78.053328,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3202415",
+   "village": "Nallaguttapalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-05",
+   "end_date": "2025-09-09",
+   "lat": 13.744632,
+   "lon": 78.007696,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

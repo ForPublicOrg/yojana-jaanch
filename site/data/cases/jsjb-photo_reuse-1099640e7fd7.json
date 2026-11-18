@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1099640e7fd7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhorahar Mal",
+  "Rukunpur Urf Patahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba21af8cf5c6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/ba21af8cf5c656d53e503a3c5d282aa5bac750965c90986ed735159dce5533e3.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4458290",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

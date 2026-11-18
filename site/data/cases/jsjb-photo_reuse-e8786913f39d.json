@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e8786913f39d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Kotla Bhari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f68e1f9b68dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 45 seconds (2026-02-04 14:13:58 to 2026-02-04 14:14:43)."
+ ],
+ "photo": "photos/f68e1f9b68dd715216028d684e55cc624ad50dc73072e20ad1c560cd0839b465.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046334",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

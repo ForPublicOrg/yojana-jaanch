@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-251fc25c116b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Chhana Gulab Singh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0c3e2a371a49) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/0c3e2a371a4975a8d1fd88a0bbe7cc11cefcad9f5747b9126044bafa309a2e3d.jpg",
+ "offices": [
+  "JE Amarpal Singh"
+ ],
  "records": [
   {
    "record_id": "15017201",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

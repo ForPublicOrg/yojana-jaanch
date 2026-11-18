@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9fa45a0e4fad",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Akhta (Part In Bairgania) *",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Akhta (Part In Bairgania) *"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Akhta (Part In Bairgania) * report exactly the same GPS point (26.6664477, 85.3012811).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (8).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4434387",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

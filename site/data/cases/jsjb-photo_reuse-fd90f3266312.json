@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fd90f3266312",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Bhulan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0a333f5e8b9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 4 times within 24 minutes (2026-05-29 10:22:44 to 2026-05-29 10:46:06)."
+ ],
+ "photo": "photos/f0a333f5e8b9bfbd1048479c31f4db52f4387fdbbbf612455d92c462e043af14.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "14734158",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

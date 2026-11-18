@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c5b9bb4dbb0c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Kiampura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 58428e397adb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.811728, 74.82703).",
+  "All 2 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-15 16:48:58 to 2026-05-15 16:50:00)."
+ ],
+ "photo": "photos/58428e397adb66aa7236d1cbbd156a477772c915a4f6c350d731c4c3ee4338ff.jpeg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "9428314",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

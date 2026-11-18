@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-55030fd1eef6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Mandolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c02a40571a28) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.192422, 75.328919)."
+ ],
+ "photo": "photos/c02a40571a28389a5be772008822c118a3764a6f5b27b31f462ba2624487ca81.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4035850",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

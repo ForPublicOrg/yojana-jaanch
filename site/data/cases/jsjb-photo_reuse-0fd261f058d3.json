@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0fd261f058d3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Balrampur",
+  "Cheema Kalan",
+  "Gande Ke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0913918a61f0) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (31.0, 75.0)."
+ ],
+ "photo": "photos/0913918a61f09ff544a586b8aabce4de163c8c3fc260a3f328d1298b278f78a5.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "1245664",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

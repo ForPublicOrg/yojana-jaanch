@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-58ff01c504d4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Ajaibwali",
+  "Bhangali",
+  "Kathu Nangal",
+  "Sham Nagar",
+  "Variyam Nangal"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint ffa5d3915c2e) is attached to 20 different works in 5 villages. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Other (20).",
+  "Each of the 20 works started and ended on a single day. The works are spread over 6 dates: 2025-06-12, 2025-06-13, 2025-06-14, 2025-06-15, 2025-06-16, 2025-07-02."
+ ],
+ "photo": "photos/ffa5d3915c2e4dc45c64287c95486174af44bb1f85bf12f72ea98d7f7b3225f5.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "8773263",
@@ -281,5 +304,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 61,
+ "needs_human_review": false
 }

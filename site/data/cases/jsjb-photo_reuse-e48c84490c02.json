@@ -1,0 +1,85 @@
+{
+ "id": "jsjb-photo_reuse-e48c84490c02",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Doddakondrahalli",
+  "Mohamadpura",
+  "Nandiganahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.008 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 63383ed9a721 on 2 works, 3bad4b5422a0 on 1 work.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/63383ed9a721c56f78571f82d28427550b6a0bac46d4b8d05f269583309cd2cf.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3094772",
+   "village": "Doddakondrahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-10-07",
+   "lat": 13.377195,
+   "lon": 77.99875,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3125264",
+   "village": "Mohamadpura",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-09-01",
+   "lat": 13.430484,
+   "lon": 78.011064,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3126438",
+   "village": "Nandiganahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-12",
+   "lat": 13.424455,
+   "lon": 78.16439,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "63383ed9a721c56f78571f82d28427550b6a0bac46d4b8d05f269583309cd2cf",
+   "records": 2
+  },
+  {
+   "sha256": "3bad4b5422a0a96a489d1dcb9de93498ffa60484cdd7e666a552879bab567d2e",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-abff2579557c"
+ ]
+}

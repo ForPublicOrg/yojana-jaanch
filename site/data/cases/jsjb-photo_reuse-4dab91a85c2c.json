@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4dab91a85c2c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Heir",
+  "Khiala Kalan",
+  "Kotli Amb"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 81d8c34b080a) is attached to 7 different works in 3 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Recharge Pit (6), Other (1).",
+  "These works are spread over 3 blocks: Ajnala, Attari, Chogawan."
+ ],
+ "photo": "photos/81d8c34b080a3c9f4b4837c9546f904ef6e022ec79014046de84d94daf91c47e.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "993847",
@@ -99,5 +120,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

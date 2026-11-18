@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7f8a2b7c5604",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Belauri",
+  "Bhai",
+  "Pachrasi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b15c34338883) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "These works are spread over 3 blocks: Arajiline, Baragaon, Pindra."
+ ],
+ "photo": "photos/b15c34338883cd7090b0e9d90f3dd6a38492cb7b15e36bc9726c09092a63aa97.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391892589",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1d739c151759",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Dhardeo",
+  "Padiana",
+  "Sathiala"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint 75734da1793c) is attached to 12 different works in 3 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Other (12)."
+ ],
+ "photo": "photos/75734da1793cfb511dd058634283a7530021a4950e14b2540c6b339004a37711.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "7695824",
@@ -169,5 +189,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

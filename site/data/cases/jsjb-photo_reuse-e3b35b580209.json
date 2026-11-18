@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-e3b35b580209",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Tho. Jadarpalayam"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ffdea087ba99) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.431313, 78.247323)."
+ ],
+ "photo": "photos/ffdea087ba9948836ada9dd48dc716a4b177232677571182c14d74db0363ffd9.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332574",
+   "village": "Tho. Jadarpalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2020-08-27",
+   "end_date": "2021-08-11",
+   "lat": 11.431313,
+   "lon": 78.247323,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9340730",
+   "village": "Tho. Jadarpalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2020-08-27",
+   "end_date": "2020-12-28",
+   "lat": 11.431313,
+   "lon": 78.247323,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9341029",
+   "village": "Tho. Jadarpalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-11-30",
+   "end_date": "2024-03-26",
+   "lat": 11.431313,
+   "lon": 78.247323,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

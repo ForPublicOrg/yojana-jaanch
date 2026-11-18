@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-01ea9a417949",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Dewa Khossa",
+  "Majri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 003d87404123) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/003d874041238d2900c88d2ad28d5aebc45bac32d5a6d4c3575a0946f0f77af8.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1331308",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

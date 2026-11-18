@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3780582633aa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Singrahia"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 299cbc918e5b) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Village Pond (6)."
+ ],
+ "photo": "photos/299cbc918e5b8ce08e93abee410cedcdf731f5e835f8247cb80fd420206018c3.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4476148",
@@ -85,5 +103,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

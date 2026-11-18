@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-91251ac2ab1b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Addagal",
+  "Agalagurki",
+  "Peresandra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6328294e4a57) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/6328294e4a57a2315864f317d1c07681ebec82803c2d0b9bd58c0ede32c972f3.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3083776",
+   "village": "Peresandra",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-30",
+   "end_date": "2025-11-09",
+   "lat": 13.0,
+   "lon": 77.0,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3085766",
+   "village": "Agalagurki",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-12-24",
+   "lat": 13.41248,
+   "lon": 77.740194,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3096507",
+   "village": "Addagal",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-14",
+   "end_date": "2025-11-11",
+   "lat": 13.58756,
+   "lon": 77.76585,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

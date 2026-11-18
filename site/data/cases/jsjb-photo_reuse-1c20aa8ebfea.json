@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-1c20aa8ebfea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Akhta (Part In Bairgania) *",
+  "Basant Khurd",
+  "Sonaul Khan",
+  "Supi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2ff6cbe3cdbf) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "All 4 works report the same GPS point (26.717277, 85.3476999)."
+ ],
+ "photo": "photos/2ff6cbe3cdbf7104ece0f64b8b48c219393577dd14ae3a794726d040624d9920.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "3794712",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

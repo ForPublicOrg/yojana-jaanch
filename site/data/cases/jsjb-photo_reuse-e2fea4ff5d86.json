@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-e2fea4ff5d86",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Halehalli",
+  "S.M.Kondarajanahalli",
+  "Thimmasandra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 363d7e42076d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Sub Surface Dyke (SSD) (3).",
+  "All 3 works report the same GPS point (13.62631, 77.99231)."
+ ],
+ "photo": "photos/363d7e42076d23c16a64b9c1048e745c90ad466e960f9e52466ec3b5351abb96.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092704",
+   "village": "Thimmasandra",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3092716",
+   "village": "S.M.Kondarajanahalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3094393",
+   "village": "Halehalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-08",
+   "end_date": "2025-09-23",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

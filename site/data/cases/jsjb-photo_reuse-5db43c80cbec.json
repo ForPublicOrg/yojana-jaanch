@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5db43c80cbec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Anaitpur",
+  "Badali Mai Ki",
+  "Hindu Pur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 0035da25adc8) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/0035da25adc8049112056e362c5af57120616c4960b025d0fcd8dc55d6be3c98.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5001510",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

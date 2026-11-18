@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d8b3d356dffc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Narang Shahpur",
+  "Narangpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4ab272bf8533) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/4ab272bf8533384214ade3ea82af646823d76baab31d541dd18cbf00aafbd245.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "1079702",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

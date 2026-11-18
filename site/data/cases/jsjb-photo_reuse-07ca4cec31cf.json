@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-07ca4cec31cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Rupauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e7ee62b3d19d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-04-05 17:22:42 to 2026-04-05 17:24:37)."
+ ],
+ "photo": "photos/e7ee62b3d19da0ad7e5bcdc78c42728c428025f830d2889565c9be83df18ff3d.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4501153",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-46f6fd97ad65",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Gopal Pura",
+  "Kantoli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 70ee93bd865f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/70ee93bd865f3f2874c6df9d8e7b842508c8691ece8d6fa436dc5431826dac0c.jpg",
+ "offices": [
+  "AEN, Watershed Department Deoli"
+ ],
  "records": [
   {
    "record_id": "3858968",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

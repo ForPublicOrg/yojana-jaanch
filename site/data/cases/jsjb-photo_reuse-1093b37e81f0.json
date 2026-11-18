@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1093b37e81f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Morang Urf Bazidpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5b7cc5a7a8a9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-09 14:39:35 to 2026-04-09 14:43:00)."
+ ],
+ "photo": "photos/5b7cc5a7a8a994dc78f00824d26394aadd6c956842e6ca6d635a4b4d52a868de.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4646250",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

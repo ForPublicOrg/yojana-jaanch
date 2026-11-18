@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2d2e8c77f1da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Jandey"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 51d631f35508) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.114329, 75.317729).",
+  "All 2 works started and ended on the same day (2026-05-12)."
+ ],
+ "photo": "photos/51d631f35508b104daedffb178e33524d9bed82a792bd5f9d761d50844113341.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8909761",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

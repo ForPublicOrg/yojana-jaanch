@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-48b601a605c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Khera Kalan",
+  "Kuthonda"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4ba936a4073e) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/4ba936a4073ef3197653df214311c436f16e2db09d028eac5e9080e27a335a79.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5145298",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

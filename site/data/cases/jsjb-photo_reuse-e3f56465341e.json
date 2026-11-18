@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e3f56465341e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Alluna Miana"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 054090c36bda) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/054090c36bda94ff59c208332fdd6980af48470baaf2fa9876accf182dc2a908.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "3753973",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

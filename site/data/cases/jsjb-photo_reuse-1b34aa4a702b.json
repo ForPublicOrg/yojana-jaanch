@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-1b34aa4a702b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Doddamaralli",
+  "Ethamakalahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7df91ec84070) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2)."
+ ],
+ "photo": "photos/7df91ec840701735c79461ca249eda6b7798303f9b23a1ae619691bc7cf62123.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3112714",
+   "village": "Doddamaralli",
+   "structure_type": "Bore-Well Recharge",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-10-30",
+   "lat": 13.311443,
+   "lon": 77.77445,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3140486",
+   "village": "Ethamakalahalli",
+   "structure_type": "Bore-Well Recharge",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-10-22",
+   "lat": 13.44099,
+   "lon": 77.991123,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

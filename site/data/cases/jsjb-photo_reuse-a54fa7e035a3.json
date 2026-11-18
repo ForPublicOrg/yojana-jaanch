@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a54fa7e035a3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Bachharpur",
+  "Dhobauli",
+  "Madanpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 69ca26949d4d) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Nala Bund (6).",
+  "The photo was uploaded 6 times within 21 minutes (2026-03-02 13:29:33 to 2026-03-02 13:50:26)."
+ ],
+ "photo": "photos/69ca26949d4d8d9eeffcf97655c950bacdc9acd266ef67d5281e9fdf4d96f595.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3741862",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6548e02a3cbd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Kot Kapura",
+ "villages": [
+  "Jalaliana",
+  "Jeonwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 59706d7277b3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 30 minutes (2026-01-13 12:37:35 to 2026-01-13 13:06:53)."
+ ],
+ "photo": "photos/59706d7277b3e19db7513d26767a60721f3371b9de423eb711c2a7eba6775c3d.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "1038546",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kot Kapura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

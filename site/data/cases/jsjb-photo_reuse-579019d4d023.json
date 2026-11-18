@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-579019d4d023",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Kotla Moosa"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint dfbdad0fbff1) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/dfbdad0fbff1d799b00f5cba8b724cbc157bb4caf064cd972257c8be8a79ad7a.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "10826139",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

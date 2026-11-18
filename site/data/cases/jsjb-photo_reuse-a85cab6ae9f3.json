@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a85cab6ae9f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Sanwariya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2965df116f55) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "All 2 works report the same GPS point (26.19, 75.28)."
+ ],
+ "photo": "photos/2965df116f5596916be1392614848b9789be0d3ce15f4ff9fd735a09c0ff54ae.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "1369905",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

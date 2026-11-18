@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6e46a387dd99",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Bokta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b8b2b03c4d13) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (26.6856472, 85.3630516).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-09 11:19:24 to 2026-04-09 11:24:22)."
+ ],
+ "photo": "photos/b8b2b03c4d13a0553c8432b7d3800b67e3c16ceb3785713757235dac23a3e5ea.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4632489",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

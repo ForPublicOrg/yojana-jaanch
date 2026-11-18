@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0aa50caa609e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Pindi Rangra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint be837b97b86e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.1363166, 75.3933627)."
+ ],
+ "photo": "photos/be837b97b86e86ae43d9280fa063f375e98ab52a313827c9ff052fd3ec7315ce.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7223912",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

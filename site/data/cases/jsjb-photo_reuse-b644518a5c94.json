@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b644518a5c94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Madaripur Sirimanpur",
+  "Madhopur Chaturi",
+  "Pachra Nimahi",
+  "Raghunathpur",
+  "Rasulpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint afad96396e99) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/afad96396e99f3bd395fdd8b16e1d49e164a1575f2cce79e2bf58222c9848145.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4475569",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-475467153722",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Tanda",
+ "villages": [
+  "Talla"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint cdb495ca8cff) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.7066, 75.5901).",
+  "The photo was uploaded 3 times within 16 minutes (2026-05-29 09:21:57 to 2026-05-29 09:37:22)."
+ ],
+ "photo": "photos/cdb495ca8cff08939df5a42acdf0f6f99bf762a4ee9222f2bf9c08e541bad44a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "14719238",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Tanda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

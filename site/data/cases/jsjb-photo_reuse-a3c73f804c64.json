@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a3c73f804c64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Chak Ruldu Singhwala",
+  "Kishanpura Urf Kutti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0723498b3b7a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.019615, 74.785999).",
+  "The photo was uploaded 4 times within 11 minutes (2026-04-10 14:09:53 to 2026-04-10 14:20:22)."
+ ],
+ "photo": "photos/0723498b3b7a89c2c7c105d0b598bfb430b52e3bb4395d4de9293a256cda2a64.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4114714",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

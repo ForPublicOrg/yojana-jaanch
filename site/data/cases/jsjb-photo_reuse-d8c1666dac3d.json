@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d8c1666dac3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 200 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Bhullar"
+ ],
+ "record_count": 200,
+ "reasons": [
+  "The same photo file (fingerprint c5110081f2a0) is attached to 200 different works in 1 village. A photo of one site cannot be evidence for 200 separate works.",
+  "The works are recorded as: Other (197), Contour Trench (3).",
+  "All 200 works report the same GPS point (31.44, 74.41)."
+ ],
+ "photo": "photos/c5110081f2a0b50444f5cf923028c77dcde21531f8e83fc29614932fb309b242.jpeg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "7095081",
@@ -2801,5 +2820,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 601,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-08536b4f687d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Arazi Mohanpur",
+  "Indarwa",
+  "Lachhmipur",
+  "Sihorwa"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 4fb6f245fba1) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/4fb6f245fba1d6dc6f870c65ab0b7b4fe1a25c3773912f1559c9c90ed78551f1.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4559975",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

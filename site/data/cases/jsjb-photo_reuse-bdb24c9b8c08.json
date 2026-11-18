@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bdb24c9b8c08",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Aragalur",
+  "Arathi Agraharam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c142ead31fc0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/c142ead31fc05f44592450a41604d678cd2e79be2d6aa77d25fc14966cec746d.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9357826",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

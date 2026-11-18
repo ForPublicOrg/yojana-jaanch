@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-738fe3441974",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Rasulpur Pitaunjia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9e1cbf98545c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 17 minutes (2026-03-25 00:32:40 to 2026-03-25 00:49:28)."
+ ],
+ "photo": "photos/9e1cbf98545c340443ca8a119beab4687493fbfab6207490b965a4f2a3101663.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4220526",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

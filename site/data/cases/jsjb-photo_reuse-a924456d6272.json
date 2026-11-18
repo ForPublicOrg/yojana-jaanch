@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a924456d6272",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mallasamudram",
+ "villages": [
+  "Mangalam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 769ee42d47b8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.499087, 78.009578)."
+ ],
+ "photo": "photos/769ee42d47b89092698f8606071fc2dc8a916c93eb288402e5f5dc08aa874ac6.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9282026",
+   "village": "Mangalam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-03",
+   "lat": 11.499087,
+   "lon": 78.009578,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "9340273",
+   "village": "Mangalam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-05",
+   "end_date": "2025-06-02",
+   "lat": 11.499087,
+   "lon": 78.009578,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mallasamudram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

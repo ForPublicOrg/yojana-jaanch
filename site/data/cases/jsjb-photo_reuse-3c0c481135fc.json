@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3c0c481135fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Gahlari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce6fb7fe760d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.130015, 75.339442).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-01 12:04:22 to 2026-05-01 12:09:50)."
+ ],
+ "photo": "photos/ce6fb7fe760def241aba4a8a4c8beece97ab4524b3f2cbfb45f3bc1c9c1c9ae5.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7161053",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

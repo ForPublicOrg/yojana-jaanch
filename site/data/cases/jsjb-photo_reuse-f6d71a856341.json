@@ -1,5 +1,45 @@
 {
  "id": "jsjb-photo_reuse-f6d71a856341",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 41 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Basantpura",
+  "Basian",
+  "Bhal Majra",
+  "Bir Bhamarsi",
+  "Dhianu Majra",
+  "Hargana",
+  "Hawara Kalan",
+  "Jalbehri Gehla",
+  "Kale Majra",
+  "Khoze Majra",
+  "Kotla Badla",
+  "Kotla Massod",
+  "Maneli",
+  "Nangal",
+  "Nanowal",
+  "Naraingarh",
+  "Pir Jain",
+  "Rampur",
+  "Randhawa",
+  "Sidhupur"
+ ],
+ "record_count": 41,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 41 different works in 20 villages. A photo of one site cannot be evidence for 41 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 19e2fe4fad5c on 40 works, 58e0f7526c61 on 1 work.",
+  "The works are recorded as: Contour Trench (41).",
+  "These works are spread over 3 blocks: Khamano, Khera, Sirhind."
+ ],
+ "photo": "photos/19e2fe4fad5c6fd466f3abd565ddab13d9548af0206768fad0aa63a68d3e35cc.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4960657",
@@ -575,5 +615,21 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 123,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "19e2fe4fad5c6fd466f3abd565ddab13d9548af0206768fad0aa63a68d3e35cc",
+   "records": 40
+  },
+  {
+   "sha256": "58e0f7526c612129993e52f859a7c60fbde0496190c80d0e3a7b8daad1beb709",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-1412d8dc00bd"
  ]
 }

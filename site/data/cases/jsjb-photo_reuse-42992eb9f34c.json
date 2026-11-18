@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-42992eb9f34c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Khemadei",
+  "Kuichawar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6ba1b7583799) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Recharge Shaft (1).",
+  "These works are spread over 2 blocks: Bhatpar Rani, Lar."
+ ],
+ "photo": "photos/6ba1b7583799e19a381505ee41246b3d9f6386fd96968589ddc6b610eaceeed3.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3029313",
+   "village": "Kuichawar",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2026-01-05",
+   "end_date": "2026-01-20",
+   "lat": 26.28725,
+   "lon": 84.03838,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "3239971",
+   "village": "Khemadei",
+   "structure_type": "Recharge Shaft",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-08",
+   "end_date": "2025-10-15",
+   "lat": 26.16085,
+   "lon": 83.98612,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Lar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

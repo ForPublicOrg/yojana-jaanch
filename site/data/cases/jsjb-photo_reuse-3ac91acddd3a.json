@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3ac91acddd3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Rampat Pakri"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 1ae1009e4aaf) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (8).",
+  "All 8 works report the same GPS point (26.765684, 85.4467444).",
+  "The photo was uploaded 16 times within 21 minutes (2026-03-22 20:39:05 to 2026-03-22 20:59:27)."
+ ],
+ "photo": "photos/1ae1009e4aaf2821872f280678aa67889f9264dd461d193c654936056b4b4400.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4117006",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

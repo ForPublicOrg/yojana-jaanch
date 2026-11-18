@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-e4f8b599d6ae",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "17 works at one GPS point in Maniana",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Maniana"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "17 works in Maniana report exactly the same GPS point (29.0, 75.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (17).",
+  "They carry 17 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "11010882",
@@ -239,5 +259,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

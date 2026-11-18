@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-735a718cc312",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Madhesra",
+  "Phulkaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 266dbb4ac637) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/266dbb4ac637c75531d9ae4937ee1487d50235d0a92b5bd60cd933212e1d4ba7.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4581419",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

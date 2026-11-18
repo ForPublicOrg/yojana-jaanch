@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ddac00445104",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Gauri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 283e65e60987) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 7 minutes (2026-04-02 14:04:16 to 2026-04-02 14:10:40)."
+ ],
+ "photo": "photos/283e65e609876031bd4c0f8aa604dbfe0cefd839300b8d094b115923555219e9.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4420982",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

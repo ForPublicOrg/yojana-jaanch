@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-60b3395075ba",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "49 works at one GPS point in Marakkottai",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Marakkottai"
+ ],
+ "record_count": 49,
+ "reasons": [
+  "49 works in Marakkottai report exactly the same GPS point (11.83, 78.01).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (34), Percolation Pond (15).",
+  "They carry 48 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346142",
@@ -687,5 +707,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 98,
+ "needs_human_review": false
 }

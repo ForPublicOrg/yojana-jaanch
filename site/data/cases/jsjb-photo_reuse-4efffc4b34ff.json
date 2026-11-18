@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-4efffc4b34ff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Kanhwa",
+  "Khuksi",
+  "Mahadeopatti",
+  "Phulhatha"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 31ea14459921 on 3 works, ca09f0d018e3 on 2 works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/31ea144599218595b283b8968a5a1f22aee5b11586e3a7c694295fb70f647f64.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4486268",
@@ -71,5 +94,21 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "31ea144599218595b283b8968a5a1f22aee5b11586e3a7c694295fb70f647f64",
+   "records": 3
+  },
+  {
+   "sha256": "ca09f0d018e304070b1617dc2cb1b9d721fde29c06f189a936a65447004f7612",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-b86e858b261a"
  ]
 }

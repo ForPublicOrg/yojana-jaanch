@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b2b89f3a6b8c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Khopa",
+  "Madhaulsani"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5145ebb844c1) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The photo was uploaded 6 times within 22 minutes (2026-04-09 10:53:50 to 2026-04-09 11:15:14)."
+ ],
+ "photo": "photos/5145ebb844c1ae327d9ad913ab442ecc702daa10aba2699bb4b939566c73515b.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4631131",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

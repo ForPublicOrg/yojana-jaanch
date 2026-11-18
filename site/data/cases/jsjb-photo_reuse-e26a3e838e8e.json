@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e26a3e838e8e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Muradpur"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 315404c9efc7) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Nala Bund (8).",
+  "The photo was uploaded 8 times within 27 minutes (2026-03-02 14:00:26 to 2026-03-02 14:26:42)."
+ ],
+ "photo": "photos/315404c9efc7723c1eec1dd88cd1fafbbdc8e143af9a5f4be214cc229099f4b7.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3742529",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

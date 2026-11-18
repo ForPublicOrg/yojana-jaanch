@@ -1,6 +1,56 @@
 {
  "id": "jsjb-upload_burst-00befda9ad03",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "12 photos uploaded in 10 minutes by DISTRICT COLLECTOR",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Ariyampatti",
+  "Kalparapatti (Ct)",
+  "Vanavasi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 different photos for 12 different works were uploaded by DISTRICT COLLECTOR within 10 minutes, from 2026-02-02 13:07:21 to 2026-02-02 13:17:16.",
+  "That is about one work every 50 seconds on average.",
+  "The works are in 3 villages: Ariyampatti, Kalparapatti (Ct), Vanavasi.",
+  "These works are spread over 3 blocks: Nangavalli, Taramangalam, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
+  {
+   "record_id": "9345932",
+   "village": "Kalparapatti (Ct)",
+   "structure_type": "Percolation Pond",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-08-03",
+   "end_date": "2025-06-01",
+   "lat": 11.60446,
+   "lon": 78.0362733,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "9345934",
+   "village": "Kalparapatti (Ct)",
+   "structure_type": "Percolation Pond",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-08-03",
+   "end_date": "2025-06-01",
+   "lat": 11.5838289,
+   "lon": 78.037533,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
   {
    "record_id": "9348193",
    "village": "Ariyampatti",
@@ -141,5 +191,8 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

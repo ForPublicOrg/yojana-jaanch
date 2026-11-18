@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-10bd049dba7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Puliyampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1969d253d6f4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.73127, 78.06754).",
+  "The photo was uploaded 4 times within 6 minutes (2025-07-15 12:46:15 to 2025-07-15 12:51:19)."
+ ],
+ "photo": "photos/1969d253d6f41349a3cea7aa03facdb1ecd1cc1beb7f41c85a0db3f9aa3a16b7.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9353205",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

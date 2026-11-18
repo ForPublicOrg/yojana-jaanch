@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8e12068e00a1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Kheri Bir Singh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 357916ccc643) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.7, 76.54).",
+  "The photo was uploaded 2 times within 53 seconds (2026-04-17 16:44:06 to 2026-04-17 16:44:59)."
+ ],
+ "photo": "photos/357916ccc6433a0a0e1771b8da2104be88719a3c85e9b59099284b48e78d27b2.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5043768",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

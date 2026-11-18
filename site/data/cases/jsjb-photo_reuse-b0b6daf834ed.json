@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b0b6daf834ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Kondayampalli",
+  "Krishnapuram",
+  "Pachamalai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ce3271f049a6) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.0, 78.0)."
+ ],
+ "photo": "photos/ce3271f049a68c4fbcb549bbed349eddf886f627050dda5c279125b195822e22.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344633",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

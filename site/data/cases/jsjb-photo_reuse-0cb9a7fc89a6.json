@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0cb9a7fc89a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Bhamabaddi"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint a4e7d4b41798) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (30.242575, 75.758132).",
+  "All 20 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/a4e7d4b417982f0097b1a39ec8b02ca9c248884a50c54eb36f1e57578987dc2f.jpeg",
+ "offices": [
+  "BDPO SUNAM II"
+ ],
  "records": [
   {
    "record_id": "11078744",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

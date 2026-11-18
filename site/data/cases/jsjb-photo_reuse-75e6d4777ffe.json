@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-75e6d4777ffe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Abbas Nagar Khas",
+  "Abbasnagar Chak No.-1"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0dd31ef600c6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-02-25 13:27:50 to 2026-02-25 13:34:03)."
+ ],
+ "photo": "photos/0dd31ef600c62eaf91a94591f667b12ad6f67d119fe5b0ad867f4dd1a8a283c8.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3653947",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

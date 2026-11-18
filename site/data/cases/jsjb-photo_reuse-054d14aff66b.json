@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-054d14aff66b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Jhanduke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2d0063576941) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (29.7472, 75.3392).",
+  "All 3 works started and ended on the same day (2026-05-27).",
+  "The photo was uploaded 6 times within 12 minutes (2026-05-31 09:41:10 to 2026-05-31 09:52:59)."
+ ],
+ "photo": "photos/2d00635769415698ea19d52e25f9e884b926661c1af5d1008973cb5fd8c83e58.jpg",
+ "offices": [
+  "GRS"
+ ],
  "records": [
   {
    "record_id": "15942601",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

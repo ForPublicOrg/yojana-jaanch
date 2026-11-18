@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b1c848c0a5a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Khera Dona"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint f7d2f5702940) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.302642, 75.316317).",
+  "All 5 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 10 times within 6 minutes (2026-05-12 15:24:45 to 2026-05-12 15:30:35)."
+ ],
+ "photo": "photos/f7d2f5702940ca367912cdefeaa55b6d36470e909eba0d693701c04b7613757b.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8709061",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

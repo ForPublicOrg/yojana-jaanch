@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3de1a50af9d7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Somanpatti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9a81ab121fec) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.6, 78.42)."
+ ],
+ "photo": "photos/9a81ab121fecebe54917d3e577a08fa74eb69bd92f5f34d94a91074015d398b2.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9348127",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e9a988efcbc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Kathor Urf Baikunthpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 24aebacb4640) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/24aebacb4640371206fcd92bf991f47dbd33e9ff3e232b94705152a6fc16273b.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "4022983",
@@ -85,5 +103,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

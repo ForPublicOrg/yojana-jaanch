@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f785baf3a3a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Brijlalpura",
+  "Gopalpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1adbe1827cf9) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 15 minutes (2026-03-06 15:11:16 to 2026-03-06 15:25:56)."
+ ],
+ "photo": "photos/1adbe1827cf95c305964d4ad166a5ca57b122488534b11e98fcbc8e90f9266e2.jpg",
+ "offices": [
+  "AEN, Watershed Department Deoli"
+ ],
  "records": [
   {
    "record_id": "3798266",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

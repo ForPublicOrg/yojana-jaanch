@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-8fbc4941a474",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "184 works at one GPS point in Soorappalli",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Soorappalli"
+ ],
+ "record_count": 184,
+ "reasons": [
+  "184 works in Soorappalli report exactly the same GPS point (11.0, 77.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (156), Percolation Pond (28).",
+  "They carry 184 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345485",
@@ -2577,5 +2597,8 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 368,
+ "needs_human_review": false
 }

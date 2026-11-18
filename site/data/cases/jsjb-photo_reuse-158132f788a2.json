@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-158132f788a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Tarkalua",
+ "villages": [
+  "Harpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 42fc34088682) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.643116, 83.867249).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-21 09:13:16 to 2026-03-21 09:17:08)."
+ ],
+ "photo": "photos/42fc34088682624495bc99b28b67e7b195b4c02f7a64c8f45d883e3092ebf4b1.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4087110",
+   "village": "Harpur",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-07-15",
+   "end_date": "2025-08-05",
+   "lat": 26.643116,
+   "lon": 83.867249,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Tarkalua"
+  },
+  {
+   "record_id": "4087141",
+   "village": "Harpur",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-07-15",
+   "end_date": "2025-08-05",
+   "lat": 26.643116,
+   "lon": 83.867249,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Tarkalua"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

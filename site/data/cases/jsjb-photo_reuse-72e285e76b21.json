@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-72e285e76b21",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Ahungi Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f26de1ae47c6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "All 2 works report the same GPS point (24.801205, 82.311395).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-19 15:11:29 to 2026-03-19 15:13:49)."
+ ],
+ "photo": "photos/f26de1ae47c6d7ce1c62b0889e8a20b9e5c3baaf18423c245ae97d338cefecff.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1035560",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

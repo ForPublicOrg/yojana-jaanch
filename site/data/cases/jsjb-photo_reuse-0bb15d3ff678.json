@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-0bb15d3ff678",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Dhunike",
+  "Faridkot",
+  "Ganga"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 580f8df5b161) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "The entries were made by 3 different offices: Computer Teacher, DFO, GRAM ROZGAR SEWAK.",
+  "These works are spread over 2 blocks: Goniana, Sangat."
+ ],
+ "photo": "photos/580f8df5b161e0bcf5549cf73ea09376b4d814593b7fb8e9e2e6c02d2a50ef32.jpg",
+ "offices": [
+  "Computer Teacher",
+  "DFO",
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "4389847",
@@ -43,5 +67,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

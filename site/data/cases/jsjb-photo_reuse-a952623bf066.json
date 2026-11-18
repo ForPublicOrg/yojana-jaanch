@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a952623bf066",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Dhani Bhaloth"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7755c5f264dc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-14 11:21:42 to 2026-03-14 11:25:26)."
+ ],
+ "photo": "photos/7755c5f264dcbd945993d44e7b6f882aac582562a2b597453e168832b68f65a4.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "3941776",
+   "village": "Dhani Bhaloth",
+   "structure_type": "Soak Pit",
+   "created_by": "Aen Buhana",
+   "start_date": "2026-03-10",
+   "end_date": "2026-03-10",
+   "lat": 28.173886,
+   "lon": 76.039646,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "3941848",
+   "village": "Dhani Bhaloth",
+   "structure_type": "Soak Pit",
+   "created_by": "Aen Buhana",
+   "start_date": "2026-03-09",
+   "end_date": "2026-03-10",
+   "lat": 28.176194,
+   "lon": 76.040623,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

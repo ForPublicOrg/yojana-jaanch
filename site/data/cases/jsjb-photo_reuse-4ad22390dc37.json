@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4ad22390dc37",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Bhopatpura",
+  "Bugala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8f7c455d8d1a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-03-25 15:11:11 to 2026-03-25 15:15:23)."
+ ],
+ "photo": "photos/8f7c455d8d1a37ded6bc62871decb612acb0bea7b5c12f888b2f8cf23dcff923.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4242604",
+   "village": "Bhopatpura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-04",
+   "end_date": "2025-09-10",
+   "lat": 27.8,
+   "lon": 75.378,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4242943",
+   "village": "Bugala",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-08",
+   "end_date": "2026-02-10",
+   "lat": 27.934,
+   "lon": 75.425,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

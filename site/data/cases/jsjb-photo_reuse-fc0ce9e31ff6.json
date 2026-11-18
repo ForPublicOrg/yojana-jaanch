@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fc0ce9e31ff6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Akbarpur",
+  "Kukar Gaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint de6e771f4ff6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 51 seconds (2026-09-09 13:50:22 to 2026-09-09 13:51:13).",
+  "These works are spread over 2 blocks: Dakore, Kadaura."
+ ],
+ "photo": "photos/de6e771f4ff60c7820bbdda5c540e3df64ae06a0e2b3614ec8dbbc06cb13382d.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4956296",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

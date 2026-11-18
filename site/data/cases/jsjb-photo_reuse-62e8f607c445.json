@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-62e8f607c445",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Alamarathupatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 46bdc4ee6f39) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (11.841855, 77.705165).",
+  "The photo was uploaded 2 times within 7 seconds (2026-05-08 13:34:25 to 2026-05-08 13:34:32)."
+ ],
+ "photo": "photos/46bdc4ee6f399d1c036c681d69c72f2af38fc4dcb055f242e701bbae9ff0bb20.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "7956027",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

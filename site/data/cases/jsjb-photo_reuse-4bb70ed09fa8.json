@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4bb70ed09fa8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Mohan Bhandari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b2756229faac) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-06-09, 2025-06-11.",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-25 14:09:56 to 2026-04-25 14:14:54)."
+ ],
+ "photo": "photos/b2756229faac4f21a8d3f311993b276c552d751521c1c1e44571c4adaba51ad1.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5496769",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

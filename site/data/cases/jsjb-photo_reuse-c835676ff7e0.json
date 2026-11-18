@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c835676ff7e0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Ghurghura Hanumannagar Urf Ghurghura Baluaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6b4479144c33) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-11-13 07:09:19 to 2026-11-13 07:10:36)."
+ ],
+ "photo": "photos/6b4479144c33e4d6b182e91618e0260177b0e4d416099440f5faed02f26f271c.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "3918170",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

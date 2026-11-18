@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-77eac9ef4b5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Bhaul Kalan",
+  "Mallowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ecc9507f0249) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 21 minutes (2026-02-13 20:14:11 to 2026-02-13 20:34:59)."
+ ],
+ "photo": "photos/ecc9507f024955330d1381336d350cb90b6ab8ab2f4507d8d418315bd1ecc69d.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1108126",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

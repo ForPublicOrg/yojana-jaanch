@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2edc3ff2bdbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Kurauti",
+  "Udaypur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d2b685ebca16) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Arajiline, Harahua."
+ ],
+ "photo": "photos/d2b685ebca1680d06ee313d4e0d563c38ed6385c88cbbfcf4672bbb7d1fa5bcb.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893143",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

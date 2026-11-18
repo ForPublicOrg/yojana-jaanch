@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ee017140b18a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Ahrolikali",
+  "Kanera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 730df388fa8f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/730df388fa8fb043c9829c873a67b632e4f152280ba181fb84115ade542364d5.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11158446",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

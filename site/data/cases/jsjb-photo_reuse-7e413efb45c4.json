@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7e413efb45c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Lahar",
+ "villages": [
+  "Chiruli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 85b31eeb7d13) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 29 minutes (2026-05-23 22:22:02 to 2026-05-23 22:50:39).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/85b31eeb7d13dd22b13126b11ac2a8754609b723a1983ce7bc04ab399fffa531.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11851097",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Lahar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-585ddd4562f9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Sarsai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b40881740b52) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (1), Tank (1), Village Pond (1).",
+  "All 3 works report the same GPS point (26.48, 79.05)."
+ ],
+ "photo": "photos/b40881740b521e996eefd776c2200aad220f9140d6fde3e7fea286a09c6a31bf.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12943011",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

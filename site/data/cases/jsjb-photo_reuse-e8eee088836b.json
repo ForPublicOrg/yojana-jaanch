@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-e8eee088836b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Atari",
+  "Babiha Bhai",
+  "Bhinder Kalan",
+  "Chheeda",
+  "Jeeta Singh Wala",
+  "Kotla Rai Ka",
+  "Smalsar",
+  "Thathi Bhai"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 3564e980ac48) is attached to 8 different works in 8 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8).",
+  "The entries were made by 2 different offices: PATWARI, ZILEDAR.",
+  "These works are spread over 2 blocks: Baghapurana, Kot-Ise-Khan."
+ ],
+ "photo": "photos/3564e980ac482b07a7f42f995f2cb8352186bf6a515562e1984eb2bde23a7052.jpg",
+ "offices": [
+  "PATWARI",
+  "ZILEDAR"
+ ],
  "records": [
   {
    "record_id": "977045",
@@ -113,5 +141,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

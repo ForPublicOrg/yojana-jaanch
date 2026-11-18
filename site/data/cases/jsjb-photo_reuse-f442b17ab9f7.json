@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-f442b17ab9f7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Narat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint af84d4a57620) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.247968, 75.895563).",
+  "All 2 works started and ended on the same day (2026-01-12).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-10 16:12:26 to 2026-03-10 16:15:34)."
+ ],
+ "photo": "photos/af84d4a5762099bf64b8536f0f9d91bbda0bab4ebf9fc8ed1585de294acaf2d9.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "3873478",
+   "village": "Narat",
+   "structure_type": "Soak Pit",
+   "created_by": "Aen Buhana",
+   "start_date": "2026-01-12",
+   "end_date": "2026-01-12",
+   "lat": 28.247968,
+   "lon": 75.895563,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "3873650",
+   "village": "Narat",
+   "structure_type": "Soak Pit",
+   "created_by": "Aen Buhana",
+   "start_date": "2026-01-12",
+   "end_date": "2026-01-12",
+   "lat": 28.247968,
+   "lon": 75.895563,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

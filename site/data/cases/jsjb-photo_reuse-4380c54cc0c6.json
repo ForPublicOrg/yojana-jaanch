@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4380c54cc0c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Kathmana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 99fbe5cac3b3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.441138, 75.62834)."
+ ],
+ "photo": "photos/99fbe5cac3b39f4867ede1d11903329f92326a59455ff95ba6de45643510fa3f.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "15068550",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

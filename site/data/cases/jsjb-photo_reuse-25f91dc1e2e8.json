@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-25f91dc1e2e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Viranampalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 068edd745219) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Gaibaion (1).",
+  "All 2 works report the same GPS point (11.129462, 77.988708)."
+ ],
+ "photo": "photos/068edd7452195cdbdc9ceaef14b6288f4e43e82cf90abd0d3aa03bd7df3f3eb5.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332600",
+   "village": "Viranampalayam",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-05-21",
+   "end_date": "2018-11-02",
+   "lat": 11.129462,
+   "lon": 77.988708,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "9386205",
+   "village": "Viranampalayam",
+   "structure_type": "Gaibaion",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-10",
+   "end_date": "2025-08-15",
+   "lat": 11.129462,
+   "lon": 77.988708,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

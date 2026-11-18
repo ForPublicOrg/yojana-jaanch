@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7013b01f3cf9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Goodamalai",
+  "Ulipuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 403094db72eb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.0, 78.0)."
+ ],
+ "photo": "photos/403094db72eb772c1d9b4d8318cd29c67dd041e8fc7417f33129e68b77a2f438.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344703",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

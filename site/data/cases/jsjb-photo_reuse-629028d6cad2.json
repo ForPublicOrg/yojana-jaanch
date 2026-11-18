@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-629028d6cad2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Dhaurhara"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint cfdac4013d73) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "All 5 works report the same GPS point (25.477388, 83.99732).",
+  "The photo was uploaded 10 times within 2 minutes (2026-01-31 12:09:30 to 2026-01-31 12:11:03)."
+ ],
+ "photo": "photos/cfdac4013d73b77b19f8f1a98bf5f8dc2ad74a7ce8737d7d89ce1f187f56965e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3366451",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

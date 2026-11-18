@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bc3c2f35c39b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Bath"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 66b28e67917a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (31.076891, 75.503918).",
+  "The entries were made by 2 different offices: BDPO Nakodar, Zilledar."
+ ],
+ "photo": "photos/66b28e67917a8daed963d0319eabc7a001c7a493bd495ae70c389b8a3e965bfd.jpg",
+ "offices": [
+  "BDPO Nakodar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "983168",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,31 @@
 {
  "id": "jsjb-upload_burst-3e5fcb1d2263",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "33 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Chinnanur",
+  "Kunnur",
+  "M.Palapatti",
+  "Mettupattithathanur",
+  "Samudram",
+  "Sandiyur Attayampatti",
+  "Semmanathan"
+ ],
+ "record_count": 33,
+ "reasons": [
+  "33 different photos for 33 different works were uploaded by Block Development Officer within 10 minutes, from 2025-06-27 17:00:32 to 2025-06-27 17:10:29.",
+  "That is about one work every 18 seconds on average.",
+  "The works are in 7 villages: Chinnanur, Kunnur, M.Palapatti, Mettupattithathanur, Samudram, Sandiyur Attayampatti, Semmanathan.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Konganapuram, Panamarathupatti, Peddanaickenpalayam, Yercaud."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346254",
@@ -44,6 +70,20 @@
    "block": "Ayodhiyapattinam"
   },
   {
+   "record_id": "9346258",
+   "village": "Semmanathan",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2024-12-18",
+   "end_date": "2025-03-19",
+   "lat": 11.897669,
+   "lon": 78.240694,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
    "record_id": "9351235",
    "village": "M.Palapatti",
    "structure_type": "Percolation Pond",
@@ -70,6 +110,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Konganapuram"
+  },
+  {
+   "record_id": "9351237",
+   "village": "Semmanathan",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2024-11-28",
+   "end_date": "2025-06-02",
+   "lat": 11.873757,
+   "lon": 78.226835,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
   },
   {
    "record_id": "9351238",
@@ -352,6 +406,20 @@
    "block": "Ayodhiyapattinam"
   },
   {
+   "record_id": "9351261",
+   "village": "Semmanathan",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2024-11-14",
+   "end_date": "2025-06-19",
+   "lat": 11.879002,
+   "lon": 78.245906,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
    "record_id": "9351262",
    "village": "Chinnanur",
    "structure_type": "Percolation Pond",
@@ -421,5 +489,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

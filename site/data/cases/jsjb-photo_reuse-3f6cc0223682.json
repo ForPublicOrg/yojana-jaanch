@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3f6cc0223682",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Harraichan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8b95475bf298) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/8b95475bf2984dac98dc4c4862f91da5a01926dc5317f705ec2b51ced0f6220c.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "3755238",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d537f06ae39f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Gaurwa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 20192c758dd8) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 19 minutes (2026-05-02 12:46:47 to 2026-05-02 13:05:15)."
+ ],
+ "photo": "photos/20192c758dd809c34f638d1979a10b9557f1580655884da8833ce669d9682982.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1286674",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

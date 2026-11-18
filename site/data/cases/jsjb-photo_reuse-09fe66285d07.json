@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-09fe66285d07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Aklia Kalan",
+  "Bhagi Bander"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4014ff827a91) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "The entries were made by 2 different offices: APO, DFO.",
+  "These works are spread over 2 blocks: Goniana, Talwandi Sabo."
+ ],
+ "photo": "photos/4014ff827a91c117b6aca3168460248008d07ec3cf485f16aee41c2225849755.jpg",
+ "offices": [
+  "APO",
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5183104",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

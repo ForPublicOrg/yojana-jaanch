@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ec1192c549fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Jhunir",
+ "villages": [
+  "Ghudu Wala"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 13eedf51b64f) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9).",
+  "All 9 works started and ended on the same day (2026-05-22)."
+ ],
+ "photo": "photos/13eedf51b64f61bba7377764e70fe459c95832206d9dd0bab66cca00f0656827.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "12057888",
@@ -127,5 +146,8 @@
    "area_type": "Rural",
    "block": "Jhunir"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

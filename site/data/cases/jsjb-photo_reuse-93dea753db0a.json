@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-93dea753db0a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Chigateegalagutta",
+  "Hosahudya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cc202216d766) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (13.708823, 78.255554)."
+ ],
+ "photo": "photos/cc202216d766bdd67ae3aab69f16096c140320a64237ad12e81cb81b7c04f6de.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3095910",
+   "village": "Chigateegalagutta",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-07",
+   "end_date": "2025-07-05",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3103456",
+   "village": "Hosahudya",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-08-08",
+   "lat": 13.708823,
+   "lon": 78.255554,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

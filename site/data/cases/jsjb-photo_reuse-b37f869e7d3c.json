@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b37f869e7d3c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Gundurnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 62fe739bd30b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (11.339323, 78.41887)."
+ ],
+ "photo": "photos/62fe739bd30b9b4ed6e7c1feb7f7bc6c2e8ba6136dfea96e0d113d2769ae0f04.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9115161",
+   "village": "Gundurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-06-01",
+   "end_date": "2025-07-23",
+   "lat": 11.339323,
+   "lon": 78.41887,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9338552",
+   "village": "Gundurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-17",
+   "end_date": "2025-05-10",
+   "lat": 11.339323,
+   "lon": 78.41887,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

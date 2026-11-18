@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-97909c728aa7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Lodhi Bholana"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 181cd84490e3) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.314106, 75.32981).",
+  "All 5 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 10 times within 8 minutes (2026-05-11 14:22:55 to 2026-05-11 14:30:04)."
+ ],
+ "photo": "photos/181cd84490e3064b16d117809c969be4d9df7344d5f6f6ec7fffc4b188dc769d.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8470569",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

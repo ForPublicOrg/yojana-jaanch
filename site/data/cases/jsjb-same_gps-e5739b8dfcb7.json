@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-e5739b8dfcb7",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Ahmedpur",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Ahmedpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Ahmedpur report exactly the same GPS point (30.58966, 75.78348).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10999718",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-52aa00a94233",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Kashi Vidyapeeth",
+ "villages": [
+  "Ghatmpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 85abce7b2a67) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.295619, 82.909796).",
+  "The photo was uploaded 4 times within 16 seconds (2026-02-01 12:51:42 to 2026-02-01 12:51:58)."
+ ],
+ "photo": "photos/85abce7b2a6730c46b1da82be36154176e64275059c1d68706d5a2633ec29781.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3375105",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kashi Vidyapeeth"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

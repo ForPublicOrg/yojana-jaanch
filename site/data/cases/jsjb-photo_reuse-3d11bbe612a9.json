@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3d11bbe612a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Khilchian"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1de410333bcd) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-11 08:41:15 to 2026-05-11 08:46:58)."
+ ],
+ "photo": "photos/1de410333bcd758a87be3075c9d06a1ea59ec29398b6b97c761ebf185f23f3d6.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "8377044",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-edf76f0c4266",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Chapra",
+  "Gutore"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 609d7cd48e2c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/609d7cd48e2c7ab2a41c9e6be2785a9149178ef8132c9b8a9a8f1be3afe46cd6.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11339651",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

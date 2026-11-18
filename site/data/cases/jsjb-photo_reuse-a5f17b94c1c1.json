@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a5f17b94c1c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Kot Kapura",
+ "villages": [
+  "Panjgrain Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 75c4abe2db08) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/75c4abe2db0804e3e189ecc7af0b5af05fa3c66234f932cada4856cc0e283c40.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "1039117",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Kot Kapura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

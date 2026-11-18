@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f1d557c65014",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sitamarhi",
+ "villages": [
+  "Sitamarhi (M) - Ward No.8"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0220e79c64a9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/0220e79c64a9bc0e6190185e5963cb94e3de64ab4ed5c7bd0534b7cf36ebabee.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "9000031",
@@ -29,5 +47,8 @@
    "area_type": "Urban",
    "block": "Sitamarhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

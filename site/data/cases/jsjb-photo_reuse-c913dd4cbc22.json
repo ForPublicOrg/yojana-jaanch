@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c913dd4cbc22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Rasulganj Urf Koili"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d9169388d69d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (26.4270106, 85.6452398).",
+  "The photo was uploaded 2 times within 6 minutes (2026-04-02 17:06:02 to 2026-04-02 17:11:50)."
+ ],
+ "photo": "photos/d9169388d69d5d9341e3def49ab574f7db7986188d4294b757182343e94617f1.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4431042",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

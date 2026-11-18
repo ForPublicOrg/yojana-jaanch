@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-9bcdf333adb0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bhambri",
+  "Bharri",
+  "Mahesh Pura",
+  "Manderan",
+  "Nangal",
+  "Panechan",
+  "Todar Pur"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 4d42fc5babd2) is attached to 7 different works in 7 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Contour Trench (6), Other (1)."
+ ],
+ "photo": "photos/4d42fc5babd2ee0f17b4e42a477797117ed8dec94c62bf84b320247ccc95f16c.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5636823",
@@ -99,5 +123,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

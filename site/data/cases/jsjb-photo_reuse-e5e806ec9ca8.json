@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e5e806ec9ca8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Chainpura",
+  "Parli",
+  "Tordi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9e63fae4132d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/9e63fae4132d93c9530a232d1d3c07055990903ee37a3a9db2153214fd4d43c9.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1406489",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

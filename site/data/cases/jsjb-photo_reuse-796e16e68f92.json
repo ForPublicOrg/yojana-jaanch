@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-796e16e68f92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Mahamadpur Urf Sherpur",
+  "Mirzapur",
+  "Moraul",
+  "Narha Kalyan",
+  "Narharpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint c1fed1f125be) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6).",
+  "The photo was uploaded 12 times within 27 minutes (2026-03-23 20:09:06 to 2026-03-23 20:35:57)."
+ ],
+ "photo": "photos/c1fed1f125be8330b9bbf0ea989cc607bf2a58c7f57bf4115722728ab29e5d77.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4166576",
@@ -85,5 +108,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

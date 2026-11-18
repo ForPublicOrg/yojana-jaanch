@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5b937fd5ebe1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Wazirpur Afganan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 928f0402580e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-29 13:02:48 to 2026-04-29 13:09:36)."
+ ],
+ "photo": "photos/928f0402580ebee1914ed761e1ed60fd131416c862c5a8ac8424cd024b67b97c.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "1082326",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

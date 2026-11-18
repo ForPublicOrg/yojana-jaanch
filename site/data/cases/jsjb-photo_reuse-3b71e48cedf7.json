@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3b71e48cedf7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Milkipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7bded7d165d6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.3042305, 82.7139138)."
+ ],
+ "photo": "photos/7bded7d165d6562c1fdca3a2583218f4e0ec8d4d2b8c17004c91b76277f40018.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391928434",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

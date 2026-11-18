@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bccd52306e49",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Mannayakanpatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bdc3b76a17b9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.67, 78.39)."
+ ],
+ "photo": "photos/bdc3b76a17b93f38bb173d313f9e0ba4a31f73f3b2abd9f7153ad965b203393e.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347573",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

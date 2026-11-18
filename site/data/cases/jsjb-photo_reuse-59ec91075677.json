@@ -1,5 +1,38 @@
 {
  "id": "jsjb-photo_reuse-59ec91075677",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2253 different works",
+ "state": "Punjab",
+ "district": "Ferozepur",
+ "block": "Makhu",
+ "villages": [
+  "Gurdittiwala",
+  "Hashmatwala",
+  "Jattanwali",
+  "Jhamke",
+  "Manochahal",
+  "Padhri (48/49)",
+  "Sadhara",
+  "Sirhali",
+  "Walayat Shahwala",
+  "Warpal"
+ ],
+ "record_count": 2253,
+ "reasons": [
+  "The same picture was saved as 4 different files and attached to 2253 different works in 10 villages. A photo of one site cannot be evidence for 2253 separate works.",
+  "The 4 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): abb49c3beca7 on 725 works, b2e71b22ef25 on 685 works, d21ef19ac7a2 on 662 works, 4b9ea1bd9e30 on 181 works.",
+  "The works are recorded as: Recharge Pit (2240), Other (11), Soak Pit (2).",
+  "The entries were made by 3 different offices: Clerk, Senior Assistant, Sub Divisional Officer.",
+  "These works are spread over 2 blocks: Makhu, Zira."
+ ],
+ "photo": "photos/abb49c3beca723031f12ff00d3e64cd436f4aea9ef8ad243f243219dc0c0319d.jpg",
+ "offices": [
+  "Clerk",
+  "Senior Assistant",
+  "Sub Divisional Officer"
+ ],
  "records": [
   {
    "record_id": "3788457",
@@ -31543,5 +31576,31 @@
    "area_type": "Rural",
    "block": "Makhu"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6760,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "abb49c3beca723031f12ff00d3e64cd436f4aea9ef8ad243f243219dc0c0319d",
+   "records": 725
+  },
+  {
+   "sha256": "b2e71b22ef2548cc0c38e26ced6a4e455fb8f52be6a1af64702e937570518593",
+   "records": 685
+  },
+  {
+   "sha256": "d21ef19ac7a23effc705d278fab74377537d4137fd1ec73a6dc5169ad4e315a1",
+   "records": 662
+  },
+  {
+   "sha256": "4b9ea1bd9e30a873c07bef16fa0f78ebe40e571a048bfda83296dc3162b329af",
+   "records": 181
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-2d6a3a029d67",
+  "jsjb-photo_reuse-95d49c9c150d",
+  "jsjb-photo_reuse-621288f21ecf"
  ]
 }

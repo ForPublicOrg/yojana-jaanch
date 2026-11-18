@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-a355df3de878",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "15 works at one GPS point in Kurumbapatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Kurumbapatti"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "15 works in Kurumbapatti report exactly the same GPS point (11.58, 77.87).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (14), Other (1).",
+  "They carry 15 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346043",
@@ -211,5 +232,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4663dab751c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Gharaili"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 90691e2ebfa1) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Bore-Well Recharge (1).",
+  "All 3 works report the same GPS point (30.28052, 75.355826)."
+ ],
+ "photo": "photos/90691e2ebfa13ab3d3be603661ec1f0dd6892f3ff8bb02a981475a874f9b1f51.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1048107",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

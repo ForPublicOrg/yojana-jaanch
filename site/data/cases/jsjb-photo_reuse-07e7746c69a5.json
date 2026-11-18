@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-07e7746c69a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Chak Gujran"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 447a4c3e840b) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "All 8 works report the same GPS point (31.6402424, 75.8962768)."
+ ],
+ "photo": "photos/447a4c3e840b374b0682de0455f5f4526393820872e206a84863ce68b8607d1b.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "5403601",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

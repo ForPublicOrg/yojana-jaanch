@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0bd58ca07eee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Sandhar Jagir"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint e60283d1a7df) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (31.323351, 75.277395).",
+  "All 6 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 12 times within 6 minutes (2026-05-12 15:43:34 to 2026-05-12 15:48:59)."
+ ],
+ "photo": "photos/e60283d1a7dff89cadb4d81241f2507cdbcae355cd7e998b729b7ec3a4ef20f5.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8713917",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-475357c71cb4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Wazidpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 06a2bcd6abcf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 34 seconds (2026-03-01 13:32:52 to 2026-03-01 13:33:26)."
+ ],
+ "photo": "photos/06a2bcd6abcf20ccf70159084a5be5ff57aad7c717d5993cfdeba16f833f6758.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1039193",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

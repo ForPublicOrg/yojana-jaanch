@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-38c7412589d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Mundh",
+  "Muse Wal",
+  "Raibwal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 63ed0870d92e) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 27 minutes (2026-04-05 12:12:26 to 2026-04-05 12:38:51)."
+ ],
+ "photo": "photos/63ed0870d92efc9afe27d6bb4f47a977b324582660de5d3f2c8ce03966c8ccf3.jpg",
+ "offices": [
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "983931",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

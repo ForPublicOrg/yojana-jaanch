@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-bfc49e2e9f26",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 7 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Alampur",
+  "Badwala"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 7 different works in 2 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 56ed0b64b6b3 on 5 works, b3d6b669bfb4 on 2 works.",
+  "The works are recorded as: Contour Trench (6), Village Pond (1)."
+ ],
+ "photo": "photos/56ed0b64b6b3091e3f5d425f72563ee4bbc7be118815eb2bf35a58fe65c893f8.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4933038",
@@ -99,5 +120,21 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "56ed0b64b6b3091e3f5d425f72563ee4bbc7be118815eb2bf35a58fe65c893f8",
+   "records": 5
+  },
+  {
+   "sha256": "b3d6b669bfb4a09c4ad5befd2d7e4ba525dc254b90d1d0ba13ef2a39c8c6c776",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-a52dbe8ff5a2"
  ]
 }

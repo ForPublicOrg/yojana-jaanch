@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7ebb26346171",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Chokkanahalli",
+  "Doddabandaragatta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb4bcdaf2ed5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Tank (1).",
+  "The photo was uploaded 4 times within 26 minutes (2025-12-17 10:41:32 to 2025-12-17 11:07:19)."
+ ],
+ "photo": "photos/bb4bcdaf2ed56cae7573ddbb9c448b0626cf30d9cf3557deff0d835e6ffc3beb.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3093652",
+   "village": "Doddabandaragatta",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-30",
+   "lat": 13.265,
+   "lon": 77.5636,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3093697",
+   "village": "Chokkanahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-30",
+   "lat": 13.3652,
+   "lon": 77.6325,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

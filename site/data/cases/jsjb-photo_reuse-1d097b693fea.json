@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1d097b693fea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Bahmani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 513bf9d3aead) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.148931, 75.382331)."
+ ],
+ "photo": "photos/513bf9d3aead8f62c7ceeaae1cb1b4d3e4bd10c1c596899b6fc89d0dd558c571.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7222502",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

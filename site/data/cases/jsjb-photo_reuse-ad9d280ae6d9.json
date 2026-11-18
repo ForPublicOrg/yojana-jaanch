@@ -1,0 +1,85 @@
+{
+ "id": "jsjb-photo_reuse-ad9d280ae6d9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Desai Deoria",
+ "villages": [
+  "Chakbandi Urf Ghataila Gazi",
+  "Chriaw Buzurg",
+  "Mahwa"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 443b520dd4b0) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Tank (2), Other (1), Recharge Pit (1).",
+  "These works are spread over 3 blocks: Deoria Sadar, Desai Deoria, Gauri Bazar."
+ ],
+ "photo": "photos/443b520dd4b08aa9433fdd09c66d772ca865f7ae3aeb5f8fbebdc0a366b8a302.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "2919515",
+   "village": "Mahwa",
+   "structure_type": "Other",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-07-05",
+   "end_date": "2025-07-15",
+   "lat": 26.653545,
+   "lon": 83.786323,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Desai Deoria"
+  },
+  {
+   "record_id": "3243898",
+   "village": "Chakbandi Urf Ghataila Gazi",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-07",
+   "end_date": "2025-10-14",
+   "lat": 26.48599,
+   "lon": 83.8196,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Deoria Sadar"
+  },
+  {
+   "record_id": "3923366",
+   "village": "Mahwa",
+   "structure_type": "Tank",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-27",
+   "end_date": "2025-12-05",
+   "lat": 26.654,
+   "lon": 83.7898,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Desai Deoria"
+  },
+  {
+   "record_id": "3962392",
+   "village": "Chriaw Buzurg",
+   "structure_type": "Tank",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-23",
+   "end_date": "2025-11-26",
+   "lat": 26.64435,
+   "lon": 83.699295,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Gauri Bazar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

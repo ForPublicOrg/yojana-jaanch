@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-95ad95d76a38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengode",
+ "villages": [
+  "Tiruchengode (M) - Ward No.10",
+  "Tiruchengode (M) - Ward No.7"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fa8e1314db9d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.381, 77.891)."
+ ],
+ "photo": "photos/fa8e1314db9d7ce8fdeaa94a17ba6b1ce5112886d4664fcbd52ce68ecf306929.jpg",
+ "offices": [
+  "COMMSIONEER TIRUCHENGODE"
+ ],
+ "records": [
+  {
+   "record_id": "9782100",
+   "village": "Tiruchengode (M) - Ward No.10",
+   "structure_type": "Other",
+   "created_by": "COMMSIONEER TIRUCHENGODE",
+   "start_date": "2024-08-09",
+   "end_date": "2024-11-02",
+   "lat": 11.381,
+   "lon": 77.891,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Tiruchengode"
+  },
+  {
+   "record_id": "9907398",
+   "village": "Tiruchengode (M) - Ward No.7",
+   "structure_type": "Other",
+   "created_by": "COMMSIONEER TIRUCHENGODE",
+   "start_date": "2024-05-27",
+   "end_date": "2024-08-28",
+   "lat": 11.381,
+   "lon": 77.891,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Tiruchengode"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

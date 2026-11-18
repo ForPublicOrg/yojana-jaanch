@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-f6aea2fbf654",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Kishanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ebf2ee576f52) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/ebf2ee576f5230278c946b6bdc4ad83ed9a13fdcf1694885db57c0f479578212.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1049225",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

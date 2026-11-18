@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ec1be76d399d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Parewar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7c32f9937f63) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (2).",
+  "The photo was uploaded 2 times within 4 minutes (2025-12-22 16:21:21 to 2025-12-22 16:24:53)."
+ ],
+ "photo": "photos/7c32f9937f63e2f91b395bb471d1b7a4117e23a1f90a5f4563b3a87ee17fc9ce.jpg",
+ "offices": [
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3137968",
+   "village": "Parewar",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2025-09-05",
+   "end_date": "2025-10-23",
+   "lat": 27.2631379,
+   "lon": 70.738963,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "3138054",
+   "village": "Parewar",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2025-09-12",
+   "end_date": "2025-10-17",
+   "lat": 27.2655377,
+   "lon": 70.743423,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

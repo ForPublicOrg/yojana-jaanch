@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f892e7061899",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Koneripatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 93c3b63839f1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 2 minutes (2026-01-23 15:21:07 to 2026-01-23 15:22:17)."
+ ],
+ "photo": "photos/93c3b63839f16971d750d484a2b8226d792186f9979d70cd93a877ff55afde41.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9339818",
+   "village": "Koneripatti",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.455508,
+   "lon": 78.204608,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9339819",
+   "village": "Koneripatti",
+   "structure_type": "Percolation Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.455792,
+   "lon": 78.202903,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

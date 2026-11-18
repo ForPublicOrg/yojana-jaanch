@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f1857e69cc0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Kurumbapatti"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 3b7a4cdc8428) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Percolation Pond (4).",
+  "All 4 works report the same GPS point (11.58, 77.87)."
+ ],
+ "photo": "photos/3b7a4cdc8428079d1ec137d8145fed79cc3a1a593c59797d2aa776399480501f.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9351119",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

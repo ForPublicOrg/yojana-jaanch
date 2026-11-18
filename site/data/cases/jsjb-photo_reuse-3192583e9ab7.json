@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-3192583e9ab7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Ethamakalahalli",
+  "Gangrekaluve",
+  "Yaluvahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 144038f47664) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Shaft (1)."
+ ],
+ "photo": "photos/144038f47664a88b8d1d710f4cb96cdd44c84b16a9f23a543beadf994b15aa17.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3100679",
+   "village": "Ethamakalahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-12-30",
+   "lat": 13.23407,
+   "lon": 77.23409,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3105503",
+   "village": "Yaluvahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-12-31",
+   "lat": 13.44231,
+   "lon": 77.55612,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3109846",
+   "village": "Gangrekaluve",
+   "structure_type": "Recharge Shaft",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-23",
+   "end_date": "2025-11-28",
+   "lat": 13.888458,
+   "lon": 77.856312,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8093b947a734",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Mansa",
+ "villages": [
+  "Autan Wali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 66267b1252da) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (29.9629, 75.2831).",
+  "All 3 works started and ended on the same day (2026-05-21).",
+  "The photo was uploaded 6 times within 25 minutes (2026-05-27 08:43:46 to 2026-05-27 09:08:29)."
+ ],
+ "photo": "photos/66267b1252da7218f224b83c26b9dec49b00aca3e99ec930d91ccd2d103e275d.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "13393107",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Mansa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

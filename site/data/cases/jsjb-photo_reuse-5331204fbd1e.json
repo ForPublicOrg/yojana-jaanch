@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-5331204fbd1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Harnam Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ef12a5fc733d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works started and ended on the same day (2026-03-13).",
+  "The photo was uploaded 2 times within 7 minutes (2026-03-14 20:40:39 to 2026-03-14 20:47:36).",
+  "The entries were made by 2 different offices: Head Mistress, ZILEDAR PHUL."
+ ],
+ "photo": "photos/ef12a5fc733d2f17039cdf0898985adc070a50a2aed7499456551cc93af260c3.jpg",
+ "offices": [
+  "Head Mistress",
+  "ZILEDAR PHUL"
+ ],
  "records": [
   {
    "record_id": "988892",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

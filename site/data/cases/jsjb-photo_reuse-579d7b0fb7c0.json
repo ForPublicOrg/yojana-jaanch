@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-579d7b0fb7c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Dondari",
+  "Goram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 597afc4d1fd6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/597afc4d1fd6138a96c4c77ceb8de60179ecb3a81150c97b4fde4e357a0ad386.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "13040872",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

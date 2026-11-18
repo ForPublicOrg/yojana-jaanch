@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-1a124312e6a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Kanajenahalli",
+  "Peresandra"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 0965f573ae75) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (2), Other (2)."
+ ],
+ "photo": "photos/0965f573ae7545836ba5191230eee1548b2d593965e4eae72f10464d93367dd6.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3078042",
+   "village": "Kanajenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-30",
+   "end_date": "2025-12-02",
+   "lat": 13.435059,
+   "lon": 77.705211,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3078107",
+   "village": "Peresandra",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-20",
+   "lat": 13.58560713,
+   "lon": 77.792907,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3085043",
+   "village": "Peresandra",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-30",
+   "end_date": "2025-11-09",
+   "lat": 13.0,
+   "lon": 77.0,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3085094",
+   "village": "Peresandra",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-30",
+   "end_date": "2025-12-18",
+   "lat": 13.0,
+   "lon": 77.0,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

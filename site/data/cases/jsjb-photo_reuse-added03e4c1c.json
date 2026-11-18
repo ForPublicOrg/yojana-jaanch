@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-added03e4c1c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 10 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Akhta (Part In Suppi) *",
+  "Belganj",
+  "Bhataulia",
+  "Mohni Madol",
+  "Pachtaki Jadu",
+  "Parsauni",
+  "Patahi"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 10 different works in 7 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.013 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): f666127458f7 on 6 works, 2e10942730ef on 4 works.",
+  "The works are recorded as: Other (9), Bore-Well Recharge (1).",
+  "These works are spread over 2 blocks: Bairgania, Suppi."
+ ],
+ "photo": "photos/f666127458f7476f219bf969af9b909e4c46ed9be0383acdf7c7ff7bbec8adf3.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "943751",
@@ -141,5 +168,21 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "f666127458f7476f219bf969af9b909e4c46ed9be0383acdf7c7ff7bbec8adf3",
+   "records": 6
+  },
+  {
+   "sha256": "2e10942730efcb6c67db2bd3f1d9d7365ed2a71c4cf8365271d5b8a0ac68a2db",
+   "records": 4
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-8a26059a8e03"
  ]
 }

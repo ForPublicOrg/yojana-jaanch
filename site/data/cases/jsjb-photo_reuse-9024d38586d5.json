@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9024d38586d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Bibolao"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c202dd61fa74) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-09 17:43:11 to 2026-03-09 17:44:54)."
+ ],
+ "photo": "photos/c202dd61fa74645d5daba857ca3ce35bc576fb965f89e220ec283b462168b177.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "3851888",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

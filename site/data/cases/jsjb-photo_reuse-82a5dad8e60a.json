@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-82a5dad8e60a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Sarkhandio Bitha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70c56d32f953) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.599354, 85.763231)."
+ ],
+ "photo": "photos/70c56d32f9534b0375190a0d3f769d63eddc78cca3ff2347d224b1e84d191f26.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4471861",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-df05f40038f0",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "13 works at one GPS point in Dasinayakkanpatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Dasinayakkanpatti"
+ ],
+ "record_count": 13,
+ "reasons": [
+  "13 works in Dasinayakkanpatti report exactly the same GPS point (11.7, 78.23).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (13).",
+  "They carry 13 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345983",
@@ -183,5 +203,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

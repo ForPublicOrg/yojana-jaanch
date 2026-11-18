@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1a5071ae163d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Barahi Chintaman",
+  "Kothia Rae"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7469b2a41a06) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-09 11:31:42 to 2026-04-09 11:37:50)."
+ ],
+ "photo": "photos/7469b2a41a0686e52f3c7301ed250d022f8e3bed3649e8d93afcb07eb7dc8a75.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4633144",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

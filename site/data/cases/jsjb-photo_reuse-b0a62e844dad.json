@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b0a62e844dad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Badhu Wal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d3ea5d19d8d4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.014173, 75.294757).",
+  "All 2 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-16 20:26:40 to 2026-05-16 20:28:18)."
+ ],
+ "photo": "photos/d3ea5d19d8d4ce7e011234d59c5eb9e2a652d58984b582159fd5fa741e8cd148.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "9684066",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-806bdb5f641f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mukerian",
+ "villages": [
+  "Chhant",
+  "Musahib Par"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 63d382b13e15) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The photo was uploaded 2 times within 25 minutes (2026-01-19 20:45:53 to 2026-01-19 21:10:46)."
+ ],
+ "photo": "photos/63d382b13e156b3c200a05b628e07214ef008bde6c9481aaedef35ac75bd8395.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "994162",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mukerian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

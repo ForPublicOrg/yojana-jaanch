@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b290f5633382",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Wachhoa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd72a860b27d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works started and ended on the same day (2026-05-06).",
+  "The photo was uploaded 2 times within 4 minutes (2026-05-06 12:59:44 to 2026-05-06 13:03:00).",
+  "The entries were made by 2 different offices: DFO office, sco soil conservation."
+ ],
+ "photo": "photos/fd72a860b27dd41046d46547e60ed16195e8faaeeb28bc217d5739c28f0ef81e.jpg",
+ "offices": [
+  "DFO office",
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "7569747",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,0 +1,72 @@
+{
+ "id": "jsjb-photo_reuse-e6f70956bf43",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pattanam",
+ "villages": [
+  "Pattinam (TP) - Ward No.13",
+  "Pattinam (TP) - Ward No.6"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9a5467da30c2) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1).",
+  "All 3 works report the same GPS point (11.46441, 78.21119).",
+  "The entries were made by 2 different offices: EO PATTANAM, ULB."
+ ],
+ "photo": "photos/9a5467da30c266bc541906cd78dc71f2615bab767758366354137b8bba4393f5.jpg",
+ "offices": [
+  "EO PATTANAM",
+  "ULB"
+ ],
+ "records": [
+  {
+   "record_id": "3497004",
+   "village": "Pattinam (TP) - Ward No.6",
+   "structure_type": "Recharge Pit",
+   "created_by": "ULB",
+   "start_date": "2026-01-02",
+   "end_date": "2026-02-10",
+   "lat": 11.46441,
+   "lon": 78.21119,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3497417",
+   "village": "Pattinam (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2026-02-02",
+   "end_date": "2026-02-07",
+   "lat": 11.46441,
+   "lon": 78.21119,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3497480",
+   "village": "Pattinam (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.46441,
+   "lon": 78.21119,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

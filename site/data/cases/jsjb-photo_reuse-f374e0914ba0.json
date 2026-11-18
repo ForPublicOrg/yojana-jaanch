@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f374e0914ba0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Hirauli",
+  "Parsauni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7ddb83f5f9f2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-02-09 15:48:46 to 2026-02-09 15:51:08)."
+ ],
+ "photo": "photos/7ddb83f5f9f2cc4c9c1a60551b86185cb54a5c02108832ac471fe88374886d58.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "79094769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

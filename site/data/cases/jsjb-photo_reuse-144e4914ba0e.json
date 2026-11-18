@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-144e4914ba0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pillanallur",
+ "villages": [
+  "Pillanallur (TP) - Ward No.12",
+  "Pillanallur (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 222703c0c57c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/222703c0c57c1d4bb27f0c73d32e7fe6f6f46f4c0cf9308b8aee7fa87f3d8f0c.jpg",
+ "offices": [
+  "EO PILLANALLUR"
+ ],
+ "records": [
+  {
+   "record_id": "3383072",
+   "village": "Pillanallur (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO PILLANALLUR",
+   "start_date": "2025-12-30",
+   "end_date": "2026-01-10",
+   "lat": 11.432127,
+   "lon": 78.13227,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pillanallur"
+  },
+  {
+   "record_id": "3813876",
+   "village": "Pillanallur (TP) - Ward No.12",
+   "structure_type": "Other",
+   "created_by": "EO PILLANALLUR",
+   "start_date": "2026-01-08",
+   "end_date": "2026-02-03",
+   "lat": 11.425785,
+   "lon": 78.135928,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pillanallur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

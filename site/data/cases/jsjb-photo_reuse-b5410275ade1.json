@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b5410275ade1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Komarapalayam",
+ "villages": [
+  "Kumarapalayam (M) - Ward No.11",
+  "Kumarapalayam (M) - Ward No.14"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba6c1cf47693) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/ba6c1cf476930dcb8eadcda16ed6edb86d98f013eb52d0000b251153fdf708a0.jpg",
+ "offices": [
+  "COMMISSIONER - KUMARAPALAYAM"
+ ],
+ "records": [
+  {
+   "record_id": "3439242",
+   "village": "Kumarapalayam (M) - Ward No.11",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMISSIONER - KUMARAPALAYAM",
+   "start_date": "2026-01-13",
+   "end_date": "2026-01-31",
+   "lat": 11.445004,
+   "lon": 77.701969,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Komarapalayam"
+  },
+  {
+   "record_id": "3742776",
+   "village": "Kumarapalayam (M) - Ward No.14",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMISSIONER - KUMARAPALAYAM",
+   "start_date": "2026-02-16",
+   "end_date": "2026-02-28",
+   "lat": 11.445,
+   "lon": 77.701,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Komarapalayam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

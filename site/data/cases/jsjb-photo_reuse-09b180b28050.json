@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-09b180b28050",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Bishnandi",
+  "Rameana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0b8036fc7e67) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/0b8036fc7e67feb7b364b56997cc65fec3a869df01c28e2d7c19017999f26a2c.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "1039352",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

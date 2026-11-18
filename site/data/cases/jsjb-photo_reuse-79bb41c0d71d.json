@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-79bb41c0d71d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Deorawas",
+  "Devikhera",
+  "Ganeshpura Banjaran"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint a5a11727095a) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The entries were made by 2 different offices: BDO, JEN Panchayat Raj Malpura.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/a5a11727095a938d42b33650076465c20104f39b706508166abe855d2be29196.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura"
+ ],
  "records": [
   {
    "record_id": "3558702",
@@ -57,5 +80,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

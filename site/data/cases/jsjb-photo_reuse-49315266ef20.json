@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-49315266ef20",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Chotian"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 9d91b88e478b) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-21.",
+  "The entries were made by 2 different offices: GRS, JE."
+ ],
+ "photo": "photos/9d91b88e478b088e27c9519a4b834cdbaa07ea3c3975e5771f614f72deb2e11e.jpg",
+ "offices": [
+  "GRS",
+  "JE"
+ ],
  "records": [
   {
    "record_id": "10772981",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

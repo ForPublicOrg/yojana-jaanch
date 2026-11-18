@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c3b17d7d3bc5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Chhanvey",
+ "villages": [
+  "Vijaypur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eac755c70f31) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.11808, 82.380002).",
+  "The photo was uploaded 2 times within 10 minutes (2026-05-31 14:25:04 to 2026-05-31 14:34:48)."
+ ],
+ "photo": "photos/eac755c70f31f2cd9c2b2d4e437d5b514a5b43aab6842ca924f6794d30d4ad72.jpg",
+ "offices": [
+  "D.F.O. Mirzapur"
+ ],
  "records": [
   {
    "record_id": "16088281",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chhanvey"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

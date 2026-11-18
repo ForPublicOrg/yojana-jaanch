@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c1af36b8e259",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Karnahia",
+  "Mirzapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d13703d776a6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/d13703d776a68e83cd5bd8eb6b02c1e7e8299ff7b46fdb30716a9675e66ded9e.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4588216",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

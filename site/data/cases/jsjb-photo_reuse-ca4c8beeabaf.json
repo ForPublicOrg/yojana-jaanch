@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ca4c8beeabaf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Dehlon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 03e5d5b6035d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 3 times within 5 minutes (2026-02-06 04:37:34 to 2026-02-06 04:42:30)."
+ ],
+ "photo": "photos/03e5d5b6035dbdeb28e86fecfb3a459bb928d43ca66e16db04c608225f6b5808.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1053719",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

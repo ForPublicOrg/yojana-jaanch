@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fec76f36515c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Air"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a329a3036f78) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 2 minutes (2026-04-21 18:34:28 to 2026-04-21 18:35:54)."
+ ],
+ "photo": "photos/a329a3036f7891f8691bf3803ec9c844d15ccdab642e9f8fc07efea0b8293f1a.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5219188",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

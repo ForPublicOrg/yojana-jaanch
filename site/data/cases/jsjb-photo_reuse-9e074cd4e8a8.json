@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9e074cd4e8a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Misa",
+  "Umri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fc9d8af0ce00) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-27 05:55:52 to 2026-05-27 05:57:56)."
+ ],
+ "photo": "photos/fc9d8af0ce0065036293ce37d8cf05d2cce56111404978850030f538c245f7c8.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "13299994",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

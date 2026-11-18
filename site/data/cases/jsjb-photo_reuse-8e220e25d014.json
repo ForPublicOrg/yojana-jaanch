@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8e220e25d014",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Mahapura @ Turkiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17b939c160cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.5179379, 76.0739658)."
+ ],
+ "photo": "photos/17b939c160cd2c78cc22bb236848f2bc05c7294c47af5431d9dbbe9d9016912c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "11035939",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

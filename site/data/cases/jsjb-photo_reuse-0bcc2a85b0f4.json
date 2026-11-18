@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0bcc2a85b0f4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Harchowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 055cfaab1710) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.783, 75.45)."
+ ],
+ "photo": "photos/055cfaab1710f5ea454d81883ae73e0e0048b7ee633b1c4abc332a5e4a82119d.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "7983906",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

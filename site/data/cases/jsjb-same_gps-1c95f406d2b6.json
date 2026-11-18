@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-1c95f406d2b6",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "18 works at one GPS point in Chinnakalrayanhillstherkkunadu",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Chinnakalrayanhillstherkkunadu"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "18 works in Chinnakalrayanhillstherkkunadu report exactly the same GPS point (11.78, 78.65).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (18).",
+  "They carry 18 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9361875",
@@ -253,5 +273,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

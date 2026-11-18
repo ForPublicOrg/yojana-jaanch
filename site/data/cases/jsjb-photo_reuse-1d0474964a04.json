@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-1d0474964a04",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Balahra",
+  "Cholti Kheri",
+  "Kotla Bajwara"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 1fc2f1c58a24) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "All 5 works report the same GPS point (32.0, 76.0).",
+  "The photo was uploaded 9 times within 8 minutes (2026-04-27 15:52:45 to 2026-04-27 16:00:34)."
+ ],
+ "photo": "photos/1fc2f1c58a24c7b12b9b29bff7debbc7e677cb2d00d528aa22035e8493344b6b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5641853",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8c24f2e5d894",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Annian"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1bf7e195dc2f) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (30.9, 76.69).",
+  "The photo was uploaded 7 times within 13 minutes (2026-04-17 11:00:29 to 2026-04-17 11:12:43)."
+ ],
+ "photo": "photos/1bf7e195dc2f644fe85ef7b43ddeeeb3ad21b9961b76e6898e25f5d6c7979d87.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5000957",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

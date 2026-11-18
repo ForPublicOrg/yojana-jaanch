@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-32056d95e59d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Harbanspura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b02ee544dd5e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.75, 76.14).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 14:11:18 to 2026-02-04 14:12:56)."
+ ],
+ "photo": "photos/b02ee544dd5e2d71ae72597c25e75841f33838012e53caae15a7bdbe8272fce1.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046287",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

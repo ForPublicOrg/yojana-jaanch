@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9efab16678e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Abohar",
+ "villages": [
+  "Balluana",
+  "Dhrangwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb3c0eb6b6f0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/bb3c0eb6b6f04cbf41ea50e74bccdd8a8b9eebe58fb1784b5220fb30ed16a648.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981577",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Abohar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

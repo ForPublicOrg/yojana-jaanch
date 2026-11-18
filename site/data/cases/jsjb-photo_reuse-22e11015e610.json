@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-22e11015e610",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Khiror",
+  "Togra Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 478b52c0002f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/478b52c0002f6778b3ea19eb48ca4a7144caf0c41d152d920998e9107878e1fc.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4239365",
+   "village": "Khiror",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-16",
+   "end_date": "2025-11-13",
+   "lat": 27.7447103,
+   "lon": 75.296661,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4269760",
+   "village": "Togra Kalan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-08",
+   "end_date": "2025-11-11",
+   "lat": 27.9834313,
+   "lon": 75.37818,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5fe2522d2a9d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Neemera"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 153445b7e4a2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.10783, 75.34109)."
+ ],
+ "photo": "photos/153445b7e4a2cace2c6721247ce5edf836311352d798387e781029c727138832.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4035397",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

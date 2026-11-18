@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-06415eb5c81b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Dharor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 96905c957f6c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/96905c957f6cef64b0607825db3f9f3038155bd3c2d7d0aaa16c4511fb0b6283.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1197654",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

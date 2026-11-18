@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-dad3319c7815",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Jatana Kalan",
+  "Jhanda Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 58d3747cf3c6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The entries were made by 2 different offices: JE, Ziledar Mansa."
+ ],
+ "photo": "photos/58d3747cf3c61d0cd36bbbb3ed35aeca95c9454a91af5dddb78e30fc5bbdc19e.jpg",
+ "offices": [
+  "JE",
+  "Ziledar Mansa"
+ ],
  "records": [
   {
    "record_id": "994659",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

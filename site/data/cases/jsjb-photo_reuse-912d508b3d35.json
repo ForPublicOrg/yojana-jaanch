@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-912d508b3d35",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bohar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d95eab4a720) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/0d95eab4a7200f5c3f4e6ebed227c0e64dd80ccc50d53ce4e152f0d746e9423e.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1082974",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

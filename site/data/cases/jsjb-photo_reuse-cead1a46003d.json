@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-cead1a46003d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Gadli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c4d5bd4b89fa) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (28.294983, 75.897618).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-25 15:57:44 to 2026-05-25 15:58:45)."
+ ],
+ "photo": "photos/c4d5bd4b89fa67441c369975ec1541811f5344a4fc9f6a6305f0c552162b0794.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "12529985",
+   "village": "Gadli",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-02-16",
+   "end_date": "2025-10-24",
+   "lat": 28.294983,
+   "lon": 75.897618,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "12530602",
+   "village": "Gadli",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-02-16",
+   "end_date": "2025-10-24",
+   "lat": 28.294983,
+   "lon": 75.897618,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

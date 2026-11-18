@@ -1,0 +1,103 @@
+{
+ "id": "jsjb-photo_reuse-31f3576e522b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mallasamudram",
+ "villages": [
+  "Mallasamudram (TP) - Ward No.11",
+  "Mallasamudram (TP) - Ward No.3",
+  "Mallasamudram (TP) - Ward No.6",
+  "Venkarai (TP) - Ward No.12",
+  "Venkarai (TP) - Ward No.6"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint b2d380c459bf) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (3), Other (2).",
+  "The entries were made by 2 different offices: EO MALLASAMUDRAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Mallasamudram, Venkarai."
+ ],
+ "photo": "photos/b2d380c459bf1336292b0dacdb18d9e88c8daba438be18f2cc00ee6c54aecae4.jpg",
+ "offices": [
+  "EO MALLASAMUDRAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3606687",
+   "village": "Mallasamudram (TP) - Ward No.11",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-07",
+   "end_date": "2025-06-12",
+   "lat": 11.49841,
+   "lon": 78.028601,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3614624",
+   "village": "Mallasamudram (TP) - Ward No.6",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-05-06",
+   "end_date": "2025-05-09",
+   "lat": 11.49428,
+   "lon": 78.030985,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3614811",
+   "village": "Mallasamudram (TP) - Ward No.3",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-10",
+   "end_date": "2025-06-13",
+   "lat": 11.494473,
+   "lon": 78.031035,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3784643",
+   "village": "Venkarai (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-09-25",
+   "end_date": "2025-09-30",
+   "lat": 11.102682,
+   "lon": 77.96294,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3799693",
+   "village": "Venkarai (TP) - Ward No.12",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-07",
+   "end_date": "2025-08-12",
+   "lat": 11.09049,
+   "lon": 77.968546,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
+}

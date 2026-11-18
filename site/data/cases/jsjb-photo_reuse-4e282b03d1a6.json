@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4e282b03d1a6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Dhardeo",
+  "Nangali",
+  "Sathiala",
+  "Sudhar"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint d27af8d4f627) is attached to 11 different works in 4 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11)."
+ ],
+ "photo": "photos/d27af8d4f627fdd8f8c3357d41d2836a7e143940b40847cdb2de49cc23182f5b.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "7690142",
@@ -155,5 +176,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

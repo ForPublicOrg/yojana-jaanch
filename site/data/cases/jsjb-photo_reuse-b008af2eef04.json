@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b008af2eef04",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Arniyamal",
+  "Lamba"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4fc95d752f9c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/4fc95d752f9ce071fffabb3cafcc221a873e7afdd500a0d6318244a67ccf27fc.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3970207",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

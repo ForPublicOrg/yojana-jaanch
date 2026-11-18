@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-9ef288cf87af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Khiwa",
+  "Kotla Jangan",
+  "Mahun Wal",
+  "Muzaffar Pur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint aaa72f092d6b) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Other (1).",
+  "The entries were made by 2 different offices: Ziledar, Zilledar."
+ ],
+ "photo": "photos/aaa72f092d6ba8f032f4e9e0b1d9f17ad0689c4fa3965756794332718e057182.jpg",
+ "offices": [
+  "Ziledar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "975602",
@@ -57,5 +80,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

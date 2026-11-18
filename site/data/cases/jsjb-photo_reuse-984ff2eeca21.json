@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-984ff2eeca21",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Kale Ke"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint c9b56004f354) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (30.688178, 75.136962).",
+  "All 6 works started and ended on the same day (2026-04-25).",
+  "The photo was uploaded 6 times within 4 minutes (2026-04-28 10:23:28 to 2026-04-28 10:27:02)."
+ ],
+ "photo": "photos/c9b56004f3544e2cbe5eb78bd99ab942faece5481b2c4fe8d223f65333a80a42.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "5922034",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-01c5eb3f9b48",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Chauhan",
+  "Mallian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fa7f1c6bddfe) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/fa7f1c6bddfecc6b1ef7406ec542c9141e157a40404060c41fbbce3750b7c12f.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "9046071",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jandiala Guru"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

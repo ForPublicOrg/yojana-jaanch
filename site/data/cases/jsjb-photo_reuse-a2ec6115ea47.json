@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a2ec6115ea47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Pottireddipatty"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d398521b8d9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.155806, 78.273854).",
+  "The photo was uploaded 4 times within 13 minutes (2026-02-06 12:30:36 to 2026-02-06 12:43:36)."
+ ],
+ "photo": "photos/6d398521b8d9e3f5951ce81cb568ef6e805e02d227fb65e13698a9fd549f1df0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3427222",
+   "village": "Pottireddipatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-18",
+   "end_date": "2024-08-24",
+   "lat": 11.155806,
+   "lon": 78.273854,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "3427503",
+   "village": "Pottireddipatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-10",
+   "end_date": "2024-08-21",
+   "lat": 11.155806,
+   "lon": 78.273854,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

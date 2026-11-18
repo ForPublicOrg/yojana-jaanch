@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5760bc7bcd32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Sohela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 34d5e5603426) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1)."
+ ],
+ "photo": "photos/34d5e560342638a59e9e38028e71012bc93f9af82db1033979bd4b14621ebbe6.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "15033263",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

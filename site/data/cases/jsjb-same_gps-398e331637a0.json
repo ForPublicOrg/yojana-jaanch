@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-398e331637a0",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "21 works at one GPS point in Panikkanur",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Panikkanur"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "21 works in Panikkanur report exactly the same GPS point (11.68, 77.91).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (21).",
+  "They carry 21 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345270",
@@ -295,5 +315,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

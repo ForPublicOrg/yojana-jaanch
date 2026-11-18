@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d47a4cd9d508",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Dhanapur",
+  "Paniyara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 281dba31d32f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/281dba31d32f8ce32c0760ce5afa98d34ba18e3ca68fd033b7e4270013c4bff8.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "2645503",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-ffe81140612a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Manmalai",
+  "Naduvalur",
+  "Pachamalai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a8ce1cf6d2dc) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/a8ce1cf6d2dc61ce89055b3ec4ba37b7e60e3a9a70982075f7cab40d24878cd6.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344576",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

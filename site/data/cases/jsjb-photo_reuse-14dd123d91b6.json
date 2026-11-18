@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-14dd123d91b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Pillur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7f07edab67c9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.19411, 78.018988)."
+ ],
+ "photo": "photos/7f07edab67c912b86ca63a9ae502b2cf1eaa6cf852738ed877f65ff30dd7c85f.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9340811",
+   "village": "Pillur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-05-12",
+   "end_date": "2023-05-30",
+   "lat": 11.19411,
+   "lon": 78.018988,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "9656462",
+   "village": "Pillur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-14",
+   "lat": 11.19411,
+   "lon": 78.018988,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

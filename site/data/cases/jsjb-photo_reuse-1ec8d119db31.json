@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1ec8d119db31",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dostpur Khadauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cc6cbdbb4fc8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-04-04 23:56:24 to 2026-04-05 00:06:42)."
+ ],
+ "photo": "photos/cc6cbdbb4fc8dbed12660a1eaf941ac842f99aaeac955f4b3d81fbceb1b90a0e.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4486453",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

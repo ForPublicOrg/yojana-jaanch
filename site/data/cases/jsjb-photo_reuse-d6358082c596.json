@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d6358082c596",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Gundurnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c901e6490c94) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (1), Rooftop Water Harvesting Structure (1).",
+  "All 2 works report the same GPS point (11.351688, 78.397479)."
+ ],
+ "photo": "photos/c901e6490c947e13b3a740c46fd8cce95524a6b78d52c65fdc856f6aaa2a22c5.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9338702",
+   "village": "Gundurnadu",
+   "structure_type": "Recharge Shaft",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-17",
+   "end_date": "2025-07-26",
+   "lat": 11.351688,
+   "lon": 78.397479,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9338881",
+   "village": "Gundurnadu",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-17",
+   "end_date": "2025-05-10",
+   "lat": 11.351688,
+   "lon": 78.397479,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

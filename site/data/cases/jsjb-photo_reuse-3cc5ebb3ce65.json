@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3cc5ebb3ce65",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Lauhdiah",
+  "Rampur Bakhri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9a6ab674e5d0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 2 times within 28 minutes (2026-03-13 13:33:16 to 2026-03-13 14:00:59)."
+ ],
+ "photo": "photos/9a6ab674e5d0df79709959d05af31c473b679af6128f2b009c7f0290f8bc7868.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3920117",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

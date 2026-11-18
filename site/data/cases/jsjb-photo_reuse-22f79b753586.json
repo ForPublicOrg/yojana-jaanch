@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-22f79b753586",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Umayalpuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d467e8daadc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.627045, 78.452178).",
+  "The photo was uploaded 2 times within 5 minutes (2026-01-23 11:48:19 to 2026-01-23 11:53:16)."
+ ],
+ "photo": "photos/1d467e8daadcbcce8ff3c12aebaf03730ca37fd1b07b076cdd16eee3fe157a55.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9359830",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-79ec012e0793",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Pacheri Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b4e8b53cbd62) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1).",
+  "All 2 works report the same GPS point (28.132129, 75.943965)."
+ ],
+ "photo": "photos/b4e8b53cbd62c078389fac41f0da25208d53b550f511821f7db3780b873fccd2.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3888663",
+   "village": "Pacheri Khurd",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2024-07-23",
+   "end_date": "2026-03-17",
+   "lat": 28.132129,
+   "lon": 75.943965,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "14755838",
+   "village": "Pacheri Khurd",
+   "structure_type": "Percolation Pond",
+   "created_by": "BDO",
+   "start_date": "2024-07-23",
+   "end_date": "2026-03-17",
+   "lat": 28.132129,
+   "lon": 75.943965,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

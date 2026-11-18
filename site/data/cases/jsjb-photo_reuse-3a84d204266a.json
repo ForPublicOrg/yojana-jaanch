@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-3a84d204266a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Hanifpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 4b336d8731b2 on 1 work, b1769b5573c3 on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: BDO Tonk, DISTRICT PROJECT COORDINATOR."
+ ],
+ "photo": "photos/4b336d8731b232671df89840b5bc94a133308f491ea407506b5a9aba123a94f1.jpg",
+ "offices": [
+  "BDO Tonk",
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3646663",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "4b336d8731b232671df89840b5bc94a133308f491ea407506b5a9aba123a94f1",
+   "records": 1
+  },
+  {
+   "sha256": "b1769b5573c3761fbc738bef723e66b1def35475d96db117484f6cb51d93026b",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-6247b982c3e2"
  ]
 }

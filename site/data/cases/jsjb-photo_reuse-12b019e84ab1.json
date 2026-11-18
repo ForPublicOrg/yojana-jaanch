@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-12b019e84ab1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Harahua",
+ "villages": [
+  "Milkapur",
+  "Murdaha",
+  "Sahansapur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 573b74ab5f28) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "These works are spread over 3 blocks: Arajiline, Chiraigaon, Harahua."
+ ],
+ "photo": "photos/573b74ab5f28de89accd20577c514f11b9cbba2a41ed66655bcd6823567d7c70.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893394",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

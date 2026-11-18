@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-505f5a619ae0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Bhutta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70d812a58651) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (75.91, 30.76).",
+  "The photo was uploaded 2 times within 2 minutes (2026-02-05 08:55:59 to 2026-02-05 08:57:13)."
+ ],
+ "photo": "photos/70d812a58651827c671d8dd1f67a78f4ce6696316b23f24cfd438095d1c4cd73.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1249212",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

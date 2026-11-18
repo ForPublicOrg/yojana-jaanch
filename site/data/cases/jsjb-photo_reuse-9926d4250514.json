@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9926d4250514",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Bahua"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 287778983c1a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/287778983c1ac851e023e5030688eb41f72a61fd65fecf2a430afa788e1bb0e1.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "12111498",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

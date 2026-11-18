@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-274346ac44dc",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "17 works at one GPS point in Tumbal",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Tumbal"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "17 works in Tumbal report exactly the same GPS point (11.0, 78.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (17).",
+  "They carry 17 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346730",
@@ -239,5 +259,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

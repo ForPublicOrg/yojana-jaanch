@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-50c7038c53e3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Bhai Bakhtaur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c792bd094e7f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c792bd094e7f2969ee3900309ea1010dfd8435b0962ede86f449b569a8c8070d.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1053105",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4e60cb9b0306",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Chogai",
+  "Hanotiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 76bc044aa0fd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/76bc044aa0fd1703e7f740cb5c8368a60e3c8afda59e5addb747918df92e29b6.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3915272",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

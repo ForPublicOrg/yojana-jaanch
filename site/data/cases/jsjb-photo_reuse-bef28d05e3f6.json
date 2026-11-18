@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bef28d05e3f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Egapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1c7ef0ca3a15) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2025-06-25 15:37:38 to 2025-06-25 15:39:24)."
+ ],
+ "photo": "photos/1c7ef0ca3a15c34e3c3cde03117190e9541a0edd99d2ac6fbbbbc2efd974bf52.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9359407",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

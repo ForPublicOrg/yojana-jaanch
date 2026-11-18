@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-268339c3f6ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Nangal Manohar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b9ac48d3fe54) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 39 seconds (2026-04-02 16:07:31 to 2026-04-02 16:08:10).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/b9ac48d3fe545840493b08c1de1a48bb4eda95182bbe4f2895dc1c5f91654740.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "984742",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

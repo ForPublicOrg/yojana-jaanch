@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-fd518f41c4eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Mandikal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bdd3d95e768b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.5998, 77.6969)."
+ ],
+ "photo": "photos/bdd3d95e768b98dcc32c3b009aa0f425a99f7436a93cbaa23fe29434986f2ca5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "4411157",
+   "village": "Mandikal",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-12",
+   "end_date": "2026-01-12",
+   "lat": 13.5998,
+   "lon": 77.6969,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "4415226",
+   "village": "Mandikal",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-17",
+   "end_date": "2026-03-17",
+   "lat": 13.5998,
+   "lon": 77.6969,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

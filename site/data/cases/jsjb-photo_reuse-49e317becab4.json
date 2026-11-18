@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-49e317becab4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Kheri"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 53945c2fa538) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (3), Gullu Plug (1).",
+  "All 4 works started and ended on the same day (2026-04-07)."
+ ],
+ "photo": "photos/53945c2fa53869f7eb5ad4676911f6d8a9e57056d907e2dfcf50f62dc7ae36f0.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5060606",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

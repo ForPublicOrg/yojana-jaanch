@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5ef2e9e86bec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Kanhwa",
+  "Khuksi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5b0b4ac45a9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a5b0b4ac45a92cbd007c9ee706997850726e0d0c3ecc276e123fa9895c6fd9f8.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4560534",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

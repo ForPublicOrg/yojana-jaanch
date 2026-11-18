@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-ebe4d84612de",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Marpa Sirpal",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Marpa Sirpal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Marpa Sirpal report exactly the same GPS point (26.763685, 85.4505035).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4208368",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

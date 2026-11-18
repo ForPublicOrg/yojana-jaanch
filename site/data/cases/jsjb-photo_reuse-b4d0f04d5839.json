@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b4d0f04d5839",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Dhandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5aa751b7d618) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 76.0).",
+  "The photo was uploaded 2 times within 2 minutes (2026-02-04 15:19:47 to 2026-02-04 15:20:55)."
+ ],
+ "photo": "photos/5aa751b7d6184335e17af2710317707068fc160889ec9fcb66d318ab4e7e9ade.jpg",
+ "offices": [
+  "BDPO Ludhiana-1"
+ ],
  "records": [
   {
    "record_id": "1569236",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

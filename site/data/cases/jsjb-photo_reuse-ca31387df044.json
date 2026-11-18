@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ca31387df044",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Mehal Kalan",
+ "villages": [
+  "Bihla"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 86ec71bcf3fc) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 20 minutes (2026-05-26 22:12:42 to 2026-05-26 22:32:11)."
+ ],
+ "photo": "photos/86ec71bcf3fce95dc0b08326aa78951607c98561a3b3ec507287958103c944a6.jpg",
+ "offices": [
+  "Harinder Kaur Stenographer"
+ ],
  "records": [
   {
    "record_id": "6177369",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9ff5de146f07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Fazilka",
+ "villages": [
+  "Gaaganke",
+  "Pali Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7c33f457a58e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: Junior Engineer, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Fazilka, Jalalabad."
+ ],
+ "photo": "photos/7c33f457a58e0262356d392dbf94870c437973c3209f3360dd67936d64be1459.jpg",
+ "offices": [
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "984306",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Fazilka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

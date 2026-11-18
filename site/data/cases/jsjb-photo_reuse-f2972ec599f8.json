@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-f2972ec599f8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Burj Ladha Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4103759bcf73) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (30.519964, 75.085429).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-02-03, 2026-03-16.",
+  "The entries were made by 2 different offices: Centre head Teacher, Head Mistress."
+ ],
+ "photo": "photos/4103759bcf73a2cce73b493c04b355d48183a3246e2b198d22002e01638f68e4.jpg",
+ "offices": [
+  "Centre head Teacher",
+  "Head Mistress"
+ ],
  "records": [
   {
    "record_id": "3974050",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

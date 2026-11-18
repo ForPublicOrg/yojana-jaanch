@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2705e5051cd0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Kora Khargi",
+  "Parsauni Khirodhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 44b8b50ee2ab) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-03-10 21:18:56 to 2026-03-10 21:28:57)."
+ ],
+ "photo": "photos/44b8b50ee2ab356f9370d1a605b80b2ca836168e0ffa236391410acae777e970.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "3880926",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

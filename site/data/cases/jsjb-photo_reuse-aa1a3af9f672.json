@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-aa1a3af9f672",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Ramdas(Rural)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 84c705cd3776) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works started and ended on the same day (2025-06-12)."
+ ],
+ "photo": "photos/84c705cd37766503a18dedba2b25adbcc0873270c55d4d2b2cae8221d7a584f0.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5221505",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

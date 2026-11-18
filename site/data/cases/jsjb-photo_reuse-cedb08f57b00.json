@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cedb08f57b00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Danishpet",
+  "Kanjanayakanpatti",
+  "Marakkottai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9cdca0f508fe) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3)."
+ ],
+ "photo": "photos/9cdca0f508feb29542a1b228f5d62df9d4b750318da6b0fb8617af4543f1c1f0.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344303",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-746a0df9a8e3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Bhidur",
+  "Kaithor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.011 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 54155ce6475c on 1 work, 7e77cf6154d0 on 1 work.",
+  "The works are recorded as: Bore-Well Recharge (1), Soak Pit (1)."
+ ],
+ "photo": "photos/54155ce6475c1b6652fbdc9c9ab657a98f126662be76db7462cdee8a7d77a09d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "358246",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "54155ce6475c1b6652fbdc9c9ab657a98f126662be76db7462cdee8a7d77a09d",
+   "records": 1
+  },
+  {
+   "sha256": "7e77cf6154d0690db1419947e9939d2c0186e822158bfcafac003ac00e870b39",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f9a3100577a5"
  ]
 }

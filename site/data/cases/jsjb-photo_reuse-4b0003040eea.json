@@ -1,5 +1,39 @@
 {
  "id": "jsjb-photo_reuse-4b0003040eea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 40 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Balai Pur",
+  "Bule Nangal",
+  "Chhapiar Wali",
+  "Dhardeo",
+  "Ghaziwal",
+  "Jabbowal",
+  "Jallal",
+  "Jaspal",
+  "Khabba Rajputan",
+  "Lakhuwal",
+  "Mehtab Kot",
+  "Nangali",
+  "Naurang Pur",
+  "Sathiala",
+  "Sudhar",
+  "Taka Pur"
+ ],
+ "record_count": 40,
+ "reasons": [
+  "The same photo file (fingerprint 11ab86a78856) is attached to 40 different works in 16 villages. A photo of one site cannot be evidence for 40 separate works.",
+  "The works are recorded as: Other (40).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/11ab86a78856dd5ba75cc992dac8b4631849baeca114f053cdce22b619bbb984.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "7649539",
@@ -561,5 +595,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 120,
+ "needs_human_review": false
 }

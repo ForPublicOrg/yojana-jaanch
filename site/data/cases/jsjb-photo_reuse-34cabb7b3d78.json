@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-34cabb7b3d78",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Bau Pur",
+  "Malri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 32fd0e40f5e4) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 30 minutes (2026-04-05 11:57:00 to 2026-04-05 12:26:26).",
+  "The entries were made by 2 different offices: Ziledar, Zilledar."
+ ],
+ "photo": "photos/32fd0e40f5e479788857397dba36b0dc1db09cd77c9d589370eabbf10f74345c.jpg",
+ "offices": [
+  "Ziledar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "975542",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

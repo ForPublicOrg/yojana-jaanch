@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-249c3ef9471e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Seesola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e781b1307d8e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-02-23 16:00:07 to 2026-02-23 16:02:52)."
+ ],
+ "photo": "photos/e781b1307d8e56defeef8cb088fda388c16f42e086c20859fb19e6909070fc75.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3614138",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

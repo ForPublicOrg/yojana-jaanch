@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0e9a26852592",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Babatpur",
+  "Goghari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d7bde5962e7f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/d7bde5962e7f668a5582336764d850540994dcd04181eaa0e0afa704ae28c8c4.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3339961",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

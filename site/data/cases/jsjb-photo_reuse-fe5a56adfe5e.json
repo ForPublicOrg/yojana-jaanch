@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-fe5a56adfe5e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Devanankurichi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 88a15d54d9ce) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (11.385324, 77.852624)."
+ ],
+ "photo": "photos/88a15d54d9ce53ed0ef492784427175e48949e655321f549cf87f9d8f7e1dbf4.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9330453",
+   "village": "Devanankurichi",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-07",
+   "end_date": "2025-05-28",
+   "lat": 11.385324,
+   "lon": 77.852624,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9332997",
+   "village": "Devanankurichi",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-08",
+   "end_date": "2025-05-28",
+   "lat": 11.385324,
+   "lon": 77.852624,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

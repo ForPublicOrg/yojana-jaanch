@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0a3b9155b237",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Azamgarh Nagwan Tolajagdishpur",
+  "Bachharpur",
+  "Shiuhar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6d80679e9d99) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (2), Other (1).",
+  "The photo was uploaded 3 times within 8 minutes (2026-02-02 16:06:40 to 2026-02-02 16:14:29)."
+ ],
+ "photo": "photos/6d80679e9d99526193a853b1fafb843c52ea1781dd988850d067935265a1a1d6.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "108461769920",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8c1c06df2e05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Naranga",
+  "Nonahi",
+  "Pariharpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 35a2d9ae211a) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/35a2d9ae211a554d89d9ca0282c7f38c848c0d358f71871b424277d70ce408a0.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4583861",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

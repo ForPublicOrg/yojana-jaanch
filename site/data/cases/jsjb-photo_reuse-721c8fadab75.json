@@ -1,0 +1,111 @@
+{
+ "id": "jsjb-photo_reuse-721c8fadab75",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Vadugam"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): fc731f23b560 on 3 works, c7aa8a86c0a4 on 2 works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/fc731f23b560d02f013b2b18c245aa020a84a2e8afa96d69d0ed00182e6b6683.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9085115",
+   "village": "Vadugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.492387,
+   "lon": 78.247172,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9085368",
+   "village": "Vadugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-12-29",
+   "lat": 11.492387,
+   "lon": 78.247172,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9332053",
+   "village": "Vadugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-07-03",
+   "end_date": "2024-07-31",
+   "lat": 11.4923,
+   "lon": 78.2471,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9336176",
+   "village": "Vadugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-08-29",
+   "lat": 11.492387,
+   "lon": 78.247172,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "9336182",
+   "village": "Vadugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-08-06",
+   "end_date": "2022-08-29",
+   "lat": 11.490402,
+   "lon": 78.241316,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "fc731f23b560d02f013b2b18c245aa020a84a2e8afa96d69d0ed00182e6b6683",
+   "records": 3
+  },
+  {
+   "sha256": "c7aa8a86c0a4d482652c6dbb8a4b69237d94124ddd7e7f55b60c29de1d2531d1",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-4e51c3591a3c"
+ ]
+}

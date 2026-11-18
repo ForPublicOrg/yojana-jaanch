@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8861b7179204",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Dasuya",
+ "villages": [
+  "Mian Ka Pind"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d5532aad787) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-01-20 10:20:51 to 2026-01-20 10:27:19)."
+ ],
+ "photo": "photos/0d5532aad787404d25d8478798201700907880fd99ec55aaf36666dc22b41c3f.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "992537",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dasuya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

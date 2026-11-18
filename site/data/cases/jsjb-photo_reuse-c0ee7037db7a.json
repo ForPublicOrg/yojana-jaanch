@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c0ee7037db7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Alaudinpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 509833e09a4f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-02-01 09:41:22 to 2026-02-01 09:48:16)."
+ ],
+ "photo": "photos/509833e09a4fa4c170832fea2ad61f0f701a5a0695771bbf00872c728d1ca1f3.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "1041226",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

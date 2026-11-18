@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3f6b37c08838",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Azamgarh Nagwan Tolajagdishpur",
+  "Bachharpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d6ae86f19075) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 14 minutes (2026-02-02 15:49:51 to 2026-02-02 16:03:44)."
+ ],
+ "photo": "photos/d6ae86f190759ae58c0b715500959e669471affcb227c1eecb60f802fff71ccb.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "61574769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

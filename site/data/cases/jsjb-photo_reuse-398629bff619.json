@@ -1,5 +1,38 @@
 {
  "id": "jsjb-photo_reuse-398629bff619",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 50 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Bahurar",
+  "Barhmaul",
+  "Basopatti",
+  "Bath Asli",
+  "Bedaul",
+  "Bela Bahadurpur",
+  "Bhadian",
+  "Biror",
+  "Dadri",
+  "Gauri",
+  "Janipur",
+  "Mahamadpur Dalel Urf Durpur",
+  "Mohni Sakrauli",
+  "Nanpur",
+  "Rasulganj Urf Koili",
+  "Sirsi"
+ ],
+ "record_count": 50,
+ "reasons": [
+  "The same photo file (fingerprint 517ad98e7961) is attached to 50 different works in 16 villages. A photo of one site cannot be evidence for 50 separate works.",
+  "The works are recorded as: Soak Pit (41), Other (9)."
+ ],
+ "photo": "photos/517ad98e7961d58de02bf7edec89bf9bb3ee648d6b5cef0e76ccad580238ee55.jpg",
+ "offices": [
+  "BDO Nanpur"
+ ],
  "records": [
   {
    "record_id": "3944582",
@@ -701,5 +734,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 150,
+ "needs_human_review": false
 }

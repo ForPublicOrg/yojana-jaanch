@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2f7b26306587",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bhamian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3de7161e8de3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-02 22:57:51 to 2026-04-02 23:01:08)."
+ ],
+ "photo": "photos/3de7161e8de388635c8d4d050d661ed8eab3fabda34e4fb44896dad65a5f2ca8.jpg",
+ "offices": [
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "4436058",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

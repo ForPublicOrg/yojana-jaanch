@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-01083a1cdb59",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Jamsara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d1a8dc4f9d4a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (26.75, 78.71)."
+ ],
+ "photo": "photos/d1a8dc4f9d4a04ec2a5324b484d815f4c52bd76d629fdf67136594cab7c80a9d.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7818796",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

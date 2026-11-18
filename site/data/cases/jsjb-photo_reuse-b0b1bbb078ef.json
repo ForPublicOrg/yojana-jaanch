@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b0b1bbb078ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Supi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a0e63fedcf67) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 3 times within 3 minutes (2026-04-12 20:38:22 to 2026-04-12 20:41:20)."
+ ],
+ "photo": "photos/a0e63fedcf67115e916ec8cad1acbbee88b9fa42436f0dae5ec4bd93aff8782f.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4780895",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,45 @@
 {
  "id": "jsjb-photo_reuse-42bf9f5c34d3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 111 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Alawalpur",
+  "Amargarh",
+  "Athwal",
+  "Attari",
+  "Aujla",
+  "Azampur",
+  "Bahadur",
+  "Bakhatpur",
+  "Bakhshi Wala",
+  "Balim",
+  "Barila Kalan",
+  "Barila Khurd",
+  "Behalpur",
+  "Bhadal",
+  "Bhadwan",
+  "Bhakhariwal",
+  "Bhangwan",
+  "Bhawana",
+  "Bhujraj",
+  "Bishan Kot",
+  "Gaddi Kalan",
+  "Talwandi Raja Dina Nath"
+ ],
+ "record_count": 111,
+ "reasons": [
+  "The same photo file (fingerprint b32b61a2aaeb) is attached to 111 different works in 22 villages. A photo of one site cannot be evidence for 111 separate works.",
+  "The works are recorded as: Contour Trench (110), Gullu Plug (1).",
+  "These works are spread over 3 blocks: Dhariwal, Gurdaspur, Kalanaur."
+ ],
+ "photo": "photos/b32b61a2aaeb5078977ea3128af9a1270db9c7c43c1c14a681ac6df4f5d89b92.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10275002",
@@ -1555,5 +1595,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 333,
+ "needs_human_review": false
 }

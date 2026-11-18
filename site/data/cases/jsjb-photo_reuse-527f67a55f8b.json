@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-527f67a55f8b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Pachera",
+  "Ranupura"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint eb29c80aca3b) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/eb29c80aca3bacf8dcb92a9c3ed703dfbb7d942619b24ad79bd353effc78650f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11143874",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

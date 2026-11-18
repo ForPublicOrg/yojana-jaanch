@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9fe8d9522aef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Khejron Ka Bas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0acc5d1a6d82) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/0acc5d1a6d82b11f0a5ade1aff663fb07223a85c26625d83ff9748e03b9e6aff.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4035687",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

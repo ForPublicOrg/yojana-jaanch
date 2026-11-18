@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b2341b797dbe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Dhilwan",
+  "Ganga Nathana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 0b0361240df2 on 1 work, 62d6456d6f4f on 1 work.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/0b0361240df2d7208962f8e079be48ab3830a5d27620cde4f65247bd283f8e58.jpg",
+ "offices": [
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "991407",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "0b0361240df2d7208962f8e079be48ab3830a5d27620cde4f65247bd283f8e58",
+   "records": 1
+  },
+  {
+   "sha256": "62d6456d6f4ffc693e58d09bc7b81bce0c373702aa127de7c2aaf1f0782cf97e",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-037e8dc9b9d5"
  ]
 }

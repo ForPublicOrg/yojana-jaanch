@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8834ec0b45f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Kaulian Wala",
+  "Shahpur Dogran"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint dc9baea228f3) is attached to 10 different works in 2 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10).",
+  "All 10 works report the same GPS point (31.345596, 75.281364)."
+ ],
+ "photo": "photos/dc9baea228f3da8eb893b3b4207ea5a6afe14e8cad0168528cb13994e02fb081.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8631961",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 31,
+ "needs_human_review": false
 }

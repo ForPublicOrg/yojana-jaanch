@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5a1ba791e772",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Madh Kaul"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 85fc4e1488aa) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/85fc4e1488aaef45c3225ec667fd252e31062ea8b8b19f0a9df2fe2c7daa991b.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4479699",
@@ -57,5 +75,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

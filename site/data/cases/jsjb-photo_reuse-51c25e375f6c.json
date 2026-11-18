@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-51c25e375f6c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Majara",
+  "Sahnewal Khurd",
+  "Salkiana"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 4c79c8ddb6e1) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/4c79c8ddb6e1e2c0712d247f1c1a9efa73e8714668108ac59eeffbeb4816bf19.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1234247",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

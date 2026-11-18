@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a9c853d718d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Ajeetpura",
+  "Harbhanwata",
+  "Saidariya Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 685b60d5621b) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 8 minutes (2026-03-06 14:46:49 to 2026-03-06 14:54:03)."
+ ],
+ "photo": "photos/685b60d5621b4ae1c85a220287b7939ac69b3dacb7d9c59061656a78048ce5a2.jpg",
+ "offices": [
+  "AEN, Watershed Department Deoli"
+ ],
  "records": [
   {
    "record_id": "3797521",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-31a87b58e84c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Malera",
+  "Rajkot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e912d8b47bc7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-25 17:57:10 to 2026-05-25 18:01:11)."
+ ],
+ "photo": "photos/e912d8b47bc710a0ae019b45e1ad0a1ab041afb041520f4c7829aa6b4e8b8102.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1395965",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e128de9af743",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Bokhra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d81f6050791a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.0, 85.0)."
+ ],
+ "photo": "photos/d81f6050791aaa5562a8f655009107efb02bd004e19cf9385deebcb97af50c86.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4495090",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

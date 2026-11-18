@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-4d34bc843c03",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "24 works at one GPS point in Ramireddipatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Ramireddipatti"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "24 works in Ramireddipatti report exactly the same GPS point (11.7, 77.94).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (24).",
+  "They carry 24 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9353480",
@@ -337,5 +357,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

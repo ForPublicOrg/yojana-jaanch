@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-f747f1e6edd5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Maropakar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 577578562c29) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.2754602, 84.0050091).",
+  "The photo was uploaded 3 times within 20 minutes (2026-03-21 12:45:27 to 2026-03-21 13:05:07)."
+ ],
+ "photo": "photos/577578562c29694b27132cd8477f9e11b4e80572eccf9f65475daae5d2e28dbd.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4090743",
+   "village": "Maropakar",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-10",
+   "end_date": "2025-12-01",
+   "lat": 26.2754602,
+   "lon": 84.0050091,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4091380",
+   "village": "Maropakar",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-07",
+   "end_date": "2025-12-15",
+   "lat": 26.2754602,
+   "lon": 84.0050091,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4b97e33ce408",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Aloarkh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd85bbcef23f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Village Pond (1)."
+ ],
+ "photo": "photos/fd85bbcef23f697f1e046d5dd33d5063b9e0877977b639c35b602a8818a34add.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "1051778",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

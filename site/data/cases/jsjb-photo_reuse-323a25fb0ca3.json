@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-323a25fb0ca3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Bazidpur",
+  "Belahi Urf Beli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3fb9eee3c811) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 29 minutes (2026-04-08 09:36:30 to 2026-04-08 10:05:30)."
+ ],
+ "photo": "photos/3fb9eee3c81104ab3af31fbd57b2863520a22bf8227f323add7aba890198a075.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4591134",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

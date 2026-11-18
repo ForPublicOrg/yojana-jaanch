@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9510ad29a437",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Hailar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d50f679d7d4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 45 seconds (2026-04-06 12:46:54 to 2026-04-06 12:47:39)."
+ ],
+ "photo": "photos/1d50f679d7d43f96dac95c34fec998efe44efbf9cdf6b1bc41c6ca8de8e33033.jpg",
+ "offices": [
+  "BDPO Jalandhar West"
+ ],
  "records": [
   {
    "record_id": "1125901",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

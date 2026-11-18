@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a8bc30ccba70",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Rupalheri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint b894eba82202) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.68, 76.53).",
+  "The photo was uploaded 10 times within 10 minutes (2026-04-17 12:48:46 to 2026-04-17 12:58:25)."
+ ],
+ "photo": "photos/b894eba822020fe2a2d01acc38b37bc763dfe5eff1f779c534d473bbb904e544.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5013221",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a9be4ec532f4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Hamza",
+  "Rakh Jhita"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d677159128ce) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-13.",
+  "These works are spread over 2 blocks: Majitha, Verka."
+ ],
+ "photo": "photos/d677159128ce43a2a5da053e3aa1bdd40d13bd8244398b55adf56907d4936e5e.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "8867490",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

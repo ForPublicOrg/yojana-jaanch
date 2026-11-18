@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6c595387394e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Kiwara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8f30774ec1ff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (26.30777778, 76.05972222).",
+  "The photo was uploaded 4 times within 15 seconds (2026-03-18 12:13:42 to 2026-03-18 12:13:57)."
+ ],
+ "photo": "photos/8f30774ec1ff893e1e2a8227134f8cc08da36521052fbfeee09c8535c7922eec.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "4014709",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

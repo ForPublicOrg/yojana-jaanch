@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-746c42eca2ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Muradpur",
+  "Narayanpur"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 3b144307e739) is attached to 7 different works in 2 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Soak Pit (6), Open Well Recharge / Dug Well (1)."
+ ],
+ "photo": "photos/3b144307e739e67148ba90c31ddcd78289397a16937f353b4bf5731fc1b1e932.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3867611",
@@ -99,5 +118,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

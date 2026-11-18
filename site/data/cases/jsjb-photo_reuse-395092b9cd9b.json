@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-395092b9cd9b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Shiv Nagar",
+  "Swami Ki Dhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5765e819e757) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 9 minutes (2026-03-26 13:08:05 to 2026-03-26 13:17:03)."
+ ],
+ "photo": "photos/5765e819e757a0705020019f1bc614ddd041dd19886542300d033d89545a851b.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4270020",
+   "village": "Swami Ki Dhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-16",
+   "end_date": "2025-12-23",
+   "lat": 27.7381859,
+   "lon": 75.40409,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4270457",
+   "village": "Shiv Nagar",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-12",
+   "end_date": "2025-11-12",
+   "lat": 27.75606,
+   "lon": 75.3994,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

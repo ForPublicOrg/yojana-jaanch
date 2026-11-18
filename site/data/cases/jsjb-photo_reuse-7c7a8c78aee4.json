@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7c7a8c78aee4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Bhaini Mian Khan",
+  "Chhaurian Bangar"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 70910764cf10) is attached to 9 different works in 2 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Recharge Pit (9).",
+  "Each of the 9 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/70910764cf10e33cb5e0c9f86ec6251b4db9c94f6ba6bf484e5bd6ce5cffffe6.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "8502747",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

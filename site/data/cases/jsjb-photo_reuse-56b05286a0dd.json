@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-56b05286a0dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 51 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Chamyari"
+ ],
+ "record_count": 51,
+ "reasons": [
+  "The same photo file (fingerprint d7d280e38058) is attached to 51 different works in 1 village. A photo of one site cannot be evidence for 51 separate works.",
+  "The works are recorded as: Other (51).",
+  "All 51 works report the same GPS point (31.52, 74.49)."
+ ],
+ "photo": "photos/d7d280e38058c32c5d68a50c5daec1b620f8b4633e4f2fd5a9f11f34368970d0.jpeg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "7598193",
@@ -715,5 +734,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 154,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4837a71a7b4e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Dholan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b2e51823c5ef) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.75, 75.52).",
+  "The photo was uploaded 4 times within 27 seconds (2026-02-04 13:55:39 to 2026-02-04 13:56:06)."
+ ],
+ "photo": "photos/b2e51823c5efa74d00d663c069f7be95d5a5603829d5897189e29ca00d5a1057.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1043556",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

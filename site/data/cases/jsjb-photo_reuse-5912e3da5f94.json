@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5912e3da5f94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Dhadde"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 283e0f85b4cf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Phagwara, Ziledar."
+ ],
+ "photo": "photos/283e0f85b4cf7770d18849dcd0fd209061a7cfc7cc26de0bf51bb90d6bb6ad05.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "975754",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

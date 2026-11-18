@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d1211a101851",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Seman"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9cc2dc0461c0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.264083, 75.066008).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-22 12:45:56 to 2026-04-22 12:50:30)."
+ ],
+ "photo": "photos/9cc2dc0461c0d97aaee3a8d1702e83dc2c7bdc94f5507e231035f5e7ef0e8f73.jpg",
+ "offices": [
+  "Head Teacher"
+ ],
  "records": [
   {
    "record_id": "5246600",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

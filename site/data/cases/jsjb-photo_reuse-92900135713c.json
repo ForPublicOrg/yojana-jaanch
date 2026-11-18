@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-92900135713c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Gurikha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d657bb426b74) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.395073, 78.289869).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-29 09:27:46 to 2026-05-29 09:32:14)."
+ ],
+ "photo": "photos/d657bb426b7411cb1eeabfef84ee16da88c98f6297cd8f2205f0f41cf36cdc89.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "14720468",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,40 @@
 {
  "id": "jsjb-photo_reuse-98c3f448e5a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 33 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Ballowali",
+  "Bhindar",
+  "Bhorchhi Rajputan",
+  "Butari",
+  "Khilchian",
+  "Mattewal",
+  "Meharbanpura",
+  "Mehsampurkalan",
+  "Mehta",
+  "Mukandpura",
+  "Nangali",
+  "Nawan Kot",
+  "Othian",
+  "Ramde Vali Mussalmanan",
+  "Singh Pura",
+  "Thothian"
+ ],
+ "record_count": 33,
+ "reasons": [
+  "The same photo file (fingerprint 463612f1971e) is attached to 33 different works in 16 villages. A photo of one site cannot be evidence for 33 separate works.",
+  "The works are recorded as: Other (33).",
+  "Each of the 33 works started and ended on a single day. The works are spread over 18 dates: 2025-05-10, 2025-05-12, 2025-05-13, 2025-05-18, 2025-05-19, 2025-05-21, 2025-05-22, 2025-05-23, 2025-05-25, 2025-05-26, 2025-05-28, 2025-05-29, 2025-05-30, 2025-06-01, 2025-06-02, 2025-06-03, 2025-06-05, 2025-06-08.",
+  "These works are spread over 5 blocks: Jandiala Guru, Majitha, Rayya, Tarsikka, Verka."
+ ],
+ "photo": "photos/463612f1971e84a02f659705089af61e235f805872fd901eb668fb8f1bed5f78.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5354171",
@@ -463,5 +498,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 100,
+ "needs_human_review": false
 }

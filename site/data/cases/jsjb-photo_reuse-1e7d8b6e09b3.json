@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1e7d8b6e09b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Dangharian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8bc8c8f42cb4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 49 seconds (2026-02-28 13:39:24 to 2026-02-28 13:40:13)."
+ ],
+ "photo": "photos/8bc8c8f42cb435364a4bcc82a736146cb4002a679caee42e6a0f7856452cf171.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1044610",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

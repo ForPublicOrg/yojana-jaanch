@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8e285905c40a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Dhindsa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5fb9bee224ae) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.8, 76.14).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 16:51:37 to 2026-02-04 16:52:59)."
+ ],
+ "photo": "photos/5fb9bee224ae811a03ffd8541a6e38e8a6b9c9bd29e60bdc9b2cdee78505be1d.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1225680",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

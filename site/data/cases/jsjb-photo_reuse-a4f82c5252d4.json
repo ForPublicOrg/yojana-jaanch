@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a4f82c5252d4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Jhall",
+  "Kheri Sodhian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 97cfb3371164) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 12 minutes (2026-05-20 14:52:03 to 2026-05-20 15:03:53)."
+ ],
+ "photo": "photos/97cfb3371164098e66b872ded7e66f501fd2c0f157e176ea0527e138f432d97c.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "10381439",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

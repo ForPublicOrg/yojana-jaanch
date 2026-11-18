@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3272ed83da14",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Kaler Ghuman",
+  "Khilchian",
+  "Padiana",
+  "Sathiala"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 3f37f3e85125) is attached to 15 different works in 4 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Other (15)."
+ ],
+ "photo": "photos/3f37f3e85125a18a567e356b0610b2fab16e86e0eaf0dfe32f275e4f72401022.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "7584379",
@@ -211,5 +232,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

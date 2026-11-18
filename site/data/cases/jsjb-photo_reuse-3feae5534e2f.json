@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-3feae5534e2f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Thaligai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3a456e79db69) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/3a456e79db69bc1d98753f63799fd55eb4b8616c28f47aa8f04436e1d39cec57.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3342580",
+   "village": "Thaligai",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-22",
+   "end_date": "2025-06-12",
+   "lat": 11.260456,
+   "lon": 78.06524,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3343236",
+   "village": "Thaligai",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-18",
+   "end_date": "2025-06-11",
+   "lat": 11.260496,
+   "lon": 78.064942,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

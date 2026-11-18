@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3c9abaffaaf7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Belauri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7a3a56de37be) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-01-20 13:03:57 to 2026-01-20 13:10:13)."
+ ],
+ "photo": "photos/7a3a56de37be97047a923ad493c2bbf64f34c1330536ecbb2849d1d39cfb1d4c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "2584844",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

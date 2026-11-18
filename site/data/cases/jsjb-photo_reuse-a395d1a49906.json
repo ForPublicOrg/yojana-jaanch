@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a395d1a49906",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Bagoriya Ki Dhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 25c5297a9d20) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 25 minutes (2026-03-26 14:57:26 to 2026-03-26 15:21:48)."
+ ],
+ "photo": "photos/25c5297a9d20245595e44a62fe945374597e9bb4b4d44af755f8717976b3def7.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4274120",
+   "village": "Bagoriya Ki Dhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-11",
+   "end_date": "2026-02-11",
+   "lat": 27.728656,
+   "lon": 75.36862,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4275139",
+   "village": "Bagoriya Ki Dhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-12-16",
+   "end_date": "2026-01-14",
+   "lat": 27.7322,
+   "lon": 75.371357,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

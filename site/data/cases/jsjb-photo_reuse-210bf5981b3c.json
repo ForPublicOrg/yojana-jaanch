@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-210bf5981b3c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Nagiampatty",
+  "Othiyathur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 31ebdc8ae6b1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.0, 78.0).",
+  "The photo was uploaded 2 times within 30 minutes (2025-06-24 13:19:06 to 2025-06-24 13:48:36)."
+ ],
+ "photo": "photos/31ebdc8ae6b1ee1524a13753bd6c6698d704f0653dd5f9af8b98cbd6c5e90b4a.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344607",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

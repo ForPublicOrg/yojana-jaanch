@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6d58ffe5b003",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Patehra",
+ "villages": [
+  "Banaki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4dd0a0e3388a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-03-13 17:21:51 to 2026-03-13 17:32:36)."
+ ],
+ "photo": "photos/4dd0a0e3388a3333835dde62e0a46de08ebba8ea05058a169a9318ac8bbc87c3.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3932133",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Patehra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ee37ca6de485",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Amarakundhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c655021784ed) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.7284913, 77.9587707).",
+  "The photo was uploaded 4 times within 4 minutes (2026-01-28 12:12:53 to 2026-01-28 12:16:24)."
+ ],
+ "photo": "photos/c655021784ed78be01b74316e4b207986b01ae508c65d9dc23b3a9430fb089d8.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344763",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

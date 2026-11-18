@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-2c1d69bcec66",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Hadda",
+  "Kheenwsar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 10ae64c33aed) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-31 08:21:12 to 2026-05-31 08:27:00)."
+ ],
+ "photo": "photos/10ae64c33aedf322f3430e3ea3dcc581093f10ff7e08977503c8174faf420e55.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15911017",
+   "village": "Kheenwsar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-10-25",
+   "end_date": "2025-12-15",
+   "lat": 27.16,
+   "lon": 70.92,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "15911534",
+   "village": "Kheenwsar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-10-25",
+   "end_date": "2025-12-15",
+   "lat": 27.16,
+   "lon": 70.92,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "15913056",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-10-30",
+   "end_date": "2025-12-29",
+   "lat": 27.088,
+   "lon": 71.04,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

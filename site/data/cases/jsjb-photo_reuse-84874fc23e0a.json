@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-84874fc23e0a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Jigna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3ff8e4656635) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Nala Bund (1)."
+ ],
+ "photo": "photos/3ff8e4656635a1631143fb8eee9e1992bfba89c70b93dd154ce36263fb84c86c.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3601544",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

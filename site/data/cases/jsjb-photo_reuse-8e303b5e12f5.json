@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8e303b5e12f5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Jaswantpura Alias Hotipur",
+  "Maniana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e6862e9ca051) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 4 times within 10 minutes (2026-05-22 09:31:28 to 2026-05-22 09:41:18)."
+ ],
+ "photo": "photos/e6862e9ca05152fb1f81b8bcfab5a424d1a72c3ab637f6b6daa0f193226b315c.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "10992969",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

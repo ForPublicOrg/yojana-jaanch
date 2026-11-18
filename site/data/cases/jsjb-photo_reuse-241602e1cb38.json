@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-241602e1cb38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Mann"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint efbbc2df86b0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 16 minutes (2026-04-19 23:13:04 to 2026-04-19 23:28:29)."
+ ],
+ "photo": "photos/efbbc2df86b06e23f7d6a413c295bda45d0de85e8f7ad8eeeed088a9656ffbf2.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "984789",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

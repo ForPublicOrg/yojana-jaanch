@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4fe5ce08455c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Bihla",
+  "Thulewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 804f6b97630b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Soak Pit (1).",
+  "These works are spread over 2 blocks: Barnala, Mehal Kalan."
+ ],
+ "photo": "photos/804f6b97630b8e1aea1a0733ab15fc8a60b0b5d34c0df1db407976deefe65a5f.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH"
+ ],
  "records": [
   {
    "record_id": "4362061",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

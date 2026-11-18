@@ -1,0 +1,103 @@
+{
+ "id": "jsjb-photo_reuse-a405692fcb42",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kalappanaickenpatti",
+ "villages": [
+  "Kalappanaickenpatti (TP) - Ward No.3",
+  "Kalappanaickenpatti (TP) - Ward No.5",
+  "Kalappanaickenpatti (TP) - Ward No.6",
+  "Pandamangalam (TP) - Ward No.3"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.020 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 751d77840b8f on 3 works, 2d4f83df2d43 on 1 work.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (4).",
+  "The entries were made by 2 different offices: EO KALAPANAICKENPATTY, EO PANDAMANGALAM.",
+  "These works are spread over 2 blocks: Kalappanaickenpatti, Pandamangalam."
+ ],
+ "photo": "photos/751d77840b8ff07ce0c65376e3bf712f4a05afec992ef529e058b5c885aeca73.jpg",
+ "offices": [
+  "EO KALAPANAICKENPATTY",
+  "EO PANDAMANGALAM"
+ ],
+ "records": [
+  {
+   "record_id": "3532033",
+   "village": "Kalappanaickenpatti (TP) - Ward No.5",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO KALAPANAICKENPATTY",
+   "start_date": "2025-12-07",
+   "end_date": "2025-12-12",
+   "lat": 11.329277,
+   "lon": 78.248567,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Kalappanaickenpatti"
+  },
+  {
+   "record_id": "3613436",
+   "village": "Pandamangalam (TP) - Ward No.3",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-09-07",
+   "end_date": "2025-10-26",
+   "lat": 11.101574,
+   "lon": 77.961587,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  },
+  {
+   "record_id": "3727271",
+   "village": "Kalappanaickenpatti (TP) - Ward No.3",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO KALAPANAICKENPATTY",
+   "start_date": "2025-11-30",
+   "end_date": "2025-12-07",
+   "lat": 11.328897,
+   "lon": 78.254042,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Kalappanaickenpatti"
+  },
+  {
+   "record_id": "3892741",
+   "village": "Kalappanaickenpatti (TP) - Ward No.6",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO KALAPANAICKENPATTY",
+   "start_date": "2025-12-04",
+   "end_date": "2025-12-08",
+   "lat": 11.329008,
+   "lon": 78.245194,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Kalappanaickenpatti"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "751d77840b8ff07ce0c65376e3bf712f4a05afec992ef529e058b5c885aeca73",
+   "records": 3
+  },
+  {
+   "sha256": "2d4f83df2d4354b80fcf39d0fd053017a5e04f753f9be95fa2a832fbe795b787",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-a2262fc2aaaa"
+ ]
+}

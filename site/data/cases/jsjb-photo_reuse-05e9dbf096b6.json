@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-05e9dbf096b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Malkpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 504c169e51ca) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.6750017, 75.8420164).",
+  "All 5 works started and ended on the same day (2026-05-26).",
+  "The photo was uploaded 5 times within 6 minutes (2026-05-26 18:03:23 to 2026-05-26 18:08:55)."
+ ],
+ "photo": "photos/504c169e51ca4a4e3a23d65ed58b583f902edb790ebfac0dee8bab0385f402d0.jpg",
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "13046525",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a6546d9eae17",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Naner"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d06f6daaced8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.207302, 75.592352)."
+ ],
+ "photo": "photos/d06f6daaced8e7f81363dfb4917efa86da4a77490e8db3c488ababb52176fd71.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1382300",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-96590f5a8871",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "20 works at one GPS point in Kurukkupatti (Ct)",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Kurukkupatti (Ct)"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "20 works in Kurukkupatti (Ct) report exactly the same GPS point (11.68, 77.98).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (13), Soak Pit (7).",
+  "They carry 20 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346621",
@@ -281,5 +302,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 40,
+ "needs_human_review": false
 }

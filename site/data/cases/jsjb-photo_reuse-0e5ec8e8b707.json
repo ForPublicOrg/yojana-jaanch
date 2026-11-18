@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0e5ec8e8b707",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Arjunpura",
+  "Ater",
+  "Udotgarh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e2a1af6bea3f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Tank (3)."
+ ],
+ "photo": "photos/e2a1af6bea3f04f6c502771072806d206e2da1683203acd41ab5a194edade7a9.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11204989",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

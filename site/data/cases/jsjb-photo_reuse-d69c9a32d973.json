@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d69c9a32d973",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Sardulgarh",
+ "villages": [
+  "Jagatgarh Bandran"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1c67673bd401) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (29.8226, 75.2292).",
+  "All 4 works started and ended on the same day (2026-05-21)."
+ ],
+ "photo": "photos/1c67673bd4012eb8d6f58bb418e16cdfd29ebd43dbd961b2691847efc564f84f.jpg",
+ "offices": [
+  "GRS"
+ ],
  "records": [
   {
    "record_id": "16132272",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Sardulgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

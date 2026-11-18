@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4815e60567bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Dasuya",
+ "villages": [
+  "Pandher",
+  "Sahoura Kandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0bea4e265993) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Dasuya, Hajipur."
+ ],
+ "photo": "photos/0bea4e26599380abea8f4a5cd20ef705c47fd78a7c0e2786f751669bb5fa6d53.jpg",
+ "offices": [
+  "Canal Patwari"
+ ],
  "records": [
   {
    "record_id": "995475",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

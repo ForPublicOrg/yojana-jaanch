@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a6f1e8d8325d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Alsisar",
+ "villages": [
+  "Kaliyasar",
+  "Niradhanu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 62fd99ca0c86) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/62fd99ca0c86d15c25d87f69d6387c4ea67e6bb56aca736c08a33769cdfaa087.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3731356",
+   "village": "Kaliyasar",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2022-03-03",
+   "end_date": "2026-03-13",
+   "lat": 28.20543,
+   "lon": 74.65675,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "3761962",
+   "village": "Niradhanu",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2024-03-21",
+   "end_date": "2026-03-13",
+   "lat": 28.32,
+   "lon": 75.28,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

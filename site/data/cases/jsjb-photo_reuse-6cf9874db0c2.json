@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-6cf9874db0c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Shahpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f88e43525c36) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/f88e43525c3604bf0250e0d4122f08ad8bf3e13f480238be6516779ccd033482.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5031233",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

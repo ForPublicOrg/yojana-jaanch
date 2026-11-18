@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7dbffcb8e5f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kabilamalai",
+ "villages": [
+  "Pillikalpalayam",
+  "T.Kavundampalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d60374e93268) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.187335, 77.938372)."
+ ],
+ "photo": "photos/d60374e9326895c013de49080ca8b9fc1c93435334c3b04d27d9f648519d7a36.jpg",
+ "offices": [
+  "Block Development officer"
+ ],
+ "records": [
+  {
+   "record_id": "9336734",
+   "village": "Pillikalpalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development officer",
+   "start_date": "2025-04-11",
+   "end_date": "2025-11-11",
+   "lat": 11.187335,
+   "lon": 77.938372,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kabilamalai"
+  },
+  {
+   "record_id": "9336736",
+   "village": "T.Kavundampalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development officer",
+   "start_date": "2025-04-11",
+   "end_date": "2025-11-11",
+   "lat": 11.187335,
+   "lon": 77.938372,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kabilamalai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

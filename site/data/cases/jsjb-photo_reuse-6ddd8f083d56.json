@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-6ddd8f083d56",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Kiri Afgana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.011 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3e6353adfcb3 on 1 work, b95a5e7bd5a0 on 1 work.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.770002, 75.515595).",
+  "All 2 works started and ended on the same day (2026-05-12).",
+  "The picture was uploaded 4 times within 3 minutes (2026-05-15 16:10:56 to 2026-05-15 16:13:17)."
+ ],
+ "photo": "photos/3e6353adfcb30d2b872a57f7484880f0cdd7e92452074857feeefe009f484b9d.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "9417927",
@@ -29,5 +52,21 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3e6353adfcb30d2b872a57f7484880f0cdd7e92452074857feeefe009f484b9d",
+   "records": 1
+  },
+  {
+   "sha256": "b95a5e7bd5a022654e2019eb6fb24cd5325d41f7d2de6b09660ca44144ee9056",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-8e33a2cbad46"
  ]
 }

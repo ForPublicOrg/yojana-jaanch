@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b709586b99cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Chandpatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c0be4d5d338f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/c0be4d5d338f947e551625b507282eebe53cd0389a92888efc65444b94b014a3.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4406700",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

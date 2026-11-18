@@ -1,0 +1,114 @@
+{
+ "id": "jsjb-photo_reuse-cbf2af3b3797",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Bommahalli",
+  "Gudisihalli",
+  "Harobande",
+  "Marasanahalli"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.005 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 2f514de07581 on 4 works, 82b99f2174a2 on 1 work.",
+  "The works are recorded as: Other (4), Recharge Shaft (1)."
+ ],
+ "photo": "photos/2f514de075819f31973df93d25907765dd2ec119fe2cf93b8e31e9fb4a6dde34.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3094522",
+   "village": "Gudisihalli",
+   "structure_type": "Recharge Shaft",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-04-11",
+   "end_date": "2025-10-18",
+   "lat": 13.888458,
+   "lon": 77.856312,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3101374",
+   "village": "Marasanahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-03",
+   "end_date": "2025-08-14",
+   "lat": 13.46679124,
+   "lon": 77.74018084,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3101499",
+   "village": "Marasanahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-04-09",
+   "end_date": "2025-11-04",
+   "lat": 13.46679124,
+   "lon": 77.74018084,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3101524",
+   "village": "Bommahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-16",
+   "lat": 13.57136835,
+   "lon": 77.82485957,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3113434",
+   "village": "Harobande",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-04-08",
+   "end_date": "2025-07-12",
+   "lat": 13.46679124,
+   "lon": 77.74018084,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "2f514de075819f31973df93d25907765dd2ec119fe2cf93b8e31e9fb4a6dde34",
+   "records": 4
+  },
+  {
+   "sha256": "82b99f2174a251ea4715b7aa440c27f4c95cf33c3a287325b7cf174460b3b4d7",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e4d6be7b4ac2"
+ ]
+}

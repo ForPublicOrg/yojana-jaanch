@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c05ce379d8d9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Lalwan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2a7691cfd208) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 4 minutes (2026-05-05 13:41:34 to 2026-05-05 13:44:48)."
+ ],
+ "photo": "photos/2a7691cfd208b2c3932223ea2b99629754a1ed85606b5e688f440f3282cda0bf.jpg",
+ "offices": [
+  "Senior Assistant Forest"
+ ],
  "records": [
   {
    "record_id": "7460797",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

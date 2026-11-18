@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-da2703a545d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Kamaske",
+  "Pheruman",
+  "Raipur Kalan",
+  "Uchokey Kalan",
+  "Vadala Kalan"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 5ee63a42e3dd) is attached to 7 different works in 5 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (7).",
+  "The entries were made by 4 different offices: BDPO Chogawan, BDPO Jandiala, BDPO Rayya, BDPO Tarsikka.",
+  "These works are spread over 4 blocks: Chogawan, Jandiala Guru, Rayya, Tarsikka."
+ ],
+ "photo": "photos/5ee63a42e3ddb1563616ceb69b24fab09a97b87e25ef343834c7f47113ce758f.jpg",
+ "offices": [
+  "BDPO Chogawan",
+  "BDPO Jandiala",
+  "BDPO Rayya",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7549046",
@@ -99,5 +126,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

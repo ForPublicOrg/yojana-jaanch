@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9b959b1df5d7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Depewal",
+  "Gajipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 93082c0fff15) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/93082c0fff153fab007ea515a12d8753615f238c88f14b56152864d6e63b7268.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1061785",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

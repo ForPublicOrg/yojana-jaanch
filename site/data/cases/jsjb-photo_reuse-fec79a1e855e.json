@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-fec79a1e855e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 42 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Aiveli",
+  "Irugalur",
+  "Katteri",
+  "Kaveripatti",
+  "Kaveripatti Agraharam",
+  "Koneripatti",
+  "Koneripatti Ag.",
+  "Kottavarudampatti",
+  "Morur Bit 1",
+  "Morur Bit2"
+ ],
+ "record_count": 42,
+ "reasons": [
+  "The same photo file (fingerprint a6d554c1d895) is attached to 42 different works in 10 villages. A photo of one site cannot be evidence for 42 separate works.",
+  "The works are recorded as: Other (42)."
+ ],
+ "photo": "photos/a6d554c1d8952dc5a2c1db819b3d8a5018cd8228e57ba6fc57dd7686a94652c5.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344533",
@@ -589,5 +616,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 126,
+ "needs_human_review": false
 }

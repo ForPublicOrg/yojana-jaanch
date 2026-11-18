@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-f77ecb55535d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Nadala",
+ "villages": [
+  "Alahdad Chak",
+  "Rawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7d7181775f6b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 10 minutes (2026-01-31 21:19:55 to 2026-01-31 21:29:32).",
+  "The entries were made by 2 different offices: Block Devolpment Office Nadala, Block Devolpment Officer Sultanpur Lodhi.",
+  "These works are spread over 2 blocks: Nadala, Sultanpur Lodhi."
+ ],
+ "photo": "photos/7d7181775f6b0c79ff3bb432c70e891bced1347cf065f1d32f222c743ec0c3c2.jpg",
+ "offices": [
+  "Block Devolpment Office Nadala",
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1062067",
@@ -29,5 +52,8 @@
    "area_type": "Rural",
    "block": "Nadala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

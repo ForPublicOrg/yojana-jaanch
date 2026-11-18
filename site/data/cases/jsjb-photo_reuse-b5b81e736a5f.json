@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b5b81e736a5f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Wadala Banger"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33c586a9d83c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.948591, 75.167051).",
+  "The photo was uploaded 4 times within 6 minutes (2026-05-21 16:00:57 to 2026-05-21 16:06:54)."
+ ],
+ "photo": "photos/33c586a9d83cf76f3fb4edb435335760e3d46db3667ae67ae2d47ec60b5a45e8.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "10737250",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

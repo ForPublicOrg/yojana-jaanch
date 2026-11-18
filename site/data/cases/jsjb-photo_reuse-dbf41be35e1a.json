@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-dbf41be35e1a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Ramtirath Jagga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e4ae3c11ce9e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/e4ae3c11ce9e472c229a4a7f26410be73e262b1c3e7517d2d3e6187e37619e4b.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "5159696",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

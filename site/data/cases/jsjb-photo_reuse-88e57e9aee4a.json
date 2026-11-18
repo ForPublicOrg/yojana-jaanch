@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-88e57e9aee4a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Bagga",
+  "Kotla Gujra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 008d6fd207e9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "The entries were made by 2 different offices: BDPO Majitha, BDPO Tarsikka.",
+  "These works are spread over 2 blocks: Majitha, Tarsikka."
+ ],
+ "photo": "photos/008d6fd207e9de5913b566d6fd1e0cd0c57693d366d5687197681452bfbe5bf5.jpg",
+ "offices": [
+  "BDPO Majitha",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7592520",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

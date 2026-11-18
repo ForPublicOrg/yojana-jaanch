@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b4cba2b93a84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Haripur Pipra",
+  "Marpa Issar Das"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9982be419389) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 3 times within 14 minutes (2026-04-10 15:51:35 to 2026-04-10 16:05:23)."
+ ],
+ "photo": "photos/9982be4193895b30286b37823cd83563bf1ddbd3566e646fe11e7782b8d4ac01.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4697024",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

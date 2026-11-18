@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8d0faf17dd37",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Muhem"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c164295df455) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (31.090621, 75.496315).",
+  "The entries were made by 2 different offices: BDPO Nakodar, Zilledar."
+ ],
+ "photo": "photos/c164295df4557dfbd75756856892da0a77180bee845478d0db11b5024838271a.jpg",
+ "offices": [
+  "BDPO Nakodar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986440",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

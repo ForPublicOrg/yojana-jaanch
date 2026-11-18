@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-cbe2b9d52fe1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Jhanduke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 094d9f36c4fa) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/094d9f36c4fa9b07fe7ed5651aa02d4e500994840fb3659c0fdcdc8d2ebb684a.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1051262",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

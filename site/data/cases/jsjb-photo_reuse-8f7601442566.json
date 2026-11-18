@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8f7601442566",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Kalianpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 951da628c7bf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-20 21:47:31 to 2026-05-20 21:50:28)."
+ ],
+ "photo": "photos/951da628c7bfb68adb142a2dee2cf811e39cd52e5c5a3e204a20781fabd61358.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10469764",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

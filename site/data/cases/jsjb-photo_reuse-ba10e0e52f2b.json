@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ba10e0e52f2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Ajner",
+  "Burj",
+  "Kheri Naudh Singh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5304332e2e71) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/5304332e2e71b0adca4a1522ec11e2cf2f9929dfb426fc39dc24b2bd531d96ad.jpg",
+ "offices": [
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "10818283",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

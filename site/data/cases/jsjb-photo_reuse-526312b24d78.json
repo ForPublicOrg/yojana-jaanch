@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-526312b24d78",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 25 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Masumnagar Urf Premnagar",
+  "Neori"
+ ],
+ "record_count": 25,
+ "reasons": [
+  "The same photo file (fingerprint 182dbccd58f8) is attached to 25 different works in 2 villages. A photo of one site cannot be evidence for 25 separate works.",
+  "The works are recorded as: Soak Pit (24), Other (1)."
+ ],
+ "photo": "photos/182dbccd58f878d0349fb1b6dcd28dbbb602e1a46d2b911262c2a83ec4eb499e.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4565495",
@@ -351,5 +370,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 75,
+ "needs_human_review": false
 }

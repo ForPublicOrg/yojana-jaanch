@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dd9ad1814279",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Dharsauna"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 52d7b35e13a0) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "All 5 works report the same GPS point (25.477523, 82.992073)."
+ ],
+ "photo": "photos/52d7b35e13a0256b40f07be82f7fe251f37966ab744024b560cb4e9e51cfe989.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3338284",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

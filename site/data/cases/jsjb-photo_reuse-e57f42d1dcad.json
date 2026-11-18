@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-e57f42d1dcad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Bhanpura",
+  "Dhaka Ki Dhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 344a3e3e5bb5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 14 minutes (2026-03-11 09:36:22 to 2026-03-11 09:50:06)."
+ ],
+ "photo": "photos/344a3e3e5bb5ce1bc190ae11daeae14d5c5e2455b48bb7fc3783081d2a5aee8a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3884017",
+   "village": "Bhanpura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-05",
+   "end_date": "2026-01-13",
+   "lat": 27.69108,
+   "lon": 75.369408,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "3884150",
+   "village": "Dhaka Ki Dhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-02-03",
+   "end_date": "2026-02-27",
+   "lat": 27.82004378,
+   "lon": 75.27931024,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

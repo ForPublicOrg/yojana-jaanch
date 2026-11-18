@@ -1,0 +1,58 @@
+{
+ "id": "jsjb-photo_reuse-d9eccaea602a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Kahla",
+  "Moolsagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b8b0502f2ec3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Recharge Shaft (1).",
+  "The photo was uploaded 2 times within 0 seconds (2025-12-22 16:31:31 to 2025-12-22 16:31:31).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/b8b0502f2ec30c33c5dadad7054f43374c26c71890537f7f502f6933344a5d06.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3138191",
+   "village": "Moolsagar",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2025-07-18",
+   "end_date": "2025-10-24",
+   "lat": 26.9207403,
+   "lon": 70.8519442,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "8623477",
+   "village": "Kahla",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-08-01",
+   "end_date": "2025-08-20",
+   "lat": 26.9174395,
+   "lon": 70.780591,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

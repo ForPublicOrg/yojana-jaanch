@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4d344d7d78dc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Khanna",
+ "villages": [
+  "Gagar Majra",
+  "Galwadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b72c6b65602a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.3704, 76.0534).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-04 19:03:38 to 2026-02-04 19:05:07)."
+ ],
+ "photo": "photos/b72c6b65602a7e37710c662b5e3639868936f4d227f616f4c534f5082ed5c232.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1251950",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Khanna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

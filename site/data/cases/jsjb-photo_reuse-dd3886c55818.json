@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dd3886c55818",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Bheem Garh",
+  "Setiwas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2d4d5cc24ae7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 21 minutes (2026-02-24 16:30:07 to 2026-02-24 16:51:05)."
+ ],
+ "photo": "photos/2d4d5cc24ae7bef1d9e20c8dbb5e2388adcedf89fd79cf149ebddee23f30252c.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "3636648",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

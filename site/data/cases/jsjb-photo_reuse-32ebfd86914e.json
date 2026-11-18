@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-32ebfd86914e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Sendamangalam",
+ "villages": [
+  "Belukkurichi",
+  "Pallipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8a91820c336a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/8a91820c336a34bb28e98ad3e07b01d06898a957162b3210274258284d24229d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9333128",
+   "village": "Pallipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-04-01",
+   "end_date": "2024-03-31",
+   "lat": 11.41186,
+   "lon": 78.269531,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  },
+  {
+   "record_id": "9340448",
+   "village": "Belukkurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-04-01",
+   "end_date": "2023-03-31",
+   "lat": 11.383617,
+   "lon": 78.249558,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

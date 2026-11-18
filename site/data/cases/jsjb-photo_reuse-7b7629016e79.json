@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7b7629016e79",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Gobrha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a0afd69af972) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.539795, 83.053522).",
+  "The photo was uploaded 2 times within 5 minutes (2025-06-27 16:19:59 to 2025-06-27 16:24:24)."
+ ],
+ "photo": "photos/a0afd69af972508029b4abc49842cb49f1d51da7309f14fdf0dc392d66978635.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "101114769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

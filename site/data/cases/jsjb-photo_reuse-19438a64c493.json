@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-19438a64c493",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bhambri",
+  "Dhianu Majra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2c79a8fb770c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/2c79a8fb770c91554c4d7d3c8ccbaa5e23a9345d306eaf1dbfe826a0e9ba0f16.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5679039",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-0b27868ea1bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Gurukulanagenahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 59e52592d8ab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (13.449272, 77.615708).",
+  "The photo was uploaded 4 times within 3 minutes (2025-12-13 12:09:47 to 2025-12-13 12:11:53)."
+ ],
+ "photo": "photos/59e52592d8abce81d35d036952089ff0e726a4184f120efd1ff1cc5e9bd451f2.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3079415",
+   "village": "Gurukulanagenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-28",
+   "end_date": "2025-11-17",
+   "lat": 13.449272,
+   "lon": 77.615708,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3079422",
+   "village": "Gurukulanagenahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-22",
+   "end_date": "2025-11-17",
+   "lat": 13.449272,
+   "lon": 77.615708,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

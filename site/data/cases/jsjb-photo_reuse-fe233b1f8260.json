@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fe233b1f8260",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Samrari",
+  "Sultanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d45aabc87e41) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/d45aabc87e41ca3286a17d1fbd40a7741547363e4a7a82f2634f39fd20df0625.jpg",
+ "offices": [
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119508",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

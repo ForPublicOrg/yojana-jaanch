@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6aa4697146d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Badesh Kalan",
+  "Barwali Kalan",
+  "Barwali Khurd",
+  "Bathan Khurd"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 7c4f7ab9805a) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (5), Recharge Pit (1)."
+ ],
+ "photo": "photos/7c4f7ab9805a64ac9dde8706c5882a76769300b439e4cd6ff650eee17deab42c.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4963097",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

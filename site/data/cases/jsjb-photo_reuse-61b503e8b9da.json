@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-61b503e8b9da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Barki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f027260bd315) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.539795, 82.980851)."
+ ],
+ "photo": "photos/f027260bd31547aa0c6f01f114373aa1f0a8a36a05481bfeef4d551c8f6a3dd0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391929281",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

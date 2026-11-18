@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-727c5c659cf7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Nadala"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 37969d2f738a) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/37969d2f738ae4a43349e74df26412b9d811a8a90aa447ed19a245fe3dbaf985.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "8345128",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-70175bc52209",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Mecheri",
+ "villages": [
+  "Kuttapatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb290d605cc2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.767302, 77.916408).",
+  "The photo was uploaded 2 times within 14 minutes (2026-05-18 15:02:10 to 2026-05-18 15:16:01)."
+ ],
+ "photo": "photos/bb290d605cc2ca26533e2bc79aaccb12b97c57722e23945ede869e1136482667.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9956652",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mecheri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

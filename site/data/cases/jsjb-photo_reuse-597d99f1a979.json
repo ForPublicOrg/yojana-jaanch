@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-597d99f1a979",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Irupali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8910da8ed643) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "The photo was uploaded 2 times within 8 minutes (2026-01-24 11:43:56 to 2026-01-24 11:51:33)."
+ ],
+ "photo": "photos/8910da8ed643e21f46643c1e3042c079e898033a69516e3c78e0fc1d6af7e042.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9360222",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

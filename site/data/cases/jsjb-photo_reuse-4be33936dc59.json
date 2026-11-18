@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-4be33936dc59",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Chand Sen",
+  "Theekariya Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e387f43475f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: BDO, JEN Panchayat Raj Malpura.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/5e387f43475f3da7bd894a932d7903e9abbc0e563197f1b3e59738b09673ad6d.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura"
+ ],
  "records": [
   {
    "record_id": "3554109",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

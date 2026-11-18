@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4e7b878a050b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Bassuwal",
+  "Pona"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0e49bc8915f8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 9 minutes (2026-04-19 23:07:45 to 2026-04-19 23:16:44)."
+ ],
+ "photo": "photos/0e49bc8915f80c440ee70e1c14b6516933058ddc88adfd2f0c36cf608cff4fce.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "984505",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

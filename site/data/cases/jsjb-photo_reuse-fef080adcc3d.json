@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fef080adcc3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Khanna Chamaran"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0de880bc24ed) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works started and ended on the same day (2026-05-15).",
+  "The photo was uploaded 6 times within 3 seconds (2026-05-17 08:49:56 to 2026-05-17 08:49:59)."
+ ],
+ "photo": "photos/0de880bc24ed5cbd4f263331b236ed6ac5690ca67aac13314905673a94b6ee33.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "9723645",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

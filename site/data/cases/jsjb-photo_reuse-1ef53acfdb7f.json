@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1ef53acfdb7f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Phulewal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e53b373de134) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.410173, 75.42178).",
+  "All 3 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 6 times within 11 minutes (2026-05-20 16:17:01 to 2026-05-20 16:27:38)."
+ ],
+ "photo": "photos/e53b373de134f325b7219fbd8f0d1c6e90226b0dad49f4982e1fea4e252058c3.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "10402061",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

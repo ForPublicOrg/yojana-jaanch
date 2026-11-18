@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-86125e2c593d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Meeno Ki Jhonpariyan",
+  "Shreepura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e78047b32b6a) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Percolation Pond (1).",
+  "The entries were made by 2 different offices: AEN, UNIARA, WS DEPT., SE."
+ ],
+ "photo": "photos/e78047b32b6a857b7751ced16ed50a7afd74a4ea8ddaf9ebd29972cdf9080e09.jpg",
+ "offices": [
+  "AEN, UNIARA, WS DEPT.",
+  "SE"
+ ],
  "records": [
   {
    "record_id": "3719150",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

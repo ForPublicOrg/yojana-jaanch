@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d3416081fdf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Bandianwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 67db921802a0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-20).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-20 22:17:58 to 2026-05-20 22:20:37)."
+ ],
+ "photo": "photos/67db921802a055ff0ddd2573b1a22a72b73021cb17c571b3f5b511b6a9794a4f.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10472359",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

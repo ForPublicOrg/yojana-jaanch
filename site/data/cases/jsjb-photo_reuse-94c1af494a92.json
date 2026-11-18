@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-94c1af494a92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dain Chhapra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f9c86e45951) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 6 minutes (2026-03-20 12:45:39 to 2026-03-20 12:51:30)."
+ ],
+ "photo": "photos/3f9c86e459510386dc96c9a5fc12b107032099d743e4c86d8c48c89047493234.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4066447",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

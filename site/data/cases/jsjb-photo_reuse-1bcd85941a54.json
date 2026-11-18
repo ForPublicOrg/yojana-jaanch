@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-1bcd85941a54",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Ambapura",
+  "Charnet",
+  "Deorawas",
+  "Teelanju"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint e14168c82625) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The entries were made by 2 different offices: BDO, JEN Panchayat Raj Malpura.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/e14168c826251c163460c83f0d7129fe7eef7e14d68dae84110ebe8ea2903ecf.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura"
+ ],
  "records": [
   {
    "record_id": "3572935",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

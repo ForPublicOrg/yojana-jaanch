@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bc1f77f57c5f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Talwandi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c313641f54d7) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.117, 75.333)."
+ ],
+ "photo": "photos/c313641f54d74404ab2697bebe297eb804e8a5424f9c8eed93c7809957fc9f0a.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7222824",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

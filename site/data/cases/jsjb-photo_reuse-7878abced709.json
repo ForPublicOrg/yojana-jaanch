@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7878abced709",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Rupowali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 49458ece309e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-20, 2026-05-28.",
+  "The photo was uploaded 3 times within 17 minutes (2026-05-28 10:47:26 to 2026-05-28 11:04:12)."
+ ],
+ "photo": "photos/49458ece309e88f41fa535bdfd29c78e6b83150eef6aa963917bb8038545ab68.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "14150585",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

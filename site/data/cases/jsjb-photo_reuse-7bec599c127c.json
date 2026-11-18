@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7bec599c127c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Saido Bholana"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 3f7d4fb993f6) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.31955, 75.323404).",
+  "The photo was uploaded 10 times within 5 minutes (2026-05-12 17:54:13 to 2026-05-12 17:58:56)."
+ ],
+ "photo": "photos/3f7d4fb993f685dad13c21616ae497a83b232599a5683b00a6d055149b671fed.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8750594",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

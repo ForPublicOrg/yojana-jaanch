@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a793ca406ab1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Fatehgarh Bhadson",
+  "Sargheri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d4d5ef67ef36) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-22, 2026-05-12."
+ ],
+ "photo": "photos/d4d5ef67ef3623eca1288b8ed612b173f89aa22429820256debbd21463a4343b.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "5259767",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

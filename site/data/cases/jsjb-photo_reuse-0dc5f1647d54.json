@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0dc5f1647d54",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Bas Kheriya",
+  "Baskheriya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5fd221fc69be) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.89564, 75.634528).",
+  "The photo was uploaded 4 times within 12 minutes (2026-05-25 17:07:31 to 2026-05-25 17:19:10)."
+ ],
+ "photo": "photos/5fd221fc69be81f5695dcb1df5a21c188425da0e6984d38a51c59a037115288c.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1432480",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

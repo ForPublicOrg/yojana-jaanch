@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4c62e1bf177b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Bhatiwar",
+  "Ponkh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ff9d3a10493b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Recharge Shaft (1).",
+  "The photo was uploaded 4 times within 7 minutes (2026-03-28 06:59:53 to 2026-03-28 07:06:05)."
+ ],
+ "photo": "photos/ff9d3a10493ba64818ea1e413f87311733136832687e8f0517ba4c01efb81e50.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4307611",
+   "village": "Bhatiwar",
+   "structure_type": "Recharge Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-05-01",
+   "end_date": "2025-05-15",
+   "lat": 34.343345,
+   "lon": 84.425443,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4307637",
+   "village": "Ponkh",
+   "structure_type": "Recharge Shaft",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-05-01",
+   "end_date": "2025-05-15",
+   "lat": 23.688263,
+   "lon": 74.436364,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

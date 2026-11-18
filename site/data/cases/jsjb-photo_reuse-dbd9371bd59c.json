@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-dbd9371bd59c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phagwara",
+ "villages": [
+  "Lasara",
+  "Pandori"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 5 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 76e3991dca2e on 1 work, d44dfb79282b on 1 work.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: SDO-Phagwara Drainage Sub Division-Phillaur, Sub Divisional Officer, Phagwara Drainage Sub Divi.",
+  "These works are spread over 2 districts: Jalandhar, Kapurthala."
+ ],
+ "photo": "photos/76e3991dca2ec4b695247d0b8b950cbda5e7fb1b3a916bcee1140644a8f8d9ed.jpg",
+ "offices": [
+  "SDO-Phagwara Drainage Sub Division-Phillaur",
+  "Sub Divisional Officer, Phagwara Drainage Sub Divi"
+ ],
  "records": [
   {
    "record_id": "973142",
@@ -29,5 +53,21 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "76e3991dca2ec4b695247d0b8b950cbda5e7fb1b3a916bcee1140644a8f8d9ed",
+   "records": 1
+  },
+  {
+   "sha256": "d44dfb79282b3612bb3c3606bc7346415132ca53a685326e8b932e5f6decf27f",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f2e51513a015"
  ]
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-10c29b2e29fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Terhia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint be5cf83b1f31) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7062135, 85.5301625).",
+  "The photo was uploaded 4 times within 9 seconds (2026-04-05 22:24:35 to 2026-04-05 22:24:44)."
+ ],
+ "photo": "photos/be5cf83b1f319c2847a4c43663bcd65d918d1f38c196815b84e7bbc807704b94.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4506760",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

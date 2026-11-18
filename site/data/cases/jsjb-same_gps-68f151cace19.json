@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-68f151cace19",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "17 works at one GPS point in Vikapur",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Vikapur"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "17 works in Vikapur report exactly the same GPS point (25.427427, 83.065291).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (17).",
+  "They carry 17 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3339270",
@@ -239,5 +259,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

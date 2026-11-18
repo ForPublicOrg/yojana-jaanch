@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-278a3ea191c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Phalaud Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d706e4fef239) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.596942, 75.899399).",
+  "All 2 works started and ended on the same day (2026-05-21).",
+  "The photo was uploaded 4 times within 8 minutes (2026-05-22 12:22:08 to 2026-05-22 12:30:07)."
+ ],
+ "photo": "photos/d706e4fef2391ee4003806d60fa4c5df50f8c63dcaedcfcb3b27b1ba847dd622.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "11078541",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

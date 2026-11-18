@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-af991ef41367",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Awra",
+  "Brijlalnagar (Og)",
+  "Chand Sen",
+  "Kadeela"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 435d09a63a3f) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/435d09a63a3f9d1dbbc803f3784bbfc9e1e1b1f0a14fa663edee89dc66459a51.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1394944",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

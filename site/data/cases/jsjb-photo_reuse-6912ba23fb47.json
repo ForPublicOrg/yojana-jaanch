@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-6912ba23fb47",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Baba Bakala (Ct)",
+  "Chhapiar Wali",
+  "Ghaziwal",
+  "Jabbowal",
+  "Jodha Nagri",
+  "Sathiala",
+  "Shahpur"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint b83d8db23a67) is attached to 11 different works in 7 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/b83d8db23a677e70e6bd66b85a5760c4825de0d43276a2ffd41f75b5dd934570.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5690655",
@@ -155,5 +180,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

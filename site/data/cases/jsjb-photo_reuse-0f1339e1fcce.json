@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-0f1339e1fcce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Aligarh (Ct)"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): a677bb9b087e on 2 works, 7de32db39a64 on 1 work.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (25.9642217, 76.0882483)."
+ ],
+ "photo": "photos/a677bb9b087efcc64def70f43446ba4b4d61ae2962750a14f2641544f2df3ac7.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3635679",
@@ -43,5 +64,21 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "a677bb9b087efcc64def70f43446ba4b4d61ae2962750a14f2641544f2df3ac7",
+   "records": 2
+  },
+  {
+   "sha256": "7de32db39a64118fb50fbaa349a3539119133424c69f0f570fb6afb47938ad2d",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-cf37f0489b05"
  ]
 }

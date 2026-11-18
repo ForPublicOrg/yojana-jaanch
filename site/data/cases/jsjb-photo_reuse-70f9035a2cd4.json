@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-70f9035a2cd4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Hosakote"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b9e99c4ccb0c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (13.584324, 77.38344).",
+  "The photo was uploaded 4 times within 49 seconds (2025-12-21 19:59:14 to 2025-12-21 20:00:03)."
+ ],
+ "photo": "photos/b9e99c4ccb0c37aa27f23f3fdbe7825e347a51170ddd865d8cbd90d484ddc72a.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3129078",
+   "village": "Hosakote",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2020-02-10",
+   "end_date": "2023-04-05",
+   "lat": 13.584324,
+   "lon": 77.38344,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3129085",
+   "village": "Hosakote",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-11-05",
+   "lat": 13.584324,
+   "lon": 77.38344,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

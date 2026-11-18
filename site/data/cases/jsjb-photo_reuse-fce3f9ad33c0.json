@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fce3f9ad33c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Bhadwan",
+  "Bhangwan",
+  "Bhekhowali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c021f117ed24) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Open Well Recharge / Dug Well (1).",
+  "These works are spread over 2 blocks: Dhariwal, Kalanaur."
+ ],
+ "photo": "photos/c021f117ed248a7b2b3faf384811eaf06385abe480bbd85cca8b79c7136ed6ce.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10009004",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

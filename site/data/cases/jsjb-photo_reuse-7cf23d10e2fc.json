@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-7cf23d10e2fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Badesh Kalan",
+  "Badesh Khurd",
+  "Mansoor Pur",
+  "Mohan Majra",
+  "Nangal",
+  "Ranwan",
+  "Sanghol"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 216850f6b182) is attached to 15 different works in 7 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (14), Other (1)."
+ ],
+ "photo": "photos/216850f6b1821240e8b160c89ac9a86142b5d0733f71f21ff7a850b7ca6bb4cb.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5632412",
@@ -211,5 +235,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

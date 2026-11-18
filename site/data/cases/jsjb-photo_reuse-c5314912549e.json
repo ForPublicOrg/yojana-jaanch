@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-c5314912549e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Devi Nagar Urf Malakpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3e26404f17cc on 1 work, eee982c1d6ac on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "The entries were made by 2 different offices: BDPO Doraha, XEN Panchayati Raj."
+ ],
+ "photo": "photos/3e26404f17cc6cd1530c2459357ce1512bc256fc53ffc7b8969431d18c92e680.jpg",
+ "offices": [
+  "BDPO Doraha",
+  "XEN Panchayati Raj"
+ ],
  "records": [
   {
    "record_id": "5240615",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3e26404f17cc6cd1530c2459357ce1512bc256fc53ffc7b8969431d18c92e680",
+   "records": 1
+  },
+  {
+   "sha256": "eee982c1d6ac56e0891952cf5522a869095f130095ece46be7553e788e51704d",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-0822c932a055"
  ]
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-b58546091b07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pallipalayam",
+ "villages": [
+  "Pallipalayam (TP) - Ward No.18",
+  "Pallipalayam (TP) - Ward No.9"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0211f0877333) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.364422, 77.748604)."
+ ],
+ "photo": "photos/0211f087733334e65ec7d550bc2d91b8d79c6441f36270ed5ec3133f028f65ef.jpg",
+ "offices": [
+  "COMMSIONEER PALLIPALAYAM"
+ ],
+ "records": [
+  {
+   "record_id": "3581956",
+   "village": "Pallipalayam (TP) - Ward No.18",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMSIONEER PALLIPALAYAM",
+   "start_date": "2026-02-02",
+   "end_date": "2026-02-26",
+   "lat": 11.364422,
+   "lon": 77.748604,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pallipalayam"
+  },
+  {
+   "record_id": "3605244",
+   "village": "Pallipalayam (TP) - Ward No.9",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMSIONEER PALLIPALAYAM",
+   "start_date": "2025-12-01",
+   "end_date": "2025-12-15",
+   "lat": 11.364422,
+   "lon": 77.748604,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pallipalayam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

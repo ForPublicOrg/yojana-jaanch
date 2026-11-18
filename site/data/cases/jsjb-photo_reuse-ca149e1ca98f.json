@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ca149e1ca98f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Baliwal",
+  "Bhaini Ghai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d07030068e8b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 27 minutes (2026-02-04 21:24:52 to 2026-02-04 21:51:04)."
+ ],
+ "photo": "photos/d07030068e8b2dbc9951d0a0fa9c6c5079ad6f1eca5d8c24bab31ac8f41424dd.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1253805",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

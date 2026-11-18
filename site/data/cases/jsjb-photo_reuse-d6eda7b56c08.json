@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d6eda7b56c08",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Atari"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint b8d67210317f) is attached to 15 different works in 1 village. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (15).",
+  "All 15 works report the same GPS point (30.88, 75.07).",
+  "All 15 works started and ended on the same day (2026-04-28)."
+ ],
+ "photo": "photos/b8d67210317f02584799bae77b0cd2aef233c6d61ba06f00558407fa90de71ae.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "7308312",
@@ -211,5 +231,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 47,
+ "needs_human_review": false
 }

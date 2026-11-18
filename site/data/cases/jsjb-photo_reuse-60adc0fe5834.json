@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-60adc0fe5834",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Dorai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c649a2021a29) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c649a2021a29e274491ee8d99a25845dfae71c0f580f194a5d95f110d14e1fa5.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4036674",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

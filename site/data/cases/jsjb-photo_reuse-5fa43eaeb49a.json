@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5fa43eaeb49a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mallasamudram",
+ "villages": [
+  "Mallasamudram (TP) - Ward No.2",
+  "Mallasamudram (TP) - Ward No.5"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a010002a8722) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/a010002a872231e408567be46223e8b3714ce39400e4604b885611e555d7427e.jpg",
+ "offices": [
+  "EO MALLASAMUDRAM"
+ ],
+ "records": [
+  {
+   "record_id": "3581212",
+   "village": "Mallasamudram (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-25",
+   "end_date": "2025-06-28",
+   "lat": 11.492409,
+   "lon": 78.026463,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3789786",
+   "village": "Mallasamudram (TP) - Ward No.2",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-11",
+   "end_date": "2025-06-14",
+   "lat": 11.581627,
+   "lon": 78.25698,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

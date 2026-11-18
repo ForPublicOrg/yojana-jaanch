@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-a9a3c828301b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ferozepur",
+ "block": "Ghall Khurd",
+ "villages": [
+  "Kot Karor Kalan",
+  "Machhi Bugra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 92fb1ca1c0d4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 12 minutes (2026-02-02 21:18:29 to 2026-02-02 21:30:24).",
+  "The entries were made by 2 different offices: Junior Engineer, Ziledar."
+ ],
+ "photo": "photos/92fb1ca1c0d4bbb479b913a3ec2cb7f452acfef71347663b079cbe80b34ccd63.jpg",
+ "offices": [
+  "Junior Engineer",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "986904",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Ghall Khurd"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

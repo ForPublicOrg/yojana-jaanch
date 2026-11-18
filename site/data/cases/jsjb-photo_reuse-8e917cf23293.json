@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-8e917cf23293",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Khetri",
+ "villages": [
+  "Babai (Ct)",
+  "Gothra (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5c15d56e5df0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/5c15d56e5df0d26f68cb5e889b652397661caaf9d2d8e076e2a082570b4aa1df.jpg",
+ "offices": [
+  "bdo"
+ ],
+ "records": [
+  {
+   "record_id": "4270923",
+   "village": "Gothra (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-10",
+   "end_date": "2025-10-30",
+   "lat": 28.07356,
+   "lon": 75.8225,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4275122",
+   "village": "Babai (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-01",
+   "end_date": "2025-10-28",
+   "lat": 27.88648,
+   "lon": 75.75963,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

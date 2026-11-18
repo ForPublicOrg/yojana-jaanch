@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-2bf2e1573e06",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sudhar",
+ "villages": [
+  "Abbuwal",
+  "Bhanohar",
+  "Bir Gagra",
+  "Gahour",
+  "Pabbian"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint bee5b19d62c4) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5).",
+  "The photo was uploaded 10 times within 7 minutes (2026-02-02 17:16:22 to 2026-02-02 17:23:03)."
+ ],
+ "photo": "photos/bee5b19d62c4225dbb453b3bbbf2d7877880ff8b75a643c00bb3d78bca9f13cb.jpg",
+ "offices": [
+  "BDPO Sudhar"
+ ],
  "records": [
   {
    "record_id": "1042568",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

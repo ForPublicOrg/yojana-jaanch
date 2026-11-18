@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d03a50a4c0ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Salkiana",
+  "Sattowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ed8dc466c024) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/ed8dc466c0241eff0da373038bbb95acb37879849b0715af7ce9c087c50f9611.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1234328",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

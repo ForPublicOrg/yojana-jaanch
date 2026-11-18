@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-ecbdd12fdd7c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Aharak",
+  "Asman Patti",
+  "Badhauna",
+  "Bamokhar",
+  "Barbaspur",
+  "Barwan",
+  "Kathauna"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 3777d34d1309) is attached to 7 different works in 7 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Recharge Pit (6), Other (1)."
+ ],
+ "photo": "photos/3777d34d1309b86df503aa61cb53165955af80aef07467d43132918a63b7e4bf.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3333320",
@@ -99,5 +123,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

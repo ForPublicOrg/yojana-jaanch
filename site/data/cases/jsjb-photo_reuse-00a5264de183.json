@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-00a5264de183",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Kharah"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e9c63e719904) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.55, 76.55).",
+  "All 2 works started and ended on the same day (2026-04-09).",
+  "The photo was uploaded 3 times within 2 minutes (2026-04-18 18:08:03 to 2026-04-18 18:09:49)."
+ ],
+ "photo": "photos/e9c63e7199042b46bbe87a5bf1d629c868469ad6af7e0c232acd36d9a8bcde5b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5100567",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

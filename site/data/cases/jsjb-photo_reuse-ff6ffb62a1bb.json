@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ff6ffb62a1bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 17 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Madhopur",
+  "Siri Khinria"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "The same photo file (fingerprint 30f9469e9fb0) is attached to 17 different works in 2 villages. A photo of one site cannot be evidence for 17 separate works.",
+  "The works are recorded as: Soak Pit (17)."
+ ],
+ "photo": "photos/30f9469e9fb0b7b13c5a8605c166cbcea21945f4475c83473f5773c6a5480c69.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4594293",
@@ -239,5 +258,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 51,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b2332867c29f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Shekh Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 23a17197e548) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 8 minutes (2026-02-16 14:45:13 to 2026-02-16 14:52:23)."
+ ],
+ "photo": "photos/23a17197e548871c001e87dc87804a16a8e22d4e03b8ac6091008abccc6dc6bd.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1064803",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

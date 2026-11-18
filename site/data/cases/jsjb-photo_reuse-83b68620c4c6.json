@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-83b68620c4c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Jalalpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d048f38a277d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1)."
+ ],
+ "photo": "photos/d048f38a277d60034b8532bf58a9a78ebc0985a64723be1ac06b142b21dc49ca.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3601894",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

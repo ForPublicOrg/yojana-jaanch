@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d3f284922c3b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Rameana",
+  "Ramu Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1b7fe65ba5fd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/1b7fe65ba5fd18d2849d788f3acef0765b11df37e2eee062a74f17b5f00e1852.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "1039187",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

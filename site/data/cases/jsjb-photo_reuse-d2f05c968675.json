@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d2f05c968675",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Pharwai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 94cfbcaff4ce) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/94cfbcaff4ce82dbe5c37c58d025a1eaa07e7c59c399b10b12372865037eac46.jpg",
+ "offices": [
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4393317",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

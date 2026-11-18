@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-73c3376a301b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Kondayampalli",
+  "Nagiampatty",
+  "Pachamalai",
+  "Ulipuram"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 53d4e06f7836) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Percolation Pond (4), Other (1).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/53d4e06f7836091d24c5064780162dd2ad0bc6901fbea5bad3964b727c84d7be.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344581",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

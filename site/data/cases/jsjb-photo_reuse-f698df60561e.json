@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f698df60561e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Bharni",
+  "Mandawar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 089c1b3aa2b9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-16 15:43:13 to 2026-03-16 15:44:37)."
+ ],
+ "photo": "photos/089c1b3aa2b9c336aef90ba720af5a09f43a442273282932c93d3cba03bb78e9.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3976853",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

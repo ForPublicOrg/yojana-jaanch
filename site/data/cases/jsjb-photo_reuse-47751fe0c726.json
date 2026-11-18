@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-47751fe0c726",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Barol",
+  "Panwar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d365f907169a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/d365f907169aab5a3e8e68012b3f76d15806c8c7861dbde4f65c8a1793db0891.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4220576",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

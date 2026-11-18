@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-fda64756811f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Khetri",
+ "villages": [
+  "Babai (Ct)",
+  "Tateeja"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0978c7e92b0f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/0978c7e92b0f2b61ea938b01238cfcd14b85c4aa04ad534ffb7d727643782411.jpg",
+ "offices": [
+  "bdo"
+ ],
+ "records": [
+  {
+   "record_id": "4247771",
+   "village": "Tateeja",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-02",
+   "end_date": "2025-10-26",
+   "lat": 28.09319,
+   "lon": 75.75697,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4275601",
+   "village": "Babai (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-03",
+   "end_date": "2025-10-28",
+   "lat": 27.88648,
+   "lon": 75.75963,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-99a8fe8ade62",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Naravalur Agraharam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 572d9586ce0c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.245501, 78.05067).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-23 09:08:13 to 2026-05-23 09:12:17)."
+ ],
+ "photo": "photos/572d9586ce0c957c130520c959e1a3ed77aab54dcf5c42ba1fb9ec0b0c74d720.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "11448841",
+   "village": "Naravalur Agraharam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-08-08",
+   "end_date": "2024-11-23",
+   "lat": 11.245501,
+   "lon": 78.05067,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "11452255",
+   "village": "Naravalur Agraharam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-06-06",
+   "end_date": "2024-11-16",
+   "lat": 11.245501,
+   "lon": 78.05067,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

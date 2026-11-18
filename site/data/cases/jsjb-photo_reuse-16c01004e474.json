@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-16c01004e474",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Dera Mir Miran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6b65e77ed91a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 37 seconds (2026-02-28 21:06:23 to 2026-02-28 21:07:00)."
+ ],
+ "photo": "photos/6b65e77ed91a3e8daf744aeb59b5e3936a4ed295475141c2338d2bb25cf878d0.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1062679",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

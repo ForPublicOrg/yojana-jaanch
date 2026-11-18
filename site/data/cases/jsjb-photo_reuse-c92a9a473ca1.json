@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c92a9a473ca1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bathinda",
+ "villages": [
+  "Baho Jattri",
+  "Kal Jharani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28cd342341b5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Bathinda, Sangat."
+ ],
+ "photo": "photos/28cd342341b5dd8f0166a5d87a5d5a7f4e5c340df362f85030206dee52330628.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4187089",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathinda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

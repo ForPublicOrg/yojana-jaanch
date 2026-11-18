@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9cd8f7af93db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Andana",
+  "Gulahri",
+  "Harigarh Gehlan",
+  "Makorad Sahib"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint a0fe8adaa70f) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (29.0, 75.0)."
+ ],
+ "photo": "photos/a0fe8adaa70f264dd16e317d48ed5b940cdf36396e751b8d362f64a20374764d.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "10315764",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

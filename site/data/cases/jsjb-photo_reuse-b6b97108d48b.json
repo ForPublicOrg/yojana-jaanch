@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-b6b97108d48b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Rajapalayam"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b25de04dfdb9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2), Recharge Pit (1).",
+  "All 3 works report the same GPS point (11.413564, 77.89006)."
+ ],
+ "photo": "photos/b25de04dfdb9f3a2dc96e9c7450edc8e8867ae03768a908e6fc27724e85e42cd.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9333578",
+   "village": "Rajapalayam",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-02-11",
+   "end_date": "2022-06-14",
+   "lat": 11.413564,
+   "lon": 77.89006,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9337916",
+   "village": "Rajapalayam",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-14",
+   "end_date": "2022-06-15",
+   "lat": 11.413564,
+   "lon": 77.89006,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9337917",
+   "village": "Rajapalayam",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-14",
+   "end_date": "2022-06-15",
+   "lat": 11.413564,
+   "lon": 77.89006,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

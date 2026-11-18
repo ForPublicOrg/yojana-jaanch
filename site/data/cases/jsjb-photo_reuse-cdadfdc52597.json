@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cdadfdc52597",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Chaunta",
+  "Chhandra",
+  "Chuharala"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e8e5ec9f9810) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/e8e5ec9f9810a0acfb69883ef8c66d8b33874d7b5ae4e11944478a6a7872724f.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1253403",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

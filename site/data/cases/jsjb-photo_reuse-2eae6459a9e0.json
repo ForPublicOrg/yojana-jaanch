@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2eae6459a9e0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhataulia",
+  "Sauli",
+  "Sirsian"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 46f7a9abd530) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/46f7a9abd530afbb4f2de6f37ee4a78a4ac0e48b44894b3263696e7b1191944e.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4452589",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

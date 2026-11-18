@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7d27fe0111f3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dhubaha Urf Dharaha",
+  "Narha Jagdarpi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bfff54791842) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7061731, 85.5288752)."
+ ],
+ "photo": "photos/bfff547918422b4698c93846cda02de8ed9febb900ba6ecd4efdb1483a185017.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4485674",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

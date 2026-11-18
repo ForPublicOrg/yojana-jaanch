@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5e52afcb0dd7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Phillaur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 965fb9b1d4c6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: Deputy Commissioner, SCO phillaur."
+ ],
+ "photo": "photos/965fb9b1d4c6cab9f6c4a1e15b7bc8f31a5a08a89e0b41c46507e6dcfe729385.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "SCO phillaur"
+ ],
  "records": [
   {
    "record_id": "825755",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

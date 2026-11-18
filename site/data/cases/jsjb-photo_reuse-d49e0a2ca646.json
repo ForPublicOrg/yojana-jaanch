@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d49e0a2ca646",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Thatha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6ba9561ea1ce) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.855016, 74.982258).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-06-01, 2026-05-02."
+ ],
+ "photo": "photos/6ba9561ea1ce3bf3ff9f94636d9950fa565320d9b56f4da7010cff3e35eff216.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "7251753",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

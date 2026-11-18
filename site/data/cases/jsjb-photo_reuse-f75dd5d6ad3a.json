@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f75dd5d6ad3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Ajmer",
+  "Sariana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 27f4db541241) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "The photo was uploaded 2 times within 11 minutes (2026-01-19 21:17:29 to 2026-01-19 21:27:35)."
+ ],
+ "photo": "photos/27f4db5412413f6b617fd8060ddcd725bab831179c36ee3eae3157228b5af207.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "994612",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

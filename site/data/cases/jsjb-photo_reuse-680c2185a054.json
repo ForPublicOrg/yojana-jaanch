@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-680c2185a054",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Japowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ea82d48d4a89) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.000718, 75.362598).",
+  "All 2 works started and ended on the same day (2026-05-20)."
+ ],
+ "photo": "photos/ea82d48d4a897c414e3b60c66f88fb831365fe1eb4918de8cf45524e462d6f8a.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10475074",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

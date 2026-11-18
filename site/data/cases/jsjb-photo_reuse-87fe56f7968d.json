@@ -1,5 +1,37 @@
 {
  "id": "jsjb-photo_reuse-87fe56f7968d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 34 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Balai Pur",
+  "Bhuttar Sivia",
+  "Dhardeo",
+  "Dharmo Chak",
+  "Jabbowal",
+  "Jallal",
+  "Jodha Nagri",
+  "Mahmud Pura",
+  "Nangali",
+  "Said Pur",
+  "Sathiala",
+  "Shahpur",
+  "Sudhar",
+  "Umra Nangal"
+ ],
+ "record_count": 34,
+ "reasons": [
+  "The same photo file (fingerprint 5a3a1fa5c799) is attached to 34 different works in 14 villages. A photo of one site cannot be evidence for 34 separate works.",
+  "The works are recorded as: Other (34).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/5a3a1fa5c799c8b70cc72c48a8d2e96c375492858b0f5720333f885a8203ef28.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5691312",
@@ -477,5 +509,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 102,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6fb630003b1a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Bahilwara Urf Garha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f8bca5f1222a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-03-28 09:33:43 to 2026-03-28 09:38:31)."
+ ],
+ "photo": "photos/f8bca5f1222ae37ca8a121208836d52874f48ce24e51f6cae737cee959f9c2d3.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4309091",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-bc6efb449a92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Malpura (M) - Ward No.34"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1d246184ff63) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (2), Village Pond (2)."
+ ],
+ "photo": "photos/1d246184ff632f1d038449b52ee42f296c924696a6cfb210a0db40680dd51667.jpg",
+ "offices": [
+  "Np malpura"
+ ],
  "records": [
   {
    "record_id": "14770525",
@@ -57,5 +75,8 @@
    "area_type": "Urban",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

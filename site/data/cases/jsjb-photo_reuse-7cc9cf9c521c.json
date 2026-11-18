@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7cc9cf9c521c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Bhakhariwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 422976547795) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1).",
+  "The photo was uploaded 4 times within 14 minutes (2026-05-18 13:30:48 to 2026-05-18 13:44:09)."
+ ],
+ "photo": "photos/42297654779523294923c9e20afcd0d41f7aec6246cbd0ef90c55fba0746a298.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "9928607",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

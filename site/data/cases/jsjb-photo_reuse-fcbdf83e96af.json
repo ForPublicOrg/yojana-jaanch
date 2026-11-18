@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fcbdf83e96af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Harahua",
+ "villages": [
+  "Bhatauli",
+  "Udpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d48fd3222138) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Harahua, Pindra."
+ ],
+ "photo": "photos/d48fd322213879d5db49f88681644505d36ee41e14f9f7fc99c0d6ea7ecd5a88.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "3925534",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

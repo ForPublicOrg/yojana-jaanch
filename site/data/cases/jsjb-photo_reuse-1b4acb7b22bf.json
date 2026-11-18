@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1b4acb7b22bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Sangatpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 75504f17e1d9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 30 seconds (2026-02-04 19:17:16 to 2026-02-04 19:17:46)."
+ ],
+ "photo": "photos/75504f17e1d9876c4c3d36c4a3617286024c339deb8b46aa4d1222b675cdc940.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1331598",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-747135ce5129",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Kulewal",
+  "Lalauri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0068742d4b4f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 30 minutes (2026-04-27 15:12:00 to 2026-04-27 15:41:37)."
+ ],
+ "photo": "photos/0068742d4b4fef1beddce30c05bd268bb7bafc1a3665cd50c1888f86f467f6b4.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "5635827",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

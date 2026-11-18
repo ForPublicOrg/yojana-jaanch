@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-09ec7e34cb5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Jogar"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 7048a49ae2e6) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (32.147149, 75.376872).",
+  "All 4 works started and ended on the same day (2026-05-12)."
+ ],
+ "photo": "photos/7048a49ae2e69ffdc6b27689500a3453ea749ae20d2fd578f10c745b3e1256c8.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8653113",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

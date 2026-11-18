@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-e3da23d2ac75",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Athanurpatti",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Athanurpatti"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Athanurpatti report exactly the same GPS point (11.68, 78.41).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5), Percolation Pond (3).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347982",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

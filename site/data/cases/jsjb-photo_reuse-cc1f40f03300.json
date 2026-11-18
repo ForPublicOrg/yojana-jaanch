@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-cc1f40f03300",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Kanian Khas"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 0168a2d3741a) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.0, 75.19).",
+  "All 5 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 5 times within 12 minutes (2026-05-11 16:28:51 to 2026-05-11 16:40:13)."
+ ],
+ "photo": "photos/0168a2d3741a009e8e8a60885bab7002a10080e0461d7d85e990c5ee851b0796.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8501291",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

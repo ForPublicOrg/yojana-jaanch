@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c307cb1a2174",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Gosal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint a19f5d95d52f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.312008, 75.358977).",
+  "All 5 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/a19f5d95d52f5a69fa3a4a267bbef9710467332f830b7a23bc3e65b0a2554f5e.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8406915",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

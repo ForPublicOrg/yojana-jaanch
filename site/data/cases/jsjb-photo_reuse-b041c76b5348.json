@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b041c76b5348",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 25 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Dug",
+  "Sahni"
+ ],
+ "record_count": 25,
+ "reasons": [
+  "The same photo file (fingerprint 77400c73f1ee) is attached to 25 different works in 2 villages. A photo of one site cannot be evidence for 25 separate works.",
+  "The works are recorded as: Contour Trench (25).",
+  "Each of the 25 works started and ended on a single day. The works are spread over 3 dates: 2026-05-21, 2026-05-22, 2026-05-23."
+ ],
+ "photo": "photos/77400c73f1ee9fd73fe20603c27307e06e4e6f1c62e8df9babb3e4a4a3a2e10e.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "11778357",
@@ -351,5 +371,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 76,
+ "needs_human_review": false
 }

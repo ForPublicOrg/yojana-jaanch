@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c70c37f9ba25",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Maniyanur",
+  "Pirandagam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d32f4fa59299) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.241669, 78.024102)."
+ ],
+ "photo": "photos/d32f4fa59299e4f2b96e87e1697451d6cd662152b28a05f7c179a54f3bd9ef84.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3748796",
+   "village": "Maniyanur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-10",
+   "lat": 11.241669,
+   "lon": 78.024102,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "7313753",
+   "village": "Pirandagam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-08-01",
+   "end_date": "2025-08-10",
+   "lat": 11.241669,
+   "lon": 78.024102,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

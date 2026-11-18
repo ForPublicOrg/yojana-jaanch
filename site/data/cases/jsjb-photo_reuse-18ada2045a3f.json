@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-18ada2045a3f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 45 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Bazindowal",
+  "Bishanpur",
+  "Dhak Balaloan",
+  "Dhak Khalwara",
+  "Khalwara",
+  "Lakhpur",
+  "Ranipur Kamboan",
+  "Sangatpur",
+  "Saprore"
+ ],
+ "record_count": 45,
+ "reasons": [
+  "The same photo file (fingerprint 0b139fd04ab0) is attached to 45 different works in 9 villages. A photo of one site cannot be evidence for 45 separate works.",
+  "The works are recorded as: Soak Pit (45)."
+ ],
+ "photo": "photos/0b139fd04ab017325a39bccc2a7d295a7e0f2e56bf6a1e9e68c1ba1611ce6e55.jpg",
+ "offices": [
+  "SDO-Phagwara Drainage Sub Division-Phillaur"
+ ],
  "records": [
   {
    "record_id": "9329117",
@@ -631,5 +657,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 135,
+ "needs_human_review": false
 }

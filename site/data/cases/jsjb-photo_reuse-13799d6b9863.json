@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-13799d6b9863",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Dune Wala",
+  "Shergarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 438285b814a7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.079116, 74.945254)."
+ ],
+ "photo": "photos/438285b814a73d74ca3b7d030962e47c0cf45e115da4128daa64be22aa63c770.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "3545435",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

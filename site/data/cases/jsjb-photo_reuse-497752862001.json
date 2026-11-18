@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-497752862001",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Madanpur Urf Madanpurbishunath"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5be06cfafaf1) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/5be06cfafaf1ebdcd177d5e8e48c33dc0c4bd6a46ff76fff80f993031a903272.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "4082568",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

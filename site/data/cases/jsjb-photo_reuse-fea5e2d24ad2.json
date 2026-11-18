@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fea5e2d24ad2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Macdonalds Choultry",
+ "villages": [
+  "Naduvaneri (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 198338d2930f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (11.568525, 78.004815).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-19 18:21:34 to 2026-05-19 18:23:31)."
+ ],
+ "photo": "photos/198338d2930f7ad596eda52a77948d06951d70919edcc5b803c42b5205109998.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10235255",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Macdonalds Choultry"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

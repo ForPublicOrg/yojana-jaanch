@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-18f2c989585c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Chakavelu",
+  "Peddarajupalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 42b17bc68353) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "The photo was uploaded 4 times within 12 minutes (2026-09-21 17:20:16 to 2026-09-21 17:31:30)."
+ ],
+ "photo": "photos/42b17bc68353a6051bfaf5c292adcca503d2f01d4031aaf55594db8a167d8814.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3397714",
+   "village": "Peddarajupalli",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.5454514,
+   "lon": 78.053453,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3398140",
+   "village": "Chakavelu",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2025-07-12",
+   "lat": 13.807397,
+   "lon": 78.092586,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

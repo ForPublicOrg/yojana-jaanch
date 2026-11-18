@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-2fa35a479944",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Ferozepur",
+ "block": "Makhu",
+ "villages": [
+  "Jattanwali",
+  "Jhamke",
+  "Sirhali"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint d9f52a8c87b6) is attached to 7 different works in 3 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Recharge Pit (6), Soak Pit (1).",
+  "The photo was uploaded 7 times within 5 minutes (2026-07-25 16:03:39 to 2026-07-25 16:08:32).",
+  "The entries were made by 2 different offices: Clerk, Senior Assistant."
+ ],
+ "photo": "photos/d9f52a8c87b6f4f92e16b9bb964eabf8bce1970ab224f774fa6c01cfd9af25b1.jpg",
+ "offices": [
+  "Clerk",
+  "Senior Assistant"
+ ],
  "records": [
   {
    "record_id": "4040679",
@@ -99,5 +122,8 @@
    "area_type": "Rural",
    "block": "Makhu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

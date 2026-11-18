@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-fc0d10a166e2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Phalpota",
+  "Tehang"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 32482ad45960) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: BDPO Phillaur, Zilledar."
+ ],
+ "photo": "photos/32482ad45960273df2781aa17578bdd72494c8874e6d4f1d0746fceebde0c4f7.jpg",
+ "offices": [
+  "BDPO Phillaur",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977018",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

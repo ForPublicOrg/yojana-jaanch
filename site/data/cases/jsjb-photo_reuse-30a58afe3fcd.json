@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-30a58afe3fcd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Avaniperur(East)"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 5 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.013 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 44b3d02384be on 2 works, 4cf2ee82a30e on 1 work.",
+  "The works are recorded as: Percolation Pond (3)."
+ ],
+ "photo": "photos/44b3d02384becf8adc2ddcff76ec02e85908ec345c482da9f1f365133b13f94f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344444",
@@ -43,5 +63,21 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "44b3d02384becf8adc2ddcff76ec02e85908ec345c482da9f1f365133b13f94f",
+   "records": 2
+  },
+  {
+   "sha256": "4cf2ee82a30ef731d5eab9a816eada9f351559b1d63b49999e55dddaaaafce47",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-9e982e662941"
  ]
 }

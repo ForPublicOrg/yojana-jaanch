@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-78205370df8b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Maili"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8b546aa12a23) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.413717, 76.065493)."
+ ],
+ "photo": "photos/8b546aa12a23f9b2ec0b4c7b19a4219550a2db86354dedf98b515db1bd4fd056.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "983480",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

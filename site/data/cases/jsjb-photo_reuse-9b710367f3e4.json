@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9b710367f3e4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Mahadewa",
+  "Manaria"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a95c7c14230c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "The photo was uploaded 4 times within 45 seconds (2026-04-07 12:16:38 to 2026-04-07 12:17:23)."
+ ],
+ "photo": "photos/a95c7c14230c0696175340d5c4c0c36b69874b2055951bd222ef27178fe6e7b2.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4559222",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

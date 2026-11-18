@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e22276f947d0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kumbhra",
+  "Raipur Chobdaran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 79fe49fa2292) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.5656, 76.3467)."
+ ],
+ "photo": "photos/79fe49fa2292872f644725d202b9c8e6ddf03cb555dcef336f3be34be9faae91.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5503359",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

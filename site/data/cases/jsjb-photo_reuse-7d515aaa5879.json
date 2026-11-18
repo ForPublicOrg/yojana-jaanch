@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7d515aaa5879",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Khelniya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ceb690f1d7e9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.94276, 75.9865283)."
+ ],
+ "photo": "photos/ceb690f1d7e9da7db651a92bef91b91c710a563826f60399914ff148f239fdd0.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4000391",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

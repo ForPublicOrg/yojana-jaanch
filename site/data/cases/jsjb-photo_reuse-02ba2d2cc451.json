@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-02ba2d2cc451",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Settikere",
+  "Varasandra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 13b43b96ae37) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Sub Surface Dyke (SSD) (2).",
+  "All 2 works report the same GPS point (13.62631, 77.99231).",
+  "The photo was uploaded 4 times within 4 minutes (2025-12-16 20:15:04 to 2025-12-16 20:18:21)."
+ ],
+ "photo": "photos/13b43b96ae37224475317012c31d1a088339b801ae53f8d3bbc0ef4a96a8383b.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092671",
+   "village": "Settikere",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-08-25",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3092674",
+   "village": "Varasandra",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

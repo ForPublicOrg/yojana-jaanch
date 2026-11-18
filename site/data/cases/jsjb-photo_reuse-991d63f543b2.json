@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-991d63f543b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Manj"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b0656cae459e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.88803, 75.392164).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-15 15:06:49 to 2026-05-15 15:08:06)."
+ ],
+ "photo": "photos/b0656cae459ed0cc5ba173d2888268ecc060e903205444d2c5f439042077948a.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "9394957",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

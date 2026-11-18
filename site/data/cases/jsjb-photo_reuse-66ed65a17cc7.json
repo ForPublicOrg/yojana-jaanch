@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-66ed65a17cc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Pawari Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e3c8e77d294d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (24.75485, 82.2669817).",
+  "The photo was uploaded 4 times within 3 minutes (2025-04-29 09:04:55 to 2025-04-29 09:07:10)."
+ ],
+ "photo": "photos/e3c8e77d294dfc8c1ff0ed6f2a428d7c2258b3e7459dac4fcf482f6d586eaf3b.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1308300",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

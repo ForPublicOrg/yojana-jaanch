@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-4d6653f4b632",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Araian Wala Khurd",
+  "Maani Singh Wala",
+  "Tehna"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5b87125c3c4d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The entries were made by 2 different offices: APO Mgnrega, SDO."
+ ],
+ "photo": "photos/5b87125c3c4d49858b78a1674cf73e448a2630b3b61098597749198996c6e0f9.jpg",
+ "offices": [
+  "APO Mgnrega",
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "989893",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

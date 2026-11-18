@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-495725d9a031",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Sisaula Kalan",
+  "Supi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fbbcf3012528) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.717277, 85.3476999)."
+ ],
+ "photo": "photos/fbbcf3012528f4417fbba594a74006ae8f533031d8528c4b040a6a34a7590eb3.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "3794566",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-50c802372a81",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Jallal",
+  "Jaspal",
+  "Pheruman",
+  "Sathiala",
+  "Sudhar"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint c0334d088c99) is attached to 8 different works in 5 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/c0334d088c99f897bbf875088fe9f0c4b18d728497d5a8d95b966a2e5802782d.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "8899295",
@@ -113,5 +136,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

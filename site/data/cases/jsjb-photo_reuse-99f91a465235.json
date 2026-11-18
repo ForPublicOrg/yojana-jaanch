@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-99f91a465235",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Balo Ke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e868c2005fe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.385122, 75.328483).",
+  "The entries were made by 2 different offices: BARJINDER PAL SINGH, Harjinder Singh ETT Teacher."
+ ],
+ "photo": "photos/5e868c2005fe40015b6d912d824031f6f5d1bef7afce3301c03c8400ad7bf031.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH",
+  "Harjinder Singh ETT Teacher"
+ ],
  "records": [
   {
    "record_id": "4793785",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-79d9a1889685",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Bhamarsi Zer"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 1d1c9f802d24) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.32, 76.46).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 3 dates: 2026-04-07, 2026-05-07, 2026-05-08."
+ ],
+ "photo": "photos/1d1c9f802d24b61ea11ab446903473f3336f2e86237f61ec0aca3df3f72e0759.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5166046",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

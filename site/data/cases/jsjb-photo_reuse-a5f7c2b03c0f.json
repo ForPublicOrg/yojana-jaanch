@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a5f7c2b03c0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Rabon Niwin",
+  "Rabon Unchi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 78e9c12a83fd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 6 minutes (2025-11-20 16:05:28 to 2025-11-20 16:10:39)."
+ ],
+ "photo": "photos/78e9c12a83fde98b744ca83ebb094270e851220d0dc10f602bd442059ddf7f96.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1049861",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

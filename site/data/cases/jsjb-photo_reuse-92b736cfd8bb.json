@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-92b736cfd8bb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Karuveppampatti",
+  "Thirumangalam"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 92ea4ed0f671) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1)."
+ ],
+ "photo": "photos/92ea4ed0f67150d602992d5a5c5a437c819cffe0f8193af728db5ecc89f1facf.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3314366",
+   "village": "Karuveppampatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2019-09-25",
+   "end_date": "2020-05-06",
+   "lat": 11.432097,
+   "lon": 77.910676,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9332083",
+   "village": "Thirumangalam",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2008-09-15",
+   "end_date": "2018-05-01",
+   "lat": 11.432854,
+   "lon": 77.937178,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9337038",
+   "village": "Thirumangalam",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2016-04-01",
+   "end_date": "2017-03-31",
+   "lat": 11.432854,
+   "lon": 77.937178,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

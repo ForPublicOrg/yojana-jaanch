@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-bdf9fcc30e96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Marappanaickanpatty"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 27de86922c65) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/27de86922c65c797c9a5d0c83cc6fb03014e17028157cd2c24428b1c0e3b7597.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3340077",
+   "village": "Marappanaickanpatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-11",
+   "end_date": "2025-06-01",
+   "lat": 11.261693,
+   "lon": 78.103798,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3356327",
+   "village": "Marappanaickanpatty",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-11",
+   "end_date": "2025-06-01",
+   "lat": 11.271729,
+   "lon": 78.107942,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

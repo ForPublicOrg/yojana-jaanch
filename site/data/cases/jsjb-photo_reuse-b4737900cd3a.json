@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-b4737900cd3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Bhagwan Pura",
+  "Bhawalpur",
+  "Bhawanipura",
+  "Budha Dewal",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint c0b3abedc6aa) is attached to 7 different works in 5 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Soak Pit (7).",
+  "The entries were made by 3 different offices: BDO, JEN Panchayat Raj Malpura, Jen.",
+  "These works are spread over 2 blocks: Deoli, Malpura."
+ ],
+ "photo": "photos/c0b3abedc6aaa97c506ef701649739cd6beebc943ed82c8e405c339ac5e4fb83.jpg",
+ "offices": [
+  "BDO",
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3552243",
@@ -99,5 +125,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

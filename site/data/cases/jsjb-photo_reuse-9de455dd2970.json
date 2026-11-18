@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9de455dd2970",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Arain Majra"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint a6359733be9b) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (30.32, 76.46).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 2 dates: 2026-04-07, 2026-05-05."
+ ],
+ "photo": "photos/a6359733be9bd70dce83eded6173ce3147f24aa761d14314e528927618f55178.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5156675",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

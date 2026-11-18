@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ce5db6843da9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Bazidpur Gorhauli",
+  "Singha Chauri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint cde514241e2a) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (26.0, 85.0).",
+  "The photo was uploaded 3 times within 24 minutes (2026-04-04 22:05:08 to 2026-04-04 22:28:43)."
+ ],
+ "photo": "photos/cde514241e2a9a8c764dfe76392b4ce4a7d065c6c245a62f37ae1e663e1cd583.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4485794",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

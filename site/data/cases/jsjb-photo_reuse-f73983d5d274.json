@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f73983d5d274",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Darapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 90671293a41c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.82, 78.05).",
+  "The photo was uploaded 2 times within 10 seconds (2025-07-03 14:56:50 to 2025-07-03 14:57:00)."
+ ],
+ "photo": "photos/90671293a41c5f607ba55ac2d197ede83d208f368df647b8ca3de9df1b541102.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9353590",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

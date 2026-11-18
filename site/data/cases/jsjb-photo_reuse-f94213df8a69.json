@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f94213df8a69",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Sadarpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ffd74a2d77f6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.9, 75.47)."
+ ],
+ "photo": "photos/ffd74a2d77f60e03a2a9e037cf8cde82bb5f1e52ba1df07aedc35c7b8643ac8e.jpg",
+ "offices": [
+  "BDPO Sidhwan"
+ ],
  "records": [
   {
    "record_id": "1202196",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

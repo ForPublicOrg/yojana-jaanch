@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b37d65b2ba2f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 13 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bankhandi"
+ ],
+ "record_count": 13,
+ "reasons": [
+  "The same photo file (fingerprint 82cf94f96b9a) is attached to 13 different works in 1 village. A photo of one site cannot be evidence for 13 separate works.",
+  "The works are recorded as: Contour Trench (13).",
+  "All 13 works report the same GPS point (30.9, 75.09).",
+  "All 13 works started and ended on the same day (2026-04-28)."
+ ],
+ "photo": "photos/82cf94f96b9a738f5e308e7e77cdac908c85ace7868fc551ee7d1bece91076e1.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "7261884",
@@ -183,5 +203,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 41,
+ "needs_human_review": false
 }

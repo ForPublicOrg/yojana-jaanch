@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f480ecda9c69",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Chancharayanapalli",
+  "Puttaparthi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7b8b0a59c650) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/7b8b0a59c6502f6c235ee521ef9ed194d22858442e1475d2a2684e0ff8a7de5f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3105983",
+   "village": "Puttaparthi",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-22",
+   "end_date": "2025-06-26",
+   "lat": 13.845644,
+   "lon": 77.84564,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3124063",
+   "village": "Chancharayanapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-21",
+   "end_date": "2025-11-27",
+   "lat": 13.862075,
+   "lon": 77.88054,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

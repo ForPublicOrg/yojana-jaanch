@@ -1,0 +1,86 @@
+{
+ "id": "jsjb-photo_reuse-b3b036b2c83d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Khetri",
+ "villages": [
+  "Beelwa",
+  "Gothra (Ct)",
+  "Tateeja"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1a9477ce7257) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The entries were made by 2 different offices: CEO ZILA PARISHAD, bdo."
+ ],
+ "photo": "photos/1a9477ce7257dd0f2f346bc7396cec78eb7f263e04e59e6769177884bcc89264.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD",
+  "bdo"
+ ],
+ "records": [
+  {
+   "record_id": "4271212",
+   "village": "Gothra (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-10-05",
+   "end_date": "2025-10-30",
+   "lat": 28.07356,
+   "lon": 75.8225,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4271465",
+   "village": "Gothra (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-11-10",
+   "end_date": "2025-11-30",
+   "lat": 28.07356,
+   "lon": 75.8225,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4272422",
+   "village": "Beelwa",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-03",
+   "end_date": "2025-10-27",
+   "lat": 27.99195,
+   "lon": 75.75796,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  },
+  {
+   "record_id": "4274959",
+   "village": "Tateeja",
+   "structure_type": "Soak Pit",
+   "created_by": "bdo",
+   "start_date": "2025-10-06",
+   "end_date": "2025-11-02",
+   "lat": 28.08304,
+   "lon": 75.75955,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Khetri"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

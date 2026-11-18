@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-6d1e38a0708b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Cheleke",
+  "Othian",
+  "Ramdas(Rural)"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint c533a31d6ddf) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (5).",
+  "Each of the 5 works started and ended on a single day. The works are spread over 3 dates: 2025-06-10, 2025-06-12, 2025-06-13.",
+  "These works are spread over 3 blocks: Chogawan, Harshe Chhina, Ramdas."
+ ],
+ "photo": "photos/c533a31d6ddf1318938739264ac11495e260cdb8c8d636496438e6bd8899715e.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5169660",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Harshe Chhina"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

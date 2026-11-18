@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-86922865b99e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Boparai Baj Singh",
+  "Heir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 58c3021757d3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Attari, Chogawan."
+ ],
+ "photo": "photos/58c3021757d3dff7ac927143ad75d84dbe7bae9703c9c48640389b56603f83d1.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5076252",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

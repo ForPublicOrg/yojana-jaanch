@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-14b809963317",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Kubba"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5553aac4415b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 28 seconds (2026-02-04 19:13:22 to 2026-02-04 19:13:50)."
+ ],
+ "photo": "photos/5553aac4415b88b3fd296813a2667a0c1101d826ef26997a3bbf7b7e32904836.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1330652",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

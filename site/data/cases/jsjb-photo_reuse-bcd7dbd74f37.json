@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bcd7dbd74f37",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 32 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Bandha"
+ ],
+ "record_count": 32,
+ "reasons": [
+  "The same photo file (fingerprint bb4fb4e7558b) is attached to 32 different works in 1 village. A photo of one site cannot be evidence for 32 separate works.",
+  "The works are recorded as: Contour Trench (32).",
+  "All 32 works report the same GPS point (26.027078, 79.54835)."
+ ],
+ "photo": "photos/bb4fb4e7558be1a55886d773f77d2e435e82a0279ee0effc998d08029d0c4ab7.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "3974634",
@@ -449,5 +468,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 97,
+ "needs_human_review": false
 }

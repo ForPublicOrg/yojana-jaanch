@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e5093648c450",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Puduchatram",
+ "villages": [
+  "Karakuruchi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2490f82a1e40) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.354816, 78.187023)."
+ ],
+ "photo": "photos/2490f82a1e404e535857842d59cb025948c08b1bd09e22f21845e8bd634ffd10.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9333176",
+   "village": "Karakuruchi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.354816,
+   "lon": 78.187023,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  },
+  {
+   "record_id": "9337002",
+   "village": "Karakuruchi",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.354816,
+   "lon": 78.187023,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

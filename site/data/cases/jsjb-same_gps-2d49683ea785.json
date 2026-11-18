@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-2d49683ea785",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "30 works at one GPS point in Selavadi",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Selavadi"
+ ],
+ "record_count": 30,
+ "reasons": [
+  "30 works in Selavadi report exactly the same GPS point (11.6996, 77.914).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (21), Soak Pit (9).",
+  "They carry 29 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9345551",
@@ -421,5 +442,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 60,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4be250a92f8f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Titriyan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d620a8dc897a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.986339, 75.355842).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-25 17:44:30 to 2026-05-25 17:48:58)."
+ ],
+ "photo": "photos/d620a8dc897a68ff9399cc2ff5dce3a2513eb444963e7f2e32b28d52256f6ec7.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1395298",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f081e86a693d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Ibban"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 4e663fc519dc) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.3424828, 75.4502357).",
+  "All 5 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 10 times within 6 minutes (2026-05-12 09:56:02 to 2026-05-12 10:01:11)."
+ ],
+ "photo": "photos/4e663fc519dceff1147387dc4212235983cdcb67229e782fbcfc37189db9123f.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8625159",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

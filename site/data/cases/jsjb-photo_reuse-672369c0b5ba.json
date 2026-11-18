@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-672369c0b5ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Madaripur Sirimanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 48bf5094c26e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 15 minutes (2026-03-19 14:33:49 to 2026-03-19 14:48:00)."
+ ],
+ "photo": "photos/48bf5094c26e4febec943600ea2f64be464c909b65b265a6cc4c401c501f9bbd.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4045582",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

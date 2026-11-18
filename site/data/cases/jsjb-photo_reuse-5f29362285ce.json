@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-5f29362285ce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Seerapalli",
+ "villages": [
+  "Seerapalli (TP) - Ward No.10",
+  "Seerapalli (TP) - Ward No.5"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8f6ab01b132c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 17 minutes (2026-02-23 14:53:28 to 2026-02-23 15:09:33)."
+ ],
+ "photo": "photos/8f6ab01b132c84e548e1d5b2072c7c75c5a4ddd117937ce379d5881b87871cd2.jpg",
+ "offices": [
+  "EO SEERAPALLI"
+ ],
+ "records": [
+  {
+   "record_id": "3611903",
+   "village": "Seerapalli (TP) - Ward No.10",
+   "structure_type": "Other",
+   "created_by": "EO SEERAPALLI",
+   "start_date": "2025-08-12",
+   "end_date": "2025-08-22",
+   "lat": 11.453375,
+   "lon": 78.239612,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Seerapalli"
+  },
+  {
+   "record_id": "3612421",
+   "village": "Seerapalli (TP) - Ward No.5",
+   "structure_type": "Other",
+   "created_by": "EO SEERAPALLI",
+   "start_date": "2025-06-11",
+   "end_date": "2025-06-18",
+   "lat": 11.453676,
+   "lon": 78.26152,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Seerapalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-917f6507a7dc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Bahadarke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce6ad3376995) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.0, 76.0).",
+  "The photo was uploaded 2 times within 4 minutes (2026-02-04 16:05:37 to 2026-02-04 16:09:24)."
+ ],
+ "photo": "photos/ce6ad3376995a80da5a49a9ed54a24ba8f1dbb86a120e8c7323cbaf23ae7245a.jpg",
+ "offices": [
+  "BDPO Ludhiana-1"
+ ],
  "records": [
   {
    "record_id": "1040536",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

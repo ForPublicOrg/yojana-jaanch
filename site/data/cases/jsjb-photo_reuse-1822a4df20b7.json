@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1822a4df20b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Dostia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e6cc214eecc0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 38 seconds (2026-11-13 01:37:04 to 2026-11-13 01:37:42)."
+ ],
+ "photo": "photos/e6cc214eecc0f80df980bdf50dde96e316518ad31d51a89cf88e49e9eeda5d39.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4567950",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

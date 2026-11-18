@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e498e39b5e23",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Faridpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 186e882426ea) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.152199, 75.350896).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/186e882426ea88f45eb46d71dc975ab0d9b58750a15034966d0330c33e5ab6af.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8192589",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

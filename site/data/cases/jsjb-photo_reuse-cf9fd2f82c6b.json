@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf9fd2f82c6b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Karukkalvadi (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fc0f1c2251dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.66, 78.0).",
+  "The photo was uploaded 2 times within 3 minutes (2025-06-27 12:51:03 to 2025-06-27 12:53:24)."
+ ],
+ "photo": "photos/fc0f1c2251ddb2f7da64437e8aca9c718f59da90abd621534fa7e9653e95a4b9.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346126",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

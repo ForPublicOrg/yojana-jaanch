@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-ee23c0b7a850",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Tharoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a73192e9482b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Gaibaion (2)."
+ ],
+ "photo": "photos/a73192e9482b05a6d6ce95f441b4b24bd29b5cfdce0e0e5eeec1a32aee7a5515.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3637289",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

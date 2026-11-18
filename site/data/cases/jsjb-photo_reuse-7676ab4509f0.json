@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-7676ab4509f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 50 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Barri Bihta",
+  "Basotra",
+  "Bhanta Bari",
+  "Bhutaha",
+  "Bishunpur",
+  "Chandar Saina",
+  "Cheraut",
+  "Khoria",
+  "Parigawan"
+ ],
+ "record_count": 50,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 50 different works in 9 villages. A photo of one site cannot be evidence for 50 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 1ec10ce92e4c on 35 works, 98e4c7358c5e on 15 works.",
+  "The works are recorded as: Village Pond (42), Percolation Pond (8)."
+ ],
+ "photo": "photos/1ec10ce92e4c9df8539d8e57931c5caf70256745ba9a7a62fa0c6b9cbb860d9a.jpg",
+ "offices": [
+  "PO Charaut"
+ ],
  "records": [
   {
    "record_id": "3532420",
@@ -701,5 +729,21 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 150,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "1ec10ce92e4c9df8539d8e57931c5caf70256745ba9a7a62fa0c6b9cbb860d9a",
+   "records": 35
+  },
+  {
+   "sha256": "98e4c7358c5ef3871c5a450c23eef1b83938f5531a98405e6d53cb53e9183cd2",
+   "records": 15
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e82c4658a75a"
  ]
 }

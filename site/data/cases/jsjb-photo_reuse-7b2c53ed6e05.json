@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7b2c53ed6e05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Talwandi Pain"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 29269df8520f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.281056, 75.281965).",
+  "All 5 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 10 times within 5 minutes (2026-05-12 15:34:30 to 2026-05-12 15:39:22)."
+ ],
+ "photo": "photos/29269df8520fe7190e7243634daea0981364f9d0935fdf66405fd5de8045c27f.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8711564",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

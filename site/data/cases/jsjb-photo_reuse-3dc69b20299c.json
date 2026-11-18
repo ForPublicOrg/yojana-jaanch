@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-3dc69b20299c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Raikot",
+ "villages": [
+  "Umar Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d842b956e8d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5d842b956e8d8a57700c9190af9b25fe17add3bc396718bf10ed9d695e0474cf.jpg",
+ "offices": [
+  "BDPO Raikot"
+ ],
  "records": [
   {
    "record_id": "1197777",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Raikot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

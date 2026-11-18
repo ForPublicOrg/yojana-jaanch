@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-aafeb6572296",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Thuma"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4bdec16e402d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 6 minutes (2026-04-04 13:33:23 to 2026-04-04 13:38:37)."
+ ],
+ "photo": "photos/4bdec16e402d581932f3fa981c35c4cc227d950aded7a54227c4cbd33a2e4bbd.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4470748",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

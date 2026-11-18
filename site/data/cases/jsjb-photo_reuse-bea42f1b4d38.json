@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bea42f1b4d38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 22 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Lakh Waryah"
+ ],
+ "record_count": 22,
+ "reasons": [
+  "The same photo file (fingerprint 08436a305ca8) is attached to 22 different works in 1 village. A photo of one site cannot be evidence for 22 separate works.",
+  "The works are recorded as: Contour Trench (22).",
+  "All 22 works report the same GPS point (31.250119, 75.123236).",
+  "All 22 works started and ended on the same day (2026-05-14)."
+ ],
+ "photo": "photos/08436a305ca89e8fa3eedf871130ad5e5213d8f9d6de4b7761eec217d259e48a.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "9158914",
@@ -309,5 +329,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 68,
+ "needs_human_review": false
 }

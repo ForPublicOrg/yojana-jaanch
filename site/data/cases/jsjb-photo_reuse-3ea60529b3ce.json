@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3ea60529b3ce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Nanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6f0f9b5beebc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.48, 85.65).",
+  "The photo was uploaded 2 times within 4 seconds (2026-03-20 14:08:19 to 2026-03-20 14:08:23)."
+ ],
+ "photo": "photos/6f0f9b5beebcbae39cf2b52e4184b8151411d342845216827e30b2141c12da16.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4070553",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

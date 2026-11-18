@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cde78d18dfce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Puduppuliyampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 43b7dc90a68c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "All 2 works report the same GPS point (11.333468, 77.912894)."
+ ],
+ "photo": "photos/43b7dc90a68cce0687f63c35520b7fb05ea9480790fcf1d1abedee6d5e75b877.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9330881",
+   "village": "Puduppuliyampatti",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-06-03",
+   "end_date": "2025-02-04",
+   "lat": 11.333468,
+   "lon": 77.912894,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9343124",
+   "village": "Puduppuliyampatti",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2014-04-01",
+   "end_date": "2016-03-31",
+   "lat": 11.333468,
+   "lon": 77.912894,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

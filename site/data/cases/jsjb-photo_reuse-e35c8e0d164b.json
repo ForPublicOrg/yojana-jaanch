@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e35c8e0d164b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Garha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 68082b6625db) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 4 minutes (2026-04-05 11:50:03 to 2026-04-05 11:53:17)."
+ ],
+ "photo": "photos/68082b6625db9b43bf5884a501e1965ad562a296c6bf77e169baf9903208aad3.jpg",
+ "offices": [
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119558",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

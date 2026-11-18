@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a030214b05a0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Udaipurwati",
+ "villages": [
+  "Gura Dhahar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 587d965f5704) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.844361, 75.665283).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-30 13:26:18 to 2026-03-30 13:28:51)."
+ ],
+ "photo": "photos/587d965f57040d7aaec86098587c1b09a6dc7434658287ff63d8d96ed79870eb.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4356538",
+   "village": "Gura Dhahar",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-02-24",
+   "end_date": "2025-04-25",
+   "lat": 27.844361,
+   "lon": 75.665283,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  },
+  {
+   "record_id": "4356662",
+   "village": "Gura Dhahar",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2026-02-25",
+   "end_date": "2025-05-05",
+   "lat": 27.844361,
+   "lon": 75.665283,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

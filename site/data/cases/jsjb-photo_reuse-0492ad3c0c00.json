@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-0492ad3c0c00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Turkaulia"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 57c4e1266b81) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/57c4e1266b81c8bb1d30abd8e6c2ab769943d981f1e7a966f05f64b9f50be7d1.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4021878",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

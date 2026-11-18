@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf8693282805",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Bachhohi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6982b939bcc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (31.458995, 76.084187).",
+  "The photo was uploaded 2 times within 14 seconds (2026-04-28 11:48:55 to 2026-04-28 11:49:09)."
+ ],
+ "photo": "photos/b6982b939bcc14b1302a4fc85df2022db9c49275fa5b5e2e0c0d74bcc3c5db53.jpg",
+ "offices": [
+  "Senior Assistant Forest"
+ ],
  "records": [
   {
    "record_id": "6134571",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

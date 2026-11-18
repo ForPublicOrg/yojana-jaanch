@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-706297751b3c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Lalhandi",
+  "Sekha Klan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 80fe93ad7d92) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: Deputy Commissioner, JUNIOR ENGINEER.",
+  "These works are spread over 2 blocks: Baghapurana, Kot-Ise-Khan."
+ ],
+ "photo": "photos/80fe93ad7d92c16ff9566e6c02a343677d53330e1e7f79cc2f1b2a19a28b384a.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "JUNIOR ENGINEER"
+ ],
  "records": [
   {
    "record_id": "979004",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

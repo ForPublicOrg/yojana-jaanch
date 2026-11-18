@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0edaca5b0f98",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Nanpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0efa07253056) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.4338, 85.6685461).",
+  "The photo was uploaded 2 times within 3 minutes (2026-03-19 14:11:28 to 2026-03-19 14:13:50)."
+ ],
+ "photo": "photos/0efa072530563e9173bcea1ddcc2d6ef4e19b44def3988424d9a7e249cba3bad.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4044592",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-70c8dd3e61ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Giddar",
+  "Nathpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7656f7977daa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/7656f7977daaf8067fa8ee5d7194cc3dd1437e56dbdb26af2b0345a800c44c9e.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5063404",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

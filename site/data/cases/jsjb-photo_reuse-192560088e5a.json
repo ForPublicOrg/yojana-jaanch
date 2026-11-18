@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-192560088e5a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kolathukombai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 250e958a15c8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "The photo was uploaded 4 times within 15 minutes (2026-05-21 13:45:35 to 2026-05-21 13:59:53)."
+ ],
+ "photo": "photos/250e958a15c8019569b4091c32ff181bf868b5d20edae50fe0ac836d19638fbf.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "8680708",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

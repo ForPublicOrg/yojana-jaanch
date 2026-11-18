@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fd01244f4a6a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathy",
+ "villages": [
+  "Kodur",
+  "Pirandagam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2f5f47849586) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-02-28 18:16:14 to 2026-02-28 18:20:27)."
+ ],
+ "photo": "photos/2f5f4784958615729bfe012fc0e12c5d0774643ac0422d7c526a8b590796ea10.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3729686",
+   "village": "Pirandagam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-10",
+   "lat": 11.249996,
+   "lon": 78.031572,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  },
+  {
+   "record_id": "3729739",
+   "village": "Kodur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-10",
+   "lat": 11.256333,
+   "lon": 78.039401,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Paramathy"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

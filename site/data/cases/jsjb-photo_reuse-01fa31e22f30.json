@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-01fa31e22f30",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Kuari Madan",
+  "Mejar Ganj Malahi",
+  "Pachharwa"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint 795b1866c64d) is attached to 23 different works in 3 villages. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Village Pond (23)."
+ ],
+ "photo": "photos/795b1866c64d2c9f33fa9d14eb5d44a0e570e059c033ddaed98226a030ef9865.jpg",
+ "offices": [
+  "PO Majorganj"
+ ],
  "records": [
   {
    "record_id": "3875829",
@@ -323,5 +343,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 69,
+ "needs_human_review": false
 }

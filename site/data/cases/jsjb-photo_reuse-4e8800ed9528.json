@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4e8800ed9528",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bokhri",
+  "Terhia"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 07dd08f8c749) is attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Village Pond (6).",
+  "The photo was uploaded 6 times within 29 minutes (2026-04-03 16:31:44 to 2026-04-03 16:59:49)."
+ ],
+ "photo": "photos/07dd08f8c749f21d7447acfc72c0601d156701ccb8b96a7f56ec96c09dbdbbe5.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4449915",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

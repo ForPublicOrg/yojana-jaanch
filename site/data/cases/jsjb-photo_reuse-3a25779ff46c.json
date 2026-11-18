@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3a25779ff46c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Bhagwanpur"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 7e0a5433b203) is attached to 10 different works in 1 village. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10).",
+  "All 10 works report the same GPS point (31.361443, 75.337533).",
+  "All 10 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/7e0a5433b2030d7e6fe779badba18d49eafb4d138ac1c6a005189792baa053fb.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8703248",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 32,
+ "needs_human_review": false
 }

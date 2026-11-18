@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d4452b1aa0c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Kokri Buttran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d613c28dbafa) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.876027, 75.346623).",
+  "All 2 works started and ended on the same day (2026-05-13).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-13 11:35:20 to 2026-05-13 11:36:22)."
+ ],
+ "photo": "photos/d613c28dbafafc1dfe27aad9bcc0661f21759239fce1d528c88b861f2a1f3813.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "8865558",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

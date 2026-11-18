@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-564a0e7c0e09",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Hisampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f7fa419eaff9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.98658, 75.316498).",
+  "The photo was uploaded 4 times within 10 minutes (2026-05-25 17:48:35 to 2026-05-25 17:58:25)."
+ ],
+ "photo": "photos/f7fa419eaff945c35fe8c3b5641455d27b6b995d4f00ffed27e49ce1d6a9371e.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "1395029",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4a9b3a386684",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 8 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Majri Araian"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): fe9ef773721c on 6 works, 568d5bd43a2a on 2 works.",
+  "The works are recorded as: Contour Trench (8)."
+ ],
+ "photo": "photos/fe9ef773721c2f989a8d21bf5c60b7e3590241f52e364d60ca77b38c345d7a03.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4956383",
@@ -113,5 +133,21 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "fe9ef773721c2f989a8d21bf5c60b7e3590241f52e364d60ca77b38c345d7a03",
+   "records": 6
+  },
+  {
+   "sha256": "568d5bd43a2a8665297a6f9d796f7ed0b622f8273db88237b56363ebf0dd25c3",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-041ada405655"
  ]
 }

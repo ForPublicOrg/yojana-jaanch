@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-052752fa05e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Dhadhot Khurd",
+  "Doomoli Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 621852cc2794) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1).",
+  "All 2 works report the same GPS point (28.100173, 75.926609)."
+ ],
+ "photo": "photos/621852cc2794eb151ff3e62acd2deac32bbddc96b12dca0b554c34790f090114.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3887126",
+   "village": "Doomoli Khurd",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2024-05-24",
+   "end_date": "2026-03-17",
+   "lat": 28.100173,
+   "lon": 75.926609,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "14758665",
+   "village": "Dhadhot Khurd",
+   "structure_type": "Percolation Pond",
+   "created_by": "BDO",
+   "start_date": "2024-05-24",
+   "end_date": "2026-03-17",
+   "lat": 28.100173,
+   "lon": 75.926609,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

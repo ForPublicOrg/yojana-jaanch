@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-84daf426c909",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Alinagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a92fc49b2ee2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (25.9605, 76.12194).",
+  "The photo was uploaded 4 times within 10 seconds (2026-03-19 09:37:23 to 2026-03-19 09:37:33)."
+ ],
+ "photo": "photos/a92fc49b2ee296f8481c37df4907e34a046f356307d404aa81091c2b2347f3c4.jpg",
+ "offices": [
+  "AEN, UNIARA, WS DEPT."
+ ],
  "records": [
   {
    "record_id": "4034683",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

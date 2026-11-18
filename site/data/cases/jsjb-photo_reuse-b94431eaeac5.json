@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b94431eaeac5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Gedare",
+  "Kenkere"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e08594a83754) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/e08594a83754acf188ec848d6b4d695d2763a9aaf1df012b636a106797c398bd.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3106616",
+   "village": "Kenkere",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2022-02-10",
+   "end_date": "2023-04-05",
+   "lat": 13.573757,
+   "lon": 77.469883,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3121650",
+   "village": "Gedare",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2021-02-10",
+   "end_date": "2021-04-05",
+   "lat": 13.542211,
+   "lon": 77.476993,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

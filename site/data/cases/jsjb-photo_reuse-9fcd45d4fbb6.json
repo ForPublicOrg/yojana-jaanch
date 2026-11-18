@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9fcd45d4fbb6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Sigara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f0a062c6d7dc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "All 2 works report the same GPS point (25.306088, 82.983668).",
+  "The photo was uploaded 4 times within 22 seconds (2026-05-07 22:48:12 to 2026-05-07 22:48:34)."
+ ],
+ "photo": "photos/f0a062c6d7dcd459c24ab773f5d47e6e906bcef425a4bd9a8c91d68887bdc841.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "7842867",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

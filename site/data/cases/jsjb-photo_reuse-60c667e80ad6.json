@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-60c667e80ad6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Baragaon",
+  "Harpurwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7706fa784821) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 4 times within 16 minutes (2026-03-19 14:03:45 to 2026-03-19 14:18:59)."
+ ],
+ "photo": "photos/7706fa7848212c56040811208c65024739813934ef11b04b71d88e079b0c6293.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4044279",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

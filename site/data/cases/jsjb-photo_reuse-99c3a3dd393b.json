@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-99c3a3dd393b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Bahla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint af39ff9be042) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/af39ff9be04290f507c0cad60afc70512eb5c72c946a15607800074b561770bf.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3154185",
+   "village": "Bahla",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-03-10",
+   "end_date": "2025-07-08",
+   "lat": 27.765042,
+   "lon": 71.408998,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "7486744",
+   "village": "Bahla",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-02-02",
+   "end_date": "2025-04-16",
+   "lat": 27.77,
+   "lon": 71.41,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a6d2df35b671",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Sirsian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ef0e2881721a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 16 minutes (2026-04-05 17:30:20 to 2026-04-05 17:45:32)."
+ ],
+ "photo": "photos/ef0e2881721aa94b99dc864723d80fc9894b5fdf9cca3bf2ebb0bdbd5dd5882c.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4501399",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-014b3984f3be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Narainpur",
+  "Sirkian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b19249d68f07) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/b19249d68f07ac4c21e5a138d9371ad006f767e648546e0318453137203cdbaa.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "8769568",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

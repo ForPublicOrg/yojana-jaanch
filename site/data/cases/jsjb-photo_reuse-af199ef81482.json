@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-af199ef81482",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Vembaneri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 37c21148641a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.659487, 77.84468).",
+  "The photo was uploaded 2 times within 5 minutes (2025-07-01 13:40:05 to 2025-07-01 13:44:21)."
+ ],
+ "photo": "photos/37c21148641a2cf74887f2ceabbb217f30d3edcdd7770f82317e93e9a972ae6f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349650",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

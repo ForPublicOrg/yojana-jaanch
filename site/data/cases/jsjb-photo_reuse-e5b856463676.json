@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e5b856463676",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Devanankurichi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6c01e9c12be5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.390336, 77.853889)."
+ ],
+ "photo": "photos/6c01e9c12be58592967693bc06dffd4ada4ee94b8093d56020546b7e8141555e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9330751",
+   "village": "Devanankurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-05",
+   "end_date": "2025-05-20",
+   "lat": 11.390336,
+   "lon": 77.853889,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9341851",
+   "village": "Devanankurichi",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-04-01",
+   "end_date": "2022-03-31",
+   "lat": 11.390336,
+   "lon": 77.853889,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

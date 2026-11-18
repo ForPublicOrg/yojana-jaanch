@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8941775e5d41",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Kurukkupatti (Ct)"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 025defc2e691) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Soak Pit (8).",
+  "All 8 works report the same GPS point (11.68, 77.98)."
+ ],
+ "photo": "photos/025defc2e69182052384fb5ec7b10d922df6f833f699b4134960efa7617d3148.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345426",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

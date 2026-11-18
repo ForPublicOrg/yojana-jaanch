@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-598f2be6c7e4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Banaul",
+  "Madsudanpur Dumri Mahisautha",
+  "Patluka",
+  "Pota Urf Tajpur Phaksia Bharthi"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint c4eabfeee0dc) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6).",
+  "The entries were made by 2 different offices: BDO Bokhra, BDO Runnisaidpur.",
+  "These works are spread over 2 blocks: Bokhra, Runnisaidpur."
+ ],
+ "photo": "photos/c4eabfeee0dc847be90f5fc90ccb7cb4d888aff6140542e8bb0b5a8dfd12da97.jpg",
+ "offices": [
+  "BDO Bokhra",
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4397406",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

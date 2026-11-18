@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5a8190617ecb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Haripura",
+  "Sandera"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3794a7b757ab) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (26.359152, 75.647902)."
+ ],
+ "photo": "photos/3794a7b757ab86c395c6fd84c68c671c328edd735943ad18c398a510c06f13ed.jpg",
+ "offices": [
+  "Superintending Engineer"
+ ],
  "records": [
   {
    "record_id": "4052217",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

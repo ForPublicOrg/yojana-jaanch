@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a10f0be8cd7d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Chikkakadiganahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4f16fd8d1750) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (13.234, 77.43202).",
+  "The photo was uploaded 4 times within 11 seconds (2025-12-14 19:54:12 to 2025-12-14 19:54:23)."
+ ],
+ "photo": "photos/4f16fd8d1750e1983c27cdb1edbe7f06e3bd38794436b5f8a2104b86483370c5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3082118",
+   "village": "Chikkakadiganahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-09-08",
+   "lat": 13.234,
+   "lon": 77.43202,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3082119",
+   "village": "Chikkakadiganahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-09-08",
+   "lat": 13.234,
+   "lon": 77.43202,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

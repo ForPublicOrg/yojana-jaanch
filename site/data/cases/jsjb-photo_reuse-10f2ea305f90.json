@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-10f2ea305f90",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Bagga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 91f98a87ec60) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.6339845, 74.8722589).",
+  "The photo was uploaded 4 times within 1 second (2026-05-07 07:01:34 to 2026-05-07 07:01:35)."
+ ],
+ "photo": "photos/91f98a87ec601f34a8a7882b1876b6fde5392a24963825ef5f558cc28423a558.jpg",
+ "offices": [
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7663621",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

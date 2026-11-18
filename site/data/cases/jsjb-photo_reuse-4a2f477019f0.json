@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4a2f477019f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Dehlon",
+  "Dharor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2b10b9338dbe) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (30.831507, 75.954894).",
+  "The photo was uploaded 2 times within 4 minutes (2026-04-23 16:19:04 to 2026-04-23 16:22:16)."
+ ],
+ "photo": "photos/2b10b9338dbe5fa78bcc1d0837684d2a9831e8db9ea5624e455dc35c883dd9d0.jpg",
+ "offices": [
+  "DEO(S)"
+ ],
  "records": [
   {
    "record_id": "5339341",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

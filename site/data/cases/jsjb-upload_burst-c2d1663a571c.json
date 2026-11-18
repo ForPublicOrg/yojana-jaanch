@@ -1,5 +1,30 @@
 {
  "id": "jsjb-upload_burst-c2d1663a571c",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "19 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Avadattur (Ct)",
+  "Bairoji",
+  "Katteri",
+  "Minnampalli",
+  "Ponnarampatti",
+  "Veppilaipatti"
+ ],
+ "record_count": 22,
+ "reasons": [
+  "19 different photos for 22 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-02 16:23:20 to 2025-07-02 16:33:13.",
+  "That is about one work every 27 seconds on average.",
+  "The works are in 6 villages: Avadattur (Ct), Bairoji, Katteri, Minnampalli, Ponnarampatti, Veppilaipatti.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Nangavalli, Sankari, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9350029",
@@ -198,6 +223,20 @@
    "block": "Valapady"
   },
   {
+   "record_id": "9353103",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-28",
+   "lat": 11.5714,
+   "lon": 78.0611,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9353104",
    "village": "Katteri",
    "structure_type": "Other",
@@ -268,6 +307,20 @@
    "block": "Sankari"
   },
   {
+   "record_id": "9353110",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-10-04",
+   "lat": 11.5721,
+   "lon": 78.0624,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9353111",
    "village": "Ponnarampatti",
    "structure_type": "Percolation Pond",
@@ -281,5 +334,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

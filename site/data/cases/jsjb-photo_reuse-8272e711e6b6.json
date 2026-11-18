@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8272e711e6b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Abul Khair"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce99e8b5655a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-12)."
+ ],
+ "photo": "photos/ce99e8b5655ae957fe0690f48c699018cac9f1c4bdf2fc9ec9d8581bd1421bef.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8910865",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

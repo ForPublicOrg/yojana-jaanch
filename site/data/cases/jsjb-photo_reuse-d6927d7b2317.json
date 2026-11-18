@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d6927d7b2317",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Reona Bhola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1901b02be3a0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.54, 76.46).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-07, 2026-04-08."
+ ],
+ "photo": "photos/1901b02be3a00e543211d5b2004080d006dcbbfac57ddd7473d006eaba1e063a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4896556",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

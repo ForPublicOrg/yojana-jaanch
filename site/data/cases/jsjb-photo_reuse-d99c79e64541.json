@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d99c79e64541",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Dhaki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c012b9e76154) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.12, 75.58).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-07 23:36:57 to 2026-05-07 23:38:41)."
+ ],
+ "photo": "photos/c012b9e76154f3c63e856ecb3e1bad4687d1776bf80f8f728775d3cc60e55573.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7844192",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

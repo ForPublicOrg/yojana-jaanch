@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-d0b8dea96cef",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Bhanta Bari",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Bhanta Bari"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Bhanta Bari report exactly the same GPS point (26.5612004, 85.755289).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (8).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Chorout"
+ ],
  "records": [
   {
    "record_id": "4436980",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a84a7e7f8911",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Machhiwara",
+ "villages": [
+  "Burj Powat",
+  "Chak Lohat",
+  "Chakli Manga",
+  "Jassowal"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 58835dc38bee) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/58835dc38beeb9aceceda53012d14a0ef65eb69767e4ea7b5dd190b093b9dce4.jpg",
+ "offices": [
+  "BDPO Machiwara"
+ ],
  "records": [
   {
    "record_id": "1050894",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Machhiwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

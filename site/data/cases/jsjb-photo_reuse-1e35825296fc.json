@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-1e35825296fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Dhoondiya",
+  "Dhoosri",
+  "Dodwari",
+  "Dotana",
+  "Lank"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 89a978491964) is attached to 9 different works in 5 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Other (8), Soak Pit (1)."
+ ],
+ "photo": "photos/89a9784919649d0bbc7730bf8a82d69372b638c0abcf14fd62110b64e2a06b14.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "3577457",
@@ -127,5 +149,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

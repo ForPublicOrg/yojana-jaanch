@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b2a891c508c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Pavithiram",
+  "Thusur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aea871a1e08f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/aea871a1e08f0d29f36710247b0bc36dd18392a6640dd7984751f9f5c9ff81c0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3432552",
+   "village": "Thusur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-17",
+   "end_date": "2024-06-22",
+   "lat": 11.200135,
+   "lon": 78.229332,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "3440259",
+   "village": "Pavithiram",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2022-02-18",
+   "end_date": "2023-02-17",
+   "lat": 11.140085,
+   "lon": 78.364338,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

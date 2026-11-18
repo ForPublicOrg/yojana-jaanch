@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-cdf86977558c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Betaha",
+  "Bhagwatipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 65a1a505c09f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/65a1a505c09f89a35e86e9207ee2ca3665744f4182926fd5b7de0e72a3c82b75.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4507245",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

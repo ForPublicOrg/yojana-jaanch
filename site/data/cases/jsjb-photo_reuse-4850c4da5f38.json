@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-4850c4da5f38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pallipalayam",
+ "villages": [
+  "Kokkarayanpettai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 077dc1441ba6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (1), Rooftop Water Harvesting Structure (1).",
+  "All 2 works report the same GPS point (11.326786, 77.805912)."
+ ],
+ "photo": "photos/077dc1441ba60f2bf342d8a403aa8d6d4a5fe127244a1699bcba88c6a3ee99df.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9337788",
+   "village": "Kokkarayanpettai",
+   "structure_type": "Recharge Shaft",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2019-10-03",
+   "end_date": "2019-11-19",
+   "lat": 11.326786,
+   "lon": 77.805912,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Pallipalayam"
+  },
+  {
+   "record_id": "9338101",
+   "village": "Kokkarayanpettai",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-10-17",
+   "end_date": "2024-10-25",
+   "lat": 11.326786,
+   "lon": 77.805912,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Pallipalayam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

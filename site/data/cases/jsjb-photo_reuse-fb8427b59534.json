@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-fb8427b59534",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Anhari Ujiari",
+  "Asogi",
+  "Azrakbe Posua Patania",
+  "Bakhri",
+  "Batraulia",
+  "Bulakipur",
+  "Ijrahia",
+  "Riga"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 0e25739b6ef6) is attached to 8 different works in 8 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (6), Nala Bund (2)."
+ ],
+ "photo": "photos/0e25739b6ef6fa29fb523789a1d97c5b2494ca5262723705ba3810150b1793ea.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4780791",
@@ -113,5 +138,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

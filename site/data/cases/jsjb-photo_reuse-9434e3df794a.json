@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9434e3df794a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Chikna Chak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 83deceadd9fd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5767761, 85.7367809)."
+ ],
+ "photo": "photos/83deceadd9fd3b1553aa44746e1cc21c6789fcfa640bc0e1892285d7683ebe64.jpg",
+ "offices": [
+  "BDO Chorout"
+ ],
  "records": [
   {
    "record_id": "3906966",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

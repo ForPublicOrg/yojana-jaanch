@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b6ae615ba246",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Nasirewala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c0fe1dd7801b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-12).",
+  "The photo was uploaded 3 times within 3 minutes (2026-05-13 06:39:57 to 2026-05-13 06:42:42)."
+ ],
+ "photo": "photos/c0fe1dd7801b3bd107ae361c2894f2def1570e311ca812702b5d42f7f2d4a19e.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "8781920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

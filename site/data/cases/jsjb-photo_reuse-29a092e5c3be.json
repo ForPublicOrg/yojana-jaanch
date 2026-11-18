@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-29a092e5c3be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Sangasi",
+  "Surjanpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 90ce2a13977f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 13 minutes (2026-03-26 13:09:19 to 2026-03-26 13:21:29)."
+ ],
+ "photo": "photos/90ce2a13977f414946974c2a7448e8ac862ecea69153034afe19366237b7df92.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4270080",
+   "village": "Surjanpura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-17",
+   "end_date": "2025-12-17",
+   "lat": 27.7405408,
+   "lon": 75.3967,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4270671",
+   "village": "Sangasi",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-11",
+   "end_date": "2026-01-13",
+   "lat": 27.994121,
+   "lon": 75.268967,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

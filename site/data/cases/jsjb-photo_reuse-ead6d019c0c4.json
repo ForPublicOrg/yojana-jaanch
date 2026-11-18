@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-ead6d019c0c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 54 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Bundala",
+  "Butari",
+  "Kaler Ghuman",
+  "Lohgarh",
+  "Meharbanpura",
+  "Narinjan Pur Fattuwal",
+  "Nawan Kot",
+  "Padiana"
+ ],
+ "record_count": 54,
+ "reasons": [
+  "The same photo file (fingerprint 1902c8de54f1) is attached to 54 different works in 8 villages. A photo of one site cannot be evidence for 54 separate works.",
+  "The works are recorded as: Other (54).",
+  "These works are spread over 2 blocks: Jandiala Guru, Rayya."
+ ],
+ "photo": "photos/1902c8de54f1b3b6fa822e831e1d8211743399f83a502f3ea952a56004dbffc1.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "6245938",
@@ -757,5 +783,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 162,
+ "needs_human_review": false
 }

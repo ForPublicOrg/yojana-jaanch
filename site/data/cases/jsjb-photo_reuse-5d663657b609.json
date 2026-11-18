@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5d663657b609",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Surajgarh",
+ "villages": [
+  "Bas Gokal",
+  "Farat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4b1818587a6b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (1), Tank (1)."
+ ],
+ "photo": "photos/4b1818587a6b38a8a6be2f908988da3898001b6f936b0e3f388346e693ac682a.jpg",
+ "offices": [
+  "Aen"
+ ],
+ "records": [
+  {
+   "record_id": "3705863",
+   "village": "Bas Gokal",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Aen",
+   "start_date": "2026-01-01",
+   "end_date": "2026-03-15",
+   "lat": 28.36914,
+   "lon": 75.68099,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "3707809",
+   "village": "Farat",
+   "structure_type": "Tank",
+   "created_by": "Aen",
+   "start_date": "2025-12-25",
+   "end_date": "2026-03-15",
+   "lat": 28.3779,
+   "lon": 75.74315,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

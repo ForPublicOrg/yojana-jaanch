@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1566c9f71c55",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Faridpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 35d96da7f2c6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (32.149305, 75.34652)."
+ ],
+ "photo": "photos/35d96da7f2c611aa78f50b510b0c5a5557c55e43caa55fcd24d6815faf6c8e15.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "1082253",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

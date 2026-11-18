@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-16d54ea1b2c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Chak Urf Arasi Rakbe Sherpur",
+  "Pupri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b347ff0da95) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5040416, 85.7218811)."
+ ],
+ "photo": "photos/3b347ff0da953c15668d8ececac68d2cb96021f928447a4f39356ef61d86772c.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "4507160",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

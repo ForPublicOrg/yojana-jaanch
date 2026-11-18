@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-70f9d95d0e3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Makado",
+  "Silarpuri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 32034245e142) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/32034245e142a562cfdd8fbba82192ed057abecf8b4671f87ab80782a81dbcda.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3983388",
+   "village": "Makado",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2021-07-21",
+   "end_date": "2026-03-17",
+   "lat": 28.095927,
+   "lon": 75.799245,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "8454045",
+   "village": "Silarpuri",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2021-11-02",
+   "end_date": "2026-02-05",
+   "lat": 28.142788,
+   "lon": 75.69672,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

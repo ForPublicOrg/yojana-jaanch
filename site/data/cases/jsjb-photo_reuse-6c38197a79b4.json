@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6c38197a79b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Sudhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a3cb1a64aae8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.6035589, 75.2192212).",
+  "The photo was uploaded 2 times within 10 seconds (2026-05-18 16:18:06 to 2026-05-18 16:18:16)."
+ ],
+ "photo": "photos/a3cb1a64aae8cf884c4eaaef00314528793cdc60598979722cfb6ec306eb13e3.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "9972862",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

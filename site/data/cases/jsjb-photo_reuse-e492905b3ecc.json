@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-e492905b3ecc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Tarkalua",
+ "villages": [
+  "Mathura Chhapar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8224dab01406) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.643116, 83.867249).",
+  "The photo was uploaded 4 times within 6 minutes (2026-03-21 19:54:20 to 2026-03-21 19:59:21)."
+ ],
+ "photo": "photos/8224dab0140685351eca263f155cf3228ac1ccc4339670d8a5a3645dd9b4b60e.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4099990",
+   "village": "Mathura Chhapar",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-07-02",
+   "end_date": "2025-07-17",
+   "lat": 26.643116,
+   "lon": 83.867249,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Tarkalua"
+  },
+  {
+   "record_id": "4100052",
+   "village": "Mathura Chhapar",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-07-02",
+   "end_date": "2025-07-17",
+   "lat": 26.643116,
+   "lon": 83.867249,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Tarkalua"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-422986aa1874",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Qadianwali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4c858f86c3b9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.096215, 75.297275).",
+  "All 3 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/4c858f86c3b9a2152a7399716b7e9e43775a6e553da4bef8d36a7c5c2cda0b1b.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7837688",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

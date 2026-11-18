@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-70b861b47dc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Fazilka",
+ "villages": [
+  "Chak Tahli Wala",
+  "Theh Qalandar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a2cc1f9348e9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: BDPO jalalabad, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Fazilka, Jalalabad."
+ ],
+ "photo": "photos/a2cc1f9348e9ba1e13bb18b5acb10da2c2b05054b15df35f0913ac67055d3c77.jpg",
+ "offices": [
+  "BDPO jalalabad",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "990913",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

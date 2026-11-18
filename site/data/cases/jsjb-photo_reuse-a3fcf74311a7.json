@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a3fcf74311a7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Mari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 00fd9767f909) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-12 12:12:27 to 2026-02-12 12:13:35)."
+ ],
+ "photo": "photos/00fd9767f9098332275d046072e3ee4a9b343ef5dc11a91f8a41e9c6b2156ebb.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1043718",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

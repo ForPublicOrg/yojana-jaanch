@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3753ca1fabc8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Bhaini Kima",
+  "Bhaini Nathu",
+  "Bhaniala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint cb1f2465d705) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/cb1f2465d705a5cf202e38fe7ade2f04e2775bbf971af388a03fc1183b5e11f9.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1253389",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-107a90239707",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Jairampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d6b4532fb95) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (15.2224455, 83.45566).",
+  "The photo was uploaded 2 times within 11 seconds (2026-01-28 15:37:46 to 2026-01-28 15:37:57)."
+ ],
+ "photo": "photos/1d6b4532fb954c065d15a8c459c9b453297408306f5bd1478b677e02050e0dbb.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3348227",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

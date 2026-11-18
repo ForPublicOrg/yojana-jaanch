@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5ad4a73177ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Bagulari"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 22885b924607) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/22885b924607ad52bb53c9b68222f5cd3e268c2b44a10e52aa34356a2d41d4d3.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11794484",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

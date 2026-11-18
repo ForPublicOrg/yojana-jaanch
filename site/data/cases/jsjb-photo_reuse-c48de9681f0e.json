@@ -1,0 +1,129 @@
+{
+ "id": "jsjb-photo_reuse-c48de9681f0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Chadulapura",
+  "Kadaseegenahalli",
+  "Koduru",
+  "Kondenahalli",
+  "Mustoor"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.008 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): dd31dbebad93 on 5 works, dfc213853ea7 on 1 work.",
+  "The works are recorded as: Contour Trench (4), Open Well Recharge / Dug Well (1), Other (1)."
+ ],
+ "photo": "photos/dd31dbebad9323e7bc318fa161831f706dca64de5faff550c0fa0a2407e363f5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3058729",
+   "village": "Kadaseegenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-18",
+   "end_date": "2025-12-02",
+   "lat": 13.375929,
+   "lon": 77.800222,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3059502",
+   "village": "Kadaseegenahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-18",
+   "end_date": "2025-12-02",
+   "lat": 13.375929,
+   "lon": 77.800222,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3085412",
+   "village": "Kondenahalli",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-03-07",
+   "end_date": "2024-09-12",
+   "lat": 23.2,
+   "lon": 78.12,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3122619",
+   "village": "Chadulapura",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-12-31",
+   "lat": 13.33144,
+   "lon": 77.55432,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "8299118",
+   "village": "Koduru",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-01-12",
+   "end_date": "2025-12-10",
+   "lat": 13.57136786,
+   "lon": 77.82485256,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "8456982",
+   "village": "Mustoor",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-12",
+   "end_date": "2025-09-24",
+   "lat": 13.72301,
+   "lon": 77.42179,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "dd31dbebad9323e7bc318fa161831f706dca64de5faff550c0fa0a2407e363f5",
+   "records": 5
+  },
+  {
+   "sha256": "dfc213853ea733f11f18155e2876ae87da80502b6678051c3b414c0788b981a4",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-b45c3d2a3815"
+ ]
+}

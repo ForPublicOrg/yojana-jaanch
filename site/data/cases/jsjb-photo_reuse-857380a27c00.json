@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-857380a27c00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Devarajapalli",
+  "Sujanampalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4c8f3ecf6627) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/4c8f3ecf66274bb2b23565261647a49ea2d99905649382d0e5c7fe85c1c4116d.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3353117",
+   "village": "Sujanampalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-31",
+   "end_date": "2025-11-10",
+   "lat": 13.783488,
+   "lon": 77.970506,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3354388",
+   "village": "Devarajapalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-31",
+   "end_date": "2025-10-10",
+   "lat": 13.784644,
+   "lon": 77.927299,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

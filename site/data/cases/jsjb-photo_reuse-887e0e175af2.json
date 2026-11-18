@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-887e0e175af2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Alad Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 057c039350c2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.25, 76.233002).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-17 11:16:09 to 2026-04-17 11:17:50)."
+ ],
+ "photo": "photos/057c039350c29ffca42a468e524a066adf94ad87eef36dbd492c39a39883de86.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5002298",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

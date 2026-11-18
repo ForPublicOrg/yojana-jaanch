@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e09a476d26b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Nirmullikuttai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b2562169bc65) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.711904, 78.353722).",
+  "The photo was uploaded 6 times within 4 minutes (2026-05-20 17:33:35 to 2026-05-20 17:37:07)."
+ ],
+ "photo": "photos/b2562169bc657fffbb60dfa89d086d8428ee77ab8f5ac07b410b8aec22ad1782.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10419283",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

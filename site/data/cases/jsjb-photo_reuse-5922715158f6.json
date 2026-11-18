@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5922715158f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Magar Mudian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 66854e8967e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/66854e8967e8aeef7e2974bea9c7b4483a1b3763699c96942126eb0f94ef22ab.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7956540",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

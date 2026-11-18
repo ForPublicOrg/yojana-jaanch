@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d0397153e425",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "R.Pudupatti",
+ "villages": [
+  "R.Pudupatti (TP) - Ward No.11",
+  "R.Pudupatti (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 07f303566fe3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/07f303566fe33804a3db24d7c3c3874f053aa2e6e71e84b6c0eaae41f8958e8e.jpg",
+ "offices": [
+  "EO RPUDUPATTI"
+ ],
+ "records": [
+  {
+   "record_id": "3713880",
+   "village": "R.Pudupatti (TP) - Ward No.11",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO RPUDUPATTI",
+   "start_date": "2025-06-11",
+   "end_date": "2025-06-12",
+   "lat": 11.495107,
+   "lon": 78.27052,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "R.Pudupatti"
+  },
+  {
+   "record_id": "3722368",
+   "village": "R.Pudupatti (TP) - Ward No.13",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO RPUDUPATTI",
+   "start_date": "2025-06-09",
+   "end_date": "2025-06-13",
+   "lat": 11.494983,
+   "lon": 78.270835,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "R.Pudupatti"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

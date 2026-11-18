@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c08668915bfd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Alsisar",
+ "villages": [
+  "Badet"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint df6c17790b6a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-03-26 10:39:14 to 2026-03-26 10:41:15)."
+ ],
+ "photo": "photos/df6c17790b6a8a1649206410e30b6c605cf2190d385070242c408c197b8e3cdc.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4263615",
+   "village": "Badet",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.3658054,
+   "lon": 75.1719163,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
+   "record_id": "4263655",
+   "village": "Badet",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-07",
+   "lat": 28.3658489,
+   "lon": 75.172036,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

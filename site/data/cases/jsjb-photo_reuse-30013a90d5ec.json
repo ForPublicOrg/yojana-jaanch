@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-30013a90d5ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Mangalapuram",
+  "Perappansolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ed46bd664d9a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.535084, 78.381219)."
+ ],
+ "photo": "photos/ed46bd664d9ab662e009f81f3fc2898c62420167bde639c4c967d4ca04433bd7.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "10648430",
+   "village": "Mangalapuram",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-12-07",
+   "end_date": "2025-03-07",
+   "lat": 11.535084,
+   "lon": 78.381219,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "10651958",
+   "village": "Perappansolai",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-10-19",
+   "end_date": "2024-12-07",
+   "lat": 11.535084,
+   "lon": 78.381219,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

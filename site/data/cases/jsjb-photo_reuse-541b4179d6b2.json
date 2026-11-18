@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-541b4179d6b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Kusumari",
+  "Pakri",
+  "Rewasi Maksudpur",
+  "Sirahi",
+  "Sonar"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint fd2f55bf2588) is attached to 9 different works in 5 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Village Pond (8), Recharge Pit (1)."
+ ],
+ "photo": "photos/fd2f55bf25882465b5fde68731c94ee802e337c7e4a0f61c9a6f8b2b196db99c.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3855577",
@@ -127,5 +149,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

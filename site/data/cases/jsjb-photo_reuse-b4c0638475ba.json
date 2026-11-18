@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b4c0638475ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Motooka"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf91910124e9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (26.24888889, 75.87472222).",
+  "The photo was uploaded 4 times within 14 minutes (2026-05-26 12:38:44 to 2026-05-26 12:52:21)."
+ ],
+ "photo": "photos/cf91910124e945d12adeebec11d95679e28990f7ac3a5124aff12a301b32ace1.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12922610",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

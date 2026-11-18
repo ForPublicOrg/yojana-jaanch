@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7d3719cc516b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Khera Malooka Nagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c6777d63ee82) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.197655, 75.4204517).",
+  "The entries were made by 2 different offices: JEN Panchayat Raj Malpura, Jen."
+ ],
+ "photo": "photos/c6777d63ee823833eb4272e29e8d6c7976c3e9427ec3c75c756a2dabfbf55b48.jpg",
+ "offices": [
+  "JEN Panchayat Raj Malpura",
+  "Jen"
+ ],
  "records": [
   {
    "record_id": "3560682",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

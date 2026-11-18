@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5d15bab33c07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Dadwan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70a30332ba45) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "The entries were made by 2 different offices: APO Kalanaur, Apo Dhariwal."
+ ],
+ "photo": "photos/70a30332ba456ca8efd3969db3c38c0548735a460c4f4b2edcd046538f434f2f.jpg",
+ "offices": [
+  "APO Kalanaur",
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "7341736",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

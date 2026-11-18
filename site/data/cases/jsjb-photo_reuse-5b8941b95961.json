@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5b8941b95961",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Valappurnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 24ea3cbaa6c4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (11.284802, 78.398311)."
+ ],
+ "photo": "photos/24ea3cbaa6c4670a360fd635c98d0b2a37f930001ea5893bd02780dd071c30aa.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332887",
+   "village": "Valappurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-17",
+   "end_date": "2025-06-10",
+   "lat": 11.284802,
+   "lon": 78.398311,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9340064",
+   "village": "Valappurnadu",
+   "structure_type": "Check Dam",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-07-06",
+   "lat": 11.284802,
+   "lon": 78.398311,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

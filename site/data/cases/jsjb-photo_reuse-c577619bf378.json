@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-c577619bf378",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Manjakuttai",
+  "Valavandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9b3c5d43d754) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/9b3c5d43d75440a8b2557047dfbd214a7bc34d67724442f38b0e58382940ce64.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "9346945",
+   "village": "Manjakuttai",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2024-08-08",
+   "end_date": "2025-06-12",
+   "lat": 11.827343,
+   "lon": 78.23271,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "9356431",
+   "village": "Valavandi",
+   "structure_type": "Percolation Pond",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2024-09-19",
+   "end_date": "2025-08-14",
+   "lat": 11.8007152,
+   "lon": 78.2497102,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

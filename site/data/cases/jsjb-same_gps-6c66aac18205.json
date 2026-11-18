@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-6c66aac18205",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Anwa",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Anwa"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Anwa report exactly the same GPS point (25.803705, 75.603622).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (4), Village Pond (1).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "11955409",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

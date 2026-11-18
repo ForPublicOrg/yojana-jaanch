@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-8c30cb637068",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Fatehgarh",
+ "villages": [
+  "Bhiyasar",
+  "Dawara",
+  "Rawri Chak"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 060d87c23b2c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Open Well Recharge / Dug Well (1).",
+  "The photo was uploaded 3 times within 3 minutes (2025-12-23 12:48:27 to 2025-12-23 12:50:51).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/060d87c23b2c35df52374d08dbc0082e477a274281e09cbf9ba25cb324d5ec69.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3144422",
+   "village": "Rawri Chak",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-07-02",
+   "end_date": "2025-07-12",
+   "lat": 26.4519,
+   "lon": 71.16078,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "3144484",
+   "village": "Dawara",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-07-11",
+   "end_date": "2025-07-25",
+   "lat": 26.7805,
+   "lon": 71.326,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "8616895",
+   "village": "Bhiyasar",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-06-05",
+   "end_date": "2025-07-18",
+   "lat": 26.4510709,
+   "lon": 71.1634914,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

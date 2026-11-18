@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3c5c05756027",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Seepura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 12bb49cfcf85) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (26.503209, 76.069544).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-31 22:04:03 to 2026-05-31 22:09:07)."
+ ],
+ "photo": "photos/12bb49cfcf85e08e18f5e4017d84b692b0716c8342d75b2754e2e2ce5b63ec0c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "16454325",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

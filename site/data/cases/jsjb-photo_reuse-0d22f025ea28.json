@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0d22f025ea28",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Dana Romana",
+  "Sangu Romana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e91568788255) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.6187559, 74.67921133)."
+ ],
+ "photo": "photos/e91568788255843001d84d6ac4eeec45759f220901448606cd00107603a31e12.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "990062",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-356ba082be99",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Bhotna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 59c216505863) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (30.484566, 75.4455885).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-23 15:32:23 to 2026-05-23 15:34:13)."
+ ],
+ "photo": "photos/59c216505863d87205f8b87e4023b62d6bc25d282890fbcd8199831a27b7b7b6.jpg",
+ "offices": [
+  "JE Makhan Singh"
+ ],
  "records": [
   {
    "record_id": "11675051",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

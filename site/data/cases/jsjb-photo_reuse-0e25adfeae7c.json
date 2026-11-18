@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0e25adfeae7c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Naibasti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d3a5421a4863) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "All 2 works report the same GPS point (25.2053, 82.595)."
+ ],
+ "photo": "photos/d3a5421a48638a04c8736f5dfce8712972e12e99184ddcda17fecf21c43219c1.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "7830628",
@@ -29,5 +48,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

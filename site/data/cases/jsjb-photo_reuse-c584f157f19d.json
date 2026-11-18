@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c584f157f19d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Dhanapur",
+  "Jalalpur",
+  "Marui",
+  "Paniyara"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2ea2745cc6cd) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1), Soak Pit (1)."
+ ],
+ "photo": "photos/2ea2745cc6cd22b54ff2edbe68666f984ca3dfe81e1c0cdc7a7c7c92cf3ad631.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1947705",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

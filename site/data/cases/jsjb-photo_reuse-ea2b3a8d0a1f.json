@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ea2b3a8d0a1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Mandawa",
+ "villages": [
+  "Phooskhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d6db13416048) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.9986, 75.1977)."
+ ],
+ "photo": "photos/d6db134160484b135c71b54b97c5225132ac6bf9f1fddd2aac04a6379c818343.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3866323",
+   "village": "Phooskhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-04",
+   "end_date": "2025-12-18",
+   "lat": 27.9986,
+   "lon": 75.1977,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "3885203",
+   "village": "Phooskhani",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-07",
+   "end_date": "2025-08-01",
+   "lat": 27.9986,
+   "lon": 75.1977,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

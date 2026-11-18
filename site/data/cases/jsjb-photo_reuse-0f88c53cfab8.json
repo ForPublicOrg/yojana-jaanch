@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0f88c53cfab8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Auraon",
+  "Babatpur",
+  "Jathi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 26da7cb08a61) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (5)."
+ ],
+ "photo": "photos/26da7cb08a61ef77cdb7223d1c9162b15f0e0a4a898a2849f2dc28fe5ea2ecd9.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3333028",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

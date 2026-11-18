@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7ed5998eb1ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Islampura",
+  "Panwar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 61306f717dbb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "These works are spread over 2 blocks: Deoli, Todaraisingh."
+ ],
+ "photo": "photos/61306f717dbb21ab80a787ef24e4a8ef1c672ce2dacefc38e196c0d5646e4b43.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4247361",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

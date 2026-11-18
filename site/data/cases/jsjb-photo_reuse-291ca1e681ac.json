@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-291ca1e681ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Peepli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 54179d7d0f9a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 14 minutes (2026-03-27 11:40:39 to 2026-03-27 11:53:52)."
+ ],
+ "photo": "photos/54179d7d0f9a39941184884b182e11a2d31cc72b2353f6f8085c4b86cc5d3e6a.jpg",
+ "offices": [
+  "AAO"
+ ],
+ "records": [
+  {
+   "record_id": "4290397",
+   "village": "Peepli",
+   "structure_type": "Other",
+   "created_by": "AAO",
+   "start_date": "2026-01-22",
+   "end_date": "2026-01-30",
+   "lat": 28.432305,
+   "lon": 75.722432,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4290970",
+   "village": "Peepli",
+   "structure_type": "Other",
+   "created_by": "AAO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-06",
+   "lat": 28.416115,
+   "lon": 75.717957,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

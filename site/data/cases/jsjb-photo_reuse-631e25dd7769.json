@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-631e25dd7769",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Kuhara Bujurg"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 5613545b7363) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (4).",
+  "All 4 works report the same GPS point (26.129488, 75.231311)."
+ ],
+ "photo": "photos/5613545b7363a6fe338fdc16713026be2a59599a338d03b3472590fdf904871c.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "14810415",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

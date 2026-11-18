@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c45c1e683374",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Dewa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 54be56c98236) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-05-30 20:22:22 to 2026-05-30 20:28:30)."
+ ],
+ "photo": "photos/54be56c9823620aff1704f600587e8131b515fbde2910ee9306ee909c5c3a890.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15216572",
+   "village": "Dewa",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2023-08-15",
+   "end_date": "2023-08-20",
+   "lat": 27.177969,
+   "lon": 70.003708,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "15218062",
+   "village": "Dewa",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2023-08-15",
+   "end_date": "2023-08-20",
+   "lat": 27.177969,
+   "lon": 71.003708,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

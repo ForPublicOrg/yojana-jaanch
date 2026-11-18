@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-eb46dbad76d9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Dangchhekuri",
+  "Keroli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a06446fba523) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Sub Engineer, Sub engineer."
+ ],
+ "photo": "photos/a06446fba5233fbe1f4b8225e9292e916134f807f07aef334fe85d6b3666b8a5.jpg",
+ "offices": [
+  "Sub Engineer",
+  "Sub engineer"
+ ],
  "records": [
   {
    "record_id": "14101941",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

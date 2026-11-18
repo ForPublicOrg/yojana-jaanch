@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-b0bef1574773",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Belganj",
+  "Jamua",
+  "Nandwara",
+  "Pachtaki Jadu",
+  "Pachtaki Ram",
+  "Parsauni"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint a184ac1a20ea) is attached to 9 different works in 6 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Village Pond (9).",
+  "All 9 works report the same GPS point (26.68, 85.24)."
+ ],
+ "photo": "photos/a184ac1a20ea70aebdd6ed2232db8c39dfcdefeddca045e22a5d2ff61f7df551.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "106088769920",
@@ -127,5 +151,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

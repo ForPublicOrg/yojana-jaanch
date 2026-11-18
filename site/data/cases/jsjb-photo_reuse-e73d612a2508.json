@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e73d612a2508",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Azamgarh Nagwan Tolajagdishpur",
+  "Balua",
+  "Muradpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8bae10a34685) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 16 minutes (2026-02-02 15:53:16 to 2026-02-02 16:09:13)."
+ ],
+ "photo": "photos/8bae10a34685d9141c3547b58e22a4608040164a03df222630651dba404c2eb2.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "108467769920",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

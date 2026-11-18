@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2fa6bc829b00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Aliyari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2e8e6cbd997d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "All 3 works report the same GPS point (26.183198, 75.52809).",
+  "The photo was uploaded 6 times within 2 minutes (2026-05-27 22:31:15 to 2026-05-27 22:32:50)."
+ ],
+ "photo": "photos/2e8e6cbd997d45b872c94a98e94f4a89946693beb900a2be33c368873e1feebc.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "13669136",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

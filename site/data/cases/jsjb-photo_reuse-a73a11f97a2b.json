@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a73a11f97a2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Ghoghraha",
+  "Narha",
+  "Ranauli"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 9dcb4e7d6117) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/9dcb4e7d6117e0402bf0cb7e647c4991f9543d13916b8a4dbda9942178c4b995.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4136440",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

@@ -1,0 +1,87 @@
+{
+ "id": "jsjb-photo_reuse-439d4d17481d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kagathi",
+  "Kaiwara",
+  "Kavalaganahalli",
+  "Kodadhavadi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint dd75881f665c) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (3), Recharge Pit (1).",
+  "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
+ ],
+ "photo": "photos/dd75881f665cb9aa930c394771f86ce2c8d15b594841cc63c62f4e9489e1cc02.jpg",
+ "offices": [
+  "Deputy Commissioner",
+  "Executive Officer"
+ ],
+ "records": [
+  {
+   "record_id": "3118538",
+   "village": "Kodadhavadi",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-07",
+   "end_date": "2025-09-01",
+   "lat": 13.36701,
+   "lon": 78.134054,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3126610",
+   "village": "Kavalaganahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-21",
+   "end_date": "2025-10-29",
+   "lat": 13.383617,
+   "lon": 78.027095,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3132178",
+   "village": "Kaiwara",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2025-11-02",
+   "lat": 13.298785,
+   "lon": 78.11096,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "8505417",
+   "village": "Kagathi",
+   "structure_type": "Recharge Pit",
+   "created_by": "Executive Officer",
+   "start_date": "2025-07-10",
+   "end_date": "2026-02-18",
+   "lat": 13.429336,
+   "lon": 78.089612,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

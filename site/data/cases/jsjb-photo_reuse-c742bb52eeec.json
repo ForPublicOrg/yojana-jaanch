@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c742bb52eeec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Darinaikanapalya",
+  "Halaganahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c9071e81b829) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/c9071e81b82904480b94ee71128b6cce7393a16dee7082e0501e0a8d13ae489d.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3095613",
+   "village": "Halaganahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-01",
+   "end_date": "2025-11-26",
+   "lat": 13.679302,
+   "lon": 77.47062,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3125556",
+   "village": "Darinaikanapalya",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-28",
+   "end_date": "2025-11-18",
+   "lat": 13.679302,
+   "lon": 77.470648,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

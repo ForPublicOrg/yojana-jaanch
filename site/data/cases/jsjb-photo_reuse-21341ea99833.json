@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-21341ea99833",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Nawan Pind Araian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce62f7e43a3d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (31.107138, 75.529918).",
+  "The entries were made by 2 different offices: BDPO Nakodar, Zilledar."
+ ],
+ "photo": "photos/ce62f7e43a3de0dea006a83ab498ffa61efc7aa4785c2ec0d2727e16d9c0b341.jpg",
+ "offices": [
+  "BDPO Nakodar",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986253",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

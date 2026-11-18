@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5f402ace3c60",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Pandori"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6df669181c9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/b6df669181c9eebfc6ce98641d634b7fc92719a70852836ac6a4d2cd7988db35.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1120754",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7c8e2e32e5a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Bhila"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint ab4a32343e9f) is attached to 10 different works in 1 village. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10).",
+  "All 10 works report the same GPS point (31.435497, 75.3758).",
+  "All 10 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/ab4a32343e9fa718dff2676f155b70e1e055a6cca9fa084c0f89a7703470e729.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8488330",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 32,
+ "needs_human_review": false
 }

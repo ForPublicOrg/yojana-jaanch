@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-00820c47f97a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Olaipadi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f2f2fe51354d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (11.626111, 78.498273).",
+  "The photo was uploaded 4 times within 30 seconds (2026-05-19 18:09:42 to 2026-05-19 18:10:12)."
+ ],
+ "photo": "photos/f2f2fe51354d420ec84dac54ce7eca20713f56e07680b439ee95328743cb1f45.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10230540",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

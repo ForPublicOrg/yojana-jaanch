@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-d4f163501c8d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripet",
+ "villages": [
+  "Mullukurichi",
+  "Naraikinar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ee2de124d12f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.45524, 78.422276)."
+ ],
+ "photo": "photos/ee2de124d12f42161905404778460eb80cfde8d1682f73a7a24cd5508f382a5a.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9334116",
+   "village": "Mullukurichi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-11-12",
+   "end_date": "2024-04-26",
+   "lat": 11.45524,
+   "lon": 78.422276,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  },
+  {
+   "record_id": "9339598",
+   "village": "Naraikinar",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-06-28",
+   "end_date": "2025-04-26",
+   "lat": 11.45524,
+   "lon": 78.422276,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namagiripet"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

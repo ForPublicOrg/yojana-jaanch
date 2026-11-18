@@ -1,5 +1,38 @@
 {
  "id": "jsjb-upload_burst-024189763958",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "13 photos uploaded in 10 minutes by BDO",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Beesalpur",
+  "Benpa",
+  "Charnet",
+  "Dhola Khera",
+  "Geroli",
+  "Thali",
+  "Thanwala",
+  "Theekariya Kalan",
+  "Theekariya Khurd",
+  "Titriyan",
+  "Toda Ka Gothra",
+  "Tokrawas Bundi",
+  "Tokrawas Uniyara",
+  "Udaipura"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "13 different photos for 14 different works were uploaded by BDO within 10 minutes, from 2026-03-05 15:14:45 to 2026-03-05 15:24:26.",
+  "That is about one work every 42 seconds on average.",
+  "The works are in 14 villages: Beesalpur, Benpa, Charnet, Dhola Khera, Geroli, Thali, Thanwala, Theekariya Kalan, Theekariya Khurd, Titriyan, Toda Ka Gothra, Tokrawas Bundi, Tokrawas Uniyara, Udaipura.",
+  "These works are spread over 2 districts: Jhunjhunu, Tonk."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3779633",
@@ -28,6 +61,20 @@
    "district": "Tonk",
    "area_type": "Rural",
    "block": "Deoli"
+  },
+  {
+   "record_id": "3779690",
+   "village": "Dhola Khera",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2021-03-16",
+   "end_date": "2025-12-23",
+   "lat": 27.794175,
+   "lon": 75.45517,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Udaipurwati"
   },
   {
    "record_id": "3779711",
@@ -183,5 +230,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

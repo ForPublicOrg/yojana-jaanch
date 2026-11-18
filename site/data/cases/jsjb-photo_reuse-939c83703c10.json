@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-939c83703c10",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Khewasipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint aa74ead6e33f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.342569, 82.900837)."
+ ],
+ "photo": "photos/aa74ead6e33f6cc6b5e6a9da1d2571da9b1abd9c385165cfa9b482297b3278de.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391920470",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1fc4607dfb3f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Parasrampur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 46dc9d864531) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1)."
+ ],
+ "photo": "photos/46dc9d8645314d12029a53422a56627b2d8c949420526f6cb2583b88016e89ad.jpg",
+ "offices": [
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "985513",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

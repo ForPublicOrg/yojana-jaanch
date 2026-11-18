@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-db11f08f627c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Bath"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e4689f8139e9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "All 3 works report the same GPS point (30.28632, 75.14304).",
+  "The entries were made by 2 different offices: GRAM ROZGAR SEWAK, ZILEDAR SHAMIR."
+ ],
+ "photo": "photos/e4689f8139e93e11ef2f11bda6c035725d676536454f6fe7e58ae0a39f4b43eb.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK",
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "990730",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-3a6e1ad51759",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Badali",
+  "Jallowal",
+  "Lakha Singh Wala",
+  "Majri Kishnewali",
+  "Saunti"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint b813ffd122df) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6)."
+ ],
+ "photo": "photos/b813ffd122df91d41107e10f94ac7b9afa272fb3712f523b77c4ed3fbd200006.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5680179",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

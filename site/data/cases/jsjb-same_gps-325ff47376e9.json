@@ -1,5 +1,24 @@
 {
  "id": "jsjb-same_gps-325ff47376e9",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Dhariwala",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Dhariwala"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Dhariwala report exactly the same GPS point (31.0, 71.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Village Pond (7)."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "1109706",
@@ -99,5 +118,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

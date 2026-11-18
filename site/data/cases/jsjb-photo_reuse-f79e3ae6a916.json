@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f79e3ae6a916",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-I",
+ "villages": [
+  "Lambra",
+  "Raipur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint c7a48ed6a8fa) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Bore-Well Recharge (3), Rooftop Water Harvesting Structure (1).",
+  "These works are spread over 2 blocks: Hoshiarpur-I, Tanda."
+ ],
+ "photo": "photos/c7a48ed6a8faf8dfbe39ee3517bdf2935c65e1a609cfb6191a8bbdcc027ca244.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "1059805",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Tanda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

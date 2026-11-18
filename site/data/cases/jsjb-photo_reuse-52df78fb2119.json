@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-52df78fb2119",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Chokkanahalli",
+  "Gajalahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c08d8eb3b576) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2)."
+ ],
+ "photo": "photos/c08d8eb3b576b69a50dcf825d91e6246895bd0996e8d5b2a2f6f3bcdbce53e9f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3110169",
+   "village": "Gajalahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-27",
+   "end_date": "2026-02-16",
+   "lat": 13.319908,
+   "lon": 78.063199,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3126731",
+   "village": "Chokkanahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-06",
+   "end_date": "2025-08-24",
+   "lat": 13.417719,
+   "lon": 78.045739,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

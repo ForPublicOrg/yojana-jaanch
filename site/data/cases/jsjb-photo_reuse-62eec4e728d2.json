@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-62eec4e728d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mukerian",
+ "villages": [
+  "Latif Pur",
+  "Taggar Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b1fbd045459d) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 6 times within 5 minutes (2026-03-13 05:37:36 to 2026-03-13 05:42:17)."
+ ],
+ "photo": "photos/b1fbd045459d7da5a48b3d5e34cde58b3bac1b0d7fdfe7c5b6b925426a0d24ae.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1058534",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Mukerian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

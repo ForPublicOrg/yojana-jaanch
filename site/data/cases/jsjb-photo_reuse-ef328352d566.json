@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ef328352d566",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Vennandur",
+ "villages": [
+  "Ponparappipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a2fb8ceadee5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (1), Tank (1).",
+  "All 2 works report the same GPS point (11.539242, 78.119482).",
+  "The photo was uploaded 4 times within 6 minutes (2026-01-27 12:46:54 to 2026-01-27 12:52:23)."
+ ],
+ "photo": "photos/a2fb8ceadee5f2a5947c34cd7055992f664512653d957a0ccacedcf6d0367559.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3342331",
+   "village": "Ponparappipatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2011-05-28",
+   "end_date": "2012-03-12",
+   "lat": 11.539242,
+   "lon": 78.119482,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  },
+  {
+   "record_id": "9339926",
+   "village": "Ponparappipatti",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2020-05-11",
+   "end_date": "2021-06-07",
+   "lat": 11.539242,
+   "lon": 78.119482,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Vennandur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

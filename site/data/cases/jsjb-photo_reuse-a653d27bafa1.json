@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a653d27bafa1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Deopura"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint db8c0aec204d) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "All 4 works report the same GPS point (26.132955, 75.928604).",
+  "The photo was uploaded 8 times within 3 minutes (2026-05-29 18:29:19 to 2026-05-29 18:32:16)."
+ ],
+ "photo": "photos/db8c0aec204d703b786352b438e439ad30f2bc9d0021835fc921e5e960705608.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14822817",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

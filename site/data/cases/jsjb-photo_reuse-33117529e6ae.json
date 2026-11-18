@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-33117529e6ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Khera"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fdb2f8d2f170) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.82, 76.1).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 16:22:33 to 2026-02-04 16:24:05)."
+ ],
+ "photo": "photos/fdb2f8d2f1709f8aaac84b1d2491a8018af1c6ad3028a759df1b9b20af81afad.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1225091",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

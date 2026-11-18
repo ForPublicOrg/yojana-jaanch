@@ -1,0 +1,73 @@
+{
+ "id": "jsjb-photo_reuse-d11a3d64070c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Venkarai",
+ "villages": [
+  "Pandamangalam (TP) - Ward No.15",
+  "Venkarai (TP) - Ward No.12",
+  "Venkarai (TP) - Ward No.14"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7eb0879a0579) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Rooftop Water Harvesting Structure (1).",
+  "The entries were made by 2 different offices: EO PANDAMANGALAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Pandamangalam, Venkarai."
+ ],
+ "photo": "photos/7eb0879a0579977938dd413323dd4c04d4747bc4caac777e4475b66eab0c5701.jpg",
+ "offices": [
+  "EO PANDAMANGALAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3514846",
+   "village": "Pandamangalam (TP) - Ward No.15",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PANDAMANGALAM",
+   "start_date": "2025-08-05",
+   "end_date": "2025-08-25",
+   "lat": 11.100873,
+   "lon": 77.967804,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pandamangalam"
+  },
+  {
+   "record_id": "3518085",
+   "village": "Venkarai (TP) - Ward No.14",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-06",
+   "end_date": "2025-08-12",
+   "lat": 11.07565,
+   "lon": 77.952685,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  },
+  {
+   "record_id": "3805591",
+   "village": "Venkarai (TP) - Ward No.12",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-11-03",
+   "end_date": "2025-12-06",
+   "lat": 11.090681,
+   "lon": 77.96558,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

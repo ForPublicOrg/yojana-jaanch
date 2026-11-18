@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-862b22399159",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Kurubarapalli",
+  "Yeragudi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6c4c79b99148) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/6c4c79b99148d16b8448a40b37710ecc053329b240e23664faa50624e4ee7a77.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3135191",
+   "village": "Kurubarapalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-15",
+   "end_date": "2025-09-10",
+   "lat": 13.788265,
+   "lon": 78.035918,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3145679",
+   "village": "Yeragudi",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-09",
+   "end_date": "2025-07-16",
+   "lat": 13.800083,
+   "lon": 78.018556,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

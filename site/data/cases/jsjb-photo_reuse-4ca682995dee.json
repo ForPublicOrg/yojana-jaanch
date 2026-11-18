@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-4ca682995dee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Bagga",
+  "Kuralian",
+  "Mudh",
+  "Pheruman",
+  "Rana Kala"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint e474ae1358de) is attached to 11 different works in 5 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (11).",
+  "All 11 works report the same GPS point (31.0, 74.0).",
+  "The entries were made by 4 different offices: BDPO Jandiala, BDPO Ramdass, BDPO Rayya, BDPO Tarsikka.",
+  "These works are spread over 4 blocks: Jandiala Guru, Ramdas, Rayya, Tarsikka."
+ ],
+ "photo": "photos/e474ae1358de3b4c967fc81ae99d964c8c6149d03336186ceb362a0c2f2d78b2.jpg",
+ "offices": [
+  "BDPO Jandiala",
+  "BDPO Ramdass",
+  "BDPO Rayya",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "10860366",
@@ -155,5 +183,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 35,
+ "needs_human_review": false
 }

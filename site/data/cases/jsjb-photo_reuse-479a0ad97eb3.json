@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-479a0ad97eb3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Harahua",
+ "villages": [
+  "Kazichak",
+  "Sarai Kazi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): b0e6da85b172 on 1 work, b6d440198ff0 on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.400891, 82.892383)."
+ ],
+ "photo": "photos/b0e6da85b1724b0065592559a668a99334b613fff819688e6ab9432df2aa8070.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3346010",
@@ -29,5 +51,21 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "b0e6da85b1724b0065592559a668a99334b613fff819688e6ab9432df2aa8070",
+   "records": 1
+  },
+  {
+   "sha256": "b6d440198ff056cf4c886c80805a557524f1dbd91a3865b9934394660f53f446",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-5a758e1c5a00"
  ]
 }

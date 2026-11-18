@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-af4ea22e1c1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Deh Kalan",
+  "Dhadrian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4bde751a5ed0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-20).",
+  "The photo was uploaded 2 times within 21 minutes (2026-05-20 14:47:53 to 2026-05-20 15:08:43)."
+ ],
+ "photo": "photos/4bde751a5ed0366ecfeed76d15dc84ce774ec0eeaab62f6d3c5dcd0cc50875c6.jpeg",
+ "offices": [
+  "BDPO Sangrur"
+ ],
  "records": [
   {
    "record_id": "10380580",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-782a5fb5ff94",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 14 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Saidowal"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "The same photo file (fingerprint 0b2f32ba8fd9) is attached to 14 different works in 1 village. A photo of one site cannot be evidence for 14 separate works.",
+  "The works are recorded as: Contour Trench (14).",
+  "All 14 works report the same GPS point (31.32147, 75.35806).",
+  "All 14 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/0b2f32ba8fd9a797f907502ed78e0e7f23f18fdb572bfb8086375f2463f762ba.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "9120100",
@@ -197,5 +217,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 44,
+ "needs_human_review": false
 }

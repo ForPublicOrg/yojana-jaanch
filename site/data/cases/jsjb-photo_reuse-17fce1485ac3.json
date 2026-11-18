@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-17fce1485ac3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Bulakipur",
+  "Riga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0af980c2b73e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 3 minutes (2026-03-09 19:42:16 to 2026-03-09 19:44:27)."
+ ],
+ "photo": "photos/0af980c2b73e379c35da5eb74e8bd2aca47518345e90828bace317527a234953.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3854226",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

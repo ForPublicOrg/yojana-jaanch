@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4bd8503ea09c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Ranjitpur Urf Gobipur Daur",
+  "Rasulpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17441dfe5e2a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-03-28 11:58:53 to 2026-03-28 12:05:45)."
+ ],
+ "photo": "photos/17441dfe5e2a15e376a4225c429264e71cf46eb4ecaf7754ea2a2fb46c9174fe.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "4312775",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

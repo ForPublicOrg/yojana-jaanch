@@ -1,0 +1,58 @@
+{
+ "id": "jsjb-photo_reuse-126799d76bca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Baitalpur",
+ "villages": [
+  "Harhi Nadolava",
+  "Hari Rampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 92df30a1efee) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.43531, 83.62178).",
+  "The photo was uploaded 4 times within 6 minutes (2026-01-12 13:13:19 to 2026-01-12 13:18:49).",
+  "These works are spread over 2 blocks: Baitalpur, Gauri Bazar."
+ ],
+ "photo": "photos/92df30a1efee117b9ac307b28f8dc95b1b34fe3d55338807625ff2e86cc8458f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "3275383",
+   "village": "Harhi Nadolava",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-11-04",
+   "end_date": "2025-11-27",
+   "lat": 26.43531,
+   "lon": 83.62178,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Baitalpur"
+  },
+  {
+   "record_id": "3275482",
+   "village": "Hari Rampur",
+   "structure_type": "Recharge Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-10-07",
+   "end_date": "2025-10-30",
+   "lat": 26.43531,
+   "lon": 83.62178,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Gauri Bazar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

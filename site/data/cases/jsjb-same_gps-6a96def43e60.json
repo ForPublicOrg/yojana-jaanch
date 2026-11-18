@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-6a96def43e60",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Dostpur Khadauli",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Dostpur Khadauli"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Dostpur Khadauli report exactly the same GPS point (26.6179097, 85.5282315).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (7).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4486422",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

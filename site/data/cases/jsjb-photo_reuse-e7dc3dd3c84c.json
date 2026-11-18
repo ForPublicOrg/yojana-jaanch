@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e7dc3dd3c84c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Suhavi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c550c767f08a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 38 seconds (2026-02-28 15:33:28 to 2026-02-28 15:34:06)."
+ ],
+ "photo": "photos/c550c767f08a3f6b33acab1fb7ba4699b684c10c7a0c16d0119aff69654058a0.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1074210",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3b91bfec824b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Ranoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 073429c13a42) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-29 11:09:26 to 2026-05-29 11:14:19)."
+ ],
+ "photo": "photos/073429c13a42aadfd0fe97cd074286011a6432bc8ab549d95e70ec5537dde358.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "14739393",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

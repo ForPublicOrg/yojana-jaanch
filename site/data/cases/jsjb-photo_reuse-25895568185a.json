@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-25895568185a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Badapura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c57fa48371d7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (1), Village Pond (1)."
+ ],
+ "photo": "photos/c57fa48371d7fe59d87fd494e9b60ef465b4bbcffa2f10a492be9bb5d27f3263.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7814229",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

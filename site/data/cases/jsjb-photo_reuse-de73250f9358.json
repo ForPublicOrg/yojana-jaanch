@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-de73250f9358",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Araria",
+  "Bagaha",
+  "Bishunpur",
+  "Indarwa",
+  "Itaharwa Dularpur",
+  "Kachaur",
+  "Kachharipur",
+  "Madhesra",
+  "Marpa",
+  "Parsa Khurd",
+  "Pipra Parsain"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint aa4f466271ec) is attached to 12 different works in 11 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Village Pond (8), Soak Pit (4)."
+ ],
+ "photo": "photos/aa4f466271ecd4970f583abb656de4471dabe274171cf0243e710482bd3f876a.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4561556",
@@ -169,5 +197,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

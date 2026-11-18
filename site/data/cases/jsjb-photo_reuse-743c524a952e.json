@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-743c524a952e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Misraulia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2931c1669fab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5242313, 85.5674816)."
+ ],
+ "photo": "photos/2931c1669fabcf808c94819110db1eb3e104adfe303d2f1f1e715812fed3e753.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "4252573",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

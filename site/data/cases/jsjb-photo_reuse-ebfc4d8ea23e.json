@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ebfc4d8ea23e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Lalganj",
+ "villages": [
+  "Atraila Raja",
+  "Rajapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ecd2b0b3d526) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/ecd2b0b3d52671b8b1ee07464bb14556f08f04e8d5474206e4cce4bcc76e0cbd.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1160169",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Lalganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

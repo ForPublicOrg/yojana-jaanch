@@ -1,0 +1,84 @@
+{
+ "id": "jsjb-photo_reuse-b481d78bd1fa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Doddabommanahalli",
+  "Kodihalli",
+  "Moodlachinthanahalli"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 739793e70e7b) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Contour Trench (1)."
+ ],
+ "photo": "photos/739793e70e7b9ebdcc4b1f720ff8810b1ecd47478d6bef1ea865b45cfea437ab.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3077706",
+   "village": "Moodlachinthanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-17",
+   "end_date": "2026-02-01",
+   "lat": 13.35234,
+   "lon": 78.101344,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3133065",
+   "village": "Doddabommanahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-11-04",
+   "lat": 13.3659,
+   "lon": 78.01053,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3133173",
+   "village": "Kodihalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-10-01",
+   "lat": 13.373466,
+   "lon": 78.01159,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3133569",
+   "village": "Moodlachinthanahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-01",
+   "lat": 13.3659,
+   "lon": 78.01159,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

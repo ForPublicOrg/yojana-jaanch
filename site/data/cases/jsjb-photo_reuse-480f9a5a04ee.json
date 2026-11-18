@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-480f9a5a04ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Jandali",
+  "Jawanda",
+  "Jodhpur",
+  "Shahidgarh"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 373f4bb07bf7) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "All 8 works report the same GPS point (30.0, 76.0)."
+ ],
+ "photo": "photos/373f4bb07bf7f13377697f73f393682e0facb73ff60ea6e997de4d09c112c250.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5181647",
@@ -113,5 +135,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

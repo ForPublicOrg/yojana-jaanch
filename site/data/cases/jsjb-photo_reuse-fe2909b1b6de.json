@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fe2909b1b6de",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Mogalwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c2980933079) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-07 10:55:05 to 2026-04-07 10:57:19)."
+ ],
+ "photo": "photos/3c2980933079121b209707fc454310c91ca251798ccf0b2c7200be16205ec902.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4554262",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

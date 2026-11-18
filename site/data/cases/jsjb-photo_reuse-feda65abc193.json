@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-feda65abc193",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Ghania",
+  "Kasam Bhatti",
+  "Ukandwala",
+  "Wara Bhaika"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): daabf906e63a on 5 works, eb59936eee9f on 1 work.",
+  "The works are recorded as: Soak Pit (5), Recharge Pit (1)."
+ ],
+ "photo": "photos/daabf906e63a17f1434aacde9d6d55fa753ed73d31cc98a02b782305a482d017.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "2909278",
@@ -85,5 +108,21 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "daabf906e63a17f1434aacde9d6d55fa753ed73d31cc98a02b782305a482d017",
+   "records": 5
+  },
+  {
+   "sha256": "eb59936eee9f894b1b1819133a990cff58ff8d7bf815726ec7a945c2b46da6e6",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ea4ae2ae18a0"
  ]
 }

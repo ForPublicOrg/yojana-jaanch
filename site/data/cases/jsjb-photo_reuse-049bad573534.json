@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-049bad573534",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Dheendhwa Bichla",
+  "Gowli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 74075bab90fb) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/74075bab90fb9bc6ce5ac0212cce1ecde08b7ec786d7a8d64128d70cf19fbded.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "9252276",
+   "village": "Gowli",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2024-05-06",
+   "end_date": "2025-09-17",
+   "lat": 28.313018,
+   "lon": 75.54859,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "9263131",
+   "village": "Dheendhwa Bichla",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2024-07-22",
+   "end_date": "2026-04-17",
+   "lat": 28.356873,
+   "lon": 75.643995,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

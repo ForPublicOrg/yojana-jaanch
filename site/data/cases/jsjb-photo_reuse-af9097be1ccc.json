@@ -1,5 +1,34 @@
 {
  "id": "jsjb-photo_reuse-af9097be1ccc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 17 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Bakhri",
+  "Barahi",
+  "Budhwara",
+  "Bulakipur",
+  "Mandar",
+  "Narsanda Urf Narsawan",
+  "Pakri",
+  "Ramnagar",
+  "Rampur Gangauli",
+  "Riga",
+  "Shahbazpur",
+  "Sirahi"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "The same photo file (fingerprint 2db327718641) is attached to 17 different works in 12 villages. A photo of one site cannot be evidence for 17 separate works.",
+  "The works are recorded as: Soak Pit (14), Recharge Pit (2), Village Pond (1)."
+ ],
+ "photo": "photos/2db3277186415bc32a54cd3df2a523c897f357377d63dbf76a2b693d58caf98c.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "3742550",
@@ -239,5 +268,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 51,
+ "needs_human_review": false
 }

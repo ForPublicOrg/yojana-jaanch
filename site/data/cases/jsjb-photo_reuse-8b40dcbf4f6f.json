@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-8b40dcbf4f6f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Surajgarh",
+ "villages": [
+  "Kasni",
+  "Kuloth Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7ff76bf0fca4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 30 minutes (2026-03-11 12:34:44 to 2026-03-11 13:04:24)."
+ ],
+ "photo": "photos/7ff76bf0fca48891e5838dd7d6facfd168c578a3695ba8dfe2c184a000aa34b2.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3889796",
+   "village": "Kuloth Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-25",
+   "lat": 28.3738,
+   "lon": 75.8447,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  },
+  {
+   "record_id": "3891831",
+   "village": "Kasni",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-05",
+   "end_date": "2026-01-28",
+   "lat": 28.3468,
+   "lon": 75.7648,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Surajgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

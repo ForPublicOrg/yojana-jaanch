@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-80cbd6be4fa0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Malhian",
+  "Randhawa Masandan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b6207716db15) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1).",
+  "The photo was uploaded 3 times within 6 minutes (2026-04-06 10:58:27 to 2026-04-06 11:04:03).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/b6207716db157ea03bf87ee5acd8943b0374cf90129c71b2b007eb6077c5f506.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "977786",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

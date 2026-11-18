@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-382515b5ef4c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Vanchar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0655352d1dc7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-02-12 20:01:29 to 2026-02-12 20:05:27)."
+ ],
+ "photo": "photos/0655352d1dc777bc3432515f33c8034fd09ff8d49989e64a215a6193f40ab815.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1107766",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

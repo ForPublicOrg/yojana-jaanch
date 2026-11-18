@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c32a6a934624",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Bhittewad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5341f0b67fc3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-22 09:31:48 to 2026-05-22 09:37:34)."
+ ],
+ "photo": "photos/5341f0b67fc3f68a09ec188b029cef15cb272a2c71e3d34446d777ed27cd2bc3.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "10993204",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

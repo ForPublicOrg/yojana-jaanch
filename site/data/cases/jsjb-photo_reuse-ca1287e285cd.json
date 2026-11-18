@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ca1287e285cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Chandbaja",
+  "Machaki Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 32e308600d76) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: SDO, Zilledar."
+ ],
+ "photo": "photos/32e308600d76a00aa05e5ca4a698b0d4f2ab3eec384357461f46c4e8f2c4560f.jpg",
+ "offices": [
+  "SDO",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "983721",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

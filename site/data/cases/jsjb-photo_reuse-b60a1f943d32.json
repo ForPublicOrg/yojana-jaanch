@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b60a1f943d32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Kaluwal",
+  "Kashtiwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd3ef08e545b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.81075, 75.056304).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-14, 2026-05-16."
+ ],
+ "photo": "photos/fd3ef08e545b688a5ad5d220ba9af7eaeb2b6749dd7a45ddc0414c8194800e34.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "9239064",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-83851c1306e0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Rampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 580d3a80b98a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-02-05 16:53:04 to 2026-02-05 16:54:12)."
+ ],
+ "photo": "photos/580d3a80b98aeb090f9c3030f005326f2ab58d1869357a30276bc66435e2ced4.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1344768",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

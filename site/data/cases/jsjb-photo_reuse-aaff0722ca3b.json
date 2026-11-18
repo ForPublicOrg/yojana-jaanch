@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-aaff0722ca3b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Verkandi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6de8308d786c) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.365148, 74.844035)."
+ ],
+ "photo": "photos/6de8308d786c03d88e4d25df1fbf1db963dae807b8e352120e8c253a78f0f51b.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5156509",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

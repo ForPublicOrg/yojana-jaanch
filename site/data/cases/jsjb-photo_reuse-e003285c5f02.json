@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e003285c5f02",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Boharwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb39de45b15f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.864, 74.951).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-18 15:41:23 to 2026-05-18 15:45:30)."
+ ],
+ "photo": "photos/bb39de45b15f3b5019e3e9dceb3c92109a57e1f8b6dff94046a1a32ad937eddc.jpg",
+ "offices": [
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "9964991",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e7870fe74707",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Kot Kesar Singh",
+  "Sufian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 28daede6cbae) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 27 minutes (2026-04-24 15:23:43 to 2026-04-24 15:49:47)."
+ ],
+ "photo": "photos/28daede6cbaef37d19518ecea24b4ccb9bc9f4c6dda7422851b2b0ee4c5e4537.jpg",
+ "offices": [
+  "BDPO Ramdass"
+ ],
  "records": [
   {
    "record_id": "5420310",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

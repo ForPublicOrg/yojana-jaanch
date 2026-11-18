@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-ee10f9610a26",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Atarsuma",
+  "Barhi",
+  "Bhadakhur",
+  "Jakhmoli",
+  "Kakahara",
+  "Lahroli"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 74088ed98bd9) is attached to 15 different works in 6 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Village Pond (14), Percolation Pond (1).",
+  "All 15 works report the same GPS point (26.0, 79.0).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/74088ed98bd95851cd3ff72bec14dd14a34fd2c048d75906d4c9be43ab5b8fd4.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11529771",
@@ -211,5 +237,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 47,
+ "needs_human_review": false
 }

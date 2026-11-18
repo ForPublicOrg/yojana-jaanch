@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8dd7fbaa7be2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Majithi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5c7378ae99db) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.11562, 75.391038).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/5c7378ae99db352e6f5693f6d75bc1b386f51781cee11e81abbe41face242598.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8345666",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-22c6fd7c6a4c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Buhana",
+ "villages": [
+  "Sultana Ahiran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 08fa19bc2c7e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (28.220678, 75.836843).",
+  "The photo was uploaded 4 times within 43 seconds (2026-05-27 12:34:04 to 2026-05-27 12:34:47)."
+ ],
+ "photo": "photos/08fa19bc2c7ebef07ae4a3464344f41f5193685e40a39500890d2f04fe86893a.jpg",
+ "offices": [
+  "Aen Buhana"
+ ],
+ "records": [
+  {
+   "record_id": "13460041",
+   "village": "Sultana Ahiran",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-08-01",
+   "end_date": "2026-05-13",
+   "lat": 28.220678,
+   "lon": 75.836843,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  },
+  {
+   "record_id": "13460949",
+   "village": "Sultana Ahiran",
+   "structure_type": "Tank",
+   "created_by": "Aen Buhana",
+   "start_date": "2024-08-01",
+   "end_date": "2026-05-13",
+   "lat": 28.220678,
+   "lon": 75.836843,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Buhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

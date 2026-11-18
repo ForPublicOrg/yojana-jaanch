@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-c87ec01b01db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Mandolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fc5f0d6b9bd0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2)."
+ ],
+ "photo": "photos/fc5f0d6b9bd0496f159fe43a4594bf06b648ac38f91289c8fb4407063c3328fa.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "13565571",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d8b0fb444328",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Bir Bholu Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e1b873383c21) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.724044, 74.764733).",
+  "The photo was uploaded 4 times within 7 seconds (2026-03-20 12:01:12 to 2026-03-20 12:01:19)."
+ ],
+ "photo": "photos/e1b873383c2110a72dce0aae9bd17958d05c5345f549dec19d6c9c0d77c698c5.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "4064174",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

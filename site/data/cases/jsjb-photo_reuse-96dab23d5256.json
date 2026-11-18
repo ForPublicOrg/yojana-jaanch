@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-96dab23d5256",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Ajnara",
+  "Atarchhala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fbd4c16e7f5e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Nala Bund (1).",
+  "These works are spread over 2 blocks: Dakore, Jalaun."
+ ],
+ "photo": "photos/fbd4c16e7f5e1b4e6791314222729271878708abdff31cfc71af98be31ef9413.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5207348",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

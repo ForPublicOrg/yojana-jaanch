@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-cb2a75c10332",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Bhangali",
+  "Loharka",
+  "Mohan Bhandari"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 0e09611743eb) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 4 dates: 2025-06-16, 2025-06-18, 2025-07-01, 2026-05-01.",
+  "The entries were made by 2 different offices: SDO, Sub division officer.",
+  "These works are spread over 2 blocks: Majitha, Ramdas."
+ ],
+ "photo": "photos/0e09611743eb9521ed85254c8e0b287f30756100fc7a3925d133d72fab644f92.jpg",
+ "offices": [
+  "SDO",
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "5478353",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

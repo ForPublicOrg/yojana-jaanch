@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-df9b5d47ee5f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Bachi Wind"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 12fe2c69651f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2)."
+ ],
+ "photo": "photos/12fe2c69651f4a87ec7440dff31fc128eae859a733aae8209f0352e3d15c6709.jpeg",
+ "offices": [
+  "dealing assistant-primary Education"
+ ],
  "records": [
   {
    "record_id": "1226427",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

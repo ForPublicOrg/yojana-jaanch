@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-ee5985e4adea",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "9 works at one GPS point in Sankhana",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Sankhana"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "9 works in Sankhana report exactly the same GPS point (26.03, 75.81).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (9).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3975208",
@@ -127,5 +147,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

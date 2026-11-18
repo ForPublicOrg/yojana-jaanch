@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-05654e95c7dc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Shamaspur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a6c0c7a7d8d5) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.81, 76.17).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 16:18:48 to 2026-02-04 16:20:15)."
+ ],
+ "photo": "photos/a6c0c7a7d8d546165783539fd21203f422ca2ebb6f0e8eb396951648f9907c6d.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046902",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

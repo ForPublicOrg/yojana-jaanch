@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-369bd638118c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 10 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Dangharian",
+  "Patarasi Kalan",
+  "Rampur",
+  "Shamsher Nagar",
+  "Sidhwan",
+  "Silkapra"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 10 different works in 6 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 16888304fc74 on 8 works, 5253f652b4f5 on 2 works.",
+  "The works are recorded as: Contour Trench (10).",
+  "These works are spread over 2 blocks: Khera, Sirhind."
+ ],
+ "photo": "photos/16888304fc74132170d19979dad0798f8d776e55bea884b028702ccdf06431f2.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4964839",
@@ -141,5 +167,21 @@
    "area_type": "Rural",
    "block": "Khera"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "16888304fc74132170d19979dad0798f8d776e55bea884b028702ccdf06431f2",
+   "records": 8
+  },
+  {
+   "sha256": "5253f652b4f5935e8c9bc2768b612aa0a86ac05f9cf9269ce54341b1446a5985",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-661ae9875518"
  ]
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b64ccb3e3e6a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Badinpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e00b1b44c051) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.25, 76.233002).",
+  "The photo was uploaded 10 times within 8 minutes (2026-04-17 11:23:57 to 2026-04-17 11:31:23)."
+ ],
+ "photo": "photos/e00b1b44c051e33fa5386ff8f8f2d3bb019619d235eba941a420d6e93a0cd316.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5003176",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-46952f80204c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Chaubepur Kala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b655cbb0c415) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (25.440934, 83.102711).",
+  "The photo was uploaded 6 times within 2 minutes (2026-01-29 11:30:56 to 2026-01-29 11:32:14)."
+ ],
+ "photo": "photos/b655cbb0c4158631ae1e85692a7e62f3402d8c81f6b8661d4f2888b7e07be271.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3350969",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

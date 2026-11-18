@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-08f374edaba4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Bachhohi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2569e7cb5816) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 34 seconds (2026-04-22 16:08:21 to 2026-04-22 16:08:55)."
+ ],
+ "photo": "photos/2569e7cb5816e2fa2ca7ed798e8d56fbeb99e3a66c9f3ca66ee09ac82492154a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1108213",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

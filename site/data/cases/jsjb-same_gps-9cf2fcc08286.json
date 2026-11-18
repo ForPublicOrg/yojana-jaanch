@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9cf2fcc08286",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "82 works at one GPS point in Kurichi",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kurichi"
+ ],
+ "record_count": 82,
+ "reasons": [
+  "82 works in Kurichi report exactly the same GPS point (11.74, 78.39).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (82).",
+  "They carry 82 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9362731",
@@ -1149,5 +1169,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 164,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a9692e1a2f9a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Nihsa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c89aea11ea5f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-06 15:07:33 to 2026-04-06 15:09:13)."
+ ],
+ "photo": "photos/c89aea11ea5fe2e5a10cc011562f8c796d58e9e57b75dc446580919c0ed3e8a1.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "4530405",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

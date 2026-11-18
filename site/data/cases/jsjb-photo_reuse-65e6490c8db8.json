@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-65e6490c8db8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Nurpur Dona"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 0b91a2ee8e1f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.383397, 75.413766).",
+  "The photo was uploaded 10 times within 5 minutes (2026-04-23 11:45:18 to 2026-04-23 11:50:07)."
+ ],
+ "photo": "photos/0b91a2ee8e1f97c6851c619fa019fde818a9816d600e489cd3d5e832fb4e2da4.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "9329529",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

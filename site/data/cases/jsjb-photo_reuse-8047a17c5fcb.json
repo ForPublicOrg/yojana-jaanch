@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-8047a17c5fcb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Bagepalli",
+ "villages": [
+  "Chinthamakala Dinne",
+  "Naravalapalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 457b685e41da) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/457b685e41da5ce74e617d2c88d4230fab188de01ae2ddd3398a2bbe67850849.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3097545",
+   "village": "Naravalapalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-04",
+   "end_date": "2025-10-29",
+   "lat": 13.84846,
+   "lon": 77.882456,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  },
+  {
+   "record_id": "3107265",
+   "village": "Chinthamakala Dinne",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-09-30",
+   "lat": 13.894562,
+   "lon": 77.862356,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Bagepalli"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

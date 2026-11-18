@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-aa6bcf441464",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Bharthwal",
+  "Bishniwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d197da6e2f2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/5d197da6e2f27d2a1624e3025f87795fe7491caf6ccb92471ecdb952d676733a.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "1087334",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

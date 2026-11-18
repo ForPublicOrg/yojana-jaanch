@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3319912193b8",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Lamba",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Lamba"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Lamba report exactly the same GPS point (26.03, 75.81).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (7).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3969459",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

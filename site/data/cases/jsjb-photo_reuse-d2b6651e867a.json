@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d2b6651e867a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Bains"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 052e200479bb) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/052e200479bb7436c28e1e672a1f3b788a3d0fbfb8010cb502949297abfb8fb0.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7950115",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

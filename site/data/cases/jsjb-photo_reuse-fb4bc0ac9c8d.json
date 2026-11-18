@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fb4bc0ac9c8d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Damami",
+  "Lohansi Urf Gosainpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cedb339dd896) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 2 minutes (2026-04-05 15:53:00 to 2026-04-05 15:54:27)."
+ ],
+ "photo": "photos/cedb339dd8968634e390c14153bda7bbed8333c6ff276d556c89aeae493a067a.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4497766",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

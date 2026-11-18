@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ddd2a5e7bae3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Sangrur",
+ "villages": [
+  "Dhadrian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5c33b47d47b1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.176679, 75.587506).",
+  "All 2 works started and ended on the same day (2026-05-20).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-20 12:41:59 to 2026-05-20 12:43:12)."
+ ],
+ "photo": "photos/5c33b47d47b1fef9a92ca4b65338ad187deb9d389ce2d5be71596c35df241b52.jpeg",
+ "offices": [
+  "Block Development Officer Sunam"
+ ],
  "records": [
   {
    "record_id": "10349062",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sangrur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

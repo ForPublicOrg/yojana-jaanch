@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c5aa58cbf82e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bathinda",
+ "villages": [
+  "Jhumba",
+  "Teona"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 501d23e085fc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 5 minutes (2026-02-24 11:11:42 to 2026-02-24 11:16:16)."
+ ],
+ "photo": "photos/501d23e085fc8b1c729754c0f83ef23da5393a1fabad60a28cca6a955411a9b8.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1113459",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathinda"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

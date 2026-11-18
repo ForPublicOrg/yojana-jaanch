@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-794289725154",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Anaiyampatty",
+  "Naduvalur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f70add9650b3) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3).",
+  "All 3 works report the same GPS point (11.0, 78.0)."
+ ],
+ "photo": "photos/f70add9650b3b0624a90feb0e67e86799fba017c36f6d1d65de553e06c93ddfe.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9344566",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

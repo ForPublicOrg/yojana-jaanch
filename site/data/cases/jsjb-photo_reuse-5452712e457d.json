@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5452712e457d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Guram",
+  "Shankar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c59f88acd6da) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (75.89, 30.75)."
+ ],
+ "photo": "photos/c59f88acd6dab2ff808d87655a8c4a7835970e9a353cab130e0a33b0fe610c1c.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1252449",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

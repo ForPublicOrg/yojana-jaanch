@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7aba36192c24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Bagli Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 13c5a368c993) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 2 minutes (2026-02-04 18:56:40 to 2026-02-04 18:57:46)."
+ ],
+ "photo": "photos/13c5a368c99357ad629d620bbd66e0d8ef279d5b6058d06bae885205bd4994ec.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1229988",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-ef3bd018718d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Bishangarh (7/97)",
+  "Phalaud Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f2ba6691b611) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply.",
+  "These works are spread over 2 blocks: Ahmedgarh, Malerkotla (Head Quarter)."
+ ],
+ "photo": "photos/f2ba6691b611b6455d0c15c1b9db4984a3c001213f298202befbd9cbf0cc3757.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "6246506",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

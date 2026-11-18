@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1db00ab3bb20",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Ajmer",
+  "Gera",
+  "Noshehra Simbli",
+  "Sariana"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint eeb5564e2057) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Bore-Well Recharge (5)."
+ ],
+ "photo": "photos/eeb5564e20571831a0024c4ccd8cc5ac68a160dca0fbaab8c984968329ddf8c1.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "994511",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

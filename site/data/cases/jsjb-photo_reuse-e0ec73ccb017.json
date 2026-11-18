@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e0ec73ccb017",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Udhowali Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 92ba4406d08e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (31.950455, 75.034348).",
+  "All 2 works started and ended on the same day (2026-05-06).",
+  "The photo was uploaded 4 times within 26 seconds (2026-05-07 14:26:56 to 2026-05-07 14:27:22)."
+ ],
+ "photo": "photos/92ba4406d08e2cd352561c6d0b2dce533c27b6c546517dde345cca8cba046fa4.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "7760001",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

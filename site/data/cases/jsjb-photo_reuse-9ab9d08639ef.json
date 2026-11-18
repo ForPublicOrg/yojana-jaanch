@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-9ab9d08639ef",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 26 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Ahmedpur",
+  "Alamgir",
+  "Bhila",
+  "Biharipur",
+  "Bishanpur",
+  "Mansurwal Bet"
+ ],
+ "record_count": 26,
+ "reasons": [
+  "The same photo file (fingerprint 018f0d08f8e3) is attached to 26 different works in 6 villages. A photo of one site cannot be evidence for 26 separate works.",
+  "The works are recorded as: Contour Trench (26).",
+  "The entries were made by 2 different offices: Block Devolpmen Officer Dhilwan, Block Devolpment officer Kapurthala.",
+  "These works are spread over 2 blocks: Dhilwan, Kapurthala."
+ ],
+ "photo": "photos/018f0d08f8e3d644cc8c3114484e57042a8e9755432e37d61aa6e10d84775ccc.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan",
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "12431656",
@@ -365,5 +391,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 79,
+ "needs_human_review": false
 }

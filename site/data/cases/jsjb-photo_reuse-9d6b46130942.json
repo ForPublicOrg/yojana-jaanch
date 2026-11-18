@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9d6b46130942",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Fattu Dhinga"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 9f3ab73093f4) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.374051, 75.224967).",
+  "The photo was uploaded 40 times within 23 minutes (2026-05-24 13:49:09 to 2026-05-24 14:11:39)."
+ ],
+ "photo": "photos/9f3ab73093f4beec90d8cff7f6c99533f87702512c8b6a95f6bf1fb191b8132c.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "12099148",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

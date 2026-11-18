@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9fc90e4206b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Akhta (Part In Bairgania) *"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9d5cbf00ffa1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/9d5cbf00ffa1c28e03357d1d66771693d3cf25d13639f59c5f269869880971f9.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4433896",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

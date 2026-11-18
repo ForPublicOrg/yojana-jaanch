@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4eda77dfab65",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Tirumanur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ce818d389b46) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (3).",
+  "All 3 works report the same GPS point (11.575892, 78.33958).",
+  "The photo was uploaded 4 times within 48 seconds (2026-05-09 13:07:41 to 2026-05-09 13:08:29)."
+ ],
+ "photo": "photos/ce818d389b4683ca63eb4a888a41786181c4c6fdaf5af408c084b2b0ca3b9e16.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "8100090",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

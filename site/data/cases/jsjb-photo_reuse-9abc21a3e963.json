@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9abc21a3e963",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Gagarwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 39fb76aca838) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-28 15:28:56 to 2026-02-28 15:29:57)."
+ ],
+ "photo": "photos/39fb76aca83883032e00cbf6ef17764273a04d6eccf7fcddc44b585633bc8749.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1071230",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

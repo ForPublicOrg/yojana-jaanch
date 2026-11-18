@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-33c14f705845",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "12 works at one GPS point in Vanavasi",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Vanavasi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "12 works in Vanavasi report exactly the same GPS point (11.0, 77.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (12).",
+  "They carry 12 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346232",
@@ -169,5 +189,8 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

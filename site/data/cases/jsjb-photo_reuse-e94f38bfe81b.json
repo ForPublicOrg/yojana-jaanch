@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e94f38bfe81b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Uchha Dhakala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 375433ff8146) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/375433ff8146bbc88e495d4a8bf454afaf6ea3a1aa5996a3baf5dfe521f71811.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7179593",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

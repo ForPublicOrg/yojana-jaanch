@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7a5bd70ef148",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Nthoke"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3a9d1689b0fd) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-04-25)."
+ ],
+ "photo": "photos/3a9d1689b0fdead82be4e68aa678aadbffe4c13f9ec993c79dd740f6df064c42.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "5609996",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

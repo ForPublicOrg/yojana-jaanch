@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b28b87ffa3bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Chochna"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint a33baa9ab555) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (5).",
+  "All 5 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/a33baa9ab55500c26c566726478fd1ec0efe71c054ff102b48b3373708e71864.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7984796",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

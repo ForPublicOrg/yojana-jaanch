@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ed61bf18d63e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Rasipalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2c6036b6ddd3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Percolation Pond (1).",
+  "All 2 works report the same GPS point (11.082324, 78.150776).",
+  "The photo was uploaded 4 times within 7 minutes (2026-01-22 11:20:14 to 2026-01-22 11:27:00)."
+ ],
+ "photo": "photos/2c6036b6ddd394fd031be3e6306ea3ec831247c1ad70b0e1029ad5b41fa083cc.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9341743",
+   "village": "Rasipalayam",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-03-03",
+   "end_date": "2025-03-28",
+   "lat": 11.082324,
+   "lon": 78.150776,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9341780",
+   "village": "Rasipalayam",
+   "structure_type": "Percolation Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-03",
+   "end_date": "2025-04-28",
+   "lat": 11.082324,
+   "lon": 78.150776,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

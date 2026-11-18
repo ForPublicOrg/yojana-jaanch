@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4f3d7aee44e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Bishanpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d9806caa5677) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/d9806caa56772338c669fb6d010e26cd555c2c47a638cbe262a35f27075cb4d6.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1243672",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

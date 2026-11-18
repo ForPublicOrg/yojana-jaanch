@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-3b2e4146aeab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Alluna Miana",
+  "Alluna Palha",
+  "Barmalipur",
+  "Majri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 4c5a8ed9e142) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (4), Other (1)."
+ ],
+ "photo": "photos/4c5a8ed9e142eac23abae590d38202170c7513cf140879c5c2db9486cc844045.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1040148",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

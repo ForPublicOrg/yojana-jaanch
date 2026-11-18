@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-2b2f3f2e6c34",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Mami Chak Ranga",
+  "Toor"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint cdd00f4ca5ee) is attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works started and ended on the same day (2026-05-03).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla."
+ ],
+ "photo": "photos/cdd00f4ca5eeb1bc5616ea15739020e7221af32e2380c21eb217d8cdc78f2f44.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7586816",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

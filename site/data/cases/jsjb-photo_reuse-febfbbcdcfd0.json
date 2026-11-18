@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-febfbbcdcfd0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Mandawa",
+ "villages": [
+  "Bharoo"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70541ca3c691) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/70541ca3c691fdc846f577f98e3d4b19efc4844c896cc9568fc32040f39269a7.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3871035",
+   "village": "Bharoo",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-04",
+   "end_date": "2025-09-11",
+   "lat": 28.09135,
+   "lon": 75.257462,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "3885659",
+   "village": "Bharoo",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-27",
+   "end_date": "2025-08-25",
+   "lat": 28.0913,
+   "lon": 75.2574,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

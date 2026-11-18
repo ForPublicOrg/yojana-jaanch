@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-765cccd4e545",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Ukandwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6a531b03faf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (30.43695194, 74.94939489).",
+  "The photo was uploaded 3 times within 2 minutes (2025-12-23 18:25:11 to 2025-12-23 18:27:08)."
+ ],
+ "photo": "photos/b6a531b03faf2aff6408a99fa618024aae40550f2e403b5c66549b7561468a82.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "3150563",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

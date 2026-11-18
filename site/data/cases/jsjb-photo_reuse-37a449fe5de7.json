@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-37a449fe5de7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Binnamangala",
+  "Jarugahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d24bbefa0f3b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2)."
+ ],
+ "photo": "photos/d24bbefa0f3b3ae69c646818680955bc9626d8f54ff1299a9a0dc1e88420bad6.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3103499",
+   "village": "Binnamangala",
+   "structure_type": "Nala Bund",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-04",
+   "end_date": "2025-09-25",
+   "lat": 13.56236,
+   "lon": 77.12548,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3708405",
+   "village": "Jarugahalli",
+   "structure_type": "Nala Bund",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-18",
+   "end_date": "2025-09-12",
+   "lat": 13.592105,
+   "lon": 77.907597,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

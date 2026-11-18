@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0b8c29f618f8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Latipur",
+  "Mahuawa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33ef3ad9d42f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 4 times within 55 seconds (2026-04-07 12:24:21 to 2026-04-07 12:25:16)."
+ ],
+ "photo": "photos/33ef3ad9d42f18043945cee67c27d6da7212276501a6f5c56051ef7c88f34d43.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4559763",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

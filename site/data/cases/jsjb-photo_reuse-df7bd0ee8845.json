@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-df7bd0ee8845",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Gagra",
+  "Seh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3e16e144d43a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-21 14:31:06 to 2026-04-21 14:32:54)."
+ ],
+ "photo": "photos/3e16e144d43a9b98b9086ce6d3134b35715479d318f17ccfbdaa1d2fdecc5000.jpg",
+ "offices": [
+  "XEN Panchayati Raj"
+ ],
  "records": [
   {
    "record_id": "5198071",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

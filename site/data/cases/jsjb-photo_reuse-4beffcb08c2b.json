@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4beffcb08c2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Ghurghura Hanumannagar Urf Ghurghura Baluaha",
+  "Kachharipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): e5e8423415cc on 1 work, ec82e4b2182e on 1 work.",
+  "The works are recorded as: Injection Well (2)."
+ ],
+ "photo": "photos/e5e8423415ccf628ab433fc199aa8d8d7cc33b7232fbd299cda05ae7778d17e7.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "3918302",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "e5e8423415ccf628ab433fc199aa8d8d7cc33b7232fbd299cda05ae7778d17e7",
+   "records": 1
+  },
+  {
+   "sha256": "ec82e4b2182e29f58685399edde8439fa30977fab0d54e1ec072cc1a5c8b2c9b",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-088cbed0da7f"
  ]
 }

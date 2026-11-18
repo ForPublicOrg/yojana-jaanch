@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d25ef2802893",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Dawak"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 76b35c2c4bcd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (25.184044, 83.15751).",
+  "The photo was uploaded 4 times within 7 minutes (2026-02-22 16:43:07 to 2026-02-22 16:49:56)."
+ ],
+ "photo": "photos/76b35c2c4bcdf5ba564ec812f7660b7096d9fd7a9ed23e75ec0587c3b63594d1.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3601236",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

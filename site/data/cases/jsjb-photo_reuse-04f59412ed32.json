@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-04f59412ed32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 338 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Saido Lal",
+  "Tarsikka"
+ ],
+ "record_count": 338,
+ "reasons": [
+  "The same photo file (fingerprint e65c719f6112) is attached to 338 different works in 2 villages. A photo of one site cannot be evidence for 338 separate works.",
+  "The works are recorded as: Other (338).",
+  "All 338 works report the same GPS point (31.38, 75.72)."
+ ],
+ "photo": "photos/e65c719f6112e534c5553c26f2c05372f4a594f69af9d2a47337ed367c63a74f.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5592287",
@@ -4733,5 +4753,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 1015,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-5f31c3c6edf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Bishunpur Kamdeo",
+  "Parsa",
+  "Supi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 74935ce038df) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/74935ce038dfe11a88d9d2d7c1f2fbc7ed8a97fea95113181918356d0eb1ba44.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "3812366",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

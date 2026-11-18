@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bad506197486",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Lalganj",
+ "villages": [
+  "Majhiyar",
+  "Medara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d490e6d5ea22) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/d490e6d5ea220e0dfb59b85d7b7d4eb10eca2ecbcc424ed5717a1df8beda1557.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1153428",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Lalganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

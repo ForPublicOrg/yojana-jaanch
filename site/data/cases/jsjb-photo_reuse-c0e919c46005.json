@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c0e919c46005",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Aitiana",
+  "Ramgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e4c694b0a28a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 16 minutes (2026-04-19 23:26:59 to 2026-04-19 23:42:19).",
+  "These works are spread over 2 blocks: Jagraon, Sudhar."
+ ],
+ "photo": "photos/e4c694b0a28aa2e260c513804c1adcb7e45519942c0069146415b126e31c1c94.jpg",
+ "offices": [
+  "Canal Patwari / Faridkot Canal & Ground Water Divi"
+ ],
  "records": [
   {
    "record_id": "985067",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sudhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

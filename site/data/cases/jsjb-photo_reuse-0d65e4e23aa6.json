@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0d65e4e23aa6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Nagra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 48b7111ef474) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.8, 76.15).",
+  "The photo was uploaded 4 times within 36 seconds (2026-05-04 13:28:05 to 2026-05-04 13:28:41)."
+ ],
+ "photo": "photos/48b7111ef4743cc9a846b6ce00548211a9f9826d1244ef1774b439275e35a32f.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "7356326",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

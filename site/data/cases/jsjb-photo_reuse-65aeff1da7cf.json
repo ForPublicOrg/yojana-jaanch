@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-65aeff1da7cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Sardarpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 279d2042a0cb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.9465258, 75.833967)."
+ ],
+ "photo": "photos/279d2042a0cb842a1b4d554af149f844eed75da14ddd45f22548c728235bc16c.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4040579",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

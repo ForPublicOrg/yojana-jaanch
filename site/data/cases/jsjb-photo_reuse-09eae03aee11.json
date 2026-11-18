@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-09eae03aee11",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 58 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Choraut",
+ "villages": [
+  "Balsa",
+  "Basotra",
+  "Bhutaha",
+  "Bishunpur",
+  "Cheraut",
+  "Chikna Chak",
+  "Dumarbana",
+  "Jadupatti Urf Semra",
+  "Khoria",
+  "Parigawan"
+ ],
+ "record_count": 58,
+ "reasons": [
+  "The same photo file (fingerprint fa19d821ca80) is attached to 58 different works in 10 villages. A photo of one site cannot be evidence for 58 separate works.",
+  "The works are recorded as: Village Pond (29), Soak Pit (22), Recharge Pit (7)."
+ ],
+ "photo": "photos/fa19d821ca80e940bc2e165349ff85dfbb5e58fd9a92e2248be33564c83f0009.jpg",
+ "offices": [
+  "PO Charaut"
+ ],
  "records": [
   {
    "record_id": "3532391",
@@ -813,5 +840,8 @@
    "area_type": "Rural",
    "block": "Choraut"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 174,
+ "needs_human_review": false
 }

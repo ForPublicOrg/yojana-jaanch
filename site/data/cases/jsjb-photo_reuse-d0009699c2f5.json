@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d0009699c2f5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Nakkalahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8fa09eb3a71c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1).",
+  "All 2 works report the same GPS point (13.686088, 77.586412)."
+ ],
+ "photo": "photos/8fa09eb3a71c7dd551ab130594ede17a63a5a99a68cdc981dd273efdab582984.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "10437125",
+   "village": "Nakkalahalli",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-10",
+   "end_date": "2025-12-05",
+   "lat": 13.686088,
+   "lon": 77.586412,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "10448327",
+   "village": "Nakkalahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-10",
+   "end_date": "2025-12-05",
+   "lat": 13.686088,
+   "lon": 77.586412,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-a4cf3f91b263",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Parsauni Khirodhar"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 709507d84e5c) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/709507d84e5c3f413307b939e5de624aaab93d6d80503bc86bdc1f96987efa94.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "4242392",
@@ -85,5 +103,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

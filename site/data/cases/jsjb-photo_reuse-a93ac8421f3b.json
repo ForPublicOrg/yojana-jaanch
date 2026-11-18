@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-a93ac8421f3b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Bishunpur Kamdeo",
+  "Mohni Madol"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d39a62ef9123) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/d39a62ef9123caade767f73a194e8885cca57d28e3ae0e051129013789dabcee.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4547176",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

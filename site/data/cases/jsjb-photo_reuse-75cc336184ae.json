@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-75cc336184ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Balianwali",
+  "Dikh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4d19e417246c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-17, 2026-04-18."
+ ],
+ "photo": "photos/4d19e417246c7f8051ae3510fed8b898d941d950bb815b1d6c7197954949fd5e.jpg",
+ "offices": [
+  "Centre Head Teacher"
+ ],
  "records": [
   {
    "record_id": "5253229",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

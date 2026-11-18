@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ff63a51dcbb4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Chakwa",
+  "Manik Chauk",
+  "Masumnagar Urf Premnagar",
+  "Mehsaul"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 29a010d0f512) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (4), Village Pond (1)."
+ ],
+ "photo": "photos/29a010d0f512378303b48714221803f210570d233cac0c5733dab27a5fc4c846.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "3742127",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

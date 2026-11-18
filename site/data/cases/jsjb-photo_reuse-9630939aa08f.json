@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9630939aa08f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Alamarathupatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2ea4309def62) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (6.5, 68.5)."
+ ],
+ "photo": "photos/2ea4309def62666e2e717c57eac4a6051b28f148b41815b233d37a06c633ee5f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9357855",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

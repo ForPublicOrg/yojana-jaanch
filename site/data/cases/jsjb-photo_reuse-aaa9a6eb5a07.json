@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-aaa9a6eb5a07",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Khetalpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d95a590ee17c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.437505, 83.061317).",
+  "The photo was uploaded 4 times within 4 seconds (2026-01-24 11:08:37 to 2026-01-24 11:08:41)."
+ ],
+ "photo": "photos/d95a590ee17c0913488a08beea8244dc7c1a2c110f29aea488b62a42a3271ef3.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3335531",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

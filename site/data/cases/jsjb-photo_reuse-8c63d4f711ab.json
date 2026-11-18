@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8c63d4f711ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Barahi",
+  "Basantpur",
+  "Rewasi Maksudpur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 8bf9a76e5b19) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Gaibaion (3), Village Pond (1).",
+  "The photo was uploaded 4 times within 14 minutes (2026-04-12 21:25:15 to 2026-04-12 21:38:38)."
+ ],
+ "photo": "photos/8bf9a76e5b19e5dca6a957e0618afa91b78f721c46ff297dfcc64b2f30f94d35.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4781608",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

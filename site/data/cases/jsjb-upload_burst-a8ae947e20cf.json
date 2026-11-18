@@ -1,5 +1,32 @@
 {
  "id": "jsjb-upload_burst-a8ae947e20cf",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "23 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Chinnanur",
+  "Kunnur",
+  "Mannur",
+  "Mettupattithathanur",
+  "Sandiyur Attayampatti",
+  "Semmanathan",
+  "Talai Cholai",
+  "Vattamuthampatti"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "23 different photos for 23 different works were uploaded by Block Development Officer within 10 minutes, from 2025-06-27 17:11:11 to 2025-06-27 17:21:09.",
+  "That is about one work every 26 seconds on average.",
+  "The works are in 8 villages: Chinnanur, Kunnur, Mannur, Mettupattithathanur, Sandiyur Attayampatti, Semmanathan, Talai Cholai, Vattamuthampatti.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Panamarathupatti, Peddanaickenpalayam, Salem, Yercaud."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9346260",
@@ -98,6 +125,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
+  },
+  {
+   "record_id": "9351284",
+   "village": "Semmanathan",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2024-08-22",
+   "end_date": "2025-06-16",
+   "lat": 11.853358,
+   "lon": 78.221497,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
   },
   {
    "record_id": "9351285",
@@ -226,6 +267,20 @@
    "block": "Peddanaickenpalayam"
   },
   {
+   "record_id": "9351299",
+   "village": "Talai Cholai",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-03-02",
+   "end_date": "2023-08-14",
+   "lat": 11.775049,
+   "lon": 78.256511,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
    "record_id": "9351300",
    "village": "Mannur",
    "structure_type": "Percolation Pond",
@@ -238,6 +293,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
+  },
+  {
+   "record_id": "9351303",
+   "village": "Talai Cholai",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-07-13",
+   "end_date": "2023-09-25",
+   "lat": 11.777414,
+   "lon": 78.260563,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
   },
   {
    "record_id": "9351304",
@@ -281,5 +350,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

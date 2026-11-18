@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-df00a34ec43f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 21 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Biharipur",
+  "Kalasanghian"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "The same photo file (fingerprint 996f6d6deace) is attached to 21 different works in 2 villages. A photo of one site cannot be evidence for 21 separate works.",
+  "The works are recorded as: Contour Trench (21).",
+  "All 21 works report the same GPS point (31.260563, 75.438357).",
+  "Each of the 21 works started and ended on a single day. The works are spread over 2 dates: 2026-05-01, 2026-05-06."
+ ],
+ "photo": "photos/996f6d6deace7697af7e349d810f9aaef0190a0a677886d31f12747e21d57e9a.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "10141137",
@@ -295,5 +316,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 65,
+ "needs_human_review": false
 }

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-ed058748d60f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Inam Inchenahalli",
+  "Ramaganaparthy"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1784400aa40a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (13.57136835, 77.82485957).",
+  "The photo was uploaded 4 times within 4 minutes (2025-12-21 21:55:04 to 2025-12-21 21:58:05)."
+ ],
+ "photo": "photos/1784400aa40ad6d31994a83aa4bf0ca41f1d2d889812a76c12d2d808c6c2d8f3.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3129794",
+   "village": "Inam Inchenahalli",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-11",
+   "end_date": "2026-04-16",
+   "lat": 13.57136835,
+   "lon": 77.82485957,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3129810",
+   "village": "Ramaganaparthy",
+   "structure_type": "Recharge Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-26",
+   "end_date": "2025-08-15",
+   "lat": 13.57136835,
+   "lon": 77.82485957,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

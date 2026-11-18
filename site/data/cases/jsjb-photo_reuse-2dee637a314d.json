@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-2dee637a314d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Murideke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 478fee04e8ab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/478fee04e8ab8a37d1ccaba6dc910fc14a276217128bdb01aa36ecbda0c698e9.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "1261212",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

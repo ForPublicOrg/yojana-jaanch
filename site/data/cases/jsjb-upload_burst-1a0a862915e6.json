@@ -1,5 +1,31 @@
 {
  "id": "jsjb-upload_burst-1a0a862915e6",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "17 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Bairoji",
+  "Katteri",
+  "Manivilundan",
+  "Soorappalli",
+  "Tukkiyampalayam",
+  "Vattamuthampatti",
+  "Veppilaipatti"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "17 different photos for 17 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-02 15:20:35 to 2025-07-02 15:30:25.",
+  "That is about one work every 35 seconds on average.",
+  "The works are in 7 villages: Bairoji, Katteri, Manivilundan, Soorappalli, Tukkiyampalayam, Vattamuthampatti, Veppilaipatti.",
+  "These works are spread over 6 blocks: Nangavalli, Salem, Sankari, Talavasal, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349960",
@@ -114,6 +140,20 @@
    "block": "Salem"
   },
   {
+   "record_id": "9349970",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-28",
+   "lat": 11.5731,
+   "lon": 78.0623,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9349971",
    "village": "Tukkiyampalayam",
    "structure_type": "Percolation Pond",
@@ -225,5 +265,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

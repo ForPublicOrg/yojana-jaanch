@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-c19430a61d1b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Bundala",
+  "Chak Thattian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint faecc02f6388) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.693126, 74.970399).",
+  "The photo was uploaded 4 times within 55 seconds (2026-05-06 17:04:05 to 2026-05-06 17:05:00).",
+  "These works are spread over 2 blocks: Jandiala Guru, Rayya."
+ ],
+ "photo": "photos/faecc02f6388cc66ec5d0dc525e3c85ef00a0d202e7a6ecf3726c753501f1dc2.jpg",
+ "offices": [
+  "BDPO Jandiala"
+ ],
  "records": [
   {
    "record_id": "7623384",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Jandiala Guru"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

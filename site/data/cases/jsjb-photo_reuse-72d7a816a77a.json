@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-72d7a816a77a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Butari",
+  "Loharan Wala",
+  "Narinjan Pur Fattuwal"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 90b063626f11) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 3 dates: 2025-05-17, 2025-05-19, 2025-05-21."
+ ],
+ "photo": "photos/90b063626f110040f60f2ee0c68ef3bb45c393d2579a76db1b28cd9dfc9aa8d0.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "6291731",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

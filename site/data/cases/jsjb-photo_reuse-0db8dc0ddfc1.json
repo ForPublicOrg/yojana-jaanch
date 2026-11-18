@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0db8dc0ddfc1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Tordi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 46abdcd97b7a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 26 seconds (2026-03-06 14:40:05 to 2026-03-06 14:40:31)."
+ ],
+ "photo": "photos/46abdcd97b7af2441f1cffe640e5587dd90f7ab4b89d61dfad2772ad6d159a35.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1418728",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

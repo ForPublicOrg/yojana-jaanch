@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1a0595554867",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Cheema Kalan",
+  "Garhi Mahansingh"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 21c53a2247fb) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The entries were made by 2 different offices: ARC , WRD Punjab, BDPO Phillaur."
+ ],
+ "photo": "photos/21c53a2247fbcd8602f5b2577b4e95b440e1992e46acf19051505a036730ff89.jpg",
+ "offices": [
+  "ARC , WRD Punjab",
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "4434296",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

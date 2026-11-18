@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-958ecd2f5303",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Khap Khopraha Urf Gobraha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5ad1deedd5e8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/5ad1deedd5e8b037570d6efe96850342076a53a1fb45baa439d3e1b0cbb5da45.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4358184",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

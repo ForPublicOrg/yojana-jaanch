@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-30ba735ceada",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Amaram",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Mecheri",
+ "villages": [
+  "Amaram"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Amaram report exactly the same GPS point (11.846317, 77.966975).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (7).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346233",
@@ -99,5 +119,8 @@
    "area_type": "Rural",
    "block": "Mecheri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

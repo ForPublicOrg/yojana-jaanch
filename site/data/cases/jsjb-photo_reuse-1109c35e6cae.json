@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1109c35e6cae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Hujra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 26e5ce6f6955) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1)."
+ ],
+ "photo": "photos/26e5ce6f695567948b517f41a0e14f6e143b71098274eabf9a7a41006617e4bc.jpg",
+ "offices": [
+  "BDPO Sidhwan"
+ ],
  "records": [
   {
    "record_id": "1132731",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

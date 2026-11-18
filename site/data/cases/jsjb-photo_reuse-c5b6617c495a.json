@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c5b6617c495a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Kotli Sainian",
+  "Paswal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f66140d2aca0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/f66140d2aca0eae81a2fa57b85f18f832b06ded248580210fcb0311920ed4237.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7986801",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

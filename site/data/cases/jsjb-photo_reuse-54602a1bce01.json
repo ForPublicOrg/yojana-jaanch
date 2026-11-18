@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-54602a1bce01",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripettai",
+ "villages": [
+  "Namagiripettai (TP) - Ward No.6",
+  "Namagiripettai (TP) - Ward No.9"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d58e6cc1f92) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.454958, 78.267075)."
+ ],
+ "photo": "photos/5d58e6cc1f920858c35351ce36fdc42cb375c40ce5df83e9969bfabe60e8d3e7.jpg",
+ "offices": [
+  "EO NAMAGIRIPETTAI"
+ ],
+ "records": [
+  {
+   "record_id": "3348483",
+   "village": "Namagiripettai (TP) - Ward No.9",
+   "structure_type": "Other",
+   "created_by": "EO NAMAGIRIPETTAI",
+   "start_date": "2025-12-10",
+   "end_date": "2025-12-29",
+   "lat": 11.454958,
+   "lon": 78.267075,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namagiripettai"
+  },
+  {
+   "record_id": "3452520",
+   "village": "Namagiripettai (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO NAMAGIRIPETTAI",
+   "start_date": "2026-01-03",
+   "end_date": "2025-12-25",
+   "lat": 11.454958,
+   "lon": 78.267075,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namagiripettai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

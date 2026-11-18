@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-e011d6df13a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Vembaneri"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint d3cdfe4060ea) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Percolation Pond (4)."
+ ],
+ "photo": "photos/d3cdfe4060ea94e9e348823a11cf73c32d053c2fa147e74046b91f730bf3e534.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9347752",
@@ -57,5 +75,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

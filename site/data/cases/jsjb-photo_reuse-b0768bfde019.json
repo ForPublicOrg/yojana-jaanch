@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b0768bfde019",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Kabra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb39396d2266) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.0, 75.88).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-22 11:47:04 to 2026-05-22 11:51:32)."
+ ],
+ "photo": "photos/eb39396d2266543cec5da0efd7e6293c09fa5def96f2d2de78e008cecc109dce.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "11054939",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

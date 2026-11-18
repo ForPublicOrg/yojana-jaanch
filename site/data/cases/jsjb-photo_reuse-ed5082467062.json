@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ed5082467062",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Kurhar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 09cd6f44aae2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (26.0, 85.0).",
+  "The photo was uploaded 5 times within 6 minutes (2026-04-03 21:48:44 to 2026-04-03 21:54:37)."
+ ],
+ "photo": "photos/09cd6f44aae2050e6c9966fcf140d8345053bf71248a2441b64ba17ccb37591b.jpg",
+ "offices": [
+  "PO Bokhara"
+ ],
  "records": [
   {
    "record_id": "4456512",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

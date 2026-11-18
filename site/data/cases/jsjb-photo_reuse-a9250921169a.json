@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a9250921169a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Udotgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a8cd7f7d3714) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (26.416, 78.3205).",
+  "The photo was uploaded 2 times within 18 seconds (2026-05-12 15:02:44 to 2026-05-12 15:03:02)."
+ ],
+ "photo": "photos/a8cd7f7d371414cb1f260f020b2450034a3a3344caca03e4c37828374a40e80d.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "8703529",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

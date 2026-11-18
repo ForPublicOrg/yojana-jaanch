@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-357b7c03692b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Baheri",
+  "Bahmani",
+  "Bala Pindi"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 1135cbfb4910) is attached to 20 different works in 3 villages. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla."
+ ],
+ "photo": "photos/1135cbfb4910b63cc2614a356a1bd4f90ab62bb6360a99760e1254aff2287f7b.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7222466",
@@ -281,5 +303,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 61,
+ "needs_human_review": false
 }

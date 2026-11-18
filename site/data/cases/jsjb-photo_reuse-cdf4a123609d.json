@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cdf4a123609d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Basbiti",
+  "Pandaul Urf Panthpakar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c685fddb4cd3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 9 minutes (2026-02-05 22:59:18 to 2026-02-05 23:07:45)."
+ ],
+ "photo": "photos/c685fddb4cd363c9e65a8e54765c52fad01e9153cf6b09849ede164be40e2da7.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "68009769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2a45e230a66a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Beruka"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 06548377ae29) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (25.323346, 82.82531).",
+  "The photo was uploaded 3 times within 20 seconds (2025-09-11 18:20:04 to 2025-09-11 18:20:24)."
+ ],
+ "photo": "photos/06548377ae29eb1c1b8b57e37ba7c3e3df0503717e3c2679b34ddbf6be977a04.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391926790",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

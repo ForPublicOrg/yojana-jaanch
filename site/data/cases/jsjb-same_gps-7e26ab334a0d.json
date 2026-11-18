@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-7e26ab334a0d",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "21 works at one GPS point in West Rajapalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "West Rajapalayam"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "21 works in West Rajapalayam report exactly the same GPS point (11.0, 78.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (16), Soak Pit (5).",
+  "They carry 21 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349690",
@@ -295,5 +316,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6d3528fde259",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Mahorana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5841dec6e8f7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.482135, 75.960083)."
+ ],
+ "photo": "photos/5841dec6e8f76ecf3838611fbf6fc617c8d5699610592bd3d0cac7f6d05a12e6.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "14687380",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

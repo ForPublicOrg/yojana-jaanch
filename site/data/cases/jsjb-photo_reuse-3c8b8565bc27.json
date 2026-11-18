@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3c8b8565bc27",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Nathu Khaira"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 567a961e0727) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Gullu Plug (1).",
+  "All 2 works started and ended on the same day (2026-05-16)."
+ ],
+ "photo": "photos/567a961e07278ec2706d47dae3054316865fb415f6fbb45a33285854f32073da.jpg",
+ "offices": [
+  "Apo Qadian"
+ ],
  "records": [
   {
    "record_id": "9829392",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

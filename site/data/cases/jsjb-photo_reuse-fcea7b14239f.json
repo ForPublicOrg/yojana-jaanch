@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-fcea7b14239f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Kakar",
+  "Raowal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b43ac47e76bd) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "The entries were made by 2 different offices: Canal Ziledaar/Sidhwan Canal & Ground Water Divisi, SDO - GW - Ludhiana Canal & Ground Water Division,.",
+  "These works are spread over 2 blocks: Jagraon, Sidhwan Bet."
+ ],
+ "photo": "photos/b43ac47e76bd879181891ab33a2c9948d5314791a28f27a1ec6cb8d5b32da5a2.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi",
+  "SDO - GW - Ludhiana Canal & Ground Water Division,"
+ ],
  "records": [
   {
    "record_id": "979208",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

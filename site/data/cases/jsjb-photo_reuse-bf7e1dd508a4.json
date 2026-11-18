@@ -1,0 +1,85 @@
+{
+ "id": "jsjb-photo_reuse-bf7e1dd508a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pattanam",
+ "villages": [
+  "Pattinam (TP) - Ward No.10",
+  "Pattinam (TP) - Ward No.11",
+  "Pattinam (TP) - Ward No.6"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 6 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.016 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 188dfb87542a on 2 works, fe1d157c226f on 1 work.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/188dfb87542ad210fa64d53a6c2dc73925bb713b95bed89629d884bcc013681a.jpg",
+ "offices": [
+  "EO PATTANAM"
+ ],
+ "records": [
+  {
+   "record_id": "3500187",
+   "village": "Pattinam (TP) - Ward No.10",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-12",
+   "lat": 11.46385,
+   "lon": 78.20754,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3502610",
+   "village": "Pattinam (TP) - Ward No.6",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.46441,
+   "lon": 78.20857,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3583841",
+   "village": "Pattinam (TP) - Ward No.11",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.4726,
+   "lon": 78.2047,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "188dfb87542ad210fa64d53a6c2dc73925bb713b95bed89629d884bcc013681a",
+   "records": 2
+  },
+  {
+   "sha256": "fe1d157c226f253681594e3ffd7b9bb39a0eaa676f956cf0893de7f480587e89",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e74517816716"
+ ]
+}

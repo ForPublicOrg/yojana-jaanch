@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1f7ba35167ff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Jethuwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5003ee0f875) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (2).",
+  "All 2 works report the same GPS point (31.695695, 74.984351).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-18 11:25:26 to 2026-05-18 11:30:13)."
+ ],
+ "photo": "photos/a5003ee0f87507dd66d04d2de110da06cd65061fdfdcda2892993584537b428e.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "9901423",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

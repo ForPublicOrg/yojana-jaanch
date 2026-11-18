@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7a5e7224b501",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 21 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Chakkotla"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "The same photo file (fingerprint 43d8e96572be) is attached to 21 different works in 1 village. A photo of one site cannot be evidence for 21 separate works.",
+  "The works are recorded as: Contour Trench (21).",
+  "All 21 works report the same GPS point (31.230625, 75.258415).",
+  "Each of the 21 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-19."
+ ],
+ "photo": "photos/43d8e96572be2804e3f9c602cd2cf579d386082aab4d2cf12125063b4b93f3c4.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "10054661",
@@ -295,5 +315,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 65,
+ "needs_human_review": false
 }

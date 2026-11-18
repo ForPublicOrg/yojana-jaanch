@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3f3f4d4f51de",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "32 works at one GPS point in Pindara",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Pindara"
+ ],
+ "record_count": 32,
+ "reasons": [
+  "32 works in Pindara report exactly the same GPS point (25.4882, 82.8312).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (32).",
+  "They carry 32 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3379817",
@@ -449,5 +469,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 64,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d0aa87639f3b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Abohar",
+ "villages": [
+  "Sabuana",
+  "Sito-Guno"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 22574ec9eb7e) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "These works are spread over 2 blocks: Abohar, Khuian Sarwar."
+ ],
+ "photo": "photos/22574ec9eb7e21495c5c9fdbbd8194461753e6051cfaa33086ec170895461c10.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "9834619",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Abohar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

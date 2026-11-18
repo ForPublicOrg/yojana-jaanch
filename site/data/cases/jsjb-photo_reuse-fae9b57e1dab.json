@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-fae9b57e1dab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Banthali",
+  "Chandsinghpura",
+  "Chandwar",
+  "Deoli Gaon",
+  "Gurai",
+  "Niwariya",
+  "Rajkot",
+  "Sitapura",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint 0c2e8b0dae88) is attached to 12 different works in 9 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Other (12)."
+ ],
+ "photo": "photos/0c2e8b0dae887fc0a18f89845d30244bd127cc00133efb746baec0427bf08a4f.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "6267808",
@@ -169,5 +195,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

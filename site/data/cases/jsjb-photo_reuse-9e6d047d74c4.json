@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9e6d047d74c4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bagaha",
+  "Madhukarpur",
+  "Murha Dih"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 8d8fc17c7420 on 4 works, f1f55ee93140 on 1 work.",
+  "The works are recorded as: Soak Pit (4), Village Pond (1)."
+ ],
+ "photo": "photos/8d8fc17c74205206b1d984cb86a281de37b1ac91a5689d2be8ca4a23e505cd6e.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4025519",
@@ -71,5 +93,21 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "8d8fc17c74205206b1d984cb86a281de37b1ac91a5689d2be8ca4a23e505cd6e",
+   "records": 4
+  },
+  {
+   "sha256": "f1f55ee93140397f2830530594eb8e1e7325cb4e4c0699c5cbc85a05930a668e",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-8d6908ba5815"
  ]
 }

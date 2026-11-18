@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b152bcf5ef8b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Bhataulia",
+  "Rukunpur Urf Patahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 002d216097fe) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-04-05 15:15:37 to 2026-04-05 15:22:32)."
+ ],
+ "photo": "photos/002d216097fefd7257a0cf5a572e4683cb127ac029496db9436324e45437ba08.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4496478",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

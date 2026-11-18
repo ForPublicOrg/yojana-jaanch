@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-cec4f83df545",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Bhunga",
+ "villages": [
+  "Chak Ladian",
+  "Janauri",
+  "Kapahat",
+  "Mustfapur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint f9e64fb4b29b) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "The photo was uploaded 8 times within 25 minutes (2026-03-11 09:11:06 to 2026-03-11 09:35:26)."
+ ],
+ "photo": "photos/f9e64fb4b29b9176b5bfe818e2cb8d50893f8b59316500cb39ceb3d4bf2b1dd7.jpg",
+ "offices": [
+  "Canal Patwari"
+ ],
  "records": [
   {
    "record_id": "990676",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Bhunga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

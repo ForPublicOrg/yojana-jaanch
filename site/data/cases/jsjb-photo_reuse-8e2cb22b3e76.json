@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8e2cb22b3e76",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Kakod"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint da55f53504a3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-30 10:48:34 to 2026-03-30 10:52:11)."
+ ],
+ "photo": "photos/da55f53504a3b8fcc24abfca3a6e440b6837c465256dc6f67b90851510425a73.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4350067",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

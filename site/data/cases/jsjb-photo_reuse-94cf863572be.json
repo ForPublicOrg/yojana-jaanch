@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-94cf863572be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatpar Rani",
+ "villages": [
+  "Baraipar",
+  "Paharpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6c1747ae466e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/6c1747ae466ef9f509594d6a54d868317a7265a2de33e73429f4397e2cf5caa4.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4060821",
+   "village": "Paharpur",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-29",
+   "end_date": "2026-01-20",
+   "lat": 26.308956,
+   "lon": 84.083356,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  },
+  {
+   "record_id": "4087740",
+   "village": "Baraipar",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2026-02-02",
+   "end_date": "2026-02-19",
+   "lat": 26.373833,
+   "lon": 84.071527,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatpar Rani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4a0df94fb042",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Kalmanda",
+  "Kantoli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint bf6605798bd2) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 15 minutes (2025-05-05 16:37:43 to 2025-05-05 16:51:53)."
+ ],
+ "photo": "photos/bf6605798bd2b6d8af9f2215c78d1afe3eec279b1e1c9253ead09e38acbabeb4.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1398730",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

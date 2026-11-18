@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6f27d97a2d7a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dera Baba Nanak",
+ "villages": [
+  "Arli Bhan",
+  "Dharmabad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a147b2ebfe7e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 11 minutes (2025-11-27 15:07:39 to 2025-11-27 15:17:50)."
+ ],
+ "photo": "photos/a147b2ebfe7e64f84687441405419a2419d143123a40b98627d2a0c63a37344e.jpg",
+ "offices": [
+  "APO Dera"
+ ],
  "records": [
   {
    "record_id": "3006672",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dera Baba Nanak"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cb03996dddb5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Mandawa",
+ "villages": [
+  "Bahadurwas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fde80e2394a4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.0162, 75.2025)."
+ ],
+ "photo": "photos/fde80e2394a4412446c089b33b8e90323b4a12e1b94cdf66f4ac474081626eec.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3866474",
+   "village": "Bahadurwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-11",
+   "end_date": "2025-12-18",
+   "lat": 28.0162,
+   "lon": 75.2025,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  },
+  {
+   "record_id": "3885376",
+   "village": "Bahadurwas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-01",
+   "end_date": "2025-08-03",
+   "lat": 28.0162,
+   "lon": 75.2025,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Mandawa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

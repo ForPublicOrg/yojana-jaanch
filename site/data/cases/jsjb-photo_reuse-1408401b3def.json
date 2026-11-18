@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1408401b3def",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Parana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 140027b85bc5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.258797, 75.94711).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-29 20:36:13 to 2026-05-29 20:38:07)."
+ ],
+ "photo": "photos/140027b85bc5c60e9cdf8acbb0d5b69f59f01dbceb72db386bc2a7e074ee0e71.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14861906",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

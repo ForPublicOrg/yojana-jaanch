@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-8ff66385bcb4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Baronga Zer",
+  "Bharpur Garh",
+  "Kotli",
+  "Majra Manna Singh Wala",
+  "Raipur Chobdaran",
+  "Sherpur",
+  "Tangrala"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 53c4713d453e) is attached to 9 different works in 7 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9)."
+ ],
+ "photo": "photos/53c4713d453e86f31af2b4d1f4f59439a7f6b8277619553c09c5cd12985e6822.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5512570",
@@ -127,5 +151,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

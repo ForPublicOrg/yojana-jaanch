@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-66aa43160857",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Bishunpur Ketharia",
+  "Kharka",
+  "Kokna",
+  "Rampur Parori"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint c48ec91976be) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/c48ec91976be7602e54b77dd5a6425a0a2deecc2a84bed96abc83108c7fa4451.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "4135924",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

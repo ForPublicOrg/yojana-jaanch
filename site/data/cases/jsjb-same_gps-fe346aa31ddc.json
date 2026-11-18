@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-fe346aa31ddc",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Mahorana",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Mahorana"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Mahorana report exactly the same GPS point (30.48, 75.95).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "12474043",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

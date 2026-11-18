@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-13ee8257ac55",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Sathapadi",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Sathapadi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Sathapadi report exactly the same GPS point (11.584878, 78.748918).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (5).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "7795171",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

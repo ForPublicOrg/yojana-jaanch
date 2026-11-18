@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-16ab10f16089",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Kaulgarh",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kaulgarh"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Kaulgarh report exactly the same GPS point (30.5676, 76.3467).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5507443",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

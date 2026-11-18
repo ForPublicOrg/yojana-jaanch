@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9b122a0561ce",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Patoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 38c3963706c1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (25.92708, 76.10965).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-19 10:34:52 to 2026-03-19 10:36:26)."
+ ],
+ "photo": "photos/38c3963706c14f6c2a5b96f352d2419f8e9d35f16a01b6469cb75573c1ffc0cd.jpg",
+ "offices": [
+  "AEN, UNIARA, WS DEPT."
+ ],
  "records": [
   {
    "record_id": "4035440",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

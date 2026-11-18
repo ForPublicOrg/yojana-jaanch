@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3762dfd3d7b0",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Gonur East",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Nangavalli",
+ "villages": [
+  "Gonur East"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Gonur East report exactly the same GPS point (11.82, 77.87).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (6).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9353818",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Nangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-15c90c3730bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Balha Madsudan",
+  "Bikrampur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3037e4235e5c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 5 times within 3 minutes (2026-02-09 18:10:53 to 2026-02-09 18:13:30)."
+ ],
+ "photo": "photos/3037e4235e5c38331948f107ca6080661ab312233f04aa6555e6963149a124ba.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "79940769920",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f960a7503059",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Harshe Chhina",
+ "villages": [
+  "Dialpura",
+  "Jagdev Kalan"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ae6b937860b0) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-07, 2026-05-11.",
+  "These works are spread over 2 blocks: Harshe Chhina, Majitha."
+ ],
+ "photo": "photos/ae6b937860b0acfb0f08afafd24e9cc25c8f5ed216de95e0bfcfcd34db245236.jpg",
+ "offices": [
+  "sco soil conservation"
+ ],
  "records": [
   {
    "record_id": "9273953",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

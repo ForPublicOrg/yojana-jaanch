@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-0c510b07f812",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Kadupur",
+  "Tayabpur",
+  "Wadala Khurd"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint e26c84544d36) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (3), Village Pond (1).",
+  "The entries were made by 3 different offices: Block Devolpment officer Kapurthala, Deputy Commissioner, Patwari Water Resources Department."
+ ],
+ "photo": "photos/e26c84544d3617efec83f84ff97a7ef3bd07e504c9781c34e1b9aafc9fd1e470.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala",
+  "Deputy Commissioner",
+  "Patwari Water Resources Department"
+ ],
  "records": [
   {
    "record_id": "979099",
@@ -57,5 +80,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

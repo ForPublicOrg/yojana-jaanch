@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0f6f19598d1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Ramsagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9e9bd05e5d33) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (25.92, 75.78).",
+  "The photo was uploaded 4 times within 5 minutes (2026-03-09 17:17:19 to 2026-03-09 17:22:18)."
+ ],
+ "photo": "photos/9e9bd05e5d3312e12c2e67ec42681065750be817efffa6d8853a6b395f5572b9.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3850837",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

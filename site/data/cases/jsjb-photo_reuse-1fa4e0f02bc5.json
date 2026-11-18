@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1fa4e0f02bc5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Lehra Dhul Kot"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33d516f93cff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: GRAM ROZGAR SEWAK, ZILEDAR SHAMIR."
+ ],
+ "photo": "photos/33d516f93cff971cebbea6667bddd182f2b815787f6e36a0b366f9d4e5560d0b.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK",
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "990255",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

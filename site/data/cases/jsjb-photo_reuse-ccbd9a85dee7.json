@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ccbd9a85dee7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Akhta (Part In Suppi) *",
+  "Parsauni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e634eb162e14) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.68, 85.24).",
+  "The photo was uploaded 2 times within 54 seconds (2026-02-01 13:43:27 to 2026-02-01 13:44:21)."
+ ],
+ "photo": "photos/e634eb162e143c42945adc2819ba9474cc79e85152aed392ac87f9a951348741.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "168725769920",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

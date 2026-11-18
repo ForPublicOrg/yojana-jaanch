@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a1fdedc44066",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Jaura Chhittran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2787939855dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (32.017, 75.3).",
+  "The photo was uploaded 2 times within 23 seconds (2026-05-25 12:03:49 to 2026-05-25 12:04:12)."
+ ],
+ "photo": "photos/2787939855dd82835be108c454ea0820ffc3ea18ed9dd924cfdc2daf12790e5f.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "12425573",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

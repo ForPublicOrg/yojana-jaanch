@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4fe85454d5ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Kachchippalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 25c472995904) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.704533, 77.783342)."
+ ],
+ "photo": "photos/25c4729959047b53b69cf57f78ee6fd5d9606770560adfb07425c6ebd380534a.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9360803",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

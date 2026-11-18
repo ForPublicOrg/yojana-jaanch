@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bcafe5edde1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 13 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Batrauli"
+ ],
+ "record_count": 13,
+ "reasons": [
+  "The same photo file (fingerprint b2d0e192e2cb) is attached to 13 different works in 1 village. A photo of one site cannot be evidence for 13 separate works.",
+  "The works are recorded as: Soak Pit (13).",
+  "The photo was uploaded 26 times within 17 minutes (2026-04-07 14:49:15 to 2026-04-07 15:06:07)."
+ ],
+ "photo": "photos/b2d0e192e2cb455ec4d319bd46d0d7cdaa9c97d6e74185651b69481c33ef6515.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4570474",
@@ -183,5 +202,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 40,
+ "needs_human_review": false
 }

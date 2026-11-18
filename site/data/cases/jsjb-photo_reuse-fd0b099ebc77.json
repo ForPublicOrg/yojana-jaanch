@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-fd0b099ebc77",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Sedri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c66c6d7ca87f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.0666948, 76.0807068)."
+ ],
+ "photo": "photos/c66c6d7ca87ffb1aa429fe0e44157e9bd580cd61b3c1f34b42ff58a541d72702.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4071165",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2acf469d7657",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Sri Hargobindpur",
+ "villages": [
+  "Bujianwali",
+  "Khojkipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 6cbf7fee26ba on 1 work, 8017b8daf173 on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/6cbf7fee26ba1b32d31588c82ccee775a2c5798cc9d8b6f96018813ffd9e20d0.jpg",
+ "offices": [
+  "APO Shri Hargobindpur"
+ ],
  "records": [
   {
    "record_id": "1245880",
@@ -29,5 +50,21 @@
    "area_type": "Rural",
    "block": "Sri Hargobindpur"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "6cbf7fee26ba1b32d31588c82ccee775a2c5798cc9d8b6f96018813ffd9e20d0",
+   "records": 1
+  },
+  {
+   "sha256": "8017b8daf173d091b8ab756baeb3f3f15e272d12d6b9b416ad9ffd89bb3747fd",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ce0301f90e86"
  ]
 }

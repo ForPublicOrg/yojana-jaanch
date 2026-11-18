@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e4bc933b64aa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Arur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8c95a0d93e1b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-02 10:18:46 to 2026-03-02 10:19:54)."
+ ],
+ "photo": "photos/8c95a0d93e1b425a5ed01397acd65f381fc9d9169ce43005e28c3e02dd233479.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9336269",
+   "village": "Arur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-02-02",
+   "end_date": "2025-02-22",
+   "lat": 11.078855,
+   "lon": 78.224315,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9337039",
+   "village": "Arur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-03-03",
+   "end_date": "2025-03-28",
+   "lat": 11.078909,
+   "lon": 78.224444,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

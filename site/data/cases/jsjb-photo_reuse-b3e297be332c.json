@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b3e297be332c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Roshiana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b3ab298cf09a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/b3ab298cf09af869bf8d319215ffa37f02aff37d985f2dd4387fe949c47b0ccb.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1321189",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

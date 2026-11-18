@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4654dd0c2e2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Nagra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb08517dfc8a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.8, 76.16).",
+  "The photo was uploaded 4 times within 34 seconds (2026-02-04 16:50:11 to 2026-02-04 16:50:45)."
+ ],
+ "photo": "photos/bb08517dfc8a47faae2dc4af62a73e351728e2b2c0fd7502578eef842a4d87b6.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1225650",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

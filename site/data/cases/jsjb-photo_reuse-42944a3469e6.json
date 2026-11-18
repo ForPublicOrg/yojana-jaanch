@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-42944a3469e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Dalluwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 00fb21c2c8ae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-04-30)."
+ ],
+ "photo": "photos/00fb21c2c8aef75e16b389a690db2462e3baf6b23e5c5d57ef60ee8173bee2a9.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7180214",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

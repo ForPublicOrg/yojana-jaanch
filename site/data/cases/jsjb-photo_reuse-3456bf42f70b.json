@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3456bf42f70b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Dighiya"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 644651fe27d2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-14 10:42:27 to 2026-04-14 10:43:33)."
+ ],
+ "photo": "photos/644651fe27d2431ea65c6f97501ce4e006c812323c00deb04e2280458824a0b8.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1165607",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

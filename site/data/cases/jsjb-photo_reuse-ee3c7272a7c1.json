@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ee3c7272a7c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Kairu",
+  "Kaseru"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cd273bfd41f9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 24 minutes (2026-03-26 13:45:51 to 2026-03-26 14:08:53)."
+ ],
+ "photo": "photos/cd273bfd41f99eca9365f604eeb416b9207f55818c302db430e5c00d14582dc9.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4271627",
+   "village": "Kaseru",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-08-12",
+   "end_date": "2026-01-15",
+   "lat": 27.9527,
+   "lon": 75.27442,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4272443",
+   "village": "Kairu",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-22",
+   "end_date": "2025-11-12",
+   "lat": 27.926825,
+   "lon": 75.3004,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

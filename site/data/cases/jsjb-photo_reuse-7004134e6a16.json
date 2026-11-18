@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7004134e6a16",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Fazilka",
+ "villages": [
+  "Pakka Chisti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cdc9f6e2f815) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/cdc9f6e2f8156a71a1e2d88e38df68c888ba1f31cb49d7b83df188c0b4800cc2.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981624",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Fazilka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

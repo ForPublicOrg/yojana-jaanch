@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-f62ef13512eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Ajner",
+  "Bathan Khurd",
+  "Kale Majra",
+  "Majri",
+  "Nangal",
+  "Rai Pur",
+  "Raipur Raian",
+  "Ramgarh",
+  "Ranwan",
+  "Shadi Pur",
+  "Thikriwala"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint a58932e27112) is attached to 12 different works in 11 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Contour Trench (12)."
+ ],
+ "photo": "photos/a58932e27112a6013ac495a647c23a15e234578d90846ef36e3da5e330dd150b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5632177",
@@ -169,5 +197,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

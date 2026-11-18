@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b91f8dfad964",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Dhunike",
+  "Pathrala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ad51ce8b624c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/ad51ce8b624c831a08f3b921acdb2f3f0ede4682929197ef0c0f69e0869520f8.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1051082",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

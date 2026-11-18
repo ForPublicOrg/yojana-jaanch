@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ab8e21a0252f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Smalsar"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 726f4c0abbd6) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (30.637963, 75.00055).",
+  "All 4 works started and ended on the same day (2026-05-12).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-12 12:42:57 to 2026-05-12 12:45:05)."
+ ],
+ "photo": "photos/726f4c0abbd606b7debf1ea744f3c7dc1fb8b65e298fe90c68d7b5739701e0b0.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8669914",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

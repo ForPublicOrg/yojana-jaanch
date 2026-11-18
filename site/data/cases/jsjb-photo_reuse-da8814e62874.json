@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-da8814e62874",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Jodhpuriya",
+  "Palei"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 327849fb290f on 4 works, 5ffb0b76374c on 2 works.",
+  "The works are recorded as: Other (6)."
+ ],
+ "photo": "photos/327849fb290f86179d9de5fef925bfafb98a813f8575022fc7162e29374ced4c.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1381070",
@@ -85,5 +106,21 @@
    "area_type": "Rural",
    "block": "Newai"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "327849fb290f86179d9de5fef925bfafb98a813f8575022fc7162e29374ced4c",
+   "records": 4
+  },
+  {
+   "sha256": "5ffb0b76374cf0297c55f7c1ab566ae9353b51cdbeccda45f590b2d79bd7a636",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3c644dac3c84"
  ]
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6bf2ec09ceed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Ghamahapur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint a2753894fa66) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (5).",
+  "All 5 works report the same GPS point (25.292889, 82.80866).",
+  "The photo was uploaded 5 times within 2 minutes (2025-09-28 12:13:49 to 2025-09-28 12:15:49)."
+ ],
+ "photo": "photos/a2753894fa66b2192fab9f8901fefcc6d5e9ec1ae5924135c21d743768c3a425.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391951548",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

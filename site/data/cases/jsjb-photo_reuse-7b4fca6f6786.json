@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7b4fca6f6786",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Sleran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d00dc6a74389) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/d00dc6a743899e35aaec7ca2ffa2d0cd4e89f36468cfa79e89351d472925a05c.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "977714",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

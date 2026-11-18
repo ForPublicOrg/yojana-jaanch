@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-dcea39a7ebf8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Chabrana",
+  "Chainpura",
+  "Dewalya Patti Goojran"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7816f4ded8fe) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The photo was uploaded 3 times within 18 minutes (2026-03-06 14:29:36 to 2026-03-06 14:47:24)."
+ ],
+ "photo": "photos/7816f4ded8fe678867270df7f6fa2df5709cb7503ab5495c4892149b6109d87c.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1417463",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

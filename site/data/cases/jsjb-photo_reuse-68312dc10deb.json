@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-68312dc10deb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Domeli",
+  "Mauli",
+  "Narang Shahpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 45204663c262) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "The entries were made by 2 different offices: ARC, Block Devolpment officer Phagwara."
+ ],
+ "photo": "photos/45204663c262a1af335161511b1dc5b72aa60d63bc6612b6ec933d779d3b744a.jpg",
+ "offices": [
+  "ARC",
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "998742",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,31 @@
 {
  "id": "jsjb-upload_burst-f8c55bd03b2d",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "23 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Aladipatti",
+  "Bairoji",
+  "Erumaipatti",
+  "Goodamalai",
+  "Katteri",
+  "Laddivadi",
+  "Selathampatti (Ct)"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "23 different photos for 24 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-02 13:26:52 to 2025-07-02 13:36:49.",
+  "That is about one work every 25 seconds on average.",
+  "The works are in 7 villages: Aladipatti, Bairoji, Erumaipatti, Goodamalai, Katteri, Laddivadi, Selathampatti (Ct).",
+  "These works are spread over 7 blocks: Ayodhiyapattinam, Gangavalli, Konganapuram, Salem, Sankari, Talavasal, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9350148",
@@ -30,6 +56,20 @@
    "block": "Sankari"
   },
   {
+   "record_id": "9350150",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-27",
+   "lat": 11.5744,
+   "lon": 78.06174,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9350151",
    "village": "Katteri",
    "structure_type": "Soak Pit",
@@ -56,6 +96,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Sankari"
+  },
+  {
+   "record_id": "9350153",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-28",
+   "lat": 11.5745,
+   "lon": 78.0619,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
   },
   {
    "record_id": "9350172",
@@ -309,5 +363,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

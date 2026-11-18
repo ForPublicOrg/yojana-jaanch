@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4e08996e8ee0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Yercaud",
+ "villages": [
+  "Nallur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71f01c53e4d0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.873608, 78.274012).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-18 17:33:55 to 2026-05-18 17:35:46)."
+ ],
+ "photo": "photos/71f01c53e4d04638223f77309b4de307887286941b849462a367aacd3c7cec20.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
+ "records": [
+  {
+   "record_id": "9996389",
+   "village": "Nallur",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-11-18",
+   "end_date": "2023-11-27",
+   "lat": 11.873608,
+   "lon": 78.274012,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  },
+  {
+   "record_id": "9996457",
+   "village": "Nallur",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-11-18",
+   "end_date": "2023-11-27",
+   "lat": 11.873608,
+   "lon": 78.274012,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Yercaud"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

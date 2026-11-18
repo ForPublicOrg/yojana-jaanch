@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b7f1508ab5e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Adampur",
+  "Madhopur",
+  "Mandaur"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint c04fcc38a0f3) is attached to 8 different works in 3 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8)."
+ ],
+ "photo": "photos/c04fcc38a0f3bb2fe7fdd6cf16c0f12587f3f350f2a1adcf68f93e1e64ac75d1.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4819255",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

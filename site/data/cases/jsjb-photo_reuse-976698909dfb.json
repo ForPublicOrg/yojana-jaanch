@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-976698909dfb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Basantpur",
+  "Batraulia",
+  "Bokta"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a566bb588da3) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Nala Bund (1), Recharge Pit (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 10 minutes (2026-04-05 22:01:34 to 2026-04-05 22:10:46)."
+ ],
+ "photo": "photos/a566bb588da333565e16b9a55c57b8a7e0b2371c3f150f0af8a91ebea15cd965.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4506416",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Riga"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

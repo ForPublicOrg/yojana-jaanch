@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-8bcf1c6a5e4c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Joeyke",
+  "Sohiya Kalan",
+  "Uchokey Kalan"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint e88d7a0aa336) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (4).",
+  "The entries were made by 3 different offices: BDPO Chogawan, BDPO Majitha, BDPO Tarsikka.",
+  "These works are spread over 3 blocks: Chogawan, Majitha, Tarsikka."
+ ],
+ "photo": "photos/e88d7a0aa336ee624d2d833d9ec55714362e24733f4b6d23c31afbbb5b376086.jpg",
+ "offices": [
+  "BDPO Chogawan",
+  "BDPO Majitha",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "7668348",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

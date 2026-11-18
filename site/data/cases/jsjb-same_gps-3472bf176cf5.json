@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3472bf176cf5",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "10 works at one GPS point in Avaniperur(East)",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Avaniperur(East)"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "10 works in Avaniperur(East) report exactly the same GPS point (11.62102, 77.875878).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (10).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344469",
@@ -141,5 +161,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

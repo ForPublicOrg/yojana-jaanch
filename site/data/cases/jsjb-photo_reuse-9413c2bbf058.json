@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9413c2bbf058",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bhagpur Alias Gagrah"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3ed3d9016a36) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.92, 75.15).",
+  "All 3 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 5 times within 8 minutes (2026-05-21 13:59:57 to 2026-05-21 14:07:36)."
+ ],
+ "photo": "photos/3ed3d9016a36144ab016d0e55b1c66b41094fa2521a788d4393cda06fe1c7507.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "10684320",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

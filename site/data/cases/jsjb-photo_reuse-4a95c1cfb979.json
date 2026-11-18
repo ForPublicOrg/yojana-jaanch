@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4a95c1cfb979",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Araria",
+  "Bagaha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b3f3dd8b1397) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/b3f3dd8b1397a4dd8c3337102ad9725690b71a5437891fb0e2fdb8c144180fff.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4107996",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-64341af269c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Basbita"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a6cae734469b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7523928, 85.4364129).",
+  "The photo was uploaded 4 times within 8 minutes (2026-03-21 08:59:16 to 2026-03-21 09:06:23)."
+ ],
+ "photo": "photos/a6cae734469bb6d0c5e172cdfac0a817b869d63d201b7998251ef98dfa5132b4.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4086980",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

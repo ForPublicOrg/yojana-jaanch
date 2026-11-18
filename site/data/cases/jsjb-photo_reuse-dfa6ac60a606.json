@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dfa6ac60a606",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Dhamot",
+  "Doburji"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ad6f05958e0c) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 3 times within 12 minutes (2026-02-05 15:06:30 to 2026-02-05 15:18:30)."
+ ],
+ "photo": "photos/ad6f05958e0ca51345904e699f02f3f4f214487d80cd21ed843569cabce2608c.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1041293",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ace6bcc53716",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Sahaura Dadial",
+  "Talwara (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b31cd363be1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Rooftop Water Harvesting Structure (1).",
+  "These works are spread over 2 blocks: Hajipur, Talwara."
+ ],
+ "photo": "photos/3b31cd363be14d0abf0febe7ef686da352828e3f8c65cb02848cb4b8bed30345.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "1056415",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Talwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ad8ddc2937a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Hosakote",
+  "Sonaganahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint abc5feec7473) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 12 minutes (2026-05-08 06:58:37 to 2026-05-08 07:10:04)."
+ ],
+ "photo": "photos/abc5feec7473b643a61c7eb60797c68d0c3064a65f9c11ff8c25f677c7c5ac24.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "7854434",
+   "village": "Hosakote",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2022-02-10",
+   "end_date": "2023-04-05",
+   "lat": 13.579272,
+   "lon": 77.400232,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "7855898",
+   "village": "Sonaganahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2022-02-10",
+   "end_date": "2023-04-05",
+   "lat": 23.592808,
+   "lon": 77.423807,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

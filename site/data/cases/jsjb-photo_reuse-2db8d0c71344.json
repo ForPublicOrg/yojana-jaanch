@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2db8d0c71344",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Bhagana"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5141827515d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.355492, 75.853513).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-21, 2026-05-22.",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-23 21:26:47 to 2026-05-23 21:27:50)."
+ ],
+ "photo": "photos/c5141827515da1d92fdb74363f89a8f4c4b6f76f488dc152838d737e934d17f0.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "11841708",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

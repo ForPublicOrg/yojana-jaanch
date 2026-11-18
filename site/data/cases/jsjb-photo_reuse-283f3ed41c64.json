@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-283f3ed41c64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Jandiala Guru",
+ "villages": [
+  "Bundala",
+  "Katla",
+  "Manj",
+  "Uchokey Kalan",
+  "Vadala Kalan"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 43a74af67d6b) is attached to 11 different works in 5 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Any Innovative Low Cost Model (11).",
+  "The entries were made by 5 different offices: BDPO Chogawan, BDPO Jandiala, BDPO Ramdass, BDPO Rayya, BDPO Tarsikka.",
+  "These works are spread over 5 blocks: Chogawan, Jandiala Guru, Ramdas, Rayya, Tarsikka."
+ ],
+ "photo": "photos/43a74af67d6b0c6b5b806590d1af3907a50db76c6626117aa74250585813a776.jpg",
+ "offices": [
+  "BDPO Chogawan",
+  "BDPO Jandiala",
+  "BDPO Ramdass",
+  "BDPO Rayya",
+  "BDPO Tarsikka"
+ ],
  "records": [
   {
    "record_id": "10860919",
@@ -155,5 +183,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

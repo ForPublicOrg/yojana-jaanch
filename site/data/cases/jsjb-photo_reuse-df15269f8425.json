@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-df15269f8425",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Datob"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a170ad317427) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.17, 75.3)."
+ ],
+ "photo": "photos/a170ad31742798cadf13ab4a27d45ecbecf305587c56a5e87f33964b9e831f49.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "1372036",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-af922c2542d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Basiarkh",
+  "Bhatiwal Kalan",
+  "Fatrhnagar Alias Munsni Wala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 7b22ebd29f6c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-05-11, 2026-05-12."
+ ],
+ "photo": "photos/7b22ebd29f6c6d08f399c57b98c04a7e0834cd2ed939e728d6ab9be4e2725869.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "8479247",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

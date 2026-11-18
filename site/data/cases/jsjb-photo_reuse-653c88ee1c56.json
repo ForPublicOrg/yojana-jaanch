@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-653c88ee1c56",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Lakha Singh Wala"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint dc6d76188bc6) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (30.59, 76.19).",
+  "The photo was uploaded 8 times within 3 minutes (2026-04-17 15:47:01 to 2026-04-17 15:49:59)."
+ ],
+ "photo": "photos/dc6d76188bc68bf919225fb1caea37be6aaf33286dca6842ab069ad3cac673ab.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5035812",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

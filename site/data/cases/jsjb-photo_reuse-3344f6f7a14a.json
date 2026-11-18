@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3344f6f7a14a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Dhankaul Khurd",
+  "Rohua"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1ad62dfe441b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 20 minutes (2026-03-16 14:17:30 to 2026-03-16 14:36:58)."
+ ],
+ "photo": "photos/1ad62dfe441bd4baeb6d2eda464f0266ad782743c16cb4f020f2a078dd0dbd86.jpg",
+ "offices": [
+  "BDO Bokhra"
+ ],
  "records": [
   {
    "record_id": "3973285",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-18c545db6d20",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Attari",
+ "villages": [
+  "Heir",
+  "Jagdev Kalan",
+  "Nangal Wanjhanwala"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 1ca9bef97d79) is attached to 11 different works in 3 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Recharge Pit (10), Other (1).",
+  "These works are spread over 3 blocks: Ajnala, Attari, Harshe Chhina."
+ ],
+ "photo": "photos/1ca9bef97d79deeea86f8bc9c63eae6ec93698d642e7466365ffaab96ea824c4.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5037187",
@@ -155,5 +176,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

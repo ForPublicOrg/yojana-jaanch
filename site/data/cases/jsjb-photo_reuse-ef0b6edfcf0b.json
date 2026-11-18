@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ef0b6edfcf0b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 38 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Haluwal",
+  "Harjiana",
+  "Haveli"
+ ],
+ "record_count": 38,
+ "reasons": [
+  "The same photo file (fingerprint 4633e2cf70db) is attached to 38 different works in 3 villages. A photo of one site cannot be evidence for 38 separate works.",
+  "The works are recorded as: Contour Trench (27), Other (11)."
+ ],
+ "photo": "photos/4633e2cf70dbb0f6f87560c12076677b3e161b9aa7a7be6d93889c295ebadaa9.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "5348208",
@@ -533,5 +553,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 114,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-db8ac76ddaa3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Bhullarai",
+  "Bir Dhandoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d52e4c7f32b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Block Devolpment officer Phagwara, Ziledar."
+ ],
+ "photo": "photos/6d52e4c7f32baa230d55b5d6a66bfc5caced47af404ca5dbc98fa9b19117d474.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "988879",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

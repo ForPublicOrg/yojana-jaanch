@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-584e0d3afa05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Devidas Pura",
+  "Sathiala",
+  "Shahpur",
+  "Tapiala"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 90a1862ae62e) is attached to 8 different works in 4 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8)."
+ ],
+ "photo": "photos/90a1862ae62e9ce1de5739daa6483dc296f6444199fb25713194fa5c0d23741d.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5684833",
@@ -113,5 +134,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

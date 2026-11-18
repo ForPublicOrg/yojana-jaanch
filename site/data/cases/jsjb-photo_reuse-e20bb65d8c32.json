@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e20bb65d8c32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Suhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3bd0f52ddd9d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-07 07:40:07 to 2026-04-07 07:42:00)."
+ ],
+ "photo": "photos/3bd0f52ddd9ddbf07ffc722ae4166cd14a0bc70f6292f397c9f539afabe79c15.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4548879",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

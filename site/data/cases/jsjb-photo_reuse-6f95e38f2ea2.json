@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-6f95e38f2ea2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Valaiyapatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 940569192257) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.149922, 78.237579)."
+ ],
+ "photo": "photos/940569192257c71fa58b015b2ea444d1eac3aecd3316794dcb5d5a1b0640310b.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9274440",
+   "village": "Valaiyapatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2026-02-02",
+   "end_date": "2026-02-22",
+   "lat": 11.149922,
+   "lon": 78.237579,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9339840",
+   "village": "Valaiyapatti",
+   "structure_type": "Recharge Shaft",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-03-03",
+   "end_date": "2025-03-28",
+   "lat": 11.149922,
+   "lon": 78.237579,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

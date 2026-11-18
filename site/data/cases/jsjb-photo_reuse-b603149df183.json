@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b603149df183",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Bhai Rupa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 43ebf6970481) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (30.429183, 75.215256)."
+ ],
+ "photo": "photos/43ebf6970481ee47a756e114c2dac2ed08a05def199cd43b0a9e61e3a740fec4.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5453869",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fbbae958e11a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Sendamangalam",
+ "villages": [
+  "Kalkurchi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 122ec03fae2b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.41186, 78.27022).",
+  "The photo was uploaded 4 times within 51 seconds (2026-01-22 15:19:26 to 2026-01-22 15:20:17)."
+ ],
+ "photo": "photos/122ec03fae2b27ab24286685e7d474173c844446e2bc61997b3924c3c78070a3.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9340483",
+   "village": "Kalkurchi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-04-01",
+   "end_date": "2024-03-31",
+   "lat": 11.41186,
+   "lon": 78.27022,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  },
+  {
+   "record_id": "9340485",
+   "village": "Kalkurchi",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2023-04-01",
+   "end_date": "2024-03-31",
+   "lat": 11.41186,
+   "lon": 78.27022,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Sendamangalam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

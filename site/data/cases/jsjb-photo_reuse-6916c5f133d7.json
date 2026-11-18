@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6916c5f133d7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Shamsherpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 257e99d78015) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.8698128, 74.9703655).",
+  "All 3 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 3 times within 5 minutes (2026-05-11 20:28:51 to 2026-05-11 20:32:55)."
+ ],
+ "photo": "photos/257e99d780154a929c71c526faf888d98be7884144e08b88b37314cee136af73.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "8545576",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

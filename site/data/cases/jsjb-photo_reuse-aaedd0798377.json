@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-aaedd0798377",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Goghari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6e1b48fb242c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.47334, 82.926612).",
+  "The photo was uploaded 3 times within 11 minutes (2026-01-31 16:27:01 to 2026-01-31 16:37:44)."
+ ],
+ "photo": "photos/6e1b48fb242c0dbcb93338ada014f1b4d1b2ffe2018eb905aefaec741bf1210d.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3371198",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

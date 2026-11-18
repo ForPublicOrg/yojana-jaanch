@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c525ee0f5502",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Nangal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 60cafcf889cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.48, 76.035).",
+  "All 2 works started and ended on the same day (2026-05-14).",
+  "The photo was uploaded 4 times within 37 seconds (2026-05-29 09:05:20 to 2026-05-29 09:05:57)."
+ ],
+ "photo": "photos/60cafcf889cd5b398099cde65018d6df9954383d1b91726d5b132bdf3e7799d5.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "14716106",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

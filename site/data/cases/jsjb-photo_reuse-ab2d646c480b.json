@@ -1,5 +1,35 @@
 {
  "id": "jsjb-photo_reuse-ab2d646c480b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 29 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Amana",
+  "Birrakh",
+  "Chakni",
+  "Dewari Matauna",
+  "Jawahirpur",
+  "Kararbana",
+  "Koriahi Urf Kalyanpatti",
+  "Maruki",
+  "Piprarhi",
+  "Radhau",
+  "Sarkhandio Bitha",
+  "Sihniapatti",
+  "Simiahi"
+ ],
+ "record_count": 29,
+ "reasons": [
+  "The same photo file (fingerprint bb3e1eb03b00) is attached to 29 different works in 13 villages. A photo of one site cannot be evidence for 29 separate works.",
+  "The works are recorded as: Soak Pit (28), Other (1)."
+ ],
+ "photo": "photos/bb3e1eb03b002631dfd0efa486908cbb63b64ff4d92b27d73e6223c86450cd85.jpg",
+ "offices": [
+  "PO Sursand"
+ ],
  "records": [
   {
    "record_id": "931779",
@@ -407,5 +437,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 87,
+ "needs_human_review": false
 }

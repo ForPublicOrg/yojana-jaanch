@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-127b56ff95d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Arniwala Shiekh Subhan",
+ "villages": [
+  "Arniwala Sheikh Subhan",
+  "Kaurianwali",
+  "Mammu Khera"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 11931bdd0fa3) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4).",
+  "The photo was uploaded 4 times within 17 minutes (2026-03-28 23:12:28 to 2026-03-28 23:28:53).",
+  "The entries were made by 2 different offices: Junior Engineer, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Fazilka."
+ ],
+ "photo": "photos/11931bdd0fa3c3a864bc64c64693f93ad510d75b2e35933fe319ee6709b3bc9b.jpg",
+ "offices": [
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "981398",
@@ -57,5 +81,8 @@
    "area_type": "Rural",
    "block": "Fazilka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-36bf86a347f6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Bapdunda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ec25133d350e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (26.40559, 75.265006).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-25, 2026-05-27."
+ ],
+ "photo": "photos/ec25133d350eccc2e786d319c159516bcd06dde69ac8f5aa1c7bb242a7180c9f.jpg",
+ "offices": [
+  "JEN Panchayat Raj Malpura"
+ ],
  "records": [
   {
    "record_id": "13492817",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

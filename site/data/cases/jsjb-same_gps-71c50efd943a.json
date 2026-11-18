@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-71c50efd943a",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "21 works at one GPS point in Dehliz Kalan",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Dehliz Kalan"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "21 works in Dehliz Kalan report exactly the same GPS point (30.6417597, 75.809403).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (21).",
+  "They carry 21 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Officer Forest Department"
+ ],
  "records": [
   {
    "record_id": "14829880",
@@ -295,5 +315,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

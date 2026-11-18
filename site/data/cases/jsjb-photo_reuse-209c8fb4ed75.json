@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-209c8fb4ed75",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Malpura (M) - Ward No.8"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 00855bfc5a80) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (26.252386, 75.421871).",
+  "The photo was uploaded 3 times within 15 minutes (2026-05-31 20:58:40 to 2026-05-31 21:13:27)."
+ ],
+ "photo": "photos/00855bfc5a8048caa9b79d837b05221fcfd871b046ad25a7438f9b4d76b083ae.jpg",
+ "offices": [
+  "Np malpura"
+ ],
  "records": [
   {
    "record_id": "16391325",
@@ -43,5 +63,8 @@
    "area_type": "Urban",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

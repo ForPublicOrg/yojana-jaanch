@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bed7e724b324",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Talwara",
+ "villages": [
+  "Dharampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f086c36c8d43) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.846276, 75.915866).",
+  "The photo was uploaded 2 times within 6 minutes (2026-05-31 09:49:57 to 2026-05-31 09:55:44)."
+ ],
+ "photo": "photos/f086c36c8d439c0ae581bca822facc4e1fdd5cd2f622f500e0bb6d60d634c84b.jpg",
+ "offices": [
+  "Soil Conservation Officer Dasuya1"
+ ],
  "records": [
   {
    "record_id": "5630431",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Talwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

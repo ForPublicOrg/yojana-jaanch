@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0badd697326c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Alad Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7179eb482c9d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-02-28 21:03:08 to 2026-02-28 21:04:55)."
+ ],
+ "photo": "photos/7179eb482c9d3328c92756d98ee7c4b9eb60830b3e2011b7f2e6f045df6cbc6d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1047486",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

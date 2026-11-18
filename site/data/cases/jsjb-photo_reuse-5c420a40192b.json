@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5c420a40192b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Majhauli",
+  "Misraulia"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3aa68363817f) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/3aa68363817fde4b1c89d004c28f4d41fce1d132ff1800aae852e12fe97a7140.jpg",
+ "offices": [
+  "BDO Dumra"
+ ],
  "records": [
   {
    "record_id": "4584263",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

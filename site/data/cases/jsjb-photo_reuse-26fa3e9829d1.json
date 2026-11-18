@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-26fa3e9829d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Mourkarima (109J)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c74a435f01cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c74a435f01cde0fd40514ccc8690d0bb07066144987954ee86ff21577fbdcfc3.jpg",
+ "offices": [
+  "BDPO Sidhwan"
+ ],
  "records": [
   {
    "record_id": "1236456",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sidhwan Bet"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

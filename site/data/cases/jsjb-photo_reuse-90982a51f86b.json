@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-90982a51f86b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Qadian",
+ "villages": [
+  "Nathpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71be480b166f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/71be480b166fd310820caabb3afe17efc4636bf3782205efe0c5fc793a88c6a2.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10858620",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Qadian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

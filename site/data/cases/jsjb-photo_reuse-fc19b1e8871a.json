@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fc19b1e8871a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Jhoondwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 68587c8d0908) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "All 2 works report the same GPS point (25.818606, 76.116494).",
+  "The photo was uploaded 4 times within 2 seconds (2026-03-31 21:31:09 to 2026-03-31 21:31:11)."
+ ],
+ "photo": "photos/68587c8d0908431487dd96533e5e6155b1780d9560752088ea3fe17ecee0036d.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4387382",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

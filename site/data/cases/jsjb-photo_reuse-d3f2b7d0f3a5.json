@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d3f2b7d0f3a5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 33 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Khairwa",
+  "Kuari Madan"
+ ],
+ "record_count": 33,
+ "reasons": [
+  "The same photo file (fingerprint 1abc0d7ca936) is attached to 33 different works in 2 villages. A photo of one site cannot be evidence for 33 separate works.",
+  "The works are recorded as: Recharge Pit (33)."
+ ],
+ "photo": "photos/1abc0d7ca936b9753f35343bec3f6a70fe676861b676516b62d1759814c80c48.jpg",
+ "offices": [
+  "PO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4043515",
@@ -463,5 +482,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 99,
+ "needs_human_review": false
 }

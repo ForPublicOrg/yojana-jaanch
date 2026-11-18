@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-11e2ef703d9d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Oruvandur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4884ef081432) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.028289, 78.174755)."
+ ],
+ "photo": "photos/4884ef08143222ba5fc466be0c3d7673a1538eb563a3fb7e5f855a00405957f6.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9332249",
+   "village": "Oruvandur",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-03",
+   "end_date": "2025-04-28",
+   "lat": 11.028289,
+   "lon": 78.174755,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9341337",
+   "village": "Oruvandur",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-12",
+   "end_date": "2024-05-15",
+   "lat": 11.028289,
+   "lon": 78.174755,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f5f293e120b9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Singilipatty"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4301af3930dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.273253, 78.086103)."
+ ],
+ "photo": "photos/4301af3930dd0c23bff591208933f0bbeebbbcbeb87019c286bd8b9d91f092ba.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3262286",
+   "village": "Singilipatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-04-05",
+   "end_date": "2025-06-10",
+   "lat": 11.273253,
+   "lon": 78.086103,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3276180",
+   "village": "Singilipatty",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2024-05-06",
+   "end_date": "2025-06-09",
+   "lat": 11.273253,
+   "lon": 78.086103,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

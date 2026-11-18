@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-8d4cbdd5bbd3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 78 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Amana",
+  "Baghari",
+  "Birrakh",
+  "Darha Bari",
+  "Kaurna",
+  "Koriahi Urf Kalyanpatti",
+  "Kumma",
+  "Malahi",
+  "Radhau",
+  "Sarkhandio Bitha"
+ ],
+ "record_count": 78,
+ "reasons": [
+  "The same photo file (fingerprint 7a2affe251ca) is attached to 78 different works in 10 villages. A photo of one site cannot be evidence for 78 separate works.",
+  "The works are recorded as: Gaibaion (78)."
+ ],
+ "photo": "photos/7a2affe251ca6a49a54857cab452b38155649ebec5ba7446ea5d54e84a5bec3c.jpg",
+ "offices": [
+  "PO Sursand"
+ ],
  "records": [
   {
    "record_id": "4408803",
@@ -1093,5 +1120,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 234,
+ "needs_human_review": false
 }

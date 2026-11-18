@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-20b97facc254",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Dooni",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ccc5ab49b077) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-10 13:30:43 to 2026-03-10 13:34:16)."
+ ],
+ "photo": "photos/ccc5ab49b0771c9de1da9829af58308520d834a33ad703b95e0dc6fc9e12da22.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "3866967",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

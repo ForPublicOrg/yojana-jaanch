@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5dc313fd6592",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Barapur",
+  "Bhainsa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f51e0e96ee2a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f51e0e96ee2ad91557101a108664d73c83a6bc0de7f950922cc83747fa7b1ebc.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "1264055",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

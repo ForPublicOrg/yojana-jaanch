@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-443e79dc959e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Omalur",
+ "villages": [
+  "Kottamettupatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 51fa89b849ee) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.74772, 78.05821).",
+  "The photo was uploaded 2 times within 8 minutes (2025-07-10 16:06:18 to 2025-07-10 16:14:00)."
+ ],
+ "photo": "photos/51fa89b849ee108b8c0b7bd7ded506cbafa3d3657109aa5211d2de89d43c2000.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9363421",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Omalur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

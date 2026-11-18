@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-43667dabd808",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Janakpur Road",
+ "villages": [
+  "Janakpur Road (NP) - Ward No.8"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f2f441c63b2b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.47, 85.7).",
+  "The photo was uploaded 2 times within 5 minutes (2026-04-17 13:48:27 to 2026-04-17 13:53:10)."
+ ],
+ "photo": "photos/f2f441c63b2ba84cb8e514538de575cebbba2ee8a755da57281c792f0c726c40.jpg",
+ "offices": [
+  "ULB"
+ ],
  "records": [
   {
    "record_id": "5021348",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Janakpur Road"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

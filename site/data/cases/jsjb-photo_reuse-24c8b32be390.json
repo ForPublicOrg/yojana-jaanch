@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-24c8b32be390",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Babatpur",
+  "Saray Shekhlad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 22442daa3448) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1)."
+ ],
+ "photo": "photos/22442daa3448d266b39b8dc6db6d51ba50dc9db77ce9e1a525822b89a89e2304.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "333838",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

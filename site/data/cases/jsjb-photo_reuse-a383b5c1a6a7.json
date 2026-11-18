@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a383b5c1a6a7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Puduchatram",
+ "villages": [
+  "Kadiranallur",
+  "Navani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b4262ec861e8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (2).",
+  "All 2 works report the same GPS point (11.389131, 78.194114)."
+ ],
+ "photo": "photos/b4262ec861e800baee89e659e5a018b4a49a107dc6c7e445199b000ad4055aa0.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3628109",
+   "village": "Kadiranallur",
+   "structure_type": "Recharge Shaft",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.389131,
+   "lon": 78.194114,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  },
+  {
+   "record_id": "3718234",
+   "village": "Navani",
+   "structure_type": "Recharge Shaft",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 11.389131,
+   "lon": 78.194114,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Puduchatram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

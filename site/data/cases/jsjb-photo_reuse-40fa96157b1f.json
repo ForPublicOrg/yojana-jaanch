@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-40fa96157b1f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Musatfapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2f6ccdad8714) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (31.941616, 75.178953).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-21 11:14:49 to 2026-05-21 11:19:40)."
+ ],
+ "photo": "photos/2f6ccdad87141a6e2d596afc6b764929bf219c0e158ec73fddc3690173196889.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "10622559",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

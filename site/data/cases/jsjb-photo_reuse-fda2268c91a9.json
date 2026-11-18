@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fda2268c91a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Baba Bakala (Ct)",
+  "Tapiala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c6010b9553bd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-12-19, 2025-12-25."
+ ],
+ "photo": "photos/c6010b9553bd621ca32640a91de456e2836dd67ed8afb4bb01d328f9031aafb2.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "5684826",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

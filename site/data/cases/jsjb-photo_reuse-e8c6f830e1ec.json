@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-e8c6f830e1ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Andana",
+  "Babangrah Alias Ghamur Ghat",
+  "Chandu",
+  "Gulahri",
+  "Makorad Sahib"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 79077da3dde4) is attached to 8 different works in 5 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "All 8 works report the same GPS point (29.0, 75.0)."
+ ],
+ "photo": "photos/79077da3dde4b34e0602ebcaeb22bc2d718ed8ad9cc187ce84ee60934129ce40.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "10314660",
@@ -113,5 +136,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

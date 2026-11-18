@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-7786d2dabbcc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Mahrajpur",
+  "Nathipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 24454c19f493) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Baragaon, Sevapuri."
+ ],
+ "photo": "photos/24454c19f493eb2c1e8dc6fd530b4fccfdf94aa9419cd8d9f430cbcbcee988cc.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "339017769920",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

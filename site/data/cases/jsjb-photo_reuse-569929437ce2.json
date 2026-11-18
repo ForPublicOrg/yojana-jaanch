@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-569929437ce2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Chitora",
+  "Sisonia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2610eccc8f9d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Soak Pit (1)."
+ ],
+ "photo": "photos/2610eccc8f9d6ca24ad055ba86156d39a4fe40d2ba334667a3481d025952693d.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "14096603",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b7a4e7dc3b08",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Amana",
+  "Baghari",
+  "Banauli",
+  "Malahi",
+  "Sarkhandio Bitha"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 41a50f7c6417) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6)."
+ ],
+ "photo": "photos/41a50f7c641749f3ca268099b97e9af60e529bfe7dce779f8bb9f0e162e27a65.jpg",
+ "offices": [
+  "PO Sursand"
+ ],
  "records": [
   {
    "record_id": "3967538",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

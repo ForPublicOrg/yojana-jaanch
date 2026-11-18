@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ff64272a49a2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Lato Joga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eca8e6067b18) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: BDPO Khanna, BDPO Ludhiana-2."
+ ],
+ "photo": "photos/eca8e6067b184e93042ec25a9f3c5f7b629f14057caa0a1e43463e88df49cb9c.jpg",
+ "offices": [
+  "BDPO Khanna",
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1238339",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

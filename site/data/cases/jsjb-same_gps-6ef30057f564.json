@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-6ef30057f564",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "36 works at one GPS point in Ammampalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Ammampalayam"
+ ],
+ "record_count": 36,
+ "reasons": [
+  "36 works in Ammampalayam report exactly the same GPS point (11.59, 78.65).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (36).",
+  "They carry 36 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9354023",
@@ -505,5 +525,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 72,
+ "needs_human_review": false
 }

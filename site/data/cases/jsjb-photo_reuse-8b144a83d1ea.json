@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-8b144a83d1ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Akhta (Part In Bairgania) *",
+  "Kothia Rae",
+  "Madhurapur",
+  "Rampur Kanth"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint c24f93df361e) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Village Pond (5)."
+ ],
+ "photo": "photos/c24f93df361e536e3e9aca437a3e44d366938c9cb2febf7952272585735e060e.jpg",
+ "offices": [
+  "PO Suppi"
+ ],
  "records": [
   {
    "record_id": "4588922",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9cfcf7c12c8f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Shahpur",
+  "Shakri"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 93a35983d830) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The entries were made by 2 different offices: APO Kalanaur, Apo Dhariwal."
+ ],
+ "photo": "photos/93a35983d8307e9c3622167c1ecf11ccab1d1bef8d5d6bd47548741b29c83f20.jpg",
+ "offices": [
+  "APO Kalanaur",
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "9298710",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

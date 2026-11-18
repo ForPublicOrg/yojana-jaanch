@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e94d0905b6ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Naine Wal",
+  "Sehna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c7c9f5d737f0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Recharge Shaft (1).",
+  "All 2 works report the same GPS point (30.427179, 75.327384)."
+ ],
+ "photo": "photos/c7c9f5d737f0ccf17b5a19e543d72894b57b4563dc34a602ccd9bb74c6c76811.jpg",
+ "offices": [
+  "Clerk Mandeep Singh"
+ ],
  "records": [
   {
    "record_id": "6158095",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

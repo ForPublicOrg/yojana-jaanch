@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d81eb2942657",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Othian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f4dd73d4e020) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-02-12 20:57:46 to 2026-02-12 20:58:55)."
+ ],
+ "photo": "photos/f4dd73d4e020c3ad719eaf8c490f3399271d57b8a974a77cc700922ebf99a657.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1120694",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

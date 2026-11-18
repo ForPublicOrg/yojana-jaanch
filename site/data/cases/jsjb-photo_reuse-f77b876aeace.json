@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f77b876aeace",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Dhuri",
+ "villages": [
+  "Bugra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a30623cf23e0) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.355004, 75.782887).",
+  "The photo was uploaded 3 times within 4 minutes (2026-05-17 19:06:17 to 2026-05-17 19:09:28)."
+ ],
+ "photo": "photos/a30623cf23e03278bb83725076162a75a1ff092fd7e1f52ce8b9b4348a05ac11.jpeg",
+ "offices": [
+  "Block Development Officer Dhuri"
+ ],
  "records": [
   {
    "record_id": "9822118",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dhuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

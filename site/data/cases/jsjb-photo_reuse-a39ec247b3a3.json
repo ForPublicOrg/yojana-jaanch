@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-a39ec247b3a3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Bhawani Garh",
+ "villages": [
+  "Bakhatra",
+  "Jaulian",
+  "Nagra"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 13dba5d3e096) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 2 dates: 2026-04-17, 2026-05-12."
+ ],
+ "photo": "photos/13dba5d3e0969ff0935697894ffdb38d5978c7a467b9feb7191993a4829bbdf7.jpeg",
+ "offices": [
+  "BDPO Bhawanigarh"
+ ],
  "records": [
   {
    "record_id": "4954664",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Bhawani Garh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

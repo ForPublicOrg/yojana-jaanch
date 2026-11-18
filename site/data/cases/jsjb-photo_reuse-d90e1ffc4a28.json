@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d90e1ffc4a28",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Sevapuri",
+ "villages": [
+  "Bhataulee",
+  "Bhuilaee"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b291b9e269db) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.359739, 82.854345).",
+  "The photo was uploaded 2 times within 14 minutes (2025-09-17 13:05:12 to 2025-09-17 13:18:42)."
+ ],
+ "photo": "photos/b291b9e269db1a3c021af1d92394c4fba0b2c0a42075b239372e45f1342bbbae.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1651391934841",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sevapuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

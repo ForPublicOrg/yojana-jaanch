@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7622a4ab600f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Alinagar",
+  "Gadoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a1b887da3099) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/a1b887da30995bb3189c9c6131655adbfa059caa586a76eee49a9c085442584e.jpg",
+ "offices": [
+  "AEN, UNIARA, WS DEPT."
+ ],
  "records": [
   {
    "record_id": "4034632",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-418ad2364249",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Bishanpur",
+  "Dhak Balaloan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 99a98677564c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/99a98677564c95b1520aab99b2c7f03afc8b27bf223cfb3327f9de2b6c910b76.jpg",
+ "offices": [
+  "SDO-Phagwara Drainage Sub Division-Phillaur"
+ ],
  "records": [
   {
    "record_id": "9329367",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

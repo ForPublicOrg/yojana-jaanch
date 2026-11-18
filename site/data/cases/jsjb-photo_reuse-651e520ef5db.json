@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-651e520ef5db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Loharka Kalan",
+  "Sachandar",
+  "Vadala Viram"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e38e0e82e5ef) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2025-06-09, 2025-07-19.",
+  "These works are spread over 2 blocks: Majitha, Verka."
+ ],
+ "photo": "photos/e38e0e82e5ef80d8e2eafc437282214306bdb2a4a2ef40096fa839b75e8693a2.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "5394106",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-6b23290209a4",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "34 works at one GPS point in Kongupatti (South)",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Kongupatti (South)"
+ ],
+ "record_count": 34,
+ "reasons": [
+  "34 works in Kongupatti (South) report exactly the same GPS point (11.87, 78.01).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (34).",
+  "They carry 33 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9361112",
@@ -477,5 +497,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 68,
+ "needs_human_review": false
 }

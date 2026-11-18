@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-fa0308c79fc5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Barwala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f6cc89cfe084) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/f6cc89cfe084f6b6b6519066f0ffa60044ae2ba4756649ce3685435fe284ce45.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1043998",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

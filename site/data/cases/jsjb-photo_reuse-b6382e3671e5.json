@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b6382e3671e5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Mansa Kalan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint ea86a82d817e) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/ea86a82d817ebda46167d9d2c8bcd5de2ac0ac2ba1120daf5abcd141963aab07.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1054525",
@@ -71,5 +89,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

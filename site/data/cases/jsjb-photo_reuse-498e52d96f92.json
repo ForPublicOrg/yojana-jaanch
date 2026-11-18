@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-498e52d96f92",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 9 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Gandva Kalan",
+  "Himatpura"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 9 different works in 2 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.012 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 500cc46d8c96 on 8 works, 90cf0468f19f on 1 work.",
+  "The works are recorded as: Contour Trench (9)."
+ ],
+ "photo": "photos/500cc46d8c96a87c33777c252c460aef6dde93b38fd53b6b3123261ebc66c55b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5026402",
@@ -127,5 +148,21 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "500cc46d8c96a87c33777c252c460aef6dde93b38fd53b6b3123261ebc66c55b",
+   "records": 8
+  },
+  {
+   "sha256": "90cf0468f19f07c08ef9cc498cb7969d6cb8e3aa8bf1da5cc67877695c017810",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-07cf5ef2e29b"
  ]
 }

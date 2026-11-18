@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-5cf1ef1d4dff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Dhantonda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c7bddc14b99) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.32, 76.46).",
+  "All 2 works started and ended on the same day (2026-04-17).",
+  "The photo was uploaded 3 times within 2 minutes (2026-04-20 15:31:27 to 2026-04-20 15:33:01)."
+ ],
+ "photo": "photos/3c7bddc14b99ba35cd2b640905701ae2973f2b17a9ec1edebec926d31f92aad6.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5156018",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

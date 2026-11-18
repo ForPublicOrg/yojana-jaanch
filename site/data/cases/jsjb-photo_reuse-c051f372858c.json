@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-c051f372858c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Nawali Brindawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0334f2ce6eab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2)."
+ ],
+ "photo": "photos/0334f2ce6eabaed2505b5468358e6e67e37909df3e90e4297ae31e8c8444c3ee.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "4342830",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

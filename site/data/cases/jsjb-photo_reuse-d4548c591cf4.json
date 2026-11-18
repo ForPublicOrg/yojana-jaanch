@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d4548c591cf4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Behrampur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0ec352079040) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 3 times within 9 minutes (2026-05-09 22:11:41 to 2026-05-09 22:20:14)."
+ ],
+ "photo": "photos/0ec352079040b66fd5e6b61dad50ff38928b0f4953d26df23fb210d8424da57c.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8191122",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

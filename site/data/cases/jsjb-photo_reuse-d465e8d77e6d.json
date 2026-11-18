@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d465e8d77e6d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Kanhauli"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 656a48c43e22) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Soak Pit (7).",
+  "All 7 works report the same GPS point (26.7925509, 85.5642654)."
+ ],
+ "photo": "photos/656a48c43e22956e4041ee0a3392086febb461095ca917c717ab0fd0381c9a7d.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4126062",
@@ -99,5 +118,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

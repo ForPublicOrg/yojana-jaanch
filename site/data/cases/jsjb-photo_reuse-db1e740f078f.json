@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-db1e740f078f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Badali",
+  "Faijulpura",
+  "Kaulgarh"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 46bca8edb7c0) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/46bca8edb7c0aaff2298fe438f84f9619a7486b116b802c0ba5cadc926169c11.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4613039",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

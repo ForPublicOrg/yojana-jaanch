@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-9bce5bbf96ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Talwandi Sabo",
+ "villages": [
+  "Bhagi Bander"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c91dcd5d1fef) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/c91dcd5d1fefb483469e84806fc0bbbdc130724bcf2fa0091a7914eec0ee2c68.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "4955172",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Talwandi Sabo"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

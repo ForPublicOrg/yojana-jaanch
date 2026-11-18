@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b65c2dc3e4ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar-East",
+ "villages": [
+  "Salempur Masandan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ad8e4c6983cf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: BDPO Jalandhar East, Zilledar."
+ ],
+ "photo": "photos/ad8e4c6983cf9a72f7f5ed4bf22bf541fa01b7fa97d56374dda6619fe4eba2f7.jpg",
+ "offices": [
+  "BDPO Jalandhar East",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "984415",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jalandhar-East"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

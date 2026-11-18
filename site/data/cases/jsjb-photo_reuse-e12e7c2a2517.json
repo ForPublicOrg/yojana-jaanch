@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e12e7c2a2517",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Bara Pind",
+  "Moron"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d2216042614b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/d2216042614bcc3932f2cf1ae829269a11ec7315ebaf3b89adbfb85cf9b8f595.jpg",
+ "offices": [
+  "ARC , WRD Punjab"
+ ],
  "records": [
   {
    "record_id": "991794",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4483f05a9d71",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Adampur",
+ "villages": [
+  "Nahal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4fbfbe75f535) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: BDPO Adampur, Zilledar."
+ ],
+ "photo": "photos/4fbfbe75f5353701eebb6579775d2a69d1f3975c01f41c337b956411238db010.jpg",
+ "offices": [
+  "BDPO Adampur",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "987183",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Adampur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

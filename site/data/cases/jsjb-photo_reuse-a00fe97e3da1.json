@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a00fe97e3da1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Pakhowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b1362cde1c6c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-05-08).",
+  "The photo was uploaded 2 times within 8 minutes (2026-05-20 10:56:46 to 2026-05-20 11:04:29)."
+ ],
+ "photo": "photos/b1362cde1c6c01325ffd69d77b4f0954969422a8feea0fcd56daf48aa574b5b7.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "10322165",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

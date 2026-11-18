@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-daf9ef890f28",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Pandher"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2a7613ca90cc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.154412, 75.519508).",
+  "The photo was uploaded 4 times within 27 minutes (2026-05-24 08:04:25 to 2026-05-24 08:31:11)."
+ ],
+ "photo": "photos/2a7613ca90cc662176c055641de97dc2fe98792005b634cc7c96c7b360d028cb.jpg",
+ "offices": [
+  "HARDEV SINGH APO"
+ ],
  "records": [
   {
    "record_id": "6201408",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

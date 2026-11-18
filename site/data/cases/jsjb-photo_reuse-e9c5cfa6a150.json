@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e9c5cfa6a150",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Mejar Ganj Malahi",
+  "Pachharwa"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint 91e4c77dda4e) is attached to 12 different works in 2 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Recharge Pit (12).",
+  "All 12 works report the same GPS point (26.7518389, 85.4890081).",
+  "The photo was uploaded 24 times within 12 minutes (2026-04-07 07:17:31 to 2026-04-07 07:29:16)."
+ ],
+ "photo": "photos/91e4c77dda4e23f52443c99e050349aa8c99536b0eedd6bc77ff6f220fe59ff5.jpg",
+ "offices": [
+  "PO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4548460",
@@ -169,5 +190,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 38,
+ "needs_human_review": false
 }

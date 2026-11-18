@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-01bb4e456623",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Anaiyampatty",
+  "Goodamalai",
+  "Manmalai"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 08572c03386e) is attached to 5 different works in 3 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/08572c03386e4261807030d5cf4c7cebaea381b736e27b64684ee326562a1119.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349900",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

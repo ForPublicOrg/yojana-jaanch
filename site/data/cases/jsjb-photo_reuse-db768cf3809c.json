@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-db768cf3809c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Rattan Palon"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint a4e2bbc28c30) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "The photo was uploaded 8 times within 10 minutes (2026-04-17 15:26:58 to 2026-04-17 15:36:41)."
+ ],
+ "photo": "photos/a4e2bbc28c30c3e59afe57018ab07dfd6097bd21910829f2d1b70aa36bb1799b.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5033363",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

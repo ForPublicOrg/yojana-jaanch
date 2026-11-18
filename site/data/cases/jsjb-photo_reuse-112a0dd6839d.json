@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-112a0dd6839d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ajnala",
+ "villages": [
+  "Khera",
+  "Kotli Amb",
+  "Othian"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint e440b5284fe4) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Recharge Pit (6).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 4 dates: 2025-06-12, 2025-06-14, 2025-06-15, 2026-04-09.",
+  "These works are spread over 3 blocks: Ajnala, Attari, Harshe Chhina."
+ ],
+ "photo": "photos/e440b5284fe4b5ebff8578d7e09c55d0006f49a90cd39e538525bb6fcb71da79.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5146839",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Ajnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3b8d67fb7fdf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Mahlon",
+  "Mangat"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 5df06a4b453d) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/5df06a4b453de0b193f633f500c4ff295f6210ce8e392b84b6860ac516144dd3.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1233974",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

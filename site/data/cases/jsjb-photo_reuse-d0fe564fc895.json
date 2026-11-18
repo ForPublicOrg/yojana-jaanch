@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d0fe564fc895",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Harnam Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 50d2db9a93bd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works started and ended on the same day (2026-05-11).",
+  "The photo was uploaded 2 times within 6 minutes (2026-05-18 23:07:59 to 2026-05-18 23:13:04)."
+ ],
+ "photo": "photos/50d2db9a93bd0764c3264a2418067b36cb9c90cadd57023af188d98149b34024.jpg",
+ "offices": [
+  "SUB DIVISIONAL OFFICER"
+ ],
  "records": [
   {
    "record_id": "10038028",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7e7a78c531f7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Rampura",
+ "villages": [
+  "Dhade"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 55b169916a6d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Bore-Well Recharge (1)."
+ ],
+ "photo": "photos/55b169916a6df447aeec34a4680151395a25c23a83100ca7c929d0689732c47d.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1049209",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Rampura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

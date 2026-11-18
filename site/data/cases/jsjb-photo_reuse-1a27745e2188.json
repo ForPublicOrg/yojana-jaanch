@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-1a27745e2188",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Pakkanadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1a7f4a4bbcc2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2)."
+ ],
+ "photo": "photos/1a7f4a4bbcc29ca9459d3654a39b2416f96dc0a02bffc1629c70f59ef21fbdc2.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9350695",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

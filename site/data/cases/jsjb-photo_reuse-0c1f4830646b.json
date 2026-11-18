@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-0c1f4830646b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Badeshe",
+  "Kup"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a500bfce8acc) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.554179, 75.963807).",
+  "The entries were made by 2 different offices: APO, Sub Division Officer Drainage."
+ ],
+ "photo": "photos/a500bfce8acc2d2b90d5e4945b3aeb572e4e0f87dd79f8dedcf9f848ae67a485.jpg",
+ "offices": [
+  "APO",
+  "Sub Division Officer Drainage"
+ ],
  "records": [
   {
    "record_id": "10273452",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

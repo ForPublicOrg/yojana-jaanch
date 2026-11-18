@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-9484b3149e7e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Piprarhi",
+  "Rudauli",
+  "Saura",
+  "Sewaipatti"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 3688cb50403a) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "The photo was uploaded 7 times within 24 minutes (2026-03-25 12:12:19 to 2026-03-25 12:35:31)."
+ ],
+ "photo": "photos/3688cb50403a660cf7cf8cc7c2b07b1857e57b0c42a74cad008afe86fb5c9fdb.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4229985",
@@ -57,5 +79,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b4076b23ac2e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Chikri",
+  "Mugal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint be0d2b70f2d2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "These works are spread over 2 blocks: Dhariwal, Kalanaur."
+ ],
+ "photo": "photos/be0d2b70f2d2f7775369366fcfcff5cf1fde34636a5f7778ee8aa084f47eb309.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10041566",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

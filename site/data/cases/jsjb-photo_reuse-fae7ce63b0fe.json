@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fae7ce63b0fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Auraon",
+  "Khewali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2972012f7bc8) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Arajiline, Pindra."
+ ],
+ "photo": "photos/2972012f7bc89844f4a13ee43a87e060ae3a494ca699dfac7574e8196b0eb738.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893068",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

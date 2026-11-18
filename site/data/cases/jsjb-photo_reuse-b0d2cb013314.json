@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-b0d2cb013314",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namagiripettai",
+ "villages": [
+  "Namagiripettai (TP) - Ward No.8"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.001 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): f341b1924801 on 1 work, fbbeb8e94a78 on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f341b19248013fb17b5d0b5b86a2ffe8030a3c7a9095d2f5b44f6c5bee8ebe0f.jpg",
+ "offices": [
+  "EO NAMAGIRIPETTAI"
+ ],
+ "records": [
+  {
+   "record_id": "3728699",
+   "village": "Namagiripettai (TP) - Ward No.8",
+   "structure_type": "Other",
+   "created_by": "EO NAMAGIRIPETTAI",
+   "start_date": "2026-01-04",
+   "end_date": "2026-01-19",
+   "lat": 11.453867,
+   "lon": 78.27039,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namagiripettai"
+  },
+  {
+   "record_id": "3823640",
+   "village": "Namagiripettai (TP) - Ward No.8",
+   "structure_type": "Other",
+   "created_by": "EO NAMAGIRIPETTAI",
+   "start_date": "2025-12-16",
+   "end_date": "2025-12-24",
+   "lat": 11.481277,
+   "lon": 78.265214,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namagiripettai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "f341b19248013fb17b5d0b5b86a2ffe8030a3c7a9095d2f5b44f6c5bee8ebe0f",
+   "records": 1
+  },
+  {
+   "sha256": "fbbeb8e94a781af0117699af970129ac592565b4fd2c0d45a949320712c36fb8",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-bf21f7d2592b"
+ ]
+}

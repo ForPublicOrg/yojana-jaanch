@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ed3f229d3625",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Khalaspur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4a91a0806d4e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 2 minutes (2026-03-01 13:07:09 to 2026-03-01 13:08:35)."
+ ],
+ "photo": "photos/4a91a0806d4e19312f6a93398bb82707df01fc57ff65d9646d1d755fc45e0ccd.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1065502",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,30 @@
 {
  "id": "jsjb-upload_burst-e27b36238cc1",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "50 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Chinnakalrayanhillstherkkunadu",
+  "M.Perumalpalayam",
+  "Mallikuttai",
+  "Mettupattithathanur",
+  "Perumampatti",
+  "Umbilikamaramangalam"
+ ],
+ "record_count": 51,
+ "reasons": [
+  "50 different photos for 51 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-07 13:10:38 to 2025-07-07 13:20:09.",
+  "That is about one work every 11 seconds on average.",
+  "The works are in 6 villages: Chinnakalrayanhillstherkkunadu, M.Perumalpalayam, Mallikuttai, Mettupattithathanur, Perumampatti, Umbilikamaramangalam.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Omalur, Peddanaickenpalayam, Taramangalam, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9361841",
@@ -366,6 +391,20 @@
    "block": "Peddanaickenpalayam"
   },
   {
+   "record_id": "9361869",
+   "village": "Perumampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-07-06",
+   "end_date": "2023-08-10",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9361870",
    "village": "Mallikuttai",
    "structure_type": "Other",
@@ -701,5 +740,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 51,
+ "needs_human_review": false
 }

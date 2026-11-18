@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-07acffefa6b5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Daulo Araian"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 94384d7affeb) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.31919, 75.377452).",
+  "All 5 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 10 times within 28 minutes (2026-05-14 15:39:39 to 2026-05-14 16:07:01)."
+ ],
+ "photo": "photos/94384d7affeb29065fedebdea2d2896a343ce02c3aa38ce764f191efe398caa5.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "9105877",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

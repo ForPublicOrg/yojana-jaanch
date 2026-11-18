@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-feac107dba5d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Akhta (Part In Suppi) *",
+  "Masha Alam",
+  "Masha Naoratan",
+  "Nandwara",
+  "Pachtaki Jadu",
+  "Parsauni",
+  "Patahi"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint b0c814045c95) is attached to 12 different works in 7 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Other (12)."
+ ],
+ "photo": "photos/b0c814045c95c5101d07828de538846b800edd8b48d7e352eae35656fb2d9f64.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4414968",
@@ -169,5 +193,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

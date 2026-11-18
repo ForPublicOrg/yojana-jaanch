@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bb95c8de1cb4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Nanpur",
+ "villages": [
+  "Bahera Zahid",
+  "Barhmaul"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 059fa3078593) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/059fa30785935be4c6d3ecf8e950b8b1e8a6f44728c26a628cbaeac6528a8bed.jpg",
+ "offices": [
+  "PO Nanpur"
+ ],
  "records": [
   {
    "record_id": "4407373",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

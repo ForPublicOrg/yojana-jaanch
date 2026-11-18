@@ -1,5 +1,38 @@
 {
  "id": "jsjb-photo_reuse-8d73ce862e08",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Kale Majra",
+  "Kalewal",
+  "Kotla Ajner",
+  "Kotla Massod",
+  "Lakhanpur",
+  "Lohar Majra Khurd",
+  "Mahesh Pura",
+  "Majri",
+  "Manela",
+  "Manpur",
+  "Mir Pur",
+  "Mohan Majra",
+  "Reona Bhola",
+  "Sidhu Pur Khurd",
+  "Thikriwala"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint d3c643abbb88) is attached to 23 different works in 15 villages. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Contour Trench (23).",
+  "These works are spread over 2 blocks: Khamano, Sirhind."
+ ],
+ "photo": "photos/d3c643abbb880b0bc891c9d25ad5835d6eb7716285421c589906621f8e006ed7.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5006328",
@@ -323,5 +356,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 69,
+ "needs_human_review": false
 }

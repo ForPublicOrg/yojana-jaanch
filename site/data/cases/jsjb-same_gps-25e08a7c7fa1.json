@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-25e08a7c7fa1",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Madhurapur",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Madhurapur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Madhurapur report exactly the same GPS point (26.6774732, 85.3331668).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4456868",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

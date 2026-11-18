@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a8854f6cd515",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Shivdaspur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e99a9a844d5a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 4 times within 41 seconds (2026-02-28 22:02:21 to 2026-02-28 22:03:02)."
+ ],
+ "photo": "photos/e99a9a844d5af3147c6bec9f4b90dc1d746b629d63174c00dea80a2e5ada3b94.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1066015",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c1a553280efb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Haripur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 21a311496fbe) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (32.11215, 75.462746).",
+  "All 3 works started and ended on the same day (2026-05-08).",
+  "The photo was uploaded 3 times within 6 minutes (2026-05-08 21:11:30 to 2026-05-08 21:16:43)."
+ ],
+ "photo": "photos/21a311496fbe2e87bb4ba9d956df6600f8d75f3c1156d52edbd4b3eda9218518.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7979983",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

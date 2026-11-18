@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0b74c3c2d5e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Waina"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82c65a766b1c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 19 minutes (2026-04-04 11:36:20 to 2026-04-04 11:54:42)."
+ ],
+ "photo": "photos/82c65a766b1c0a33ed018d7a921c134428233af462b2a54e3c82ac2714d3a51e.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4463689",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

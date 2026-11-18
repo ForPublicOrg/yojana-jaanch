@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fa887e8e71b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 19 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Seenpur"
+ ],
+ "record_count": 19,
+ "reasons": [
+  "The same photo file (fingerprint ebe28b55eecf) is attached to 19 different works in 1 village. A photo of one site cannot be evidence for 19 separate works.",
+  "The works are recorded as: Contour Trench (19).",
+  "All 19 works report the same GPS point (31.396928, 75.391868).",
+  "All 19 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/ebe28b55eecfc60cfb321487dda390b098fae2f03db4e23e57533684e59aba3c.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "11106007",
@@ -267,5 +287,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 59,
+ "needs_human_review": false
 }

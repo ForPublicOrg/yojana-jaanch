@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-311e2661d0ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Sidhpur"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint d9e2a1ba0f21) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.312337, 75.432617).",
+  "All 20 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/d9e2a1ba0f21b1f5ec85dcb6943fae65b74acb24ea71781851a4c62c2130b004.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "14154765",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

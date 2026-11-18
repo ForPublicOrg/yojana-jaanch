@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-8ada82bce472",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Thirumangalam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 257171465c3d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1).",
+  "All 2 works report the same GPS point (11.432865, 77.937444)."
+ ],
+ "photo": "photos/257171465c3d53af892c405d22f3e26dbfefebfc7cc4d682458630c267799209.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3311233",
+   "village": "Thirumangalam",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-07-01",
+   "end_date": "2022-12-15",
+   "lat": 11.432865,
+   "lon": 77.937444,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9336341",
+   "village": "Thirumangalam",
+   "structure_type": "Tank",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2017-04-01",
+   "end_date": "2018-03-31",
+   "lat": 11.432865,
+   "lon": 77.937444,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

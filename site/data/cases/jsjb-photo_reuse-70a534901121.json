@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-70a534901121",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Tharaj"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2c4a5228415f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.550279, 75.104727).",
+  "All 2 works started and ended on the same day (2026-04-30).",
+  "The photo was uploaded 2 times within 45 seconds (2026-05-05 13:46:36 to 2026-05-05 13:47:21)."
+ ],
+ "photo": "photos/2c4a5228415f99c9babd7566cfb3c48e9121c74f179907a26aab2fb7c95a318e.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7461703",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

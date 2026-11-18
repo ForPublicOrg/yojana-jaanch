@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fb505fa93e24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Manchanabele"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d1a74de10fdf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (13.5432, 77.5467).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-19 11:14:59 to 2026-05-19 11:16:19)."
+ ],
+ "photo": "photos/d1a74de10fdfcd8a1ed3d51f4d88683d50b93ba65738a63d8260bc3aa595f575.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "10124592",
+   "village": "Manchanabele",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-12",
+   "end_date": "2025-12-25",
+   "lat": 13.5432,
+   "lon": 77.5467,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "10124747",
+   "village": "Manchanabele",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-12",
+   "end_date": "2025-12-25",
+   "lat": 13.5432,
+   "lon": 77.5467,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

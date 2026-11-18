@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-609fa2a2e181",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Talwandi Chaudhrian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d780ad8d186a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-01-31 18:40:34 to 2026-01-31 18:44:51)."
+ ],
+ "photo": "photos/d780ad8d186a4acdb6d052e196e1e027b284f7fc91866cd17af9c6ebcee5161c.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1053715",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

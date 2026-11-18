@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e715bf9a0078",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Lanela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cfeeb29400e4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (27.0813183, 70.8170122)."
+ ],
+ "photo": "photos/cfeeb29400e41b64ed703b93b8de971485f19efbf7249cf6aae4cc3f1553e7ca.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8605344",
+   "village": "Lanela",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-07-20",
+   "end_date": "2025-07-25",
+   "lat": 27.0813183,
+   "lon": 70.8170122,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "12384088",
+   "village": "Lanela",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-07-20",
+   "end_date": "2025-07-25",
+   "lat": 27.0813183,
+   "lon": 70.8170122,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

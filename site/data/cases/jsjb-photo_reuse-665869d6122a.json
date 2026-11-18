@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-665869d6122a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Manik Chauk"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3d5f37fb8aed) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (26.4700833, 85.5470961).",
+  "The photo was uploaded 4 times within 33 seconds (2026-04-05 13:52:06 to 2026-04-05 13:52:39)."
+ ],
+ "photo": "photos/3d5f37fb8aed69d3ba46b82c035aac0e34f2b0680b8346cffa52afc821cdda44.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4493889",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

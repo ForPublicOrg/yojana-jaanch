@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-8b92b7cfe190",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Lokhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eabec8d85314) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-11-13 07:47:59 to 2026-11-13 07:52:28)."
+ ],
+ "photo": "photos/eabec8d85314ce49dcd0b3fc740d64a30cfad32ad3ec0c94d731b039302e06a4.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4575929",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d6e67f3e5164",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Dhorkha",
+  "Kanhari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 304ebc83f5b5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/304ebc83f5b5ae7f0a0fd839d8ce224defe59db32de5a0112ff7d5570f26f70e.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11339086",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

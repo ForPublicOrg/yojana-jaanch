@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8ad1c826ac60",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Manjali Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 19781964b09a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.784817, 76.134865).",
+  "The photo was uploaded 4 times within 12 minutes (2026-04-24 09:46:56 to 2026-04-24 09:58:48)."
+ ],
+ "photo": "photos/19781964b09a55407236d5675d190d95f5a7545e62394894b44f8928f92a29ee.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "5373345",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

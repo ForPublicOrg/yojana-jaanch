@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b2dea6a8f9c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Padiana",
+  "Sathiala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 75bab3c1f4ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-05-25, 2025-05-30."
+ ],
+ "photo": "photos/75bab3c1f4ea4829f4a1d908e5490ceb9909f56aebf675c4e0a43b66886faf5b.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "7774776",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

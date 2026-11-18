@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-75ff0eb5dcfa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Chak Kharak Singhwala Urf Doomwali",
+  "Pathrala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9aef1b291e34) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (29.993066, 74.749393)."
+ ],
+ "photo": "photos/9aef1b291e3435bc9a570bdd2cee6daf86e880c2314127a420d6972f8c82794b.jpg",
+ "offices": [
+  "Forest Guard"
+ ],
  "records": [
   {
    "record_id": "4184625",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

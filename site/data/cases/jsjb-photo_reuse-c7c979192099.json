@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c7c979192099",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Pahari",
+ "villages": [
+  "Chanduli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b9ff36d05a16) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.05945, 82.689375).",
+  "The photo was uploaded 4 times within 4 minutes (2026-02-24 15:03:44 to 2026-02-24 15:07:38)."
+ ],
+ "photo": "photos/b9ff36d05a16a23350dc0cf1be6ac6e653be20b6858fbd46cc2ca93265f92b1e.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3632262",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pahari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

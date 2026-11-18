@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-a93f3092ee97",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 45 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Chak Yaqub",
+  "Chhichhra",
+  "Chochna",
+  "Paswal",
+  "Phulara",
+  "Warraich"
+ ],
+ "record_count": 45,
+ "reasons": [
+  "The same photo file (fingerprint 495c66890542) is attached to 45 different works in 6 villages. A photo of one site cannot be evidence for 45 separate works.",
+  "The works are recorded as: Recharge Pit (45).",
+  "Each of the 45 works started and ended on a single day. The works are spread over 6 dates: 2026-05-08, 2026-05-09, 2026-05-12, 2026-05-14, 2026-05-19, 2026-05-20."
+ ],
+ "photo": "photos/495c66890542327c1b8461d0e4beab151cf2cf43616b3866bbf0387cf16c73e4.jpg",
+ "offices": [
+  "APO Kahnuwan"
+ ],
  "records": [
   {
    "record_id": "7986961",
@@ -631,5 +655,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 136,
+ "needs_human_review": false
 }

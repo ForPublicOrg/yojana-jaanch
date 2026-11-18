@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-3c22f5afc6f0",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Pandri",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Pandri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Pandri report exactly the same GPS point (26.5, 79.03).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Village Pond (3), Check Dam (2).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "13290909",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

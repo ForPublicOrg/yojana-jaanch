@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-de4d6281a788",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Fazilka",
+ "villages": [
+  "Aliana",
+  "Beganwali",
+  "Ram Nagar Alias Jattwali"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 51e34f451455 on 2 works, 53c029d50288 on 1 work.",
+  "The works are recorded as: Bore-Well Recharge (2), Other (1).",
+  "The entries were made by 2 different offices: BDPO Arniwala, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Arniwala Shiekh Subhan, Fazilka."
+ ],
+ "photo": "photos/51e34f451455e22eb849bcedcaddc9d3995cbfa759d7f810080a66bc5a8f6d36.jpg",
+ "offices": [
+  "BDPO Arniwala",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "988538",
@@ -43,5 +68,21 @@
    "area_type": "Rural",
    "block": "Arniwala Shiekh Subhan"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "51e34f451455e22eb849bcedcaddc9d3995cbfa759d7f810080a66bc5a8f6d36",
+   "records": 2
+  },
+  {
+   "sha256": "53c029d50288ae2cecff492059533569296bdfb5d9e874fa3ca3add6d3b6069d",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ee92c3a7d49a"
  ]
 }

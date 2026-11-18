@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b7648fa4fccd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 30 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Subhanpur"
+ ],
+ "record_count": 30,
+ "reasons": [
+  "The same photo file (fingerprint 20da68455397) is attached to 30 different works in 1 village. A photo of one site cannot be evidence for 30 separate works.",
+  "The works are recorded as: Contour Trench (30).",
+  "All 30 works report the same GPS point (31.467154, 75.404499).",
+  "All 30 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/20da684553978f1398e14642dab7a4feccd243d899459ee34440ed48b44c7061.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "11652639",
@@ -421,5 +441,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 92,
+ "needs_human_review": false
 }

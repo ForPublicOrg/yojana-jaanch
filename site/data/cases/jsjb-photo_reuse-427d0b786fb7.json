@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-427d0b786fb7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Bhodan",
+  "Dhadhot Khurd",
+  "Makado"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f23f554c40b9) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/f23f554c40b973207b3e370cb0debb367177b966b0d3946e97c888206e37d0ae.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4292704",
+   "village": "Bhodan",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-29",
+   "end_date": "2026-02-11",
+   "lat": 28.115193,
+   "lon": 75.872963,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4294452",
+   "village": "Dhadhot Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-12",
+   "end_date": "2025-11-28",
+   "lat": 28.146361,
+   "lon": 75.740256,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4297303",
+   "village": "Makado",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-14",
+   "end_date": "2025-12-31",
+   "lat": 28.083512,
+   "lon": 75.79297,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

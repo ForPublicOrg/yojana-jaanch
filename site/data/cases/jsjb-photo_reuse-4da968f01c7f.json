@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-4da968f01c7f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Beejwar",
+  "Geroli",
+  "Gurai",
+  "Kaseer",
+  "Sanwatgarh",
+  "Thanwala",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 65176cb62e0c) is attached to 7 different works in 7 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Contour Trench (7)."
+ ],
+ "photo": "photos/65176cb62e0c5b514f22ff7f1fd104fd1b1e264cd51f5780ead9a64b8f77d96e.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4040444",
@@ -99,5 +123,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

@@ -1,5 +1,37 @@
 {
  "id": "jsjb-photo_reuse-468ba5e53577",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 33 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Agwan",
+  "Alawalpur",
+  "Amargarh",
+  "Athwal",
+  "Attari",
+  "Aujla",
+  "Azampur",
+  "Bakhatpur",
+  "Balim",
+  "Barila Kalan",
+  "Barila Khurd",
+  "Bhadal",
+  "Bhawana",
+  "Bishan Kot",
+  "Jeo Julahi"
+ ],
+ "record_count": 33,
+ "reasons": [
+  "The same photo file (fingerprint 48b5474c4614) is attached to 33 different works in 15 villages. A photo of one site cannot be evidence for 33 separate works.",
+  "The works are recorded as: Contour Trench (31), Open Well Recharge / Dug Well (1), Other (1)."
+ ],
+ "photo": "photos/48b5474c4614708f38616c9e1b18d9b941ce26a78a3012ec82b4e6b7222ea6ff.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10604292",
@@ -463,5 +495,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 99,
+ "needs_human_review": false
 }

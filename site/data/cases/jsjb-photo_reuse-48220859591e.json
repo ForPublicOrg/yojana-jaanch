@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-48220859591e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Pipli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 69e69f4fdc39) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/69e69f4fdc397f26c0ff55ccb7dab92821f4389bbcb02701c833bbea656cf475.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "987154",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

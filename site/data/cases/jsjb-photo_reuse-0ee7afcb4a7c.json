@@ -1,5 +1,34 @@
 {
  "id": "jsjb-photo_reuse-0ee7afcb4a7c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 9 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Bhind",
+ "villages": [
+  "Atarsuma",
+  "Babedi",
+  "Barhi",
+  "Jampura",
+  "Kakahara",
+  "Lahroli",
+  "Rachhedi"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 9 different works in 7 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 8 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.010 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 2c60f4a40e41 on 5 works, 9d3cbe5c7406 on 4 works.",
+  "The works are recorded as: Village Pond (8), Percolation Pond (1).",
+  "All 9 works report the same GPS point (26.0, 79.0).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, Sub Engineer."
+ ],
+ "photo": "photos/2c60f4a40e417bbb3eb1c146a29db1617b76ddaaa7accb78de819fe84c52a4a0.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "7385554",
@@ -127,5 +156,21 @@
    "area_type": "Rural",
    "block": "Bhind"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 29,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "2c60f4a40e417bbb3eb1c146a29db1617b76ddaaa7accb78de819fe84c52a4a0",
+   "records": 5
+  },
+  {
+   "sha256": "9d3cbe5c740655391f20a3ac901fa7eca401bcb1c3767c7af5f80e13ae2a7d15",
+   "records": 4
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ca68375dae53"
  ]
 }

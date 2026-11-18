@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-66309dfe7764",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Kolathukombai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bd031d87985f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.740795, 78.360778).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-19 13:49:48 to 2026-05-19 13:51:48)."
+ ],
+ "photo": "photos/bd031d87985f64e56ac54a4306610c2e28cc53ec433c5a84b478d427ed0edebb.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "10160940",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ba4f559dcd31",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 101 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Thatha",
+  "Thathi"
+ ],
+ "record_count": 101,
+ "reasons": [
+  "The same photo file (fingerprint 2e8bf6d3b784) is attached to 101 different works in 2 villages. A photo of one site cannot be evidence for 101 separate works.",
+  "The works are recorded as: Other (101).",
+  "All 101 works report the same GPS point (31.45, 74.39)."
+ ],
+ "photo": "photos/2e8bf6d3b784cc8ec4b01a530e5bcaf273a773177e38097818d78c3132bff95b.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5379676",
@@ -1415,5 +1435,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 304,
+ "needs_human_review": false
 }

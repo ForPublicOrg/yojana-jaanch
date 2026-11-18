@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-570dedee14d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Nathuwala Garbi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba1bce0a9002) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.72573, 74.9775538).",
+  "All 2 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/ba1bce0a90028aacd3f08a1bbf7dc8d48e6669068d2303d678768c5fd1cfdd9d.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8393441",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

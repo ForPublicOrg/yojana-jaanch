@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-4f36eafad2cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Amwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0fb11c0ef0a9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/0fb11c0ef0a912375c077e3405a2ba1dc8e24dac99f21066856a27d4112388ab.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3350415",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

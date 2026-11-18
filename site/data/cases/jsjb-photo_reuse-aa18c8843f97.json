@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-aa18c8843f97",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Ajjavara",
+  "Doddamaralli",
+  "Yaluvahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9af02904d8aa) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Open Well Recharge / Dug Well (1)."
+ ],
+ "photo": "photos/9af02904d8aaf8d3f82bd90ff4ff6ee799f68c41513235067ee464bcf1f6d821.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092038",
+   "village": "Ajjavara",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-02-07",
+   "end_date": "2024-09-12",
+   "lat": 13.2,
+   "lon": 68.12,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3105358",
+   "village": "Yaluvahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-04",
+   "end_date": "2025-12-30",
+   "lat": 13.44057,
+   "lon": 77.55901,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3105810",
+   "village": "Doddamaralli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-01",
+   "end_date": "2025-12-31",
+   "lat": 13.44013,
+   "lon": 77.55908,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

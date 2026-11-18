@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-dd064aaad07c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Safipur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1a31fc338439) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 3 minutes (2026-04-06 10:20:45 to 2026-04-06 10:23:18).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/1a31fc33843957949c9cfedb0f4fba4138b2870507e6c25d8b41dad813ab2350.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "975356",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-249a1491e10b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kahnuwan",
+ "villages": [
+  "Kalu Sohal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ea898a9a931d) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (31.871217, 75.378179)."
+ ],
+ "photo": "photos/ea898a9a931d39be54a0794f1ab40575ce10d0de79f145eef029d9c19f29a407.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "9328982",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Kahnuwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

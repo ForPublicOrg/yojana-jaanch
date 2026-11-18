@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-c3a823c7476e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Lehra"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint b837329ce139) is attached to 11 different works in 1 village. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11)."
+ ],
+ "photo": "photos/b837329ce13910c61513d22252c685a40320efc558c34521b0027d1880af4ade.jpg",
+ "offices": [
+  "Senior Assistant forest"
+ ],
  "records": [
   {
    "record_id": "12407078",
@@ -155,5 +173,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

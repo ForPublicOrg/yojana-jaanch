@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e418edd3eeb9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Blahar Vinju"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4faf0bac8af0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 9 minutes (2026-02-24 15:31:40 to 2026-02-24 15:39:42)."
+ ],
+ "photo": "photos/4faf0bac8af03459ab6fcbb7d24df207638c9e919930208bea6ee0e044c4e698.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1069003",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

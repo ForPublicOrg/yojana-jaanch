@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-ea4de8d42e30",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-I",
+ "villages": [
+  "Sarain"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 93a0021c415b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/93a0021c415beef2549bb5d37c575b4728e9c75aec96389d363cc2db9ccc4cf2.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "977791",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-I"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

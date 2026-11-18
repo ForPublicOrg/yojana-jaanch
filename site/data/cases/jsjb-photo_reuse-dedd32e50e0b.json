@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dedd32e50e0b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Dharharwa",
+  "Malahi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 7c9c3d470056) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (3), Soak Pit (1)."
+ ],
+ "photo": "photos/7c9c3d47005625964324494fa278e59d4c3d6ea1a048da2f2932ccf32469ea9d.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4564326",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

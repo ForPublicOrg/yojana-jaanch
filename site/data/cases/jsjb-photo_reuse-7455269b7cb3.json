@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-7455269b7cb3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Pattanam",
+ "villages": [
+  "Pattinam (TP) - Ward No.13",
+  "Pattinam (TP) - Ward No.5"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fa89d5475a4b) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1).",
+  "The entries were made by 2 different offices: EO PATTANAM, ULB."
+ ],
+ "photo": "photos/fa89d5475a4ba85462f619f0584b3e70323f634cf52ac45ced1fbb4d8414be69.jpg",
+ "offices": [
+  "EO PATTANAM",
+  "ULB"
+ ],
+ "records": [
+  {
+   "record_id": "3308576",
+   "village": "Pattinam (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "ULB",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-06",
+   "lat": 11.472247,
+   "lon": 78.212817,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3587052",
+   "village": "Pattinam (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.47173,
+   "lon": 78.20505,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  },
+  {
+   "record_id": "3587066",
+   "village": "Pattinam (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO PATTANAM",
+   "start_date": "2025-06-02",
+   "end_date": "2025-06-10",
+   "lat": 11.47173,
+   "lon": 78.20505,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Pattanam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

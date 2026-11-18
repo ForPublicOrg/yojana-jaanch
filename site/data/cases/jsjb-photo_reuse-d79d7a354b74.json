@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d79d7a354b74",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Balha Madsudan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6354bc4bda0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.5042776, 85.7219495).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-03 09:52:06 to 2026-04-03 09:59:01)."
+ ],
+ "photo": "photos/b6354bc4bda0320a20e654f68d29b780e8e2e132eedc8458c6b5ad1ac2191d83.jpg",
+ "offices": [
+  "BDO Pupri"
+ ],
  "records": [
   {
    "record_id": "4438599",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

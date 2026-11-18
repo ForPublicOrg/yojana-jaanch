@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cc80cada52f7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Hadda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8e888c5f9d58) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 17 minutes (2026-05-31 08:50:28 to 2026-05-31 09:07:16)."
+ ],
+ "photo": "photos/8e888c5f9d584dfd196f43ae2227e0c42c31bcd1761bb0a2d84cdcf89374401a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15922185",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-09-25",
+   "end_date": "2025-12-30",
+   "lat": 27.07,
+   "lon": 70.93,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "15928430",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-10-25",
+   "end_date": "2025-12-25",
+   "lat": 27.06,
+   "lon": 71.0,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-6edca2c63916",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kalappanaickenpatti",
+ "villages": [
+  "Kalappanaickenpatti (TP) - Ward No.15"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0a1e845bfc13) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.32623, 78.25453).",
+  "The entries were made by 2 different offices: EO KALAPANAICKENPATTY, ULB."
+ ],
+ "photo": "photos/0a1e845bfc13d2b52a019bffb4c13793af7e49d398083ffdddc4c63f891dea23.jpg",
+ "offices": [
+  "EO KALAPANAICKENPATTY",
+  "ULB"
+ ],
+ "records": [
+  {
+   "record_id": "3501157",
+   "village": "Kalappanaickenpatti (TP) - Ward No.15",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "ULB",
+   "start_date": "2025-12-23",
+   "end_date": "2026-01-05",
+   "lat": 11.32623,
+   "lon": 78.25453,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Kalappanaickenpatti"
+  },
+  {
+   "record_id": "3516375",
+   "village": "Kalappanaickenpatti (TP) - Ward No.15",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO KALAPANAICKENPATTY",
+   "start_date": "2025-12-23",
+   "end_date": "2026-01-06",
+   "lat": 11.32623,
+   "lon": 78.25453,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Kalappanaickenpatti"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-eec4eddee793",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Mettupattithathanur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1a5745d996a7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.688478, 78.254726)."
+ ],
+ "photo": "photos/1a5745d996a7de962bcff195a9b0cb15e187d30d1a7fb521659b72da42669d3e.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345038",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-54eb731342d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Pipra Parsain"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a4f9436eec92) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-11-13 08:40:45 to 2026-11-13 08:45:03)."
+ ],
+ "photo": "photos/a4f9436eec92ee93ea9c6460c3f5b485774391455f667a0e8c40efd9c0c48ab2.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4598924",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

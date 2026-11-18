@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-6b7b2184680f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Mithewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7fb80597ea16) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.534082, 75.670476).",
+  "All 2 works started and ended on the same day (2026-04-25).",
+  "The entries were made by 2 different offices: APO, SDO Watersupply."
+ ],
+ "photo": "photos/7fb80597ea160f036ca40fbf0b16c0b91f66c59919f184f487878905c7f0f182.jpg",
+ "offices": [
+  "APO",
+  "SDO Watersupply"
+ ],
  "records": [
   {
    "record_id": "7916267",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

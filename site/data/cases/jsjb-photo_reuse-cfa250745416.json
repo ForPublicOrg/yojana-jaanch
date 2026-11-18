@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cfa250745416",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Salodi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 470fa03be843) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.75, 76.22).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-27 13:28:03 to 2026-04-27 13:34:59)."
+ ],
+ "photo": "photos/470fa03be843aba016af4b90f410c742c837a799b478a17bd6f52b35113e6cab.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "5618416",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

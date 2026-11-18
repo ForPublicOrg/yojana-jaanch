@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a5ba2a9a2981",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Dhudal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f1e4591e0bd8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.6, 75.96).",
+  "The photo was uploaded 2 times within 10 minutes (2025-04-24 15:22:47 to 2025-04-24 15:32:09)."
+ ],
+ "photo": "photos/f1e4591e0bd88999c5cd233a860adbca0b7a806d06022c4830eaebafc7c90f21.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1242635",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

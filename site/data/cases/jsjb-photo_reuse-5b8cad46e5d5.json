@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-5b8cad46e5d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Bara Pind",
+  "Kotli Khakhian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 63bb0d2304ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-02 21:43:02 to 2026-04-02 21:47:43).",
+  "The entries were made by 2 different offices: ARC , WRD Punjab, Zilledar."
+ ],
+ "photo": "photos/63bb0d2304ea5c3bc145704b071e6fc72f4bff5b0a8295922e3b3fe0ae292041.jpg",
+ "offices": [
+  "ARC , WRD Punjab",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "972966",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-81bab810f83b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Fatehgarh",
+ "villages": [
+  "Deora",
+  "Fateh Garh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b70ffe06687) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Shaft (2)."
+ ],
+ "photo": "photos/3b70ffe06687d235182020d569d067e546efac805105eb5691dad819a6eb3f47.jpg",
+ "offices": [
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "4293887",
+   "village": "Fateh Garh",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2026-03-05",
+   "end_date": "2026-03-17",
+   "lat": 26.6198,
+   "lon": 71.2509,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "4295736",
+   "village": "Deora",
+   "structure_type": "Recharge Shaft",
+   "created_by": "GWD",
+   "start_date": "2026-03-05",
+   "end_date": "2026-03-17",
+   "lat": 26.3772,
+   "lon": 70.911,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

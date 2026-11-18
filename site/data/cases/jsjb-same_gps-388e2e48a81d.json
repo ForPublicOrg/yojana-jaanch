@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-388e2e48a81d",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Ghans",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Ghans"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Ghans report exactly the same GPS point (26.07, 75.91).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (8).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3876525",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

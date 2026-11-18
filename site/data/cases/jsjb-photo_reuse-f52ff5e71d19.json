@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f52ff5e71d19",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Riga",
+ "villages": [
+  "Biror",
+  "Bokta"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3a89168142a9) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Recharge Pit (1).",
+  "These works are spread over 2 blocks: Nanpur, Riga."
+ ],
+ "photo": "photos/3a89168142a91e88e8eed9acc050b63a261abec3223cbfe114b2b7e657e3d416.jpg",
+ "offices": [
+  "PO Riga"
+ ],
  "records": [
   {
    "record_id": "4780949",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Nanpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

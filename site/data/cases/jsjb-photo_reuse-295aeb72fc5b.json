@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-295aeb72fc5b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Bhagtuapura",
+  "Jori Brahaman",
+  "Madhaiyapura",
+  "Manepura",
+  "Surpura"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint a9ba61b80169) is attached to 11 different works in 5 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Soak Pit (11)."
+ ],
+ "photo": "photos/a9ba61b80169fc1ff71032c22e0c873ff7faecacb74e008d67d20bdef3fc8972.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12091371",
@@ -155,5 +177,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

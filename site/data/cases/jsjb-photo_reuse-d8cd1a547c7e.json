@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-d8cd1a547c7e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Cheluru",
+ "villages": [
+  "Chakavelu",
+  "Chelur (Ct)",
+  "Puligal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 89e3b52a22fd) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Nala Bund (1)."
+ ],
+ "photo": "photos/89e3b52a22fdf7cc8e866f846f7a8b4a482c86aa0b189d16f111b247314b823e.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3136322",
+   "village": "Chakavelu",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-03",
+   "end_date": "2025-11-25",
+   "lat": 13.828,
+   "lon": 78.113,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3142959",
+   "village": "Chelur (Ct)",
+   "structure_type": "Nala Bund",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-26",
+   "end_date": "2025-10-30",
+   "lat": 13.720501,
+   "lon": 78.096462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  },
+  {
+   "record_id": "3759578",
+   "village": "Puligal",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-21",
+   "lat": 13.772408,
+   "lon": 78.069811,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Cheluru"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

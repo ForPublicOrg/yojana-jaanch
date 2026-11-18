@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-45972a0e0e49",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Pakhowal",
+ "villages": [
+  "Khandur (84J)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fea8c782bf1a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/fea8c782bf1a9088ddc86b43cebaccde0ae70ddabaa9d91efb6bccba46aef456.jpg",
+ "offices": [
+  "BDPO Pakhowal"
+ ],
  "records": [
   {
    "record_id": "1256095",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Pakhowal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

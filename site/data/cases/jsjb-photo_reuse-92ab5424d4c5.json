@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-92ab5424d4c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Jatana Uncha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 17e27f25e88f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 30 minutes (2026-03-02 15:06:46 to 2026-03-02 15:36:24)."
+ ],
+ "photo": "photos/17e27f25e88f0d791e3bc4aa2d80f36fd7613cf850a846b2560a7599aba0646d.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1071255",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

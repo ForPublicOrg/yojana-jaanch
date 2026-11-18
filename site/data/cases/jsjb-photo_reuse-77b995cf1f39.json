@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-77b995cf1f39",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bahiram Ke",
+  "Fatehpur Jhugian"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint ed8b8659ceca) is attached to 8 different works in 2 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "Each of the 8 works started and ended on a single day. The works are spread over 2 dates: 2026-04-27, 2026-04-28.",
+  "The entries were made by 2 different offices: BDPO DMK, BDPO KIK."
+ ],
+ "photo": "photos/ed8b8659ceca588d2c3abf5a72789f389ecb3511aefa5c62ac4edbbb50f9f682.jpg",
+ "offices": [
+  "BDPO DMK",
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "6178426",
@@ -113,5 +135,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6c919297eb16",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Talwandi Ghuman"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint c0d8de6e923e) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The photo was uploaded 6 times within 10 minutes (2026-04-23 19:30:05 to 2026-04-23 19:39:34)."
+ ],
+ "photo": "photos/c0d8de6e923ed78df8598bb34e879ef466e035689c3dbb2104fe46b550496c0c.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5355876",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

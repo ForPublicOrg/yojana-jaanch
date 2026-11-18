@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c17945e18903",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Marakkottai",
+  "Pannapatti",
+  "Poosaripatti"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 993e9e199b4f) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Percolation Pond (3)."
+ ],
+ "photo": "photos/993e9e199b4fdb17119ab3302d057ced429fcd7ef1d2f13308357ec1bde19329.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9350876",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

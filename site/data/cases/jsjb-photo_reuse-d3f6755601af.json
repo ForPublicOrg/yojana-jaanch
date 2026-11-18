@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-d3f6755601af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Chak Pali Wala",
+  "Gatti Hasal",
+  "Sardarpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2f273b3ae4d1) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1).",
+  "The entries were made by 3 different offices: BDPO jalalabad, Junior Engineer, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Abohar, Jalalabad."
+ ],
+ "photo": "photos/2f273b3ae4d1e6e885ffc5033bcf011d31c963295bce81f04fb4354f3f48595a.jpg",
+ "offices": [
+  "BDPO jalalabad",
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "981200",
@@ -43,5 +67,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e9c441d2b5e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Rampur Sunran"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint d4c35796a926) is attached to 15 different works in 1 village. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (15).",
+  "All 15 works report the same GPS point (31.30165, 75.787206).",
+  "Each of the 15 works started and ended on a single day. The works are spread over 2 dates: 2026-05-23, 2026-05-25."
+ ],
+ "photo": "photos/d4c35796a9266679362e72eafdb4ce31cc9f112b1ed1a705dd3fee0c7ed55382.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "12696835",
@@ -211,5 +231,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 47,
+ "needs_human_review": false
 }

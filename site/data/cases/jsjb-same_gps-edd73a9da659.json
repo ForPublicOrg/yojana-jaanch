@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-edd73a9da659",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Sabuana",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Khuian Sarwar",
+ "villages": [
+  "Sabuana"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Sabuana report exactly the same GPS point (30.403728, 74.025536).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (8).",
+  "They carry 9 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "9834504",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Khuian Sarwar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6e30da277a50",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Dhilwan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e854770cb2ee) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The entries were made by 2 different offices: GRAM ROZGAR SEWAK, ZILEDAR SHAMIR."
+ ],
+ "photo": "photos/e854770cb2eef2e3ac0f97dd9192b22c08eb2c723863a54c23f0394d18b132ea.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK",
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "991477",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

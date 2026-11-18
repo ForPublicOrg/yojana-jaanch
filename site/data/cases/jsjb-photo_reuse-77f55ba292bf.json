@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-77f55ba292bf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Balagarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6d5b9469061e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/6d5b9469061e80158f497d149014d488dc85a2a3685220113fa9496279da8d5e.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4035463",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

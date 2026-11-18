@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d177fbf71f18",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Tekaur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 62d907e92a92) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 58 seconds (2026-04-04 14:52:20 to 2026-04-04 14:53:18)."
+ ],
+ "photo": "photos/62d907e92a92caf722b1e21d44b034bc37d6350bc1d2d7dc48531d73bd764e89.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4475312",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

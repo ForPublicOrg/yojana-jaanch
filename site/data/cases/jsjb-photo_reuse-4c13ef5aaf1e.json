@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4c13ef5aaf1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Latipur",
+  "Sonbarsa Kumhra Sumer"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 98e216354a51) is attached to 5 different works in 2 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5)."
+ ],
+ "photo": "photos/98e216354a5143b538d2e45c5487269f21a2b9a32e4fd3f583119d32a1f86f6d.jpg",
+ "offices": [
+  "BDO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4489360",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

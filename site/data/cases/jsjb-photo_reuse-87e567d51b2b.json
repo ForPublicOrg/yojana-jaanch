@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-87e567d51b2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 125 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Saidoke",
+  "Sathiala",
+  "Shahpur"
+ ],
+ "record_count": 125,
+ "reasons": [
+  "The same photo file (fingerprint ca8423daabd2) is attached to 125 different works in 3 villages. A photo of one site cannot be evidence for 125 separate works.",
+  "The works are recorded as: Other (123), Contour Trench (2)."
+ ],
+ "photo": "photos/ca8423daabd2ca9df66deca05e4a4a4efd19851ccbbe2ac5433fdea805a94cb2.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "5305138",
@@ -1751,5 +1771,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 375,
+ "needs_human_review": false
 }

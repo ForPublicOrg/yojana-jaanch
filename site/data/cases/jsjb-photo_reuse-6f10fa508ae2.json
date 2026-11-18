@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-6f10fa508ae2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Kahne Ke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d27354134de4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1)."
+ ],
+ "photo": "photos/d27354134de4db00750d454a864292967805f3e0adf28a708d6c468d42b861da.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH"
+ ],
  "records": [
   {
    "record_id": "4323593",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a848dac4fa4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Andana",
+ "villages": [
+  "Fatehgarh Nauabad Alias Bahmniwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3f93f9be3241) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (29.0, 75.0).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-22 13:33:53 to 2026-05-22 13:38:20)."
+ ],
+ "photo": "photos/3f93f9be32416ce183aaba4cb675ab98671476dac0c47a46e1909e254d6039bd.jpeg",
+ "offices": [
+  "BDPO Moonak"
+ ],
  "records": [
   {
    "record_id": "11112242",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Andana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

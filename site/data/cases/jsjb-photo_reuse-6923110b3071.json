@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-6923110b3071",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Bhuttan",
+  "Bilaspur",
+  "Chari",
+  "Dhanola",
+  "Jatana Nicha"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 35d41ab8ba37) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/35d41ab8ba3757096a3e9779229107164db1860c4d7a874ba7dd22fb5f7fb379.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "8446495",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

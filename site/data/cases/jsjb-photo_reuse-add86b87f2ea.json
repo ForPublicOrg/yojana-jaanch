@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-add86b87f2ea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Baurhai"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d92d77ba7a90) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bench Terracing (2), Contour Trench (1).",
+  "All 3 works report the same GPS point (30.639961, 75.825339).",
+  "All 3 works started and ended on the same day (2026-05-21).",
+  "The photo was uploaded 6 times within 17 minutes (2026-05-22 13:06:37 to 2026-05-22 13:23:05)."
+ ],
+ "photo": "photos/d92d77ba7a90ef862b6252d9f8d668d8353f2380b52bcf9543771bdd14428ced.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "11098531",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-61e1d8b8af7e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 15 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Azampur",
+  "Bakhatpur",
+  "Bakhshi Wala",
+  "Barila Kalan",
+  "Bhadal",
+  "Bhangwan",
+  "Chhohan",
+  "Dhidowal",
+  "Hakimpur",
+  "Kala Goraya"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "The same photo file (fingerprint 1d0dd9ff2ca7) is attached to 15 different works in 10 villages. A photo of one site cannot be evidence for 15 separate works.",
+  "The works are recorded as: Contour Trench (15)."
+ ],
+ "photo": "photos/1d0dd9ff2ca7774d284cbc5288a953ae9f05f462290f7da39a2b5f5e93dc6a07.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10128313",
@@ -211,5 +238,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 45,
+ "needs_human_review": false
 }

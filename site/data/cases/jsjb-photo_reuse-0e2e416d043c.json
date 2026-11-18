@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-0e2e416d043c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chikballapur",
+ "villages": [
+  "Aroor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eda00d5a616a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 4 times within 2 minutes (2025-12-16 12:50:05 to 2025-12-16 12:51:23)."
+ ],
+ "photo": "photos/eda00d5a616a3a39e3db146b11a0c4a4b82518a49edfc7c9edeeb3d547a9409c.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3088388",
+   "village": "Aroor",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-21",
+   "end_date": "2025-11-27",
+   "lat": 13.577746,
+   "lon": 77.783919,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  },
+  {
+   "record_id": "3088409",
+   "village": "Aroor",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-25",
+   "end_date": "2025-12-05",
+   "lat": 13.577192,
+   "lon": 77.781726,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chikballapur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

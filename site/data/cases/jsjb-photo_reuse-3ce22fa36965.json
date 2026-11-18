@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3ce22fa36965",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Deevattipatti",
+  "Gundikkal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4c4413809e81) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1)."
+ ],
+ "photo": "photos/4c4413809e81efac162bede2725d8c9a98a3356eda0c9b752c0bbc2c222e8cd9.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9347019",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-31822592dfee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Jaisalmer",
+ "villages": [
+  "Chhor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bac9843a98a1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Recharge Pit (1).",
+  "The photo was uploaded 2 times within 0 seconds (2025-12-22 16:09:35 to 2025-12-22 16:09:35).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/bac9843a98a19b607df0c0fdfbf6857a54b7551c074d68fce66848704161f00b.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3137694",
+   "village": "Chhor",
+   "structure_type": "Recharge Pit",
+   "created_by": "GWD",
+   "start_date": "2025-07-09",
+   "end_date": "2025-09-10",
+   "lat": 26.74633,
+   "lon": 71.1576,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  },
+  {
+   "record_id": "8605872",
+   "village": "Chhor",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-07-07",
+   "end_date": "2025-08-20",
+   "lat": 26.7201901,
+   "lon": 71.1836549,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Jaisalmer"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

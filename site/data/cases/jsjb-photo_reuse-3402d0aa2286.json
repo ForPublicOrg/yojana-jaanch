@@ -1,0 +1,58 @@
+{
+ "id": "jsjb-photo_reuse-3402d0aa2286",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mallasamudram",
+ "villages": [
+  "Mallasamudram (TP) - Ward No.5",
+  "Venkarai (TP) - Ward No.2"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c32462240161) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "The entries were made by 2 different offices: EO MALLASAMUDRAM, EO VENGARAI.",
+  "These works are spread over 2 blocks: Mallasamudram, Venkarai."
+ ],
+ "photo": "photos/c32462240161560eac8f6700cc47c20feb0b2ee4e6a5694f5fa9792774eebbb9.jpg",
+ "offices": [
+  "EO MALLASAMUDRAM",
+  "EO VENGARAI"
+ ],
+ "records": [
+  {
+   "record_id": "3581067",
+   "village": "Mallasamudram (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-10",
+   "end_date": "2025-06-13",
+   "lat": 11.507035,
+   "lon": 78.032406,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3782736",
+   "village": "Venkarai (TP) - Ward No.2",
+   "structure_type": "Other",
+   "created_by": "EO VENGARAI",
+   "start_date": "2025-08-15",
+   "end_date": "2025-08-24",
+   "lat": 11.108512,
+   "lon": 77.953075,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Venkarai"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-8af0090b39fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Raikot",
+ "villages": [
+  "Andlu"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8c96bf9d1661) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/8c96bf9d16617f8107fe3850ff274c53283376ea93ce5ecb8e431dfa354eea2e.jpg",
+ "offices": [
+  "BDPO Raikot"
+ ],
  "records": [
   {
    "record_id": "1266375",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Raikot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

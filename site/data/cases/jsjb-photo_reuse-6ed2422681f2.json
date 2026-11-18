@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6ed2422681f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Desavilakku North"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint e9a6fbba2594) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (11.66, 77.96).",
+  "The photo was uploaded 3 times within 20 minutes (2025-07-04 15:21:44 to 2025-07-04 15:41:13)."
+ ],
+ "photo": "photos/e9a6fbba259406b808ddf29aff10532045cffead346390f0fae276d07cc5ca9d.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9347854",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

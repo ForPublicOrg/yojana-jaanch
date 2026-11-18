@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f93ea350c9b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Harkesh Urf Maibiharkesh",
+  "Singrahia"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 20e595976fdb) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/20e595976fdb7ac7642ef08cf39c27f9f7dc67eae6d164e961c136470207f6bd.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "3744406",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

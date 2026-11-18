@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-836bb20d43ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Rasipuram (M) - Ward No.1",
+  "Rasipuram (M) - Ward No.7"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 58d697a5985b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Rooftop Water Harvesting Structure (1)."
+ ],
+ "photo": "photos/58d697a5985b40e78c5f509bc1d4f53a2bfb853d8853352d262579a6475e7b2d.jpg",
+ "offices": [
+  "COMMSIONEER - RASIPURAM"
+ ],
+ "records": [
+  {
+   "record_id": "8346404",
+   "village": "Rasipuram (M) - Ward No.1",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-09-11",
+   "end_date": "2026-02-10",
+   "lat": 11.461529,
+   "lon": 78.145525,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "11255693",
+   "village": "Rasipuram (M) - Ward No.7",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-11-19",
+   "end_date": "2026-02-11",
+   "lat": 11.4615,
+   "lon": 78.1855,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

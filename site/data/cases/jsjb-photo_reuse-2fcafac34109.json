@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2fcafac34109",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kolathur",
+ "villages": [
+  "Sampalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f70768054ac9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (6.5, 68.1).",
+  "The photo was uploaded 2 times within 5 minutes (2025-07-01 13:09:08 to 2025-07-01 13:14:07)."
+ ],
+ "photo": "photos/f70768054ac9601439f151e7c95be228fae1d9ff829e703d4d16e41911743e81.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9349624",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kolathur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e9f6aed4498d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Ghans",
+  "Lamba"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6462c4b0d0f5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/6462c4b0d0f5be0722527405b2a36adf21c84dd054b383c989594017efa8b45d.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "3877103",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

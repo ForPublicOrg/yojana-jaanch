@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-f2f0dc17f5a9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Bhar Singhpur",
+  "Takhan Muzara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cf6776575c65) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Village Pond (1)."
+ ],
+ "photo": "photos/cf6776575c65e01ac9a522522cf3ebf7cfe878dfcd3528eb954cb1c338d2c68f.jpg",
+ "offices": [
+  "BDPO Phillaur"
+ ],
  "records": [
   {
    "record_id": "1119525",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

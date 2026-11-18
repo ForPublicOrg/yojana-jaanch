@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fba8a8006b24",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Sangat",
+ "villages": [
+  "Kot Guru"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 88bd9303753a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.933853, 74.811686).",
+  "The photo was uploaded 4 times within 18 seconds (2026-04-22 11:00:32 to 2026-04-22 11:00:50)."
+ ],
+ "photo": "photos/88bd9303753ada7564fecf012c7b5af2535a5dd08cd759326926c5253e85bccf.jpg",
+ "offices": [
+  "Centre Head Teacher"
+ ],
  "records": [
   {
    "record_id": "5235164",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sangat"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

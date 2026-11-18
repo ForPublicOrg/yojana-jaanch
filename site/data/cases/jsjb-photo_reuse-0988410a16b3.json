@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0988410a16b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Akhlaspur"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint bb24f836b850) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "All 8 works report the same GPS point (31.975095, 75.298385)."
+ ],
+ "photo": "photos/bb24f836b8504ee2c15c181b8d2345dfe7aae5d4b6295ac19a92f716c0c34674.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "8557259",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 25,
+ "needs_human_review": false
 }

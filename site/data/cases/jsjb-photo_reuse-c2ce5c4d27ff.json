@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c2ce5c4d27ff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 212 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Ramdas",
+ "villages": [
+  "Pachhia",
+  "Sahizada",
+  "Shahzada"
+ ],
+ "record_count": 212,
+ "reasons": [
+  "The same photo file (fingerprint 8e5aa3f7670b) is attached to 212 different works in 3 villages. A photo of one site cannot be evidence for 212 separate works.",
+  "The works are recorded as: Other (211), Open Well Recharge / Dug Well (1).",
+  "These works are spread over 2 blocks: Majitha, Ramdas."
+ ],
+ "photo": "photos/8e5aa3f7670b048daabea49fc6480544c72d5afca7feb3198eb7bddd8592cbba.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "8703071",
@@ -2969,5 +2990,8 @@
    "area_type": "Rural",
    "block": "Ramdas"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 636,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c978fbbe6767",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Sankari",
+ "villages": [
+  "Katteri"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 23105e55a306) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Soak Pit (5).",
+  "All 5 works report the same GPS point (11.47, 77.73)."
+ ],
+ "photo": "photos/23105e55a3064f9add6c37041ad1bffa264f22b5229a886d302a7f55893dd0fa.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9350098",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Sankari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

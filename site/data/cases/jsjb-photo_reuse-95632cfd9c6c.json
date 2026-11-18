@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-95632cfd9c6c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Fateh Jalal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9cefdfb5aa4a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The photo was uploaded 3 times within 23 minutes (2026-04-06 11:56:37 to 2026-04-06 12:19:03).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/9cefdfb5aa4addbebff3ce463ec1caa20e9e56ef663b7dc552eeb280990c380b.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "986041",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

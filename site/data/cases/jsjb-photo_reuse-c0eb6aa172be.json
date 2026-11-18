@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c0eb6aa172be",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Jamalpur",
+ "villages": [
+  "Bhabhaura",
+  "Kundadih"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dcb58c2a6bb9) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/dcb58c2a6bb9e7a8e7020d6a4c5a3f841899d5da39677d3af90ee02208b8e728.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3619174",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jamalpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0fcbf68077a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Kathiali"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 359f4b20c0a2) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (32.11677, 75.366832).",
+  "All 4 works started and ended on the same day (2026-05-05)."
+ ],
+ "photo": "photos/359f4b20c0a2b9e11ba12490a67386b36b0457fd0fb9b82a366473187f06ed92.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7844076",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,34 @@
 {
  "id": "jsjb-upload_burst-a20f17bc33ae",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "22 photos uploaded in 9 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Avadattur (Ct)",
+  "Bairoji",
+  "Belurkaradipatti",
+  "Erumaipatti",
+  "Kamakkapalayam",
+  "Kaveripatti",
+  "Nirmullikuttai",
+  "Periyerippatti",
+  "Soorappalli",
+  "Tirumanur"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "22 different photos for 23 different works were uploaded by Block Development Officer within 9 minutes, from 2025-07-01 16:31:04 to 2025-07-01 16:39:56.",
+  "That is about one work every 23 seconds on average.",
+  "The works are in 10 villages: Avadattur (Ct), Bairoji, Belurkaradipatti, Erumaipatti, Kamakkapalayam, Kaveripatti, Nirmullikuttai, Periyerippatti, Soorappalli, Tirumanur.",
+  "These works are spread over 8 blocks: Konganapuram, Nangavalli, Omalur, Peddanaickenpalayam, Sankari, Talavasal, Valapady, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9349773",
@@ -198,6 +227,20 @@
    "block": "Nangavalli"
   },
   {
+   "record_id": "9357287",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-26",
+   "lat": 11.5677,
+   "lon": 78.0633,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9357289",
    "village": "Nirmullikuttai",
    "structure_type": "Percolation Pond",
@@ -254,6 +297,20 @@
    "block": "Omalur"
   },
   {
+   "record_id": "9357295",
+   "village": "Bairoji",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-08-17",
+   "end_date": "2023-09-26",
+   "lat": 11.5676,
+   "lon": 78.0631,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9357296",
    "village": "Avadattur (Ct)",
    "structure_type": "Percolation Pond",
@@ -295,5 +352,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 23,
+ "needs_human_review": false
 }

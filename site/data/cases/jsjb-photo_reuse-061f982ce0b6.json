@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-061f982ce0b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Chhokraan",
+  "Naraingarh Alias Moranwali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fbf3a9ca1d98) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 4 minutes (2026-05-20 20:04:30 to 2026-05-20 20:07:31)."
+ ],
+ "photo": "photos/fbf3a9ca1d9805a42886a66f3b2ef3d7a75b88ae59718bdfae6069b4e7619566.jpg",
+ "offices": [
+  "APO"
+ ],
  "records": [
   {
    "record_id": "10451655",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

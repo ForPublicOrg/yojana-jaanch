@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-681e6bb3b64e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Shivdaspur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 123c195ed0e3) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.0, 76.0).",
+  "The photo was uploaded 6 times within 3 minutes (2026-04-21 12:05:59 to 2026-04-21 12:08:45)."
+ ],
+ "photo": "photos/123c195ed0e341c3094506b098b2d356dd4897147ed2bf11f5309e1303ea782a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5184510",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

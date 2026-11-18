@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-1456fdbd89b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Lar",
+ "villages": [
+  "Bardiha Prasuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 84a47429784a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (26.235428, 83.936954).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-01 13:35:39 to 2026-04-01 13:40:32)."
+ ],
+ "photo": "photos/84a47429784a87b96f215392e3cbe09304f67f003e6d53c6625c4cf8ed8e3ad5.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4396365",
+   "village": "Bardiha Prasuram",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-05-02",
+   "end_date": "2023-05-25",
+   "lat": 26.235428,
+   "lon": 83.936954,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Lar"
+  },
+  {
+   "record_id": "4396550",
+   "village": "Bardiha Prasuram",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2023-05-02",
+   "end_date": "2023-05-25",
+   "lat": 26.235428,
+   "lon": 83.936954,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Lar"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

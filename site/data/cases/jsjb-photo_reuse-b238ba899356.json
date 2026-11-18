@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b238ba899356",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Peddanaickenpalayam",
+ "villages": [
+  "Idaiyappatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 74f01ed5d98f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (11.75, 78.49)."
+ ],
+ "photo": "photos/74f01ed5d98f065ee8d3ff1188d53d3f6485c0ed2145a5810ea19661357bc368.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9362160",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Peddanaickenpalayam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

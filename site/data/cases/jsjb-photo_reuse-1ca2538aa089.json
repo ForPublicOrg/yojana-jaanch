@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-1ca2538aa089",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Bhilwahi"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint f6b67065a05e) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6).",
+  "All 6 works report the same GPS point (26.7638769, 85.4492963).",
+  "The photo was uploaded 12 times within 8 minutes (2026-03-22 17:44:53 to 2026-03-22 17:52:37)."
+ ],
+ "photo": "photos/f6b67065a05e91c0a5085120a30f63ba1b2c0814d204696a5c6bfbedd950dccc.jpg",
+ "offices": [
+  "BDO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4113548",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

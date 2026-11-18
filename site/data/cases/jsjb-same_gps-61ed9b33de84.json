@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-61ed9b33de84",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "21 works at one GPS point in Appamasamudram",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Appamasamudram"
+ ],
+ "record_count": 21,
+ "reasons": [
+  "21 works in Appamasamudram report exactly the same GPS point (11.61, 78.57).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (21).",
+  "They carry 22 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9347848",
@@ -295,5 +316,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 42,
+ "needs_human_review": false
 }

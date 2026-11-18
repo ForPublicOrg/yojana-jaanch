@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ee83cfc78af7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Waryah"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e2dd2e5f71e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (32.047488, 75.348587).",
+  "The photo was uploaded 2 times within 2 seconds (2026-05-20 22:05:29 to 2026-05-20 22:05:31)."
+ ],
+ "photo": "photos/5e2dd2e5f71e0668a57da6cd8d1d623587f9d3f29733058a29420f494d22bb81.jpg",
+ "offices": [
+  "APO Gurdaspur"
+ ],
  "records": [
   {
    "record_id": "10470816",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-434a04a9358f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Jhugian Gulam"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 9273141c362f) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.358078, 75.328932).",
+  "The photo was uploaded 10 times within 10 minutes (2026-05-12 17:34:25 to 2026-05-12 17:43:56)."
+ ],
+ "photo": "photos/9273141c362f6f407cc560ac6c76244662a9cd177f13596e4f48d16d10f31c90.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "8744944",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

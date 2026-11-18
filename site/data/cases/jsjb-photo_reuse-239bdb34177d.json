@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-239bdb34177d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Tehna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 83493d3cac0e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.691343, 74.792403).",
+  "All 2 works started and ended on the same day (2026-05-01).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-12 12:48:42 to 2026-05-12 12:51:25)."
+ ],
+ "photo": "photos/83493d3cac0e855a638910636fd570d9c1c20244524a9cb68582e12ce90d34f3.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "8671247",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

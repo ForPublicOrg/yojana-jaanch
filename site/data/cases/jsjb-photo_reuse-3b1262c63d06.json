@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3b1262c63d06",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Barnala",
+ "villages": [
+  "Kattu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 10b3662d5fe8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.31411, 75.641399)."
+ ],
+ "photo": "photos/10b3662d5fe8bcf5f3edf795299e1ac6d23c8d3b89674a8cca85903c2c8cf4ff.jpg",
+ "offices": [
+  "GAGANDEEP SINGH APO"
+ ],
  "records": [
   {
    "record_id": "12068750",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Barnala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

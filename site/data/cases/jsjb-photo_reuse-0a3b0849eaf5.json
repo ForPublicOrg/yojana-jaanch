@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0a3b0849eaf5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Bhullar Hans"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 574bc40041b5) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Other (6).",
+  "The photo was uploaded 6 times within 18 minutes (2026-04-21 11:51:54 to 2026-04-21 12:09:20)."
+ ],
+ "photo": "photos/574bc40041b5dd96b6eacc0a7c8dbf86bfb4d0ef52b42085ecf06ec7745afe80.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5183122",
@@ -85,5 +104,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

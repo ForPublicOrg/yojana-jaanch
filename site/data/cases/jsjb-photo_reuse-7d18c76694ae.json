@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-7d18c76694ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Bhaniyana",
+ "villages": [
+  "Deopalpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 95db6b1599f2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.39857, 71.69577).",
+  "The entries were made by 2 different offices: BDO, Watershed_SANKRA."
+ ],
+ "photo": "photos/95db6b1599f29435371f024e2e424a9cc8a60a72415dcae29de12f526a9e6d23.jpg",
+ "offices": [
+  "BDO",
+  "Watershed_SANKRA"
+ ],
+ "records": [
+  {
+   "record_id": "3153661",
+   "village": "Deopalpura",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-10-12",
+   "end_date": "2025-11-21",
+   "lat": 26.39857,
+   "lon": 71.69577,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  },
+  {
+   "record_id": "10707120",
+   "village": "Deopalpura",
+   "structure_type": "Other",
+   "created_by": "Watershed_SANKRA",
+   "start_date": "2025-11-21",
+   "end_date": "2025-12-09",
+   "lat": 26.39857,
+   "lon": 71.69577,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Bhaniyana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-73d846517e27",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Bungan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bc0b70058e6c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/bc0b70058e6cf5d13dcf46fe031a52316135b92689e2e9a7e5140d34e2d7e6d2.jpg",
+ "offices": [
+  "Sub Division Officer Drainage"
+ ],
  "records": [
   {
    "record_id": "7821261",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

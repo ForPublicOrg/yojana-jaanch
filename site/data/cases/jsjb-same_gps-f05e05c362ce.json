@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-f05e05c362ce",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "27 works at one GPS point in Desavilakku North",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Desavilakku North"
+ ],
+ "record_count": 27,
+ "reasons": [
+  "27 works in Desavilakku North report exactly the same GPS point (11.66, 77.96).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (27).",
+  "They carry 27 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9347849",
@@ -379,5 +399,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 54,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e68e0cccb4d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mukerian",
+ "villages": [
+  "Mahiuldinpur Gazi",
+  "Man"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c613e79d08c0) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bore-Well Recharge (3).",
+  "The photo was uploaded 4 times within 14 minutes (2026-01-19 20:42:34 to 2026-01-19 20:56:05)."
+ ],
+ "photo": "photos/c613e79d08c0d36e23ba819b5f6ed62329bc8b117d38a7c3d1019f6dd4793f43.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "994131",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Mukerian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

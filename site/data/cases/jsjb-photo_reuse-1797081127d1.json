@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1797081127d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bandarjhula",
+  "Indarwa"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 9df824582c3d) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "All 4 works report the same GPS point (26.8201802, 85.5665168).",
+  "The photo was uploaded 8 times within 14 minutes (2026-03-20 15:35:17 to 2026-03-20 15:49:01)."
+ ],
+ "photo": "photos/9df824582c3dffa756867da3cb0a5708c3cb275e5c66de96458a014ecbec06ee.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4074156",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

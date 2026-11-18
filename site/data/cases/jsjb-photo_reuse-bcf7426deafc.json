@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-bcf7426deafc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Gothra",
+  "Thanwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6b9b25f59619) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "These works are spread over 2 blocks: Deoli, Uniara."
+ ],
+ "photo": "photos/6b9b25f5961920a20d8bf0f75651bee11d3f0bd0b54103f5b519cccd2a4aa70f.jpg",
+ "offices": [
+  "XEn"
+ ],
  "records": [
   {
    "record_id": "4165594",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

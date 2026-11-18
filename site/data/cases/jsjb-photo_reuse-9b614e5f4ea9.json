@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-9b614e5f4ea9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Ram Nagar",
+  "Ramnagar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6a9df751748f) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.0078878, 75.9864167).",
+  "The photo was uploaded 4 times within 7 minutes (2026-03-24 18:12:31 to 2026-03-24 18:18:35)."
+ ],
+ "photo": "photos/6a9df751748fd866c543a5aec130f7aca2c6a9b34cede9afbb1e80e604e2d889.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4213812",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

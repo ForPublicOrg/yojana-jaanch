@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-14caf12ba062",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "14 works at one GPS point in Puduppalayam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Puduppalayam"
+ ],
+ "record_count": 14,
+ "reasons": [
+  "14 works in Puduppalayam report exactly the same GPS point (11.65, 77.89).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (14).",
+  "They carry 14 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345948",
@@ -197,5 +217,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

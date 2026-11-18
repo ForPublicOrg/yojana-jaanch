@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-648d4364da51",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Dhigal",
+  "Mohanwari",
+  "Tonk Chhilari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint df363678f673) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/df363678f673e3ec8f2d7f2e75c3eb7f641bfe41b9b2244cdd3b6b5375a2d936.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3884512",
+   "village": "Mohanwari",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-13",
+   "end_date": "2026-02-12",
+   "lat": 27.7390411,
+   "lon": 75.3289014,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "3884664",
+   "village": "Dhigal",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-14",
+   "end_date": "2025-12-17",
+   "lat": 28.04596,
+   "lon": 75.32203,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4269668",
+   "village": "Tonk Chhilari",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-15",
+   "end_date": "2026-01-13",
+   "lat": 27.758301,
+   "lon": 75.39825,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

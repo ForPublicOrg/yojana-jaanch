@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-739f554ebe6c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Deoria",
+ "block": "Bhatni",
+ "villages": [
+  "Devghat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 01dc73c5aec5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.365652, 83.945756).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-25 07:04:08 to 2026-03-25 07:07:21)."
+ ],
+ "photo": "photos/01dc73c5aec5a228780bdbe36652f97a37a6362f8fee78ae9a7a46b4ab1e81eb.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
+ "records": [
+  {
+   "record_id": "4221309",
+   "village": "Devghat",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-09",
+   "end_date": "2026-01-01",
+   "lat": 26.365652,
+   "lon": 83.945756,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatni"
+  },
+  {
+   "record_id": "4221331",
+   "village": "Devghat",
+   "structure_type": "Soak Pit",
+   "created_by": "DISTRICT COLLECTOR",
+   "start_date": "2025-12-09",
+   "end_date": "2026-01-01",
+   "lat": 26.365652,
+   "lon": 83.945756,
+   "state": "Uttar Pradesh",
+   "district": "Deoria",
+   "area_type": "Rural",
+   "block": "Bhatni"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

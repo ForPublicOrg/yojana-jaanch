@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-65a95ed86d69",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Chak Harnoli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 64ac2a9837be) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (31.503619, 76.064745)."
+ ],
+ "photo": "photos/64ac2a9837be37bfaa91631b9768585ac0a7fc56f4e964a4ee81ab45d4cecf08.jpg",
+ "offices": [
+  "Soil Conservation Officer"
+ ],
  "records": [
   {
    "record_id": "5500595",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

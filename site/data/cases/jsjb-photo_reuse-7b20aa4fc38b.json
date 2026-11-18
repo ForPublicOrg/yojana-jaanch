@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7b20aa4fc38b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Pilani",
+ "villages": [
+  "Amarsinghpura",
+  "Bhgina"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4163f632bc86) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/4163f632bc8633bfcc91d3016e627445fbee3bbd6db2d4634d6fef75651772b9.jpg",
+ "offices": [
+  "CEO ZILA PARISHAD"
+ ],
+ "records": [
+  {
+   "record_id": "4250140",
+   "village": "Amarsinghpura",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-08-04",
+   "end_date": "2025-11-11",
+   "lat": 28.28,
+   "lon": 75.54,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  },
+  {
+   "record_id": "4269902",
+   "village": "Bhgina",
+   "structure_type": "Soak Pit",
+   "created_by": "CEO ZILA PARISHAD",
+   "start_date": "2025-07-30",
+   "end_date": "2025-11-08",
+   "lat": 28.69,
+   "lon": 75.26,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Pilani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

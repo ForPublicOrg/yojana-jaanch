@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8b0a046e3f39",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Newai",
+ "villages": [
+  "Govindpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f30e6fe8ccb3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (26.358323, 75.900801).",
+  "The photo was uploaded 2 times within 2 seconds (2026-05-23 11:02:05 to 2026-05-23 11:02:07)."
+ ],
+ "photo": "photos/f30e6fe8ccb3c1cd27807edfb9599fda7b057af73466ffcfc7a21c66a82e5a72.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "11520374",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Newai"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-8c52c1a72835",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Keeripatti (TP) - Ward No.4",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Keeripatti",
+ "villages": [
+  "Keeripatti (TP) - Ward No.4"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Keeripatti (TP) - Ward No.4 report exactly the same GPS point (11.53677, 78.487055).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (3), Rooftop Water Harvesting Structure (2).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "ASSISTANT DIRECTOR OF TOWN PANCHAYAT"
+ ],
  "records": [
   {
    "record_id": "10158375",
@@ -71,5 +91,8 @@
    "area_type": "Urban",
    "block": "Keeripatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

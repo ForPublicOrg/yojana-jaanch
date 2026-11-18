@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ef4f252ee628",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Kot Bhara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6be8ecf1ebcd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 8 minutes (2026-03-06 16:07:06 to 2026-03-06 16:14:22)."
+ ],
+ "photo": "photos/6be8ecf1ebcda2cea3f8c260b24d9fb748906cdf6a694b8d0a72afcfcb199720.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "1054415",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

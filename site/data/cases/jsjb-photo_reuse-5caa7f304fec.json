@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5caa7f304fec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Baghour"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8961efbd8a98) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/8961efbd8a9896c5c35d8f30325f1f2632fd14690c55b5f643e23f20cf419f8e.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1045474",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

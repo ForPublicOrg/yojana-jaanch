@@ -1,5 +1,31 @@
 {
  "id": "jsjb-upload_burst-794fc47df251",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "35 photos uploaded in 10 minutes by Block Development Officer",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Ariyampatti",
+  "Belurkaradipatti",
+  "Chinnakalrayanhillstherkkunadu",
+  "M.Perumalpalayam",
+  "Mallikuttai",
+  "Perumampatti",
+  "Umbilikamaramangalam"
+ ],
+ "record_count": 37,
+ "reasons": [
+  "35 different photos for 37 different works were uploaded by Block Development Officer within 10 minutes, from 2025-07-07 12:50:09 to 2025-07-07 12:59:57.",
+  "That is about one work every 16 seconds on average.",
+  "The works are in 7 villages: Ariyampatti, Belurkaradipatti, Chinnakalrayanhillstherkkunadu, M.Perumalpalayam, Mallikuttai, Perumampatti, Umbilikamaramangalam.",
+  "These works are spread over 5 blocks: Ayodhiyapattinam, Omalur, Peddanaickenpalayam, Taramangalam, Veerapandi."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9361712",
@@ -324,6 +350,20 @@
    "block": "Peddanaickenpalayam"
   },
   {
+   "record_id": "9361744",
+   "village": "Perumampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-07-06",
+   "end_date": "2023-08-10",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
    "record_id": "9361745",
    "village": "M.Perumalpalayam",
    "structure_type": "Percolation Pond",
@@ -350,6 +390,20 @@
    "district": "Salem",
    "area_type": "Rural",
    "block": "Taramangalam"
+  },
+  {
+   "record_id": "9361747",
+   "village": "Perumampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-07-06",
+   "end_date": "2023-08-10",
+   "lat": 11.0,
+   "lon": 78.0,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
   },
   {
    "record_id": "9361748",
@@ -491,5 +545,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 37,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-00f175ef030a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Sohela"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 38ca05c0d714) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Check Dam (5).",
+  "All 5 works report the same GPS point (26.22638889, 75.85555556)."
+ ],
+ "photo": "photos/38ca05c0d71415d27e0a7fd2fd7c9193adf5933cf642763611120195981b53bb.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "3778247",
@@ -71,5 +90,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

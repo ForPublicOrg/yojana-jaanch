@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9ba451443d45",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-1",
+ "villages": [
+  "Bulara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 15c3b150bd73) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.844976, 75.871498)."
+ ],
+ "photo": "photos/15c3b150bd7382d56109db024e3f822404b9c8e5d9a91d9ec9e5e73cac252d57.jpg",
+ "offices": [
+  "XEN Panchayati Raj"
+ ],
  "records": [
   {
    "record_id": "5158104",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-1"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

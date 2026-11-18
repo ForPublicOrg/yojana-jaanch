@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ce292b61a39e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Salana Jeon Singh Wala"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint b59b3e3ae8f1) is attached to 9 different works in 1 village. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Contour Trench (9).",
+  "All 9 works report the same GPS point (30.66, 76.2)."
+ ],
+ "photo": "photos/b59b3e3ae8f1dd2fdc3b434a8fd079a31388be3635ab160ddd3e94d02ff09e6c.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5034039",
@@ -127,5 +146,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

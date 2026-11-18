@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-393624f33756",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Mauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c5a4b10c8dad) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "The entries were made by 2 different offices: ARC, Block Devolpment officer Phagwara."
+ ],
+ "photo": "photos/c5a4b10c8dad2871f4ed4ed03c56382b28f2c6a649b2dc321cb533e9957a1e73.jpg",
+ "offices": [
+  "ARC",
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "998522",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

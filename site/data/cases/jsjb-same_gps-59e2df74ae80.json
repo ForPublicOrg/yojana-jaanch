@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-59e2df74ae80",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "15 works at one GPS point in Chhiriyasalempur",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Chhiriyasalempur"
+ ],
+ "record_count": 15,
+ "reasons": [
+  "15 works in Chhiriyasalempur report exactly the same GPS point (26.0, 79.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (15).",
+  "They carry 15 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4182101",
@@ -211,5 +231,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

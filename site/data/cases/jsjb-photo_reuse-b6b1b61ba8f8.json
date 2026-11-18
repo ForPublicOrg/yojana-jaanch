@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b6b1b61ba8f8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Dhuri",
+ "villages": [
+  "Baradwal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a025069ec7a6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The photo was uploaded 2 times within 17 minutes (2026-05-11 15:50:15 to 2026-05-11 16:06:28)."
+ ],
+ "photo": "photos/a025069ec7a6faf979639b533019dbf0dc064ce9254652863c30f457afe0edfc.jpg",
+ "offices": [
+  "Block Development Officer Dhuri"
+ ],
  "records": [
   {
    "record_id": "8490872",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dhuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

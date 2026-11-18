@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-42c1ff2837af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Bairbas",
+  "Mohandih",
+  "Rikhauli"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2477b7c3486f) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/2477b7c3486faa84501631b4fca12e77e2d1d15b506db74e2502a07c73babbaf.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3774748",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

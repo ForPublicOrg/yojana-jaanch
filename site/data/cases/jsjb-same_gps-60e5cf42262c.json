@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-60e5cf42262c",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Kishangarh Pharwahi",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Bhikhi",
+ "villages": [
+  "Kishangarh Pharwahi"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Kishangarh Pharwahi report exactly the same GPS point (30.02, 75.54).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (5).",
+  "They carry 5 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "15951039",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Bhikhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

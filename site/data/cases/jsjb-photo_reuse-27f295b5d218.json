@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-27f295b5d218",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Kashi Vidyapeeth",
+ "villages": [
+  "Karsara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint df0a06007b2c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (25.269635, 82.886545).",
+  "The photo was uploaded 4 times within 26 seconds (2026-01-24 16:18:38 to 2026-01-24 16:19:04)."
+ ],
+ "photo": "photos/df0a06007b2c97011a1c1fe1fb85d2c413c33f1ed2678ced75f62cb5d651b8f2.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3338226",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kashi Vidyapeeth"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-e755e4137f5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Bharopal",
+  "Chogawan",
+  "Kotli Amb",
+  "Lopoke",
+  "Ramdas(Rural)"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 4286b71cf014) is attached to 6 different works in 5 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Recharge Pit (6).",
+  "Each of the 6 works started and ended on a single day. The works are spread over 4 dates: 2025-06-10, 2025-06-11, 2025-06-12, 2025-07-08.",
+  "These works are spread over 4 blocks: Ajnala, Attari, Chogawan, Ramdas."
+ ],
+ "photo": "photos/4286b71cf014a072599342d4a099fad81d6576226579748a31bb553f09ea7dd8.jpeg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "5168286",
@@ -85,5 +109,8 @@
    "area_type": "Rural",
    "block": "Attari"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 19,
+ "needs_human_review": false
 }

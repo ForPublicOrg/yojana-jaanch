@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-d7c5a6dc8815",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Rikhauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3edce9b129ff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-11 13:01:13 to 2026-03-11 13:02:59)."
+ ],
+ "photo": "photos/3edce9b129ffa4162d6022d3ad9784fb5200fd7d38bf4bd8a8a3a6a225d8deb2.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3891605",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

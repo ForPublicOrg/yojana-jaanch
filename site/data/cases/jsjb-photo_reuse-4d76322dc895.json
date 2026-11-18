@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-4d76322dc895",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Baura",
+  "Bhukhri Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a81ed5ac0b2a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.9196, 76.066).",
+  "The photo was uploaded 4 times within 5 minutes (2026-02-04 22:31:13 to 2026-02-04 22:35:28)."
+ ],
+ "photo": "photos/a81ed5ac0b2ab157c7fe64b6d2e836d6d3c9ab3000b06a0c3ce5d2f542796896.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1353398",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

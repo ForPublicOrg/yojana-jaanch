@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b28674e8cbea",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Bommiyampatti R.F.",
+  "Deevattipatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dbeec76bb564) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1)."
+ ],
+ "photo": "photos/dbeec76bb564f8f54d2958d82e9485b87a9ab236b3fb0bf094d776d95e9af727.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344317",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-94485b272226",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parsauni",
+ "villages": [
+  "Kathor Urf Baikunthpur",
+  "Madanpur Urf Madanpurbishunath"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5cf8771bf828) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 22 minutes (2026-03-10 14:55:35 to 2026-03-10 15:16:57)."
+ ],
+ "photo": "photos/5cf8771bf828aeccc8d4dc5b90503c0e08d5be040c7b3b8973fefdd15dc031cb.jpg",
+ "offices": [
+  "PO Parsauni"
+ ],
  "records": [
   {
    "record_id": "3869558",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Parsauni"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

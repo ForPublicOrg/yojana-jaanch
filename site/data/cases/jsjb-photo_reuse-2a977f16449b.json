@@ -1,5 +1,39 @@
 {
  "id": "jsjb-photo_reuse-2a977f16449b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 166 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Adampur",
+  "Alipur Sodhian",
+  "Buhra",
+  "Dafera",
+  "Longo Majri",
+  "Malko Majra",
+  "Mandaur",
+  "Mandofal",
+  "Reona Bhola",
+  "Sainipur",
+  "Saundha",
+  "Sidhupur",
+  "Sidhwan",
+  "Siduwal",
+  "Tarkhan Majra",
+  "Wazira Bad"
+ ],
+ "record_count": 166,
+ "reasons": [
+  "The same photo file (fingerprint 223a16bd0458) is attached to 166 different works in 16 villages. A photo of one site cannot be evidence for 166 separate works.",
+  "The works are recorded as: Soak Pit (163), Injection Well (2), Bench Terracing (1).",
+  "These works are spread over 2 blocks: Khera, Sirhind."
+ ],
+ "photo": "photos/223a16bd04584774c786c44a1da9b9b3b13af10b071e2d935c00d87d62786558.jpg",
+ "offices": [
+  "FOREST RANGER SIRHIND"
+ ],
  "records": [
   {
    "record_id": "10708298",
@@ -2325,5 +2359,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 498,
+ "needs_human_review": false
 }

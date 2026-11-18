@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-108b989efa5a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Mohni Khurd",
+  "Mohni Madol"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d23bb19bf2b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.717277, 85.3476999).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-06 22:06:45 to 2026-04-06 22:10:03)."
+ ],
+ "photo": "photos/1d23bb19bf2b9fc1d7723072090d49a46d36b5da558dc3beac5d207e1c25fb6c.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4546558",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

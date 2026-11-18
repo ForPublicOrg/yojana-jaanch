@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-6d271cc214dd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Banchauri",
+  "Rampur Parori"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ebefd716e817) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 5 minutes (2026-03-10 14:50:58 to 2026-03-10 14:55:48)."
+ ],
+ "photo": "photos/ebefd716e8172772dd742a85b79f54a3bf055fdb5430d756c312341c8215926f.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3869302",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

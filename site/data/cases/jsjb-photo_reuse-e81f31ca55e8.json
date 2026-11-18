@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e81f31ca55e8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Manathal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e077bc475986) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.76, 77.97).",
+  "The photo was uploaded 2 times within 2 minutes (2025-06-30 17:27:03 to 2025-06-30 17:28:12)."
+ ],
+ "photo": "photos/e077bc4759861455c1ce91333265b607ebaa7232253c010eece8d86f95049753.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9358200",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

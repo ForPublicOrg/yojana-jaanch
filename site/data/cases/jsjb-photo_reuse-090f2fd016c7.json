@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-090f2fd016c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Bassi",
+  "Bhateri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b1f0f5514e8b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1)."
+ ],
+ "photo": "photos/b1f0f5514e8bb66ae9bc0055b98b35bff6368bf39eea48de09f6e384c174720b.jpg",
+ "offices": [
+  "FOREST RANGER KHAMANO"
+ ],
  "records": [
   {
    "record_id": "10726789",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

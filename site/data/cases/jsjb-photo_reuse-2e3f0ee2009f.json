@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-2e3f0ee2009f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Pachtaki Jadu",
+  "Rasulpur Dayal Urf Bahira"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a5cacd2d682e) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a5cacd2d682e5695a65d14e8357d5935e9c1f1bc68404457a2370185229dd8c1.jpg",
+ "offices": [
+  "BDO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4419272",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b528ffaf19f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Pupri",
+ "villages": [
+  "Bazidpur Baura"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint be0cdfcdddd4) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Percolation Pond (4)."
+ ],
+ "photo": "photos/be0cdfcdddd4728ce06edc96214a9794bbe1fb44adce5e02e823c466b6a5cd83.jpg",
+ "offices": [
+  "PO Pupri"
+ ],
  "records": [
   {
    "record_id": "4021230",
@@ -57,5 +75,8 @@
    "area_type": "Rural",
    "block": "Pupri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

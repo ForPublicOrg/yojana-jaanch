@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-94c2b0e132f5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Mahilpur",
+ "villages": [
+  "Badowal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8a72f9c9f654) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/8a72f9c9f6545ea5ec1dbbd4e8f761cd83224bebcb9b344df76f00d35fa56e1a.jpg",
+ "offices": [
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "6153289",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Mahilpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

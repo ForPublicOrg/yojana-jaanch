@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-e3ab46ff0f22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Goniana",
+ "villages": [
+  "Dan Singhwala"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ba851041dbc5) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.35054, 74.831653)."
+ ],
+ "photo": "photos/ba851041dbc562f7fbcf625f17a394a666eaa57b95feccba93239c5cb0c9aeb8.jpg",
+ "offices": [
+  "DFO"
+ ],
  "records": [
   {
    "record_id": "5155153",
@@ -43,5 +62,8 @@
    "area_type": "Rural",
    "block": "Goniana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

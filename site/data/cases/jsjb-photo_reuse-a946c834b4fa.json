@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-a946c834b4fa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Makaura"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint eaf8d118261d) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (32.178794, 75.365446).",
+  "All 5 works started and ended on the same day (2026-05-02).",
+  "The entries were made by 2 different offices: APO Dinanagar, Apo Dorangla."
+ ],
+ "photo": "photos/eaf8d118261dc8b58c4f8f0c1824589a7beadf1151f27384cfea349797d3ef9b.jpg",
+ "offices": [
+  "APO Dinanagar",
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7841351",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

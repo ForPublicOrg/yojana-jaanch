@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d878050ce22e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Chheeda"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint f25c80bfe2a4) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (30.544638, 75.04131).",
+  "All 5 works started and ended on the same day (2026-05-04).",
+  "The photo was uploaded 5 times within 24 minutes (2026-05-13 12:25:07 to 2026-05-13 12:48:32)."
+ ],
+ "photo": "photos/f25c80bfe2a4a518a5ef93191d8e73c701a9281716a5c0080a2a645d471ae86c.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "8875673",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

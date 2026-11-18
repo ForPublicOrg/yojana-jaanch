@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-7cbeab5727b4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Mehal Kalan",
+ "villages": [
+  "Bihla",
+  "Chananwal",
+  "Chhiniwal Kalan",
+  "Diwana",
+  "Gangouhar",
+  "Kalalmajra",
+  "Mehal Kalan",
+  "Raiser Punjab"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 390c1d788d87) is attached to 8 different works in 8 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Recharge Pit (8)."
+ ],
+ "photo": "photos/390c1d788d872b1d17c3f3bd50eeef862db0e4dd183f772f4a38a46cef52b503.jpg",
+ "offices": [
+  "Block Coordinator Dhalwinder Singh"
+ ],
  "records": [
   {
    "record_id": "5612203",
@@ -113,5 +138,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

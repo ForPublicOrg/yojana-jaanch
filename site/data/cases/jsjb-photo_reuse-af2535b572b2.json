@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-af2535b572b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bokhra",
+ "villages": [
+  "Kharka Basant"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a52f0e406ba3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a52f0e406ba3767c358dcb03f6e7ea967ce3e7ded7edd8c1160fa1720773fae9.jpg",
+ "offices": [
+  "BDO Bokhra"
+ ],
  "records": [
   {
    "record_id": "3871709",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Bokhra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

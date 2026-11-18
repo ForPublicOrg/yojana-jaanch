@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-3b83b04ff3e5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Rasipuram",
+ "villages": [
+  "Rasipuram (M) - Ward No.20",
+  "Rasipuram (M) - Ward No.22",
+  "Rasipuram (M) - Ward No.4"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 55ad5afade9e) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1)."
+ ],
+ "photo": "photos/55ad5afade9e1c1ccc6bbf256250af7803ef1d2eb55b1cd2758e1e1b4d6b986d.jpg",
+ "offices": [
+  "COMMSIONEER - RASIPURAM"
+ ],
+ "records": [
+  {
+   "record_id": "8948473",
+   "village": "Rasipuram (M) - Ward No.20",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-12-24",
+   "end_date": "2026-02-21",
+   "lat": 11.45,
+   "lon": 78.18,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "12360949",
+   "village": "Rasipuram (M) - Ward No.22",
+   "structure_type": "Other",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-09-25",
+   "end_date": "2026-02-13",
+   "lat": 11.462525,
+   "lon": 78.145519,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  },
+  {
+   "record_id": "12366611",
+   "village": "Rasipuram (M) - Ward No.4",
+   "structure_type": "Other",
+   "created_by": "COMMSIONEER - RASIPURAM",
+   "start_date": "2025-09-25",
+   "end_date": "2026-02-09",
+   "lat": 11.461529,
+   "lon": 78.165518,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Rasipuram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

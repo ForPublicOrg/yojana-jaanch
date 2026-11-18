@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-7a7bf9a69058",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "31 works at one GPS point in Gundikkal",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Gundikkal"
+ ],
+ "record_count": 31,
+ "reasons": [
+  "31 works in Gundikkal report exactly the same GPS point (11.89, 78.03).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Percolation Pond (31).",
+  "They carry 31 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344335",
@@ -435,5 +455,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

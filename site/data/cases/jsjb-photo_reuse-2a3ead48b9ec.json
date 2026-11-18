@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2a3ead48b9ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Dumra",
+ "villages": [
+  "Banchauri",
+  "Rampur Parori"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 0535d9599d90) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2), Soak Pit (2).",
+  "The photo was uploaded 4 times within 8 minutes (2026-03-10 14:52:14 to 2026-03-10 14:59:46)."
+ ],
+ "photo": "photos/0535d9599d90035b649cd6595b50243ee42a0a65c857bc7faa9f4319da85196b.jpg",
+ "offices": [
+  "PO Dumra"
+ ],
  "records": [
   {
    "record_id": "3869363",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Dumra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

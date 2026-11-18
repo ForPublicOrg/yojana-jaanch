@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-857cd0952361",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Mohammdabad",
+  "Ruraaddu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4dc7b851ee1b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 4 minutes (2026-03-30 19:04:23 to 2026-03-30 19:07:28)."
+ ],
+ "photo": "photos/4dc7b851ee1bc0d5ab9c7025901624301438bd13c75eee8c91441c1bc6c25a22.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4369503",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f086a0411d76",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Ghansri"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 42dfca9841bc) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "All 3 works report the same GPS point (26.060215, 75.843426).",
+  "All 3 works started and ended on the same day (2026-05-27).",
+  "The photo was uploaded 3 times within 4 minutes (2026-05-27 09:03:30 to 2026-05-27 09:07:04)."
+ ],
+ "photo": "photos/42dfca9841bcb6557327309c2abf68a3d028f7d7eee4b507090db00eca899efb.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "13400425",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

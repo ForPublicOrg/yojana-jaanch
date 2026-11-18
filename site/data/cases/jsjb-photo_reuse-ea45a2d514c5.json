@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-ea45a2d514c5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Moi Sadda"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 873c8d1c57ab) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1).",
+  "All 3 works report the same GPS point (28.119688, 75.800162).",
+  "The photo was uploaded 3 times within 17 minutes (2026-05-29 10:24:14 to 2026-05-29 10:40:34)."
+ ],
+ "photo": "photos/873c8d1c57ab4bc3ab1115a36810ce5b44e3161f81705abd04806dec7d603f9f.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14734454",
+   "village": "Moi Sadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2023-09-21",
+   "end_date": "2026-03-17",
+   "lat": 28.119688,
+   "lon": 75.800162,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "14734620",
+   "village": "Moi Sadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2023-09-21",
+   "end_date": "2026-03-17",
+   "lat": 28.119688,
+   "lon": 75.800162,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "14736196",
+   "village": "Moi Sadda",
+   "structure_type": "Percolation Pond",
+   "created_by": "BDO",
+   "start_date": "2023-09-21",
+   "end_date": "2026-03-17",
+   "lat": 28.119688,
+   "lon": 75.800162,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

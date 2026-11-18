@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-cba6f55e7bf1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Sidhwan Bet",
+ "villages": [
+  "Jaspal Bangar",
+  "Sidhwan Bet"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 4953febf5588) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "The entries were made by 2 different offices: Canal Ziledaar/ Sidhwan Canal & Ground Divn, Ludhi, Canal Ziledaar/Sidhwan Canal & Ground Water Divisi.",
+  "These works are spread over 2 blocks: Dehlon, Sidhwan Bet."
+ ],
+ "photo": "photos/4953febf558845b8ddb571d0610167d0a465f7b89ae79dd4084891608c2f1548.jpg",
+ "offices": [
+  "Canal Ziledaar/ Sidhwan Canal & Ground Divn, Ludhi",
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "986098",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

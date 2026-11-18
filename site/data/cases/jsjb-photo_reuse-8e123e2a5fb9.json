@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-8e123e2a5fb9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Eegaletihalli",
+  "Halehalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 00781d1eaf05) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Sub Surface Dyke (SSD) (2), Gullu Plug (1)."
+ ],
+ "photo": "photos/00781d1eaf05f18385bd9dbb18eb3e82632d53ce00f8cc24f98ef38dfc2f7a27.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3086660",
+   "village": "Eegaletihalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-15",
+   "end_date": "2025-08-25",
+   "lat": 13.456273,
+   "lon": 77.8585,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3092603",
+   "village": "Halehalli",
+   "structure_type": "Gullu Plug",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2024-07-15",
+   "end_date": "2025-09-26",
+   "lat": 13.464092,
+   "lon": 77.5707,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3098933",
+   "village": "Eegaletihalli",
+   "structure_type": "Sub Surface Dyke (SSD)",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-14",
+   "end_date": "2025-09-17",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

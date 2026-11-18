@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-69a18e1c8fc3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Bathanaha Jujharpatti",
+  "Bela"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint f3a9891ab41d) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/f3a9891ab41da01643af657f8963a7417238a6ff51603d092a3f64a42e4014b7.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4593262",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

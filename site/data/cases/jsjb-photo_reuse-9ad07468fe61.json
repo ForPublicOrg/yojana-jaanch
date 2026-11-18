@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9ad07468fe61",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Nayagaon Gothra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 06e5a922897f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (25.798878, 75.60317).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-25 06:53:45 to 2026-05-25 06:54:49)."
+ ],
+ "photo": "photos/06e5a922897f3a63f9dd58bb81efc0cf73e2624ea227c0919a993841d64f96c3.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12327006",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

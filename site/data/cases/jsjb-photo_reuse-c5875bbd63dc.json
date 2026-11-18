@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c5875bbd63dc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Fateh Ullah Shahwala (99/105)"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 0c407dc0c8b8) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.03, 75.11).",
+  "All 5 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 5 times within 13 minutes (2026-05-11 10:56:17 to 2026-05-11 11:09:02)."
+ ],
+ "photo": "photos/0c407dc0c8b8a48d7b1856e2d5127bac93e4db7e0775f556b35c63b20c4a4b68.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8414731",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

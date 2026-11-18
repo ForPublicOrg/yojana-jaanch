@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-d81b41a150fa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Dadheri (202) (Part)",
+  "Fatehgarh Niwan",
+  "Majra Manna Singh Wala",
+  "Malowal",
+  "Salana Dula Singh Wala"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 0369b608e4c1) is attached to 10 different works in 5 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10)."
+ ],
+ "photo": "photos/0369b608e4c1fea70a80d481c965602fb9aa2a2eb652bf6db36b2db661c973ce.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5505214",
@@ -141,5 +163,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1f240263357e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Butari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 203fdda26aab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (75.89, 30.72)."
+ ],
+ "photo": "photos/203fdda26aab9817000df16c3b219bba17740ff044b1bc0173678e2cbb334cfa.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1249303",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

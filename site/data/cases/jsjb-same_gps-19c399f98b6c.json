@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-19c399f98b6c",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "17 works at one GPS point in Veeranam",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Veeranam"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "17 works in Veeranam report exactly the same GPS point (11.69, 78.22).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (17).",
+  "They carry 17 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9347669",
@@ -239,5 +259,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 34,
+ "needs_human_review": false
 }

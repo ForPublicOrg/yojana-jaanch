@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4171d1e81448",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Kathu Nangal",
+  "Sham Nagar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8dd5a819a880) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 3 dates: 2025-06-13, 2025-06-14, 2025-06-16."
+ ],
+ "photo": "photos/8dd5a819a880e2bca70b82f74c302ddb92716d9e39cf0ce74de13b891023f2f9.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "8775141",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

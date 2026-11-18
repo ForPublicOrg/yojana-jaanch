@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cc3df1b9053f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Todaraisingh",
+ "villages": [
+  "Khedoolya Khurd",
+  "Lachhmipura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cbb66e6a4161) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Other (1).",
+  "All 2 works report the same GPS point (26.04, 75.44)."
+ ],
+ "photo": "photos/cbb66e6a416126081560669c41e13cf958f4eab42b2e65d4fca1a7ca62f29f90.jpg",
+ "offices": [
+  "BDO Toda PS"
+ ],
  "records": [
   {
    "record_id": "1381516",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Todaraisingh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

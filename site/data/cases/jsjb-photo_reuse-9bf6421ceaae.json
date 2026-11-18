@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9bf6421ceaae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Balapura Gujran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3edf5c1f2c51) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.421193, 75.338697)."
+ ],
+ "photo": "photos/3edf5c1f2c51127c3f3b0de1e049d4feb6ca4e67f677e6ddcf7ca623802d53c8.jpg",
+ "offices": [
+  "JD Agriculture"
+ ],
  "records": [
   {
    "record_id": "4036486",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

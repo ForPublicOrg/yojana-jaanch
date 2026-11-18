@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-07e5458f3495",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Baligarh Deona Khurd",
+  "Bishunpur Basdeo Urf Bishunpur",
+  "Madhaulsani"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint ef2c3c291102) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Nala Bund (6)."
+ ],
+ "photo": "photos/ef2c3c291102384c7dfa5488c6bfb2f12517f16a9f44722d90c4a46a8460e5c6.jpg",
+ "offices": [
+  "PO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4460586",
@@ -85,5 +105,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

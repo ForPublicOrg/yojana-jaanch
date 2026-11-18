@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9e22fa4f0caa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sursand",
+ "villages": [
+  "Piprarhi",
+  "Sondehi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 845ab2db62fa) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.653326, 85.61553)."
+ ],
+ "photo": "photos/845ab2db62faaea0ec44a8e3aab23d4e8980ba675a1fd77bc7f5cb89045af5d4.jpg",
+ "offices": [
+  "BDO Sursand"
+ ],
  "records": [
   {
    "record_id": "4418046",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sursand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

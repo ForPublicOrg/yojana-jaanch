@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-af66e4a2d30b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Harahua",
+ "villages": [
+  "Bhopapur",
+  "Charo",
+  "Kaneri",
+  "Purabpur",
+  "Siswa"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint e2aee081860a) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Recharge Pit (5).",
+  "These works are spread over 4 blocks: Arajiline, Baragaon, Harahua, Pindra."
+ ],
+ "photo": "photos/e2aee081860a260a62cd4d90ea1f20dbbf96c55666e071dff6e2875953f044f2.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391892949",
@@ -71,5 +94,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

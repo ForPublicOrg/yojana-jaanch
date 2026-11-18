@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-53af3caf7267",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Singhana",
+ "villages": [
+  "Bishanpura",
+  "Shyampura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 905280976448) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/9052809764484a9f3bf0eaeaeb202813da06728cae2efe2799f4527333e15907.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4294155",
+   "village": "Bishanpura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-11",
+   "end_date": "2025-12-02",
+   "lat": 28.148667,
+   "lon": 75.867404,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  },
+  {
+   "record_id": "4298230",
+   "village": "Shyampura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-14",
+   "end_date": "2025-10-24",
+   "lat": 28.190463,
+   "lon": 75.803142,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Singhana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

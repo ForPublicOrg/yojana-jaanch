@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ef3b1da8d335",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Mehal Kalan",
+ "villages": [
+  "Bihla"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a75d896eb869) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.53449, 75.43786).",
+  "The photo was uploaded 2 times within 14 minutes (2026-05-26 21:09:29 to 2026-05-26 21:22:59)."
+ ],
+ "photo": "photos/a75d896eb869f32460c99213b9b52f955ea08bac5ae45b758e7d41b1264ab2a2.jpg",
+ "offices": [
+  "Harinder Kaur Stenographer"
+ ],
  "records": [
   {
    "record_id": "6173970",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Mehal Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

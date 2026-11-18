@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf2efa4f2c98",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Doburji"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint ed525ecef94f) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works report the same GPS point (32.1787454, 75.4007837).",
+  "All 4 works started and ended on the same day (2026-05-08)."
+ ],
+ "photo": "photos/ed525ecef94f209e51381daba42ef50e53adf9a5496886eabbfbd85ef4fd0554.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "7986098",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

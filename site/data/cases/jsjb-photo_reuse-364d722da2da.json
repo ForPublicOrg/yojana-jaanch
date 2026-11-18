@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-364d722da2da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Bazurg"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4dd10b410f6c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (30.87, 75.52)."
+ ],
+ "photo": "photos/4dd10b410f6cf33720c42b89aeb5c40f5a3cafe8fdaf83c9eeef4935e7ea685f.jpg",
+ "offices": [
+  "BDPO Jagraon"
+ ],
  "records": [
   {
    "record_id": "1256178",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

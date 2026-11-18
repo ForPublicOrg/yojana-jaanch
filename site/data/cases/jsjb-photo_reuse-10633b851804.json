@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-10633b851804",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kadaura",
+ "villages": [
+  "Basrehi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ef058c4bc296) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.9, 79.76)."
+ ],
+ "photo": "photos/ef058c4bc296c5d3e852691ff42fd95cbf8b83e3d5ba373491bc782f5d3d6a9b.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "5153236",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Kadaura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

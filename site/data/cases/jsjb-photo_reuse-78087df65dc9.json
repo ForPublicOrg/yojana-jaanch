@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-78087df65dc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gudibanda",
+ "villages": [
+  "Iddrahalli",
+  "Machavalahalli",
+  "Yellodu"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9159cf27b3ca) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1), Tank (1)."
+ ],
+ "photo": "photos/9159cf27b3ca1ae82e0b2c0094ac098a4e8a03157737c2b5a016d8ed9db72435.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3120410",
+   "village": "Iddrahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-28",
+   "end_date": "2025-10-29",
+   "lat": 13.744688,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3120554",
+   "village": "Machavalahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-06",
+   "end_date": "2026-02-18",
+   "lat": 13.734742,
+   "lon": 77.74463,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  },
+  {
+   "record_id": "3203569",
+   "village": "Yellodu",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-03",
+   "end_date": "2025-10-09",
+   "lat": 13.719229,
+   "lon": 77.751462,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gudibanda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

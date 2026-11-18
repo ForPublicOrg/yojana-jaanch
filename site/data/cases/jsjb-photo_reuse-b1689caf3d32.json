@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-b1689caf3d32",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Dhak Pandori",
+  "Gulabgarh Zagir",
+  "Nasirabad"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint 42bba24e6d83) is attached to 7 different works in 3 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Contour Trench (7).",
+  "Each of the 7 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-13."
+ ],
+ "photo": "photos/42bba24e6d83ec04a655a3f01f4449ef7c93a73a4c8feb5e8d504a113759bbf2.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "8762992",
@@ -99,5 +120,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

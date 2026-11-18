@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f98d979b6e69",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Baragaon (Ct)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ae8a04a84c66) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.435882, 82.804444).",
+  "The photo was uploaded 4 times within 14 minutes (2026-01-20 13:34:26 to 2026-01-20 13:48:05)."
+ ],
+ "photo": "photos/ae8a04a84c6655eb2ddc4c342c3de90d9e605d4774804377cd1d52075a383039.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3316870",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Baragaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

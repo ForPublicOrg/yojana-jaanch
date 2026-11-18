@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-83d93f4befac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Majhawa",
+ "villages": [
+  "Majhawa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ae10fb500cd1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (25.21, 82.73).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-26 16:45:19 to 2026-05-26 16:49:41)."
+ ],
+ "photo": "photos/ae10fb500cd1f81ffe5a3502b860eed70db8aa0568120fed7a648ee7cadd2277.jpg",
+ "offices": [
+  "Assistant Engineer Minor Irrigation Mirzapur"
+ ],
  "records": [
   {
    "record_id": "12996413",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Majhawa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

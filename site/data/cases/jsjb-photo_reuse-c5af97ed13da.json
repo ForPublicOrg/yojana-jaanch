@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c5af97ed13da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Azad Ward 02"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2895259cc13d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (26.489938, 78.614822).",
+  "The entries were made by 2 different offices: DISTRICT COLLECTOR, ULB."
+ ],
+ "photo": "photos/2895259cc13de9f33a6c23643dc8955ba887b6d98cc0f819e043f12684379ba0.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR",
+  "ULB"
+ ],
  "records": [
   {
    "record_id": "7476863",
@@ -29,5 +50,8 @@
    "area_type": "Urban",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

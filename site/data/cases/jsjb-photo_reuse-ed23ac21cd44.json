@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ed23ac21cd44",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Baragaon",
+  "Raghunathpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bec91f5eddf2) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 29 minutes (2026-03-25 15:41:02 to 2026-03-25 16:09:06)."
+ ],
+ "photo": "photos/bec91f5eddf2f9bfaba0f95634836b80f6cbe2a781d53be3e1dc9c2c49899a6d.jpg",
+ "offices": [
+  "PO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "4245107",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

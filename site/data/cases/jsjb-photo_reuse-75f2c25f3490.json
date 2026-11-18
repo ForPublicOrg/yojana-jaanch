@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-75f2c25f3490",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Erumapatty",
+ "villages": [
+  "Varagur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e6e8e6fa6573) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (11.165825, 78.336155)."
+ ],
+ "photo": "photos/e6e8e6fa6573bff83e6cdb6aef46eec2d8229479cea69232dfe74ea7c7eeef06.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9631099",
+   "village": "Varagur",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2017-02-20",
+   "end_date": "2018-08-05",
+   "lat": 11.165825,
+   "lon": 78.336155,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  },
+  {
+   "record_id": "10419217",
+   "village": "Varagur",
+   "structure_type": "Other",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2018-06-21",
+   "end_date": "2018-10-09",
+   "lat": 11.165825,
+   "lon": 78.336155,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Erumapatty"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

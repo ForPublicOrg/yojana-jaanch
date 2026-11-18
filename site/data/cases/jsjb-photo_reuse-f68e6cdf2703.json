@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-f68e6cdf2703",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Nawalgarh",
+ "villages": [
+  "Bhairoo Bas",
+  "Bugala",
+  "Kaseru"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d3ca586c910d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/d3ca586c910d933e9855303c969677319d4e682d6587443a76fcf4ed822674e3.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3884299",
+   "village": "Bugala",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-04",
+   "end_date": "2025-12-17",
+   "lat": 27.9393058,
+   "lon": 75.4458673,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4266878",
+   "village": "Bhairoo Bas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-16",
+   "end_date": "2025-12-17",
+   "lat": 27.923109,
+   "lon": 75.38341,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4273226",
+   "village": "Kaseru",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-10-15",
+   "end_date": "2026-02-10",
+   "lat": 27.95153,
+   "lon": 75.269272,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

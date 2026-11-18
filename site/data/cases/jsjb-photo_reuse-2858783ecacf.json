@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2858783ecacf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Tiruchengodu",
+ "villages": [
+  "Animoor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 62cb6f372baa) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (11.327893, 77.8711).",
+  "The photo was uploaded 4 times within 7 minutes (2026-03-02 12:27:08 to 2026-03-02 12:33:11)."
+ ],
+ "photo": "photos/62cb6f372baabd0ee27ae5b68dcaa6a0ebc9ad3281b80788aaa4bce68268e465.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9333951",
+   "village": "Animoor",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-05-01",
+   "end_date": "2022-06-01",
+   "lat": 11.327893,
+   "lon": 77.8711,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  },
+  {
+   "record_id": "9333961",
+   "village": "Animoor",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2021-04-01",
+   "end_date": "2022-06-01",
+   "lat": 11.327893,
+   "lon": 77.8711,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Tiruchengodu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

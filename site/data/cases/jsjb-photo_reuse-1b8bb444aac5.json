@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-1b8bb444aac5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Tarsikka",
+ "villages": [
+  "Bagga",
+  "Bhoewal",
+  "Gaddli",
+  "Jabbowal",
+  "Tanel"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint 27612f9c77ac) is attached to 16 different works in 5 villages. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Other (16).",
+  "These works are spread over 2 blocks: Jandiala Guru, Tarsikka."
+ ],
+ "photo": "photos/27612f9c77ac3f5f40bad9b1f68420f433ecdefa952b43a40d07c9723987a0ae.jpg",
+ "offices": [
+  "XEN Jandiala"
+ ],
  "records": [
   {
    "record_id": "7397384",
@@ -225,5 +248,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

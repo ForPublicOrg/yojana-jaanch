@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3af0bc2911b0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Dalewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 95276a361f81) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 42 seconds (2026-04-23 16:29:56 to 2026-04-23 16:30:38)."
+ ],
+ "photo": "photos/95276a361f8179f99ec26ff0ef69ac88e6674288f20de2c2c5360cdf3147f11a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1060644",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

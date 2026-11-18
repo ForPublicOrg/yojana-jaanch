@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8f14830e96ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Nathe Wala"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 17d9f15f6daf) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4).",
+  "All 4 works started and ended on the same day (2026-05-05).",
+  "The photo was uploaded 4 times within 8 minutes (2026-05-06 16:54:52 to 2026-05-06 17:02:03)."
+ ],
+ "photo": "photos/17d9f15f6daf370caf0060dfa9f039f215e91709d0b012623ec655fe2b0bc005.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7621195",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

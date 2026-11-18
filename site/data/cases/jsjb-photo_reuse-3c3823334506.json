@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3c3823334506",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Sangrur",
+ "block": "Dhuri",
+ "villages": [
+  "Bhojowali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eb73ea56371f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.337668, 75.923064).",
+  "The photo was uploaded 2 times within 17 minutes (2026-05-11 16:28:46 to 2026-05-11 16:45:13)."
+ ],
+ "photo": "photos/eb73ea56371f942df6bdf95e575935e91cd05ee055497ac715829d08ef1f2539.jpeg",
+ "offices": [
+  "Block Development Officer Dhuri"
+ ],
  "records": [
   {
    "record_id": "8501273",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dhuri"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-22b16f36e5c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Fatehgarh",
+ "villages": [
+  "Lordisar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a6d9c7715040) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.4892, 71.2594).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/a6d9c77150405bb4ab33fbd69b7a2d817955328545fefa7dd0d65eb7d7c185e0.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3144539",
+   "village": "Lordisar",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-06-05",
+   "end_date": "2025-07-18",
+   "lat": 26.4892,
+   "lon": 71.2594,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "8603409",
+   "village": "Lordisar",
+   "structure_type": "Village Pond",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-06-05",
+   "end_date": "2025-07-18",
+   "lat": 26.4892,
+   "lon": 71.2594,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

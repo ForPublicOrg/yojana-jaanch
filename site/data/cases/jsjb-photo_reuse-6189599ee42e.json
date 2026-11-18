@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-6189599ee42e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bajpatti",
+ "villages": [
+  "Boha Basdeopur",
+  "Madhopur Chaturi",
+  "Pachra Nimahi",
+  "Rasulpur"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 204ad5b5667f) is attached to 6 different works in 4 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Soak Pit (6)."
+ ],
+ "photo": "photos/204ad5b5667fa2e2dffc3aa8cb82c05c419aaeb4f6ce6fdc5485953f708932ca.jpg",
+ "offices": [
+  "BDO Bajpatti"
+ ],
  "records": [
   {
    "record_id": "3924363",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Bajpatti"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false
 }

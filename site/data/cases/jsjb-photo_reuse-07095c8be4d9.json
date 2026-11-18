@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-07095c8be4d9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 12 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Amargarh",
+  "Attari",
+  "Aujla",
+  "Balim",
+  "Barila Kalan",
+  "Barila Khurd",
+  "Bhadwan",
+  "Bhangwan"
+ ],
+ "record_count": 12,
+ "reasons": [
+  "The same photo file (fingerprint cdad8ea0af5a) is attached to 12 different works in 8 villages. A photo of one site cannot be evidence for 12 separate works.",
+  "The works are recorded as: Contour Trench (11), Other (1).",
+  "All 12 works report the same GPS point (32.059212, 75.132796)."
+ ],
+ "photo": "photos/cdad8ea0af5a209c223aac66b51ece92f2d7ad015c143bb9f497dfe3f6ecaae8.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "13203107",
@@ -169,5 +195,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 37,
+ "needs_human_review": false
 }

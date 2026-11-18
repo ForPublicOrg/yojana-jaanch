@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c42d9afc7904",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Manawala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 983f75d72019) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "The photo was uploaded 2 times within 8 minutes (2026-04-22 09:26:22 to 2026-04-22 09:33:47)."
+ ],
+ "photo": "photos/983f75d72019eb5156a67c5cc162d40b6bd51c1547342710cab8ee2f34886a20.jpg",
+ "offices": [
+  "Juniour engineer"
+ ],
  "records": [
   {
    "record_id": "5230176",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

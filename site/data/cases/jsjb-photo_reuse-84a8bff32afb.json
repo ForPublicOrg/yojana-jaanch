@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-84a8bff32afb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Sauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70c79a3bb173) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.4375093, 85.4024074).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-07 19:46:56 to 2026-04-07 19:50:42)."
+ ],
+ "photo": "photos/70c79a3bb173203067ae962243e4e88f98e924d4ade8ef24aa327bb613b0d9f3.jpg",
+ "offices": [
+  "BDO Belsand"
+ ],
  "records": [
   {
    "record_id": "4584492",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

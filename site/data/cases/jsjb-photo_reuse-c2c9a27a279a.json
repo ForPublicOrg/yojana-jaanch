@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c2c9a27a279a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Dhaipai",
+  "Khachran"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 02d24b863bb0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bench Terracing (2).",
+  "All 2 works report the same GPS point (30.41694384, 74.97725)."
+ ],
+ "photo": "photos/02d24b863bb05a9b6ef5e11748bd68611aedacac4bd2d93b4643fc609797b5a4.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "5630275",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

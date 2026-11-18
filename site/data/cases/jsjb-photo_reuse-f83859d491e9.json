@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f83859d491e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Selavadi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9f6c5de72c68) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (11.6696, 77.916).",
+  "The photo was uploaded 3 times within 15 minutes (2025-07-11 16:35:17 to 2025-07-11 16:49:38)."
+ ],
+ "photo": "photos/9f6c5de72c68312de6fa5eb03741f5054ba1efd371ba711178b538d3960a3a6b.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9363957",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

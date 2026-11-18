@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-90b722dd6b5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Jionpur",
+  "Mangli Nichi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb263e112994) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.89107, 76.87729)."
+ ],
+ "photo": "photos/bb263e1129947657389a8f918cfebbac89354b1dc006e86816d28712ce4a0623.jpg",
+ "offices": [
+  "BDPO Khanna"
+ ],
  "records": [
   {
    "record_id": "1239535",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

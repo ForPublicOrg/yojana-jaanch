@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fb5a1bcc007d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bhutahi",
+  "Ghurghura Hanumannagar Urf Ghurghura Baluaha"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f597e1a352fe) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The photo was uploaded 6 times within 30 minutes (2026-03-20 11:10:01 to 2026-03-20 11:39:49)."
+ ],
+ "photo": "photos/f597e1a352fe9a0d4b7add8f252fe461638350e0d753f59d6d591720c9935f48.jpg",
+ "offices": [
+  "BDO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4062032",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

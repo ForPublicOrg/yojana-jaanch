@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e1095c8eccfb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Allipura (Ct)",
+  "Bevinahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d1562843c05a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/d1562843c05aedba3bb2c9f9d2e99535cf1d2c1086f6cfcdc2fb0159f965d8d7.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3092947",
+   "village": "Allipura (Ct)",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-08-10",
+   "lat": 13.43456,
+   "lon": 77.234558,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3093213",
+   "village": "Bevinahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-10-10",
+   "lat": 13.43456,
+   "lon": 77.23345,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

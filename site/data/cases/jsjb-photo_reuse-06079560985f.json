@@ -1,5 +1,32 @@
 {
  "id": "jsjb-photo_reuse-06079560985f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Deoli",
+ "villages": [
+  "Beejwar",
+  "Chandwar",
+  "Deorawas",
+  "Dhuan Kalan",
+  "Gurai",
+  "Khawaspura",
+  "Niwariya",
+  "Panwar",
+  "Sitapura",
+  "Tokrawas Bundi"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint cbd8726e3e76) is attached to 16 different works in 10 villages. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Contour Trench (15), Check Dam (1)."
+ ],
+ "photo": "photos/cbd8726e3e760fc4aaedfd61887e0390bea027bbeb6e977831746a2ed3b2475f.jpg",
+ "offices": [
+  "BDO"
+ ],
  "records": [
   {
    "record_id": "4014483",
@@ -225,5 +252,8 @@
    "area_type": "Rural",
    "block": "Deoli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

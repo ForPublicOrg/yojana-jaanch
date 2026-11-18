@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-555f11e1192f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Anoor",
+  "Doddapura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0f752ecabf4d) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (13.3659, 78.01159).",
+  "The photo was uploaded 4 times within 3 minutes (2025-12-22 14:00:14 to 2025-12-22 14:02:38)."
+ ],
+ "photo": "photos/0f752ecabf4d405b375f210869ad44f07943948fcb984bbfdc0d9a4f4331794d.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3134850",
+   "village": "Anoor",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-04",
+   "lat": 13.3659,
+   "lon": 78.01159,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3134913",
+   "village": "Doddapura",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-12-01",
+   "lat": 13.3659,
+   "lon": 78.01159,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

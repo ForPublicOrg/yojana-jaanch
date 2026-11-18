@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-4cf67bc2063d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Kot Mazlas"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 5eadb90cfc84) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.871854, 75.111974).",
+  "All 5 works started and ended on the same day (2026-05-16)."
+ ],
+ "photo": "photos/5eadb90cfc84f08b04046b388a45198d6422e78e56d5b943bb6bc570a669fdb4.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "9886365",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

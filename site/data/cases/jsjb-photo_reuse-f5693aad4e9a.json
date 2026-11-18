@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f5693aad4e9a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Chiraigaon",
+ "villages": [
+  "Mustafabad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6c4f8a949453) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (25.35247, 83.118878).",
+  "The photo was uploaded 2 times within 6 minutes (2026-01-13 16:49:47 to 2026-01-13 16:55:13)."
+ ],
+ "photo": "photos/6c4f8a94945367ef050a8585c6c9440acab3cfa5ba84a9d042488d8dfb722397.jpg",
+ "offices": [
+  "BHUMI SANRAKSHAN ADHIKARI"
+ ],
  "records": [
   {
    "record_id": "3286769",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Chiraigaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

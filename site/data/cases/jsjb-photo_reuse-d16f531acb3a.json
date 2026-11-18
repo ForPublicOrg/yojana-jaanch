@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d16f531acb3a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Dadari",
+  "Kurauna"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c18b403be13b) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (25.0, 79.0).",
+  "The photo was uploaded 3 times within 13 minutes (2026-03-28 15:57:00 to 2026-03-28 16:09:17)."
+ ],
+ "photo": "photos/c18b403be13bf0c1d4b25b6b085d81cb63e703fc502459f9e1b20b74798c1703.jpg",
+ "offices": [
+  "DAO"
+ ],
  "records": [
   {
    "record_id": "293346",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

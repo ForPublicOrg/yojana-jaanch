@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-630ddbfc92b7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Basantpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 16f71e296b1b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/16f71e296b1b8d73417a60f7f25341848b8757d822b7537e169d420caf8f53ba.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1042156",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

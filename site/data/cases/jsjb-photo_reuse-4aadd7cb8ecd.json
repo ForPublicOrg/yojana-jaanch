@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4aadd7cb8ecd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jhunjhunu",
+ "block": "Jhunjhunu",
+ "villages": [
+  "Udawas"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4594de2acb9b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (28.087342, 75.430699).",
+  "The photo was uploaded 4 times within 4 minutes (2026-03-27 15:41:05 to 2026-03-27 15:44:10)."
+ ],
+ "photo": "photos/4594de2acb9bb0e1c41478035e4aa35eebe45a4478de7ea994b4dc9d6176b665.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "4299333",
+   "village": "Udawas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-03",
+   "end_date": "2026-01-30",
+   "lat": 28.087342,
+   "lon": 75.430699,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  },
+  {
+   "record_id": "4299453",
+   "village": "Udawas",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-11-03",
+   "end_date": "2026-01-30",
+   "lat": 28.087342,
+   "lon": 75.430699,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Jhunjhunu"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

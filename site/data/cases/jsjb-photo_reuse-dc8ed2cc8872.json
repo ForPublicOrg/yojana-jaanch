@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dc8ed2cc8872",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Mahla Khurad"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 786accc3f234) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works started and ended on the same day (2026-04-27)."
+ ],
+ "photo": "photos/786accc3f234a04833a78088b9ece7cdaeb503a951ad4502baff2c53f6d38ecf.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "7081669",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

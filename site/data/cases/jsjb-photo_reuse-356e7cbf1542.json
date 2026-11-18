@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-356e7cbf1542",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Bhogiwal",
+  "Daulatpur",
+  "Sikohpur Sangam",
+  "Vilaitpura"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint c6cb30a14c7c) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "The entries were made by 2 different offices: APO, Rural Deveolpment.",
+  "These works are spread over 2 blocks: Ahmedgarh, Amargarh."
+ ],
+ "photo": "photos/c6cb30a14c7ccb1343d2c0bd9226ff84b424bf7313b587db9d78563bafe2c252.jpg",
+ "offices": [
+  "APO",
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "11115030",
@@ -71,5 +95,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4e4a9255ec79",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Dehlon",
+ "villages": [
+  "Jaspal Bangar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 91b60a8e6550) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 2 times within 3 minutes (2026-02-06 05:41:42 to 2026-02-06 05:43:49)."
+ ],
+ "photo": "photos/91b60a8e65508fc26246ba540bd7f359879cda0b68e755ced90aabfc19dd4027.jpg",
+ "offices": [
+  "BDPO Dehlon"
+ ],
  "records": [
   {
    "record_id": "1249489",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Dehlon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

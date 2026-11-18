@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-429c9c91b096",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hajipur",
+ "villages": [
+  "Arthe Wal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4fcad9b86c8f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.000782, 75.681152)."
+ ],
+ "photo": "photos/4fcad9b86c8f7ff97ef5eb10d24114124c5461e25896e628445813a77c441215.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "12401704",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hajipur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

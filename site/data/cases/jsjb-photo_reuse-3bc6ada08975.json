@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-3bc6ada08975",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Mir Pur",
+  "Mirpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5315d56ad5f1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (6.5, 68.1).",
+  "The photo was uploaded 2 times within 11 minutes (2026-04-22 13:07:00 to 2026-04-22 13:17:20).",
+  "These works are spread over 2 blocks: Bassi Pathana, Khamano."
+ ],
+ "photo": "photos/5315d56ad5f1cb981575c151ee760381d593de694903f27c7666f52210303832.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5249345",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

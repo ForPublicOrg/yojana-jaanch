@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-dddf3d38ae93",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Gausgarh",
+  "Kakuwal",
+  "Kalas Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f15c0fe64f37) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (30.9196, 76.066).",
+  "The photo was uploaded 6 times within 8 minutes (2026-02-04 22:51:31 to 2026-02-04 22:58:44)."
+ ],
+ "photo": "photos/f15c0fe64f37845e4d664d6b73d7a807ad29e31bdca8309becccbfb7cf373592.jpg",
+ "offices": [
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1354169",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

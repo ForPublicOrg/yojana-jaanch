@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-7efc1ef37ed3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 304 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Chogawan",
+ "villages": [
+  "Vaineyke"
+ ],
+ "record_count": 304,
+ "reasons": [
+  "The same photo file (fingerprint 464a8263b20d) is attached to 304 different works in 1 village. A photo of one site cannot be evidence for 304 separate works.",
+  "The works are recorded as: Other (304).",
+  "All 304 works report the same GPS point (31.39, 74.36)."
+ ],
+ "photo": "photos/464a8263b20d3df87ddf62e31056d5c5ae279ff311c58863bb1bb40484785fe9.jpg",
+ "offices": [
+  "DFO office"
+ ],
  "records": [
   {
    "record_id": "7593114",
@@ -4257,5 +4276,8 @@
    "area_type": "Rural",
    "block": "Chogawan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 913,
+ "needs_human_review": false
 }

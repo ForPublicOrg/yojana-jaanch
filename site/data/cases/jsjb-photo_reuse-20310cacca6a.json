@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-20310cacca6a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Peeplu",
+ "villages": [
+  "Fyawari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e9c1224e6e2d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/e9c1224e6e2d43c2fc4908a0602894244c908375e44049cb77cff6070afd5d91.jpg",
+ "offices": [
+  "AEN"
+ ],
  "records": [
   {
    "record_id": "4288818",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Peeplu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

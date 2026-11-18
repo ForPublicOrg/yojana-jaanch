@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f9c5040fb6f2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Motooka"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9d29819e97c9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (26.25166667, 75.8725).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-26 11:36:20 to 2026-05-26 11:40:11)."
+ ],
+ "photo": "photos/9d29819e97c9265f97ff89a48eb66a340427953f6bfd236576d3a83c1b3316f2.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12914177",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

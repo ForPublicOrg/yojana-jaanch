@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-26e5dc386560",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Talavasal",
+ "villages": [
+  "Periyeri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e05a3e73c41a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (11.561596, 78.786171).",
+  "The photo was uploaded 2 times within 21 seconds (2026-05-13 13:50:26 to 2026-05-13 13:50:47)."
+ ],
+ "photo": "photos/e05a3e73c41a0eb25ac74096e7500291277b820f9f7d24879f36a20aa3ea53d2.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "8894279",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Talavasal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

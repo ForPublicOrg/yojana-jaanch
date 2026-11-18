@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-1d59a74954fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Baragaon",
+ "villages": [
+  "Berwa",
+  "Kuwar",
+  "Saraiya"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a0f5981caa40) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Pit (3).",
+  "These works are spread over 3 blocks: Baragaon, Chiraigaon, Harahua."
+ ],
+ "photo": "photos/a0f5981caa405b417ea134fce10f2d429446669ded68a7fad912449cff958865.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893825",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Harahua"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

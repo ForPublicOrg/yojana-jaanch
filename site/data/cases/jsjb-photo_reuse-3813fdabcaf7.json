@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3813fdabcaf7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "Ponjai Idaiyar Keelmugam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 33f90631bdda) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (11.122139, 78.050848)."
+ ],
+ "photo": "photos/33f90631bdda7a6ceeceb950d4dc7c43c541a594ec8d14196e137a658c57d0d6.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "3726301",
+   "village": "Ponjai Idaiyar Keelmugam",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-08-10",
+   "end_date": "2025-10-10",
+   "lat": 11.122139,
+   "lon": 78.050848,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9338511",
+   "village": "Ponjai Idaiyar Keelmugam",
+   "structure_type": "Recharge Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-02-02",
+   "end_date": "2025-02-22",
+   "lat": 11.122139,
+   "lon": 78.050848,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

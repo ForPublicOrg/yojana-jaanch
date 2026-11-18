@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-f562c5a79ce8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cholapur",
+ "villages": [
+  "Mahmoodpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 314736ae5286) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (25.48437, 83.102711).",
+  "The photo was uploaded 6 times within 50 seconds (2026-01-30 11:35:31 to 2026-01-30 11:36:21)."
+ ],
+ "photo": "photos/314736ae52869a3b68b54659985a35835b5111929f615732faa5a2d9799cc1e2.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3358225",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

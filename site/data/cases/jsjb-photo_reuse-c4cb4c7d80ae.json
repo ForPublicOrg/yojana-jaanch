@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c4cb4c7d80ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Anaitpur",
+  "Badali Ala Singh",
+  "Baras"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f859b7e42329) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/f859b7e42329d716e06474b71dc7bd2a05bef80bdfe7f59d8cf59ed5d2d3ce2a.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5636079",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

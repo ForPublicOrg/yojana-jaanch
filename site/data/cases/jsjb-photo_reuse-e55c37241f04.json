@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-e55c37241f04",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Paramathi",
+ "villages": [
+  "Paramathi (TP) - Ward No.6",
+  "Paramathi (TP) - Ward No.7",
+  "Paramathi (TP) - Ward No.8"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a8be1da96d55) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (3)."
+ ],
+ "photo": "photos/a8be1da96d55b607c7d51f42fdc252949ddf5c745d45211250429a5147209aff.jpg",
+ "offices": [
+  "EO PARAMATHI"
+ ],
+ "records": [
+  {
+   "record_id": "3503090",
+   "village": "Paramathi (TP) - Ward No.7",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-11-06",
+   "end_date": "2025-11-26",
+   "lat": 11.152562,
+   "lon": 78.021058,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3526586",
+   "village": "Paramathi (TP) - Ward No.6",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-06-04",
+   "end_date": "2025-06-16",
+   "lat": 11.15419,
+   "lon": 78.021848,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  },
+  {
+   "record_id": "3543841",
+   "village": "Paramathi (TP) - Ward No.8",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "EO PARAMATHI",
+   "start_date": "2025-11-11",
+   "end_date": "2025-11-29",
+   "lat": 11.152527,
+   "lon": 78.022382,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Paramathi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

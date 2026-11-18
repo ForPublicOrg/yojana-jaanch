@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-49c14ceadb39",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Desavilakku North"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 14f767b33756) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4).",
+  "All 4 works report the same GPS point (11.65, 77.95)."
+ ],
+ "photo": "photos/14f767b33756c23b475cad35cfd368e2d95758ded3777d2fe06a7d92f884c293.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9355337",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

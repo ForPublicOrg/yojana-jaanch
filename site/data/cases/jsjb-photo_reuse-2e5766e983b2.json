@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-2e5766e983b2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Kotli",
+  "Kumbhra",
+  "Ladpur",
+  "Malowal",
+  "Sherpur"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 1edd8c0c4726) is attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/1edd8c0c4726bc94207545daff0283ff85b3b45145a7457ac43416378b454e59.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5503979",
@@ -71,5 +93,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

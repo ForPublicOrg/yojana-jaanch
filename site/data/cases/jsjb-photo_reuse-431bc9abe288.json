@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-431bc9abe288",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Phillaur",
+ "villages": [
+  "Paddi Jagir"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c3ecf02b457e) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2), Village Pond (1).",
+  "The entries were made by 2 different offices: BDPO Phillaur, Zilledar."
+ ],
+ "photo": "photos/c3ecf02b457eae0e89f84d807c5e979354daf9d1826ff4ba4c4ae9427ff0d3b4.jpg",
+ "offices": [
+  "BDPO Phillaur",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "999991",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Phillaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

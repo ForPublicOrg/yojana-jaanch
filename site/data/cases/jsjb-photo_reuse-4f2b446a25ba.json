@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-4f2b446a25ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Nathana",
+ "villages": [
+  "Bath",
+  "Patti Karam Chand Mehraj"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 1ddf0a8df607) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "The entries were made by 3 different offices: GRAM ROZGAR SEWAK, ZILEDAR PHUL, ZILEDAR SHAMIR.",
+  "These works are spread over 2 blocks: Nathana, Phul."
+ ],
+ "photo": "photos/1ddf0a8df607dc242dc3c0eb2056decb937db606c76af1baa3293c9b39eb1075.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK",
+  "ZILEDAR PHUL",
+  "ZILEDAR SHAMIR"
+ ],
  "records": [
   {
    "record_id": "989355",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Nathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c82128ecbba4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Chak Guru"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7c3eef5ef99f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Village Pond (1).",
+  "All 2 works report the same GPS point (31.158938, 76.179075).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-21 16:41:07 to 2026-04-21 16:42:23)."
+ ],
+ "photo": "photos/7c3eef5ef99fe52d0fdffbd17f15b54375f5c2f791bb7b3b9fdff963c5a280fc.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "1060739",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

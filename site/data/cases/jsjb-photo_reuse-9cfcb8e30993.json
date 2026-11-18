@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-9cfcb8e30993",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 5 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bhinder Kalan",
+  "Fatehgarh Panjtoor",
+  "Jalaliana",
+  "Mastewala",
+  "Sandhwan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 8 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.011 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 94faaa15ee2e on 3 works, 2f4962602f99 on 2 works.",
+  "The works are recorded as: Other (3), Village Pond (2).",
+  "The entries were made by 3 different offices: ARC, JUNIOR ENGINEER, ZILEDAR.",
+  "These works are spread over 2 districts: Faridkot, Moga."
+ ],
+ "photo": "photos/94faaa15ee2ed8940ccf08c434d664fb294528a033ee3e5661c3d500ce142ebb.jpg",
+ "offices": [
+  "ARC",
+  "JUNIOR ENGINEER",
+  "ZILEDAR"
+ ],
  "records": [
   {
    "record_id": "976613",
@@ -71,5 +99,21 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "94faaa15ee2ed8940ccf08c434d664fb294528a033ee3e5661c3d500ce142ebb",
+   "records": 3
+  },
+  {
+   "sha256": "2f4962602f99aa82a9c31fd6dbe235a3ae34f1e1b56fc92b7ff31fe1777b1af0",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ba3147e66e3b"
  ]
 }

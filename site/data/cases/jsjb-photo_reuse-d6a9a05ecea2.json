@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-d6a9a05ecea2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mallasamudram",
+ "villages": [
+  "Mallasamudram (TP) - Ward No.2",
+  "Mallasamudram (TP) - Ward No.7"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.024 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 7c3c14dbb687 on 1 work, d8463c2c228a on 1 work.",
+  "The works are recorded as: Recharge Pit (2)."
+ ],
+ "photo": "photos/7c3c14dbb687e0aea440ef413ad98d322136abdd4301ad40607d9bb1cddac70e.jpg",
+ "offices": [
+  "EO MALLASAMUDRAM"
+ ],
+ "records": [
+  {
+   "record_id": "3582446",
+   "village": "Mallasamudram (TP) - Ward No.7",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-06-20",
+   "end_date": "2025-06-23",
+   "lat": 11.48546,
+   "lon": 78.031294,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  },
+  {
+   "record_id": "3623755",
+   "village": "Mallasamudram (TP) - Ward No.2",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO MALLASAMUDRAM",
+   "start_date": "2025-07-08",
+   "end_date": "2025-07-11",
+   "lat": 11.518263,
+   "lon": 78.03687,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Mallasamudram"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "7c3c14dbb687e0aea440ef413ad98d322136abdd4301ad40607d9bb1cddac70e",
+   "records": 1
+  },
+  {
+   "sha256": "d8463c2c228af2401e20a203e68b00c5b38743c1f34d1c716ca0092c5df86988",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-e2ed1ceef159"
+ ]
+}

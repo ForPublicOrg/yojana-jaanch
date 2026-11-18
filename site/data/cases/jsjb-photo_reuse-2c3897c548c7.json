@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2c3897c548c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Mohanur",
+ "villages": [
+  "K.Puliyampatti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint efcca7594d79) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (1), Village Pond (1).",
+  "All 2 works report the same GPS point (11.165893, 78.107552)."
+ ],
+ "photo": "photos/efcca7594d79325e006d140032abacf768956c911ec2ebfb12ee0c1e2df5e1e7.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9078472",
+   "village": "K.Puliyampatti",
+   "structure_type": "Village Pond",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-08-10",
+   "end_date": "2025-10-10",
+   "lat": 11.165893,
+   "lon": 78.107552,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  },
+  {
+   "record_id": "9100450",
+   "village": "K.Puliyampatti",
+   "structure_type": "Soak Pit",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-08-10",
+   "end_date": "2025-10-10",
+   "lat": 11.165893,
+   "lon": 78.107552,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Mohanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dd4b47955ef4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Sathiala"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint e75e6b54eeaa) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Other (8).",
+  "All 8 works started and ended on the same day (2025-05-16).",
+  "The photo was uploaded 8 times within 13 minutes (2026-04-30 10:13:37 to 2026-04-30 10:26:22)."
+ ],
+ "photo": "photos/e75e6b54eeaa122627835de8f00c28c6115b1e9e991480a5eb4c032aa8a7b456.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "6325687",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

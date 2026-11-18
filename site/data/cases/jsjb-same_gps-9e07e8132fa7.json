@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-9e07e8132fa7",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "11 works at one GPS point in Dalel Singh Wala",
+ "state": "Punjab",
+ "district": "Mansa",
+ "block": "Mansa",
+ "villages": [
+  "Dalel Singh Wala"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "11 works in Dalel Singh Wala report exactly the same GPS point (30.0412, 75.4762).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (11).",
+  "They carry 12 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "12037127",
@@ -155,5 +175,8 @@
    "area_type": "Rural",
    "block": "Mansa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false
 }

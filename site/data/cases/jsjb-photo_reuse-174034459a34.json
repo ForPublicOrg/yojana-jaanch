@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-174034459a34",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Rajepur",
+  "Supi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2de2ffbe64d4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.7022184, 85.3377584).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-04 15:58:52 to 2026-04-04 16:00:50)."
+ ],
+ "photo": "photos/2de2ffbe64d48ab4e753c4496ee2631ee7ddbe9348d61e30b1f25018422f3544.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4478839",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

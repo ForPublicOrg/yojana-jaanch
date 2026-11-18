@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-eef9f3c31bf6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Bhogpur",
+ "villages": [
+  "Charar",
+  "Tandi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ae4de841eae7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-20 19:55:41 to 2026-04-20 19:57:12)."
+ ],
+ "photo": "photos/ae4de841eae7787bee25da684c457a9d4bffbe63fdb43c5570a214dd74f78c4f.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "977604",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Bhogpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

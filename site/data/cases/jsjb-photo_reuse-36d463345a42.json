@@ -1,0 +1,85 @@
+{
+ "id": "jsjb-photo_reuse-36d463345a42",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Athanur",
+ "villages": [
+  "Athanur (TP) - Ward No.10",
+  "Athanur (TP) - Ward No.5",
+  "Athanur (TP) - Ward No.8"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint e596d3a4f1ef) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Recharge Pit (4).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 4 dates: 2025-09-10, 2025-09-23, 2025-10-14, 2025-10-22."
+ ],
+ "photo": "photos/e596d3a4f1ef0d7fd82788418768f0c09248d5346e99b4e019048552ad0b5ba1.jpg",
+ "offices": [
+  "EO ATHANUR"
+ ],
+ "records": [
+  {
+   "record_id": "3725722",
+   "village": "Athanur (TP) - Ward No.10",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-23",
+   "end_date": "2025-09-23",
+   "lat": 11.500026,
+   "lon": 78.13632,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3725788",
+   "village": "Athanur (TP) - Ward No.8",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-10-14",
+   "end_date": "2025-10-14",
+   "lat": 11.49852,
+   "lon": 78.137047,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3726075",
+   "village": "Athanur (TP) - Ward No.10",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-09-10",
+   "end_date": "2025-09-10",
+   "lat": 11.50196,
+   "lon": 78.13625,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3730085",
+   "village": "Athanur (TP) - Ward No.5",
+   "structure_type": "Recharge Pit",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-10-22",
+   "end_date": "2025-10-22",
+   "lat": 11.498653,
+   "lon": 78.15789,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

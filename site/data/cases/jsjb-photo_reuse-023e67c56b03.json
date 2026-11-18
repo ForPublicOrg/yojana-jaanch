@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-023e67c56b03",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Elacipalayam",
+ "villages": [
+  "Kilapalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d589fc27e9e2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+ ],
+ "photo": "photos/d589fc27e9e226da3b52031df4d6880446e7884521c7a257d26854a9c069c0b2.jpg",
+ "offices": [
+  "Block Development officer"
+ ],
+ "records": [
+  {
+   "record_id": "9340150",
+   "village": "Kilapalayam",
+   "structure_type": "Village Pond",
+   "created_by": "Block Development officer",
+   "start_date": "2024-08-08",
+   "end_date": "2024-10-09",
+   "lat": 11.39245,
+   "lon": 77.95928,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Elacipalayam"
+  },
+  {
+   "record_id": "9341751",
+   "village": "Kilapalayam",
+   "structure_type": "Percolation Pond",
+   "created_by": "Block Development officer",
+   "start_date": "2024-08-08",
+   "end_date": "2024-10-09",
+   "lat": 11.392545,
+   "lon": 77.95928,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Elacipalayam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

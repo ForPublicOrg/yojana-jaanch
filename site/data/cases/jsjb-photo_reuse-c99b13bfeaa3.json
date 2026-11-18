@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c99b13bfeaa3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Khurd",
+  "Nabi Pur",
+  "Rampur Jagir"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint a49499281edf) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/a49499281edfd22e6bafe91a4d9b3773f6f2bdbf95b0d949b3a983150744e31e.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1065689",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

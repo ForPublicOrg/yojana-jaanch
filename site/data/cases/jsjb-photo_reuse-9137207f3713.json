@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9137207f3713",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Hallia",
+ "villages": [
+  "Dewhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 704e09e4ffbb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (24.88024, 82.15753).",
+  "The photo was uploaded 4 times within 15 minutes (2026-04-24 12:26:39 to 2026-04-24 12:41:00)."
+ ],
+ "photo": "photos/704e09e4ffbb78b78fce7cb19c5b9bccc025b86eb46ffaa0929e9f62cffd8f23.jpg",
+ "offices": [
+  "BLOCK DEVLOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1131275",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Hallia"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

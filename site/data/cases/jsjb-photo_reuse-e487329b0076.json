@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-e487329b0076",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bairgania",
+ "villages": [
+  "Jamua",
+  "Masha Naoratan",
+  "Pachtaki Jadu",
+  "Patahi",
+  "Rasulpur Dayal Urf Bahira"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint a3f18f86807c) is attached to 9 different works in 5 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Other (9)."
+ ],
+ "photo": "photos/a3f18f86807cd838a3aee34924d98bb2588237db179b68a36c490fc5f277b0f8.jpg",
+ "offices": [
+  "PO Bairgania"
+ ],
  "records": [
   {
    "record_id": "4066693",
@@ -127,5 +149,8 @@
    "area_type": "Rural",
    "block": "Bairgania"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

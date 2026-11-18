@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-0db0959a39df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Doraha",
+ "villages": [
+  "Barmalipur",
+  "Cheema",
+  "Gobindpura"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 4b2a76210ffc) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/4b2a76210ffc3aee3fdd8a5ce17f320f326db0f1bd9a221b4f4b1e29582fc34f.jpg",
+ "offices": [
+  "BDPO Doraha"
+ ],
  "records": [
   {
    "record_id": "1199601",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Doraha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

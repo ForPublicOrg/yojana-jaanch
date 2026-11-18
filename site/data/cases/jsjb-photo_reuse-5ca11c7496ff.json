@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-5ca11c7496ff",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Maloud",
+ "villages": [
+  "Kartarpur",
+  "Kuhli Kalan",
+  "Kulahar",
+  "Lassara Pohlowas"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): d3251b0ae564 on 4 works, 342dc30a4b37 on 1 work.",
+  "The works are recorded as: Village Pond (3), Other (1)."
+ ],
+ "photo": "photos/d3251b0ae56413471324c84e03d64f96663787a70e5d1aad3504099281e02b9a.jpg",
+ "offices": [
+  "BDPO Maloud"
+ ],
  "records": [
   {
    "record_id": "1319707",
@@ -57,5 +80,21 @@
    "area_type": "Rural",
    "block": "Maloud"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "d3251b0ae56413471324c84e03d64f96663787a70e5d1aad3504099281e02b9a",
+   "records": 4
+  },
+  {
+   "sha256": "342dc30a4b37b225587d0581e0d53a5bcb62f25f48ccc3153931d777e1f3b115",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-31283d2f6f6b"
  ]
 }

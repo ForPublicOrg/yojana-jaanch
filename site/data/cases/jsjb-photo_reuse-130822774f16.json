@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-130822774f16",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Ayodhiyapattinam",
+ "villages": [
+  "Mettupattithathanur",
+  "Veeranam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1407b1f376f6) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.674516, 78.236757)."
+ ],
+ "photo": "photos/1407b1f376f690deaa7435d506f00f562b376c3b913f2919a1d2ebb87c04d58b.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9351209",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ayodhiyapattinam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-2e41d3ddda38",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bahadur Wala"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint ff5bf26e8750) is attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Contour Trench (7).",
+  "All 7 works report the same GPS point (31.07, 75.1).",
+  "All 7 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 7 times within 19 minutes (2026-05-02 13:44:31 to 2026-05-02 14:02:42)."
+ ],
+ "photo": "photos/ff5bf26e8750d6b9f3df574b25dd89d5ac4f6bb585856273fc1c39ecc0664b6d.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "7266744",
@@ -99,5 +120,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

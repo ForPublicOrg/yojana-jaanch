@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-75fcfb0f40a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Dumra",
+  "Nunaura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 429feb0f9a53) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "The photo was uploaded 2 times within 18 minutes (2026-03-21 14:19:46 to 2026-03-21 14:37:21)."
+ ],
+ "photo": "photos/429feb0f9a532cd1d4b0794b32b4dee560c41c797f82bbe7c894b25e759f3f7c.jpg",
+ "offices": [
+  "PO Belsand"
+ ],
  "records": [
   {
    "record_id": "4093317",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

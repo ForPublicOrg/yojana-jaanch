@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a0ce880895b8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Majra Manna Singh Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bee14aad5d39) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.26956, 76.268482).",
+  "The photo was uploaded 4 times within 1 second (2026-04-08 16:21:27 to 2026-04-08 16:21:28)."
+ ],
+ "photo": "photos/bee14aad5d39abeed38cef834c89756bcefc3dbdf5a32517736b6c7f8a723707.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4613429",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

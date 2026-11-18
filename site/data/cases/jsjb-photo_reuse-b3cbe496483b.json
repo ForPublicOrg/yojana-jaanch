@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b3cbe496483b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Garhshankar",
+ "villages": [
+  "Khudda",
+  "Saila Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint efb79f34d8ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Rooftop Water Harvesting Structure (1).",
+  "These works are spread over 2 blocks: Garhshankar, Tanda."
+ ],
+ "photo": "photos/efb79f34d8eae2bba5a4dda41aa7fa1656bdd6163fedf395e0153c5cec0c23f5.jpg",
+ "offices": [
+  "Principal"
+ ],
  "records": [
   {
    "record_id": "1058950",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Garhshankar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

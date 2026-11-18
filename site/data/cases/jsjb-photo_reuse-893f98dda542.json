@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-893f98dda542",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Budha Dewal",
+  "Chainpura",
+  "Dhola Ka Khera",
+  "Tordi"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint dcb7331bf209) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (4)."
+ ],
+ "photo": "photos/dcb7331bf2098cccec09b529ff96c2e39a76715943c7825ebc003822f561df61.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1399753",
@@ -57,5 +78,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

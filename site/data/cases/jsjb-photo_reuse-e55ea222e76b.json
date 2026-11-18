@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-e55ea222e76b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Malpura",
+ "villages": [
+  "Balapura",
+  "Deshma",
+  "Deshmi",
+  "Doongri Kalan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint f3efe709036a) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Other (5)."
+ ],
+ "photo": "photos/f3efe709036a359f5e1ae6415045ca65cd8976a816967ff9cc6427a3d2464d07.jpg",
+ "offices": [
+  "ASSISTANT ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1399588",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Malpura"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

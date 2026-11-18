@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-779e49576822",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Bhagtuapura",
+  "Nayab"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bc8b43d96a7a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-05-24 13:58:56 to 2026-05-24 14:02:13)."
+ ],
+ "photo": "photos/bc8b43d96a7af1ebeb6602568a536a5c814bb154f2c72d659eff035425cfdfe6.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "12102529",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

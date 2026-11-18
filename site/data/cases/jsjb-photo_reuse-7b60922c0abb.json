@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-7b60922c0abb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Rasulpur Jandi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8fa33eb63678) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/8fa33eb63678598f4960595cd4fbb0c5d5d8f6943bc534a9182d7295ffd39871.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "985763",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Jagraon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

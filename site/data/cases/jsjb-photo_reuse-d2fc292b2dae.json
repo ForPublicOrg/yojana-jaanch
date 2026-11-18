@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-d2fc292b2dae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Nakodar",
+ "villages": [
+  "Bajuha Kalan",
+  "Durga Bad",
+  "Heir"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6fc3fac2d963) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/6fc3fac2d96355e1504d109710f6b36d11157745e44ae4656a757e8465896f6e.jpg",
+ "offices": [
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "992641",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Nakodar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

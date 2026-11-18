@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-005d355a586c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Sukhia Nangal"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 4f404ff056c7) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.325201, 75.287216).",
+  "The photo was uploaded 40 times within 28 minutes (2026-05-24 13:19:41 to 2026-05-24 13:46:42)."
+ ],
+ "photo": "photos/4f404ff056c73bef387383dd8e4e92c9f82367adf6a0c44a9c3a894b05a26424.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "12090372",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }

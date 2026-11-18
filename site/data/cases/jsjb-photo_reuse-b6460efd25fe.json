@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b6460efd25fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Dumri Kalan Urf Madhuban Jadu",
+  "Kuari Madan",
+  "Pachharwa"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ad86c3b3eb5d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "All 3 works report the same GPS point (26.0, 85.0).",
+  "The photo was uploaded 3 times within 3 minutes (2025-06-29 21:23:38 to 2025-06-29 21:26:35)."
+ ],
+ "photo": "photos/ad86c3b3eb5dde34ededcc0ee57454ebde866c554d2d46196e2180a6ed7d7bb4.jpg",
+ "offices": [
+  "PO Majorganj"
+ ],
  "records": [
   {
    "record_id": "109457769920",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

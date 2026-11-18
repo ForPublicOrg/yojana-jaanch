@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cf91d2eed5ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Raikot",
+ "villages": [
+  "Gobindgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.013 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 23d23bb6013c on 1 work, 36ac217fb864 on 1 work.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/23d23bb6013c823ac0bfb40f85a79e4b8a9f681e4b71712ee7ba8499ee9a5b7b.jpg",
+ "offices": [
+  "BDPO Raikot"
+ ],
  "records": [
   {
    "record_id": "1266879",
@@ -29,5 +49,21 @@
    "area_type": "Rural",
    "block": "Raikot"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "23d23bb6013c823ac0bfb40f85a79e4b8a9f681e4b71712ee7ba8499ee9a5b7b",
+   "records": 1
+  },
+  {
+   "sha256": "36ac217fb86484dc2c78137b0ebb0adf19664f41bd569a763fe0940919a1bc04",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f39f0fc6ecaf"
  ]
 }

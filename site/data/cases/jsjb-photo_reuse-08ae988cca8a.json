@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-08ae988cca8a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Varanasi",
+ "villages": [
+  "Chetganj"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2a3f66d1dee9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2).",
+  "All 2 works report the same GPS point (25.32856, 83.020999).",
+  "The photo was uploaded 2 times within 25 seconds (2026-05-12 12:34:31 to 2026-05-12 12:34:56)."
+ ],
+ "photo": "photos/2a3f66d1dee95ba233bc4a7c7666230449c242cd872ad683aaff0d4b21bc9853.jpg",
+ "offices": [
+  "Municipal Comissioner"
+ ],
  "records": [
   {
    "record_id": "8667692",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

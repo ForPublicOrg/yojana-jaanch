@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-400aa1e68e15",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Shikhar",
+ "villages": [
+  "Dhanaita",
+  "Hansipur",
+  "Pasiyahi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 6d5f533a2d45) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (2), Recharge Pit (1)."
+ ],
+ "photo": "photos/6d5f533a2d45ed8e0a38eef52ba5de46cc980e6f5dab39253eb546daf26a8947.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1236884",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Shikhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

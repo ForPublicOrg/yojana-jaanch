@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-b743f4519a41",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Dakore",
+ "villages": [
+  "Rampura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3731608d23b7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/3731608d23b7ec48a9776185cd68dbe7e5c8c32ec4d87f2f84c8a789a259cf81.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "3961104",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Dakore"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

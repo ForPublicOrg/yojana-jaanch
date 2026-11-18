@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-c449ac5cf8bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 16 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Majorganj",
+ "villages": [
+  "Basbita"
+ ],
+ "record_count": 16,
+ "reasons": [
+  "The same photo file (fingerprint 07694e30208d) is attached to 16 different works in 1 village. A photo of one site cannot be evidence for 16 separate works.",
+  "The works are recorded as: Recharge Pit (16).",
+  "The photo was uploaded 32 times within 24 minutes (2026-03-17 20:39:23 to 2026-03-17 21:02:34)."
+ ],
+ "photo": "photos/07694e30208d950d6b547d30cfee332a4e28cbffb667a65219b68805afe5900b.jpg",
+ "offices": [
+  "PO Majorganj"
+ ],
  "records": [
   {
    "record_id": "4007509",
@@ -225,5 +244,8 @@
    "area_type": "Rural",
    "block": "Majorganj"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 49,
+ "needs_human_review": false
 }

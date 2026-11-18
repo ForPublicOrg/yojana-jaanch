@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e80086830345",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Barila Khurd",
+  "Dewal",
+  "Hakimpur"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint bd5a1d9b8106) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/bd5a1d9b8106ea2fb35bac376d9fd7bcb88762add8b06a0965487c680ecae197.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "8683667",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-3f0c91bed2de",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Fazilka",
+ "villages": [
+  "Beganwali",
+  "Fazilka"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 846fd3d214ff) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 11 minutes (2026-03-29 09:54:03 to 2026-03-29 10:04:13)."
+ ],
+ "photo": "photos/846fd3d214ff0f0e65003ce508f9991e5f67ce8ca326f3d0e74719fbd847fbe2.jpg",
+ "offices": [
+  "Junior Engineer"
+ ],
  "records": [
   {
    "record_id": "981156",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Fazilka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

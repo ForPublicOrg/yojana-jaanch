@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-b9b7ddfa822c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Lakho Wali",
+  "Tootwala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5e1249d052b3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The entries were made by 2 different offices: Junior Engineer, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Jalalabad, Khuian Sarwar."
+ ],
+ "photo": "photos/5e1249d052b3edf5e40c39b49fd624df0517ff70f27b633ae292bb3dce1c33a4.jpg",
+ "offices": [
+  "Junior Engineer",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "981688",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

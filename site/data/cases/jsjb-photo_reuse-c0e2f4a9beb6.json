@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c0e2f4a9beb6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Kauloke"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ea7e7664ecbe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.374608, 75.222748).",
+  "All 2 works started and ended on the same day (2026-04-07).",
+  "The photo was uploaded 3 times within 2 seconds (2026-04-27 10:24:16 to 2026-04-27 10:24:18)."
+ ],
+ "photo": "photos/ea7e7664ecbee7365901c7524632a8f4ad40783f67d65f6434c6de7e071874ed.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5593442",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

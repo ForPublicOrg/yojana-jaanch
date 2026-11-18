@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b139b2055881",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Kabra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cae4d9819839) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.01123, 75.841421).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-28 22:55:09 to 2026-05-28 22:56:29)."
+ ],
+ "photo": "photos/cae4d98198396d26fcab176ce71b22195d13f8e098c2f6516e3e36ee417bf7d1.jpg",
+ "offices": [
+  "BDO Tonk"
+ ],
  "records": [
   {
    "record_id": "14373883",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d7f809533f95",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Shikhar",
+ "villages": [
+  "Kusha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dd17f7abd593) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/dd17f7abd593658344b6cde3d8e7a8e5760e0adf9eb6111e140c691051717f46.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "1238136",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Shikhar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

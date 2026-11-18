@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1faf51f2c8fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Mehgaon",
+ "villages": [
+  "Padkoli",
+  "Ranupura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9c61cc78b159) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/9c61cc78b1592c15689703dce85d5b7cb18f3aa02f08a0696846764dc9a3f7e9.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "11138211",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Mehgaon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

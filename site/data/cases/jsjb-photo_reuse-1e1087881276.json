@@ -1,5 +1,33 @@
 {
  "id": "jsjb-photo_reuse-1e1087881276",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Fatehgarh Korotana",
+  "Kokri Behniwal",
+  "Mari",
+  "Sahoke",
+  "Sekha Klan",
+  "Sukhanand",
+  "Thathi Bhai",
+  "Wander"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 8aa9701271af) is attached to 9 different works in 8 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Other (9).",
+  "The entries were made by 2 different offices: PATWARI, ZILEDAR.",
+  "These works are spread over 2 blocks: Baghapurana, Kot-Ise-Khan."
+ ],
+ "photo": "photos/8aa9701271af1a8801c0d292d13b8fc595481252a77a5519713fd25735f2a6dc.jpg",
+ "offices": [
+  "PATWARI",
+  "ZILEDAR"
+ ],
  "records": [
   {
    "record_id": "977304",
@@ -127,5 +155,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 28,
+ "needs_human_review": false
 }

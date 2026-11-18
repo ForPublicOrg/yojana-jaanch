@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-230edbcbcc22",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Avaniperur(East)"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 8b1ee55971df) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Percolation Pond (4).",
+  "All 4 works report the same GPS point (11.60882, 77.85645)."
+ ],
+ "photo": "photos/8b1ee55971df5d257f799442310b0e1d6c829c6d55bdfa6389385da854a666ad.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9358038",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
 }

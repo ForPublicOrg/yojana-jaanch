@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-b943fb92423e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Mohangarh",
+ "villages": [
+  "Hadda"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 8dd49c423b0f) is attached to 4 different works in 1 village. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (3), Percolation Pond (1).",
+  "The photo was uploaded 4 times within 16 minutes (2026-05-31 14:04:28 to 2026-05-31 14:19:49)."
+ ],
+ "photo": "photos/8dd49c423b0f18dbef64121dd55a919647ada4f25244890b91277fd87098fd47.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "16067031",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-09-25",
+   "end_date": "2025-12-28",
+   "lat": 27.07,
+   "lon": 71.01,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "16067916",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-09-25",
+   "end_date": "2025-12-28",
+   "lat": 27.07,
+   "lon": 71.01,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "16068302",
+   "village": "Hadda",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-09-25",
+   "end_date": "2025-12-28",
+   "lat": 27.07,
+   "lon": 71.01,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  },
+  {
+   "record_id": "16082205",
+   "village": "Hadda",
+   "structure_type": "Percolation Pond",
+   "created_by": "BDO",
+   "start_date": "2025-11-25",
+   "end_date": "2025-12-31",
+   "lat": 27.103133,
+   "lon": 71.031033,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Mohangarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 13,
+ "needs_human_review": false
+}

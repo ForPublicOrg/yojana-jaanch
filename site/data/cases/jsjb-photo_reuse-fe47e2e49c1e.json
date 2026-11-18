@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-fe47e2e49c1e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Cantonment Board Varanasi",
+ "villages": [
+  "Ward No. 3"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 01d75c9be8ee) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Rooftop Water Harvesting Structure (1).",
+  "All 2 works report the same GPS point (25.33076922, 82.96715447).",
+  "The photo was uploaded 2 times within 16 minutes (2026-04-28 12:32:32 to 2026-04-28 12:47:57)."
+ ],
+ "photo": "photos/01d75c9be8eec66568130337e4417874cdcb14671cdccd15121fad29b747c096.jpg",
+ "offices": [
+  "CEO"
+ ],
  "records": [
   {
    "record_id": "6141336",
@@ -29,5 +49,8 @@
    "area_type": "Urban",
    "block": "Cantonment Board Varanasi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

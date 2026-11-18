@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8ea855f96ee1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Suppi",
+ "villages": [
+  "Akhta (Part In Bairgania) *"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9b20daec5a4f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.6664432, 85.3012812).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-02 19:21:32 to 2026-04-02 19:24:13)."
+ ],
+ "photo": "photos/9b20daec5a4f0a9310ad0e826cd0fd25e3af6d50e34615abf04ff46033308d1d.jpg",
+ "offices": [
+  "BDO Suppi"
+ ],
  "records": [
   {
    "record_id": "4433973",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Suppi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

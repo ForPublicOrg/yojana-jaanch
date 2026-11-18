@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-30e465012c78",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Jalandhar - West",
+ "villages": [
+  "Ispur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 15debcc834b9) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1).",
+  "The photo was uploaded 4 times within 13 minutes (2026-04-07 10:27:47 to 2026-04-07 10:39:58).",
+  "The entries were made by 2 different offices: BDPO Jalandhar West, Zilledar."
+ ],
+ "photo": "photos/15debcc834b96fd4c3439d5ceed0c8f4b5008c1de68a7f707ee3d6737585bc1a.jpg",
+ "offices": [
+  "BDPO Jalandhar West",
+  "Zilledar"
+ ],
  "records": [
   {
    "record_id": "974261",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Jalandhar - West"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

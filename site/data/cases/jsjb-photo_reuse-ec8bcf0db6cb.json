@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-ec8bcf0db6cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Valapady",
+ "villages": [
+  "Tirumanur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c371ed31c158) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.57, 78.32)."
+ ],
+ "photo": "photos/c371ed31c158da6f9b444781d79c0b48d55ba61688feba4eb370de49598c8660.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9357446",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Valapady"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-6fa0d709edc7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 7 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Jaitu",
+ "villages": [
+  "Buraj Harika",
+  "Fatehgarh",
+  "Ghaneawala",
+  "Rameana",
+  "Ramgarh",
+  "Rori Kapura",
+  "Ukandwala"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same photo file (fingerprint a7421c45fe93) is attached to 7 different works in 7 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The works are recorded as: Bench Terracing (7)."
+ ],
+ "photo": "photos/a7421c45fe9348ee75c1f3603cea9d2bd8e10059beacddcc0877975b24177565.jpg",
+ "offices": [
+  "APO Mgnrega"
+ ],
  "records": [
   {
    "record_id": "5626145",
@@ -99,5 +123,8 @@
    "area_type": "Rural",
    "block": "Jaitu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

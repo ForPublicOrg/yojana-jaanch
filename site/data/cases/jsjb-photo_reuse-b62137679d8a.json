@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-b62137679d8a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Konganapuram",
+ "villages": [
+  "Puduppalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dd636766ad22) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (11.615727, 77.93954).",
+  "The photo was uploaded 2 times within 2 minutes (2026-03-02 13:06:59 to 2026-03-02 13:08:51)."
+ ],
+ "photo": "photos/dd636766ad223a34133a009d0ebe350e0b6198ec1109626d49c2e46a1e4ae2fc.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9356359",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Konganapuram"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-e81d1d0f056a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Chintamani",
+ "villages": [
+  "Kothur",
+  "Nandiganahalli",
+  "Narasapura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f5ecc1d69af8) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Bench Terracing (1)."
+ ],
+ "photo": "photos/f5ecc1d69af8b4a10345da99239c0804ab61533a64e9288c174a89ae0b189ae3.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3095847",
+   "village": "Kothur",
+   "structure_type": "Bench Terracing",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-09",
+   "end_date": "2025-11-14",
+   "lat": 13.488785,
+   "lon": 78.069928,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3101179",
+   "village": "Narasapura",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-11-12",
+   "lat": 13.48646,
+   "lon": 78.044986,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
+  {
+   "record_id": "3102229",
+   "village": "Nandiganahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-04",
+   "end_date": "2025-11-08",
+   "lat": 13.42603,
+   "lon": 78.16418,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

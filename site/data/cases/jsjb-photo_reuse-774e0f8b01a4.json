@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-774e0f8b01a4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Phul",
+ "villages": [
+  "Phulewala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b6baca6bcf64) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.391197, 75.282653).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-03-10, 2026-04-08.",
+  "The photo was uploaded 4 times within 14 minutes (2026-04-27 10:15:15 to 2026-04-27 10:28:48)."
+ ],
+ "photo": "photos/b6baca6bcf644b8e25eba7a363a3f40e6059a86d188de65daed43b1bc6940975.jpg",
+ "offices": [
+  "Centre head Teacher"
+ ],
  "records": [
   {
    "record_id": "5592932",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Phul"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

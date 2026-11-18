@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-e108e745861a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Fatehgarh",
+ "villages": [
+  "Beermani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e340148918e4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Tank (1).",
+  "All 2 works report the same GPS point (26.23829, 70.92318).",
+  "The entries were made by 2 different offices: BDO, Collector & DM."
+ ],
+ "photo": "photos/e340148918e4f0b90cb53b0d0b7110ce9a7ef1cebdff1cfde1bc612c7b94229b.jpg",
+ "offices": [
+  "BDO",
+  "Collector & DM"
+ ],
+ "records": [
+  {
+   "record_id": "3142172",
+   "village": "Beermani",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-06-01",
+   "end_date": "2025-07-22",
+   "lat": 26.23829,
+   "lon": 70.92318,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  },
+  {
+   "record_id": "16244549",
+   "village": "Beermani",
+   "structure_type": "Tank",
+   "created_by": "Collector & DM",
+   "start_date": "2026-04-26",
+   "end_date": "2026-05-30",
+   "lat": 26.23829,
+   "lon": 70.92318,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Fatehgarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

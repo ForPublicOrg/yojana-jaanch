@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-bda8b815dce2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Hindu Pur",
+  "Isher Hail"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint bcde49417b93) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (4)."
+ ],
+ "photo": "photos/bcde49417b935f364111850ad61fcedb14e94638d385ef683c84c96b7a2b8449.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5010837",
@@ -57,5 +76,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

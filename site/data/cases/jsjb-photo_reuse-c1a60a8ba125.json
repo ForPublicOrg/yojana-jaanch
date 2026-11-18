@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c1a60a8ba125",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Ludhiana-2",
+ "villages": [
+  "Jugia Kadar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1b013d8b4e98) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "The entries were made by 2 different offices: BDPO Khanna, BDPO Ludhiana-2."
+ ],
+ "photo": "photos/1b013d8b4e98b5b1d4096982332fa8807402dd02dbd3db16c9369d0697e375b6.jpg",
+ "offices": [
+  "BDPO Khanna",
+  "BDPO Ludhiana-2"
+ ],
  "records": [
   {
    "record_id": "1239810",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

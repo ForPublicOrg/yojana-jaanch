@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-bf6113cf4e64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 45 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Mallikuttai",
+  "Manathal",
+  "Pappambadi",
+  "Ramireddipatti"
+ ],
+ "record_count": 45,
+ "reasons": [
+  "The same photo file (fingerprint 4135fe9640d5) is attached to 45 different works in 4 villages. A photo of one site cannot be evidence for 45 separate works.",
+  "The works are recorded as: Other (45).",
+  "The entries were made by 2 different offices: Block Development Officer, DISTRICT COLLECTOR."
+ ],
+ "photo": "photos/4135fe9640d5287d44c15ce21046ecca06c373bc979bc72e4c8cf36aaa4dcef6.jpg",
+ "offices": [
+  "Block Development Officer",
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344397",
@@ -631,5 +654,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 136,
+ "needs_human_review": false
 }

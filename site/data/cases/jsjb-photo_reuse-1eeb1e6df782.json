@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-1eeb1e6df782",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Athanur",
+ "villages": [
+  "Athanur (TP) - Ward No.10",
+  "Athanur (TP) - Ward No.13"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 479d153ab408) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/479d153ab4089694808a4b71e339eabd96ad28d7060c2aeeefa10556f40efe49.jpg",
+ "offices": [
+  "EO ATHANUR"
+ ],
+ "records": [
+  {
+   "record_id": "3519698",
+   "village": "Athanur (TP) - Ward No.13",
+   "structure_type": "Other",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-08-05",
+   "end_date": "2025-09-23",
+   "lat": 11.489376,
+   "lon": 78.156249,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  },
+  {
+   "record_id": "3520206",
+   "village": "Athanur (TP) - Ward No.10",
+   "structure_type": "Other",
+   "created_by": "EO ATHANUR",
+   "start_date": "2025-07-07",
+   "end_date": "2025-08-12",
+   "lat": 11.500847,
+   "lon": 78.136118,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Athanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

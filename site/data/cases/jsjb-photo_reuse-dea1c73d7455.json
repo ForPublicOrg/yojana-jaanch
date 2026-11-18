@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dea1c73d7455",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Amloh",
+ "villages": [
+  "Chattar Pura",
+  "Salani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ff48a44f1867) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/ff48a44f18679202486177ba5fc7c7e5e0123d664cf0cf4b482b9a8ca7e73d45.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "6146869",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Amloh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-cbfd56c002f4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Malerkotla (Head Quarter)",
+ "villages": [
+  "Dhano"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8a77ca649cff) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "The entries were made by 2 different offices: APO, SOIL CONSERVATION OFFICER."
+ ],
+ "photo": "photos/8a77ca649cffdbff23bfad42e53150a72c5147abc6b4a4d1b3cc9f04fb460288.jpg",
+ "offices": [
+  "APO",
+  "SOIL CONSERVATION OFFICER"
+ ],
  "records": [
   {
    "record_id": "9099678",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Malerkotla (Head Quarter)"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

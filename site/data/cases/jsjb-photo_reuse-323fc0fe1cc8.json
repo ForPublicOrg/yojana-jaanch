@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-323fc0fe1cc8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Fatehgarh Churian",
+ "villages": [
+  "Khokhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c4699e902346) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.865199, 74.997836).",
+  "The photo was uploaded 4 times within 1 second (2026-04-28 21:00:19 to 2026-04-28 21:00:20)."
+ ],
+ "photo": "photos/c4699e902346d67b45591c4e65eb3b0cbc63b33f15a1fa168a80b58c1904316b.jpg",
+ "offices": [
+  "Apo Fatehgarh"
+ ],
  "records": [
   {
    "record_id": "6201563",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Fatehgarh Churian"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

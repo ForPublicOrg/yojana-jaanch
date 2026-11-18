@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-8f731cc6737f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Lachapur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 0e352892bc2c) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Bore-Well Recharge (3).",
+  "All 3 works report the same GPS point (25.25069, 82.744987).",
+  "The photo was uploaded 6 times within 25 minutes (2026-01-21 13:13:46 to 2026-01-21 13:38:43)."
+ ],
+ "photo": "photos/0e352892bc2c1b2bc10abea49cee58a0f72633214b8d092c252c5528a4e823d2.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "2713730",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Arajiline"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
 }

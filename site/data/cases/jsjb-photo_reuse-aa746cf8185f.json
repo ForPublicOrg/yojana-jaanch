@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-aa746cf8185f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Gangavalli",
+ "villages": [
+  "Jangama Samudram",
+  "Krishnapuram"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f69939d93f9b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Percolation Pond (2).",
+  "All 2 works report the same GPS point (11.0, 74.0).",
+  "The photo was uploaded 2 times within 7 minutes (2025-06-24 11:29:51 to 2025-06-24 11:35:55)."
+ ],
+ "photo": "photos/f69939d93f9bd768f44d61f872feefb014ec1c03c2844dc843423a0a12bd645f.jpg",
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9346982",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Gangavalli"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

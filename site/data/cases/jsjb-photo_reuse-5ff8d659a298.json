@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5ff8d659a298",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Daudpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4a32989bf985) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/4a32989bf9850db630322e3a6143064aa52f4a7ba29e48c8ee56cc94a0b62f02.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1045898",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

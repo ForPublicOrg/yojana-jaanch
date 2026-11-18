@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-67423439d6c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Tonk",
+ "villages": [
+  "Ahamadpura Chauki",
+  "Ahmadpura Chouki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 07d8069949c4) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1).",
+  "The entries were made by 2 different offices: BDO Tonk, DISTRICT PROJECT COORDINATOR."
+ ],
+ "photo": "photos/07d8069949c41046d9a86bd89ad96a61a387f17608468d32e5eca4b82e8f700d.jpg",
+ "offices": [
+  "BDO Tonk",
+  "DISTRICT PROJECT COORDINATOR"
+ ],
  "records": [
   {
    "record_id": "3848510",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Tonk"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

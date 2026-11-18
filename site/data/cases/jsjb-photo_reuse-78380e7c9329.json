@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-78380e7c9329",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 9 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Belsand",
+ "villages": [
+  "Lohansi Urf Gosainpur",
+  "Partapur",
+  "Rupauli",
+  "Sauli",
+  "Sirsian",
+  "Sukhi",
+  "Sundarpur"
+ ],
+ "record_count": 9,
+ "reasons": [
+  "The same photo file (fingerprint 8127597e829c) is attached to 9 different works in 7 villages. A photo of one site cannot be evidence for 9 separate works.",
+  "The works are recorded as: Soak Pit (9)."
+ ],
+ "photo": "photos/8127597e829c8beb82582d5e69cf65330cab1d9eb41216d4e08137f7778ed873.jpg",
+ "offices": [
+  "BDO Belsand"
+ ],
  "records": [
   {
    "record_id": "4559224",
@@ -127,5 +151,8 @@
    "area_type": "Rural",
    "block": "Belsand"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 27,
+ "needs_human_review": false
 }

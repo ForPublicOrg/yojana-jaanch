@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-06f26f540ee9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Majitha",
+ "villages": [
+  "Bhangali"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint 6e7019b8ef76) is attached to 18 different works in 1 village. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Other (18).",
+  "Each of the 18 works started and ended on a single day. The works are spread over 3 dates: 2025-07-01, 2025-07-04, 2025-07-05."
+ ],
+ "photo": "photos/6e7019b8ef7663593343b9331c97af4b65454a9e2467ca5ca091603f17abb44a.jpg",
+ "offices": [
+  "Sub division officer"
+ ],
  "records": [
   {
    "record_id": "8772801",
@@ -253,5 +272,8 @@
    "area_type": "Rural",
    "block": "Majitha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 55,
+ "needs_human_review": false
 }

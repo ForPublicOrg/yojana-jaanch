@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-c631d67839c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Kishanpur Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c851fbbe5275) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.9357, 75.3447).",
+  "All 2 works started and ended on the same day (2026-05-14).",
+  "The photo was uploaded 3 times within 2 minutes (2026-05-14 15:10:26 to 2026-05-14 15:12:13)."
+ ],
+ "photo": "photos/c851fbbe52755770bf2afc70e6f6a24a7a854223f8303bc577b358f643dd9192.jpg",
+ "offices": [
+  "BDPO DMK"
+ ],
  "records": [
   {
    "record_id": "9099774",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

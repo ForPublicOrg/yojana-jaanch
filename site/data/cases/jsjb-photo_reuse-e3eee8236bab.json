@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e3eee8236bab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Amargarh",
+ "villages": [
+  "Jabbo Mazra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ba664248810e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.541187, 75.995708).",
+  "The photo was uploaded 4 times within 22 seconds (2026-05-22 15:10:32 to 2026-05-22 15:10:54)."
+ ],
+ "photo": "photos/ba664248810ea9ccbdb461455c4ed2bfdc3e0c5210415dd4fea4c4653ca65f34.jpg",
+ "offices": [
+  "Rural Deveolpment"
+ ],
  "records": [
   {
    "record_id": "11161159",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Amargarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

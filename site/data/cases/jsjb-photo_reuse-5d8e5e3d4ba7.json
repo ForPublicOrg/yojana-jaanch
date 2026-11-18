@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-5d8e5e3d4ba7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Barnala",
+ "block": "Sehna",
+ "villages": [
+  "Sehna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c51ed77833ab) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (30.43174, 75.382112)."
+ ],
+ "photo": "photos/c51ed77833ab43f2c960a22aa839c8c28076aedcfccc74d578e0466d37e754f8.jpg",
+ "offices": [
+  "BARJINDER PAL SINGH"
+ ],
  "records": [
   {
    "record_id": "4899459",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sehna"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

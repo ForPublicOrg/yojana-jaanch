@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-36bea9ba9208",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Koili",
+  "Kuari",
+  "Rupauli Ruphara"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 1 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 621c0d63306a on 3 works, 3a1698ca0f25 on 1 work.",
+  "The works are recorded as: Village Pond (4)."
+ ],
+ "photo": "photos/621c0d63306a3d5ee278e43af84fa66be972a1da23c8e1ed1e1ed28e3ee6b1bd.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4506286",
@@ -57,5 +79,21 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "621c0d63306a3d5ee278e43af84fa66be972a1da23c8e1ed1e1ed28e3ee6b1bd",
+   "records": 3
+  },
+  {
+   "sha256": "3a1698ca0f25b05f9cab10ec66ae6fd57189f55253c16b9e7392a05e864644be",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-bf6f0b75c397"
  ]
 }

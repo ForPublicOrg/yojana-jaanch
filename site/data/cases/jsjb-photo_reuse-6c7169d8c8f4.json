@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-6c7169d8c8f4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Hoshiarpur",
+ "block": "Hoshiarpur-Ii",
+ "villages": [
+  "Kharkan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 21eebdc0e6cb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (31.502261, 76.039653)."
+ ],
+ "photo": "photos/21eebdc0e6cb350db886846873259c45f0815f47f138cbd5e6b64982ede42e92.jpg",
+ "offices": [
+  "JE"
+ ],
  "records": [
   {
    "record_id": "983164",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Hoshiarpur-Ii"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

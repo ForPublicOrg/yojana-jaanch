@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2a5cd0e8aa0e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dorangla",
+ "villages": [
+  "Kahna"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b9b60bb5e138) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (32.158291, 75.346972).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/b9b60bb5e1389ebbd62dfff002db512c8931b3ca7ec6171bfa519a531cbb4b92.jpg",
+ "offices": [
+  "Apo Dorangla"
+ ],
  "records": [
   {
    "record_id": "8343817",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Dorangla"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

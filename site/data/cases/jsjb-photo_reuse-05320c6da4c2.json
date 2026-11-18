@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-05320c6da4c2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Arajiline",
+ "villages": [
+  "Handiyadih",
+  "Singhai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 86847884427c) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "These works are spread over 2 blocks: Arajiline, Cholapur."
+ ],
+ "photo": "photos/86847884427c34a42af5e833f5969734daa3404a25569b6d61ba03ce08525eba.jpg",
+ "offices": [
+  "EXCUTIVE ENGINEER"
+ ],
  "records": [
   {
    "record_id": "1651391893407",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Cholapur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

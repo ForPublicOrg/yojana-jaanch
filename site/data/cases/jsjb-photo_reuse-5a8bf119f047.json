@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-5a8bf119f047",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Ater",
+ "villages": [
+  "Kanera"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8d2b0246aabe) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3)."
+ ],
+ "photo": "photos/8d2b0246aabe849814e43f2ac1ac6888d0e8794d5872a6ff39b58e100ae2e2a6.jpg",
+ "offices": [
+  "Sub Engineer"
+ ],
  "records": [
   {
    "record_id": "11166112",
@@ -43,5 +61,8 @@
    "area_type": "Rural",
    "block": "Ater"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

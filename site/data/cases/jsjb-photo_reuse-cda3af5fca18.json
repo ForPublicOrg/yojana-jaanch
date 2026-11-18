@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-cda3af5fca18",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Bhagta Bhaika",
+ "villages": [
+  "Gurusar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 69808aca65fd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (30.491145, 75.1433563).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-03-01, 2026-03-16.",
+  "The entries were made by 2 different offices: Centre head Teacher, Head Mistress."
+ ],
+ "photo": "photos/69808aca65fd164dde3b8dcdd98339f49c2a7b61e1e06b2867179e66c20eaac7.jpg",
+ "offices": [
+  "Centre head Teacher",
+  "Head Mistress"
+ ],
  "records": [
   {
    "record_id": "3968644",
@@ -29,5 +51,8 @@
    "area_type": "Rural",
    "block": "Bhagta Bhaika"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

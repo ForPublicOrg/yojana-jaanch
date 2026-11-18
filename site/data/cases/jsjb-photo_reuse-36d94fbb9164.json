@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-36d94fbb9164",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Kalanaur",
+ "villages": [
+  "Attari",
+  "Balim",
+  "Buche Nangal",
+  "Wadala Banger"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 083923ff9f33) is attached to 5 different works in 4 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5)."
+ ],
+ "photo": "photos/083923ff9f33713e44f7dfe2ce180a2659590d2b7fdb09f62ddb706f17a220c2.jpg",
+ "offices": [
+  "APO Kalanaur"
+ ],
  "records": [
   {
    "record_id": "10124567",
@@ -71,5 +92,8 @@
    "area_type": "Rural",
    "block": "Kalanaur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
 }

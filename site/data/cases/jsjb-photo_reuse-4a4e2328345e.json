@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-4a4e2328345e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Bilaspur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9b0b5e27d388) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.95194444, 75.81722222)."
+ ],
+ "photo": "photos/9b0b5e27d38864436a6f6449409e36605c1028cb2029bb69ae5aefd167d1c0a6.jpg",
+ "offices": [
+  "DCF Tonk/Deoli"
+ ],
  "records": [
   {
    "record_id": "12187519",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-9403b453ba23",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Faridkot",
+ "block": "Faridkot",
+ "villages": [
+  "Bholu Wala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a9e64ade7db5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.73824, 74.774899)."
+ ],
+ "photo": "photos/a9e64ade7db5017a5beedc417da44834ca48015d53f911224d0a8671e72eff9c.jpg",
+ "offices": [
+  "SDO"
+ ],
  "records": [
   {
    "record_id": "986671",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Faridkot"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

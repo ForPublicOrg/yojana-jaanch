@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-7a07fbb3ea3d",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "8 works at one GPS point in Vellarivalli",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Idappadi",
+ "villages": [
+  "Vellarivalli"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "8 works in Vellarivalli report exactly the same GPS point (11.0, 77.0).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (8).",
+  "They carry 8 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9363047",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Idappadi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 16,
+ "needs_human_review": false
 }

@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-38174c978785",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Bassi Pathana",
+ "villages": [
+  "Jandali",
+  "Khanpur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 22092b084271) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works report the same GPS point (30.32, 76.46).",
+  "All 3 works started and ended on the same day (2026-04-07).",
+  "The photo was uploaded 6 times within 6 minutes (2026-04-20 17:35:35 to 2026-04-20 17:41:23)."
+ ],
+ "photo": "photos/22092b08427193198ce90a77ea25c10a302cc07d0211d33d5943ab76cf0041dc.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5165155",
@@ -43,5 +65,8 @@
    "area_type": "Rural",
    "block": "Bassi Pathana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

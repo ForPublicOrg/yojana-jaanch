@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-784bf986c70c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Bhaluaha",
+  "Ramnagar Rasulpur Az Rakbe"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dc56d82138cf) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 3 times within 7 minutes (2026-11-13 06:57:52 to 2026-11-13 07:03:58)."
+ ],
+ "photo": "photos/dc56d82138cfe8c4cff802e451e4a98229ec83047ab38c7307b5cbe02ffa698e.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "4572969",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

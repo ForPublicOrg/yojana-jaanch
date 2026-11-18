@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-105979ec9326",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Andauli",
+  "Mujaulia",
+  "Pipra Koeria"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint f78d44642ebb) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Soak Pit (4)."
+ ],
+ "photo": "photos/f78d44642ebbfcd912ebfe758d47fc09742d988a5620a6ffc56c174a1650ebe4.jpg",
+ "offices": [
+  "BDO Parihar"
+ ],
  "records": [
   {
    "record_id": "4572633",
@@ -57,5 +77,8 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
 }

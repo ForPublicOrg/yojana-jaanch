@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-2d2e9b27497f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 18 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Miani Bahadur"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same photo file (fingerprint fa1410465e2b) is attached to 18 different works in 1 village. A photo of one site cannot be evidence for 18 separate works.",
+  "The works are recorded as: Contour Trench (18).",
+  "All 18 works report the same GPS point (31.22707, 75.157901).",
+  "All 18 works started and ended on the same day (2026-05-19)."
+ ],
+ "photo": "photos/fa1410465e2b1d06409fce7aab206ed22e6cefd194f84aee5772a6a8fd563722.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "10458124",
@@ -253,5 +273,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 56,
+ "needs_human_review": false
 }

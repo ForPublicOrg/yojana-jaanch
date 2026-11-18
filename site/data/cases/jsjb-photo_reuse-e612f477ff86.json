@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-e612f477ff86",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Mirzapur",
+ "block": "Kon",
+ "villages": [
+  "Anurudhpur Pashchami Patti"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4c17fb56ffe1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (25.230643, 82.499473).",
+  "The photo was uploaded 2 times within 28 minutes (2026-02-24 13:12:00 to 2026-02-24 13:39:30)."
+ ],
+ "photo": "photos/4c17fb56ffe11b137de0598272d464f696534637f6799b5c3f3cd57badf1ece4.jpg",
+ "offices": [
+  "BDO Kon"
+ ],
  "records": [
   {
    "record_id": "3627134",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Kon"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

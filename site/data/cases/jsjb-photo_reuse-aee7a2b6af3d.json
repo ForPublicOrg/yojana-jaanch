@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-aee7a2b6af3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Attur",
+ "villages": [
+  "Valayamadevi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f1f35f58467e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/f1f35f58467e5f4aec31d56cea37f8d61b5be47bbfe56e1b2577a74f06767e6e.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9352410",
@@ -29,5 +47,8 @@
    "area_type": "Rural",
    "block": "Attur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

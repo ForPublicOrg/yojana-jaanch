@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-66443cb12e00",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Bathinda",
+ "block": "Maur",
+ "villages": [
+  "Tthaman Garh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1d1ffeb9a97d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.13, 75.24).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-17 16:08:55 to 2026-04-17 16:10:26)."
+ ],
+ "photo": "photos/1d1ffeb9a97d6a1699bac84faa2b2aa9bbd8cf7bf4c34a2737a82bc5088a4a62.jpg",
+ "offices": [
+  "GRAM ROZGAR SEWAK"
+ ],
  "records": [
   {
    "record_id": "5038608",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Maur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-3812ab211a75",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Veerapandi",
+ "villages": [
+  "Senaipalayam"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2069d586e754) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/2069d586e7546c690e165ae0f86d6ca4c6d914a6e2a893e23b9425f939927b4a.jpg",
+ "offices": [
+  "Block Development Officer"
+ ],
+ "records": [
+  {
+   "record_id": "9347951",
+   "village": "Senaipalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-07-13",
+   "end_date": "2023-08-14",
+   "lat": 11.5746,
+   "lon": 78.0232,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  },
+  {
+   "record_id": "9361435",
+   "village": "Senaipalayam",
+   "structure_type": "Soak Pit",
+   "created_by": "Block Development Officer",
+   "start_date": "2023-05-11",
+   "end_date": "2023-07-06",
+   "lat": 11.57432,
+   "lon": 78.02398,
+   "state": "Tamil Nadu",
+   "district": "Salem",
+   "area_type": "Rural",
+   "block": "Veerapandi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

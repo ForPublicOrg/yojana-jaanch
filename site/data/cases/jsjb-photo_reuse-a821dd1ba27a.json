@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-a821dd1ba27a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Madhya Pradesh",
+ "district": "Bhind",
+ "block": "Gohad",
+ "villages": [
+  "Chitora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 842684c0416d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Percolation Pond (1).",
+  "The entries were made by 2 different offices: Sub Engineer, Sub engineer."
+ ],
+ "photo": "photos/842684c0416dfea2b3a0e3f0cb32d747bab00a41d1d11049609bc74369a520d8.jpg",
+ "offices": [
+  "Sub Engineer",
+  "Sub engineer"
+ ],
  "records": [
   {
    "record_id": "7160538",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Gohad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

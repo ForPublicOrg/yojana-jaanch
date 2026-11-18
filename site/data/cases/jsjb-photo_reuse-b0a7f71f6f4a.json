@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-b0a7f71f6f4a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Bathanaha",
+ "villages": [
+  "Kuari",
+  "Rupauli Ruphara"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 0e5a7fa1f109) is attached to 8 different works in 2 villages. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Village Pond (8)."
+ ],
+ "photo": "photos/0e5a7fa1f109a966ea728d8313ef434cdde917ba4234c34e83604e602c577536.jpg",
+ "offices": [
+  "PO Bathnaha"
+ ],
  "records": [
   {
    "record_id": "4506275",
@@ -113,5 +132,8 @@
    "area_type": "Rural",
    "block": "Bathanaha"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false
 }

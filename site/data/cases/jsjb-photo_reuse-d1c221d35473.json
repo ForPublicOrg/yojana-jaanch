@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-d1c221d35473",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khera",
+ "villages": [
+  "Badali Ala Singh",
+  "Dadu Majra",
+  "Timber Pur"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint fe1893cf533c) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (30.64, 76.49)."
+ ],
+ "photo": "photos/fe1893cf533ca37acd60f38ad43045d86163d83665c68018d9049d297168fdb7.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5637385",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Khera"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

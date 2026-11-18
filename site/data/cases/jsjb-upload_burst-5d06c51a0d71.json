@@ -1,5 +1,26 @@
 {
  "id": "jsjb-upload_burst-5d06c51a0d71",
+ "scheme": "jsjb",
+ "kind": "upload_burst",
+ "headline": "10 photos uploaded in 9 minutes by MPDO",
+ "state": "Andhra Pradesh",
+ "district": "Guntur",
+ "block": "Kakumanu",
+ "villages": [
+  "Kakumanu",
+  "Kommuru",
+  "Retur"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "10 different photos for 10 different works were uploaded by MPDO within 9 minutes, from 2026-07-04 10:59:28 to 2026-07-04 11:08:27.",
+  "That is about one work every 54 seconds on average.",
+  "The works are in 3 villages: Kakumanu, Kommuru, Retur."
+ ],
+ "photo": null,
+ "offices": [
+  "MPDO"
+ ],
  "records": [
   {
    "record_id": "8017905",
@@ -141,5 +162,8 @@
    "area_type": "Rural",
    "block": "Kakumanu"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

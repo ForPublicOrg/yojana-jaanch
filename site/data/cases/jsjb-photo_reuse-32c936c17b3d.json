@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-32c936c17b3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Bogewala"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 843a5349fa16) is attached to 10 different works in 1 village. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (10).",
+  "All 10 works report the same GPS point (30.99, 75.12).",
+  "All 10 works started and ended on the same day (2026-04-28).",
+  "The photo was uploaded 10 times within 11 minutes (2026-05-12 13:27:50 to 2026-05-12 13:38:38)."
+ ],
+ "photo": "photos/843a5349fa16d5cf85431e94eecf390c0446923aa0fcbb4fb31e2ed36d2260d1.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "8681384",
@@ -141,5 +162,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

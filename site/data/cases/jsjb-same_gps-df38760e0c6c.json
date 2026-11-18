@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-df38760e0c6c",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "252 works at one GPS point in Bommiyampatti R.F.",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Kadaiyampatty",
+ "villages": [
+  "Bommiyampatti R.F."
+ ],
+ "record_count": 252,
+ "reasons": [
+  "252 works in Bommiyampatti R.F. report exactly the same GPS point (11.92, 78.13).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (248), Other (3), Percolation Pond (1).",
+  "They carry 250 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "DISTRICT COLLECTOR"
+ ],
  "records": [
   {
    "record_id": "9344860",
@@ -3529,5 +3549,8 @@
    "area_type": "Rural",
    "block": "Kadaiyampatty"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 504,
+ "needs_human_review": false
 }

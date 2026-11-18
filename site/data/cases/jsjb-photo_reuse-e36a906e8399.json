@@ -1,5 +1,31 @@
 {
  "id": "jsjb-photo_reuse-e36a906e8399",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 18 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Sirhind",
+ "villages": [
+  "Majri Azim",
+  "Mianpur",
+  "Mullanpur Kalan",
+  "Sarana",
+  "Wazira Bad"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 18 different works in 5 villages. A photo of one site cannot be evidence for 18 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.015 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3d117d185ac5 on 14 works, f11fe6bb9196 on 4 works.",
+  "The works are recorded as: Contour Trench (18).",
+  "Each of the 18 works started and ended on a single day. The works are spread over 4 dates: 2026-04-07, 2026-04-08, 2026-04-14, 2026-04-15.",
+  "These works are spread over 2 blocks: Bassi Pathana, Sirhind."
+ ],
+ "photo": "photos/3d117d185ac500b2d45c51fc3dc08abeac6710de299131b5cb2c376425ce7cee.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "5056576",
@@ -253,5 +279,21 @@
    "area_type": "Rural",
    "block": "Sirhind"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 55,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3d117d185ac500b2d45c51fc3dc08abeac6710de299131b5cb2c376425ce7cee",
+   "records": 14
+  },
+  {
+   "sha256": "f11fe6bb919646cf9ea8cc4cde395a2c277c1690d2e8a90e6c8bd0892790c95e",
+   "records": 4
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d5654ecec0cf"
  ]
 }

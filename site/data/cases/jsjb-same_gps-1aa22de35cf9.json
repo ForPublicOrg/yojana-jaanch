@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-1aa22de35cf9",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "24 works at one GPS point in Desavilakku North",
+ "state": "Tamil Nadu",
+ "district": "Salem",
+ "block": "Taramangalam",
+ "villages": [
+  "Desavilakku North"
+ ],
+ "record_count": 24,
+ "reasons": [
+  "24 works in Desavilakku North report exactly the same GPS point (11.65, 77.95).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Soak Pit (24).",
+  "They carry 24 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Block Development Officer"
+ ],
  "records": [
   {
    "record_id": "9345302",
@@ -337,5 +357,8 @@
    "area_type": "Rural",
    "block": "Taramangalam"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 48,
+ "needs_human_review": false
 }

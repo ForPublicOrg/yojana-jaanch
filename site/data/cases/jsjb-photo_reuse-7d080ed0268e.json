@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-7d080ed0268e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Bhadvan",
+  "Dakore",
+  "Gadhela"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint df3638411155) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Nala Bund (2), Check Dam (1).",
+  "These works are spread over 2 blocks: Dakore, Jalaun."
+ ],
+ "photo": "photos/df36384111559c93327bdf4ddd7efc8c861fa1531d5eca9bac05b5a65daf1c49.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
  "records": [
   {
    "record_id": "4276189",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Jalaun"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
 }

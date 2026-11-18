@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-3aa82a95c5d7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Sultanpur Lodhi",
+ "villages": [
+  "Ahli Kalan",
+  "Allahditta"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d7aa613ff82) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5d7aa613ff82fdcac5d0427ec97f368495f67ccd9acc5a5bb0e7789c1d43e69c.jpg",
+ "offices": [
+  "Block Devolpment Officer Sultanpur Lodhi"
+ ],
  "records": [
   {
    "record_id": "1061954",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sultanpur Lodhi"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

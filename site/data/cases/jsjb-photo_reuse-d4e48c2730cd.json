@@ -1,5 +1,23 @@
 {
  "id": "jsjb-photo_reuse-d4e48c2730cd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 23 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Runnisaidpur",
+ "villages": [
+  "Bishunpur Basdeo Urf Bishunpur"
+ ],
+ "record_count": 23,
+ "reasons": [
+  "The same photo file (fingerprint 92c01026de39) is attached to 23 different works in 1 village. A photo of one site cannot be evidence for 23 separate works.",
+  "The works are recorded as: Soak Pit (23)."
+ ],
+ "photo": "photos/92c01026de3981ced5b4c641b8d78af289fb050c45345d73feeeb096344a7956.jpg",
+ "offices": [
+  "BDO Runnisaidpur"
+ ],
  "records": [
   {
    "record_id": "4566345",
@@ -323,5 +341,8 @@
    "area_type": "Rural",
    "block": "Runnisaidpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 69,
+ "needs_human_review": false
 }

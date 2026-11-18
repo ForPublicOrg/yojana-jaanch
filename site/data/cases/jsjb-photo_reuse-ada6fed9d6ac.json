@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-ada6fed9d6ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 8 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Kot-Ise-Khan",
+ "villages": [
+  "Mandar Kalan"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same photo file (fingerprint 5aefd5b7dab4) is attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The works are recorded as: Contour Trench (8).",
+  "All 8 works report the same GPS point (31.05, 75.16).",
+  "Each of the 8 works started and ended on a single day. The works are spread over 2 dates: 2026-04-25, 2026-04-28."
+ ],
+ "photo": "photos/5aefd5b7dab4f0c40b33a30240f70cfb7399ef4d3bc10c18555c4b69bbac1448.jpg",
+ "offices": [
+  "BDPO KIK"
+ ],
  "records": [
   {
    "record_id": "5643630",
@@ -113,5 +133,8 @@
    "area_type": "Rural",
    "block": "Kot-Ise-Khan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 26,
+ "needs_human_review": false
 }

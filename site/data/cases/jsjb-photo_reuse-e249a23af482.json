@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e249a23af482",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Kolli Hills",
+ "villages": [
+  "Bailnadu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8ab68011b1d5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Defunct Bore-Well (1), Open Well Recharge / Dug Well (1).",
+  "All 2 works report the same GPS point (11.402117, 78.334638)."
+ ],
+ "photo": "photos/8ab68011b1d5bade905a87f9fa7eef127de1475afcb71b5a41fb6325fcc456af.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
+ "records": [
+  {
+   "record_id": "9338938",
+   "village": "Bailnadu",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-11",
+   "end_date": "2025-06-16",
+   "lat": 11.402117,
+   "lon": 78.334638,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  },
+  {
+   "record_id": "9339832",
+   "village": "Bailnadu",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "BLOCK DEVELOPMENT OFFICER",
+   "start_date": "2025-04-01",
+   "end_date": "2025-05-28",
+   "lat": 11.402117,
+   "lon": 78.334638,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Rural",
+   "block": "Kolli Hills"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

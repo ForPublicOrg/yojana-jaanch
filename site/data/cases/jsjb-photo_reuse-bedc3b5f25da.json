@@ -1,5 +1,27 @@
 {
  "id": "jsjb-photo_reuse-bedc3b5f25da",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Gurdaspur",
+ "villages": [
+  "Sahowal",
+  "Sihowal",
+  "Sirkian"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 2c86ea71a20f) is attached to 6 different works in 3 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (32.075932, 75.485365).",
+  "All 6 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/2c86ea71a20f673b593ce1a63448363589bf255ec7d8fd2c4ffc58ff7a48828c.jpg",
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "8333511",
@@ -85,5 +107,8 @@
    "area_type": "Rural",
    "block": "Gurdaspur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 20,
+ "needs_human_review": false
 }

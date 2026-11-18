@@ -1,5 +1,30 @@
 {
  "id": "jsjb-photo_reuse-4b5d28f3f34e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Punjab",
+ "district": "Fatehgarh Sahib",
+ "block": "Khamano",
+ "villages": [
+  "Ajner",
+  "Amar Garh",
+  "Badesh Khurd",
+  "Bhambri",
+  "Bhattian",
+  "Bilaspur",
+  "Chari",
+  "Panechan"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint cfe7faf93355) is attached to 10 different works in 8 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Contour Trench (9), Recharge Shaft (1)."
+ ],
+ "photo": "photos/cfe7faf93355f05da2c9e7a5ab4dbac67b909f2f7a3c1ba7bda478ce3a6fd552.jpg",
+ "offices": [
+  "BDPO"
+ ],
  "records": [
   {
    "record_id": "4966907",
@@ -141,5 +166,8 @@
    "area_type": "Rural",
    "block": "Khamano"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

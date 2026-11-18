@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-9090da5f5c5e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Rurka Kalan",
+ "villages": [
+  "Rupowal"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8208182013a2) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Village Pond (1).",
+  "The entries were made by 2 different offices: BDPO Rurka Kalan, Ziledar."
+ ],
+ "photo": "photos/8208182013a24eb85c0e97c758e0da68630f23fd0ab723c9a98faf1122111046.jpg",
+ "offices": [
+  "BDPO Rurka Kalan",
+  "Ziledar"
+ ],
  "records": [
   {
    "record_id": "992025",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Rurka Kalan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

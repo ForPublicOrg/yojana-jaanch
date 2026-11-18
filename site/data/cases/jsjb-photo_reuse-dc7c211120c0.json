@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-dc7c211120c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Verka",
+ "villages": [
+  "Birbarpura",
+  "Thando"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 82dae3dd9a01) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1)."
+ ],
+ "photo": "photos/82dae3dd9a0187f970a1f4c71e0b5e6bbb4ca4a00be7b90bfd17bab99face56f.jpg",
+ "offices": [
+  "BDPO Verka"
+ ],
  "records": [
   {
    "record_id": "1121021",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Verka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

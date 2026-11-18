@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-ab3a7a16b24b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 11 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Bundala",
+  "Khabba Rajputan",
+  "Padiana"
+ ],
+ "record_count": 11,
+ "reasons": [
+  "The same photo file (fingerprint 9865ab5fa308) is attached to 11 different works in 3 villages. A photo of one site cannot be evidence for 11 separate works.",
+  "The works are recorded as: Other (11).",
+  "These works are spread over 2 blocks: Jandiala Guru, Rayya."
+ ],
+ "photo": "photos/9865ab5fa308ceafae4a40834b594fab23d5ce8c89d92a76a33ddf6ac6f79e68.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5202330",
@@ -155,5 +176,8 @@
    "area_type": "Rural",
    "block": "Rayya"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 33,
+ "needs_human_review": false
 }

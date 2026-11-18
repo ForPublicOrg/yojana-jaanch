@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-dd6e9d0174a7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Samrala",
+ "villages": [
+  "Manki"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6ab84aa2eb5b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (30.79, 76.22).",
+  "The photo was uploaded 4 times within 33 seconds (2026-02-04 14:17:33 to 2026-02-04 14:18:06)."
+ ],
+ "photo": "photos/6ab84aa2eb5ba8925c31620933ee34ba9d3dbadd4960b7b2ba977aa31369c5f6.jpg",
+ "offices": [
+  "BDPO Samrala"
+ ],
  "records": [
   {
    "record_id": "1046465",
@@ -29,5 +49,8 @@
    "area_type": "Rural",
    "block": "Samrala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
 }

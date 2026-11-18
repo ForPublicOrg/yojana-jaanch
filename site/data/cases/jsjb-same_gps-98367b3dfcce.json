@@ -1,5 +1,25 @@
 {
  "id": "jsjb-same_gps-98367b3dfcce",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "18 works at one GPS point in Dhaki",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dinanagar",
+ "villages": [
+  "Dhaki"
+ ],
+ "record_count": 18,
+ "reasons": [
+  "18 works in Dhaki report exactly the same GPS point (32.12, 75.58).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Contour Trench (18).",
+  "They carry 18 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "APO Dinanagar"
+ ],
  "records": [
   {
    "record_id": "7984308",
@@ -253,5 +273,8 @@
    "area_type": "Rural",
    "block": "Dinanagar"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 36,
+ "needs_human_review": false
 }

@@ -1,5 +1,29 @@
 {
  "id": "jsjb-photo_reuse-48f828d2887f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 10 different works",
+ "state": "Uttar Pradesh",
+ "district": "Varanasi",
+ "block": "Pindra",
+ "villages": [
+  "Amaut",
+  "Baharipur",
+  "Balipur",
+  "Bamokhar",
+  "Baraipur",
+  "Barbaspur",
+  "Barwan"
+ ],
+ "record_count": 10,
+ "reasons": [
+  "The same photo file (fingerprint 141eac3efe6d) is attached to 10 different works in 7 villages. A photo of one site cannot be evidence for 10 separate works.",
+  "The works are recorded as: Recharge Pit (9), Soak Pit (1)."
+ ],
+ "photo": "photos/141eac3efe6d3179692c131186eba19f1fab756eb12d6c7cf6002c242556e783.jpg",
+ "offices": [
+  "BLOCK DEVELOPMENT OFFICER"
+ ],
  "records": [
   {
    "record_id": "3333554",
@@ -141,5 +165,8 @@
    "area_type": "Rural",
    "block": "Pindra"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 30,
+ "needs_human_review": false
 }

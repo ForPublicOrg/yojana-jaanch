@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-aaa7c59d2a77",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Gauribidanur",
+ "villages": [
+  "Nakkalahalli",
+  "Namagondlu",
+  "Reddydyavarahalli"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint eef2e88f251d) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Tank (2), Percolation Pond (1)."
+ ],
+ "photo": "photos/eef2e88f251d95115154f8d613ef9751274fda21c5a3d80126d44f5fe8985df5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3129561",
+   "village": "Namagondlu",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-12",
+   "end_date": "2025-12-05",
+   "lat": 13.578203,
+   "lon": 77.605471,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "3129967",
+   "village": "Reddydyavarahalli",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-12",
+   "end_date": "2025-12-05",
+   "lat": 13.54426,
+   "lon": 77.512661,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  },
+  {
+   "record_id": "10458580",
+   "village": "Nakkalahalli",
+   "structure_type": "Percolation Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-10",
+   "end_date": "2026-01-05",
+   "lat": 13.686088,
+   "lon": 77.586412,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Gauribidanur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

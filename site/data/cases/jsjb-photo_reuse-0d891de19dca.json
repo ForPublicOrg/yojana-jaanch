@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-0d891de19dca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Tamil Nadu",
+ "district": "Namakkal",
+ "block": "Namakkal",
+ "villages": [
+  "Namakkal (M) - Ward No.10",
+  "Namakkal (M) - Ward No.9"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3a1386a0c5d6) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Recharge Shaft (2), Recharge Pit (1).",
+  "All 3 works report the same GPS point (11.236541, 78.153208)."
+ ],
+ "photo": "photos/3a1386a0c5d6cfa0d3d5819ca8396a62046f64f8cfdb55384634fce247d6aa42.jpg",
+ "offices": [
+  "COMMSIONEER -NAMAKKAL"
+ ],
+ "records": [
+  {
+   "record_id": "3266686",
+   "village": "Namakkal (M) - Ward No.10",
+   "structure_type": "Recharge Shaft",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2024-12-12",
+   "end_date": "2025-05-11",
+   "lat": 11.236541,
+   "lon": 78.153208,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3312197",
+   "village": "Namakkal (M) - Ward No.10",
+   "structure_type": "Recharge Pit",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2024-10-10",
+   "end_date": "2025-05-15",
+   "lat": 11.236541,
+   "lon": 78.153208,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  },
+  {
+   "record_id": "3320917",
+   "village": "Namakkal (M) - Ward No.9",
+   "structure_type": "Recharge Shaft",
+   "created_by": "COMMSIONEER -NAMAKKAL",
+   "start_date": "2023-07-15",
+   "end_date": "2024-09-17",
+   "lat": 11.236541,
+   "lon": 78.153208,
+   "state": "Tamil Nadu",
+   "district": "Namakkal",
+   "area_type": "Urban",
+   "block": "Namakkal"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-24f7b795017b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 5 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Dhilwan",
+ "villages": [
+  "Bhaguwal"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "The same photo file (fingerprint 232b7d894c33) is attached to 5 different works in 1 village. A photo of one site cannot be evidence for 5 separate works.",
+  "The works are recorded as: Contour Trench (5).",
+  "All 5 works report the same GPS point (31.414894, 75.205274).",
+  "The photo was uploaded 10 times within 10 minutes (2026-05-12 15:41:18 to 2026-05-12 15:51:15)."
+ ],
+ "photo": "photos/232b7d894c33e7b812eec6d81ec633c156a73195f6cda348656f0dc8a28251d1.jpg",
+ "offices": [
+  "Block Devolpmen Officer Dhilwan"
+ ],
  "records": [
   {
    "record_id": "8713370",
@@ -71,5 +91,8 @@
    "area_type": "Rural",
    "block": "Dhilwan"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 17,
+ "needs_human_review": false
 }

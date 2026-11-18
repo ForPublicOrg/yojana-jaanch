@@ -1,5 +1,26 @@
 {
  "id": "jsjb-same_gps-e00217318759",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "7 works at one GPS point in Allapura",
+ "state": "Rajasthan",
+ "district": "Tonk",
+ "block": "Uniara",
+ "villages": [
+  "Allapura"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "7 works in Allapura report exactly the same GPS point (25.90991, 76.09984).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Village Pond (7).",
+  "They carry 7 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "AEN, UNIARA, WS DEPT.",
+  "SE"
+ ],
  "records": [
   {
    "record_id": "4034780",
@@ -99,5 +120,8 @@
    "area_type": "Rural",
    "block": "Uniara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 14,
+ "needs_human_review": false
 }

@@ -1,5 +1,28 @@
 {
  "id": "jsjb-photo_reuse-9a57d33e1095",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Fazilka",
+ "block": "Jalalabad",
+ "villages": [
+  "Jalalabad",
+  "Lakhe Ke Uttaar",
+  "Rampura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint dceb342d9728) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Bore-Well Recharge (1).",
+  "The entries were made by 2 different offices: BDPO jalalabad, ziledar kabulshah.",
+  "These works are spread over 2 blocks: Fazilka, Jalalabad."
+ ],
+ "photo": "photos/dceb342d9728db9b38d283452eead4062f748aa887fced3ccd53d9b6a867249f.jpg",
+ "offices": [
+  "BDPO jalalabad",
+  "ziledar kabulshah"
+ ],
  "records": [
   {
    "record_id": "990815",
@@ -43,5 +66,8 @@
    "area_type": "Rural",
    "block": "Jalalabad"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

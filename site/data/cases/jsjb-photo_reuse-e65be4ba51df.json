@@ -1,5 +1,34 @@
 {
  "id": "jsjb-photo_reuse-e65be4ba51df",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 17 different works",
+ "state": "Punjab",
+ "district": "Amritsar",
+ "block": "Rayya",
+ "villages": [
+  "Bhorchhi Rajputan",
+  "Butari",
+  "Jallupur Khaira",
+  "Kaler Ghuman",
+  "Khabba Rajputan",
+  "Khilchian",
+  "Mehsampurkalan",
+  "Mehta",
+  "Nangali",
+  "Padiana",
+  "Thothian"
+ ],
+ "record_count": 17,
+ "reasons": [
+  "The same photo file (fingerprint 6e5f802e2133) is attached to 17 different works in 11 villages. A photo of one site cannot be evidence for 17 separate works.",
+  "The works are recorded as: Other (17).",
+  "These works are spread over 2 blocks: Rayya, Tarsikka."
+ ],
+ "photo": "photos/6e5f802e21331f043d6f84578bd59cdc8df9ee8c7e1a26bf8ebdc7280a5165a5.jpg",
+ "offices": [
+  "SDO Taran Taran drainage"
+ ],
  "records": [
   {
    "record_id": "5201691",
@@ -239,5 +268,8 @@
    "area_type": "Rural",
    "block": "Tarsikka"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 51,
+ "needs_human_review": false
 }

@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-0d14ff4f098b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Moga",
+ "block": "Baghapurana",
+ "villages": [
+  "Sukhanand"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 09637bc9b0f7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-04-27, 2026-04-28."
+ ],
+ "photo": "photos/09637bc9b0f7100e4d9ef67c625b6b564c8f642fb8ad9eefb4a78ec4b37e55cf.jpg",
+ "offices": [
+  "BDPO BGH"
+ ],
  "records": [
   {
    "record_id": "6262407",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Baghapurana"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-f4e2b2122f29",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Ludhiana",
+ "block": "Jagraon",
+ "villages": [
+  "Barsal",
+  "Budhewal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 52828e98d705) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 17 minutes (2025-11-30 12:45:29 to 2025-11-30 13:01:30).",
+  "These works are spread over 2 blocks: Jagraon, Ludhiana-2."
+ ],
+ "photo": "photos/52828e98d7056d7d3f6bda69abbd4c31236f86637711e502fa98de9eb6427c4a.jpg",
+ "offices": [
+  "Canal Ziledaar/Sidhwan Canal & Ground Water Divisi"
+ ],
  "records": [
   {
    "record_id": "989088",
@@ -29,5 +50,8 @@
    "area_type": "Rural",
    "block": "Ludhiana-2"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

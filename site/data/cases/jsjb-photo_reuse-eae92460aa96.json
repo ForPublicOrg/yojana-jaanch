@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-eae92460aa96",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Gurdaspur",
+ "block": "Dhariwal",
+ "villages": [
+  "Bal",
+  "Mallian(Faqiran)"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 49cf5d4ec3e7) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "All 3 works started and ended on the same day (2026-05-19)."
+ ],
+ "photo": "photos/49cf5d4ec3e7245e5a68f3e317594f34c1fc08a4cb2b8cf6927499cc8ce3d9bb.jpg",
+ "offices": [
+  "Apo Dhariwal"
+ ],
  "records": [
   {
    "record_id": "10364519",
@@ -43,5 +63,8 @@
    "area_type": "Rural",
    "block": "Dhariwal"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

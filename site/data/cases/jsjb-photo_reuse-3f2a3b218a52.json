@@ -1,5 +1,43 @@
 {
  "id": "jsjb-photo_reuse-3f2a3b218a52",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 22 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Parihar",
+ "villages": [
+  "Barahi",
+  "Baya",
+  "Betaha",
+  "Bhawanipur",
+  "Bhiswa",
+  "Bishunpur",
+  "Demhua",
+  "Indarwa",
+  "Jagdhar",
+  "Kanhwa",
+  "Lauharia",
+  "Mahadeopatti",
+  "Naranga",
+  "Nonahi",
+  "Parsandih",
+  "Rambhelahi",
+  "Ramnaika"
+ ],
+ "record_count": 22,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 22 different works in 17 villages. A photo of one site cannot be evidence for 22 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 7a14ba3bc1d8 on 17 works, be311e30378a on 5 works.",
+  "The works are recorded as: Village Pond (22).",
+  "The entries were made by 2 different offices: District Magistrate, PO Parihar."
+ ],
+ "photo": "photos/7a14ba3bc1d8f1631a8ddc2ef195ac483e64fa3de6903724ddb4904608eec10f.jpg",
+ "offices": [
+  "District Magistrate",
+  "PO Parihar"
+ ],
  "records": [
   {
    "record_id": "3462716",
@@ -309,5 +347,21 @@
    "area_type": "Rural",
    "block": "Parihar"
   }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 67,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "7a14ba3bc1d8f1631a8ddc2ef195ac483e64fa3de6903724ddb4904608eec10f",
+   "records": 17
+  },
+  {
+   "sha256": "be311e30378a71e7a85de272499da62803bdb7eb05bd5345123e79d7746da689",
+   "records": 5
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d514bd59a39f"
  ]
 }

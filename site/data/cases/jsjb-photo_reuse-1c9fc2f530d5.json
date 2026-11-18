@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-1c9fc2f530d5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Bihar",
+ "district": "Sitamarhi",
+ "block": "Sonbarsa",
+ "villages": [
+  "Marhia Tetaria",
+  "Singhibahni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3b66035189c5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (1), Village Pond (1)."
+ ],
+ "photo": "photos/3b66035189c5cda4207b9dad0ecb6b030a06a2e0fcffa64aa38950824b3addef.jpg",
+ "offices": [
+  "PO Sonbarsa"
+ ],
  "records": [
   {
    "record_id": "3921828",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Sonbarsa"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
 }

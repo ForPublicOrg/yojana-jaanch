@@ -1,5 +1,24 @@
 {
  "id": "jsjb-photo_reuse-efd80aa32e29",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Punjab",
+ "district": "Malerkotla",
+ "block": "Ahmedgarh",
+ "villages": [
+  "Mandian"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ed20dcdf9c7e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (30.553283, 75.968509)."
+ ],
+ "photo": "photos/ed20dcdf9c7ea47c591cfe4e23fa71c3be2a6d14dc23bc4dd16873c0d470d82f.jpg",
+ "offices": [
+  "Sub Division Officer Drainage"
+ ],
  "records": [
   {
    "record_id": "14939045",
@@ -29,5 +48,8 @@
    "area_type": "Rural",
    "block": "Ahmedgarh"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
 }

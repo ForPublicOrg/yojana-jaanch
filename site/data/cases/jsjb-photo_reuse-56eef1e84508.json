@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-56eef1e84508",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Punjab",
+ "district": "Jalandhar",
+ "block": "Bhogpur",
+ "villages": [
+  "Bula",
+  "Darawan",
+  "Sudana"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9410a762e051) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (3).",
+  "The photo was uploaded 6 times within 6 minutes (2026-04-17 07:50:55 to 2026-04-17 07:56:30)."
+ ],
+ "photo": "photos/9410a762e051252a4933674400a1757a9c50ae8cf9f679aa6c5af8e5bcf0edc0.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
  "records": [
   {
    "record_id": "977126",
@@ -43,5 +64,8 @@
    "area_type": "Rural",
    "block": "Bhogpur"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
 }

@@ -1,5 +1,26 @@
 {
  "id": "jsjb-photo_reuse-458ce56bffe8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 6 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Phagwara",
+ "villages": [
+  "Rehana Jattan"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same photo file (fingerprint 7a6eb35cbf95) is attached to 6 different works in 1 village. A photo of one site cannot be evidence for 6 separate works.",
+  "The works are recorded as: Contour Trench (6).",
+  "All 6 works report the same GPS point (31.356183, 75.818692).",
+  "All 6 works started and ended on the same day (2026-05-23).",
+  "The photo was uploaded 12 times within 8 minutes (2026-05-24 20:36:47 to 2026-05-24 20:44:09)."
+ ],
+ "photo": "photos/7a6eb35cbf9510cfbdf4e10cc2d643f832cbb4229c7337e8ab0422f09121a8a8.jpg",
+ "offices": [
+  "Block Devolpment officer Phagwara"
+ ],
  "records": [
   {
    "record_id": "12274104",
@@ -85,5 +106,8 @@
    "area_type": "Rural",
    "block": "Phagwara"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false
 }

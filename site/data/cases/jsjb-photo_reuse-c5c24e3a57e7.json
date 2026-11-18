@@ -1,5 +1,25 @@
 {
  "id": "jsjb-photo_reuse-c5c24e3a57e7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 20 different works",
+ "state": "Punjab",
+ "district": "Kapurthala",
+ "block": "Kapurthala",
+ "villages": [
+  "Nathu Chahal"
+ ],
+ "record_count": 20,
+ "reasons": [
+  "The same photo file (fingerprint 83ef1ef6393e) is attached to 20 different works in 1 village. A photo of one site cannot be evidence for 20 separate works.",
+  "The works are recorded as: Contour Trench (20).",
+  "All 20 works report the same GPS point (31.317154, 75.411575).",
+  "All 20 works started and ended on the same day (2026-05-01)."
+ ],
+ "photo": "photos/83ef1ef6393eecd74963df225211225f3f2986dbef3f6511589c370980966b1f.jpg",
+ "offices": [
+  "Block Devolpment officer Kapurthala"
+ ],
  "records": [
   {
    "record_id": "10372507",
@@ -281,5 +301,8 @@
    "area_type": "Rural",
    "block": "Kapurthala"
   }
- ]
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 62,
+ "needs_human_review": false
 }
