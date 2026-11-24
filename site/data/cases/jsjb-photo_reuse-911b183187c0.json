@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-911b183187c0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Khoohri",
+  "Khuiyala"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8d83fcb27ec0) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "The photo was uploaded 2 times within 16 minutes (2026-04-28 16:09:30 to 2026-04-28 16:24:51)."
+ ],
+ "photo": "photos/8d83fcb27ec06aa8b559770eda3e6255528e04096195aada616686f5c323f6bd.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "6175981",
+   "village": "Khuiyala",
+   "structure_type": "Check Dam",
+   "created_by": "BDO",
+   "start_date": "2025-07-02",
+   "end_date": "2026-03-23",
+   "lat": 27.1387,
+   "lon": 70.4405,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "6178871",
+   "village": "Khoohri",
+   "structure_type": "Check Dam",
+   "created_by": "BDO",
+   "start_date": "2019-06-23",
+   "end_date": "2025-09-15",
+   "lat": 26.6212,
+   "lon": 70.6694,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

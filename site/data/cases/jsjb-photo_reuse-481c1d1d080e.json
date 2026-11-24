@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-481c1d1d080e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Maa Chandi Devi Ward",
+  "Mini Mata Ward"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint cdd7ff730875) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3).",
+  "All 3 works report the same GPS point (20.94, 81.27)."
+ ],
+ "photo": "photos/cdd7ff730875e9736e180b6d28ec0d922981f3e5d3c186796e3be187f780c6b4.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8109981",
+   "village": "Mini Mata Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-15",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8117543",
+   "village": "Maa Chandi Devi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-14",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8117604",
+   "village": "Maa Chandi Devi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-14",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

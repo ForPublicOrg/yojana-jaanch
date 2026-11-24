@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-a3962acdb9f0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Danitola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f9b355dd9c79) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (20.679692, 81.136135).",
+  "All 2 works started and ended on the same day (2026-05-28).",
+  "The photo was uploaded 2 times within 49 seconds (2026-05-28 12:48:26 to 2026-05-28 12:49:15)."
+ ],
+ "photo": "photos/f9b355dd9c79964f48c72fcbabea3d6a78278481e2a506cd54cc6f3ac2bdab72.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14185097",
+   "village": "Danitola",
+   "structure_type": "Village Pond",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.679692,
+   "lon": 81.136135,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "14185320",
+   "village": "Danitola",
+   "structure_type": "Village Pond",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.679692,
+   "lon": 81.136135,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

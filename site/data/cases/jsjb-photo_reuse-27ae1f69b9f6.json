@@ -2,20 +2,23 @@
  "id": "jsjb-photo_reuse-27ae1f69b9f6",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 4 different works",
+ "headline": "One picture, 5 different works",
  "state": "Rajasthan",
  "district": "Jhunjhunu",
  "block": "Nawalgarh",
  "villages": [
+  "Doomra",
   "Jhajhar",
   "Kanaka Ki Dhani",
   "Kari",
   "Mandasi"
  ],
- "record_count": 4,
+ "record_count": 5,
  "reasons": [
-  "The same photo file (fingerprint 01ddd758bfc3) is attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
-  "The works are recorded as: Soak Pit (4)."
+  "The same picture was saved as 2 different files and attached to 5 different works in 5 villages. A photo of one site cannot be evidence for 5 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 01ddd758bfc3 on 4 works, 16b60c5434dd on 1 work.",
+  "The works are recorded as: Soak Pit (5)."
  ],
  "photo": "photos/01ddd758bfc35cf1886c37d4798291cb607d4b7b619cfed5c042820ee0363dc0.jpg",
  "offices": [
@@ -65,6 +68,20 @@
    "block": "Nawalgarh"
   },
   {
+   "record_id": "4247832",
+   "village": "Doomra",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-09",
+   "end_date": "2025-10-10",
+   "lat": 27.962,
+   "lon": 75.238,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
    "record_id": "4271983",
    "village": "Jhajhar",
    "structure_type": "Soak Pit",
@@ -80,6 +97,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 12,
- "needs_human_review": false
+ "severity": 15,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "01ddd758bfc35cf1886c37d4798291cb607d4b7b619cfed5c042820ee0363dc0",
+   "records": 4
+  },
+  {
+   "sha256": "16b60c5434dd9b52b795ee154b530fe9a5466d6b133d8ed6823a11619a72ab7a",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-2dc7820f3c1e"
+ ]
 }

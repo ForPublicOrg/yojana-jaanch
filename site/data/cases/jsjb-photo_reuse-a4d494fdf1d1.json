@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a4d494fdf1d1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Awari"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0d2efddbaf2c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.453257, 81.0989).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-25 20:38:17 to 2026-05-25 20:40:27)."
+ ],
+ "photo": "photos/0d2efddbaf2c020b96e01f1dc17df937143fa31ff8608a5db50129896ff79e8b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12595024",
+   "village": "Awari",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-23",
+   "lat": 20.453257,
+   "lon": 81.0989,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "12596002",
+   "village": "Awari",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-23",
+   "lat": 20.453257,
+   "lon": 81.0989,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

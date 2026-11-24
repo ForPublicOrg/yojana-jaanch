@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-519e3c80d6d0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Babai",
+  "Kukahnu"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5a311adb5c09) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 11 minutes (2026-04-29 14:21:37 to 2026-04-29 14:32:07)."
+ ],
+ "photo": "photos/5a311adb5c09d8a8f36c8c88f5828bbca36642d91eccb916bc1cb11d144964c4.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "6260628",
+   "village": "Babai",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1816635,
+   "lon": 79.5611568,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "6262316",
+   "village": "Kukahnu",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1830919,
+   "lon": 79.5660751,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

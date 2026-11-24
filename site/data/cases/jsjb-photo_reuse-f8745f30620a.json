@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f8745f30620a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Londi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a9504ff54d0f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.768482, 81.284902)."
+ ],
+ "photo": "photos/a9504ff54d0f8b9d2bebdac7a049b27b4a97412f13757eaff5f8144077eee0ec.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14975947",
+   "village": "Londi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-27",
+   "lat": 20.768482,
+   "lon": 81.284902,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14981936",
+   "village": "Londi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-27",
+   "lat": 20.768482,
+   "lon": 81.284902,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

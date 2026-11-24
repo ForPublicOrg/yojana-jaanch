@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-f39f22dc666b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bhaisbor"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 18b6a502a1b3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.698116, 81.116455).",
+  "The photo was uploaded 2 times within 3 minutes (2026-05-27 12:36:32 to 2026-05-27 12:39:19)."
+ ],
+ "photo": "photos/18b6a502a1b3c55e4786f1d589cb7cbb5e7d40ae232d7323d247e59fce20e696.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13462037",
+   "village": "Bhaisbor",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-20",
+   "end_date": "2026-05-24",
+   "lat": 20.698116,
+   "lon": 81.116455,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13464594",
+   "village": "Bhaisbor",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-20",
+   "end_date": "2026-05-24",
+   "lat": 20.698116,
+   "lon": 81.116455,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

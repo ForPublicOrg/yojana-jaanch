@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-646901e5fa6f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Madhogarh",
+ "villages": [
+  "Atagaon",
+  "Dikauli Madhogarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c7d7a05132b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 21 minutes (2026-03-25 14:21:00 to 2026-03-25 14:41:50)."
+ ],
+ "photo": "photos/3c7d7a05132b2747c8af2be6690dba815f8b080efd943f4b453e3f019dbd6f4d.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4239344",
+   "village": "Atagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2024-02-25",
+   "end_date": "2026-04-10",
+   "lat": 26.2274191,
+   "lon": 79.2059946,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4240539",
+   "village": "Dikauli Madhogarh",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-26",
+   "end_date": "2026-03-20",
+   "lat": 26.2837754,
+   "lon": 79.181887,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

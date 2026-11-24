@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-2fd988b23f89",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Arjunda",
+ "villages": [
+  "Sardar Vallabh Bhai Patel Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fea02ef39b82) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/fea02ef39b820ae887331c49b4771797315bb233cb4b967cb35b228ae86566ed.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4793670",
+   "village": "Sardar Vallabh Bhai Patel Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-09-18",
+   "end_date": "2025-10-20",
+   "lat": 20.948168,
+   "lon": 81.200628,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Arjunda"
+  },
+  {
+   "record_id": "4846289",
+   "village": "Sardar Vallabh Bhai Patel Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-09-25",
+   "end_date": "2025-10-18",
+   "lat": 20.948112,
+   "lon": 81.200607,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Arjunda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

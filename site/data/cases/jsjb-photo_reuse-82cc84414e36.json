@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-82cc84414e36",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Barahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): aadae446dab6 on 1 work, b44e26116efb on 1 work.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.66909, 81.29355)."
+ ],
+ "photo": "photos/aadae446dab62151d39a1e1af599793d42241c6da6e2efb15fc883e4d65630ac.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11566657",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-16",
+   "lat": 20.66909,
+   "lon": 81.29355,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11593049",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-07",
+   "end_date": "2026-05-13",
+   "lat": 20.66909,
+   "lon": 81.29355,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "aadae446dab62151d39a1e1af599793d42241c6da6e2efb15fc883e4d65630ac",
+   "records": 1
+  },
+  {
+   "sha256": "b44e26116efb0233132262ab2310458241a13ed0c2bafcec7c99f46fa185279a",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-cd9d939e685c"
+ ]
+}

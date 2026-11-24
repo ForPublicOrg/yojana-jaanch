@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-30c740647ed8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Madhogarh",
+ "villages": [
+  "Mingani",
+  "Ooncha",
+  "Silauva Bujurg"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint b9f4876a7590) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The photo was uploaded 3 times within 26 minutes (2026-03-25 14:27:04 to 2026-03-25 14:52:47)."
+ ],
+ "photo": "photos/b9f4876a7590824ce92e50b17a2a7ff194ce21d1367ee4fde2ef5ca05d5bf3fa.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4239708",
+   "village": "Mingani",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-27",
+   "end_date": "2026-04-10",
+   "lat": 26.3060701,
+   "lon": 79.1329887,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4239877",
+   "village": "Ooncha",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-23",
+   "end_date": "2026-03-25",
+   "lat": 26.3060701,
+   "lon": 79.1329887,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4241236",
+   "village": "Silauva Bujurg",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-27",
+   "end_date": "2026-03-25",
+   "lat": 26.3207033,
+   "lon": 79.1663633,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

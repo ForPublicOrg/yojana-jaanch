@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-368bc8fa0379",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chikhali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bdeeae6518d9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.544592, 81.071848).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-29 04:37:04 to 2026-05-29 04:38:38)."
+ ],
+ "photo": "photos/bdeeae6518d9d569ac82467ef9eedbf11c9600e2ace9e0f116b76b12bf39cc9b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14615383",
+   "village": "Chikhali",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-28",
+   "lat": 20.544592,
+   "lon": 81.071848,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "14617084",
+   "village": "Chikhali",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-28",
+   "lat": 20.544592,
+   "lon": 81.071848,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

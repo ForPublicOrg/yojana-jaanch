@@ -1,0 +1,130 @@
+{
+ "id": "jsjb-photo_reuse-68d96e1955b3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Ghilaur",
+  "Khajuri",
+  "Kurchauli",
+  "Raura",
+  "Rawa",
+  "Sulakhna"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 6 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.006 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 87d1f84360e8 on 3 works, b6bf655a9aea on 3 works.",
+  "The works are recorded as: Other (5), Nala Bund (1)."
+ ],
+ "photo": "photos/87d1f84360e8a83708c3802485be89ecc072b040e0fd08f02c6cae9359c588df.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4927974",
+   "village": "Rawa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2023-04-10",
+   "end_date": "2025-06-01",
+   "lat": 26.2460102,
+   "lon": 79.1430201,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "4928174",
+   "village": "Sulakhna",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-10",
+   "end_date": "2025-08-10",
+   "lat": 26.10552,
+   "lon": 79.182032,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5222641",
+   "village": "Ghilaur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.0015,
+   "lon": 79.00201,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5222740",
+   "village": "Kurchauli",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.11015,
+   "lon": 79.04251,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5222759",
+   "village": "Khajuri",
+   "structure_type": "Nala Bund",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.1415,
+   "lon": 79.04251,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5222773",
+   "village": "Raura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.2215,
+   "lon": 79.12015,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "87d1f84360e8a83708c3802485be89ecc072b040e0fd08f02c6cae9359c588df",
+   "records": 3
+  },
+  {
+   "sha256": "b6bf655a9aeacb3ffcf86fb35f95f6a9a1df6ede3ddbec0d516d701713dae9a1",
+   "records": 3
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3eace2cda2ac"
+ ]
+}

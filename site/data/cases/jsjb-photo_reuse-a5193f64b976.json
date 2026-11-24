@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-a5193f64b976",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Malgaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f85b72ee71bc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (20.658234, 81.190537).",
+  "All 2 works started and ended on the same day (2025-04-26).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-11 14:55:00 to 2026-04-11 14:56:17)."
+ ],
+ "photo": "photos/f85b72ee71bcb67917c2006af9e9971cd0d442d5cecdeb583cd28e29882ac3e1.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4725462",
+   "village": "Malgaon",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-04-26",
+   "end_date": "2025-04-26",
+   "lat": 20.658234,
+   "lon": 81.190537,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4725566",
+   "village": "Malgaon",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-04-26",
+   "end_date": "2025-04-26",
+   "lat": 20.658234,
+   "lon": 81.190537,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

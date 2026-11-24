@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2ac6add0753a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Siwani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a7a1aa969908) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.715707, 81.223452).",
+  "The photo was uploaded 4 times within 20 seconds (2026-05-07 16:19:01 to 2026-05-07 16:19:21)."
+ ],
+ "photo": "photos/a7a1aa969908e48f6882a01e14b148e8e5533dc34da14d19cb0a9502fc48133d.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7788453",
+   "village": "Siwani",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-30",
+   "end_date": "2026-03-31",
+   "lat": 20.715707,
+   "lon": 81.223452,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7788571",
+   "village": "Siwani",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-30",
+   "end_date": "2026-03-31",
+   "lat": 20.715707,
+   "lon": 81.223452,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

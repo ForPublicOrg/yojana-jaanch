@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-3e1b252ab3ed",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Sankara (J)"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cee2ccf82c98) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.803749, 81.195574).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-25 13:55:27 to 2026-05-25 13:56:35)."
+ ],
+ "photo": "photos/cee2ccf82c98d4a4b36b64fdd4ee8a57c31695c21aa3a43db0522457cf32ff2a.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12468568",
+   "village": "Sankara (J)",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-18",
+   "lat": 20.803749,
+   "lon": 81.195574,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "12469038",
+   "village": "Sankara (J)",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-18",
+   "lat": 20.803749,
+   "lon": 81.195574,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

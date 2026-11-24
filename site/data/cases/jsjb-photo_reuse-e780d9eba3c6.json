@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-e780d9eba3c6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Jugrajpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 7 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.015 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 82cb3b46e5cd on 2 works, c2e2f2c8ea54 on 1 work.",
+  "The works are recorded as: Contour Trench (1), Other (1), Village Pond (1)."
+ ],
+ "photo": "photos/82cb3b46e5cd8d54882532367588b6132eaf1e0b98087dcb4c124cd197a17c6c.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4928965",
+   "village": "Jugrajpura",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-03",
+   "end_date": "2025-06-15",
+   "lat": 26.116,
+   "lon": 79.1421,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "4929019",
+   "village": "Jugrajpura",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-03",
+   "end_date": "2025-06-01",
+   "lat": 26.119,
+   "lon": 79.1414,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5189343",
+   "village": "Jugrajpura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-15",
+   "lat": 26.11186,
+   "lon": 79.1318383,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "82cb3b46e5cd8d54882532367588b6132eaf1e0b98087dcb4c124cd197a17c6c",
+   "records": 2
+  },
+  {
+   "sha256": "c2e2f2c8ea543d1369aac1305a6a025ed37b2c7977218f9815c9b0c23fb5dfa9",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-6a4b2f2b264e"
+ ]
+}

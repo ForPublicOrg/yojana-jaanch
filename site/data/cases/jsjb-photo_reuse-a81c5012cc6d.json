@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a81c5012cc6d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jagatara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 31dfdf040128) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (20.707432, 81.267257)."
+ ],
+ "photo": "photos/31dfdf0401282cc67217a6b0c064e02e7b44a3a2a203e8b743d26b27c27871bb.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1475020",
+   "village": "Jagatara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-02-22",
+   "end_date": "2026-05-22",
+   "lat": 20.707432,
+   "lon": 81.267257,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4328428",
+   "village": "Jagatara",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-02-02",
+   "end_date": "2025-09-01",
+   "lat": 20.707432,
+   "lon": 81.267257,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

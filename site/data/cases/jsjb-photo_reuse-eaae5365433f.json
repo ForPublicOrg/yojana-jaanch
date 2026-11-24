@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-eaae5365433f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Lakhasar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 73ebad876c14) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Defunct Bore-Well (2).",
+  "All 2 works report the same GPS point (26.705283333333334, 71.30333999999999).",
+  "All 2 works started and ended on the same day (2025-09-01)."
+ ],
+ "photo": "photos/73ebad876c141b62e443f44a122a9998429c728f63db010f6a002a53d260c9e5.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8606723",
+   "village": "Lakhasar",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-09-01",
+   "end_date": "2025-09-01",
+   "lat": 26.705283333333334,
+   "lon": 71.30333999999999,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "8606725",
+   "village": "Lakhasar",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-09-01",
+   "end_date": "2025-09-01",
+   "lat": 26.705283333333334,
+   "lon": 71.30333999999999,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

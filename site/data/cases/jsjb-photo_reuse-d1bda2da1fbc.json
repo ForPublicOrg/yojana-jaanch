@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d1bda2da1fbc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Bhoinapar",
+  "Jagatara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 020123d6a0ad) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/020123d6a0ad6be4b5d0e6f9d5e2152b4b36f117a65302c6647bb2d763c46b20.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "502278",
+   "village": "Bhoinapar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-05-22",
+   "end_date": "2026-05-22",
+   "lat": 20.8046483,
+   "lon": 81.2338705,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "2069672",
+   "village": "Jagatara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2026-05-22",
+   "lat": 20.696671,
+   "lon": 81.269118,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

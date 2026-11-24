@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-9a48dae514a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Charota"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3d55616b923b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.72274, 81.248547).",
+  "The photo was uploaded 2 times within 26 seconds (2026-05-29 15:30:50 to 2026-05-29 15:31:16)."
+ ],
+ "photo": "photos/3d55616b923bab851031e4b898a59b1049a325c8442c0f292b59d4615403684b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14776578",
+   "village": "Charota",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.72274,
+   "lon": 81.248547,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14776688",
+   "village": "Charota",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.72274,
+   "lon": 81.248547,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

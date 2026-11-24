@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-ce21ec810290",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Damodara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 671adc3c2097) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.9, 70.73).",
+  "All 2 works started and ended on the same day (2026-05-07).",
+  "The photo was uploaded 2 times within 29 seconds (2026-05-29 11:07:03 to 2026-05-29 11:07:32)."
+ ],
+ "photo": "photos/671adc3c2097aa9ca8ee1aa5fa2b581863af9e6248751c202a73084fab99f051.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14738941",
+   "village": "Damodara",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-07",
+   "end_date": "2026-05-07",
+   "lat": 26.9,
+   "lon": 70.73,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14739024",
+   "village": "Damodara",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-07",
+   "end_date": "2026-05-07",
+   "lat": 26.9,
+   "lon": 70.73,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

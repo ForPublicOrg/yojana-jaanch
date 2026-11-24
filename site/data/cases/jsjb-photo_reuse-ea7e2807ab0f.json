@@ -2,24 +2,54 @@
  "id": "jsjb-photo_reuse-ea7e2807ab0f",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 48 different works",
+ "headline": "One picture, 50 different works",
  "state": "Karnataka",
  "district": "Chikkaballapura",
  "block": "Sidlaghatta",
  "villages": [
+  "Halehalli",
   "Sadalavarahalli"
  ],
- "record_count": 48,
+ "record_count": 50,
  "reasons": [
-  "The same photo file (fingerprint 437a680efd8a) is attached to 48 different works in 1 village. A photo of one site cannot be evidence for 48 separate works.",
-  "The works are recorded as: Contour Trench (48).",
-  "All 48 works report the same GPS point (13.615566, 78.005785)."
+  "The same picture was saved as 2 different files and attached to 50 different works in 2 villages. A photo of one site cannot be evidence for 50 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 4 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 437a680efd8a on 48 works, 93ee8ba3bb37 on 2 works.",
+  "The works are recorded as: Contour Trench (50)."
  ],
  "photo": "photos/437a680efd8a7cceefc4cbb149eba300a7bf9ef8dfc44a997c881bdb56893ed5.jpg",
  "offices": [
   "Deputy Commissioner"
  ],
  "records": [
+  {
+   "record_id": "3095700",
+   "village": "Halehalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-08-12",
+   "end_date": "2025-10-23",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3095886",
+   "village": "Sadalavarahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-14",
+   "end_date": "2025-09-26",
+   "lat": 13.62631,
+   "lon": 77.99231,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
   {
    "record_id": "11917262",
    "village": "Sadalavarahalli",
@@ -694,6 +724,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 145,
- "needs_human_review": false
+ "severity": 150,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "437a680efd8a7cceefc4cbb149eba300a7bf9ef8dfc44a997c881bdb56893ed5",
+   "records": 48
+  },
+  {
+   "sha256": "93ee8ba3bb3762efb1a714a1afcc4eb66521833ed706b20e1808f20b2a1b0e06",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-70a23968a22d"
+ ]
 }

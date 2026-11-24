@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-72983003a797",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Belmand",
+  "Bheriya Nawagaon",
+  "Nipani"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d9fd9de748bc) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/d9fd9de748bc3fc789997a6d121b6870fe41e9a5dc1bec91530604f6debbdb56.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4486408",
+   "village": "Nipani",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-16",
+   "end_date": "2026-05-22",
+   "lat": 20.755128,
+   "lon": 81.346517,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10105439",
+   "village": "Belmand",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-07-01",
+   "end_date": "2026-05-22",
+   "lat": 20.743535,
+   "lon": 81.264773,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10950641",
+   "village": "Bheriya Nawagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-22",
+   "end_date": "2026-05-22",
+   "lat": 20.755452,
+   "lon": 81.2962,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

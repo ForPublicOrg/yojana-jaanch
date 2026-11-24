@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-0f1e55a8ec05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Godpal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3b2bc5cf8998 on 1 work, 72fe7f98adf2 on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.609889, 81.257094)."
+ ],
+ "photo": "photos/3b2bc5cf8998f1e38b909d6cbc2785256b49353137e2c0b264693bdbdbb66876.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7273214",
+   "village": "Godpal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-15",
+   "end_date": "2026-04-20",
+   "lat": 20.609889,
+   "lon": 81.257094,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7336203",
+   "village": "Godpal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-09",
+   "end_date": "2026-04-13",
+   "lat": 20.609889,
+   "lon": 81.257094,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3b2bc5cf8998f1e38b909d6cbc2785256b49353137e2c0b264693bdbdbb66876",
+   "records": 1
+  },
+  {
+   "sha256": "72fe7f98adf2490fba2e0e07fc4bb0f4febe4c82d5c124f06397df22e5fc03e7",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-db15ec628e7f"
+ ]
+}

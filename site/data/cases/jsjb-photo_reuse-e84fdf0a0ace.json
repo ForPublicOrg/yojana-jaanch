@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-e84fdf0a0ace",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chiharo"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 091a51ad3bae) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/091a51ad3bae667213fd957bcb3b81750a09da3a9ddf9d61c637ef485348fe9c.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4224829",
+   "village": "Chiharo",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-10-12",
+   "end_date": "2025-10-20",
+   "lat": 20.435225,
+   "lon": 81.192953,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "4792939",
+   "village": "Chiharo",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-13",
+   "end_date": "2026-03-20",
+   "lat": 20.565505,
+   "lon": 81.169548,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

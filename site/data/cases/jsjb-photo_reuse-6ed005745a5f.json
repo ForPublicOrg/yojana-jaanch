@@ -1,0 +1,140 @@
+{
+ "id": "jsjb-photo_reuse-6ed005745a5f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 7 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bamhani",
+  "Chiharo"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 7 different works in 2 villages. A photo of one site cannot be evidence for 7 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.009 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 9f2879903096 on 4 works, d85b9b035a0e on 3 works.",
+  "The works are recorded as: Contour Trench (5), Other (2)."
+ ],
+ "photo": "photos/9f2879903096a38be71da94851cc8db2563eddb8231b842a8a628061200813cf.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "2097730",
+   "village": "Bamhani",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.449568,
+   "lon": 81.059759,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2128634",
+   "village": "Bamhani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-07",
+   "end_date": "2025-06-30",
+   "lat": 20.449622,
+   "lon": 81.059813,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2132315",
+   "village": "Bamhani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.44963,
+   "lon": 81.059821,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2134142",
+   "village": "Chiharo",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.435321,
+   "lon": 81.22671,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2135078",
+   "village": "Bamhani",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-07",
+   "end_date": "2025-06-15",
+   "lat": 20.449667,
+   "lon": 81.059858,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2150131",
+   "village": "Chiharo",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.441169,
+   "lon": 81.223967,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2151408",
+   "village": "Chiharo",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.441187,
+   "lon": 81.223985,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 21,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "9f2879903096a38be71da94851cc8db2563eddb8231b842a8a628061200813cf",
+   "records": 4
+  },
+  {
+   "sha256": "d85b9b035a0e84b2553cd3f8ce3fed0d61740c44af8e536bd224f24b79f9ab34",
+   "records": 3
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-722e3637e3fe"
+ ]
+}

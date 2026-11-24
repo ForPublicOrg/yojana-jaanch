@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-cb03e5c322c3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Aidalpur",
+  "Ninawali Jagir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 133c41525b93) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "These works are spread over 2 blocks: Jalaun, Rampura."
+ ],
+ "photo": "photos/133c41525b93b60311a093983fea4d42f323af7c35fe577687f8959056b42cce.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5094754",
+   "village": "Ninawali Jagir",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2025-11-29",
+   "end_date": "2026-03-31",
+   "lat": 26.364971,
+   "lon": 79.153197,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5201435",
+   "village": "Aidalpur",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2024-04-08",
+   "end_date": "2025-06-08",
+   "lat": 26.1203907,
+   "lon": 79.4479645,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Jalaun"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

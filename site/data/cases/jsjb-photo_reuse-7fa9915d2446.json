@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7fa9915d2446",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Baba Sayeed Ali Ward",
+  "Dr. Bhim Rao Ambedkar Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f55599811ff5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/f55599811ff5397c9338ce689f770ffb6851f71f4809f37dd35c33d4a7e87cd7.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8055925",
+   "village": "Baba Sayeed Ali Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-14",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8115232",
+   "village": "Dr. Bhim Rao Ambedkar Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-03",
+   "end_date": "2026-01-13",
+   "lat": 20.95,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

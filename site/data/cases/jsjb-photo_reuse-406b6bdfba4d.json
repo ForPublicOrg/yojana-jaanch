@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-406b6bdfba4d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Kherthadih"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1e21491d7295) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.743005, 81.143325).",
+  "All 2 works started and ended on the same day (2026-05-26).",
+  "The photo was uploaded 2 times within 41 seconds (2026-05-28 06:28:06 to 2026-05-28 06:28:47)."
+ ],
+ "photo": "photos/1e21491d7295da9d811f1225f85db116b0becd9b8104c2de7cd16782741c931d.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14006522",
+   "village": "Kherthadih",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-26",
+   "end_date": "2026-05-26",
+   "lat": 20.743005,
+   "lon": 81.143325,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14007440",
+   "village": "Kherthadih",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-26",
+   "end_date": "2026-05-26",
+   "lat": 20.743005,
+   "lon": 81.143325,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

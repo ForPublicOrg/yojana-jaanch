@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-f6cf887f6ef4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kuthaund",
+ "villages": [
+  "Donapur",
+  "Eikkon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8dffa4a032c5) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.24, 79.34).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-20 12:44:15 to 2026-04-20 12:48:45)."
+ ],
+ "photo": "photos/8dffa4a032c5877bd59a8319f4ee95a2e44d4aea7c0cfb26a7a07e1361bee27e.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5143081",
+   "village": "Eikkon",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-01-03",
+   "end_date": "2025-06-01",
+   "lat": 26.24,
+   "lon": 79.34,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "5143474",
+   "village": "Donapur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-01-31",
+   "end_date": "2025-06-01",
+   "lat": 26.24,
+   "lon": 79.34,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

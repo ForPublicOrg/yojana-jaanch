@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-e949ec96635c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Chhiraoli",
+  "Ghusia"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 45d7deb41e0a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 10 minutes (2026-04-21 16:16:04 to 2026-04-21 16:25:08)."
+ ],
+ "photo": "photos/45d7deb41e0ab761503437bec709eb316a6fa51d53fa4f82dbd88b226b26a24d.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5208178",
+   "village": "Ghusia",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-14",
+   "end_date": "2025-08-19",
+   "lat": 26.02,
+   "lon": 79.12,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5209292",
+   "village": "Chhiraoli",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-07-01",
+   "end_date": "2026-04-19",
+   "lat": 25.83,
+   "lon": 79.22,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-6f2456bc3dcc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Nachana",
+ "villages": [
+  "Gailbacamp"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d2b9d5db22a7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (27.5645354, 72.2569197)."
+ ],
+ "photo": "photos/d2b9d5db22a7ca34aa6d7d036b3b2d901f4a0e8db0f39486acb89b6c63c6595f.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8608878",
+   "village": "Gailbacamp",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-09-01",
+   "end_date": "2025-10-10",
+   "lat": 27.5645354,
+   "lon": 72.2569197,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Nachana"
+  },
+  {
+   "record_id": "8608882",
+   "village": "Gailbacamp",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-09-01",
+   "end_date": "2025-10-10",
+   "lat": 27.5645354,
+   "lon": 72.2569197,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Nachana"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

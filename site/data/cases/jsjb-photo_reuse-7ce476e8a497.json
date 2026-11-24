@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7ce476e8a497",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Tamora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 9b2503ef16f7) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.7691, 81.3736).",
+  "The photo was uploaded 2 times within 9 seconds (2026-05-01 20:43:15 to 2026-05-01 20:43:24)."
+ ],
+ "photo": "photos/9b2503ef16f70f58f3b9d33a5e3361aed9898ea54385ffa838428331b804d33f.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7219692",
+   "village": "Tamora",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-29",
+   "end_date": "2026-04-05",
+   "lat": 20.7691,
+   "lon": 81.3736,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7219699",
+   "village": "Tamora",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-29",
+   "end_date": "2026-04-05",
+   "lat": 20.7691,
+   "lon": 81.3736,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

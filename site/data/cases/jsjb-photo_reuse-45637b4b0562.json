@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-45637b4b0562",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Bilaund"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dcefd35afa7d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Village Pond (1)."
+ ],
+ "photo": "photos/dcefd35afa7d8dbd620c7922e0c867eff9774c8767a9673782c2b1e59f4e0bf6.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5151513",
+   "village": "Bilaund",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2024-08-24",
+   "end_date": "2024-10-12",
+   "lat": 26.4245426,
+   "lon": 79.1645815,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5161174",
+   "village": "Bilaund",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2024-08-24",
+   "end_date": "2024-10-22",
+   "lat": 26.4247152,
+   "lon": 79.1639115,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

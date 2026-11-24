@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-fb17f6fdb076",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kuthaund",
+ "villages": [
+  "Lahar Kanar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 430c3da773e5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.3123599, 79.4577022)."
+ ],
+ "photo": "photos/430c3da773e5f1b3425a8f79eac16358d42727d8eab883c0b415c129da5f8983.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5212438",
+   "village": "Lahar Kanar",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 26.3123599,
+   "lon": 79.4577022,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "5223746",
+   "village": "Lahar Kanar",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2023-09-18",
+   "end_date": "2025-06-01",
+   "lat": 26.3123599,
+   "lon": 79.4577022,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

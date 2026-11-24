@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e84027256619",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Bilayan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c42956d3b9ba) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.89, 79.19)."
+ ],
+ "photo": "photos/c42956d3b9ba96441ea20b97bbf4f55f254f1a9a8184740c5a0f8f01edf25c69.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5275819",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-05-01",
+   "end_date": "2025-07-14",
+   "lat": 25.89,
+   "lon": 79.19,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5290895",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-20",
+   "lat": 25.89,
+   "lon": 79.19,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

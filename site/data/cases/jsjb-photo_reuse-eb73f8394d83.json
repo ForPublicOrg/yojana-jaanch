@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-eb73f8394d83",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Babupura",
+  "Mahtauli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce0af6f7a1c7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "The photo was uploaded 2 times within 7 minutes (2026-04-21 19:53:48 to 2026-04-21 20:00:47)."
+ ],
+ "photo": "photos/ce0af6f7a1c7842636425966dc383ce8126ce2581867ea8ea81369a00cc35572.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5220966",
+   "village": "Babupura",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2024-07-22",
+   "end_date": "2025-08-25",
+   "lat": 26.35052,
+   "lon": 79.2853691,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5221098",
+   "village": "Mahtauli",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2024-07-25",
+   "end_date": "2025-06-12",
+   "lat": 26.43,
+   "lon": 79.26,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

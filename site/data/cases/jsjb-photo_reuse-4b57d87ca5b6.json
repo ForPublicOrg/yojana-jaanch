@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4b57d87ca5b6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bital"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 860d6bd0e33a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.610428, 81.028753).",
+  "The photo was uploaded 2 times within 12 seconds (2026-05-26 17:28:42 to 2026-05-26 17:28:54)."
+ ],
+ "photo": "photos/860d6bd0e33a18703567dea14ab57c14aa4fe9355c3b009ee0a7895ede2b1158.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13022335",
+   "village": "Bital",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-26",
+   "end_date": "2026-05-28",
+   "lat": 20.610428,
+   "lon": 81.028753,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13022679",
+   "village": "Bital",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-26",
+   "end_date": "2026-05-28",
+   "lat": 20.610428,
+   "lon": 81.028753,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

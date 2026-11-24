@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-dd9f37d7b99a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Ghumka"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ccbadd5be569) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.778379, 81.191113).",
+  "The photo was uploaded 4 times within 2 minutes (2026-05-27 22:28:06 to 2026-05-27 22:29:10)."
+ ],
+ "photo": "photos/ccbadd5be5694bf4789706b6d7a7081ff158066758d6b09e8c6f7aea73663c11.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13667866",
+   "village": "Ghumka",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-15",
+   "lat": 20.778379,
+   "lon": 81.191113,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "13668285",
+   "village": "Ghumka",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-15",
+   "lat": 20.778379,
+   "lon": 81.191113,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

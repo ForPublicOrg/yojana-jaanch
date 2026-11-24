@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-04be4aac273b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Amadula"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7e8f10893a92) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.463823, 81.236258).",
+  "The photo was uploaded 2 times within 17 minutes (2026-05-28 05:42:55 to 2026-05-28 05:59:44)."
+ ],
+ "photo": "photos/7e8f10893a922d8edd27c6e3fcd8c1f3ca1a54fa2d6b0ec02e2fe6ab2e8c8061.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13947998",
+   "village": "Amadula",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-28",
+   "lat": 20.463823,
+   "lon": 81.236258,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13968418",
+   "village": "Amadula",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-28",
+   "lat": 20.463823,
+   "lon": 81.236258,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

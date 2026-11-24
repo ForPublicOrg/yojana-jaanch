@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-8b8c30b98177",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Hathod",
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 833ae0cb2f2b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (20.688401, 81.330094)."
+ ],
+ "photo": "photos/833ae0cb2f2b54f8d607d4392b92296831d32f4254a928762a3e5a83f999df84.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10648227",
+   "village": "Hathod",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-22",
+   "end_date": "2026-05-25",
+   "lat": 20.688401,
+   "lon": 81.330094,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14106653",
+   "village": "Karka Bhat",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.688401,
+   "lon": 81.330094,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

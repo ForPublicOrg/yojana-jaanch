@@ -1,0 +1,84 @@
+{
+ "id": "jsjb-photo_reuse-d4e50d918f2b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gurur",
+ "villages": [
+  "Deyur Mandir Ward",
+  "Shitla Mata Ward",
+  "Thakur Dai Ward"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 2db36850fe13) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Other (2), Recharge Pit (1), Soak Pit (1)."
+ ],
+ "photo": "photos/2db36850fe1302025127b62dfdfcde007fc6256fa48126086a4b80136aa96fa6.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "3555677",
+   "village": "Deyur Mandir Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-01-06",
+   "end_date": "2026-01-15",
+   "lat": 20.68325,
+   "lon": 81.40089,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "3556413",
+   "village": "Deyur Mandir Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-02-15",
+   "end_date": "2025-12-12",
+   "lat": 20.680759,
+   "lon": 81.398986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "3658799",
+   "village": "Shitla Mata Ward",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-01-14",
+   "end_date": "2026-02-06",
+   "lat": 20.616928,
+   "lon": 81.283961,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "4567022",
+   "village": "Thakur Dai Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-03",
+   "end_date": "2026-03-30",
+   "lat": 20.6775524,
+   "lon": 81.4012317,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

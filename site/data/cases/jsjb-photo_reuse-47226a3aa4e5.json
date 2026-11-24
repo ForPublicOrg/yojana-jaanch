@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-47226a3aa4e5",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Chichbod"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint dac09cb09540) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-25, 2026-05-26."
+ ],
+ "photo": "photos/dac09cb09540204d658e6ce00a3261e72b8d53d98a2b2ec206580ed2470bf103.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12541048",
+   "village": "Chichbod",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-25",
+   "end_date": "2026-05-25",
+   "lat": 20.733901,
+   "lon": 81.282116,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14160460",
+   "village": "Chichbod",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-26",
+   "end_date": "2026-05-26",
+   "lat": 20.733719,
+   "lon": 81.282023,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-8129f35334ee",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Gangthra",
+  "Sulakhna",
+  "Tumra"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ec8a4da59277) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/ec8a4da59277b0c1b0290140390401a774f3d819d5a6cadbeda15a85769d2753.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5199307",
+   "village": "Sulakhna",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-03-20",
+   "lat": 26.077542,
+   "lon": 79.047582,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5204100",
+   "village": "Gangthra",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.0652,
+   "lon": 79.0854,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5204183",
+   "village": "Tumra",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.0321,
+   "lon": 79.0254,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-a90134ff35ec",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Dr. Bhim Rao Ambedkar Ward",
+  "Mini Mata Ward",
+  "Rani Durga Vati Ward"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 2d1dec6b3f90) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/2d1dec6b3f9038134f9a7aba2673dabe57532fca12d8116d130d95ea2fffd9ba.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4687830",
+   "village": "Rani Durga Vati Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-14",
+   "lat": 20.942242,
+   "lon": 81.294212,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8120112",
+   "village": "Mini Mata Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-03",
+   "end_date": "2026-01-15",
+   "lat": 20.95,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "14245056",
+   "village": "Dr. Bhim Rao Ambedkar Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-15",
+   "lat": 20.95,
+   "lon": 81.3,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

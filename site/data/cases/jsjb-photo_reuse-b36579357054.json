@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b36579357054",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dalli Rajhara",
+ "villages": [
+  "Mother Teresa Ward",
+  "Rajhra Baba Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2286a33bd4a7) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/2286a33bd4a790378b504a5557589df53cd42308e265182272ea745f6b14590b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4376893",
+   "village": "Mother Teresa Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-09-10",
+   "end_date": "2025-09-12",
+   "lat": 20.589063,
+   "lon": 81.074955,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  },
+  {
+   "record_id": "4514577",
+   "village": "Rajhra Baba Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-08-06",
+   "end_date": "2024-08-22",
+   "lat": 20.589606,
+   "lon": 81.078276,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

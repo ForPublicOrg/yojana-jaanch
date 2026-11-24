@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-ddf05027de0d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 147695d9efa1 on 1 work, fe0e5792d65a on 1 work.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (20.67588, 81.321903).",
+  "All 2 works started and ended on the same day (2026-04-27)."
+ ],
+ "photo": "photos/147695d9efa143977ef39439b4519a9bca492a3489542e3631f674be8e01ec70.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "6300030",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-27",
+   "end_date": "2026-04-27",
+   "lat": 20.67588,
+   "lon": 81.321903,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "6302004",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-27",
+   "end_date": "2026-04-27",
+   "lat": 20.67588,
+   "lon": 81.321903,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "147695d9efa143977ef39439b4519a9bca492a3489542e3631f674be8e01ec70",
+   "records": 1
+  },
+  {
+   "sha256": "fe0e5792d65a3edc2cd0d8fbef746309e87cbdd76591385f890b75eec1e64a13",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-9f68469d07ad"
+ ]
+}

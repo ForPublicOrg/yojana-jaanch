@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-8728b3187df9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Awari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 269ff645fd04 on 2 works, f639293a9416 on 1 work.",
+  "The works are recorded as: Soak Pit (2), Rooftop Water Harvesting Structure (1)."
+ ],
+ "photo": "photos/269ff645fd04cca1d465d98341b3c2cf5d89e02092420479195eb5df9874f090.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4028017",
+   "village": "Awari",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-15",
+   "end_date": "2025-10-12",
+   "lat": 20.513418,
+   "lon": 81.04751,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "4188400",
+   "village": "Awari",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-10-28",
+   "end_date": "2026-01-01",
+   "lat": 20.460068,
+   "lon": 81.110816,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "10208054",
+   "village": "Awari",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-10",
+   "end_date": "2026-04-24",
+   "lat": 20.45737,
+   "lon": 81.0854,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "269ff645fd04cca1d465d98341b3c2cf5d89e02092420479195eb5df9874f090",
+   "records": 2
+  },
+  {
+   "sha256": "f639293a94162fd44b0ff4ef7090ac195d7d3e3388283233b164eeb055ed8cde",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-3b6cee5d0929"
+ ]
+}

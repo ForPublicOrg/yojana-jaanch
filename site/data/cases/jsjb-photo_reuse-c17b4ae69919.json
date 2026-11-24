@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c17b4ae69919",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Adejhar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c3222ea2cb9e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2026-05-12, 2026-05-13."
+ ],
+ "photo": "photos/c3222ea2cb9e62bae757cabdef605126e728124b1eca9678c23408290c152f2b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14220025",
+   "village": "Adejhar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-13",
+   "end_date": "2026-05-13",
+   "lat": 20.44321227,
+   "lon": 81.21189042,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "14230316",
+   "village": "Adejhar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-12",
+   "end_date": "2026-05-12",
+   "lat": 20.4432102,
+   "lon": 81.21189277,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

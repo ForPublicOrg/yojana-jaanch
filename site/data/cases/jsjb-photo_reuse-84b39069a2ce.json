@@ -2,23 +2,41 @@
  "id": "jsjb-photo_reuse-84b39069a2ce",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 2 different works",
+ "headline": "One picture, 3 different works",
  "state": "Karnataka",
  "district": "Chikkaballapura",
  "block": "Gauribidanur",
  "villages": [
-  "Narasapura"
+  "Narasapura",
+  "Yerrakote"
  ],
- "record_count": 2,
+ "record_count": 3,
  "reasons": [
-  "The same photo file (fingerprint c7e4176f2543) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
-  "The works are recorded as: Percolation Pond (1), Village Pond (1)."
+  "The same picture was saved as 2 different files and attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): c7e4176f2543 on 2 works, 6de38e14053a on 1 work.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1).",
+  "These works are spread over 2 blocks: Chintamani, Gauribidanur."
  ],
  "photo": "photos/c7e4176f2543420f988279d67901ed96e0e6e95850d6c13e3d906a7b35d71eff.jpg",
  "offices": [
   "Deputy Commissioner"
  ],
  "records": [
+  {
+   "record_id": "3143710",
+   "village": "Yerrakote",
+   "structure_type": "Village Pond",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-09-13",
+   "end_date": "2026-03-12",
+   "lat": 13.438559,
+   "lon": 78.127419,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
+  },
   {
    "record_id": "10039200",
    "village": "Narasapura",
@@ -49,6 +67,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 6,
- "needs_human_review": false
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "c7e4176f2543420f988279d67901ed96e0e6e95850d6c13e3d906a7b35d71eff",
+   "records": 2
+  },
+  {
+   "sha256": "6de38e14053a5deffd228bfc2422884994182df6cdca46faa7ca67d6dee596ff",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-13819a375c19"
+ ]
 }

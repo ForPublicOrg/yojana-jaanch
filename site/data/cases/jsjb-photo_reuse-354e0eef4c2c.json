@@ -1,0 +1,68 @@
+{
+ "id": "jsjb-photo_reuse-354e0eef4c2c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Aasutar"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint c0bfb3aa7bf4) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Percolation Pond (1)."
+ ],
+ "photo": "photos/c0bfb3aa7bf4305805820ae3df3933e3e62cf08b0767fc86a1c6bc1a52db3f6f.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14280668",
+   "village": "Aasutar",
+   "structure_type": "Percolation Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 27.271296,
+   "lon": 70.195162,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14281762",
+   "village": "Aasutar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 27.189707,
+   "lon": 70.134645,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14284736",
+   "village": "Aasutar",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-10-01",
+   "end_date": "2025-10-03",
+   "lat": 27.189707,
+   "lon": 70.134645,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

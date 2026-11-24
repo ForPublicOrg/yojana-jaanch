@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2e6a497b1caa",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Mullagura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b05094781d79) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (20.67505, 81.24087).",
+  "All 2 works started and ended on the same day (2026-05-02)."
+ ],
+ "photo": "photos/b05094781d795b5c1b51970f08266036706db10ea0a2c2e76fc009cf5820e130.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7266175",
+   "village": "Mullagura",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-02",
+   "end_date": "2026-05-02",
+   "lat": 20.67505,
+   "lon": 81.24087,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7306342",
+   "village": "Mullagura",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-02",
+   "end_date": "2026-05-02",
+   "lat": 20.67505,
+   "lon": 81.24087,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-05468d840f5e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Biretra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 09ef2eb2f84b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.771667, 81.296767).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-21 16:16:50 to 2026-04-21 16:20:04)."
+ ],
+ "photo": "photos/09ef2eb2f84ba99dada0f6a4467de875a8884d929910774e297fa68811a0bbe1.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5208253",
+   "village": "Biretra",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-11",
+   "end_date": "2026-04-15",
+   "lat": 20.771667,
+   "lon": 81.296767,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "5208609",
+   "village": "Biretra",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-11",
+   "end_date": "2026-04-15",
+   "lat": 20.771667,
+   "lon": 81.296767,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

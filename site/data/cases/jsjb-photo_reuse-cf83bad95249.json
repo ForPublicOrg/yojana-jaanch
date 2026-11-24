@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cf83bad95249",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Amalidih"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 748444dde631) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "Each of the 2 works started and ended on a single day. The works are spread over 2 dates: 2025-06-07, 2025-06-12."
+ ],
+ "photo": "photos/748444dde63120f031dc3a00ba9d006067f894b08d6d91be19593e8c33e1c3bc.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "3215963",
+   "village": "Amalidih",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-07",
+   "end_date": "2025-06-07",
+   "lat": 20.724722,
+   "lon": 81.162777,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "3216652",
+   "village": "Amalidih",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-12",
+   "end_date": "2025-06-12",
+   "lat": 20.728805,
+   "lon": 81.151652,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

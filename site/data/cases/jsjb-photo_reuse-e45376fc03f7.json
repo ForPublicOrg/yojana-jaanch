@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e45376fc03f7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Mahewa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8878c57a7144) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 9 minutes (2026-04-23 12:10:27 to 2026-04-23 12:18:34)."
+ ],
+ "photo": "photos/8878c57a714479b320ecf3b5d69eca051d714d63aedc80094a6e02edf1cd1193.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5308374",
+   "village": "Mahewa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1669697,
+   "lon": 79.6357489,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "5309187",
+   "village": "Mahewa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1428399,
+   "lon": 79.6348844,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

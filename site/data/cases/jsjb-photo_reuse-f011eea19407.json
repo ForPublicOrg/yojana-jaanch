@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-f011eea19407",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Bhoinapar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 143fb5c2973d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.69653, 81.121848).",
+  "The photo was uploaded 2 times within 37 seconds (2026-05-27 23:48:37 to 2026-05-27 23:49:14)."
+ ],
+ "photo": "photos/143fb5c2973da5cfc955a8348cbbe3289db86f4ddf2dd3b478487cd415e8fb47.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13756903",
+   "village": "Bhoinapar",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-21",
+   "lat": 20.69653,
+   "lon": 81.121848,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "13757140",
+   "village": "Bhoinapar",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-21",
+   "lat": 20.69653,
+   "lon": 81.121848,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

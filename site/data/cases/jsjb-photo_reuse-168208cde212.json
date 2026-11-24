@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-168208cde212",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Danitola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2b604e0ba93d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.685478, 81.13328).",
+  "The photo was uploaded 2 times within 43 seconds (2026-05-24 16:48:51 to 2026-05-24 16:49:34)."
+ ],
+ "photo": "photos/2b604e0ba93d303f13e21a000ad1a54b0bce23bf3fee4dead5d7c8e97965fda4.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12169069",
+   "village": "Danitola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-13",
+   "end_date": "2026-04-15",
+   "lat": 20.685478,
+   "lon": 81.13328,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "12169458",
+   "village": "Danitola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-13",
+   "end_date": "2026-04-15",
+   "lat": 20.685478,
+   "lon": 81.13328,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

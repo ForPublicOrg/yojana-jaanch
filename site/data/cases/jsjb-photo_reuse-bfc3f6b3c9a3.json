@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-bfc3f6b3c9a3",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Parreguda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c43f3c144275) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.688795, 81.326088).",
+  "The photo was uploaded 4 times within 28 minutes (2026-05-28 15:09:50 to 2026-05-28 15:37:06)."
+ ],
+ "photo": "photos/c43f3c14427556dd8772a8c30e5bc7d85281161c89075507b276f042ee072872.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14243364",
+   "village": "Parreguda",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-15",
+   "end_date": "2026-05-16",
+   "lat": 20.688795,
+   "lon": 81.326088,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14255041",
+   "village": "Parreguda",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-15",
+   "end_date": "2026-05-16",
+   "lat": 20.688795,
+   "lon": 81.326088,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

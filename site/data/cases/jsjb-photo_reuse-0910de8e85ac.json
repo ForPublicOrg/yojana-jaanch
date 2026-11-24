@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-0910de8e85ac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Belargondi Alias Sattaitola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 940289e44291) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.49669, 81.057025).",
+  "All 2 works started and ended on the same day (2026-05-21).",
+  "The photo was uploaded 2 times within 24 seconds (2026-05-22 17:05:08 to 2026-05-22 17:05:32)."
+ ],
+ "photo": "photos/940289e44291b212082412aaab4e9f86ac5ca5f7f200b32a45e6738e2fb83ec3.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11225915",
+   "village": "Belargondi Alias Sattaitola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-21",
+   "lat": 20.49669,
+   "lon": 81.057025,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "11226185",
+   "village": "Belargondi Alias Sattaitola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-21",
+   "lat": 20.49669,
+   "lon": 81.057025,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

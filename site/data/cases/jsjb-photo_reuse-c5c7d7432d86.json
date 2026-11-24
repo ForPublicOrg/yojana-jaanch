@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-c5c7d7432d86",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Chikhlakasa",
+ "villages": [
+  "Subhashchandra Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 32e57c3a87f2) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/32e57c3a87f21528925745ed168e6f64c4fab7467c8bdb93a98814eeefc24231.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4919029",
+   "village": "Subhashchandra Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-10",
+   "lat": 20.594568,
+   "lon": 81.080966,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Chikhlakasa"
+  },
+  {
+   "record_id": "5132262",
+   "village": "Subhashchandra Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-15",
+   "lat": 20.594596,
+   "lon": 81.080981,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Chikhlakasa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

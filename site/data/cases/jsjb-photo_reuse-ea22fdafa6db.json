@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ea22fdafa6db",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Sanawara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4bd47340ff7d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (26.850076, 71.579257).",
+  "The photo was uploaded 2 times within 43 seconds (2026-05-29 16:38:29 to 2026-05-29 16:39:12)."
+ ],
+ "photo": "photos/4bd47340ff7d649725262b29bd167363377d9b52892bb89b2911e89c749d18aa.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14794319",
+   "village": "Sanawara",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-15",
+   "lat": 26.850076,
+   "lon": 71.579257,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "14794628",
+   "village": "Sanawara",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-01-15",
+   "lat": 26.850076,
+   "lon": 71.579257,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-097da286de2d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ffd04a10fd86) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.6901, 81.325008).",
+  "All 2 works started and ended on the same day (2025-06-01).",
+  "The photo was uploaded 2 times within 39 seconds (2026-05-20 11:33:53 to 2026-05-20 11:34:32)."
+ ],
+ "photo": "photos/ffd04a10fd861b89b154efd50fb8956a32d917b1e920e92b1a30658c967f14c3.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10335068",
+   "village": "Karka Bhat",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-01",
+   "lat": 20.6901,
+   "lon": 81.325008,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10335386",
+   "village": "Karka Bhat",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-01",
+   "lat": 20.6901,
+   "lon": 81.325008,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-82479610d397",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Adjal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6255bdca494c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.649026, 81.108986).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-27 12:19:08 to 2026-05-27 12:20:09)."
+ ],
+ "photo": "photos/6255bdca494c4a2bfc158bb6e692dda27f581dfdc008c478dfb3839f01a834fa.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13446118",
+   "village": "Adjal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-27",
+   "lat": 20.649026,
+   "lon": 81.108986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13446505",
+   "village": "Adjal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-21",
+   "end_date": "2026-05-27",
+   "lat": 20.649026,
+   "lon": 81.108986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

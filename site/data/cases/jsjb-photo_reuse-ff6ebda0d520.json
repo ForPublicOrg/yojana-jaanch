@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ff6ebda0d520",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jamruwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 94475f9f63fc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.685277, 81.276512)."
+ ],
+ "photo": "photos/94475f9f63fcbf7a87d80fea6f024580b03fa1ff3d53f5fed40108aa31200dd2.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1422019",
+   "village": "Jamruwa",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-03",
+   "lat": 20.685277,
+   "lon": 81.276512,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "1434511",
+   "village": "Jamruwa",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-03",
+   "lat": 20.685277,
+   "lon": 81.276512,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

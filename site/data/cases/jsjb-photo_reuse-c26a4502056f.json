@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c26a4502056f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cdb620bcc124) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (20.675872, 81.322029).",
+  "All 2 works started and ended on the same day (2026-04-29)."
+ ],
+ "photo": "photos/cdb620bcc124c3e93b70b094ad492f6e0ef2455cef079a2bc5d230be5d20d538.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7171742",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-29",
+   "end_date": "2026-04-29",
+   "lat": 20.675872,
+   "lon": 81.322029,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7195111",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-29",
+   "end_date": "2026-04-29",
+   "lat": 20.675872,
+   "lon": 81.322029,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

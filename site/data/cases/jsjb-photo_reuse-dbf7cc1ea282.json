@@ -1,0 +1,84 @@
+{
+ "id": "jsjb-photo_reuse-dbf7cc1ea282",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Baloda",
+  "Bamhani",
+  "Chiharo"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 6ae0a084cb96) is attached to 4 different works in 3 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Contour Trench (2), Other (2)."
+ ],
+ "photo": "photos/6ae0a084cb96ec17490e65994e4b444803ed9642a2f83222a9a056d7aae7c9a7.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "2118959",
+   "village": "Baloda",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.590264,
+   "lon": 81.245823,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2124215",
+   "village": "Bamhani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.449666,
+   "lon": 81.059857,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2124216",
+   "village": "Bamhani",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.449595,
+   "lon": 81.059786,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2156766",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2026-05-16",
+   "lat": 20.441278,
+   "lon": 81.224076,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4f199b7981a8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Maa Chandi Devi Ward",
+  "Rajiv Gandhi Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 230fa7926b5b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 58 seconds (2026-05-09 12:13:49 to 2026-05-09 12:14:47)."
+ ],
+ "photo": "photos/230fa7926b5b408708c8e3fe95fe1b19716fdcf4a409828649d4dab00b33493a.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8086755",
+   "village": "Rajiv Gandhi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-03",
+   "end_date": "2026-01-13",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8086990",
+   "village": "Maa Chandi Devi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-14",
+   "lat": 20.93,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

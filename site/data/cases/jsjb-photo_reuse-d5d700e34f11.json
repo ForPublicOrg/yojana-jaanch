@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-d5d700e34f11",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondilohara",
+ "villages": [
+  "Dr. Ambedkar Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1340c8fe889f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (20.786217, 81.058101).",
+  "The photo was uploaded 4 times within 4 seconds (2026-05-06 12:28:48 to 2026-05-06 12:28:52)."
+ ],
+ "photo": "photos/1340c8fe889f628d5faec445347921010dc4647f89607c2b5ff90186fd251760.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7563120",
+   "village": "Dr. Ambedkar Ward",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-30",
+   "lat": 20.786217,
+   "lon": 81.058101,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondilohara"
+  },
+  {
+   "record_id": "7563132",
+   "village": "Dr. Ambedkar Ward",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-30",
+   "lat": 20.786217,
+   "lon": 81.058101,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondilohara"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

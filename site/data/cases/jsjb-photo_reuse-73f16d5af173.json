@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-73f16d5af173",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Ghilaur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e42b69c0e749) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/e42b69c0e749b9cc04982ea80c3932eeec57ad91d94ff3dc9502a9f1486a2e6e.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4983599",
+   "village": "Ghilaur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 26.126,
+   "lon": 79.0625,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5222682",
+   "village": "Ghilaur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.121,
+   "lon": 79.1415,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

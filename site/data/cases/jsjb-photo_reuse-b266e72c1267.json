@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-b266e72c1267",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Himmatpur",
+  "Rathauranpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 8 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.026 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 5bcb75bcd125 on 1 work, aaaed81f7e3f on 1 work.",
+  "The works are recorded as: Check Dam (2).",
+  "The picture was uploaded 2 times within 4 minutes (2026-04-22 13:02:09 to 2026-04-22 13:06:00)."
+ ],
+ "photo": "photos/5bcb75bcd1255c44b8559f80751f24b52fcbcfa8eec13c1226d848fc98b9487c.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5248772",
+   "village": "Himmatpur",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2025-08-23",
+   "end_date": "2026-02-25",
+   "lat": 26.42,
+   "lon": 79.26,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5249221",
+   "village": "Rathauranpura",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2025-05-10",
+   "end_date": "2026-02-02",
+   "lat": 26.3563943,
+   "lon": 79.0994901,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "5bcb75bcd1255c44b8559f80751f24b52fcbcfa8eec13c1226d848fc98b9487c",
+   "records": 1
+  },
+  {
+   "sha256": "aaaed81f7e3f12b5d5a750a20427c485240e999fc8214123950034f11fa4b0f0",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-ed19c3a0879f"
+ ]
+}

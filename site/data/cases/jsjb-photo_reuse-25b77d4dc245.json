@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-25b77d4dc245",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Admudkasa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fd82acd6cfb0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.630297, 81.078945).",
+  "The photo was uploaded 2 times within 21 seconds (2026-05-28 06:10:18 to 2026-05-28 06:10:39)."
+ ],
+ "photo": "photos/fd82acd6cfb032025a2458e507d6fa6895f3d965324f80a26f074de760a6854c.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13983094",
+   "village": "Admudkasa",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-24",
+   "end_date": "2026-05-27",
+   "lat": 20.630297,
+   "lon": 81.078945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13983480",
+   "village": "Admudkasa",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-24",
+   "end_date": "2026-05-27",
+   "lat": 20.630297,
+   "lon": 81.078945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-dcb85cbb63ae",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Aidalpur",
+  "Churkhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d7d73669d04a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Nala Bund (1).",
+  "These works are spread over 2 blocks: Jalaun, Maheva."
+ ],
+ "photo": "photos/d7d73669d04a390fe9f07032bab32349b82de948bbeffa7e9d6a7b01cef79da8.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5204610",
+   "village": "Aidalpur",
+   "structure_type": "Nala Bund",
+   "created_by": "District Magistrate",
+   "start_date": "2024-04-08",
+   "end_date": "2025-08-08",
+   "lat": 26.12535629,
+   "lon": 79.4494003,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Jalaun"
+  },
+  {
+   "record_id": "5217401",
+   "village": "Churkhi",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-13",
+   "end_date": "2026-03-31",
+   "lat": 26.147308,
+   "lon": 79.513221,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

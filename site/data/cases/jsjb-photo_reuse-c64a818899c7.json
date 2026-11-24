@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c64a818899c7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karahibhadar",
+  "Newari Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 274df6c2dc61) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/274df6c2dc61eb44289184b81cdd92f1395fcd4317db7059192fca73bedc5b38.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "495303",
+   "village": "Newari Kalan",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2023-03-20",
+   "end_date": "2026-05-22",
+   "lat": 20.780893,
+   "lon": 81.231557,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4486485",
+   "village": "Karahibhadar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-04-09",
+   "end_date": "2026-05-22",
+   "lat": 20.694371,
+   "lon": 81.302448,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

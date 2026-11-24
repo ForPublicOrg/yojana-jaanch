@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-488bf44b5fd2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Akniwa",
+  "Anghaura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d26839937750) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 3 times within 4 minutes (2026-04-21 11:09:03 to 2026-04-21 11:12:48)."
+ ],
+ "photo": "photos/d2683993775059a038508e4fc386c8b707641f6744eaa4e53be4ce8edc636407.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5179543",
+   "village": "Akniwa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 26.02363,
+   "lon": 79.01214,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5179829",
+   "village": "Anghaura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-15",
+   "lat": 26.0233,
+   "lon": 79.0123,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

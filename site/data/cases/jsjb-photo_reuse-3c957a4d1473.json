@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-3c957a4d1473",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Asupura",
+  "Chamend",
+  "Ingui Khurd"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 3be559324bac) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/3be559324bac247037410a66180205bd09cba6a74804dae458de3434798101ed.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5273588",
+   "village": "Asupura",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-24",
+   "end_date": "2026-04-30",
+   "lat": 26.0321,
+   "lon": 79.2309,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "6996554",
+   "village": "Chamend",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-23",
+   "end_date": "2026-04-30",
+   "lat": 25.9852,
+   "lon": 79.0793,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "7092302",
+   "village": "Ingui Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-17",
+   "end_date": "2026-04-30",
+   "lat": 25.8521,
+   "lon": 79.1302,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

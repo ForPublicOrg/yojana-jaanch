@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ea565877da67",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Khairtarai",
+  "Pondi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6cd007ada280) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/6cd007ada280cfc041b5e137fef11128943f956e7ad33dd018ec2a2557d5b7b2.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4649639",
+   "village": "Khairtarai",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-09",
+   "end_date": "2026-05-22",
+   "lat": 20.748998,
+   "lon": 81.196981,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11377098",
+   "village": "Pondi",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-16",
+   "end_date": "2026-05-22",
+   "lat": 20.764792,
+   "lon": 81.282813,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

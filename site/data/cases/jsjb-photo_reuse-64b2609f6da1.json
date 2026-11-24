@@ -1,0 +1,68 @@
+{
+ "id": "jsjb-photo_reuse-64b2609f6da1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Chikhlakasa",
+ "villages": [
+  "Subhashchandra Ward"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint f645308ea06b) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (2), Soak Pit (1)."
+ ],
+ "photo": "photos/f645308ea06b6f9ffac05b268cbb69728c3efe005ef9d1a6def849d066a4af85.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5070769",
+   "village": "Subhashchandra Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-10",
+   "lat": 20.59447,
+   "lon": 81.081256,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Chikhlakasa"
+  },
+  {
+   "record_id": "5071150",
+   "village": "Subhashchandra Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-10",
+   "lat": 20.594476,
+   "lon": 81.0812566,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Chikhlakasa"
+  },
+  {
+   "record_id": "5131638",
+   "village": "Subhashchandra Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-09",
+   "end_date": "2026-04-21",
+   "lat": 20.5944765,
+   "lon": 81.0812566,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Chikhlakasa"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-351c765accbb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Suganpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 19b2752e7a3e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "The photo was uploaded 4 times within 19 minutes (2026-05-29 18:02:50 to 2026-05-29 18:21:17)."
+ ],
+ "photo": "photos/19b2752e7a3e5c19ecd4ef17122a3146d0f0bf0840c1e81a13b154cc2cc60af0.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14814163",
+   "village": "Suganpura",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-06-01",
+   "end_date": "2026-03-31",
+   "lat": 26.883268,
+   "lon": 71.782699,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "14819473",
+   "village": "Suganpura",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-06-01",
+   "end_date": "2026-03-31",
+   "lat": 26.88165,
+   "lon": 71.79692,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

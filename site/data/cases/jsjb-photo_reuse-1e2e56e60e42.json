@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-1e2e56e60e42",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Jugrajpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 72248476e1c6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 7 minutes (2026-04-21 12:47:10 to 2026-04-21 12:54:09)."
+ ],
+ "photo": "photos/72248476e1c6c07b10c99f6257b258da11687d4e25f1eba4f76c88a71230d0a0.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5188852",
+   "village": "Jugrajpura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-01",
+   "lat": 26.113115,
+   "lon": 79.1299833,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5189552",
+   "village": "Jugrajpura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-04-01",
+   "end_date": "2025-06-01",
+   "lat": 26.111778,
+   "lon": 79.1319395,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

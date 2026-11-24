@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-2a016aa267b1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Tekapar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0ecd91d234e3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.765321, 81.246204).",
+  "All 2 works started and ended on the same day (2026-05-28).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-28 07:06:06 to 2026-05-28 07:07:09)."
+ ],
+ "photo": "photos/0ecd91d234e3d1b474e01b3a061eb3cef152c26d7ceea1a15d460645b6e6b557.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14052919",
+   "village": "Tekapar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.765321,
+   "lon": 81.246204,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14053522",
+   "village": "Tekapar",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.765321,
+   "lon": 81.246204,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

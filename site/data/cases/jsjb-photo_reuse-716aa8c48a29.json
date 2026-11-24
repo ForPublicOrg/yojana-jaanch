@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-716aa8c48a29",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Madhogarh",
+ "villages": [
+  "Maharajpura",
+  "Mihauni",
+  "Puranpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ec38c4f654b2) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (3).",
+  "The photo was uploaded 3 times within 22 minutes (2026-03-25 14:25:48 to 2026-03-25 14:47:14)."
+ ],
+ "photo": "photos/ec38c4f654b2693abef51cadf21eecb360896946b84d90419ba9dcc2d9231a9a.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4239647",
+   "village": "Maharajpura",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-20",
+   "end_date": "2026-04-10",
+   "lat": 26.320262,
+   "lon": 79.1213837,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4240395",
+   "village": "Mihauni",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-18",
+   "end_date": "2026-03-20",
+   "lat": 26.3039361,
+   "lon": 79.179361,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4240829",
+   "village": "Puranpura",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-27",
+   "end_date": "2026-03-25",
+   "lat": 26.3180216,
+   "lon": 79.1779557,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

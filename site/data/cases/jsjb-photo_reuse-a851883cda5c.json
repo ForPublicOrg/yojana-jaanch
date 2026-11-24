@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a851883cda5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Tamora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 70eb95840d65) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (2).",
+  "All 2 works report the same GPS point (20.772245, 81.378932)."
+ ],
+ "photo": "photos/70eb95840d65c5e9aab32cf4ac353d7c324ed49e14d2cf000626c499f27df549.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14172230",
+   "village": "Tamora",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-15",
+   "end_date": "2026-04-15",
+   "lat": 20.772245,
+   "lon": 81.378932,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14770285",
+   "village": "Tamora",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-20",
+   "end_date": "2026-04-21",
+   "lat": 20.772245,
+   "lon": 81.378932,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

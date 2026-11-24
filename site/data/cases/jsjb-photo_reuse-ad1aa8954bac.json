@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ad1aa8954bac",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bharitola",
+  "Bharritola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 680636697fcd) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/680636697fcd1822d4b087714483326c7e964b1f983638c4a0d372d482a58d37.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5497318",
+   "village": "Bharitola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-23",
+   "end_date": "2026-04-25",
+   "lat": 20.515499,
+   "lon": 81.155282,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "14753978",
+   "village": "Bharritola",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-27",
+   "end_date": "2026-05-29",
+   "lat": 20.51,
+   "lon": 81.15,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

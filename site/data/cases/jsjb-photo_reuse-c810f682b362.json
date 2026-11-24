@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c810f682b362",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Malgaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 969440255859) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.609258, 81.217842).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-31 05:35:23 to 2026-05-31 05:36:58)."
+ ],
+ "photo": "photos/969440255859dc73e1f99d3e5c5a41a460f4447b654dd8f894acd980b60075cc.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "15823598",
+   "village": "Malgaon",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.609258,
+   "lon": 81.217842,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "15825470",
+   "village": "Malgaon",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.609258,
+   "lon": 81.217842,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

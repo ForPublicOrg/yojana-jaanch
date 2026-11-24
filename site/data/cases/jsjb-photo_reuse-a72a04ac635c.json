@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a72a04ac635c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Chacha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6cd22af9129c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.985817, 71.742555).",
+  "The photo was uploaded 4 times within 5 minutes (2026-05-31 22:06:47 to 2026-05-31 22:10:50)."
+ ],
+ "photo": "photos/6cd22af9129ca0897dd68649a918d1988f224288afa3820e4616264980f9635a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "16456337",
+   "village": "Chacha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-08-01",
+   "end_date": "2026-02-28",
+   "lat": 26.985817,
+   "lon": 71.742555,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "16460252",
+   "village": "Chacha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2025-08-01",
+   "end_date": "2026-02-28",
+   "lat": 26.985817,
+   "lon": 71.742555,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

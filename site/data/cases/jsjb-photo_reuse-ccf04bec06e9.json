@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ccf04bec06e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Parekibhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6e0b5b5610cc) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.74985, 81.246274)."
+ ],
+ "photo": "photos/6e0b5b5610cce7fc6441e594baae97ba437d127997424f612e53636e8b760315.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5390177",
+   "village": "Parekibhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-01",
+   "end_date": "2026-03-16",
+   "lat": 20.74985,
+   "lon": 81.246274,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7344623",
+   "village": "Parekibhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-02",
+   "end_date": "2026-04-10",
+   "lat": 20.74985,
+   "lon": 81.246274,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-49b3409d590f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Siyambar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2d42bb3aaeb0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Village Pond (1).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/2d42bb3aaeb0553f19301521d7ca47f28188dd4570d58e708647b6591f99d461.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3144945",
+   "village": "Siyambar",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-07-10",
+   "end_date": "2025-08-07",
+   "lat": 27.024423,
+   "lon": 70.4587841,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "8605972",
+   "village": "Siyambar",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-08-05",
+   "end_date": "2025-08-06",
+   "lat": 27.0747581,
+   "lon": 70.4266406,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

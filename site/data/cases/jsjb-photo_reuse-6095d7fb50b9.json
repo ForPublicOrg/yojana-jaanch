@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-6095d7fb50b9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Arjunda",
+ "villages": [
+  "Maa Mahamaya Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f028ddef4661) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.947001, 81.200447).",
+  "The photo was uploaded 4 times within 3 minutes (2026-04-23 11:21:14 to 2026-04-23 11:23:39)."
+ ],
+ "photo": "photos/f028ddef4661e1c128b687098c6ceddce8eedb4e2b4742319f98aa7f01952007.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5303563",
+   "village": "Maa Mahamaya Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-07-09",
+   "end_date": "2025-07-18",
+   "lat": 20.947001,
+   "lon": 81.200447,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Arjunda"
+  },
+  {
+   "record_id": "5303808",
+   "village": "Maa Mahamaya Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-11-16",
+   "end_date": "2025-12-06",
+   "lat": 20.947001,
+   "lon": 81.200447,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Arjunda"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

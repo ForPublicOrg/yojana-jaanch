@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-29a58e412706",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Madasar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 8f192a8c0444) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Defunct Bore-Well (2).",
+  "All 2 works report the same GPS point (26.10795, 71.890175)."
+ ],
+ "photo": "photos/8f192a8c044451d5279fe656848968e3fc1b017e01a37a444675fbb83114d899.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8619097",
+   "village": "Madasar",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-05-07",
+   "end_date": "2025-09-02",
+   "lat": 26.10795,
+   "lon": 71.890175,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "8619098",
+   "village": "Madasar",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-05-07",
+   "end_date": "2025-09-02",
+   "lat": 26.10795,
+   "lon": 71.890175,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-1e35429e2ae6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Madhogarh",
+ "villages": [
+  "Atagaon",
+  "Sirsadogarhi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b2a3c56eeb08) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 2 times within 15 minutes (2026-03-25 14:22:23 to 2026-03-25 14:36:27)."
+ ],
+ "photo": "photos/b2a3c56eeb08cf3e3ea3f4e07c134523a8dc2b8d6108934af0b96c29e941a4e3.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4239422",
+   "village": "Atagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-23",
+   "end_date": "2026-04-10",
+   "lat": 26.2274191,
+   "lon": 79.2059946,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4240229",
+   "village": "Sirsadogarhi",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-23",
+   "end_date": "2026-03-25",
+   "lat": 26.2135419,
+   "lon": 79.2187223,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

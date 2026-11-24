@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-b2d8670ce1dc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b021e9efd7b4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bench Terracing (2).",
+  "All 2 works report the same GPS point (20.685976, 81.328253).",
+  "All 2 works started and ended on the same day (2026-05-14).",
+  "The photo was uploaded 4 times within 21 seconds (2026-05-18 14:41:29 to 2026-05-18 14:41:50)."
+ ],
+ "photo": "photos/b021e9efd7b4f42b8790a036f107fbcd9c24115c332b157020566ab871a81e44.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "9953228",
+   "village": "Karka Bhat",
+   "structure_type": "Bench Terracing",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-14",
+   "end_date": "2026-05-14",
+   "lat": 20.685976,
+   "lon": 81.328253,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "9953293",
+   "village": "Karka Bhat",
+   "structure_type": "Bench Terracing",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-14",
+   "end_date": "2026-05-14",
+   "lat": 20.685976,
+   "lon": 81.328253,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

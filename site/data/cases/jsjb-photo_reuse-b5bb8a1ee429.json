@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b5bb8a1ee429",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kuthaund",
+ "villages": [
+  "Bariyapur",
+  "Bastepur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint adbd425da0da) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/adbd425da0da2e0124c5225d21fbbace08badb2be15e33b3acb2f683a151f869.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5194323",
+   "village": "Bastepur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-03-25",
+   "end_date": "2025-06-01",
+   "lat": 26.2882188,
+   "lon": 79.3800069,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "5194606",
+   "village": "Bariyapur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-02-09",
+   "end_date": "2025-06-01",
+   "lat": 26.0,
+   "lon": 79.0,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

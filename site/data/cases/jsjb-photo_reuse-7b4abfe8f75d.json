@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7b4abfe8f75d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Gangthra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 55e6f84140ca) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-21 12:35:14 to 2026-04-21 12:36:55)."
+ ],
+ "photo": "photos/55e6f84140ca69a9602002aa081c64573188f0e31718321338227a583dbab3cb.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5187624",
+   "village": "Gangthra",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-02",
+   "end_date": "2026-03-20",
+   "lat": 26.041266,
+   "lon": 79.070154,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5187809",
+   "village": "Gangthra",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-02",
+   "end_date": "2026-03-20",
+   "lat": 26.42163,
+   "lon": 79.031547,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

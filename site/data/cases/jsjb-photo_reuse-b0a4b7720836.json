@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-b0a4b7720836",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Baghmara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b4e1e70c8906) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.749161, 81.220441)."
+ ],
+ "photo": "photos/b4e1e70c8906587299789866738387d50160d40317d5e15b6c19440320ab0dbc.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4805699",
+   "village": "Baghmara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-01-08",
+   "end_date": "2026-01-09",
+   "lat": 20.749161,
+   "lon": 81.220441,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11041136",
+   "village": "Baghmara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-15",
+   "lat": 20.749161,
+   "lon": 81.220441,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

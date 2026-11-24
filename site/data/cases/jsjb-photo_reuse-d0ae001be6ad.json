@@ -1,0 +1,69 @@
+{
+ "id": "jsjb-photo_reuse-d0ae001be6ad",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Devinawagaon"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint ef8f175636d1) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Soak Pit (2), Recharge Pit (1).",
+  "All 3 works report the same GPS point (20.793382, 81.230118)."
+ ],
+ "photo": "photos/ef8f175636d1f6ea52e61ca12537212929b834d3f9ec6aa90f6f11642f03fd14.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13423109",
+   "village": "Devinawagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-15",
+   "end_date": "2026-05-16",
+   "lat": 20.793382,
+   "lon": 81.230118,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14062090",
+   "village": "Devinawagaon",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.793382,
+   "lon": 81.230118,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14063106",
+   "village": "Devinawagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.793382,
+   "lon": 81.230118,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:53:20+00:00",
+ "generated_at": "2026-11-19T04:57:18+00:00",
  "checks_run": [
   "photo_reuse",
   "same_gps",
@@ -18,19 +18,19 @@
     "upload_burst"
    ],
    "photo_match": {
-    "photos": 112482,
-    "photos_with_hash": 105670,
-    "low_information": 1087,
+    "photos": 160334,
+    "photos_with_hash": 160330,
+    "low_information": 1613,
     "near_matching": true,
     "max_distance": 8,
     "max_mad": 0.03,
     "max_aspect_gap": 0.01,
-    "files_merged": 1569,
-    "pictures": 768,
+    "files_merged": 2340,
+    "pictures": 1144,
     "largest_distance": 8,
     "largest_mad": 0.0298,
-    "placeholder_cases": 7,
-    "placeholder_records": 630
+    "placeholder_cases": 9,
+    "placeholder_records": 634
    }
   }
  ],
@@ -331,6 +331,96 @@
    "villages_checked": 35,
    "records_checked": 16,
    "photos_checked": 17
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Arjunda",
+   "villages_checked": 15,
+   "records_checked": 344,
+   "photos_checked": 324
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Balod",
+   "villages_checked": 111,
+   "records_checked": 32042,
+   "photos_checked": 24505
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Chikhlakasa",
+   "villages_checked": 12,
+   "records_checked": 324,
+   "photos_checked": 234
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Dalli Rajhara",
+   "villages_checked": 27,
+   "records_checked": 307,
+   "photos_checked": 235
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Dondi",
+   "villages_checked": 41,
+   "records_checked": 24671,
+   "photos_checked": 18328
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Dondilohara",
+   "villages_checked": 15,
+   "records_checked": 332,
+   "photos_checked": 314
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Gunderdehi",
+   "villages_checked": 15,
+   "records_checked": 343,
+   "photos_checked": 243
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Gurur",
+   "villages_checked": 15,
+   "records_checked": 228,
+   "photos_checked": 112
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Palari",
+   "villages_checked": 15,
+   "records_checked": 6,
+   "photos_checked": 10
+  },
+  {
+   "scheme": "jsjb",
+   "state": "CHHATTISGARH",
+   "district": "Balod",
+   "block": "Palari.",
+   "villages_checked": 1,
+   "records_checked": 0,
+   "photos_checked": 0
   },
   {
    "scheme": "jsjb",
@@ -1498,7 +1588,7 @@
    "state": "Rajasthan",
    "district": "Jaisalmer",
    "block": "Bhaniyana",
-   "villages_checked": 86,
+   "villages_checked": 177,
    "records_checked": 369,
    "photos_checked": 441
   },
@@ -1507,7 +1597,7 @@
    "state": "Rajasthan",
    "district": "Jaisalmer",
    "block": "Fatehgarh",
-   "villages_checked": 74,
+   "villages_checked": 115,
    "records_checked": 277,
    "photos_checked": 404
   },
@@ -1516,7 +1606,7 @@
    "state": "Rajasthan",
    "district": "Jaisalmer",
    "block": "Jaisalmer",
-   "villages_checked": 106,
+   "villages_checked": 144,
    "records_checked": 369,
    "photos_checked": 514
   },
@@ -1525,9 +1615,18 @@
    "state": "Rajasthan",
    "district": "Jaisalmer",
    "block": "Mohangarh",
-   "villages_checked": 40,
-   "records_checked": 318,
-   "photos_checked": 374
+   "villages_checked": 83,
+   "records_checked": 371,
+   "photos_checked": 459
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Nachana",
+   "villages_checked": 80,
+   "records_checked": 116,
+   "photos_checked": 186
   },
   {
    "scheme": "jsjb",
@@ -1546,6 +1645,24 @@
    "villages_checked": 1,
    "records_checked": 0,
    "photos_checked": 0
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Sam",
+   "villages_checked": 230,
+   "records_checked": 569,
+   "photos_checked": 694
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "block": "Sankra",
+   "villages_checked": 102,
+   "records_checked": 432,
+   "photos_checked": 515
   },
   {
    "scheme": "jsjb",
@@ -2839,9 +2956,9 @@
    "state": "Uttar Pradesh",
    "district": "Jalaun",
    "block": "Kadaura",
-   "villages_checked": 35,
-   "records_checked": 53,
-   "photos_checked": 28
+   "villages_checked": 120,
+   "records_checked": 14475,
+   "photos_checked": 920
   },
   {
    "scheme": "jsjb",
@@ -2854,12 +2971,12 @@
   },
   {
    "scheme": "jsjb",
-   "state": "UTTAR PRADESH",
+   "state": "Uttar Pradesh",
    "district": "Jalaun",
    "block": "Konch",
-   "villages_checked": 25,
-   "records_checked": 0,
-   "photos_checked": 0
+   "villages_checked": 146,
+   "records_checked": 8652,
+   "photos_checked": 808
   },
   {
    "scheme": "jsjb",
@@ -2872,21 +2989,39 @@
   },
   {
    "scheme": "jsjb",
-   "state": "UTTAR PRADESH",
+   "state": "Uttar Pradesh",
    "district": "Jalaun",
-   "block": "Madhogarh",
-   "villages_checked": 10,
-   "records_checked": 0,
-   "photos_checked": 0
+   "block": "Kuthaund",
+   "villages_checked": 143,
+   "records_checked": 2603,
+   "photos_checked": 1033
   },
   {
    "scheme": "jsjb",
-   "state": "UTTAR PRADESH",
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "block": "Madhogarh",
+   "villages_checked": 104,
+   "records_checked": 49,
+   "photos_checked": 42
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "block": "Maheva",
+   "villages_checked": 131,
+   "records_checked": 4663,
+   "photos_checked": 1014
+  },
+  {
+   "scheme": "jsjb",
+   "state": "Uttar Pradesh",
    "district": "Jalaun",
    "block": "Nadigaon",
-   "villages_checked": 10,
-   "records_checked": 0,
-   "photos_checked": 0
+   "villages_checked": 207,
+   "records_checked": 162,
+   "photos_checked": 118
   },
   {
    "scheme": "jsjb",
@@ -2899,12 +3034,12 @@
   },
   {
    "scheme": "jsjb",
-   "state": "UTTAR PRADESH",
+   "state": "Uttar Pradesh",
    "district": "Jalaun",
    "block": "Rampura",
-   "villages_checked": 10,
-   "records_checked": 0,
-   "photos_checked": 0
+   "villages_checked": 94,
+   "records_checked": 171,
+   "photos_checked": 199
   },
   {
    "scheme": "jsjb",
@@ -3190,9 +3325,14 @@
    "cases": 1
   },
   {
+   "state": "Chhattisgarh",
+   "file": "data/index/chhattisgarh.json",
+   "cases": 6341
+  },
+  {
    "state": "Karnataka",
    "file": "data/index/karnataka.json",
-   "cases": 2240
+   "cases": 2242
   },
   {
    "state": "Madhya Pradesh",
@@ -3207,7 +3347,7 @@
   {
    "state": "Rajasthan",
    "file": "data/index/rajasthan.json",
-   "cases": 2072
+   "cases": 2176
   },
   {
    "state": "Tamil Nadu",
@@ -3217,31 +3357,31 @@
   {
    "state": "Uttar Pradesh",
    "file": "data/index/uttar-pradesh.json",
-   "cases": 1795
+   "cases": 3683
   }
  ],
- "total": 25569,
- "villages_with_case": 12221,
+ "total": 33904,
+ "villages_with_case": 13095,
  "kinds": [
   {
    "scheme": "jsjb",
    "kind": "photo_reuse",
-   "n": 21425
+   "n": 26894
   },
   {
    "scheme": "jsjb",
    "kind": "same_day",
-   "n": 161
+   "n": 218
   },
   {
    "scheme": "jsjb",
    "kind": "same_gps",
-   "n": 690
+   "n": 1264
   },
   {
    "scheme": "jsjb",
    "kind": "upload_burst",
-   "n": 3293
+   "n": 5528
   }
  ],
  "top": [
@@ -3404,63 +3544,65 @@
    "needs_human_review": false
   },
   {
-   "id": "jsjb-photo_reuse-f239cc51bc93",
+   "id": "jsjb-photo_reuse-1ac387fdfcbd",
    "scheme": "jsjb",
    "kind": "photo_reuse",
-   "headline": "One photo, 448 different works",
-   "state": "Punjab",
-   "district": "Amritsar",
-   "block": "Attari",
+   "headline": "One photo, 790 different works",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Balod",
    "villages": [
-    "Khassa"
+    "Chichbod",
+    "Deur Tarai",
+    "Talgaon"
    ],
-   "record_count": 448,
-   "photo": "photos/0b719c63cad7ca7878e10431f9c6789e1919b51698241ff06dd543c5d14c5270.jpg",
+   "record_count": 790,
+   "photo": "photos/31b8bc5f3167e20507d2bae5f7b7d330681dae801950475c6806c54614ed4338.jpg",
    "offices": [
-    "DFO office"
+    "Collector & District Magistrate"
    ],
    "records": [
     {
-     "record_id": "5410072"
+     "record_id": "1590677"
     },
     {
-     "record_id": "5411967"
+     "record_id": "1590759"
     },
     {
-     "record_id": "5412548"
+     "record_id": "1591723"
     }
    ],
-   "severity": 1345,
+   "severity": 2370,
    "needs_human_review": false
   },
   {
-   "id": "jsjb-photo_reuse-1dc07f513520",
+   "id": "jsjb-same_day-0764b061eff3",
    "scheme": "jsjb",
-   "kind": "photo_reuse",
-   "headline": "One photo, 376 different works",
-   "state": "Punjab",
-   "district": "Amritsar",
-   "block": "Verka",
+   "kind": "same_day",
+   "headline": "1590 works in Karka Bhat each started and finished within one day",
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "block": "Balod",
    "villages": [
-    "Othian"
+    "Karka Bhat"
    ],
-   "record_count": 376,
-   "photo": "photos/604700c4f9007708f663c9fcee5bc94a8a680a7c8b66a6d48b354e560a39be94.jpg",
+   "record_count": 1590,
+   "photo": null,
    "offices": [
-    "DFO office"
+    "Collector & District Magistrate"
    ],
    "records": [
     {
-     "record_id": "8100165"
+     "record_id": "6302425"
     },
     {
-     "record_id": "8100344"
+     "record_id": "6302531"
     },
     {
-     "record_id": "8100405"
+     "record_id": "6302669"
     }
    ],
-   "severity": 1129,
+   "severity": 1590,
    "needs_human_review": false
   }
  ]

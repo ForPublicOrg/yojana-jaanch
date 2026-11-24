@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-d682398023fc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bamhani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 540fc8c8a61d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.451392, 81.039305).",
+  "The photo was uploaded 2 times within 35 seconds (2026-05-12 13:41:44 to 2026-05-12 13:42:19)."
+ ],
+ "photo": "photos/540fc8c8a61dc370f93230e5f7c650aae9d98586e9bcaa4c75af0c019ca02b28.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8684563",
+   "village": "Bamhani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-08",
+   "lat": 20.451392,
+   "lon": 81.039305,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "8684649",
+   "village": "Bamhani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-08",
+   "lat": 20.451392,
+   "lon": 81.039305,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

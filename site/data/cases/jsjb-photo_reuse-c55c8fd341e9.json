@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-c55c8fd341e9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Baba Sayeed Ali Ward",
+  "Mini Mata Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7572cb7a7981) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/7572cb7a798119483e49787e77cd8c26465edbb9bd0e75ff0241464aeb5fc384.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5070180",
+   "village": "Mini Mata Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-12",
+   "lat": 20.93,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8123892",
+   "village": "Baba Sayeed Ali Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-15",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

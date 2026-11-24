@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-41eadf59d9eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Awari"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 83357c45aa30 on 2 works, 0dfc40027ba1 on 1 work.",
+  "The works are recorded as: Soak Pit (3)."
+ ],
+ "photo": "photos/83357c45aa30ff70ca9975af1e8a8337a785d503e04747246bdfef5b5ea9a6ca.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4027975",
+   "village": "Awari",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-15",
+   "end_date": "2025-10-12",
+   "lat": 20.462013,
+   "lon": 81.09116,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "4187725",
+   "village": "Awari",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2025-08-12",
+   "lat": 20.462013,
+   "lon": 81.09116,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "10206950",
+   "village": "Awari",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-10",
+   "end_date": "2026-04-24",
+   "lat": 20.45735,
+   "lon": 81.08538,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "83357c45aa30ff70ca9975af1e8a8337a785d503e04747246bdfef5b5ea9a6ca",
+   "records": 2
+  },
+  {
+   "sha256": "0dfc40027ba123fde0efbcf5780b86fe3ebaeb0cc2ff4210bef2cf8a752d03d5",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-c6191ac92928"
+ ]
+}

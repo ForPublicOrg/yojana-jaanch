@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-13f236c848ab",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Borkee"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e2ab980bbeed) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "All 2 works report the same GPS point (20.7637767, 81.284465)."
+ ],
+ "photo": "photos/e2ab980bbeed681cb89116a70682dd2321809b0282bdbf1b38b570a38574aaaf.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10324672",
+   "village": "Borkee",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-21",
+   "end_date": "2026-04-22",
+   "lat": 20.7637767,
+   "lon": 81.284465,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14131740",
+   "village": "Borkee",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.7637767,
+   "lon": 81.284465,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

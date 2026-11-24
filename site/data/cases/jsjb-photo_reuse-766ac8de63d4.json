@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-766ac8de63d4",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Lohai Mustakil",
+  "Soharapur Kalpi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 8b526029ee43) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Contour Trench (3).",
+  "These works are spread over 2 blocks: Kuthaund, Maheva."
+ ],
+ "photo": "photos/8b526029ee43d678debd5395dfd8e2a6468cdc8869a15de6d15064a59fd33d19.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8662419",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "8952375",
+   "village": "Lohai Mustakil",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.322472,
+   "lon": 79.494108,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "11792804",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

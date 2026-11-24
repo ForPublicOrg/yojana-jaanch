@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3047ce639d8d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gurur",
+ "villages": [
+  "Deyur Mandir Ward",
+  "Mahatma Gandhi Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c7d00faa3100) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/c7d00faa3100b35dec62e122aaa0e3f2b8e0832e64379d2e585f8d32fc992d62.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4553784",
+   "village": "Deyur Mandir Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-02-25",
+   "end_date": "2026-01-20",
+   "lat": 20.680759,
+   "lon": 81.398986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "4566433",
+   "village": "Mahatma Gandhi Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-01-08",
+   "end_date": "2026-03-18",
+   "lat": 20.6830722,
+   "lon": 81.4006073,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

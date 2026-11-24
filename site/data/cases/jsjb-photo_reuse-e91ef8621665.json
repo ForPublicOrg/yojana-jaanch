@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-e91ef8621665",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Siyambar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 1f922a071827) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2)."
+ ],
+ "photo": "photos/1f922a071827953f92c10d94fe0c31784bd27a6fbf07c53813eb7be2f0b681f5.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "6314315",
+   "village": "Siyambar",
+   "structure_type": "Check Dam",
+   "created_by": "BDO",
+   "start_date": "2025-01-05",
+   "end_date": "2026-03-23",
+   "lat": 27.03475,
+   "lon": 70.4875,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "6317999",
+   "village": "Siyambar",
+   "structure_type": "Check Dam",
+   "created_by": "BDO",
+   "start_date": "2024-08-08",
+   "end_date": "2026-03-23",
+   "lat": 27.13891,
+   "lon": 70.5384,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fa4352fb00af",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chiharo"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b0078178da89) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (20.443169, 81.211895).",
+  "The photo was uploaded 2 times within 10 seconds (2026-05-11 15:06:03 to 2026-05-11 15:06:13)."
+ ],
+ "photo": "photos/b0078178da89bd3ed010bf1291750be15df7fc3b7e3acad5f3af5c937dc2cd6f.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8480706",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-01",
+   "end_date": "2026-05-04",
+   "lat": 20.443169,
+   "lon": 81.211895,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "8480733",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-01",
+   "end_date": "2026-05-04",
+   "lat": 20.443169,
+   "lon": 81.211895,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

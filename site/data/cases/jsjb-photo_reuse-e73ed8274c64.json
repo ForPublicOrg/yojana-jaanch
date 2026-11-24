@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-e73ed8274c64",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Akniwa",
+  "Sikandrapur",
+  "Sulakhna"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 9774e3c2f391) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (3)."
+ ],
+ "photo": "photos/9774e3c2f3913086a1b9dcbbd55444b33f33504d3aceaafccee57d7aef5a9866.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5198810",
+   "village": "Sulakhna",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-03-20",
+   "lat": 26.06682,
+   "lon": 79.08745,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5204506",
+   "village": "Sikandrapur",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-01",
+   "lat": 26.052,
+   "lon": 79.0155,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5204929",
+   "village": "Akniwa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-04-20",
+   "lat": 26.09952,
+   "lon": 79.08874,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

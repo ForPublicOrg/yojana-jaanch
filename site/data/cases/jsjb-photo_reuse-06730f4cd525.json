@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-06730f4cd525",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Nipani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2e5bac18621f) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.760065, 81.344135).",
+  "The photo was uploaded 4 times within 1 second (2026-04-05 14:53:04 to 2026-04-05 14:53:05)."
+ ],
+ "photo": "photos/2e5bac18621fa3faed5f90235088385eb1377e96bf30d692896d3fea94c5ee2e.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4495743",
+   "village": "Nipani",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-24",
+   "end_date": "2026-03-11",
+   "lat": 20.760065,
+   "lon": 81.344135,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4495744",
+   "village": "Nipani",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-24",
+   "end_date": "2026-03-11",
+   "lat": 20.760065,
+   "lon": 81.344135,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

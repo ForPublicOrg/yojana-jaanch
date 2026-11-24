@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-7ec789bbe9cf",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Mirzapur Jagir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ee7dae9e03dd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Village Pond (1).",
+  "All 2 works report the same GPS point (26.3895609, 79.1064359)."
+ ],
+ "photo": "photos/ee7dae9e03dd45cbd699f45ee3573798c71e76076d1cb462385720eb9cfc7c72.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5151991",
+   "village": "Mirzapur Jagir",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2022-01-05",
+   "end_date": "2022-03-10",
+   "lat": 26.3895609,
+   "lon": 79.1064359,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5160950",
+   "village": "Mirzapur Jagir",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2022-01-05",
+   "end_date": "2022-03-10",
+   "lat": 26.3895609,
+   "lon": 79.1064359,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

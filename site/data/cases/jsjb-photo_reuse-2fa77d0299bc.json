@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-2fa77d0299bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Kannewada"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d9043151c01e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.696004, 81.309867).",
+  "The photo was uploaded 4 times within 2 seconds (2026-04-09 21:18:26 to 2026-04-09 21:18:28)."
+ ],
+ "photo": "photos/d9043151c01eb19550c7a90e2c16576d5d643b4aff1c73dd27167303b7d40c84.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4663466",
+   "village": "Kannewada",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-27",
+   "end_date": "2026-03-05",
+   "lat": 20.696004,
+   "lon": 81.309867,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4663468",
+   "village": "Kannewada",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-27",
+   "end_date": "2026-03-05",
+   "lat": 20.696004,
+   "lon": 81.309867,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

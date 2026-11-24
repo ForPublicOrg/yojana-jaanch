@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-51a94b627b45",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Khetolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bf6effbd41d1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (27.023521, 71.713234)."
+ ],
+ "photo": "photos/bf6effbd41d15bd06c4c97229822732f0040e68c2939b3509b925f7269800506.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15093970",
+   "village": "Khetolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-17",
+   "end_date": "2025-06-27",
+   "lat": 27.023521,
+   "lon": 71.713234,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "15885411",
+   "village": "Khetolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-12",
+   "end_date": "2025-06-21",
+   "lat": 27.023521,
+   "lon": 71.713234,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

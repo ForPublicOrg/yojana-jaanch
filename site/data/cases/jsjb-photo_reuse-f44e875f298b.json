@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f44e875f298b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Birasni"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b59f06cf22a8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (25.88, 79.23)."
+ ],
+ "photo": "photos/b59f06cf22a8368bc5f4a8f57c23d5d3fd60ce7603f3cdcbd84d671d1c773d80.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5277758",
+   "village": "Birasni",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-05-01",
+   "end_date": "2025-07-14",
+   "lat": 25.88,
+   "lon": 79.23,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5290472",
+   "village": "Birasni",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-08-15",
+   "lat": 25.88,
+   "lon": 79.23,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

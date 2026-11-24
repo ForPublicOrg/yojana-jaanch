@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d7ad8b69bbc9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Chacha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 42e2eadf028e) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (26.976113, 71.751048)."
+ ],
+ "photo": "photos/42e2eadf028e24940319cc66e977ab7141e5ebae1068f61e6d640e56dbac6cba.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15082923",
+   "village": "Chacha",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-12",
+   "end_date": "2025-06-21",
+   "lat": 26.976113,
+   "lon": 71.751048,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "15871841",
+   "village": "Chacha",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-07",
+   "end_date": "2025-06-15",
+   "lat": 26.976113,
+   "lon": 71.751048,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

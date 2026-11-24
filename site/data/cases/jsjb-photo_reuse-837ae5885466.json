@@ -1,0 +1,153 @@
+{
+ "id": "jsjb-photo_reuse-837ae5885466",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 8 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Ram Mandir Ward"
+ ],
+ "record_count": 8,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 8 different works in 1 village. A photo of one site cannot be evidence for 8 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 211436dce495 on 5 works, cd9bbb289a46 on 3 works.",
+  "The works are recorded as: Soak Pit (8)."
+ ],
+ "photo": "photos/211436dce49522cf5d7f5ea5cfb4afcab190e56b693c1d9d1e255c3a577548c6.jpg",
+ "offices": [
+  "CMO, Dondi"
+ ],
+ "records": [
+  {
+   "record_id": "7455045",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092384,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7485269",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092348,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7550835",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092384,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7570040",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495011,
+   "lon": 81.092378,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7596512",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092384,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7738883",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092384,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7921633",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495065,
+   "lon": 81.092342,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "9898738",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.49501,
+   "lon": 81.092384,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 24,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "211436dce49522cf5d7f5ea5cfb4afcab190e56b693c1d9d1e255c3a577548c6",
+   "records": 5
+  },
+  {
+   "sha256": "cd9bbb289a46a864149089525d4777b5390f18ae6b18097ef54fac9c771011fb",
+   "records": 3
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-38cbbbfbca68"
+ ]
+}

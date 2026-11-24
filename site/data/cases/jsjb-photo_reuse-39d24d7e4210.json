@@ -1,0 +1,140 @@
+{
+ "id": "jsjb-photo_reuse-39d24d7e4210",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 7 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Ram Mandir Ward"
+ ],
+ "record_count": 7,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 7 different works in 1 village. A photo of one site cannot be evidence for 7 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 07e47dc08b43 on 5 works, 32ee82829dc3 on 2 works.",
+  "The works are recorded as: Soak Pit (7).",
+  "All 7 works report the same GPS point (20.495031, 81.092418)."
+ ],
+ "photo": "photos/07e47dc08b43b38d44d734a4fff4c78235124b71f89991caf9591d3e5f536a9e.jpg",
+ "offices": [
+  "CMO, Dondi"
+ ],
+ "records": [
+  {
+   "record_id": "7450798",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7487845",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7494552",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7567372",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7592338",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7740441",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "9900305",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495031,
+   "lon": 81.092418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 22,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "07e47dc08b43b38d44d734a4fff4c78235124b71f89991caf9591d3e5f536a9e",
+   "records": 5
+  },
+  {
+   "sha256": "32ee82829dc318f1c6d344dc4b1a1e802b2c3b1e8796af21f95c223cefca0c59",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-bc1df669e965"
+ ]
+}

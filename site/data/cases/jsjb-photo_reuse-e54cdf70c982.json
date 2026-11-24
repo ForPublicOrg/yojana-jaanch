@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-e54cdf70c982",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Aroud"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint cdc134261b7a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.808029, 81.240053).",
+  "All 2 works started and ended on the same day (2026-05-13).",
+  "The photo was uploaded 2 times within 44 seconds (2026-05-20 16:24:38 to 2026-05-20 16:25:22)."
+ ],
+ "photo": "photos/cdc134261b7a975bc285a85c8b72a348b7b03735a8841b3cbf28edcb9ef3e533.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10404750",
+   "village": "Aroud",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-13",
+   "end_date": "2026-05-13",
+   "lat": 20.808029,
+   "lon": 81.240053,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10404896",
+   "village": "Aroud",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-13",
+   "end_date": "2026-05-13",
+   "lat": 20.808029,
+   "lon": 81.240053,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

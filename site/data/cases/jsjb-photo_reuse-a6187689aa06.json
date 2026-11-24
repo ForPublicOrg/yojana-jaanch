@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-a6187689aa06",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 66b75e31fa4a) is attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Tank (3).",
+  "All 3 works report the same GPS point (20.675979, 81.322325).",
+  "Each of the 3 works started and ended on a single day. The works are spread over 2 dates: 2026-04-26, 2026-04-29."
+ ],
+ "photo": "photos/66b75e31fa4a0cbcce9511191e52428aa40e7aa1187f2d055fa6d3e7a217fd2f.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7123351",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-26",
+   "end_date": "2026-04-26",
+   "lat": 20.675979,
+   "lon": 81.322325,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7166569",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-29",
+   "end_date": "2026-04-29",
+   "lat": 20.675979,
+   "lon": 81.322325,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7166701",
+   "village": "Karka Bhat",
+   "structure_type": "Tank",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-29",
+   "end_date": "2026-04-29",
+   "lat": 20.675979,
+   "lon": 81.322325,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 11,
+ "needs_human_review": false
+}

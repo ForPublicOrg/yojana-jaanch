@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-238c1013a618",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Naga Dabri"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ca5d812b73bf) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.766652, 81.353327).",
+  "The photo was uploaded 2 times within 9 seconds (2026-05-04 16:55:28 to 2026-05-04 16:55:37)."
+ ],
+ "photo": "photos/ca5d812b73bf76f44be0dcc477fd535c7f07007e8ae3326fec5c05269f964799.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7390061",
+   "village": "Naga Dabri",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-22",
+   "end_date": "2026-03-22",
+   "lat": 20.766652,
+   "lon": 81.353327,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7390090",
+   "village": "Naga Dabri",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-22",
+   "end_date": "2026-03-22",
+   "lat": 20.766652,
+   "lon": 81.353327,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

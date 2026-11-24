@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-1855518d509a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Bheriya Nawagaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 66ae3f7d99fb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.755669, 81.30332).",
+  "The photo was uploaded 2 times within 3 minutes (2026-03-30 11:33:16 to 2026-03-30 11:35:24)."
+ ],
+ "photo": "photos/66ae3f7d99fbbf0344e0a76637069c80cd447f785052c73b48da878ceecb5546.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4351685",
+   "village": "Bheriya Nawagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-15",
+   "end_date": "2026-03-30",
+   "lat": 20.755669,
+   "lon": 81.30332,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4351761",
+   "village": "Bheriya Nawagaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-15",
+   "end_date": "2026-03-30",
+   "lat": 20.755669,
+   "lon": 81.30332,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

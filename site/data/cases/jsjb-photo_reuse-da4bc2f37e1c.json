@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-da4bc2f37e1c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Mahewa",
+  "Urkara Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 37ae2018f80a) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/37ae2018f80a0314adc0c2afc209caec530c80edec958864185cae52304e508d.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "289445",
+   "village": "Urkara Kalan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-10-23",
+   "end_date": "2026-02-02",
+   "lat": 26.1944892,
+   "lon": 79.6345712,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "5308374",
+   "village": "Mahewa",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1669697,
+   "lon": 79.6357489,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

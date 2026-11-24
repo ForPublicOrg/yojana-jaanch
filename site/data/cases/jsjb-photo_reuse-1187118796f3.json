@@ -2,18 +2,21 @@
  "id": "jsjb-photo_reuse-1187118796f3",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 2 different works",
+ "headline": "One picture, 3 different works",
  "state": "Karnataka",
  "district": "Chikkaballapura",
  "block": "Sidlaghatta",
  "villages": [
+  "Gandlachinthe",
   "Kachahalli",
   "Kumbarahalli"
  ],
- "record_count": 2,
+ "record_count": 3,
  "reasons": [
-  "The same photo file (fingerprint 09d8f6245aba) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
-  "The works are recorded as: Tank (2).",
+  "The same picture was saved as 2 different files and attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.003 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 09d8f6245aba on 2 works, 07ff84c8801d on 1 work.",
+  "The works are recorded as: Tank (3).",
   "The entries were made by 2 different offices: Deputy Commissioner, Executive Officer."
  ],
  "photo": "photos/09d8f6245aba413e2d4f3e932ac11c983a131d2d91f849302021bca2f45e9a1d.jpg",
@@ -22,6 +25,20 @@
   "Executive Officer"
  ],
  "records": [
+  {
+   "record_id": "3067612",
+   "village": "Gandlachinthe",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-01",
+   "end_date": "2025-11-08",
+   "lat": 13.335503,
+   "lon": 77.92478,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
   {
    "record_id": "3614371",
    "village": "Kachahalli",
@@ -52,6 +69,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 7,
- "needs_human_review": false
+ "severity": 10,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "09d8f6245aba413e2d4f3e932ac11c983a131d2d91f849302021bca2f45e9a1d",
+   "records": 2
+  },
+  {
+   "sha256": "07ff84c8801d0fa5f1942d4579c22248ce95feae01d8bea2ed7f837896d8fc21",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-6376e459d9cc"
+ ]
 }

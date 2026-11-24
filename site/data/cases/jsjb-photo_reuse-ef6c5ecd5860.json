@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ef6c5ecd5860",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Kelawa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f4d598e359d8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (2).",
+  "All 2 works report the same GPS point (26.842595, 71.80647).",
+  "The photo was uploaded 4 times within 3 minutes (2026-05-31 19:36:03 to 2026-05-31 19:38:51)."
+ ],
+ "photo": "photos/f4d598e359d8922902bfe88007627e36b33b6663c40dfa9681e8c3cc08841949.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "16321443",
+   "village": "Kelawa",
+   "structure_type": "Nala Bund",
+   "created_by": "BDO",
+   "start_date": "2025-09-20",
+   "end_date": "2025-10-25",
+   "lat": 26.842595,
+   "lon": 71.80647,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "16323858",
+   "village": "Kelawa",
+   "structure_type": "Nala Bund",
+   "created_by": "BDO",
+   "start_date": "2025-09-20",
+   "end_date": "2025-10-25",
+   "lat": 26.842595,
+   "lon": 71.80647,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

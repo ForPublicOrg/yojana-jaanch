@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-8b865665e049",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Balod",
+  "Newari Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 937dedda37ea) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 4 minutes (2026-04-09 11:48:51 to 2026-04-09 11:52:32)."
+ ],
+ "photo": "photos/937dedda37ea67c3cf2f66b6981b7d14dfb45b12207ea53445bfa99127f311ef.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4634147",
+   "village": "Balod",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-01",
+   "end_date": "2026-03-12",
+   "lat": 20.758491,
+   "lon": 81.243276,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4634384",
+   "village": "Newari Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-04",
+   "end_date": "2026-03-20",
+   "lat": 20.758659,
+   "lon": 81.243509,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

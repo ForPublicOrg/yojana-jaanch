@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-6ecd8467c06d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bakali Tola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5c4b069441cd) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.702378, 81.053058).",
+  "The photo was uploaded 2 times within 12 minutes (2026-05-24 18:06:41 to 2026-05-24 18:17:55)."
+ ],
+ "photo": "photos/5c4b069441cd9d6d93c011318e2af0024b7df160120b382114189066d458b0a1.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12218295",
+   "village": "Bakali Tola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-24",
+   "lat": 20.702378,
+   "lon": 81.053058,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "12225600",
+   "village": "Bakali Tola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-18",
+   "end_date": "2026-05-24",
+   "lat": 20.702378,
+   "lon": 81.053058,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

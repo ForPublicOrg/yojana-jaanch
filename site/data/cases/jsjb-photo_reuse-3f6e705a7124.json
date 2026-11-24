@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-3f6e705a7124",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chikhali"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 43106ee68dc8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.54415, 81.107069).",
+  "All 2 works started and ended on the same day (2026-05-25).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-25 20:13:34 to 2026-05-25 20:14:45)."
+ ],
+ "photo": "photos/43106ee68dc85ff6e6a138189d18b0f248402a9c1b342cc961d55e17600bcf4e.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "12583210",
+   "village": "Chikhali",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-25",
+   "end_date": "2026-05-25",
+   "lat": 20.54415,
+   "lon": 81.107069,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "12583330",
+   "village": "Chikhali",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-25",
+   "end_date": "2026-05-25",
+   "lat": 20.54415,
+   "lon": 81.107069,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-c5273bbc9ad2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Kadaura",
+ "villages": [
+  "Chamend",
+  "Kurhana Alamgir"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 224d7ca65f40) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "These works are spread over 2 blocks: Kadaura, Konch."
+ ],
+ "photo": "photos/224d7ca65f40c58fd2fb64f032f897ab3320837be66474cec45488a9076f7e10.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4230574",
+   "village": "Kurhana Alamgir",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2025-11-17",
+   "end_date": "2026-03-31",
+   "lat": 25.999182,
+   "lon": 79.72843,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4415922",
+   "village": "Chamend",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-29",
+   "end_date": "2026-04-30",
+   "lat": 25.8326,
+   "lon": 79.0985,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -2,18 +2,20 @@
  "id": "jsjb-upload_burst-aa582aef9dc9",
  "scheme": "jsjb",
  "kind": "upload_burst",
- "headline": "23 photos uploaded in 10 minutes by District Magistrate",
+ "headline": "24 photos uploaded in 10 minutes by District Magistrate",
  "state": "Uttar Pradesh",
  "district": "Jalaun",
  "block": "Dakore",
  "villages": [
-  "Bandha"
+  "Bandha",
+  "Chhiraoli"
  ],
- "record_count": 23,
+ "record_count": 24,
  "reasons": [
-  "23 different photos for 23 different works were uploaded by District Magistrate within 10 minutes, from 2026-03-16 16:17:29 to 2026-03-16 16:27:18.",
-  "That is about one work every 26 seconds on average.",
-  "The works are in 1 village: Bandha."
+  "24 different photos for 24 different works were uploaded by District Magistrate within 10 minutes, from 2026-03-16 16:17:29 to 2026-03-16 16:27:18.",
+  "That is about one work every 25 seconds on average.",
+  "The works are in 2 villages: Bandha, Chhiraoli.",
+  "These works are spread over 2 blocks: Dakore, Konch."
  ],
  "photo": null,
  "offices": [
@@ -287,6 +289,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "3978676",
+   "village": "Chhiraoli",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2025-09-28",
+   "end_date": "2025-10-15",
+   "lat": 25.835962,
+   "lon": 79.216372,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
    "record_id": "3978683",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -344,6 +360,6 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 23,
+ "severity": 24,
  "needs_human_review": false
 }

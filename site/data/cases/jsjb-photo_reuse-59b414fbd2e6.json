@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-59b414fbd2e6",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Salkha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b536dfde0e89) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.92, 70.6).",
+  "All 2 works started and ended on the same day (2026-05-09).",
+  "The photo was uploaded 2 times within 5 minutes (2026-05-29 16:39:30 to 2026-05-29 16:44:09)."
+ ],
+ "photo": "photos/b536dfde0e897d2b9ff99783f8366878994518d114b32bd82314269fba3825da.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14794722",
+   "village": "Salkha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-09",
+   "lat": 26.92,
+   "lon": 70.6,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14796361",
+   "village": "Salkha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-09",
+   "lat": 26.92,
+   "lon": 70.6,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

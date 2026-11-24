@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a61fd1cb31fe",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Baba Sayeed Ali Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0cf9e8636d6a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (20.94, 81.29).",
+  "The photo was uploaded 2 times within 3 minutes (2026-04-30 11:09:04 to 2026-04-30 11:11:39)."
+ ],
+ "photo": "photos/0cf9e8636d6ab2562e57f7e55d206b564e7a863b7a3f3352dd6cd365c3cfae44.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "6331474",
+   "village": "Baba Sayeed Ali Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-13",
+   "lat": 20.94,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "6331752",
+   "village": "Baba Sayeed Ali Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-15",
+   "lat": 20.94,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-db171d6d0fca",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Borkee"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 292e768a9fdb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.751172, 81.282675).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-22 18:12:21 to 2026-05-22 18:13:35)."
+ ],
+ "photo": "photos/292e768a9fdb1459e264c87b5c47128f385d0c97cce15e78f19a46d5693bf0cf.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11271539",
+   "village": "Borkee",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-05-10",
+   "end_date": "2024-08-13",
+   "lat": 20.751172,
+   "lon": 81.282675,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11272260",
+   "village": "Borkee",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-05-10",
+   "end_date": "2024-08-13",
+   "lat": 20.751172,
+   "lon": 81.282675,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

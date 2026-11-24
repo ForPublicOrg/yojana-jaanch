@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-9144a08a2a5c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Sarsela"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7caec75c91a0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.09764, 79.638575).",
+  "The photo was uploaded 4 times within 2 minutes (2026-04-22 14:01:47 to 2026-04-22 14:03:46)."
+ ],
+ "photo": "photos/7caec75c91a0e33fee14de1c77d1a1cd6700e95803540de262565c89da5a9947.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5255446",
+   "village": "Sarsela",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.09764,
+   "lon": 79.638575,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "5255610",
+   "village": "Sarsela",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.09764,
+   "lon": 79.638575,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-4e4bf0076471",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Newari Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bd138438bb51) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bench Terracing (1), Contour Trench (1).",
+  "All 2 works report the same GPS point (20.762272, 81.236278)."
+ ],
+ "photo": "photos/bd138438bb51c7b54d53e3ec893011c8d435f9899d7fc183543d29404eb6064b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "9725803",
+   "village": "Newari Khurd",
+   "structure_type": "Bench Terracing",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-12",
+   "end_date": "2026-05-13",
+   "lat": 20.762272,
+   "lon": 81.236278,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10132268",
+   "village": "Newari Khurd",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-12",
+   "end_date": "2026-05-13",
+   "lat": 20.762272,
+   "lon": 81.236278,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

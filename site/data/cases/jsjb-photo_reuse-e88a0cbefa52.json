@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-e88a0cbefa52",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Godpal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint f002098ccec5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.609525, 81.257331)."
+ ],
+ "photo": "photos/f002098ccec50dea643f5927a8a7b5ec67446a8f9369c07798f50167fd9a9bcc.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7272086",
+   "village": "Godpal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-15",
+   "end_date": "2026-04-18",
+   "lat": 20.609525,
+   "lon": 81.257331,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7335466",
+   "village": "Godpal",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-06",
+   "lat": 20.609525,
+   "lon": 81.257331,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-cf340eeed419",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint feb37a253691) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (2).",
+  "All 2 works report the same GPS point (20.687897, 81.326408).",
+  "All 2 works started and ended on the same day (2026-05-23).",
+  "The photo was uploaded 2 times within 8 seconds (2026-05-23 11:34:58 to 2026-05-23 11:35:06)."
+ ],
+ "photo": "photos/feb37a253691163392f9a6843a1141171b717d3889a0722bf0f14963b6871da6.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11538298",
+   "village": "Karka Bhat",
+   "structure_type": "Bore-Well Recharge",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.687897,
+   "lon": 81.326408,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11538346",
+   "village": "Karka Bhat",
+   "structure_type": "Bore-Well Recharge",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.687897,
+   "lon": 81.326408,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

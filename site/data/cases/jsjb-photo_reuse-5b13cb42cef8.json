@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-5b13cb42cef8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Sanawara"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.028 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 976e278e4a3c on 2 works, eddc3662cb2a on 1 work.",
+  "The works are recorded as: Tank (2), Other (1)."
+ ],
+ "photo": "photos/976e278e4a3cd51db408dddb48d26129b226d7166a0b9594cd811ea23eeae8e1.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3127823",
+   "village": "Sanawara",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-08-01",
+   "end_date": "2025-08-15",
+   "lat": 26.848699,
+   "lon": 71.575015,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "16308418",
+   "village": "Sanawara",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-07-01",
+   "end_date": "2025-08-30",
+   "lat": 26.848693,
+   "lon": 71.575015,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "16383136",
+   "village": "Sanawara",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-07-01",
+   "end_date": "2025-08-30",
+   "lat": 26.828534,
+   "lon": 71.545038,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "976e278e4a3cd51db408dddb48d26129b226d7166a0b9594cd811ea23eeae8e1",
+   "records": 2
+  },
+  {
+   "sha256": "eddc3662cb2a1bf2a59daff17ac4ab86b4b39ed895c441bd9b305533b822c149",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-36d671312e60"
+ ]
+}

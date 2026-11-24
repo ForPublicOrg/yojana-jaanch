@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-4aeaf10fecd0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Adjal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5577c49a13c6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.637395, 81.128737).",
+  "The photo was uploaded 2 times within 16 minutes (2026-05-30 17:45:51 to 2026-05-30 18:00:55)."
+ ],
+ "photo": "photos/5577c49a13c6a196a01d913e5773e66763117ae2b1abe7561634cc0b8f94f733.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "15162916",
+   "village": "Adjal",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-29",
+   "end_date": "2026-05-30",
+   "lat": 20.637395,
+   "lon": 81.128737,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "15179039",
+   "village": "Adjal",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-29",
+   "end_date": "2026-05-30",
+   "lat": 20.637395,
+   "lon": 81.128737,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

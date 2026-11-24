@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-20ae1bc7a60c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Karnataka",
+ "district": "Chikkaballapura",
+ "block": "Sidlaghatta",
+ "villages": [
+  "Jangamakote",
+  "Kurabarahalli"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 4c9fd1bfe91d on 1 work, ddedb24f2ce9 on 1 work.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/4c9fd1bfe91daaa685fac4562c0adc14b7b02873c5ede1c97892ac11fc5dd3d5.jpg",
+ "offices": [
+  "Deputy Commissioner"
+ ],
+ "records": [
+  {
+   "record_id": "3126997",
+   "village": "Kurabarahalli",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-06-10",
+   "end_date": "2025-11-23",
+   "lat": 13.44554,
+   "lon": 77.15545,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3699362",
+   "village": "Jangamakote",
+   "structure_type": "Soak Pit",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-05",
+   "end_date": "2025-11-05",
+   "lat": 13.53387,
+   "lon": 77.08632,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "4c9fd1bfe91daaa685fac4562c0adc14b7b02873c5ede1c97892ac11fc5dd3d5",
+   "records": 1
+  },
+  {
+   "sha256": "ddedb24f2ce9cf4758a2edabf23b45bade2d41c993e7c4c2eca8c21ba2963e67",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-b31e20aee651"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-10d5255ce5c1",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Ramgarh"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 936e5b0358f3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/936e5b0358f3b91601b1af495d157ad6d4c9fed858d529cd296ec228ffbb2f0d.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14752328",
+   "village": "Ramgarh",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-08-10",
+   "end_date": "2025-12-15",
+   "lat": 27.0306,
+   "lon": 70.3159,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14775016",
+   "village": "Ramgarh",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2021-05-01",
+   "end_date": "2021-08-04",
+   "lat": 27.0328,
+   "lon": 70.3256,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

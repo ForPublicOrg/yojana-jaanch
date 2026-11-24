@@ -2,24 +2,137 @@
  "id": "jsjb-photo_reuse-daa732528885",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 11 different works",
+ "headline": "One picture, 19 different works",
  "state": "Karnataka",
  "district": "Chikkaballapura",
  "block": "Sidlaghatta",
  "villages": [
   "Baktharahalli"
  ],
- "record_count": 11,
+ "record_count": 19,
  "reasons": [
-  "The same photo file (fingerprint bde903a7a27d) is attached to 11 different works in 1 village. A photo of one site cannot be evidence for 11 separate works.",
-  "The works are recorded as: Contour Trench (10), Recharge Shaft (1).",
-  "All 11 works report the same GPS point (13.325502, 77.844633)."
+  "The same picture was saved as 2 different files and attached to 19 different works in 1 village. A photo of one site cannot be evidence for 19 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.018 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): bde903a7a27d on 11 works, 52a82bfca645 on 8 works.",
+  "The works are recorded as: Contour Trench (18), Recharge Shaft (1)."
  ],
  "photo": "photos/bde903a7a27d82b65ba92bc3790dd3e6b11a8078cc7b2fdffcd98b3e40a4c74d.jpg",
  "offices": [
   "Deputy Commissioner"
  ],
  "records": [
+  {
+   "record_id": "11029361",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11030332",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11031047",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11031774",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11032578",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11035014",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11037756",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "11038867",
+   "village": "Baktharahalli",
+   "structure_type": "Contour Trench",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-05-01",
+   "end_date": "2025-10-10",
+   "lat": 13.325714,
+   "lon": 77.844272,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
   {
    "record_id": "11779071",
    "village": "Baktharahalli",
@@ -176,6 +289,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 34,
- "needs_human_review": false
+ "severity": 57,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "bde903a7a27d82b65ba92bc3790dd3e6b11a8078cc7b2fdffcd98b3e40a4c74d",
+   "records": 11
+  },
+  {
+   "sha256": "52a82bfca6459202ab7d633966a411ba5204701f884084b3c162110a8f94d9f6",
+   "records": 8
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-a47c51dfcd2c"
+ ]
 }

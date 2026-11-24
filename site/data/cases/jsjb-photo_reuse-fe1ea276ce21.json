@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fe1ea276ce21",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chipra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5684b548a4c9) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.66631, 81.06063).",
+  "The photo was uploaded 2 times within 7 seconds (2026-05-30 22:20:16 to 2026-05-30 22:20:23)."
+ ],
+ "photo": "photos/5684b548a4c9c1eb30b0deeb0ce6b0b6d697251eab60f147fc421d5cc666a165.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "15266717",
+   "village": "Chipra",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-27",
+   "end_date": "2026-05-30",
+   "lat": 20.66631,
+   "lon": 81.06063,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "15266789",
+   "village": "Chipra",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-27",
+   "end_date": "2026-05-30",
+   "lat": 20.66631,
+   "lon": 81.06063,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

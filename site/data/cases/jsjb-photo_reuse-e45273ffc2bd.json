@@ -2,7 +2,7 @@
  "id": "jsjb-photo_reuse-e45273ffc2bd",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 3 different works",
+ "headline": "One picture, 4 different works",
  "state": "Rajasthan",
  "district": "Jhunjhunu",
  "block": "Alsisar",
@@ -10,10 +10,12 @@
   "Bajla",
   "Bas Bhinwsariya"
  ],
- "record_count": 3,
+ "record_count": 4,
  "reasons": [
-  "The same photo file (fingerprint c0065c9d1edd) is attached to 3 different works in 2 villages. A photo of one site cannot be evidence for 3 separate works.",
-  "The works are recorded as: Soak Pit (3)."
+  "The same picture was saved as 2 different files and attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 5 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.023 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): c0065c9d1edd on 3 works, 7a9026665489 on 1 work.",
+  "The works are recorded as: Soak Pit (4)."
  ],
  "photo": "photos/c0065c9d1edd26b095d3793520f9c79bf69e11c6f876f46074b617950cfb05b7.jpg",
  "offices": [
@@ -49,6 +51,20 @@
    "block": "Alsisar"
   },
   {
+   "record_id": "4264414",
+   "village": "Bajla",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-01",
+   "end_date": "2026-02-09",
+   "lat": 28.2629841,
+   "lon": 75.3723699,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Alsisar"
+  },
+  {
    "record_id": "4267293",
    "village": "Bas Bhinwsariya",
    "structure_type": "Soak Pit",
@@ -64,6 +80,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 9,
- "needs_human_review": false
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "c0065c9d1edd26b095d3793520f9c79bf69e11c6f876f46074b617950cfb05b7",
+   "records": 3
+  },
+  {
+   "sha256": "7a9026665489fafb3940a8af832250c41f8c1e16604f0ec016bfbbd2bcf3f6cc",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-f8df76decba0"
+ ]
 }

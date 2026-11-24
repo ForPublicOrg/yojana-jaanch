@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-aebf18746a65",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Bangaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a705fa59bc2a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (20.690213, 81.128732).",
+  "All 2 works started and ended on the same day (2026-05-28)."
+ ],
+ "photo": "photos/a705fa59bc2a6b031e92aa56c2505c9e6bbd1f5e234076b2e0fd0c802a011a42.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14355008",
+   "village": "Bangaon",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.690213,
+   "lon": 81.128732,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "14617293",
+   "village": "Bangaon",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-28",
+   "lat": 20.690213,
+   "lon": 81.128732,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,58 @@
+{
+ "id": "jsjb-photo_reuse-dff46f41e1eb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jugera",
+  "Rani Tarai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 31f6c71e99df) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.73454, 81.17414).",
+  "All 2 works started and ended on the same day (2026-05-22).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-22 10:34:44 to 2026-05-22 10:35:56)."
+ ],
+ "photo": "photos/31f6c71e99dff28e080c829ff64b4078bc257afa9e0cdd0d0067d41a6e036fa6.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11024400",
+   "village": "Rani Tarai",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-22",
+   "end_date": "2026-05-22",
+   "lat": 20.73454,
+   "lon": 81.17414,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11025042",
+   "village": "Jugera",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-22",
+   "end_date": "2026-05-22",
+   "lat": 20.73454,
+   "lon": 81.17414,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

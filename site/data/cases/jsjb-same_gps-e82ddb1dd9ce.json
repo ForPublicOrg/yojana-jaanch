@@ -1,0 +1,112 @@
+{
+ "id": "jsjb-same_gps-e82ddb1dd9ce",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "6 works at one GPS point in Bilayan",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Bilayan"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "6 works in Bilayan report exactly the same GPS point (25.89, 79.2).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Other (5), Nala Bund (1).",
+  "They carry 6 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5224732",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-07-10",
+   "end_date": "2025-08-19",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5224749",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-07-10",
+   "end_date": "2025-08-19",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5224768",
+   "village": "Bilayan",
+   "structure_type": "Nala Bund",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-09-17",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5276603",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-05-01",
+   "end_date": "2025-07-14",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5290862",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-08-15",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5290979",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-09-15",
+   "lat": 25.89,
+   "lon": 79.2,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 12,
+ "needs_human_review": false
+}

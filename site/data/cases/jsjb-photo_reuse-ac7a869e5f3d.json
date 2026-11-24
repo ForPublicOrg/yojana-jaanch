@@ -1,0 +1,86 @@
+{
+ "id": "jsjb-photo_reuse-ac7a869e5f3d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 4 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Damodara",
+  "Salkha"
+ ],
+ "record_count": 4,
+ "reasons": [
+  "The same photo file (fingerprint 1121870b6098) is attached to 4 different works in 2 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The works are recorded as: Village Pond (4).",
+  "All 4 works report the same GPS point (26.94, 70.66).",
+  "Each of the 4 works started and ended on a single day. The works are spread over 2 dates: 2026-05-08, 2026-05-09.",
+  "The photo was uploaded 4 times within 19 minutes (2026-05-29 15:09:46 to 2026-05-29 15:28:38)."
+ ],
+ "photo": "photos/1121870b6098e04bcff0a096ed48cc421db32bf5e9b229be6c0ba1e73fdb9b85.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14772175",
+   "village": "Damodara",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-08",
+   "lat": 26.94,
+   "lon": 70.66,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14773738",
+   "village": "Salkha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-08",
+   "lat": 26.94,
+   "lon": 70.66,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14775106",
+   "village": "Salkha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-09",
+   "lat": 26.94,
+   "lon": 70.66,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14776095",
+   "village": "Salkha",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-08",
+   "lat": 26.94,
+   "lon": 70.66,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 15,
+ "needs_human_review": false
+}

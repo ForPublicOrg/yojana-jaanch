@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-29fc04d384bc",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Talgaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e38fc4fc13f6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.664852, 81.234488).",
+  "All 2 works started and ended on the same day (2025-06-06).",
+  "The photo was uploaded 2 times within 2 minutes (2026-05-29 04:50:13 to 2026-05-29 04:52:07)."
+ ],
+ "photo": "photos/e38fc4fc13f684d3be1d273245adb57f9e837b500faef9c84461d372be5cfb61.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14633658",
+   "village": "Talgaon",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-06",
+   "end_date": "2025-06-06",
+   "lat": 20.664852,
+   "lon": 81.234488,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14634828",
+   "village": "Talgaon",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-06",
+   "end_date": "2025-06-06",
+   "lat": 20.664852,
+   "lon": 81.234488,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

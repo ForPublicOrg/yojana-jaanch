@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-86caca99349c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Indira Gandhi Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 292d251c8f56) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.68864, 81.326762).",
+  "All 2 works started and ended on the same day (2026-05-23).",
+  "The photo was uploaded 2 times within 16 seconds (2026-05-23 11:38:56 to 2026-05-23 11:39:12)."
+ ],
+ "photo": "photos/292d251c8f5651329cb72b5d30422de83bfd2a8fb44f89f58cd7af1d95c79414.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11540563",
+   "village": "Indira Gandhi Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.68864,
+   "lon": 81.326762,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11540733",
+   "village": "Indira Gandhi Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.68864,
+   "lon": 81.326762,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

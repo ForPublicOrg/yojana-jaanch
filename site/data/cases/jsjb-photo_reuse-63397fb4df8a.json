@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-63397fb4df8a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Karka Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint b5e50080f5c1) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.688377, 81.331678).",
+  "The photo was uploaded 4 times within 3 seconds (2026-04-07 15:47:23 to 2026-04-07 15:47:26)."
+ ],
+ "photo": "photos/b5e50080f5c1c252167c1b545f6570bfc1b71f8ec0da9a7a527fb782b6d1ac0c.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4574618",
+   "village": "Karka Bhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-22",
+   "end_date": "2026-03-01",
+   "lat": 20.688377,
+   "lon": 81.331678,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "4574627",
+   "village": "Karka Bhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-22",
+   "end_date": "2026-03-01",
+   "lat": 20.688377,
+   "lon": 81.331678,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-1c183c51205e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Chiharo"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 98b7229ec7db) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1)."
+ ],
+ "photo": "photos/98b7229ec7db9d6d545675c666840d96d7dea320848823e5840e3ef4c7d23476.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "2152926",
+   "village": "Chiharo",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.441216,
+   "lon": 81.224014,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2157906",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2026-05-16",
+   "lat": 20.4413,
+   "lon": 81.224098,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

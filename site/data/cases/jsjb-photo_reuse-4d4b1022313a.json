@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-4d4b1022313a",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Jaigha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 40647525b026) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works report the same GPS point (26.4079388, 79.1896834)."
+ ],
+ "photo": "photos/40647525b0264774e8b27da98f67d77a2e36a26d9cab608f35e4bbf0c0e9f6b5.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5150430",
+   "village": "Jaigha",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2023-12-02",
+   "end_date": "2024-02-22",
+   "lat": 26.4079388,
+   "lon": 79.1896834,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5160441",
+   "village": "Jaigha",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2023-12-02",
+   "end_date": "2024-02-22",
+   "lat": 26.4079388,
+   "lon": 79.1896834,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

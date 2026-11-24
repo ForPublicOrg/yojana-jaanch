@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-2abf2cfa5c6e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Dhoba"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint abefbdbaa37c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2).",
+  "All 2 works started and ended on the same day (2026-05-09)."
+ ],
+ "photo": "photos/abefbdbaa37c6ec1f5f5543a8aedfb550ee213e5ae4ab44cedc7c3f7c0fa9053.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "14803616",
+   "village": "Dhoba",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-09",
+   "lat": 26.62,
+   "lon": 70.73,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "14813505",
+   "village": "Dhoba",
+   "structure_type": "Village Pond",
+   "created_by": "BDO",
+   "start_date": "2026-05-09",
+   "end_date": "2026-05-09",
+   "lat": 26.54,
+   "lon": 70.7,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

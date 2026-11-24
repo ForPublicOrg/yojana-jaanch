@@ -1,0 +1,84 @@
+{
+ "id": "jsjb-photo_reuse-7eda6c735c05",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Ram Mandir Ward"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 2 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): cac7c5184034 on 2 works, 07121a8036ec on 1 work.",
+  "The works are recorded as: Soak Pit (3).",
+  "All 3 works report the same GPS point (20.495391, 81.091945)."
+ ],
+ "photo": "photos/cac7c5184034a2f3813b955ff71a542a76e766a3248afe5700784e40b9b3d17d.jpg",
+ "offices": [
+  "CMO, Dondi"
+ ],
+ "records": [
+  {
+   "record_id": "5556506",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-08",
+   "lat": 20.495391,
+   "lon": 81.091945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7800314",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495391,
+   "lon": 81.091945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7906448",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495391,
+   "lon": 81.091945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "cac7c5184034a2f3813b955ff71a542a76e766a3248afe5700784e40b9b3d17d",
+   "records": 2
+  },
+  {
+   "sha256": "07121a8036ecb39f03f80994dfd8e52dad0f8a9d4ace4c7deeb7d3e7fad8f1aa",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-5dc71ad96a37"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-aaa744b0e12f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Pichaura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7af618cf1945) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Village Pond (2)."
+ ],
+ "photo": "photos/7af618cf19457cd49d0a221731ece194b2e237121be7fcfe152ef82b553d2a9f.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5150211",
+   "village": "Pichaura",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2024-07-20",
+   "end_date": "2025-08-18",
+   "lat": 26.3363745,
+   "lon": 79.3198431,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5160276",
+   "village": "Pichaura",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2023-07-20",
+   "end_date": "2023-08-18",
+   "lat": 26.342955,
+   "lon": 79.3167067,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

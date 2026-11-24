@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-98067c344ac8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Lawan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6277cd07797b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (1), Village Pond (1).",
+  "The photo was uploaded 2 times within 0 seconds (2025-12-23 13:09:14 to 2025-12-23 13:09:14).",
+  "The entries were made by 2 different offices: Chief Engineer, GWD."
+ ],
+ "photo": "photos/6277cd07797b05125aa09d299c8ac026352502c0ede30b051c49ed3b4cabcae5.jpg",
+ "offices": [
+  "Chief Engineer",
+  "GWD"
+ ],
+ "records": [
+  {
+   "record_id": "3144898",
+   "village": "Lawan",
+   "structure_type": "Village Pond",
+   "created_by": "GWD",
+   "start_date": "2025-06-19",
+   "end_date": "2025-07-26",
+   "lat": 26.8805,
+   "lon": 72.073361,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "8603407",
+   "village": "Lawan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-06-20",
+   "end_date": "2025-07-17",
+   "lat": 26.845349,
+   "lon": 72.0508808,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

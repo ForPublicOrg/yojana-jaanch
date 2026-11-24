@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-1e8097903f90",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Parsahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c2bf07a487a3) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (20.804613, 81.286807).",
+  "All 2 works started and ended on the same day (2026-05-23).",
+  "The photo was uploaded 2 times within 23 seconds (2026-05-23 17:03:50 to 2026-05-23 17:04:13)."
+ ],
+ "photo": "photos/c2bf07a487a3ab4e32f6f886e32896f34038af071ee09f2be0c0079806fda58e.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11731818",
+   "village": "Parsahi",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.804613,
+   "lon": 81.286807,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11732416",
+   "village": "Parsahi",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-23",
+   "end_date": "2026-05-23",
+   "lat": 20.804613,
+   "lon": 81.286807,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-9e4a48f64ac2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Khetolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 68405ed0db7d) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/68405ed0db7d142b0138ea344e6d1961996104775f28a8fb44c90594eb808f2a.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "15097584",
+   "village": "Khetolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-07-01",
+   "end_date": "2025-07-09",
+   "lat": 27.022149,
+   "lon": 71.712404,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "15888986",
+   "village": "Khetolai",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-06-21",
+   "end_date": "2025-06-29",
+   "lat": 27.022142,
+   "lon": 71.712389,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

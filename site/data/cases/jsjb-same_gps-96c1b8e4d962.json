@@ -1,0 +1,98 @@
+{
+ "id": "jsjb-same_gps-96c1b8e4d962",
+ "scheme": "jsjb",
+ "kind": "same_gps",
+ "headline": "5 works at one GPS point in Mujgahan",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Mujgahan"
+ ],
+ "record_count": 5,
+ "reasons": [
+  "5 works in Mujgahan report exactly the same GPS point (20.709516, 81.319661).",
+  "Separate works should be at separate spots, so their coordinates should differ.",
+  "The works are recorded as: Open Well Recharge / Dug Well (3), Other (1), Soak Pit (1).",
+  "They carry 10 different photos, so this is not a reused-photo case."
+ ],
+ "photo": null,
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10889491",
+   "village": "Mujgahan",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-05",
+   "end_date": "2026-05-20",
+   "lat": 20.709516,
+   "lon": 81.319661,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10891133",
+   "village": "Mujgahan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-22",
+   "end_date": "2025-06-10",
+   "lat": 20.709516,
+   "lon": 81.319661,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10893483",
+   "village": "Mujgahan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-02-01",
+   "end_date": "2026-04-30",
+   "lat": 20.709516,
+   "lon": 81.319661,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10895915",
+   "village": "Mujgahan",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-22",
+   "end_date": "2025-06-20",
+   "lat": 20.709516,
+   "lon": 81.319661,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "10899853",
+   "village": "Mujgahan",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-03-01",
+   "end_date": "2025-06-30",
+   "lat": 20.709516,
+   "lon": 81.319661,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 10,
+ "needs_human_review": false
+}

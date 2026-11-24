@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-7e9c2182495f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Jalaun",
+ "villages": [
+  "Bhadvan",
+  "Gopalpura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 285d20eba4e3) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (2).",
+  "These works are spread over 2 blocks: Jalaun, Madhogarh."
+ ],
+ "photo": "photos/285d20eba4e33e6f67817a37da3feaeccdad0bce3fd9703e63d3c0c6f5391a9e.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5095789",
+   "village": "Gopalpura",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-13",
+   "end_date": "2026-03-31",
+   "lat": 26.268357,
+   "lon": 79.095009,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "5213481",
+   "village": "Bhadvan",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2024-10-07",
+   "end_date": "2025-06-01",
+   "lat": 26.2256498,
+   "lon": 79.3144392,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Jalaun"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

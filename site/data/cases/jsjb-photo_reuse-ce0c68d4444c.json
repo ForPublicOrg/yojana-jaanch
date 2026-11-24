@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ce0c68d4444c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Maheva",
+ "villages": [
+  "Piprondha"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 7bf8a344bf53) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 4 times within 9 minutes (2026-04-22 17:43:12 to 2026-04-22 17:51:18)."
+ ],
+ "photo": "photos/7bf8a344bf53c46cd8b43ea24661006039633d517fabf6d74cc6394a2652a0c7.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5280309",
+   "village": "Piprondha",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.13585505,
+   "lon": 79.62345546,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "5281079",
+   "village": "Piprondha",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-02-02",
+   "lat": 26.1134321,
+   "lon": 79.5893722,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

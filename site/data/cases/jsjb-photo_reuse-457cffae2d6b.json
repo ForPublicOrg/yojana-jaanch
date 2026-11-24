@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-457cffae2d6b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dalli Rajhara",
+ "villages": [
+  "Shikari Para Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce4c93038c60) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.575919, 81.08518)."
+ ],
+ "photo": "photos/ce4c93038c6040015a38660200f203a25dfc149328899ad743ffb8c7b0c49590.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5450278",
+   "village": "Shikari Para Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-03-12",
+   "end_date": "2025-03-20",
+   "lat": 20.575919,
+   "lon": 81.08518,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  },
+  {
+   "record_id": "5549050",
+   "village": "Shikari Para Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-03",
+   "end_date": "2025-06-29",
+   "lat": 20.575919,
+   "lon": 81.08518,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -2,7 +2,7 @@
  "id": "jsjb-photo_reuse-5b3e317359f3",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 12 different works",
+ "headline": "One picture, 14 different works",
  "state": "Rajasthan",
  "district": "Jhunjhunu",
  "block": "Nawalgarh",
@@ -15,13 +15,17 @@
   "Chelasi Dher",
   "Chirana",
   "Devipura",
+  "Dhigal",
   "Kolsiya",
-  "Lohargal"
+  "Lohargal",
+  "Rampura"
  ],
- "record_count": 12,
+ "record_count": 14,
  "reasons": [
-  "The same photo file (fingerprint 88359435074e) is attached to 12 different works in 10 villages. A photo of one site cannot be evidence for 12 separate works.",
-  "The works are recorded as: Soak Pit (12)."
+  "The same picture was saved as 2 different files and attached to 14 different works in 12 villages. A photo of one site cannot be evidence for 14 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 88359435074e on 12 works, aa71cb6cf35d on 2 works.",
+  "The works are recorded as: Soak Pit (14)."
  ],
  "photo": "photos/88359435074ef14c56edf966cc863bb2218081e78597464e0a58da390340dd27.jpg",
  "offices": [
@@ -183,6 +187,34 @@
    "block": "Nawalgarh"
   },
   {
+   "record_id": "4282251",
+   "village": "Rampura",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2025-09-09",
+   "end_date": "2025-10-13",
+   "lat": 27.69,
+   "lon": 75.361,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
+   "record_id": "4282293",
+   "village": "Dhigal",
+   "structure_type": "Soak Pit",
+   "created_by": "BDO",
+   "start_date": "2026-01-02",
+   "end_date": "2026-02-03",
+   "lat": 27.898,
+   "lon": 75.305,
+   "state": "Rajasthan",
+   "district": "Jhunjhunu",
+   "area_type": "Rural",
+   "block": "Nawalgarh"
+  },
+  {
    "record_id": "4301222",
    "village": "Birol",
    "structure_type": "Soak Pit",
@@ -198,6 +230,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 36,
- "needs_human_review": false
+ "severity": 42,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "88359435074ef14c56edf966cc863bb2218081e78597464e0a58da390340dd27",
+   "records": 12
+  },
+  {
+   "sha256": "aa71cb6cf35df1d13013e48436925bd561eabc5a5d791198472272cb1f24c701",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-c6ecc76d821c"
+ ]
 }

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ce12b88b229b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dalli Rajhara",
+ "villages": [
+  "Rajhra Baba Ward",
+  "Shikari Para Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint eab14095935b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/eab14095935b3dc519183537c505032f250c6076d3331fdddce3dacba10440f6.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4392435",
+   "village": "Shikari Para Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2023-07-06",
+   "end_date": "2023-07-20",
+   "lat": 20.577883,
+   "lon": 81.079755,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  },
+  {
+   "record_id": "4514016",
+   "village": "Rajhra Baba Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2024-08-05",
+   "end_date": "2024-08-29",
+   "lat": 20.58862,
+   "lon": 81.07489,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

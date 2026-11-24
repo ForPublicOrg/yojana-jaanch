@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d08a8b38dd34",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jagatara"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 40774c95f4d4) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Recharge Pit (1), Soak Pit (1).",
+  "All 2 works report the same GPS point (20.696837, 81.268008)."
+ ],
+ "photo": "photos/40774c95f4d4eb335bc6a812912892b1faa7dc6f6a92c1ba56b262adb0648471.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4953665",
+   "village": "Jagatara",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-13",
+   "end_date": "2026-04-15",
+   "lat": 20.696837,
+   "lon": 81.268008,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "5336863",
+   "village": "Jagatara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.696837,
+   "lon": 81.268008,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

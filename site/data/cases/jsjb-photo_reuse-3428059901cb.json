@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3428059901cb",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Bhadeora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 2e735b07afd0) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "All 2 works report the same GPS point (26.02, 79.15)."
+ ],
+ "photo": "photos/2e735b07afd01783e82327c868e4bf94c6f7ea1f1ca20ceb02e0a4a9c24bc276.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5249578",
+   "village": "Bhadeora",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-05-01",
+   "end_date": "2025-07-14",
+   "lat": 26.02,
+   "lon": 79.15,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5253587",
+   "village": "Bhadeora",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2024-05-01",
+   "end_date": "2025-07-14",
+   "lat": 26.02,
+   "lon": 79.15,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

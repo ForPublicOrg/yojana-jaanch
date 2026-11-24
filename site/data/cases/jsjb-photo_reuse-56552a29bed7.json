@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-56552a29bed7",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dalli Rajhara",
+ "villages": [
+  "Azad Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fccfd13929c5) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.57637, 81.086051)."
+ ],
+ "photo": "photos/fccfd13929c5615187351243d1f24b8b4905e25777979bacfa47b2b58c324b2d.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4980846",
+   "village": "Azad Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-07-15",
+   "end_date": "2025-07-25",
+   "lat": 20.57637,
+   "lon": 81.086051,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  },
+  {
+   "record_id": "5082514",
+   "village": "Azad Ward",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-03",
+   "end_date": "2025-06-18",
+   "lat": 20.57637,
+   "lon": 81.086051,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dalli Rajhara"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

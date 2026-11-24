@@ -1,0 +1,126 @@
+{
+ "id": "jsjb-photo_reuse-c9f0dcfe8690",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 6 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Baloda",
+  "Chiharo"
+ ],
+ "record_count": 6,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 6 different works in 2 villages. A photo of one site cannot be evidence for 6 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 4084894e4920 on 5 works, 46d78cf1d2f0 on 1 work.",
+  "The works are recorded as: Contour Trench (3), Other (3)."
+ ],
+ "photo": "photos/4084894e4920fbfcb76311e570c42c2123bae9ee39956bcc2dd9b97a27fa3070.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "2130543",
+   "village": "Baloda",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.590273,
+   "lon": 81.245832,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2144874",
+   "village": "Baloda",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.590299,
+   "lon": 81.245858,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2150933",
+   "village": "Chiharo",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-15",
+   "end_date": "2025-06-30",
+   "lat": 20.44118,
+   "lon": 81.223978,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2155905",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2025-09-15",
+   "lat": 20.441262,
+   "lon": 81.22406,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2156454",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2026-05-16",
+   "lat": 20.441273,
+   "lon": 81.224071,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "2630863",
+   "village": "Chiharo",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-15",
+   "lat": 20.441158,
+   "lon": 81.223956,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 18,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "4084894e4920fbfcb76311e570c42c2123bae9ee39956bcc2dd9b97a27fa3070",
+   "records": 5
+  },
+  {
+   "sha256": "46d78cf1d2f006d3530b8436c2158606f7953d66a6eb5603fdb9c59b7a649ff3",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-158d9eac31d4"
+ ]
+}

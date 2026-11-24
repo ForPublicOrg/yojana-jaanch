@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-edc8d94dbec9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Borgaon"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint bb84b7a51182) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Soak Pit (1)."
+ ],
+ "photo": "photos/bb84b7a511825b2c087e4b6fe2e39417251b153ee9a81f5658d8bc62e29958b9.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "4419892",
+   "village": "Borgaon",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-06",
+   "end_date": "2026-03-13",
+   "lat": 20.534931,
+   "lon": 81.124497,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7093825",
+   "village": "Borgaon",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-03",
+   "end_date": "2026-03-14",
+   "lat": 20.533922,
+   "lon": 81.124946,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

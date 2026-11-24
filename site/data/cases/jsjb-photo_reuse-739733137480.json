@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-739733137480",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Bharari",
+  "Ingui Khurd"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 244a589f582b) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "The photo was uploaded 4 times within 10 minutes (2026-10-06 18:26:26 to 2026-10-06 18:35:30)."
+ ],
+ "photo": "photos/244a589f582be55d72b7575920f7dd82800547756e958bbeffffb3d29e36c215.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "6339300",
+   "village": "Bharari",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-20",
+   "end_date": "2026-04-30",
+   "lat": 26.0512,
+   "lon": 79.0802,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "7091268",
+   "village": "Ingui Khurd",
+   "structure_type": "Soak Pit",
+   "created_by": "District Magistrate",
+   "start_date": "2026-03-17",
+   "end_date": "2026-04-30",
+   "lat": 25.8521,
+   "lon": 79.1302,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

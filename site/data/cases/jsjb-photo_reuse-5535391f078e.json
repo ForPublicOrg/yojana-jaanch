@@ -1,0 +1,57 @@
+{
+ "id": "jsjb-photo_reuse-5535391f078e",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Dhobani"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ac0a48837f5b) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.619813, 81.108913).",
+  "All 2 works started and ended on the same day (2026-05-27).",
+  "The photo was uploaded 2 times within 2 seconds (2026-05-28 04:34:46 to 2026-05-28 04:34:48)."
+ ],
+ "photo": "photos/ac0a48837f5b5c69ec23259d56480de254c89db1223f096d2e99cfc3700d5f75.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "13877417",
+   "village": "Dhobani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-27",
+   "end_date": "2026-05-27",
+   "lat": 20.619813,
+   "lon": 81.108913,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "13877449",
+   "village": "Dhobani",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-27",
+   "end_date": "2026-05-27",
+   "lat": 20.619813,
+   "lon": 81.108913,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

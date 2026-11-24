@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-609e5fde67b0",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Nadigaon",
+ "villages": [
+  "Barhal"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint c33eab42248a) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Bore-Well Recharge (1), Other (1).",
+  "The photo was uploaded 4 times within 5 minutes (2026-04-21 11:39:17 to 2026-04-21 11:43:39)."
+ ],
+ "photo": "photos/c33eab42248ae8e825fda073b580efaf7f3493387d0ee42f5bbe8d6385af2604.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5181988",
+   "village": "Barhal",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2026-03-20",
+   "lat": 26.465118,
+   "lon": 79.0126654,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  },
+  {
+   "record_id": "5182371",
+   "village": "Barhal",
+   "structure_type": "Bore-Well Recharge",
+   "created_by": "District Magistrate",
+   "start_date": "2024-04-20",
+   "end_date": "2025-06-15",
+   "lat": 26.306216,
+   "lon": 79.038292,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Nadigaon"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

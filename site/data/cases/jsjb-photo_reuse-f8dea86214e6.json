@@ -2,20 +2,23 @@
  "id": "jsjb-photo_reuse-f8dea86214e6",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One picture, 66 different works",
+ "headline": "One picture, 140 different works",
  "state": "Uttar Pradesh",
  "district": "Jalaun",
  "block": "Dakore",
  "villages": [
-  "Bandha"
+  "Bandha",
+  "Ekona",
+  "Lohai Mustakil",
+  "Soharapur Kalpi"
  ],
- "record_count": 66,
+ "record_count": 140,
  "reasons": [
-  "The same picture was saved as 4 different files and attached to 66 different works in 1 village. A photo of one site cannot be evidence for 66 separate works.",
+  "The same picture was saved as 4 different files and attached to 140 different works in 4 villages. A photo of one site cannot be evidence for 140 separate works.",
   "The 4 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 3 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.030 (the limit is 0.03).",
-  "The files (first 12 characters of each fingerprint): 6debfba950e7 on 19 works, 7b56d3b99383 on 18 works, 2ee3f7d17efa on 15 works, 00f9b1a6a1af on 14 works.",
-  "The works are recorded as: Contour Trench (66).",
-  "All 66 works report the same GPS point (26.027078, 79.54835)."
+  "The files (first 12 characters of each fingerprint): 6debfba950e7 on 42 works, 7b56d3b99383 on 37 works, 2ee3f7d17efa on 32 works, 00f9b1a6a1af on 29 works.",
+  "The works are recorded as: Contour Trench (140).",
+  "These works are spread over 4 blocks: Dakore, Kadaura, Kuthaund, Maheva."
  ],
  "photo": "photos/6debfba950e7d294f9d3d17c1f6aecfecc0429670042a55c5c2b526002346ca8.jpg",
  "offices": [
@@ -191,6 +194,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4046952",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4049473",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4049915",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -203,6 +234,34 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4051932",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4052728",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4053079",
@@ -233,6 +292,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4054460",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4054756",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -247,6 +320,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4060411",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4060737",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -259,6 +346,48 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4064074",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4075775",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4080599",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4080611",
@@ -289,6 +418,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4124732",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4129260",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -301,6 +444,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4129569",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4134745",
@@ -331,6 +488,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4136308",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4138033",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4138629",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -345,6 +530,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4140854",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4146708",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4149696",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -357,6 +570,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4156599",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4180380",
@@ -387,6 +614,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4181877",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4183351",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -399,6 +640,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4183949",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4192797",
@@ -415,6 +670,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4193201",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4194660",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4207506",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -427,6 +710,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4223970",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4224307",
@@ -457,6 +754,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4227693",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4229691",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4230963",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -469,6 +794,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4232642",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4236182",
@@ -499,6 +838,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4241549",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4243419",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -511,6 +864,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4251505",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4252967",
@@ -527,6 +894,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4312253",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4316706",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4318689",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -539,6 +934,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4319329",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4319361",
@@ -569,6 +978,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4321157",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4321456",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -583,6 +1006,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4321763",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4322543",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4323162",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -595,6 +1046,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4323673",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4323871",
@@ -625,6 +1090,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4325539",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4326003",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -639,6 +1118,34 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4326185",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4326860",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4327497",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -651,6 +1158,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4327781",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4327992",
@@ -709,6 +1230,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4329983",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4348966",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -721,6 +1256,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4349045",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4349525",
@@ -737,6 +1286,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4349835",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4350733",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -749,6 +1312,34 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4350957",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4354056",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4354078",
@@ -765,6 +1356,48 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4354836",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4355785",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4358043",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4358226",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -779,6 +1412,90 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4362079",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4366027",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4367221",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4368242",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4390988",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4391416",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4391574",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -791,6 +1508,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4392143",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4392541",
@@ -821,6 +1552,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4393929",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4400278",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -833,6 +1578,34 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4400522",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4401484",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4402326",
@@ -849,6 +1622,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4402542",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4404716",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -861,6 +1648,20 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4404873",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4405347",
@@ -877,6 +1678,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4405822",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4405895",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -889,6 +1704,34 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "4406048",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "4406324",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   },
   {
    "record_id": "4406479",
@@ -919,6 +1762,20 @@
    "block": "Dakore"
   },
   {
+   "record_id": "4406735",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
    "record_id": "4407003",
    "village": "Bandha",
    "structure_type": "Contour Trench",
@@ -945,27 +1802,209 @@
    "district": "Jalaun",
    "area_type": "Rural",
    "block": "Dakore"
+  },
+  {
+   "record_id": "8464426",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "8678889",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "8751140",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "8955647",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "8962056",
+   "village": "Lohai Mustakil",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.322472,
+   "lon": 79.494108,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "9403748",
+   "village": "Lohai Mustakil",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.322472,
+   "lon": 79.494108,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kuthaund"
+  },
+  {
+   "record_id": "11138303",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "11628101",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "11635061",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "11759708",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "11816430",
+   "village": "Soharapur Kalpi",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.100772,
+   "lon": 79.689642,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Maheva"
+  },
+  {
+   "record_id": "13501005",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
+  },
+  {
+   "record_id": "13503304",
+   "village": "Ekona",
+   "structure_type": "Contour Trench",
+   "created_by": "District Magistrate",
+   "start_date": "2026-02-28",
+   "end_date": "2026-03-10",
+   "lat": 26.065256,
+   "lon": 79.899408,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Kadaura"
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 199,
+ "severity": 420,
  "needs_human_review": false,
  "photo_files": [
   {
    "sha256": "6debfba950e7d294f9d3d17c1f6aecfecc0429670042a55c5c2b526002346ca8",
-   "records": 19
+   "records": 42
   },
   {
    "sha256": "7b56d3b9938319a7bf55419dd027ab2285708cfa52aabbaf2db3a52700c27fb7",
-   "records": 18
+   "records": 37
   },
   {
    "sha256": "2ee3f7d17efabf40dddd29186d9a08fe5ae9633557fcd928352fe4c8a43a110e",
-   "records": 15
+   "records": 32
   },
   {
    "sha256": "00f9b1a6a1af188461c1ee0a0479d4ae2116a173b3270e39b80f010ccfb0d807",
-   "records": 14
+   "records": 29
   }
  ],
  "other_ids": [

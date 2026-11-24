@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-a55c5cf35784",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Dr. Bhim Rao Ambedkar Ward",
+  "Maa Chandi Devi Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e35b3e8efc93) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2).",
+  "The photo was uploaded 2 times within 17 minutes (2026-05-09 12:55:59 to 2026-05-09 13:12:43)."
+ ],
+ "photo": "photos/e35b3e8efc93c3803d200ddf41618f0e605bccf3da485a03072b077602aa868b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8097392",
+   "village": "Dr. Bhim Rao Ambedkar Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-13",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8101115",
+   "village": "Maa Chandi Devi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-14",
+   "lat": 20.95,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

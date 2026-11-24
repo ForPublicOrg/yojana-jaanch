@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-aaef7d1f2ac9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Barahi",
+  "Biretra"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 6b28fd3a1e91) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Rooftop Water Harvesting Structure (2).",
+  "All 2 works report the same GPS point (20.6574544, 81.2935331)."
+ ],
+ "photo": "photos/6b28fd3a1e91d935e3fd95d44f86bbd2ef488e1615a783c1723793ef1d7fd0b8.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "7276193",
+   "village": "Barahi",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-15",
+   "end_date": "2026-03-20",
+   "lat": 20.6574544,
+   "lon": 81.2935331,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "7337783",
+   "village": "Biretra",
+   "structure_type": "Rooftop Water Harvesting Structure",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-09",
+   "end_date": "2026-03-12",
+   "lat": 20.6574544,
+   "lon": 81.2935331,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

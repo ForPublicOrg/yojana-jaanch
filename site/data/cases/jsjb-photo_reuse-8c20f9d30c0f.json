@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-8c20f9d30c0f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gurur",
+ "villages": [
+  "Deyur Mandir Ward",
+  "Mahatma Gandhi Ward",
+  "Netaji Subhash Ward"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint 695834b235e1) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Other (2), Recharge Shaft (1)."
+ ],
+ "photo": "photos/695834b235e10cfb6516259abdef0ce3e0f1a3e575ba4698e3f0b403f4f54e69.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5001784",
+   "village": "Netaji Subhash Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-01-10",
+   "end_date": "2026-02-27",
+   "lat": 20.682041,
+   "lon": 81.40213,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "7259332",
+   "village": "Mahatma Gandhi Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-01-11",
+   "end_date": "2025-11-06",
+   "lat": 20.680759,
+   "lon": 81.398986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  },
+  {
+   "record_id": "14788985",
+   "village": "Deyur Mandir Ward",
+   "structure_type": "Recharge Shaft",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-02-25",
+   "end_date": "2026-05-01",
+   "lat": 20.680759,
+   "lon": 81.400929,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gurur"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

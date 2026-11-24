@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-ac9996be2404",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jagatara",
+  "Jamruwa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a4b6978b4a35) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2)."
+ ],
+ "photo": "photos/a4b6978b4a3592ee2faedc50eb451c5331129408c5bbf1c8897d6d37031b492e.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1438065",
+   "village": "Jagatara",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-03",
+   "lat": 20.684934,
+   "lon": 81.274945,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "1438403",
+   "village": "Jamruwa",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-03",
+   "lat": 20.684944,
+   "lon": 81.276502,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

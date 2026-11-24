@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-d0266843ed60",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Rathora"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 42a274978955) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Defunct Bore-Well (2).",
+  "All 2 works report the same GPS point (26.9528366, 71.8198867)."
+ ],
+ "photo": "photos/42a27497895563973f6ca815c6d5082d889f0051c99f4a3a601f53c87f3d084f.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8623708",
+   "village": "Rathora",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-15",
+   "lat": 26.9528366,
+   "lon": 71.8198867,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "8623709",
+   "village": "Rathora",
+   "structure_type": "Defunct Bore-Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-06-01",
+   "end_date": "2025-06-15",
+   "lat": 26.9528366,
+   "lon": 71.8198867,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

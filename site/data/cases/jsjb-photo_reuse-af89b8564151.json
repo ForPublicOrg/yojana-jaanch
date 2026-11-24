@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-af89b8564151",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Jagnnathpur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint d950cf00e046) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.798557, 81.204965)."
+ ],
+ "photo": "photos/d950cf00e046242d10c77d501903fcc74bd563431523dc7c6e24d572768e58cd.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1476956",
+   "village": "Jagnnathpur",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-01",
+   "end_date": "2025-06-03",
+   "lat": 20.798557,
+   "lon": 81.204965,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "1477896",
+   "village": "Jagnnathpur",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-04-01",
+   "end_date": "2025-06-03",
+   "lat": 20.798557,
+   "lon": 81.204965,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

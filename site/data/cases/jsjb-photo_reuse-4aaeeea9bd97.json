@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-4aaeeea9bd97",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sam",
+ "villages": [
+  "Naga"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 3c7f325b1030) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Open Well Recharge / Dug Well (2).",
+  "All 2 works report the same GPS point (27.3808478, 70.798552)."
+ ],
+ "photo": "photos/3c7f325b1030a23ab04d0a08f4af72604ac3e37126ea9f54b2771020e54b7a84.jpg",
+ "offices": [
+  "Chief Engineer"
+ ],
+ "records": [
+  {
+   "record_id": "8606328",
+   "village": "Naga",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-08-23",
+   "end_date": "2025-08-28",
+   "lat": 27.3808478,
+   "lon": 70.798552,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  },
+  {
+   "record_id": "8606330",
+   "village": "Naga",
+   "structure_type": "Open Well Recharge / Dug Well",
+   "created_by": "Chief Engineer",
+   "start_date": "2025-08-23",
+   "end_date": "2025-08-28",
+   "lat": 27.3808478,
+   "lon": 70.798552,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sam"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

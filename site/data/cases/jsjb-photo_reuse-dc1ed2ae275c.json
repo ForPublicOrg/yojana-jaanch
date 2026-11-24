@@ -1,0 +1,71 @@
+{
+ "id": "jsjb-photo_reuse-dc1ed2ae275c",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Ram Mandir Ward",
+  "Sardar Bhagat Singh Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.004 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): a92453c45698 on 1 work, d1cd9ad2e5d5 on 1 work.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.495412, 81.092006)."
+ ],
+ "photo": "photos/a92453c4569845cc07e414391b6b7036824f5affbfe3e7708ceb7f2e9c859215.jpg",
+ "offices": [
+  "CMO, Dondi"
+ ],
+ "records": [
+  {
+   "record_id": "5559691",
+   "village": "Sardar Bhagat Singh Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-04-01",
+   "end_date": "2026-04-08",
+   "lat": 20.495412,
+   "lon": 81.092006,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "7767121",
+   "village": "Ram Mandir Ward",
+   "structure_type": "Soak Pit",
+   "created_by": "CMO, Dondi",
+   "start_date": "2026-05-01",
+   "end_date": "2026-04-05",
+   "lat": 20.495412,
+   "lon": 81.092006,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "a92453c4569845cc07e414391b6b7036824f5affbfe3e7708ceb7f2e9c859215",
+   "records": 1
+  },
+  {
+   "sha256": "d1cd9ad2e5d5d5a340c95c506bce5efe1e60481e0b4869cbc9c7d819e8750abc",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-d0d9f4a0db08"
+ ]
+}

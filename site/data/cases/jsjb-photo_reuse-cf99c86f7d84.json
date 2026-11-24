@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-cf99c86f7d84",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Orma"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 71088631a985) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.766639, 81.221418)."
+ ],
+ "photo": "photos/71088631a985861eb8d548063d6d1556c96ae599cd00dddddc02864c4b8265f6.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1555062",
+   "village": "Orma",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-02",
+   "end_date": "2026-05-22",
+   "lat": 20.766639,
+   "lon": 81.221418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "1555063",
+   "village": "Orma",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-02",
+   "end_date": "2026-05-22",
+   "lat": 20.766639,
+   "lon": 81.221418,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

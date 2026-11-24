@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-71447e65f172",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Jaimalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 30b4a7021e12) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Nala Bund (1), Other (1).",
+  "All 2 works report the same GPS point (26.72865, 71.839453)."
+ ],
+ "photo": "photos/30b4a7021e12c3c5e08fd871bdb184e4a41bc5b68f3755a259b96e7297574dc3.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "16046585",
+   "village": "Jaimalan",
+   "structure_type": "Other",
+   "created_by": "BDO",
+   "start_date": "2025-07-01",
+   "end_date": "2025-08-01",
+   "lat": 26.72865,
+   "lon": 71.839453,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "16247009",
+   "village": "Jaimalan",
+   "structure_type": "Nala Bund",
+   "created_by": "BDO",
+   "start_date": "2025-06-01",
+   "end_date": "2025-10-18",
+   "lat": 26.72865,
+   "lon": 71.839453,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

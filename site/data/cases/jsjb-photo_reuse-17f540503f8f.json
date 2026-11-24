@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-17f540503f8f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Admudkasa"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint fe1211010fc6) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.618513, 81.076673).",
+  "The photo was uploaded 2 times within 5 minutes (2026-05-24 07:59:19 to 2026-05-24 08:03:58)."
+ ],
+ "photo": "photos/fe1211010fc685adac015484e40f0ba6fe721f5f9fc6c840b4e172880391412b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11915457",
+   "village": "Admudkasa",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-20",
+   "end_date": "2026-05-24",
+   "lat": 20.618513,
+   "lon": 81.076673,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "11918195",
+   "village": "Admudkasa",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-20",
+   "end_date": "2026-05-24",
+   "lat": 20.618513,
+   "lon": 81.076673,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

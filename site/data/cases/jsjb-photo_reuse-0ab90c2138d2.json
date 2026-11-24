@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-0ab90c2138d2",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Rajasthan",
+ "district": "Jaisalmer",
+ "block": "Sankra",
+ "villages": [
+  "Khetolai"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 97de21d8f740) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Tank (2).",
+  "All 2 works report the same GPS point (27.02454, 71.708788)."
+ ],
+ "photo": "photos/97de21d8f7408366df3af5be6c5293c355af27212e4787655102548f02e7700e.jpg",
+ "offices": [
+  "BDO"
+ ],
+ "records": [
+  {
+   "record_id": "3079143",
+   "village": "Khetolai",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-10-01",
+   "end_date": null,
+   "lat": 27.02454,
+   "lon": 71.708788,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  },
+  {
+   "record_id": "15928132",
+   "village": "Khetolai",
+   "structure_type": "Tank",
+   "created_by": "BDO",
+   "start_date": "2025-10-01",
+   "end_date": "2025-12-31",
+   "lat": 27.02454,
+   "lon": 71.708788,
+   "state": "Rajasthan",
+   "district": "Jaisalmer",
+   "area_type": "Rural",
+   "block": "Sankra"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-7e2730e53188",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Dengrapar"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 44ba1d0946cb) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2)."
+ ],
+ "photo": "photos/44ba1d0946cb6db854bb514804e8de2a261b88142cfbea1974716586ed0aadcb.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "14756921",
+   "village": "Dengrapar",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-28",
+   "end_date": "2026-05-30",
+   "lat": 20.801311,
+   "lon": 81.168196,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14781950",
+   "village": "Dengrapar",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-29",
+   "end_date": "2026-05-30",
+   "lat": 20.799353,
+   "lon": 81.159823,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-3e6fd5e449bd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Gunderdehi",
+ "villages": [
+  "Dr. Bhim Rao Ambedkar Ward",
+  "Thakur Ajay Pal Ward"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint ce901c8c2889) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/ce901c8c2889f89ffb6fb8e4731b4e61a663c0e09efdf078664626a55b7db23a.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8064723",
+   "village": "Thakur Ajay Pal Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-02",
+   "end_date": "2026-01-15",
+   "lat": 20.95,
+   "lon": 81.29,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  },
+  {
+   "record_id": "8078403",
+   "village": "Dr. Bhim Rao Ambedkar Ward",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-12-01",
+   "end_date": "2026-01-15",
+   "lat": 20.94,
+   "lon": 81.27,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Urban",
+   "block": "Gunderdehi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

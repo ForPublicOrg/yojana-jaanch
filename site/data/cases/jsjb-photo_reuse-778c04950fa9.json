@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-778c04950fa9",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Baloda"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint df4606ccc243) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Injection Well (2)."
+ ],
+ "photo": "photos/df4606ccc243cdf1a4fe288a0588c55871d9864c0ff75c3ad7e7b8bb62b05d4b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "8233989",
+   "village": "Baloda",
+   "structure_type": "Injection Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-03",
+   "end_date": "2026-05-09",
+   "lat": 20.58536,
+   "lon": 81.260295,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "15123521",
+   "village": "Baloda",
+   "structure_type": "Injection Well",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-05",
+   "end_date": "2026-05-09",
+   "lat": 20.585505,
+   "lon": 81.260044,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

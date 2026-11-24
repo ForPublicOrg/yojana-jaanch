@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-5d82514c765f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Konch",
+ "villages": [
+  "Asupura",
+  "Bilayan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 5d13d52424f1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (2)."
+ ],
+ "photo": "photos/5d13d52424f163165d0f29b988a5ce48d2be88eb639e6be20062b6a748af2ed8.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5224759",
+   "village": "Bilayan",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-07-15",
+   "lat": 25.88,
+   "lon": 79.19,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  },
+  {
+   "record_id": "5227055",
+   "village": "Asupura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-06-01",
+   "end_date": "2025-08-19",
+   "lat": 26.03,
+   "lon": 79.05,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Konch"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

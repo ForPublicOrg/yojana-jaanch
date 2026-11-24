@@ -2,24 +2,43 @@
  "id": "jsjb-photo_reuse-3d1b47f518a8",
  "scheme": "jsjb",
  "kind": "photo_reuse",
- "headline": "One photo, 2 different works",
+ "headline": "One picture, 4 different works",
  "state": "Karnataka",
  "district": "Chikkaballapura",
  "block": "Sidlaghatta",
  "villages": [
   "Ambiganahalli",
+  "Basavapatna",
+  "Guttahalli",
   "Vemagallu"
  ],
- "record_count": 2,
+ "record_count": 4,
  "reasons": [
-  "The same photo file (fingerprint 13fc2b97b2f1) is attached to 2 different works in 2 villages. A photo of one site cannot be evidence for 2 separate works.",
-  "The works are recorded as: Contour Trench (2)."
+  "The same picture was saved as 2 different files and attached to 4 different works in 4 villages. A photo of one site cannot be evidence for 4 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 6 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.002 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 13fc2b97b2f1 on 2 works, f7c00b68321b on 2 works.",
+  "The works are recorded as: Contour Trench (2), Other (1), Tank (1).",
+  "These works are spread over 2 blocks: Chintamani, Sidlaghatta."
  ],
  "photo": "photos/13fc2b97b2f18677af53a34b48f26baaf45b2a13aea9fcc202575fb54363fbc8.jpg",
  "offices": [
   "Deputy Commissioner"
  ],
  "records": [
+  {
+   "record_id": "3120817",
+   "village": "Basavapatna",
+   "structure_type": "Tank",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-10",
+   "end_date": "2025-08-16",
+   "lat": 13.324483,
+   "lon": 77.86721,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Sidlaghatta"
+  },
   {
    "record_id": "3129964",
    "village": "Ambiganahalli",
@@ -33,6 +52,20 @@
    "district": "Chikkaballapura",
    "area_type": "Rural",
    "block": "Sidlaghatta"
+  },
+  {
+   "record_id": "3131371",
+   "village": "Guttahalli",
+   "structure_type": "Other",
+   "created_by": "Deputy Commissioner",
+   "start_date": "2025-07-09",
+   "end_date": "2025-08-06",
+   "lat": 13.374287,
+   "lon": 77.98233,
+   "state": "Karnataka",
+   "district": "Chikkaballapura",
+   "area_type": "Rural",
+   "block": "Chintamani"
   },
   {
    "record_id": "3132188",
@@ -50,6 +83,19 @@
   }
  ],
  "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
- "severity": 6,
- "needs_human_review": false
+ "severity": 12,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "13fc2b97b2f18677af53a34b48f26baaf45b2a13aea9fcc202575fb54363fbc8",
+   "records": 2
+  },
+  {
+   "sha256": "f7c00b68321ba573167ae164d556a6495b4637b09f64a346d55ceec3c2a1a2de",
+   "records": 2
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-b48f77c38831"
+ ]
 }

@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-fb024f16079b",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Hirapur"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 49bdaa7f37b8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.729438, 81.21986).",
+  "The photo was uploaded 4 times within 57 seconds (2026-03-05 20:40:06 to 2026-03-05 20:41:03)."
+ ],
+ "photo": "photos/49bdaa7f37b869aa22ea5f160a2ae2ed63d8d87ccea15a04bcf066e3a50464d2.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "3786676",
+   "village": "Hirapur",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-04",
+   "end_date": "2026-03-05",
+   "lat": 20.729438,
+   "lon": 81.21986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "3786680",
+   "village": "Hirapur",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-03-04",
+   "end_date": "2026-03-05",
+   "lat": 20.729438,
+   "lon": 81.21986,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

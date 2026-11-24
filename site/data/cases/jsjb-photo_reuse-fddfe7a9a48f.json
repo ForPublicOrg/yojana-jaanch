@@ -1,0 +1,70 @@
+{
+ "id": "jsjb-photo_reuse-fddfe7a9a48f",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 3 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Madhogarh",
+ "villages": [
+  "Hadalpura",
+  "Rajpura Jagir",
+  "Surpatpura"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same photo file (fingerprint d3a602dead50) is attached to 3 different works in 3 villages. A photo of one site cannot be evidence for 3 separate works.",
+  "The works are recorded as: Village Pond (2), Other (1)."
+ ],
+ "photo": "photos/d3a602dead50661ea0a390c6fce572159ffd07795f509de6f3f4e79561bb6b21.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "3975221",
+   "village": "Hadalpura",
+   "structure_type": "Other",
+   "created_by": "District Magistrate",
+   "start_date": "2025-07-25",
+   "end_date": "2026-04-10",
+   "lat": 26.282252,
+   "lon": 79.14739172,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "3977253",
+   "village": "Surpatpura",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2024-04-01",
+   "end_date": "2026-04-10",
+   "lat": 26.24008,
+   "lon": 79.5617417,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  },
+  {
+   "record_id": "4461691",
+   "village": "Rajpura Jagir",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2024-12-05",
+   "end_date": "2026-04-01",
+   "lat": 26.29358,
+   "lon": 79.270239,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Madhogarh"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false
+}

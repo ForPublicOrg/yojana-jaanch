@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-38aae16dc799",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Newari Kalan"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 4164b4545e29) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Other (1), Recharge Pit (1).",
+  "All 2 works report the same GPS point (20.776408, 81.237132)."
+ ],
+ "photo": "photos/4164b4545e29515c3c5d64d64e2e01a290979ecd2c3f89099d53f6108616f43a.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "10632502",
+   "village": "Newari Kalan",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-14",
+   "lat": 20.776408,
+   "lon": 81.237132,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "14138815",
+   "village": "Newari Kalan",
+   "structure_type": "Recharge Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-04-14",
+   "end_date": "2026-04-15",
+   "lat": 20.776408,
+   "lon": 81.237132,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

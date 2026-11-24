@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-adc4847280ba",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Barahi"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0eb4441abd65) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (1), Other (1).",
+  "All 2 works report the same GPS point (20.666547, 81.295618).",
+  "The photo was uploaded 2 times within 5 minutes (2026-05-18 17:24:18 to 2026-05-18 17:29:16)."
+ ],
+ "photo": "photos/0eb4441abd655382b869da5b2345b7b908b57833939b580571f9119fa9ff2bc8.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "9993227",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-16",
+   "lat": 20.666547,
+   "lon": 81.295618,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "9994657",
+   "village": "Barahi",
+   "structure_type": "Other",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-08",
+   "end_date": "2026-05-16",
+   "lat": 20.666547,
+   "lon": 81.295618,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

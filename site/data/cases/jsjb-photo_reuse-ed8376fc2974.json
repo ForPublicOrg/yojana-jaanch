@@ -1,0 +1,56 @@
+{
+ "id": "jsjb-photo_reuse-ed8376fc2974",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Dondi",
+ "villages": [
+  "Amadula"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint e45b2b6f28a8) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Contour Trench (2).",
+  "All 2 works report the same GPS point (20.625739, 81.248999).",
+  "The photo was uploaded 2 times within 5 minutes (2026-05-31 19:24:11 to 2026-05-31 19:28:39)."
+ ],
+ "photo": "photos/e45b2b6f28a8f8a23feb016e82e96bbe4052f478479ecd2cf6873d700890968b.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "16310430",
+   "village": "Amadula",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.625739,
+   "lon": 81.248999,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  },
+  {
+   "record_id": "16314524",
+   "village": "Amadula",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-13",
+   "lat": 20.625739,
+   "lon": 81.248999,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Dondi"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 8,
+ "needs_human_review": false
+}

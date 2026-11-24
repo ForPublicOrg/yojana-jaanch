@@ -1,0 +1,54 @@
+{
+ "id": "jsjb-photo_reuse-33ec010420d8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Uttar Pradesh",
+ "district": "Jalaun",
+ "block": "Rampura",
+ "villages": [
+  "Siddha Pura"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint a33f50f2dc72) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Check Dam (1), Village Pond (1)."
+ ],
+ "photo": "photos/a33f50f2dc72826f07fdbd73cfd1639708e64396833356e4dc139045c29b0311.jpg",
+ "offices": [
+  "District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "5151708",
+   "village": "Siddha Pura",
+   "structure_type": "Village Pond",
+   "created_by": "District Magistrate",
+   "start_date": "2023-06-09",
+   "end_date": "2023-09-10",
+   "lat": 26.3799396,
+   "lon": 79.1144692,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  },
+  {
+   "record_id": "5160707",
+   "village": "Siddha Pura",
+   "structure_type": "Check Dam",
+   "created_by": "District Magistrate",
+   "start_date": "2022-01-05",
+   "end_date": "2022-09-10",
+   "lat": 26.3821573,
+   "lon": 79.1122608,
+   "state": "Uttar Pradesh",
+   "district": "Jalaun",
+   "area_type": "Rural",
+   "block": "Rampura"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 6,
+ "needs_human_review": false
+}

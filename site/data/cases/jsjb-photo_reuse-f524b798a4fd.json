@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-f524b798a4fd",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Dewar Bhat"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 554f35b2f5fe) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.70973, 81.207936)."
+ ],
+ "photo": "photos/554f35b2f5fe4280d1192807cdaf1092993be31d7cf7fcb3a777ad60954f95b9.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "2631607",
+   "village": "Dewar Bhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-03-31",
+   "end_date": "2026-05-22",
+   "lat": 20.70973,
+   "lon": 81.207936,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "2631652",
+   "village": "Dewar Bhat",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-03-31",
+   "end_date": "2026-05-22",
+   "lat": 20.70973,
+   "lon": 81.207936,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}

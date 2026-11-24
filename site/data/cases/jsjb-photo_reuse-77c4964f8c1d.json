@@ -1,0 +1,83 @@
+{
+ "id": "jsjb-photo_reuse-77c4964f8c1d",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One picture, 3 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Barahi"
+ ],
+ "record_count": 3,
+ "reasons": [
+  "The same picture was saved as 2 different files and attached to 3 different works in 1 village. A photo of one site cannot be evidence for 3 separate works.",
+  "The 2 files hold one picture saved more than once (for example re-compressed, resized, cut by a few pixels or with another date or GPS stamp printed on it), so their bytes differ. They were matched by comparing the pictures: every two of these files differ in at most 0 of 256 bits of a picture fingerprint (the limit is 8), and their small greyscale copies differ by at most 0.000 (the limit is 0.03).",
+  "The files (first 12 characters of each fingerprint): 3bbc568f9acd on 2 works, 240855a19da8 on 1 work.",
+  "The works are recorded as: Contour Trench (3)."
+ ],
+ "photo": "photos/3bbc568f9acdcc0e2414c811c532d165d94d46dc8914e48ef95dbfa805e28f3f.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "11574586",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-10",
+   "end_date": "2026-05-16",
+   "lat": 20.66909,
+   "lon": 81.29355,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11651520",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-07",
+   "end_date": "2026-05-13",
+   "lat": 20.66913,
+   "lon": 81.29359,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "11651909",
+   "village": "Barahi",
+   "structure_type": "Contour Trench",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2026-05-07",
+   "end_date": "2026-05-13",
+   "lat": 20.66913,
+   "lon": 81.29359,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 9,
+ "needs_human_review": false,
+ "photo_files": [
+  {
+   "sha256": "3bbc568f9acdcc0e2414c811c532d165d94d46dc8914e48ef95dbfa805e28f3f",
+   "records": 2
+  },
+  {
+   "sha256": "240855a19da8a0dc192de55ece5df537acc4b0e24420b1e99d95f5fa559645ed",
+   "records": 1
+  }
+ ],
+ "other_ids": [
+  "jsjb-photo_reuse-57fb7869108d"
+ ]
+}

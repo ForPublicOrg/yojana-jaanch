@@ -1,0 +1,55 @@
+{
+ "id": "jsjb-photo_reuse-a1453c659ba8",
+ "scheme": "jsjb",
+ "kind": "photo_reuse",
+ "headline": "One photo, 2 different works",
+ "state": "Chhattisgarh",
+ "district": "Balod",
+ "block": "Balod",
+ "villages": [
+  "Kohanga Tola"
+ ],
+ "record_count": 2,
+ "reasons": [
+  "The same photo file (fingerprint 0eb5b2b1ca2c) is attached to 2 different works in 1 village. A photo of one site cannot be evidence for 2 separate works.",
+  "The works are recorded as: Soak Pit (2).",
+  "All 2 works report the same GPS point (20.759403, 81.185515)."
+ ],
+ "photo": "photos/0eb5b2b1ca2cde014b5c4aae2f422047d41b58150877bf60fe043821d1da3c47.jpg",
+ "offices": [
+  "Collector & District Magistrate"
+ ],
+ "records": [
+  {
+   "record_id": "1474224",
+   "village": "Kohanga Tola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-06",
+   "end_date": "2026-05-22",
+   "lat": 20.759403,
+   "lon": 81.185515,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  },
+  {
+   "record_id": "1486783",
+   "village": "Kohanga Tola",
+   "structure_type": "Soak Pit",
+   "created_by": "Collector & District Magistrate",
+   "start_date": "2025-05-10",
+   "end_date": "2026-05-22",
+   "lat": 20.759403,
+   "lon": 81.185515,
+   "state": "Chhattisgarh",
+   "district": "Balod",
+   "area_type": "Rural",
+   "block": "Balod"
+  }
+ ],
+ "source_url": "https://jsjb.mowr.gov.in/PublicDashboardJsjb.aspx",
+ "severity": 7,
+ "needs_human_review": false
+}
