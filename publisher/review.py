@@ -32,6 +32,7 @@ figcaption {{ margin-top: 6px; }}
 .zero {{ color: #a00; font-weight: 600; }}
 .warn {{ background: #fde8e4; border: 1px solid #c00; padding: 8px 12px; border-radius: 6px; max-width: 70ch; }}
 .ok {{ color: #1a6b2a; font-weight: 600; }}
+.gone {{ color: #6b4a1a; }}
 textarea {{ width: 100%; max-width: 900px; height: 7em; font: 12px monospace; }}
 figure label {{ display: flex; gap: 8px; align-items: center; min-height: 44px; }}
 .coord {{ color: #333; min-height: 1.4em; }}
@@ -85,7 +86,7 @@ document.querySelectorAll('figure').forEach(function (fig) {{
 LABELS = {"yoloface-m": "face", "yolopose": "head (pose)"}
 
 
-def figure(sha, e, ok=False, auto=False):
+def figure(sha, e, ok=False, auto=False, gone=False):
     w, h = e.get("width") or 1, e.get("height") or 1
     found = e.get("boxes", [])
     engines = e.get("box_engines") or [str(e.get("detector", "unknown"))] * len(found)
@@ -106,6 +107,8 @@ def figure(sha, e, ok=False, auto=False):
     extra = f", {len(e['extra_boxes'])} extra box{'es' if len(e['extra_boxes']) != 1 else ''}" if e.get("extra_boxes") else ""
     if ok:
         approve = '<div class="ok">Approved automatically: no person found</div>' if auto else '<div class="ok">Approved</div>'
+    elif gone:
+        approve = '<div class="gone">This copy is no longer in publish/photos, so it cannot be checked here</div>'
     elif e.get("copy_sha256"):
         line = html.escape(common.approval_line(sha, e["copy_sha256"]))
         approve = f'<label><input type="checkbox" class="approve" value="{line}"> No recognisable face</label>'
@@ -132,7 +135,8 @@ def write(paths, manifest, approved=None, settings=None):
     sections = ""
     if waiting:
         sections += (f"<h2>Waiting for a check ({len(waiting)})</h2><div class=\"grid\">"
-                     + "".join(figure(*kv) for kv in waiting) + "</div>")
+                     + "".join(figure(*kv, gone=not (paths.out_photos / f"{kv[0]}.jpg").exists()) for kv in waiting)
+                     + "</div>")
     if checked:
         sections += (f"<h2>Approved ({len(checked)})</h2><div class=\"grid\">"
                      + "".join(figure(*kv, ok=True, auto=kv[0] in auto_lines) for kv in checked) + "</div>")

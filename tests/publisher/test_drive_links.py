@@ -214,6 +214,53 @@ class LinkFilesTests(unittest.TestCase):
             self.assertEqual((folder / "0f.json").stat().st_mtime_ns, stamp)
             self.assertEqual(json.loads((folder / "ab.json").read_text(encoding="utf-8")), {})
 
+    def test_a_copy_known_only_by_its_manifest_sha256(self):
+        sha, copy = "a" * 64, "b" * 64
+        want = {sha: {"sha256": copy, "md5": None}}
+        self.assertIsNone(drive.content_problem({"sha256Checksum": copy, "md5Checksum": "c" * 32}, sha, want, {}))
+        self.assertIn("differs", drive.content_problem({"sha256Checksum": "d" * 64}, sha, want, {}))
+        self.assertIn("no checksum that can be compared",
+                      drive.content_problem({"md5Checksum": "c" * 32}, sha, want, {}))
+
+    def test_hash_files_matches_file_hashes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            files = []
+            for i in range(40):
+                p = Path(tmp) / f"{i}.jpg"
+                p.write_bytes(bytes([i]) * (1000 + i))
+                files.append(p)
+            got = common.hash_files(files + files[:3])
+            self.assertEqual(got, {p: common.file_hashes(p) for p in files})
+            self.assertEqual(common.hash_files([]), {})
+
+    def test_a_drive_read_that_fails_or_misreads_is_tried_again(self):
+        from unittest import mock
+        real = common.file_hashes
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "a.jpg"
+            p.write_bytes(b"photo")
+            good = real(p)
+            calls = []
+
+            def flaky(path):
+                calls.append(path)
+                if len(calls) == 1:
+                    raise OSError(22, "Invalid argument")
+                return real(path)
+            with mock.patch.object(common, "file_hashes", flaky), mock.patch.object(common.time, "sleep"):
+                self.assertEqual(common.read_hashes(p), good)
+            with mock.patch.object(common, "file_hashes", side_effect=OSError(22, "x")), \
+                    mock.patch.object(common.time, "sleep"):
+                self.assertIsNone(common.read_hashes(p))
+                self.assertEqual(common.hash_files([p]), {p: None})
+                self.assertIsNone(common.checked_sha256(p, good[0], {p: None}))
+            # A wrong first read is read again; a right one is not.
+            self.assertEqual(common.checked_sha256(p, good[0], {p: ("0" * 64, "0" * 32)}), good[0])
+            with mock.patch.object(common, "file_hashes", side_effect=AssertionError("read again")):
+                self.assertEqual(common.checked_sha256(p, good[0], {p: good}), good[0])
+                # A read that showed the original is not read again into something that looks fine.
+                self.assertEqual(common.checked_sha256(p, good[0], {p: ("e" * 64, "")}, original="e" * 64), "e" * 64)
+
 
 if __name__ == "__main__":
     unittest.main()

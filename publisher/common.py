@@ -4,6 +4,7 @@ import json
 import os
 import shutil
 import re
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +59,39 @@ def file_hashes(path):
             s.update(chunk)
             m.update(chunk)
     return s.hexdigest(), m.hexdigest()
+
+
+def read_hashes(path, tries=3, wait=2.0):
+    """(sha256, md5) of a file, or None if it still cannot be read after `tries` attempts."""
+    for i in range(tries):
+        try:
+            return file_hashes(path)
+        except OSError:
+            if i + 1 < tries:
+                time.sleep(wait * (i + 1))
+    return None
+
+
+def hash_files(paths, workers=16):
+    """path -> (sha256, md5), or None for a file that could not be read. Several at a time, because a Drive
+    sync folder downloads each file it has not cached before it can be read, which is slow one by one."""
+    from concurrent.futures import ThreadPoolExecutor
+    paths = list(dict.fromkeys(paths))
+    with ThreadPoolExecutor(max(1, min(workers, len(paths)))) as ex:
+        return dict(zip(paths, ex.map(read_hashes, paths)))
+
+
+def checked_sha256(path, want, hashes=None, original=None):
+    """sha256 of a file in a Drive sync folder, or None if it cannot be read. A read there can fail or return
+    other bytes for a moment, so a failed or mismatched read from `hashes` is read again before it counts.
+    A read that shows the bytes of `original` counts at once."""
+    tried = bool(hashes) and path in hashes
+    h = hashes.get(path) if hashes else None
+    if h and original and h[0] == original:
+        return h[0]
+    if h is None or h[0] != want:
+        h = read_hashes(path, tries=1 if tried and h is None else 3)
+    return h[0] if h else None
 
 
 def approval_line(sha, copy_sha256):

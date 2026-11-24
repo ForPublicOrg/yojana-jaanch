@@ -74,10 +74,16 @@ def run(paths, allow_download=True, detector=None, log=print):
     log(f"{len(wanted)} photos in the cases, {len(hidden & set(wanted))} hidden, "
         f"{len(todo)} to process, {removed} removed from the manifest")
 
-    missing = bad = 0
+    missing = bad = drive_only = 0
     t0 = time.time()
     for i, (sha, rel) in enumerate(todo, 1):
         src = find_original(paths, sha, rel)
+        e = manifest.get(sha) or {}
+        if (not src and e.get("copy_sha256") and e.get("settings_version") == detector.version
+                and e.get("extra_boxes", []) == extra.get(sha, [])):
+            # Blurred with these settings before; only its original and its local copy are gone.
+            drive_only += 1
+            continue
         if not src:
             missing += 1
             log(f"  original not found for {sha[:12]}")
@@ -116,11 +122,16 @@ def run(paths, allow_download=True, detector=None, log=print):
     with_faces = sum(1 for e in manifest.values() if e["faces"])
     log(f"Blurred copies: {len(manifest)} ({with_faces} with at least one face or head blurred, "
         f"{len(manifest) - with_faces} with none). Missing originals: {missing}. Skipped: {bad}.")
+    if drive_only:
+        log(f"{drive_only} photos were blurred before with these settings, but neither the original nor the copy "
+            f"in {paths.out_photos} is on this computer. Their manifest entries were kept, so drive-links still "
+            f"checks the Drive folder against them.")
     if settings["auto_approve_all"]:
         log(f"auto_approve_all is on: {auto} new copies were approved in bulk without a check.")
     elif settings["auto_approve_no_person"]:
         log(f"auto_approve_no_person is on: {auto} copies with no person found were approved without a check.")
-    log(f"Approved and copied to {paths.upload}: {len(ready)}. Waiting for a check: {len(manifest) - len(ready)}.")
+    waiting = sum(1 for sha, e in manifest.items() if sha not in hidden and not common.is_approved(approved, sha, e))
+    log(f"Approved and copied to {paths.upload}: {len(ready)}. Waiting for a check: {waiting}.")
     log(f"The engines can still miss a face. Look at every photo in {paths.review} and upload only {paths.upload}.")
     stray = stray_images(paths)
     if stray:

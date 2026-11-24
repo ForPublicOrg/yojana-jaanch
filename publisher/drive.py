@@ -94,7 +94,10 @@ def content_problem(f, sha, expected, originals):
         return "not a published copy"
     if not got["sha256"] and not got["md5"]:
         return "Drive gave no checksum, so its content cannot be checked"
-    if any(got[k] and got[k] != want[k] for k in ("sha256", "md5")):
+    compared = [k for k in ("sha256", "md5") if got[k] and want.get(k)]
+    if not compared:
+        return "Drive gave no checksum that can be compared with the blurred copy"
+    if any(got[k] != want[k] for k in compared):
         return "content differs from the blurred copy in publish/photos"
     return None
 
@@ -140,15 +143,26 @@ def approved_copies(paths):
     manifest = common.read_manifest(paths.manifest)
     hidden = common.read_hide(paths.hide)
     approved = common.read_approved(paths.approved)
+    extra = common.read_extra_blur(paths.extra_blur)
     expected = {}
-    for sha in manifest:
+    for sha, e in manifest.items():
+        if e.get("extra_boxes", []) != extra.get(sha, []):
+            continue  # extra boxes added in extra_blur.json are not in this copy yet
         copy = paths.out_photos / f"{sha}.jpg"
         if copy.exists():
             s256, md5 = common.file_hashes(copy)
             expected[sha] = {"sha256": s256, "md5": md5}
+        elif common.SHA_RE.match(str(e.get("copy_sha256") or "").lower()):
+            # The local copy was deleted; the manifest still has its sha256 to check the Drive file against.
+            expected[sha] = {"sha256": e["copy_sha256"].lower(), "md5": None}
     allowed = {sha for sha, e in manifest.items() if sha not in hidden and sha in expected
                and common.is_approved(approved, sha, {"copy_sha256": expected[sha]["sha256"]})}
     return manifest, hidden, expected, allowed
+
+
+UNREADABLE = "could not be read from the local folder now; run this again"
+# Reasons that say the file could not be checked this time, not that it should be deleted.
+RETRY_REASONS = (UNREADABLE, "Drive gave no checksum that can be compared")
 
 
 def report(log, out, total, links, allowed, problems, dupes=()):
@@ -157,13 +171,18 @@ def report(log, out, total, links, allowed, problems, dupes=()):
     if dupes:
         log(f"{len(dupes)} photos appear more than once in the folder; the first file id was used.")
     log(f"Wrote {out}")
-    if problems:
-        log(f"WARNING: {len(problems)} files in the folder were not linked, but anyone with the folder link "
-            f"can still open them. Delete them from the Drive folder:")
-        for name, reason in problems:
+    later = [(n, r) for n, r in problems if r.startswith(RETRY_REASONS)]
+    delete = [(n, r) for n, r in problems if not r.startswith(RETRY_REASONS)]
+    if later:
+        log(f"{len(later)} files could not be checked this time and were not linked. Run this again later:")
+        for name, reason in later:
             log(f"  {name}: {reason}")
-        return 4
-    return 0
+    if delete:
+        log(f"WARNING: {len(delete)} files in the folder were not linked, but anyone with the folder link "
+            f"can still open them. Delete them from the Drive folder:")
+        for name, reason in delete:
+            log(f"  {name}: {reason}")
+    return 4 if problems else 0
 
 
 def run(paths, folder_id, api_key, api_base=API_BASE, out=None, log=print):
@@ -349,6 +368,8 @@ def run_public(paths, folder_id, local_folder, page_base=PAGE_BASE, out=None, lo
     for _, e in every:
         counts[e["name"].lower()] = counts.get(e["name"].lower(), 0) + 1
     links, problems, seen = {}, [], set()
+    hashes = common.hash_files(p for files in local.values() for k, p in files.items()
+                               if NAME_RE.match(k) and counts.get(k) == 1 and p.is_file())
     for sub, e in sorted(every, key=lambda x: x[1]["id"]):
         key = e["name"].lower()
         name = f"{sub}/{e['name']}" if sub else e["name"]
@@ -364,7 +385,10 @@ def run_public(paths, folder_id, local_folder, page_base=PAGE_BASE, out=None, lo
         elif path is None or not path.is_file():
             reason = "not in the local folder, so its content cannot be checked"
         else:
-            reason = local_problem(m.group(1), common.file_hashes(path)[0], hidden, expected, allowed)
+            got = common.checked_sha256(path, expected.get(m.group(1), {}).get("sha256"), hashes,
+                                        original=m.group(1))
+            reason = (UNREADABLE if got is None
+                      else local_problem(m.group(1), got, hidden, expected, allowed))
         if reason:
             problems.append((name, reason))
             continue

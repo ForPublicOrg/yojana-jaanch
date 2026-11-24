@@ -93,12 +93,15 @@ def find_photo(root, file, sha):
         return None
 
 
-def copy_photo(root, site, src):
+def copy_photo(root, site, src, gone_ok=False):
+    """site/photos/ path of the photo, copied there; None if its file is gone. With gone_ok the path is
+    returned anyway: the original may be deleted once its blurred copy is on Drive, which the site finds
+    by sha256."""
     if not src or not src.get("file") or not src.get("sha256"):
         return None
     path = find_photo(root, src["file"], src["sha256"])
     if path is None:
-        return None
+        return f"photos/{src['sha256']}{Path(src['file']).suffix.lower() or '.jpg'}" if gone_ok else None
     rel = f"photos/{src['sha256']}{path.suffix.lower() or '.jpg'}"
     dest = site / rel
     if not dest.exists():
@@ -255,12 +258,28 @@ def _private(c):
     return src, alts
 
 
+def _linked_photos(site):
+    """sha256 of every photo with a link in site/data/links/, written by python run.py drive-links."""
+    out = set()
+    for f in sorted((Path(site) / "data" / "links").glob("*.json")):
+        try:
+            out.update(k.lower() for k in json.loads(f.read_text(encoding="utf-8")))
+        except (OSError, ValueError, AttributeError):
+            pass
+    return out
+
+
 def write(root, cases, schemes, coverage, checks_run=None):
     site = Path(root) / "site"
+    linked = _linked_photos(site)
     for c in cases:
         src, alts = _private(c)
-        # A picture saved as several files: when the main file is gone, show another copy of it.
-        c["photo"] = next((rel for rel in (copy_photo(root, site, s) for s in [src] + alts) if rel), None)
+        # A picture saved as several files: show the file that has a Drive link, even once its original is
+        # deleted; else the first file still on disk.
+        sources = [s for s in [src] + alts if s]
+        on_drive = [s for s in sources if str(s.get("sha256") or "").lower() in linked]
+        c["photo"] = (next((rel for rel in (copy_photo(root, site, s, gone_ok=True) for s in on_drive) if rel), None)
+                      or next((rel for rel in (copy_photo(root, site, s) for s in sources) if rel), None))
     write_site_data(site, cases, schemes, coverage, checks_run)
 
 

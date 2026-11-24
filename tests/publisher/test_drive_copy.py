@@ -98,6 +98,17 @@ class DriveCopyTests(unittest.TestCase):
         self.assertNotIn(f"{sha}.jpg", " ".join(self.tree()))
         self.assertIn("has the bytes of the original", text)
 
+    def test_deleted_local_copies(self):
+        (self.sync / "1").mkdir()
+        (self.sync / "1" / f"{SHA[0]}.jpg").write_bytes(COPY[SHA[0]])
+        for s in SHA:
+            (self.paths.out_photos / f"{s}.jpg").unlink()
+        code, text = self.go()
+        self.assertEqual(code, 4, text)
+        self.assertEqual(self.tree(), [f"1/{SHA[0]}.jpg"])
+        self.assertIn("3 approved copies: 0 copied, 0 moved into their subfolder, 1 already there.", text)
+        self.assertIn(f"2/{SHA[1]}.jpg: is not in the Drive folder, and its blurred copy is no longer in", text)
+
     def test_missing_folder_or_manifest(self):
         logs = []
         self.assertEqual(drive_copy.run(self.paths, str(self.root / "nope"), log=logs.append), 2)

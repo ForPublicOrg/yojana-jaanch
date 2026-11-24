@@ -156,6 +156,28 @@ class PublishTests(unittest.TestCase):
             return cv2.Laplacian(img[face].astype(np.uint8), cv2.CV_64F).std()
         self.assertLess(detail(after), detail(before) / 3)
 
+    def test_deleted_original_and_copy_keep_the_manifest_entry(self):
+        self.publish()
+        first = json.loads(self.paths.manifest.read_text(encoding="utf-8"))
+        for f in list((self.root / "site" / "photos").glob("*")) + list((self.root / "data" / "photos").rglob("*.*")):
+            f.unlink()
+        for f in self.paths.out_photos.glob("*"):
+            f.unlink()
+        self.publish()
+        text = " ".join(self.logs)
+        self.assertIn("3 photos were blurred before with these settings, but neither the original nor the copy", text)
+        self.assertIn("Missing originals: 0", text)
+        self.assertNotIn("original not found", text)
+        self.assertEqual(json.loads(self.paths.manifest.read_text(encoding="utf-8"))["photos"], first["photos"])
+        self.assertIn("no longer in publish/photos, so it cannot be checked here",
+                      self.paths.review.read_text(encoding="utf-8"))
+        # Extra boxes asked for after the original was deleted cannot be applied: that is reported.
+        self.paths.extra_blur.write_text(json.dumps({self.shas[0]: [[1, 1, 5, 5]]}), encoding="utf-8")
+        self.publish()
+        text = " ".join(self.logs)
+        self.assertIn(f"original not found for {self.shas[0][:12]}", text)
+        self.assertIn("Missing originals: 1", text)
+
     def test_refresh_is_incremental_and_honours_hand_controls(self):
         self.publish()
         first = json.loads(self.paths.manifest.read_text(encoding="utf-8"))

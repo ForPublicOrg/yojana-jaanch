@@ -29,6 +29,12 @@ def run(paths, local_folder, log=print):
         return 1
     copied = moved = present = 0
     problems = []
+    subs = [local_folder / c for c in "0123456789abcdef" if (local_folder / c).is_dir()]
+    listed = {p for d in [local_folder, *subs] for p in d.iterdir() if p.is_file()}
+    hashes = common.hash_files(p for sha in allowed for p in (local_folder / subfolder_for(sha) / f"{sha}.jpg",
+                                                              local_folder / f"{sha}.jpg") if p in listed)
+
+    unreadable = "could not be read from the Drive folder now; run this again"
     for sha in sorted(allowed):
         want = expected[sha]["sha256"]
         if want == sha:
@@ -38,23 +44,34 @@ def run(paths, local_folder, log=print):
         dest = sub / f"{sha}.jpg"
         top = local_folder / f"{sha}.jpg"
         if dest.exists():
-            if common.file_hashes(dest)[0] == want:
+            got = common.checked_sha256(dest, want, hashes, original=sha)
+            if got == want:
                 present += 1
             else:
-                problems.append((f"{sub.name}/{dest.name}", "has other bytes than the approved copy; not replaced"))
+                problems.append((f"{sub.name}/{dest.name}", unreadable if got is None else
+                                 "has other bytes than the approved copy; not replaced"))
             if top.exists():
                 problems.append((top.name, f"is also in {sub.name}/; one of the two should be deleted from Drive"))
             continue
         sub.mkdir(exist_ok=True)
-        if top.is_file() and common.file_hashes(top)[0] == want:
-            os.replace(top, dest)
-            moved += 1
-            continue
+        if top.is_file():
+            got = common.checked_sha256(top, want, hashes, original=sha)
+            if got == want:
+                os.replace(top, dest)
+                moved += 1
+                continue
+            if got is None:
+                problems.append((top.name, unreadable))
+                continue
         if top.exists():
             problems.append((top.name, "has other bytes than the approved copy; left where it is"))
+        if not (paths.out_photos / f"{sha}.jpg").is_file():
+            problems.append((f"{sub.name}/{dest.name}", f"is not in the Drive folder, and its blurred copy is no "
+                             f"longer in {paths.out_photos}, so it cannot be copied"))
+            continue
         tmp = sub / f".{sha}.jpg.part"
         shutil.copyfile(paths.out_photos / f"{sha}.jpg", tmp)
-        if common.file_hashes(tmp)[0] != want:
+        if common.checked_sha256(tmp, want) != want:
             tmp.unlink()
             problems.append((dest.name, "the copy did not match publish/photos after copying; not copied"))
             continue

@@ -460,6 +460,37 @@ class EndToEnd(unittest.TestCase):
         c = next(c for c in self.site_cases()["cases"] if c.get("photo_files"))
         self.assertTrue(c["photo"].startswith("photos/" + self.b))
 
+    def test_case_keeps_its_linked_photo_after_its_original_is_deleted(self):
+        links = self.root / "site" / "data" / "links"
+
+        def link(sha):
+            links.mkdir(parents=True, exist_ok=True)
+            for f in links.glob("*.json"):
+                f.unlink()
+            (links / f"{sha[:2]}.json").write_text(json.dumps({sha: {"full": "f", "thumb": "t"}}), encoding="utf-8")
+
+        def delete(*shas):
+            for d in (self.root / "data" / "photos", self.root / "site" / "photos"):
+                for f in d.rglob("*"):
+                    if f.is_file() and f.name.split(".")[0] in shas:
+                        f.unlink()
+
+        def photo():
+            run(self.root, log=quiet, prune_photos=False)
+            return next(c for c in self.site_cases()["cases"] if c.get("photo_files"))["photo"]
+        # The linked file wins over the main file, and stays the photo once its original is gone.
+        link(self.b)
+        self.assertTrue(photo().startswith("photos/" + self.b))
+        delete(self.b)
+        self.assertTrue(photo().startswith("photos/" + self.b))
+        link(self.b2)
+        delete(self.b2)
+        self.assertTrue(photo().startswith("photos/" + self.b2))
+        # With every file gone and none linked there is no photo to show.
+        for f in links.glob("*.json"):
+            f.unlink()
+        self.assertIsNone(photo())
+
     def test_photo_found_under_another_extension(self):
         # A file downloaded again may be <sha>.jpg where the records say <sha>.jpeg, or the other way.
         for f in (self.root / "data" / "photos").rglob(self.b2 + ".*"):

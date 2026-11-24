@@ -10,6 +10,7 @@ import sys
 import tempfile
 import threading
 import unittest
+from unittest import mock
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -140,6 +141,29 @@ class DrivePublicTests(unittest.TestCase):
         method, path, q, agent = FakePage.requests[0]
         self.assertEqual((method, path, q["id"]), ("GET", "/embeddedfolderview", [FOLDER]))
         self.assertEqual(agent, drive.USER_AGENT)
+
+    def test_deleted_local_copies_are_checked_against_the_manifest(self):
+        self.sync_files(SHA[:3])
+        for s in SHA[:4]:
+            (self.paths.out_photos / f"{s}.jpg").unlink()
+        (self.sync / f"{SHA[2]}.jpg").write_bytes(b"other bytes")
+        code, links, text = self.go(page({f"{s}.jpg" for s in SHA[:3]}))
+        self.assertEqual(set(links), set(SHA[:2]), text)
+        self.assertIn("content differs", text)
+        # A copy whose extra blur boxes are not applied yet is not linked.
+        self.paths.extra_blur.write_text(json.dumps({SHA[1]: [[1, 1, 5, 5]]}), encoding="utf-8")
+        code, links, text = self.go(page({f"{s}.jpg" for s in SHA[:3]}))
+        self.assertEqual(set(links), {SHA[0]}, text)
+
+    def test_unreadable_files_are_not_listed_for_deletion(self):
+        self.sync_files(SHA[:2])
+        bad = self.sync / f"{SHA[1]}.jpg"
+        real = common.read_hashes
+        with mock.patch.object(common, "read_hashes", lambda p, *a, **k: None if p == bad else real(p, *a, **k)):
+            code, links, text = self.go(page({f"{s}.jpg" for s in SHA[:2]}))
+        self.assertEqual((code, set(links)), (4, {SHA[0]}), text)
+        self.assertIn("1 files could not be checked this time and were not linked. Run this again later:", text)
+        self.assertNotIn("Delete them from the Drive folder", text)
 
     def test_desktop_ini_on_page_is_ignored(self):
         self.sync_files(SHA[:1])
